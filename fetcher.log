@@ -1885,3 +1885,38 @@
 [2023-06-28 01:48:52] INFO root fetch - processPackages [aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/aiobotocore-2.5.1.tar.gz]
 [2023-06-28 01:48:52] INFO root fetch - main [MainThread]: End processing [aiobotocore]: success
 [2023-06-28 01:48:52] INFO root fetch - main [MainThread]: Store serial: [18670012]
+[2023-06-28 01:53:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18670012]
+[2023-06-28 01:54:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-28 01:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coloraide
+[2023-06-28 01:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypernetx
+[2023-06-28 01:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlglot
+[2023-06-28 01:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fullask-rest-framework
+[2023-06-28 01:54:00] INFO root fetch - processPackages [fullask-rest-framework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 01:54:00] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-06-28 01:54:01] INFO root fetch - processPackages [hypernetx]: New version: [2.0.1] Old Version: [2.0.0.post1]
+[2023-06-28 01:54:01] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-06-28 01:54:01] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/36/c8/4324353a770d607459e44aea940d62ee51851266a0b5cc6faa6a89c6a3c3/fullask-rest-framework-0.1.8.tar.gz
+[2023-06-28 01:54:01] INFO root fetch - processPackages [coloraide]: New version: [2.4] Old Version: [2.3]
+[2023-06-28 01:54:01] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/1d/c1/51c21ad08d286c1ffd3f20bbbb5de3aa05811a1c6035de42010b6d6ae180/fullask-rest-framework-0.1.9.tar.gz
+[2023-06-28 01:54:01] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-06-28 01:54:01] INFO root fetch - processPackages [hypernetx]: Downloading https://files.pythonhosted.org/packages/7a/d9/5621966653d6655c87ea9c4665c71043e190dd6c9325613802e202371db2/hypernetx-2.0.0.post1.tar.gz
+[2023-06-28 01:54:01] INFO root fetch - processPackages [fullask-rest-framework]: executing diffoscope
+[2023-06-28 01:54:01] INFO root fetch - processPackages [fullask-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullask-rest-framework-0.1.8.tar.gz tmp/fullask-rest-framework-0.1.9.tar.gz --markdown 20230628/f/fullask-rest-framework/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 01:54:01] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-06-28 01:54:01] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230628/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-06-28 01:54:01] INFO root fetch - processPackages [coloraide]: Downloading https://files.pythonhosted.org/packages/42/f0/966f48a6c9722067e7dfc7d2589cf558577f3f56cb67a1384df1ec3dade4/coloraide-2.3.tar.gz
+[2023-06-28 01:54:01] WARNING root fetch - processPackages [coloraide]: Skipping package: exceeds size limit 13017753>=10485760
+[2023-06-28 01:54:01] INFO root fetch - main [MainThread]: End processing [coloraide] error
+[2023-06-28 01:54:01] INFO root fetch - processPackages [hypernetx]: Downloading https://files.pythonhosted.org/packages/3e/f8/040cc96dae99ef09ec159a7cfc9b44778c20b9639bf203f2ee02baded6ef/hypernetx-2.0.1.tar.gz
+[2023-06-28 01:54:01] INFO root fetch - processPackages [hypernetx]: executing diffoscope
+[2023-06-28 01:54:01] INFO root fetch - processPackages [hypernetx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypernetx-2.0.0.post1.tar.gz tmp/hypernetx-2.0.1.tar.gz --markdown 20230628/h/hypernetx/2.0.0.post1-2.0.1/diff.md --exclude *.pyd
+[2023-06-28 01:54:02] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.8.tar.gz]
+[2023-06-28 01:54:02] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.9.tar.gz]
+[2023-06-28 01:54:02] INFO root fetch - main [MainThread]: End processing [fullask-rest-framework]: success
+[2023-06-28 01:54:02] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2023-06-28 01:54:02] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2023-06-28 01:54:02] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-06-28 01:54:02] INFO root fetch - processPackages [hypernetx]: Remove: archive file [/home/abi/fetcher/tmp/hypernetx-2.0.0.post1.tar.gz]
+[2023-06-28 01:54:02] INFO root fetch - processPackages [hypernetx]: Remove: archive file [/home/abi/fetcher/tmp/hypernetx-2.0.1.tar.gz]
+[2023-06-28 01:54:02] INFO root fetch - main [MainThread]: End processing [hypernetx]: success
+[2023-06-28 01:54:02] INFO root fetch - main [MainThread]: Store serial: [18670024]
