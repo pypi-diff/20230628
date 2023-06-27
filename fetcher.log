@@ -945,3 +945,72 @@
 [2023-06-28 00:34:31] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230627201103.tar.gz]
 [2023-06-28 00:34:31] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-28 00:34:31] INFO root fetch - main [MainThread]: Store serial: [18669680]
+[2023-06-28 00:39:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18669680]
+[2023-06-28 00:39:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-28 00:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TEST-TC
+[2023-06-28 00:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: im-openai
+[2023-06-28 00:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shrike
+[2023-06-28 00:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zscaler-api-talkers
+[2023-06-28 00:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyppbox
+[2023-06-28 00:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: faker-file
+[2023-06-28 00:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ultralytics
+[2023-06-28 00:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cassio
+[2023-06-28 00:39:40] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-06-28 00:39:40] WARNING root fetch - processPackages [pyppbox]: Skipping, unable to determine old version
+[2023-06-28 00:39:40] INFO root fetch - processPackages [im-openai]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-28 00:39:40] INFO root fetch - processPackages [TEST-TC]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 00:39:40] INFO root fetch - main [MainThread]: End processing [pyppbox] error
+[2023-06-28 00:39:40] INFO root fetch - processPackages [cassio]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-28 00:39:40] INFO root fetch - processPackages [faker-file]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-28 00:39:40] INFO root fetch - processPackages [zscaler-api-talkers]: New version: [4.1.0] Old Version: [4.0.2]
+[2023-06-28 00:39:40] INFO root fetch - processPackages [shrike]: New version: [2.0.0.dev1] Old Version: [2.0.0.dev0]
+[2023-06-28 00:39:40] INFO root fetch - processPackages [im-openai]: Downloading https://files.pythonhosted.org/packages/fc/df/b324cac5ccea7d129ba182a23d31d93906090f00b409c5f617720eff5a7a/im_openai-0.1.2.tar.gz
+[2023-06-28 00:39:40] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-06-28 00:39:40] INFO root fetch - processPackages [cassio]: Downloading https://files.pythonhosted.org/packages/09/97/66ecc16ecf926d4b101c8296fed607aa4ab86ca08d52081a0a5a34315520/cassio-0.0.6.tar.gz
+[2023-06-28 00:39:40] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/6f/e0/017b19a86d3424b8a81bdfca2c2c80fb5e172a0922225ccccec2b5f887c1/TEST_TC-0.1.8.tar.gz
+[2023-06-28 00:39:40] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/3b/a1/ad4ac7b368163a317102172cd45891028d6b068dc096e110814cc517deed/faker-file-0.9.2.tar.gz
+[2023-06-28 00:39:40] INFO root fetch - processPackages [zscaler-api-talkers]: Downloading https://files.pythonhosted.org/packages/42/8b/e681b8ac98f69abca0562bba2ae6e941c6dc5fce9c92abae4caf7a9fe6fe/zscaler_api_talkers-4.0.2.tar.gz
+[2023-06-28 00:39:40] INFO root fetch - processPackages [shrike]: Downloading https://files.pythonhosted.org/packages/3b/0f/26c636ee42c53e851baee345f670cc36eb623e84db15ad0537b4162b941a/shrike-2.0.0.dev0.tar.gz
+[2023-06-28 00:39:40] INFO root fetch - processPackages [im-openai]: Downloading https://files.pythonhosted.org/packages/52/f6/0630b9980a59b1e0d9e6707ba80ba4219234a3c0f90b92c9c3f7abfb91f5/im_openai-0.2.0.tar.gz
+[2023-06-28 00:39:40] INFO root fetch - processPackages [cassio]: Downloading https://files.pythonhosted.org/packages/4a/64/a4e62cfdcd7483df2aae8c1cdf57e5f8d4723fd807272424396c70e3f725/cassio-0.0.7.tar.gz
+[2023-06-28 00:39:41] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/22/5c/36515670aef534d1fa215574fa87bf9cf9968666fce06689c80a084fb36b/TEST_TC-0.1.9.tar.gz
+[2023-06-28 00:39:41] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-06-28 00:39:41] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-06-28 00:39:41] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-0.1.8.tar.gz tmp/TEST_TC-0.1.9.tar.gz --markdown 20230628/T/TEST-TC/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 00:39:41] INFO root fetch - processPackages [cassio]: executing diffoscope
+[2023-06-28 00:39:41] INFO root fetch - processPackages [cassio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cassio-0.0.6.tar.gz tmp/cassio-0.0.7.tar.gz --markdown 20230628/c/cassio/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-28 00:39:41] INFO root fetch - processPackages [im-openai]: executing diffoscope
+[2023-06-28 00:39:41] INFO root fetch - processPackages [im-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im_openai-0.1.2.tar.gz tmp/im_openai-0.2.0.tar.gz --markdown 20230628/i/im-openai/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-28 00:39:41] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/91/2c/08a72a0cb6b8f0b657b334700bce122299a7f1c0d94c1e201959121ee226/faker-file-0.9.3.tar.gz
+[2023-06-28 00:39:41] INFO root fetch - processPackages [shrike]: Downloading https://files.pythonhosted.org/packages/57/2d/149f36ac2b861d55dc5d614c93945c89be2367536b1e9906e685a8fc2cbf/shrike-2.0.0.dev1.tar.gz
+[2023-06-28 00:39:41] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-06-28 00:39:41] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230628/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-06-28 00:39:41] INFO root fetch - processPackages [faker-file]: executing diffoscope
+[2023-06-28 00:39:41] INFO root fetch - processPackages [faker-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-0.9.2.tar.gz tmp/faker-file-0.9.3.tar.gz --markdown 20230628/f/faker-file/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-28 00:39:41] INFO root fetch - processPackages [shrike]: executing diffoscope
+[2023-06-28 00:39:41] INFO root fetch - processPackages [shrike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shrike-2.0.0.dev0.tar.gz tmp/shrike-2.0.0.dev1.tar.gz --markdown 20230628/s/shrike/2.0.0.dev0-2.0.0.dev1/diff.md --exclude *.pyd
+[2023-06-28 00:39:41] INFO root fetch - processPackages [zscaler-api-talkers]: Downloading https://files.pythonhosted.org/packages/80/b4/a41d63e31ee90f638ad3caf17a35ae9acbfdcc65bf273498919291f3993d/zscaler_api_talkers-4.1.0.tar.gz
+[2023-06-28 00:39:41] INFO root fetch - processPackages [zscaler-api-talkers]: executing diffoscope
+[2023-06-28 00:39:41] INFO root fetch - processPackages [zscaler-api-talkers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zscaler_api_talkers-4.0.2.tar.gz tmp/zscaler_api_talkers-4.1.0.tar.gz --markdown 20230628/z/zscaler-api-talkers/4.0.2-4.1.0/diff.md --exclude *.pyd
+[2023-06-28 00:39:42] INFO root fetch - processPackages [im-openai]: Remove: archive file [/home/abi/fetcher/tmp/im_openai-0.1.2.tar.gz]
+[2023-06-28 00:39:42] INFO root fetch - processPackages [im-openai]: Remove: archive file [/home/abi/fetcher/tmp/im_openai-0.2.0.tar.gz]
+[2023-06-28 00:39:42] INFO root fetch - main [MainThread]: End processing [im-openai]: success
+[2023-06-28 00:39:42] INFO root fetch - processPackages [cassio]: Remove: archive file [/home/abi/fetcher/tmp/cassio-0.0.6.tar.gz]
+[2023-06-28 00:39:42] INFO root fetch - processPackages [cassio]: Remove: archive file [/home/abi/fetcher/tmp/cassio-0.0.7.tar.gz]
+[2023-06-28 00:39:42] INFO root fetch - main [MainThread]: End processing [cassio]: success
+[2023-06-28 00:39:42] INFO root fetch - processPackages [shrike]: Remove: archive file [/home/abi/fetcher/tmp/shrike-2.0.0.dev0.tar.gz]
+[2023-06-28 00:39:42] INFO root fetch - processPackages [shrike]: Remove: archive file [/home/abi/fetcher/tmp/shrike-2.0.0.dev1.tar.gz]
+[2023-06-28 00:39:42] INFO root fetch - main [MainThread]: End processing [shrike]: success
+[2023-06-28 00:39:42] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.8.tar.gz]
+[2023-06-28 00:39:42] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.9.tar.gz]
+[2023-06-28 00:39:42] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-06-28 00:39:42] INFO root fetch - processPackages [zscaler-api-talkers]: Remove: archive file [/home/abi/fetcher/tmp/zscaler_api_talkers-4.0.2.tar.gz]
+[2023-06-28 00:39:42] INFO root fetch - processPackages [zscaler-api-talkers]: Remove: archive file [/home/abi/fetcher/tmp/zscaler_api_talkers-4.1.0.tar.gz]
+[2023-06-28 00:39:42] INFO root fetch - main [MainThread]: End processing [zscaler-api-talkers]: success
+[2023-06-28 00:39:43] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-06-28 00:39:43] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-06-28 00:39:43] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-06-28 00:39:45] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.2.tar.gz]
+[2023-06-28 00:39:45] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.3.tar.gz]
+[2023-06-28 00:39:45] INFO root fetch - main [MainThread]: End processing [faker-file]: success
+[2023-06-28 00:39:45] INFO root fetch - main [MainThread]: Store serial: [18669710]
