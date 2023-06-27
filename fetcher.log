@@ -769,3 +769,70 @@
 [2023-06-28 00:24:04] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
 [2023-06-28 00:24:04] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-06-28 00:24:04] INFO root fetch - main [MainThread]: Store serial: [18669615]
+[2023-06-28 00:29:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18669615]
+[2023-06-28 00:29:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-28 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: runhouse
+[2023-06-28 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyasic
+[2023-06-28 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliby
+[2023-06-28 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odetam
+[2023-06-28 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-auth0
+[2023-06-28 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytecplot
+[2023-06-28 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: google-translate-django4
+[2023-06-28 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: splam
+[2023-06-28 00:29:13] INFO root fetch - processPackages [pyasic]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-28 00:29:13] INFO root fetch - processPackages [splam]: New version: [0.2.9] Old Version: [0.2.10]
+[2023-06-28 00:29:13] INFO root fetch - processPackages [pulumi-auth0]: New version: [2.9.0a1653604814] Old Version: [2.9.0a1651588791]
+[2023-06-28 00:29:13] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/8b/cb/6d4cd3f342cc1eda735f322c923e89b06fb809652bccc8f7ba41b10189f2/pyasic-0.9.3.tar.gz
+[2023-06-28 00:29:13] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/3e/35/7d6e4499bceba97755c0134f6a13d88ed94dadff204afd15746602f4d885/pulumi_auth0-2.9.0a1651588791.tar.gz
+[2023-06-28 00:29:13] INFO root fetch - processPackages [runhouse]: New version: [0.1.1] Old Version: [0.0.7]
+[2023-06-28 00:29:13] INFO root fetch - processPackages [google-translate-django4]: New version: [0.5] Old Version: [0.4]
+[2023-06-28 00:29:13] INFO root fetch - processPackages [aliby]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 00:29:13] INFO root fetch - processPackages [odetam]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-28 00:29:13] INFO root fetch - processPackages [pytecplot]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-28 00:29:13] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/72/d1/671663c98d0cfca3218b880633390493fcebf9972175a7c4d2752259f2ea/splam-0.2.10.tar.gz
+[2023-06-28 00:29:13] WARNING root fetch - processPackages [splam]: Skipping package: exceeds size limit 40589223>=10485760
+[2023-06-28 00:29:13] INFO root fetch - main [MainThread]: End processing [splam] error
+[2023-06-28 00:29:13] INFO root fetch - processPackages [runhouse]: Downloading https://files.pythonhosted.org/packages/83/82/65a13ef740059b8e434086399bf4637ae2924fd0ad700925e7033faaabb4/runhouse-0.0.7.tar.gz
+[2023-06-28 00:29:13] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/19/fc/57f01dd941ba0ec2ad79d6e6f06dc951a65e89280d974bb8be71b3a6bc6a/pulumi_auth0-2.9.0a1653604814.tar.gz
+[2023-06-28 00:29:13] INFO root fetch - processPackages [google-translate-django4]: Downloading https://files.pythonhosted.org/packages/d3/2d/09cbf00675801a659a202c0b40ac71d396072a2104cd10ea4690ba56db88/google_translate_django4-0.4.tar.gz
+[2023-06-28 00:29:13] INFO root fetch - processPackages [aliby]: Downloading https://files.pythonhosted.org/packages/36/87/bbf283dea818db23a44d5e4330a9a1e36e7f95e7942baa05c773e4039fb7/aliby-0.1.8.tar.gz
+[2023-06-28 00:29:13] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/70/30/6c8b77c23f901b5c8b406344a29a98220a0b5212116530bd177635c4430d/pyasic-0.9.4.tar.gz
+[2023-06-28 00:29:13] INFO root fetch - processPackages [pytecplot]: Downloading https://files.pythonhosted.org/packages/3d/aa/7a9b86ad0fe43a0df38fc100ea0d2ba91a6fdbc1b3c6d6157843b9ad71f4/pytecplot-1.5.3.tar.gz
+[2023-06-28 00:29:13] INFO root fetch - processPackages [odetam]: Downloading https://files.pythonhosted.org/packages/7c/d2/3552b3b04bc55aa5d1c70e60ee5644a86e115dc855c8b2781960bcfc483b/ODetaM-1.5.0.tar.gz
+[2023-06-28 00:29:13] WARNING root fetch - processPackages [pytecplot]: Skipping package: exceeds size limit 23723356>=10485760
+[2023-06-28 00:29:13] INFO root fetch - main [MainThread]: End processing [pytecplot] error
+[2023-06-28 00:29:13] INFO root fetch - processPackages [pyasic]: executing diffoscope
+[2023-06-28 00:29:13] INFO root fetch - processPackages [pyasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasic-0.9.3.tar.gz tmp/pyasic-0.9.4.tar.gz --markdown 20230628/p/pyasic/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-28 00:29:13] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2023-06-28 00:29:13] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-2.9.0a1651588791.tar.gz tmp/pulumi_auth0-2.9.0a1653604814.tar.gz --markdown 20230628/p/pulumi-auth0/2.9.0a1651588791-2.9.0a1653604814/diff.md --exclude *.pyd
+[2023-06-28 00:29:13] INFO root fetch - processPackages [google-translate-django4]: Downloading https://files.pythonhosted.org/packages/b1/d0/e4eca6ebf6915cb9de6b5516d87820d1a6e973559748bc68fe8440369601/google_translate_django4-0.5.tar.gz
+[2023-06-28 00:29:13] INFO root fetch - processPackages [runhouse]: Downloading https://files.pythonhosted.org/packages/97/9f/5eaa6799e1427639d9df112660ef1978d234f8f61cc6767389c9fe37df28/runhouse-0.1.1-py3-none-any.whl
+[2023-06-28 00:29:13] INFO root fetch - processPackages [odetam]: Downloading https://files.pythonhosted.org/packages/c8/07/861c469f7535db3c34893cf0a18d407b4696186674046897c05498765ca7/odetam-1.5.1.tar.gz
+[2023-06-28 00:29:14] INFO root fetch - processPackages [aliby]: Downloading https://files.pythonhosted.org/packages/5d/5f/77d10e4aa1744ed8c75b7dcd5deba4773c507743047943f6ffc6a8f578ea/aliby-0.1.9.tar.gz
+[2023-06-28 00:29:14] INFO root fetch - processPackages [runhouse]: executing diffoscope
+[2023-06-28 00:29:14] INFO root fetch - processPackages [runhouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runhouse-0.0.7.tar.gz tmp/runhouse-0.1.1-py3-none-any.whl.zip --markdown 20230628/r/runhouse/0.0.7-0.1.1/diff.md --exclude *.pyd
+[2023-06-28 00:29:14] INFO root fetch - processPackages [google-translate-django4]: executing diffoscope
+[2023-06-28 00:29:14] INFO root fetch - processPackages [google-translate-django4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_translate_django4-0.4.tar.gz tmp/google_translate_django4-0.5.tar.gz --markdown 20230628/g/google-translate-django4/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-28 00:29:14] INFO root fetch - processPackages [odetam]: executing diffoscope
+[2023-06-28 00:29:14] INFO root fetch - processPackages [odetam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ODetaM-1.5.0.tar.gz tmp/odetam-1.5.1.tar.gz --markdown 20230628/o/odetam/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-28 00:29:14] INFO root fetch - processPackages [aliby]: executing diffoscope
+[2023-06-28 00:29:14] INFO root fetch - processPackages [aliby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliby-0.1.8.tar.gz tmp/aliby-0.1.9.tar.gz --markdown 20230628/a/aliby/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 00:29:15] INFO root fetch - processPackages [runhouse]: Remove: archive file [/home/abi/fetcher/tmp/runhouse-0.0.7.tar.gz]
+[2023-06-28 00:29:15] INFO root fetch - processPackages [runhouse]: Remove: archive file [/home/abi/fetcher/tmp/runhouse-0.1.1-py3-none-any.whl.zip]
+[2023-06-28 00:29:15] INFO root fetch - main [MainThread]: End processing [runhouse]: success
+[2023-06-28 00:29:15] INFO root fetch - processPackages [google-translate-django4]: Remove: archive file [/home/abi/fetcher/tmp/google_translate_django4-0.4.tar.gz]
+[2023-06-28 00:29:15] INFO root fetch - processPackages [google-translate-django4]: Remove: archive file [/home/abi/fetcher/tmp/google_translate_django4-0.5.tar.gz]
+[2023-06-28 00:29:15] INFO root fetch - main [MainThread]: End processing [google-translate-django4]: success
+[2023-06-28 00:29:15] INFO root fetch - processPackages [odetam]: Remove: archive file [/home/abi/fetcher/tmp/ODetaM-1.5.0.tar.gz]
+[2023-06-28 00:29:15] INFO root fetch - processPackages [odetam]: Remove: archive file [/home/abi/fetcher/tmp/odetam-1.5.1.tar.gz]
+[2023-06-28 00:29:15] INFO root fetch - main [MainThread]: End processing [odetam]: success
+[2023-06-28 00:29:15] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.3.tar.gz]
+[2023-06-28 00:29:15] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.4.tar.gz]
+[2023-06-28 00:29:15] INFO root fetch - main [MainThread]: End processing [pyasic]: success
+[2023-06-28 00:29:15] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-2.9.0a1651588791.tar.gz]
+[2023-06-28 00:29:15] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-2.9.0a1653604814.tar.gz]
+[2023-06-28 00:29:15] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2023-06-28 00:29:15] INFO root fetch - processPackages [aliby]: Remove: archive file [/home/abi/fetcher/tmp/aliby-0.1.8.tar.gz]
+[2023-06-28 00:29:15] INFO root fetch - processPackages [aliby]: Remove: archive file [/home/abi/fetcher/tmp/aliby-0.1.9.tar.gz]
+[2023-06-28 00:29:15] INFO root fetch - main [MainThread]: End processing [aliby]: success
+[2023-06-28 00:29:15] INFO root fetch - main [MainThread]: Store serial: [18669640]
