@@ -707,3 +707,65 @@
 [2023-06-28 00:18:51] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.6.0a1687903041.tar.gz]
 [2023-06-28 00:18:51] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
 [2023-06-28 00:18:51] INFO root fetch - main [MainThread]: Store serial: [18669595]
+[2023-06-28 00:23:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18669595]
+[2023-06-28 00:24:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-28 00:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-sumologic
+[2023-06-28 00:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfirebird
+[2023-06-28 00:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gxcloud
+[2023-06-28 00:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucleus-sdk
+[2023-06-28 00:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2023-06-28 00:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: domolibrary
+[2023-06-28 00:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: few-shot-priming
+[2023-06-28 00:24:00] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.50] Old Version: [0.0.49]
+[2023-06-28 00:24:00] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-28 00:24:00] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-28 00:24:00] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.89]
+[2023-06-28 00:24:00] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-28 00:24:00] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2023-06-28 00:24:00] INFO root fetch - processPackages [nucleus-sdk]: New version: [0.1a2] Old Version: [0.1a1]
+[2023-06-28 00:24:00] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-28 00:24:00] INFO root fetch - processPackages [gxcloud]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-28 00:24:00] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/d6/d7/ce132d584cf6ea277ba6759d1070a03d1de2cc301efc52bd58c1ee5a8c6b/pyfirebird-0.0.49.tar.gz
+[2023-06-28 00:24:01] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/d3/48/d7dc4701c747ebf199166c5779895253e8c659a063639dfd480d7218ed49/domolibrary-0.1.89.tar.gz
+[2023-06-28 00:24:01] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2023-06-28 00:24:01] INFO root fetch - processPackages [gxcloud]: Downloading https://files.pythonhosted.org/packages/f2/28/3faa2219dd8f5756fe12382dbd2e6da3e56712f5f05d78b486aae15086a6/gxcloud-0.1.0.tar.gz
+[2023-06-28 00:24:01] INFO root fetch - processPackages [nucleus-sdk]: Downloading https://files.pythonhosted.org/packages/e9/4e/341d68c4f5c7848fa0006783640e942483c614f5448eff768969c9740202/nucleus_sdk-0.1a1.tar.gz
+[2023-06-28 00:24:01] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-28 00:24:01] WARNING root fetch - processPackages [nucleus-sdk]: Skipping package: exceeds size limit 17526360>=10485760
+[2023-06-28 00:24:01] INFO root fetch - main [MainThread]: End processing [nucleus-sdk] error
+[2023-06-28 00:24:01] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-28 00:24:01] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ba/75/5a59616fc27c68dfb4e04e111a598384360b36ecbd4ac5c10bfb80277305/domolibrary-0.1.9.tar.gz
+[2023-06-28 00:24:01] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/34/25/019cf07dceb2f272dbd1516d1292d79016b9dfe92504b957b366fd454931/pyfirebird-0.0.50.tar.gz
+[2023-06-28 00:24:01] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-28 00:24:01] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230628/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 00:24:01] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-06-28 00:24:01] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.89.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230628/d/domolibrary/0.1.89-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 00:24:01] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-28 00:24:01] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230628/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-28 00:24:01] INFO root fetch - processPackages [gxcloud]: Downloading https://files.pythonhosted.org/packages/5f/b7/3e5d3083e051c4408da9985c8135875677b99df954e5cff5877058817d94/gxcloud-0.1.1.tar.gz
+[2023-06-28 00:24:01] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2023-06-28 00:24:01] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-06-28 00:24:01] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.49.tar.gz tmp/pyfirebird-0.0.50.tar.gz --markdown 20230628/p/pyfirebird/0.0.49-0.0.50/diff.md --exclude *.pyd
+[2023-06-28 00:24:01] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2023-06-28 00:24:01] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20230628/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/diff.md --exclude *.pyd
+[2023-06-28 00:24:01] INFO root fetch - processPackages [gxcloud]: executing diffoscope
+[2023-06-28 00:24:01] INFO root fetch - processPackages [gxcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gxcloud-0.1.0.tar.gz tmp/gxcloud-0.1.1.tar.gz --markdown 20230628/g/gxcloud/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-28 00:24:02] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-28 00:24:02] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-28 00:24:02] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-28 00:24:02] INFO root fetch - processPackages [gxcloud]: Remove: archive file [/home/abi/fetcher/tmp/gxcloud-0.1.0.tar.gz]
+[2023-06-28 00:24:02] INFO root fetch - processPackages [gxcloud]: Remove: archive file [/home/abi/fetcher/tmp/gxcloud-0.1.1.tar.gz]
+[2023-06-28 00:24:02] INFO root fetch - main [MainThread]: End processing [gxcloud]: success
+[2023-06-28 00:24:02] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.49.tar.gz]
+[2023-06-28 00:24:02] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.50.tar.gz]
+[2023-06-28 00:24:02] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-06-28 00:24:03] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2023-06-28 00:24:03] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2023-06-28 00:24:03] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2023-06-28 00:24:03] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.89.tar.gz]
+[2023-06-28 00:24:03] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.9.tar.gz]
+[2023-06-28 00:24:03] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-06-28 00:24:04] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-28 00:24:04] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-28 00:24:04] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-28 00:24:04] INFO root fetch - main [MainThread]: Store serial: [18669615]
