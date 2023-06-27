@@ -1079,3 +1079,39 @@
 [2023-06-28 00:45:06] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.0.0rc1.tar.gz]
 [2023-06-28 00:45:06] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2023-06-28 00:45:06] INFO root fetch - main [MainThread]: Store serial: [18669747]
+[2023-06-28 00:50:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18669747]
+[2023-06-28 00:50:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-28 00:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: domolibrary
+[2023-06-28 00:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-diff
+[2023-06-28 00:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open-space-toolkit-astrodynamics
+[2023-06-28 00:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-vsphere
+[2023-06-28 00:50:17] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.6.0a1687903041] Old Version: [4.6.0a1687758153]
+[2023-06-28 00:50:17] INFO root fetch - processPackages [domolibrary]: New version: [0.1.90] Old Version: [0.1.9]
+[2023-06-28 00:50:17] INFO root fetch - processPackages [data-diff]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-28 00:50:17] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/6a/c6/e7a7b5bd777c1a233efedea240643236ec417ac0c000e9d5e2da94991035/pulumi_vsphere-4.6.0a1687758153.tar.gz
+[2023-06-28 00:50:17] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ba/75/5a59616fc27c68dfb4e04e111a598384360b36ecbd4ac5c10bfb80277305/domolibrary-0.1.9.tar.gz
+[2023-06-28 00:50:17] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-28 00:50:17] INFO root fetch - processPackages [data-diff]: Downloading https://files.pythonhosted.org/packages/bb/36/ca801d8b1ef5dcc30d053086d846544bdbe2e29f31940737b24f7078a897/data_diff-0.7.8.tar.gz
+[2023-06-28 00:50:17] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/9a/a4/fea7d4828b2ff2184a1be700ea77e371814f0e4d3e1de5528e470f9eb4e6/pulumi_vsphere-4.6.0a1687903041.tar.gz
+[2023-06-28 00:50:18] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2023-06-28 00:50:18] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.6.0a1687758153.tar.gz tmp/pulumi_vsphere-4.6.0a1687903041.tar.gz --markdown 20230628/p/pulumi-vsphere/4.6.0a1687758153-4.6.0a1687903041/diff.md --exclude *.pyd
+[2023-06-28 00:50:18] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/d1/23/5a71638f223a649e84be084ef45669e01c7237c2a71ba3aff9ac8db709ec/domolibrary-0.1.90.tar.gz
+[2023-06-28 00:50:18] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: Downloading https://files.pythonhosted.org/packages/8b/ab/52ea87f43b50921c48c1ec06cfe402e632562f3fb7ffb80e47e7f742cd63/open_space_toolkit_astrodynamics-1.0.0-py39-none-any.whl
+[2023-06-28 00:50:18] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-06-28 00:50:18] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.9.tar.gz tmp/domolibrary-0.1.90.tar.gz --markdown 20230628/d/domolibrary/0.1.9-0.1.90/diff.md --exclude *.pyd
+[2023-06-28 00:50:18] INFO root fetch - processPackages [data-diff]: Downloading https://files.pythonhosted.org/packages/3a/6a/c5f7e1a86329df1e80b20bb2e958573c2ef08727eb3743ac9daf7fe535f3/data_diff-0.7.9.tar.gz
+[2023-06-28 00:50:18] INFO root fetch - processPackages [data-diff]: executing diffoscope
+[2023-06-28 00:50:18] INFO root fetch - processPackages [data-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_diff-0.7.8.tar.gz tmp/data_diff-0.7.9.tar.gz --markdown 20230628/d/data-diff/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-28 00:50:18] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: Downloading https://files.pythonhosted.org/packages/55/9b/781db0a9cd24295dc2f37a3aef370f3679ca11b8b15ab9363f5f093c294d/open_space_toolkit_astrodynamics-1.0.1-py39-none-any.whl
+[2023-06-28 00:50:18] WARNING root fetch - processPackages [open-space-toolkit-astrodynamics]: Skipping package: exceeds size limit 12976703>=10485760
+[2023-06-28 00:50:18] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-astrodynamics] error
+[2023-06-28 00:50:19] INFO root fetch - processPackages [data-diff]: Remove: archive file [/home/abi/fetcher/tmp/data_diff-0.7.8.tar.gz]
+[2023-06-28 00:50:19] INFO root fetch - processPackages [data-diff]: Remove: archive file [/home/abi/fetcher/tmp/data_diff-0.7.9.tar.gz]
+[2023-06-28 00:50:19] INFO root fetch - main [MainThread]: End processing [data-diff]: success
+[2023-06-28 00:50:19] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.6.0a1687758153.tar.gz]
+[2023-06-28 00:50:19] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.6.0a1687903041.tar.gz]
+[2023-06-28 00:50:19] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2023-06-28 00:50:20] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.9.tar.gz]
+[2023-06-28 00:50:20] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.90.tar.gz]
+[2023-06-28 00:50:20] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-06-28 00:50:20] INFO root fetch - main [MainThread]: Store serial: [18669761]
