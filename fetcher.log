@@ -1572,3 +1572,36 @@
 [2023-06-28 01:17:05] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
 [2023-06-28 01:17:05] INFO root fetch - main [MainThread]: End processing [latch]: success
 [2023-06-28 01:17:05] INFO root fetch - main [MainThread]: Store serial: [18669896]
+[2023-06-28 01:22:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18669896]
+[2023-06-28 01:22:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-28 01:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdm-utils
+[2023-06-28 01:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepchem
+[2023-06-28 01:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enfugue
+[2023-06-28 01:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opvious
+[2023-06-28 01:22:14] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230627202443] Old Version: [2.7.2.dev20230627173354]
+[2023-06-28 01:22:14] WARNING root fetch - processPackages [enfugue]: Skipping, unable to determine old version
+[2023-06-28 01:22:14] INFO root fetch - main [MainThread]: End processing [enfugue] error
+[2023-06-28 01:22:14] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-28 01:22:14] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/33/e1/f4ba3145645e81d5cfb72d80dbaff6a5f4505b9ae763ca9c83dc3e540801/deepchem-2.7.2.dev20230627173354.tar.gz
+[2023-06-28 01:22:14] INFO root fetch - processPackages [pdm-utils]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-28 01:22:14] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2023-06-28 01:22:14] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/e4/32/da1532f395c6fd38ed0d7598a572030d475c6dc48116cb91b847df28703f/deepchem-2.7.2.dev20230627202443.tar.gz
+[2023-06-28 01:22:14] INFO root fetch - processPackages [pdm-utils]: Downloading https://files.pythonhosted.org/packages/f3/30/2ec4c24c6b7d59844f23638e7f36792db5d5dd7eb880e91e5b6d5d1d18f1/pdm_utils-1.0.1.tar.gz
+[2023-06-28 01:22:15] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-06-28 01:22:15] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230627173354.tar.gz tmp/deepchem-2.7.2.dev20230627202443.tar.gz --markdown 20230628/d/deepchem/2.7.2.dev20230627173354-2.7.2.dev20230627202443/diff.md --exclude *.pyd
+[2023-06-28 01:22:15] INFO root fetch - processPackages [pdm-utils]: Downloading https://files.pythonhosted.org/packages/17/a0/d9a60ff5afa220867e3688ee89f7d904a98d844499b3b5cfbfa7e0d7184c/pdm_utils-1.1.0.tar.gz
+[2023-06-28 01:22:15] INFO root fetch - processPackages [pdm-utils]: executing diffoscope
+[2023-06-28 01:22:15] INFO root fetch - processPackages [pdm-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_utils-1.0.1.tar.gz tmp/pdm_utils-1.1.0.tar.gz --markdown 20230628/p/pdm-utils/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-28 01:22:15] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2023-06-28 01:22:15] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-06-28 01:22:15] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230628/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-28 01:22:16] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.5.tar.gz]
+[2023-06-28 01:22:16] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.6.tar.gz]
+[2023-06-28 01:22:16] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-06-28 01:22:16] INFO root fetch - processPackages [pdm-utils]: Remove: archive file [/home/abi/fetcher/tmp/pdm_utils-1.0.1.tar.gz]
+[2023-06-28 01:22:16] INFO root fetch - processPackages [pdm-utils]: Remove: archive file [/home/abi/fetcher/tmp/pdm_utils-1.1.0.tar.gz]
+[2023-06-28 01:22:16] INFO root fetch - main [MainThread]: End processing [pdm-utils]: success
+[2023-06-28 01:22:17] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230627173354.tar.gz]
+[2023-06-28 01:22:17] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230627202443.tar.gz]
+[2023-06-28 01:22:17] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-06-28 01:22:17] INFO root fetch - main [MainThread]: Store serial: [18669910]
