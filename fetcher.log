@@ -836,3 +836,112 @@
 [2023-06-28 00:29:15] INFO root fetch - processPackages [aliby]: Remove: archive file [/home/abi/fetcher/tmp/aliby-0.1.9.tar.gz]
 [2023-06-28 00:29:15] INFO root fetch - main [MainThread]: End processing [aliby]: success
 [2023-06-28 00:29:15] INFO root fetch - main [MainThread]: Store serial: [18669640]
+[2023-06-28 00:34:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18669640]
+[2023-06-28 00:34:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-28 00:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdqrcode
+[2023-06-28 00:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dank-mids
+[2023-06-28 00:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: validador-colab
+[2023-06-28 00:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: curses-menu
+[2023-06-28 00:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2023-06-28 00:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dank-mids
+[2023-06-28 00:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ezkl
+[2023-06-28 00:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: augmented-gpt
+[2023-06-28 00:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: checkpasswords
+[2023-06-28 00:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vollseg
+[2023-06-28 00:34:24] INFO root fetch - processPackages [sdqrcode]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-28 00:34:24] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-28 00:34:24] INFO root fetch - processPackages [validador-colab]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-28 00:34:24] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230627201103] Old Version: [2.1.1.dev20230627082541]
+[2023-06-28 00:34:24] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-28 00:34:24] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-28 00:34:24] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-28 00:34:24] INFO root fetch - processPackages [validador-colab]: Downloading https://files.pythonhosted.org/packages/b2/19/169508e6e05f08ee1102ba0839e28f298a46a22fc3ae18dceae812c829f2/validador_colab-1.1.1.tar.gz
+[2023-06-28 00:34:24] INFO root fetch - processPackages [curses-menu]: New version: [0.7.1] Old Version: [0.6.7]
+[2023-06-28 00:34:24] INFO root fetch - processPackages [sdqrcode]: Downloading https://files.pythonhosted.org/packages/97/55/6723c8cbefd0c598689b5066f75db2d9045552d55b586c80cecedfb27773/sdqrcode-0.3.3.tar.gz
+[2023-06-28 00:34:24] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/7c/4d/0c5191d25067c7220926089045c04e68a9b5b0eb9702b97036cefa11db1f/localstack-core-2.1.1.dev20230627082541.tar.gz
+[2023-06-28 00:34:24] INFO root fetch - processPackages [ezkl]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-06-28 00:34:24] INFO root fetch - processPackages [checkpasswords]: New version: [2023] Old Version: [2022.0.1]
+[2023-06-28 00:34:24] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-28 00:34:24] INFO root fetch - processPackages [augmented-gpt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-28 00:34:24] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-28 00:34:24] INFO root fetch - processPackages [validador-colab]: Downloading https://files.pythonhosted.org/packages/6a/2f/18256ba80a7215af92f201ea13b46a6e07b8cdc3854ec4b475168138ac02/validador_colab-1.1.2.tar.gz
+[2023-06-28 00:34:24] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-28 00:34:24] INFO root fetch - processPackages [sdqrcode]: Downloading https://files.pythonhosted.org/packages/c8/8d/718fd6866c2a6629221d2aefd2cf1a04663decd61928dc051dc3ed1d8952/sdqrcode-0.3.4.tar.gz
+[2023-06-28 00:34:24] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-28 00:34:24] INFO root fetch - processPackages [vollseg]: Start processing: splam
+[2023-06-28 00:34:24] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-28 00:34:24] INFO root fetch - processPackages [validador-colab]: executing diffoscope
+[2023-06-28 00:34:24] INFO root fetch - processPackages [validador-colab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validador_colab-1.1.1.tar.gz tmp/validador_colab-1.1.2.tar.gz --markdown 20230628/v/validador-colab/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-28 00:34:24] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-28 00:34:24] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230628/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-28 00:34:24] INFO root fetch - processPackages [curses-menu]: Downloading https://files.pythonhosted.org/packages/a0/81/f1c2d9628c79983d50d0d7216d53927cdabf63b454cb8817cb402412db6d/curses-menu-0.6.7.tar.gz
+[2023-06-28 00:34:24] INFO root fetch - processPackages [splam]: New version: [0.2.9] Old Version: [0.2.11]
+[2023-06-28 00:34:24] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-28 00:34:24] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230628/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-28 00:34:24] INFO root fetch - processPackages [sdqrcode]: executing diffoscope
+[2023-06-28 00:34:24] INFO root fetch - processPackages [sdqrcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdqrcode-0.3.3.tar.gz tmp/sdqrcode-0.3.4.tar.gz --markdown 20230628/s/sdqrcode/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-28 00:34:24] INFO root fetch - processPackages [checkpasswords]: Downloading https://files.pythonhosted.org/packages/6b/6e/92ca511c717c440e5a7682f05c828749f3cc66081cb14bc16bffdee36295/checkpasswords-2022.0.1.tar.gz
+[2023-06-28 00:34:24] INFO root fetch - processPackages [ezkl]: Downloading https://files.pythonhosted.org/packages/15/98/047eccc96c1ad76cfce8246c9ff12723c156e543848ad2f8e72579e8579c/ezkl-1.0.0.tar.gz
+[2023-06-28 00:34:24] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c0/2f/d163c5582dcc731ef264db9506bb69e467df8a8da28d4d661895d9b3101d/localstack-core-2.1.1.dev20230627201103.tar.gz
+[2023-06-28 00:34:24] INFO root fetch - processPackages [augmented-gpt]: Downloading https://files.pythonhosted.org/packages/4e/9c/ec23e82c348c2d81c63471be9327bb888ff06643c4d8660a7f8340501d05/augmented_gpt-0.1.1.tar.gz
+[2023-06-28 00:34:24] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/c7/b3/96a175c203358d735694d7d5fd9261ef8683af968e14e473e823d159cee1/splam-0.2.11.tar.gz
+[2023-06-28 00:34:24] INFO root fetch - processPackages [curses-menu]: Downloading https://files.pythonhosted.org/packages/7a/a8/b9f5d662623d845dd4b850134a39b4e360044e3b7d8ed16f4c8817fb634d/curses_menu-0.7.1.tar.gz
+[2023-06-28 00:34:24] WARNING root fetch - processPackages [splam]: Skipping package: exceeds size limit 55126402>=10485760
+[2023-06-28 00:34:24] INFO root fetch - processPackages [splam]: Start processing: openpluginclient
+[2023-06-28 00:34:24] INFO root fetch - main [MainThread]: End processing [splam] error
+[2023-06-28 00:34:24] INFO root fetch - processPackages [checkpasswords]: Downloading https://files.pythonhosted.org/packages/06/ac/17354e3edae2e96d927ae5cff47b42e69c8d1ac0f27d695573f990246f48/checkpasswords-2023.tar.gz
+[2023-06-28 00:34:25] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-28 00:34:25] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230627082541.tar.gz tmp/localstack-core-2.1.1.dev20230627201103.tar.gz --markdown 20230628/l/localstack-core/2.1.1.dev20230627082541-2.1.1.dev20230627201103/diff.md --exclude *.pyd
+[2023-06-28 00:34:25] INFO root fetch - processPackages [augmented-gpt]: Downloading https://files.pythonhosted.org/packages/80/d7/0870dc16ea7de241315593d86c1a6789219981b892890f78b1701e1c35a5/augmented_gpt-0.1.2.tar.gz
+[2023-06-28 00:34:25] INFO root fetch - processPackages [ezkl]: Downloading https://files.pythonhosted.org/packages/92/61/07319ab8f6f28c3a1af2b861fe3279b1efd2a4b1eab2485934a56da38422/ezkl-1.0.2.tar.gz
+[2023-06-28 00:34:25] INFO root fetch - processPackages [openpluginclient]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-28 00:34:25] INFO root fetch - processPackages [openpluginclient]: Downloading https://files.pythonhosted.org/packages/d7/cf/765724abebcbbe0c254bbe4a16351b3e990a2b6458869ceef5be998d2bf1/openpluginclient-0.1.4.tar.gz
+[2023-06-28 00:34:25] INFO root fetch - processPackages [curses-menu]: executing diffoscope
+[2023-06-28 00:34:25] INFO root fetch - processPackages [curses-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curses-menu-0.6.7.tar.gz tmp/curses_menu-0.7.1.tar.gz --markdown 20230628/c/curses-menu/0.6.7-0.7.1/diff.md --exclude *.pyd
+[2023-06-28 00:34:25] INFO root fetch - processPackages [checkpasswords]: executing diffoscope
+[2023-06-28 00:34:25] INFO root fetch - processPackages [checkpasswords]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkpasswords-2022.0.1.tar.gz tmp/checkpasswords-2023.tar.gz --markdown 20230628/c/checkpasswords/2022.0.1-2023/diff.md --exclude *.pyd
+[2023-06-28 00:34:25] INFO root fetch - processPackages [ezkl]: executing diffoscope
+[2023-06-28 00:34:25] INFO root fetch - processPackages [ezkl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezkl-1.0.0.tar.gz tmp/ezkl-1.0.2.tar.gz --markdown 20230628/e/ezkl/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-06-28 00:34:25] INFO root fetch - processPackages [augmented-gpt]: executing diffoscope
+[2023-06-28 00:34:25] INFO root fetch - processPackages [augmented-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/augmented_gpt-0.1.1.tar.gz tmp/augmented_gpt-0.1.2.tar.gz --markdown 20230628/a/augmented-gpt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-28 00:34:25] INFO root fetch - processPackages [openpluginclient]: Downloading https://files.pythonhosted.org/packages/f8/bb/5278751e74bbf4ffb9adc8ffa7391d42fdf4b4f2a06e09ef13acf8bb6cb8/openpluginclient-0.1.5.tar.gz
+[2023-06-28 00:34:25] INFO root fetch - processPackages [openpluginclient]: executing diffoscope
+[2023-06-28 00:34:25] INFO root fetch - processPackages [openpluginclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpluginclient-0.1.4.tar.gz tmp/openpluginclient-0.1.5.tar.gz --markdown 20230628/o/openpluginclient/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-28 00:34:26] INFO root fetch - processPackages [validador-colab]: Remove: archive file [/home/abi/fetcher/tmp/validador_colab-1.1.1.tar.gz]
+[2023-06-28 00:34:26] INFO root fetch - processPackages [validador-colab]: Remove: archive file [/home/abi/fetcher/tmp/validador_colab-1.1.2.tar.gz]
+[2023-06-28 00:34:26] INFO root fetch - processPackages [validador-colab]: Start processing: typing-aliases
+[2023-06-28 00:34:26] INFO root fetch - main [MainThread]: End processing [validador-colab]: success
+[2023-06-28 00:34:26] INFO root fetch - processPackages [typing-aliases]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-28 00:34:26] INFO root fetch - processPackages [typing-aliases]: Downloading https://files.pythonhosted.org/packages/14/c5/3a9907b510806dfa61d0948d66e0aecf033d6fd7c0874155e11a1e90d001/typing_aliases-1.1.1.tar.gz
+[2023-06-28 00:34:26] INFO root fetch - processPackages [sdqrcode]: Remove: archive file [/home/abi/fetcher/tmp/sdqrcode-0.3.3.tar.gz]
+[2023-06-28 00:34:26] INFO root fetch - processPackages [sdqrcode]: Remove: archive file [/home/abi/fetcher/tmp/sdqrcode-0.3.4.tar.gz]
+[2023-06-28 00:34:26] INFO root fetch - main [MainThread]: End processing [sdqrcode]: success
+[2023-06-28 00:34:26] INFO root fetch - processPackages [augmented-gpt]: Remove: archive file [/home/abi/fetcher/tmp/augmented_gpt-0.1.1.tar.gz]
+[2023-06-28 00:34:26] INFO root fetch - processPackages [augmented-gpt]: Remove: archive file [/home/abi/fetcher/tmp/augmented_gpt-0.1.2.tar.gz]
+[2023-06-28 00:34:26] INFO root fetch - main [MainThread]: End processing [augmented-gpt]: success
+[2023-06-28 00:34:26] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-28 00:34:26] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-28 00:34:26] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-28 00:34:26] INFO root fetch - processPackages [ezkl]: Remove: archive file [/home/abi/fetcher/tmp/ezkl-1.0.0.tar.gz]
+[2023-06-28 00:34:26] INFO root fetch - processPackages [ezkl]: Remove: archive file [/home/abi/fetcher/tmp/ezkl-1.0.2.tar.gz]
+[2023-06-28 00:34:26] INFO root fetch - main [MainThread]: End processing [ezkl]: success
+[2023-06-28 00:34:26] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-28 00:34:26] INFO root fetch - processPackages [typing-aliases]: Downloading https://files.pythonhosted.org/packages/a3/9e/94c1bcdde2d1370287e04bb925265d6c1d5a662be486041a810f7cf5b782/typing_aliases-1.1.2.tar.gz
+[2023-06-28 00:34:26] INFO root fetch - processPackages [openpluginclient]: Remove: archive file [/home/abi/fetcher/tmp/openpluginclient-0.1.4.tar.gz]
+[2023-06-28 00:34:26] INFO root fetch - processPackages [openpluginclient]: Remove: archive file [/home/abi/fetcher/tmp/openpluginclient-0.1.5.tar.gz]
+[2023-06-28 00:34:26] INFO root fetch - main [MainThread]: End processing [openpluginclient]: success
+[2023-06-28 00:34:26] INFO root fetch - processPackages [typing-aliases]: executing diffoscope
+[2023-06-28 00:34:26] INFO root fetch - processPackages [typing-aliases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typing_aliases-1.1.1.tar.gz tmp/typing_aliases-1.1.2.tar.gz --markdown 20230628/t/typing-aliases/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-28 00:34:26] INFO root fetch - processPackages [checkpasswords]: Remove: archive file [/home/abi/fetcher/tmp/checkpasswords-2022.0.1.tar.gz]
+[2023-06-28 00:34:26] INFO root fetch - processPackages [checkpasswords]: Remove: archive file [/home/abi/fetcher/tmp/checkpasswords-2023.tar.gz]
+[2023-06-28 00:34:26] INFO root fetch - main [MainThread]: End processing [checkpasswords]: success
+[2023-06-28 00:34:26] INFO root fetch - processPackages [curses-menu]: Remove: archive file [/home/abi/fetcher/tmp/curses-menu-0.6.7.tar.gz]
+[2023-06-28 00:34:26] INFO root fetch - processPackages [curses-menu]: Remove: archive file [/home/abi/fetcher/tmp/curses_menu-0.7.1.tar.gz]
+[2023-06-28 00:34:26] INFO root fetch - main [MainThread]: End processing [curses-menu]: success
+[2023-06-28 00:34:27] INFO root fetch - processPackages [typing-aliases]: Remove: archive file [/home/abi/fetcher/tmp/typing_aliases-1.1.1.tar.gz]
+[2023-06-28 00:34:27] INFO root fetch - processPackages [typing-aliases]: Remove: archive file [/home/abi/fetcher/tmp/typing_aliases-1.1.2.tar.gz]
+[2023-06-28 00:34:27] INFO root fetch - main [MainThread]: End processing [typing-aliases]: success
+[2023-06-28 00:34:31] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230627082541.tar.gz]
+[2023-06-28 00:34:31] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230627201103.tar.gz]
+[2023-06-28 00:34:31] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-28 00:34:31] INFO root fetch - main [MainThread]: Store serial: [18669680]
