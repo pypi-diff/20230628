@@ -1670,3 +1670,81 @@
 [2023-06-28 01:32:41] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.2.0.tar.gz]
 [2023-06-28 01:32:41] INFO root fetch - main [MainThread]: End processing [whylogs]: success
 [2023-06-28 01:32:41] INFO root fetch - main [MainThread]: Store serial: [18669933]
+[2023-06-28 01:37:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18669933]
+[2023-06-28 01:37:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-28 01:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awsparams
+[2023-06-28 01:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cpg-workflows
+[2023-06-28 01:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dpdispatcher
+[2023-06-28 01:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-mongodbatlas
+[2023-06-28 01:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: portend
+[2023-06-28 01:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: frccontrol
+[2023-06-28 01:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nidalee
+[2023-06-28 01:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wemp
+[2023-06-28 01:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PFFRA
+[2023-06-28 01:37:50] INFO root fetch - processPackages [wemp]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-06-28 01:37:50] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.0a1687905736] Old Version: [3.9.0a1687672134]
+[2023-06-28 01:37:50] INFO root fetch - processPackages [nidalee]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 01:37:50] INFO root fetch - processPackages [frccontrol]: New version: [2023.30] Old Version: [2023.29]
+[2023-06-28 01:37:50] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/7e/f9/e0206a320a51a1156ee8f6fcd4fd7ae2e0dc2a714a3d8f9a267f7a38ad06/pulumi_mongodbatlas-3.9.0a1687672134.tar.gz
+[2023-06-28 01:37:50] INFO root fetch - processPackages [wemp]: Downloading https://files.pythonhosted.org/packages/0a/0b/e9abda85dcf615902605043e92f626aecdd5894da9350f49720d9ec95a59/wemp-1.0.3-py3-none-any.whl
+[2023-06-28 01:37:50] INFO root fetch - processPackages [awsparams]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-28 01:37:50] INFO root fetch - processPackages [nidalee]: Downloading https://files.pythonhosted.org/packages/10/7a/59bae3ebb58ef342466a6f44f31ea5ed574cfcd1206172174c0eae90c40f/nidalee-0.1.8-py3-none-any.whl
+[2023-06-28 01:37:50] INFO root fetch - processPackages [portend]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-06-28 01:37:50] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-28 01:37:50] WARNING root fetch - processPackages [PFFRA]: Skipping, unable to determine old version
+[2023-06-28 01:37:50] INFO root fetch - main [MainThread]: End processing [PFFRA] error
+[2023-06-28 01:37:50] INFO root fetch - processPackages [dpdispatcher]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-06-28 01:37:50] INFO root fetch - processPackages [frccontrol]: Downloading https://files.pythonhosted.org/packages/df/4d/18b37660649f58820907d4e76dd274ba3f01ec5625795663466ced1ebf59/frccontrol-2023.29.tar.gz
+[2023-06-28 01:37:50] INFO root fetch - processPackages [wemp]: Downloading https://files.pythonhosted.org/packages/b5/e2/65993c7ddf7744849cd32553cc04b62757713fe720e178b3c31de800fc2e/wemp-1.0.5-py3-none-any.whl
+[2023-06-28 01:37:50] INFO root fetch - processPackages [nidalee]: Downloading https://files.pythonhosted.org/packages/7b/aa/5d7542fb6437eddba82a60b311003a8763fdde7cc5d9bce83abd335996cd/nidalee-0.1.9-py3-none-any.whl
+[2023-06-28 01:37:50] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/47/d2/19dc83b7997afcc258a1b257a64a54cdb1ffea7f7722a67a3664cf8bfde3/pulumi_mongodbatlas-3.9.0a1687905736.tar.gz
+[2023-06-28 01:37:50] INFO root fetch - processPackages [portend]: Downloading https://files.pythonhosted.org/packages/6e/0a/42bcc9c97744958ce72d33f526e972379b9e90adede8a151f338818c41d4/portend-3.1.0.tar.gz
+[2023-06-28 01:37:50] INFO root fetch - processPackages [awsparams]: Downloading https://files.pythonhosted.org/packages/b9/e1/e6155315e03c6986643b985cb844af6ec4bb370b7bcc9da20d2a5f4bbe8d/awsparams-1.5.3.tar.gz
+[2023-06-28 01:37:50] INFO root fetch - processPackages [frccontrol]: Downloading https://files.pythonhosted.org/packages/2a/3a/c2403ba601fc3758eed57247008928016ed735678ab84bbe378e0b6b1c78/frccontrol-2023.30.tar.gz
+[2023-06-28 01:37:50] INFO root fetch - processPackages [dpdispatcher]: Downloading https://files.pythonhosted.org/packages/3e/c8/0cc4ab687fc928e2c65bb9ae40e9bb55ae15a8faff535c87bd5b6330a2f3/dpdispatcher-0.5.6.tar.gz
+[2023-06-28 01:37:50] INFO root fetch - processPackages [wemp]: executing diffoscope
+[2023-06-28 01:37:50] INFO root fetch - processPackages [wemp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wemp-1.0.3-py3-none-any.whl.zip tmp/wemp-1.0.5-py3-none-any.whl.zip --markdown 20230628/w/wemp/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-06-28 01:37:50] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2023-06-28 01:37:51] INFO root fetch - processPackages [nidalee]: executing diffoscope
+[2023-06-28 01:37:51] INFO root fetch - processPackages [nidalee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nidalee-0.1.8-py3-none-any.whl.zip tmp/nidalee-0.1.9-py3-none-any.whl.zip --markdown 20230628/n/nidalee/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 01:37:51] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2023-06-28 01:37:51] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.0a1687672134.tar.gz tmp/pulumi_mongodbatlas-3.9.0a1687905736.tar.gz --markdown 20230628/p/pulumi-mongodbatlas/3.9.0a1687672134-3.9.0a1687905736/diff.md --exclude *.pyd
+[2023-06-28 01:37:51] INFO root fetch - processPackages [frccontrol]: executing diffoscope
+[2023-06-28 01:37:51] INFO root fetch - processPackages [frccontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frccontrol-2023.29.tar.gz tmp/frccontrol-2023.30.tar.gz --markdown 20230628/f/frccontrol/2023.29-2023.30/diff.md --exclude *.pyd
+[2023-06-28 01:37:51] INFO root fetch - processPackages [portend]: Downloading https://files.pythonhosted.org/packages/8f/fc/bcfc768996b438d6e4bde7a6c8cfd62089847b0f5381a0e0ec2d8ee6b202/portend-3.2.0.tar.gz
+[2023-06-28 01:37:51] INFO root fetch - processPackages [dpdispatcher]: Downloading https://files.pythonhosted.org/packages/ba/ee/6d038133d402cb638a1ec7dcab112e5612a09b7c0c06c62c4a45eb83fa38/dpdispatcher-0.5.7.tar.gz
+[2023-06-28 01:37:51] INFO root fetch - processPackages [portend]: executing diffoscope
+[2023-06-28 01:37:51] INFO root fetch - processPackages [portend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portend-3.1.0.tar.gz tmp/portend-3.2.0.tar.gz --markdown 20230628/p/portend/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-06-28 01:37:51] INFO root fetch - processPackages [awsparams]: Downloading https://files.pythonhosted.org/packages/95/4a/306c1c4954b102643088f67d8145f036259920c1848673c78b09925de288/awsparams-1.5.4.tar.gz
+[2023-06-28 01:37:51] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2023-06-28 01:37:51] INFO root fetch - processPackages [dpdispatcher]: executing diffoscope
+[2023-06-28 01:37:51] INFO root fetch - processPackages [dpdispatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpdispatcher-0.5.6.tar.gz tmp/dpdispatcher-0.5.7.tar.gz --markdown 20230628/d/dpdispatcher/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-06-28 01:37:51] INFO root fetch - processPackages [awsparams]: executing diffoscope
+[2023-06-28 01:37:51] INFO root fetch - processPackages [awsparams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsparams-1.5.3.tar.gz tmp/awsparams-1.5.4.tar.gz --markdown 20230628/a/awsparams/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-28 01:37:51] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2023-06-28 01:37:51] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20230628/c/cpg-workflows/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-28 01:37:52] INFO root fetch - processPackages [wemp]: Remove: archive file [/home/abi/fetcher/tmp/wemp-1.0.3-py3-none-any.whl.zip]
+[2023-06-28 01:37:52] INFO root fetch - processPackages [wemp]: Remove: archive file [/home/abi/fetcher/tmp/wemp-1.0.5-py3-none-any.whl.zip]
+[2023-06-28 01:37:52] INFO root fetch - main [MainThread]: End processing [wemp]: success
+[2023-06-28 01:37:52] INFO root fetch - processPackages [frccontrol]: Remove: archive file [/home/abi/fetcher/tmp/frccontrol-2023.29.tar.gz]
+[2023-06-28 01:37:52] INFO root fetch - processPackages [frccontrol]: Remove: archive file [/home/abi/fetcher/tmp/frccontrol-2023.30.tar.gz]
+[2023-06-28 01:37:52] INFO root fetch - main [MainThread]: End processing [frccontrol]: success
+[2023-06-28 01:37:52] INFO root fetch - processPackages [nidalee]: Remove: archive file [/home/abi/fetcher/tmp/nidalee-0.1.8-py3-none-any.whl.zip]
+[2023-06-28 01:37:52] INFO root fetch - processPackages [nidalee]: Remove: archive file [/home/abi/fetcher/tmp/nidalee-0.1.9-py3-none-any.whl.zip]
+[2023-06-28 01:37:52] INFO root fetch - main [MainThread]: End processing [nidalee]: success
+[2023-06-28 01:37:52] INFO root fetch - processPackages [awsparams]: Remove: archive file [/home/abi/fetcher/tmp/awsparams-1.5.3.tar.gz]
+[2023-06-28 01:37:52] INFO root fetch - processPackages [awsparams]: Remove: archive file [/home/abi/fetcher/tmp/awsparams-1.5.4.tar.gz]
+[2023-06-28 01:37:52] INFO root fetch - main [MainThread]: End processing [awsparams]: success
+[2023-06-28 01:37:52] INFO root fetch - processPackages [portend]: Remove: archive file [/home/abi/fetcher/tmp/portend-3.1.0.tar.gz]
+[2023-06-28 01:37:52] INFO root fetch - processPackages [portend]: Remove: archive file [/home/abi/fetcher/tmp/portend-3.2.0.tar.gz]
+[2023-06-28 01:37:52] INFO root fetch - main [MainThread]: End processing [portend]: success
+[2023-06-28 01:37:53] INFO root fetch - processPackages [dpdispatcher]: Remove: archive file [/home/abi/fetcher/tmp/dpdispatcher-0.5.6.tar.gz]
+[2023-06-28 01:37:53] INFO root fetch - processPackages [dpdispatcher]: Remove: archive file [/home/abi/fetcher/tmp/dpdispatcher-0.5.7.tar.gz]
+[2023-06-28 01:37:53] INFO root fetch - main [MainThread]: End processing [dpdispatcher]: success
+[2023-06-28 01:37:54] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2023-06-28 01:37:54] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2023-06-28 01:37:54] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2023-06-28 01:37:56] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.0a1687672134.tar.gz]
+[2023-06-28 01:37:56] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.0a1687905736.tar.gz]
+[2023-06-28 01:37:56] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2023-06-28 01:37:56] INFO root fetch - main [MainThread]: Store serial: [18669959]
