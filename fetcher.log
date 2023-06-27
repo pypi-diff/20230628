@@ -480,3 +480,83 @@
 [2023-06-28 00:08:17] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.2.tar.gz]
 [2023-06-28 00:08:17] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-06-28 00:08:17] INFO root fetch - main [MainThread]: Store serial: [18669501]
+[2023-06-28 00:13:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18669501]
+[2023-06-28 00:13:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-28 00:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tyba-cvxpy
+[2023-06-28 00:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dank-mids
+[2023-06-28 00:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: few-shot-priming
+[2023-06-28 00:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-starter
+[2023-06-28 00:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-28 00:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vollseg
+[2023-06-28 00:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xklb
+[2023-06-28 00:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyvosklivesubtitle
+[2023-06-28 00:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-compressor
+[2023-06-28 00:13:27] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-28 00:13:27] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-28 00:13:27] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-28 00:13:27] INFO root fetch - processPackages [django-compressor]: New version: [4.3.1] Old Version: [4.3]
+[2023-06-28 00:13:27] INFO root fetch - processPackages [ml-starter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 00:13:27] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-28 00:13:27] INFO root fetch - processPackages [xklb]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-06-28 00:13:27] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-28 00:13:27] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-28 00:13:27] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-28 00:13:27] INFO root fetch - processPackages [tyba-cvxpy]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-06-28 00:13:27] INFO root fetch - processPackages [pyvosklivesubtitle]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-28 00:13:27] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-28 00:13:27] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-28 00:13:27] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-28 00:13:27] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/f1/6e/ab5edbd173735efb035421e439282ab35dea267430a8049f476e1d08ff16/ml-starter-0.1.8.tar.gz
+[2023-06-28 00:13:27] INFO root fetch - processPackages [django-compressor]: Downloading https://files.pythonhosted.org/packages/3e/2d/9fb725a4e7cd22cd1858b29a960b7fc6bf230ef7be351b70b18b0555b21c/django_compressor-4.3.tar.gz
+[2023-06-28 00:13:27] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-28 00:13:27] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/88/bc/21619ecd74999b1cb1f57890e3a7c662c81f15b5912a99f60db0f667dd6e/xklb-2.2.3.tar.gz
+[2023-06-28 00:13:27] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-28 00:13:27] INFO root fetch - processPackages [tyba-cvxpy]: Downloading https://files.pythonhosted.org/packages/da/f0/fda465921f16be51d27317ce1d493c0f99177bae7f06a1987b9e1b3f8755/tyba_cvxpy-1.4.3-cp39-cp39-win_amd64.whl
+[2023-06-28 00:13:27] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-28 00:13:27] INFO root fetch - processPackages [pyvosklivesubtitle]: Downloading https://files.pythonhosted.org/packages/f3/87/70b0bc629582e4ac001b50873f1a1b27a4f915d4f071505cef7651a4b46b/pyvosklivesubtitle-0.1.5.tar.gz
+[2023-06-28 00:13:27] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/44/9f/ffb6ae287f30a52a4bcc5aae269e948d3ffcd9bd7ab6aafda6ce73f567c8/ml-starter-0.1.9.tar.gz
+[2023-06-28 00:13:27] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-28 00:13:27] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230628/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-28 00:13:27] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-28 00:13:27] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230628/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 00:13:27] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-28 00:13:27] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230628/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 00:13:27] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-06-28 00:13:27] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.8.tar.gz tmp/ml-starter-0.1.9.tar.gz --markdown 20230628/m/ml-starter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 00:13:27] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/59/81/6dfefd53b0077871bc19536b6c27f469468de936c78e2c280ada269e9e8d/xklb-2.2.4.tar.gz
+[2023-06-28 00:13:27] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-28 00:13:27] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.3.tar.gz tmp/xklb-2.2.4.tar.gz --markdown 20230628/x/xklb/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-06-28 00:13:27] INFO root fetch - processPackages [tyba-cvxpy]: Downloading https://files.pythonhosted.org/packages/47/35/a76e1480518387c435ec516ec9c35480422f508157a38e7d140b31a81a1a/tyba-cvxpy-1.4.4.tar.gz
+[2023-06-28 00:13:27] INFO root fetch - processPackages [django-compressor]: Downloading https://files.pythonhosted.org/packages/2d/40/1c8b0073bd5e4b4395137191ab5e77f905b309c3bc75f1d6f97d0b6d9bd2/django_compressor-4.3.1.tar.gz
+[2023-06-28 00:13:27] INFO root fetch - processPackages [pyvosklivesubtitle]: Downloading https://files.pythonhosted.org/packages/cb/26/27b46bd7df29f48dd920cf50384e7452d5df5dce88bdfb6372aa481873d6/pyvosklivesubtitle-0.2.0-cp38-cp38-manylinux_2_17_x86_64.whl
+[2023-06-28 00:13:28] INFO root fetch - processPackages [django-compressor]: executing diffoscope
+[2023-06-28 00:13:28] INFO root fetch - processPackages [django-compressor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_compressor-4.3.tar.gz tmp/django_compressor-4.3.1.tar.gz --markdown 20230628/d/django-compressor/4.3-4.3.1/diff.md --exclude *.pyd
+[2023-06-28 00:13:28] INFO root fetch - processPackages [tyba-cvxpy]: executing diffoscope
+[2023-06-28 00:13:28] INFO root fetch - processPackages [tyba-cvxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tyba_cvxpy-1.4.3-cp39-cp39-win_amd64.whl.zip tmp/tyba-cvxpy-1.4.4.tar.gz --markdown 20230628/t/tyba-cvxpy/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-06-28 00:13:28] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-28 00:13:28] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-28 00:13:28] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-28 00:13:29] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-28 00:13:29] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-28 00:13:29] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-28 00:13:29] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-28 00:13:29] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-28 00:13:29] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-28 00:13:29] INFO root fetch - processPackages [pyvosklivesubtitle]: executing diffoscope
+[2023-06-28 00:13:29] INFO root fetch - processPackages [pyvosklivesubtitle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvosklivesubtitle-0.1.5.tar.gz tmp/pyvosklivesubtitle-0.2.0-cp38-cp38-manylinux_2_17_x86_64.whl.zip --markdown 20230628/p/pyvosklivesubtitle/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-28 00:13:29] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.8.tar.gz]
+[2023-06-28 00:13:29] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
+[2023-06-28 00:13:29] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-06-28 00:13:30] INFO root fetch - processPackages [django-compressor]: Remove: archive file [/home/abi/fetcher/tmp/django_compressor-4.3.tar.gz]
+[2023-06-28 00:13:30] INFO root fetch - processPackages [django-compressor]: Remove: archive file [/home/abi/fetcher/tmp/django_compressor-4.3.1.tar.gz]
+[2023-06-28 00:13:30] INFO root fetch - main [MainThread]: End processing [django-compressor]: success
+[2023-06-28 00:13:30] INFO root fetch - processPackages [tyba-cvxpy]: Remove: archive file [/home/abi/fetcher/tmp/tyba_cvxpy-1.4.3-cp39-cp39-win_amd64.whl.zip]
+[2023-06-28 00:13:30] INFO root fetch - processPackages [tyba-cvxpy]: Remove: archive file [/home/abi/fetcher/tmp/tyba-cvxpy-1.4.4.tar.gz]
+[2023-06-28 00:13:30] INFO root fetch - main [MainThread]: End processing [tyba-cvxpy]: success
+[2023-06-28 00:13:31] INFO root fetch - processPackages [pyvosklivesubtitle]: Remove: archive file [/home/abi/fetcher/tmp/pyvosklivesubtitle-0.1.5.tar.gz]
+[2023-06-28 00:13:31] INFO root fetch - processPackages [pyvosklivesubtitle]: Remove: archive file [/home/abi/fetcher/tmp/pyvosklivesubtitle-0.2.0-cp38-cp38-manylinux_2_17_x86_64.whl.zip]
+[2023-06-28 00:13:31] INFO root fetch - main [MainThread]: End processing [pyvosklivesubtitle]: success
+[2023-06-28 00:13:32] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.3.tar.gz]
+[2023-06-28 00:13:32] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.4.tar.gz]
+[2023-06-28 00:13:32] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-28 00:13:32] INFO root fetch - main [MainThread]: Store serial: [18669550]
