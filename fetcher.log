@@ -1748,3 +1748,96 @@
 [2023-06-28 01:37:56] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.0a1687905736.tar.gz]
 [2023-06-28 01:37:56] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
 [2023-06-28 01:37:56] INFO root fetch - main [MainThread]: Store serial: [18669959]
+[2023-06-28 01:43:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18669959]
+[2023-06-28 01:43:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-28 01:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2023-06-28 01:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aserto
+[2023-06-28 01:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-keycloak
+[2023-06-28 01:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-keycloak
+[2023-06-28 01:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tja2fumen
+[2023-06-28 01:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whistleaio
+[2023-06-28 01:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: psalpsdtools
+[2023-06-28 01:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fullask-rest-framework
+[2023-06-28 01:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: astronomer-cosmos
+[2023-06-28 01:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: latch
+[2023-06-28 01:43:05] INFO root fetch - processPackages [tja2fumen]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-28 01:43:05] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-28 01:43:06] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/e6/a0/19c26a94b080c813caf0e209f24aaad2a55a79a4c9c84cbe1c7df04ec70e/tja2fumen-0.0.1.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [whistleaio]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-28 01:43:06] INFO root fetch - processPackages [aserto]: New version: [0.3.0rc3] Old Version: [0.3.0rc2]
+[2023-06-28 01:43:06] INFO root fetch - processPackages [psalpsdtools]: New version: [0.7] Old Version: [0.6]
+[2023-06-28 01:43:06] INFO root fetch - processPackages [astronomer-cosmos]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-06-28 01:43:06] INFO root fetch - processPackages [fullask-rest-framework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 01:43:06] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.3.0a1687907685] Old Version: [5.3.0a1687671641]
+[2023-06-28 01:43:06] INFO root fetch - processPackages [python-keycloak]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-06-28 01:43:06] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-28 01:43:06] INFO root fetch - processPackages [aserto]: Downloading https://files.pythonhosted.org/packages/a7/4b/eb93516cfabdcaf89fe1b62c42e171839673cffb500952adf8117c1a7990/aserto-0.3.0rc2.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [psalpsdtools]: Downloading https://files.pythonhosted.org/packages/f3/1f/618bb1efc83caf51fb1a2ae2d09344dd804ffe56b67c92b17cf585abbce7/psalpsdtools-0.6.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/82/f1/9d98c6837450c1e8f258b5587ece483348e0772589d430d59a92a3c7f764/tja2fumen-0.1.0.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [whistleaio]: Downloading https://files.pythonhosted.org/packages/28/97/cb746c68ca81404b07ce20ec3a760c194d32491f35d64535c3db0826f08d/whistleaio-0.1.0.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [astronomer-cosmos]: Downloading https://files.pythonhosted.org/packages/fb/d9/e913a7bc6eca1445658657d8f065331ef21426f9db246968d02748c417fb/astronomer_cosmos-0.7.3.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/8a/3d/3a7133ffc8dc47c4bc2bf53d912af80048376f94879278202e1ee1649d4a/pulumi_keycloak-5.3.0a1687671641.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/36/c8/4324353a770d607459e44aea940d62ee51851266a0b5cc6faa6a89c6a3c3/fullask-rest-framework-0.1.8.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/4b/2d/42e8546147143336c3b0a2f21b0621c4c01e9d6e5a478df8c42385827e77/python_keycloak-3.2.0.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [tja2fumen]: executing diffoscope
+[2023-06-28 01:43:06] INFO root fetch - processPackages [tja2fumen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tja2fumen-0.0.1.tar.gz tmp/tja2fumen-0.1.0.tar.gz --markdown 20230628/t/tja2fumen/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-28 01:43:06] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-06-28 01:43:06] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230628/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-28 01:43:06] INFO root fetch - processPackages [psalpsdtools]: Downloading https://files.pythonhosted.org/packages/3a/75/7c9dcbfcca8d0e55f0ce828497fcc369ba08590eb4ad68818b629ec41d52/psalpsdtools-0.7.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [whistleaio]: Downloading https://files.pythonhosted.org/packages/c3/33/931ffc106dba6ae25021e05c0ed94af807218c0aa195ea2cdbf59717c025/whistleaio-0.1.1.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [astronomer-cosmos]: Downloading https://files.pythonhosted.org/packages/41/ac/366f16bc675de36a09298ca771d3757261dc3ca23899c68f15a581b53780/astronomer_cosmos-0.7.4.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/6b/bb/3bcc9cb405a96e5407126f92b2fb1ba4d33f739a99a7932d9d6ff5b47ef6/pulumi_keycloak-5.3.0a1687907685.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [aserto]: Downloading https://files.pythonhosted.org/packages/da/40/e88f0c45b2cc1a4fb1c11f538bfb63cb8852eb4641110c5f009f07ea4038/aserto-0.3.0rc3.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/7a/2d/3ede7c4074941b7057352d566c5d74d57abe69d467c610c71c2dfd76d30b/python_keycloak-3.3.0.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [psalpsdtools]: executing diffoscope
+[2023-06-28 01:43:06] INFO root fetch - processPackages [psalpsdtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psalpsdtools-0.6.tar.gz tmp/psalpsdtools-0.7.tar.gz --markdown 20230628/p/psalpsdtools/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-28 01:43:06] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/1d/c1/51c21ad08d286c1ffd3f20bbbb5de3aa05811a1c6035de42010b6d6ae180/fullask-rest-framework-0.1.9.tar.gz
+[2023-06-28 01:43:06] INFO root fetch - processPackages [whistleaio]: executing diffoscope
+[2023-06-28 01:43:06] INFO root fetch - processPackages [whistleaio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whistleaio-0.1.0.tar.gz tmp/whistleaio-0.1.1.tar.gz --markdown 20230628/w/whistleaio/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-28 01:43:06] INFO root fetch - processPackages [astronomer-cosmos]: executing diffoscope
+[2023-06-28 01:43:06] INFO root fetch - processPackages [astronomer-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer_cosmos-0.7.3.tar.gz tmp/astronomer_cosmos-0.7.4.tar.gz --markdown 20230628/a/astronomer-cosmos/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-06-28 01:43:06] INFO root fetch - processPackages [aserto]: executing diffoscope
+[2023-06-28 01:43:06] INFO root fetch - processPackages [aserto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aserto-0.3.0rc2.tar.gz tmp/aserto-0.3.0rc3.tar.gz --markdown 20230628/a/aserto/0.3.0rc2-0.3.0rc3/diff.md --exclude *.pyd
+[2023-06-28 01:43:06] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2023-06-28 01:43:06] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.3.0a1687671641.tar.gz tmp/pulumi_keycloak-5.3.0a1687907685.tar.gz --markdown 20230628/p/pulumi-keycloak/5.3.0a1687671641-5.3.0a1687907685/diff.md --exclude *.pyd
+[2023-06-28 01:43:06] INFO root fetch - processPackages [fullask-rest-framework]: executing diffoscope
+[2023-06-28 01:43:06] INFO root fetch - processPackages [fullask-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullask-rest-framework-0.1.8.tar.gz tmp/fullask-rest-framework-0.1.9.tar.gz --markdown 20230628/f/fullask-rest-framework/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 01:43:06] INFO root fetch - processPackages [python-keycloak]: executing diffoscope
+[2023-06-28 01:43:06] INFO root fetch - processPackages [python-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_keycloak-3.2.0.tar.gz tmp/python_keycloak-3.3.0.tar.gz --markdown 20230628/p/python-keycloak/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-06-28 01:43:06] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-28 01:43:07] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-28 01:43:07] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230628/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-28 01:43:08] INFO root fetch - processPackages [psalpsdtools]: Remove: archive file [/home/abi/fetcher/tmp/psalpsdtools-0.6.tar.gz]
+[2023-06-28 01:43:08] INFO root fetch - processPackages [psalpsdtools]: Remove: archive file [/home/abi/fetcher/tmp/psalpsdtools-0.7.tar.gz]
+[2023-06-28 01:43:08] INFO root fetch - main [MainThread]: End processing [psalpsdtools]: success
+[2023-06-28 01:43:08] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.0.1.tar.gz]
+[2023-06-28 01:43:08] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.1.0.tar.gz]
+[2023-06-28 01:43:08] INFO root fetch - main [MainThread]: End processing [tja2fumen]: success
+[2023-06-28 01:43:08] INFO root fetch - processPackages [whistleaio]: Remove: archive file [/home/abi/fetcher/tmp/whistleaio-0.1.0.tar.gz]
+[2023-06-28 01:43:08] INFO root fetch - processPackages [whistleaio]: Remove: archive file [/home/abi/fetcher/tmp/whistleaio-0.1.1.tar.gz]
+[2023-06-28 01:43:08] INFO root fetch - main [MainThread]: End processing [whistleaio]: success
+[2023-06-28 01:43:08] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-06-28 01:43:08] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-06-28 01:43:08] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-06-28 01:43:08] INFO root fetch - processPackages [aserto]: Remove: archive file [/home/abi/fetcher/tmp/aserto-0.3.0rc2.tar.gz]
+[2023-06-28 01:43:08] INFO root fetch - processPackages [aserto]: Remove: archive file [/home/abi/fetcher/tmp/aserto-0.3.0rc3.tar.gz]
+[2023-06-28 01:43:08] INFO root fetch - main [MainThread]: End processing [aserto]: success
+[2023-06-28 01:43:08] INFO root fetch - processPackages [astronomer-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/astronomer_cosmos-0.7.3.tar.gz]
+[2023-06-28 01:43:08] INFO root fetch - processPackages [astronomer-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/astronomer_cosmos-0.7.4.tar.gz]
+[2023-06-28 01:43:08] INFO root fetch - main [MainThread]: End processing [astronomer-cosmos]: success
+[2023-06-28 01:43:08] INFO root fetch - processPackages [python-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/python_keycloak-3.2.0.tar.gz]
+[2023-06-28 01:43:08] INFO root fetch - processPackages [python-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/python_keycloak-3.3.0.tar.gz]
+[2023-06-28 01:43:08] INFO root fetch - main [MainThread]: End processing [python-keycloak]: success
+[2023-06-28 01:43:08] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.8.tar.gz]
+[2023-06-28 01:43:08] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.9.tar.gz]
+[2023-06-28 01:43:08] INFO root fetch - main [MainThread]: End processing [fullask-rest-framework]: success
+[2023-06-28 01:43:09] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.3.0a1687671641.tar.gz]
+[2023-06-28 01:43:09] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.3.0a1687907685.tar.gz]
+[2023-06-28 01:43:09] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2023-06-28 01:43:40] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-28 01:43:40] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-28 01:43:40] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-28 01:43:40] INFO root fetch - main [MainThread]: Store serial: [18669990]
