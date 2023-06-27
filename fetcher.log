@@ -1841,3 +1841,47 @@
 [2023-06-28 01:43:40] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-06-28 01:43:40] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-28 01:43:40] INFO root fetch - main [MainThread]: Store serial: [18669990]
+[2023-06-28 01:48:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18669990]
+[2023-06-28 01:48:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-28 01:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dss-python-backend
+[2023-06-28 01:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-plugins-2
+[2023-06-28 01:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skyplane-nightly
+[2023-06-28 01:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiobotocore
+[2023-06-28 01:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaaql-middleware-python
+[2023-06-28 01:48:49] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev202306262344] Old Version: [0.3.2.dev202306252122]
+[2023-06-28 01:48:49] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-28 01:48:49] INFO root fetch - processPackages [ml-plugins-2]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-06-28 01:48:49] INFO root fetch - processPackages [aiobotocore]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-06-28 01:48:49] INFO root fetch - processPackages [dss-python-backend]: New version: [0.13.4rc2] Old Version: [0.13.4rc1]
+[2023-06-28 01:48:49] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/56/d2/74b938a4b5c8a2509d115353c51ba2ea5faa804f3cfa9cff53b568c20d8b/skyplane_nightly-0.3.2.dev202306252122.tar.gz
+[2023-06-28 01:48:49] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2023-06-28 01:48:49] INFO root fetch - processPackages [aiobotocore]: Downloading https://files.pythonhosted.org/packages/e4/d4/28b8c4c9443ffdd1a97b4b0bb970877697deee43e5956bc86028a2723c17/aiobotocore-2.5.0.tar.gz
+[2023-06-28 01:48:49] INFO root fetch - processPackages [ml-plugins-2]: Downloading https://files.pythonhosted.org/packages/1a/53/b4f73fe89da034e77138c98febf7c2165cdf2cc7e13f2fb29855b97633b2/ml_plugins_2-0.0.18.tar.gz
+[2023-06-28 01:48:49] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2023-06-28 01:48:49] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/aa/36/f53446cc47fa7150afd9a8eedbe855ab4498f97432549ac9b172bcd3390c/skyplane_nightly-0.3.2.dev202306262344.tar.gz
+[2023-06-28 01:48:49] INFO root fetch - processPackages [dss-python-backend]: Downloading https://files.pythonhosted.org/packages/ea/59/9cf39c82d7923243629d9ed201978fb72ac647fa8dd6557d812ee65addd9/dss_python_backend-0.13.4rc1-cp37-abi3-win_amd64.whl
+[2023-06-28 01:48:49] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-06-28 01:48:49] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev202306252122.tar.gz tmp/skyplane_nightly-0.3.2.dev202306262344.tar.gz --markdown 20230628/s/skyplane-nightly/0.3.2.dev202306252122-0.3.2.dev202306262344/diff.md --exclude *.pyd
+[2023-06-28 01:48:49] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-06-28 01:48:49] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230628/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-28 01:48:49] WARNING root fetch - processPackages [dss-python-backend]: Skipping package: exceeds size limit 16967796>=10485760
+[2023-06-28 01:48:49] INFO root fetch - main [MainThread]: End processing [dss-python-backend] error
+[2023-06-28 01:48:49] INFO root fetch - processPackages [aiobotocore]: Downloading https://files.pythonhosted.org/packages/8d/07/c6445ff8a9eba553a4ee371a15ea9e615b60ba5a6263f89cd8be4c7591c9/aiobotocore-2.5.1.tar.gz
+[2023-06-28 01:48:49] INFO root fetch - processPackages [ml-plugins-2]: Downloading https://files.pythonhosted.org/packages/48/e7/1d06457aef1443b424b18c5d7be4a0fc3aa896f5e6defab623a927c0c242/ml_plugins_2-0.0.19.tar.gz
+[2023-06-28 01:48:49] INFO root fetch - processPackages [aiobotocore]: executing diffoscope
+[2023-06-28 01:48:49] INFO root fetch - processPackages [aiobotocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiobotocore-2.5.0.tar.gz tmp/aiobotocore-2.5.1.tar.gz --markdown 20230628/a/aiobotocore/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-06-28 01:48:50] INFO root fetch - processPackages [ml-plugins-2]: executing diffoscope
+[2023-06-28 01:48:50] INFO root fetch - processPackages [ml-plugins-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_plugins_2-0.0.18.tar.gz tmp/ml_plugins_2-0.0.19.tar.gz --markdown 20230628/m/ml-plugins-2/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-06-28 01:48:50] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2023-06-28 01:48:50] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2023-06-28 01:48:50] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-06-28 01:48:50] INFO root fetch - processPackages [ml-plugins-2]: Remove: archive file [/home/abi/fetcher/tmp/ml_plugins_2-0.0.18.tar.gz]
+[2023-06-28 01:48:50] INFO root fetch - processPackages [ml-plugins-2]: Remove: archive file [/home/abi/fetcher/tmp/ml_plugins_2-0.0.19.tar.gz]
+[2023-06-28 01:48:50] INFO root fetch - main [MainThread]: End processing [ml-plugins-2]: success
+[2023-06-28 01:48:51] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202306252122.tar.gz]
+[2023-06-28 01:48:51] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202306262344.tar.gz]
+[2023-06-28 01:48:51] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-06-28 01:48:52] INFO root fetch - processPackages [aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/aiobotocore-2.5.0.tar.gz]
+[2023-06-28 01:48:52] INFO root fetch - processPackages [aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/aiobotocore-2.5.1.tar.gz]
+[2023-06-28 01:48:52] INFO root fetch - main [MainThread]: End processing [aiobotocore]: success
+[2023-06-28 01:48:52] INFO root fetch - main [MainThread]: Store serial: [18670012]
