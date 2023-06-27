@@ -1292,3 +1292,141 @@
 [2023-06-28 01:01:18] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
 [2023-06-28 01:01:18] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-06-28 01:01:18] INFO root fetch - main [MainThread]: Store serial: [18669807]
+[2023-06-28 01:06:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18669807]
+[2023-06-28 01:06:27] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-28 01:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openpluginclient
+[2023-06-28 01:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt-cu101
+[2023-06-28 01:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flwr-nightly
+[2023-06-28 01:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: latch
+[2023-06-28 01:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt
+[2023-06-28 01:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spotPython
+[2023-06-28 01:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: astronomer-starship
+[2023-06-28 01:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ml-starter
+[2023-06-28 01:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-mongodbatlas
+[2023-06-28 01:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tensorflow-estimator
+[2023-06-28 01:06:27] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230626] Old Version: [0.7.0b20230625]
+[2023-06-28 01:06:27] INFO root fetch - processPackages [openpluginclient]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-28 01:06:27] INFO root fetch - processPackages [ml-starter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 01:06:27] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-28 01:06:27] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-28 01:06:27] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230626] Old Version: [0.7.0b20230625]
+[2023-06-28 01:06:27] INFO root fetch - processPackages [astronomer-starship]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-28 01:06:27] INFO root fetch - processPackages [tensorflow-estimator]: New version: [2.9.0rc0] Old Version: [2.9.0]
+[2023-06-28 01:06:27] INFO root fetch - processPackages [openpluginclient]: Downloading https://files.pythonhosted.org/packages/f8/bb/5278751e74bbf4ffb9adc8ffa7391d42fdf4b4f2a06e09ef13acf8bb6cb8/openpluginclient-0.1.5.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/9e/55/26d33343b48b50fa4dc4685f8b3e0736e48b584c1074261b8ca69dda2bd2/tmnt-cu101-0.7.0b20230625.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.0a1687905736] Old Version: [3.9.0a1687672134]
+[2023-06-28 01:06:27] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/f1/6e/ab5edbd173735efb035421e439282ab35dea267430a8049f476e1d08ff16/ml-starter-0.1.8.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230627] Old Version: [1.5.0.dev20230623]
+[2023-06-28 01:06:27] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/df/f7/55f6ec45d5c8459a5481b47623981a693547b72269bf3783d92aba92b0b9/tmnt-0.7.0b20230625.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/1e/fa/cb0640dfa7911b3b78fe56a15a6cb6f00961fa3080cb6f1fd420086d411e/tmnt-cu101-0.7.0b20230626.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [tensorflow-estimator]: Downloading https://files.pythonhosted.org/packages/61/e1/a72ec68403d91ba433018db58859fd4706642aa9d0fb44ff778934fc4c2c/tensorflow_estimator-2.9.0-py2.py3-none-any.whl
+[2023-06-28 01:06:27] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/44/9f/ffb6ae287f30a52a4bcc5aae269e948d3ffcd9bd7ab6aafda6ce73f567c8/ml-starter-0.1.9.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [astronomer-starship]: Downloading https://files.pythonhosted.org/packages/0f/01/e71bda20643f92ff89ae0fc63c99757056df560f54279a80a38495c27969/astronomer_starship-1.0.4.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [openpluginclient]: Downloading https://files.pythonhosted.org/packages/cb/64/979a7890c9ae9fa93396e0702372e9d5e641e90e82c183d7e6be5c0fcf63/openpluginclient-0.1.6.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/4e/60/926bf3b5781b2f61405229a08066f0ee8a52159aa5b34d430950c38ed951/flwr_nightly-1.5.0.dev20230623.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/7e/f9/e0206a320a51a1156ee8f6fcd4fd7ae2e0dc2a714a3d8f9a267f7a38ad06/pulumi_mongodbatlas-3.9.0a1687672134.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-28 01:06:27] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230625.tar.gz tmp/tmnt-cu101-0.7.0b20230626.tar.gz --markdown 20230628/t/tmnt-cu101/0.7.0b20230625-0.7.0b20230626/diff.md --exclude *.pyd
+[2023-06-28 01:06:27] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/5b/bf/87cdda9bd7c5ed47bed3e1c05985a50709a03e3c66bf151c00b7a15b677c/tmnt-0.7.0b20230626.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-06-28 01:06:27] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.8.tar.gz tmp/ml-starter-0.1.9.tar.gz --markdown 20230628/m/ml-starter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 01:06:27] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-06-28 01:06:27] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230628/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-28 01:06:27] INFO root fetch - processPackages [openpluginclient]: executing diffoscope
+[2023-06-28 01:06:27] INFO root fetch - processPackages [openpluginclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpluginclient-0.1.5.tar.gz tmp/openpluginclient-0.1.6.tar.gz --markdown 20230628/o/openpluginclient/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-28 01:06:27] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-28 01:06:27] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230625.tar.gz tmp/tmnt-0.7.0b20230626.tar.gz --markdown 20230628/t/tmnt/0.7.0b20230625-0.7.0b20230626/diff.md --exclude *.pyd
+[2023-06-28 01:06:27] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/cf/4c/634bc7019d003c175f129e73131b02e626a8ec48581770eae7a505fc14da/flwr_nightly-1.5.0.dev20230627.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [astronomer-starship]: Downloading https://files.pythonhosted.org/packages/b2/08/9a62716dd3631c7a561f6f590368f0845c73ba9a761c2a413739e0b132e2/astronomer_starship-1.0.5.tar.gz
+[2023-06-28 01:06:27] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-28 01:06:27] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230628/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-28 01:06:27] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/47/d2/19dc83b7997afcc258a1b257a64a54cdb1ffea7f7722a67a3664cf8bfde3/pulumi_mongodbatlas-3.9.0a1687905736.tar.gz
+[2023-06-28 01:06:28] INFO root fetch - processPackages [tensorflow-estimator]: Downloading https://files.pythonhosted.org/packages/57/60/7d9a3d28785d4191b14dcde9979c15e3d0f200fc657acd5c5d7cfb16e138/tensorflow_estimator-2.9.0rc0-py2.py3-none-any.whl
+[2023-06-28 01:06:28] INFO root fetch - processPackages [astronomer-starship]: executing diffoscope
+[2023-06-28 01:06:28] INFO root fetch - processPackages [astronomer-starship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer_starship-1.0.4.tar.gz tmp/astronomer_starship-1.0.5.tar.gz --markdown 20230628/a/astronomer-starship/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-28 01:06:28] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-06-28 01:06:28] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230623.tar.gz tmp/flwr_nightly-1.5.0.dev20230627.tar.gz --markdown 20230628/f/flwr-nightly/1.5.0.dev20230623-1.5.0.dev20230627/diff.md --exclude *.pyd
+[2023-06-28 01:06:28] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2023-06-28 01:06:28] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.0a1687672134.tar.gz tmp/pulumi_mongodbatlas-3.9.0a1687905736.tar.gz --markdown 20230628/p/pulumi-mongodbatlas/3.9.0a1687672134-3.9.0a1687905736/diff.md --exclude *.pyd
+[2023-06-28 01:06:28] INFO root fetch - processPackages [tensorflow-estimator]: executing diffoscope
+[2023-06-28 01:06:28] INFO root fetch - processPackages [tensorflow-estimator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_estimator-2.9.0-py2.py3-none-any.whl.zip tmp/tensorflow_estimator-2.9.0rc0-py2.py3-none-any.whl.zip --markdown 20230628/t/tensorflow-estimator/2.9.0-2.9.0rc0/diff.md --exclude *.pyd
+[2023-06-28 01:06:30] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230625.tar.gz]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230626.tar.gz]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [tmnt]: Start processing: cybrid-api-bank-python
+[2023-06-28 01:06:30] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-28 01:06:30] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.8.tar.gz]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [ml-starter]: Start processing: keras
+[2023-06-28 01:06:30] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-06-28 01:06:30] INFO root fetch - processPackages [keras]: New version: [2.9.0rc2] Old Version: [2.9.0rc1]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-06-28 01:06:30] INFO root fetch - processPackages [astronomer-starship]: Remove: archive file [/home/abi/fetcher/tmp/astronomer_starship-1.0.4.tar.gz]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [astronomer-starship]: Remove: archive file [/home/abi/fetcher/tmp/astronomer_starship-1.0.5.tar.gz]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [astronomer-starship]: Start processing: cybrid-api-id-python
+[2023-06-28 01:06:30] INFO root fetch - main [MainThread]: End processing [astronomer-starship]: success
+[2023-06-28 01:06:30] INFO root fetch - processPackages [keras]: Downloading https://files.pythonhosted.org/packages/5e/b6/32fb50c1116cfe9cb9ab0f12691e78899eba322bfa76ddad7b0ef2de290b/keras-2.9.0rc1-py2.py3-none-any.whl
+[2023-06-28 01:06:30] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [latch]: Start processing: cybrid-api-organization-python
+[2023-06-28 01:06:30] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-06-28 01:06:30] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-06-28 01:06:30] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-06-28 01:06:30] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230625.tar.gz]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230626.tar.gz]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [tmnt-cu101]: Start processing: data-ecosystem-flask
+[2023-06-28 01:06:30] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-28 01:06:30] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202306.0.33] Old Version: [202306.0.32]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-06-28 01:06:30] INFO root fetch - processPackages [openpluginclient]: Remove: archive file [/home/abi/fetcher/tmp/openpluginclient-0.1.5.tar.gz]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [openpluginclient]: Remove: archive file [/home/abi/fetcher/tmp/openpluginclient-0.1.6.tar.gz]
+[2023-06-28 01:06:30] INFO root fetch - main [MainThread]: End processing [openpluginclient]: success
+[2023-06-28 01:06:30] INFO root fetch - processPackages [keras]: Downloading https://files.pythonhosted.org/packages/73/3d/ccfb487c255c9fcb53bce542f3a7e36efae5af17223f8978014b7a4112c0/keras-2.9.0rc2-py2.py3-none-any.whl
+[2023-06-28 01:06:30] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-06-28 01:06:30] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230628/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-28 01:06:30] INFO root fetch - processPackages [tensorflow-estimator]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_estimator-2.9.0-py2.py3-none-any.whl.zip]
+[2023-06-28 01:06:30] INFO root fetch - processPackages [tensorflow-estimator]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_estimator-2.9.0rc0-py2.py3-none-any.whl.zip]
+[2023-06-28 01:06:30] INFO root fetch - main [MainThread]: End processing [tensorflow-estimator]: success
+[2023-06-28 01:06:30] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-06-28 01:06:30] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/29/5a/89dff5ad9f78305673bce0367b963475294afb4c38841137457520ecd0d6/data_ecosystem_flask-202306.0.32.tar.gz
+[2023-06-28 01:06:30] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-06-28 01:06:30] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230628/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-28 01:06:30] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-06-28 01:06:30] INFO root fetch - processPackages [keras]: executing diffoscope
+[2023-06-28 01:06:30] INFO root fetch - processPackages [keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-2.9.0rc1-py2.py3-none-any.whl.zip tmp/keras-2.9.0rc2-py2.py3-none-any.whl.zip --markdown 20230628/k/keras/2.9.0rc1-2.9.0rc2/diff.md --exclude *.pyd
+[2023-06-28 01:06:30] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/13/75/aeb89756d34738202a517508407bd93b3d17009e75c9017332f6f544cc58/data_ecosystem_flask-202306.0.33.tar.gz
+[2023-06-28 01:06:30] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-06-28 01:06:30] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230628/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-28 01:06:30] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-06-28 01:06:30] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202306.0.32.tar.gz tmp/data_ecosystem_flask-202306.0.33.tar.gz --markdown 20230628/d/data-ecosystem-flask/202306.0.32-202306.0.33/diff.md --exclude *.pyd
+[2023-06-28 01:06:31] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230623.tar.gz]
+[2023-06-28 01:06:31] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230627.tar.gz]
+[2023-06-28 01:06:32] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-06-28 01:06:32] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-06-28 01:06:32] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-06-28 01:06:32] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-06-28 01:06:32] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.0a1687672134.tar.gz]
+[2023-06-28 01:06:32] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.0a1687905736.tar.gz]
+[2023-06-28 01:06:32] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2023-06-28 01:06:32] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202306.0.32.tar.gz]
+[2023-06-28 01:06:32] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202306.0.33.tar.gz]
+[2023-06-28 01:06:32] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-06-28 01:06:32] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-06-28 01:06:32] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-06-28 01:06:32] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-06-28 01:06:35] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-06-28 01:06:35] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-06-28 01:06:35] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-06-28 01:06:38] INFO root fetch - processPackages [keras]: Remove: archive file [/home/abi/fetcher/tmp/keras-2.9.0rc1-py2.py3-none-any.whl.zip]
+[2023-06-28 01:06:38] INFO root fetch - processPackages [keras]: Remove: archive file [/home/abi/fetcher/tmp/keras-2.9.0rc2-py2.py3-none-any.whl.zip]
+[2023-06-28 01:06:38] INFO root fetch - main [MainThread]: End processing [keras]: success
+[2023-06-28 01:06:40] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-28 01:06:40] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-28 01:06:40] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-28 01:06:40] INFO root fetch - main [MainThread]: Store serial: [18669850]
