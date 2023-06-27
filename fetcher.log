@@ -1430,3 +1430,60 @@
 [2023-06-28 01:06:40] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-28 01:06:40] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-28 01:06:40] INFO root fetch - main [MainThread]: Store serial: [18669850]
+[2023-06-28 01:11:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18669850]
+[2023-06-28 01:11:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-28 01:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-htmx-autocomplete
+[2023-06-28 01:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: augmented-gpt
+[2023-06-28 01:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dune-iga
+[2023-06-28 01:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-28 01:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyscal-rdf
+[2023-06-28 01:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: depthai-sdk
+[2023-06-28 01:11:50] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.379] Old Version: [0.3.378]
+[2023-06-28 01:11:50] INFO root fetch - processPackages [augmented-gpt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-28 01:11:50] INFO root fetch - processPackages [django-htmx-autocomplete]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-28 01:11:50] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/98/0d/728a11c7b291c89e8916068515d662801450b8e332ec298ba4afe36e3bf7/pepperize.cdk-ses-smtp-credentials-0.3.378.tar.gz
+[2023-06-28 01:11:50] INFO root fetch - processPackages [depthai-sdk]: New version: [1.9.5] Old Version: [1.9.4.1]
+[2023-06-28 01:11:51] INFO root fetch - processPackages [dune-iga]: New version: [0.1.8.dev20230627230825] Old Version: [0.1.8.dev20230618204354]
+[2023-06-28 01:11:51] INFO root fetch - processPackages [augmented-gpt]: Downloading https://files.pythonhosted.org/packages/4e/9c/ec23e82c348c2d81c63471be9327bb888ff06643c4d8660a7f8340501d05/augmented_gpt-0.1.1.tar.gz
+[2023-06-28 01:11:51] INFO root fetch - processPackages [pyscal-rdf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 01:11:51] INFO root fetch - processPackages [augmented-gpt]: Downloading https://files.pythonhosted.org/packages/80/d7/0870dc16ea7de241315593d86c1a6789219981b892890f78b1701e1c35a5/augmented_gpt-0.1.2.tar.gz
+[2023-06-28 01:11:51] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/a4/ff/173f392f68146b01f1f5a8ba1868152a8338865b04995b338bd57778ec57/pepperize.cdk-ses-smtp-credentials-0.3.379.tar.gz
+[2023-06-28 01:11:51] INFO root fetch - processPackages [depthai-sdk]: Downloading https://files.pythonhosted.org/packages/20/eb/0df359cc2efb53018ab6bb3265e923186a11e3b4874f563e38ed961a4982/depthai-sdk-1.9.4.1.tar.gz
+[2023-06-28 01:11:51] INFO root fetch - processPackages [django-htmx-autocomplete]: Downloading https://files.pythonhosted.org/packages/0a/09/0c2d7ff9e58f46c809cdead9e9626ca63a3db62714da51bf6854ca1c7122/django-htmx-autocomplete-0.7.1.tar.gz
+[2023-06-28 01:11:51] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/4c/d5/fde1b4fac197b021f9ef6bbe7339d18c31d075374ad892b31bd8766f4af0/dune-iga-0.1.8.dev20230618204354.tar.gz
+[2023-06-28 01:11:51] INFO root fetch - processPackages [augmented-gpt]: executing diffoscope
+[2023-06-28 01:11:51] INFO root fetch - processPackages [augmented-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/augmented_gpt-0.1.1.tar.gz tmp/augmented_gpt-0.1.2.tar.gz --markdown 20230628/a/augmented-gpt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-28 01:11:51] INFO root fetch - processPackages [pyscal-rdf]: Downloading https://files.pythonhosted.org/packages/04/54/bf7e5d92ad74c3b176e626f9aca73b00337aa83fdf5fa33eea1f4d603301/pyscal_rdf-0.0.8.tar.gz
+[2023-06-28 01:11:51] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-28 01:11:51] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.378.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.379.tar.gz --markdown 20230628/p/pepperize.cdk-ses-smtp-credentials/0.3.378-0.3.379/diff.md --exclude *.pyd
+[2023-06-28 01:11:51] INFO root fetch - processPackages [django-htmx-autocomplete]: Downloading https://files.pythonhosted.org/packages/13/15/27985a6eff5de0481a34d67994551ab6a6c22ae1cab572e4e322a4d47c8d/django-htmx-autocomplete-0.8.0.tar.gz
+[2023-06-28 01:11:51] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/3e/f8/b64571d84b17c046832d3104a427d3fa4d87b26de04214ba8de9e4974199/dune-iga-0.1.8.dev20230627230825.tar.gz
+[2023-06-28 01:11:51] INFO root fetch - processPackages [pyscal-rdf]: Downloading https://files.pythonhosted.org/packages/82/a9/9a3fd59cf64235fa5874c1942120a967ca65204c9f100e13ddeae2199426/pyscal_rdf-0.0.9.tar.gz
+[2023-06-28 01:11:51] INFO root fetch - processPackages [dune-iga]: executing diffoscope
+[2023-06-28 01:11:51] INFO root fetch - processPackages [dune-iga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune-iga-0.1.8.dev20230618204354.tar.gz tmp/dune-iga-0.1.8.dev20230627230825.tar.gz --markdown 20230628/d/dune-iga/0.1.8.dev20230618204354-0.1.8.dev20230627230825/diff.md --exclude *.pyd
+[2023-06-28 01:11:51] INFO root fetch - processPackages [depthai-sdk]: Downloading https://files.pythonhosted.org/packages/8a/c6/52f9402b7ada5aae5bbcd8c9a70c488e99bfdb7e05ea708ea6bb2f02b64c/depthai-sdk-1.9.5.tar.gz
+[2023-06-28 01:11:51] INFO root fetch - processPackages [django-htmx-autocomplete]: executing diffoscope
+[2023-06-28 01:11:51] INFO root fetch - processPackages [django-htmx-autocomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-htmx-autocomplete-0.7.1.tar.gz tmp/django-htmx-autocomplete-0.8.0.tar.gz --markdown 20230628/d/django-htmx-autocomplete/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-28 01:11:51] INFO root fetch - processPackages [pyscal-rdf]: executing diffoscope
+[2023-06-28 01:11:51] INFO root fetch - processPackages [pyscal-rdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscal_rdf-0.0.8.tar.gz tmp/pyscal_rdf-0.0.9.tar.gz --markdown 20230628/p/pyscal-rdf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 01:11:51] INFO root fetch - processPackages [depthai-sdk]: executing diffoscope
+[2023-06-28 01:11:51] INFO root fetch - processPackages [depthai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depthai-sdk-1.9.4.1.tar.gz tmp/depthai-sdk-1.9.5.tar.gz --markdown 20230628/d/depthai-sdk/1.9.4.1-1.9.5/diff.md --exclude *.pyd
+[2023-06-28 01:11:52] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.378.tar.gz]
+[2023-06-28 01:11:52] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.379.tar.gz]
+[2023-06-28 01:11:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-28 01:11:52] INFO root fetch - processPackages [augmented-gpt]: Remove: archive file [/home/abi/fetcher/tmp/augmented_gpt-0.1.1.tar.gz]
+[2023-06-28 01:11:52] INFO root fetch - processPackages [augmented-gpt]: Remove: archive file [/home/abi/fetcher/tmp/augmented_gpt-0.1.2.tar.gz]
+[2023-06-28 01:11:52] INFO root fetch - main [MainThread]: End processing [augmented-gpt]: success
+[2023-06-28 01:11:52] INFO root fetch - processPackages [django-htmx-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/django-htmx-autocomplete-0.7.1.tar.gz]
+[2023-06-28 01:11:52] INFO root fetch - processPackages [django-htmx-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/django-htmx-autocomplete-0.8.0.tar.gz]
+[2023-06-28 01:11:52] INFO root fetch - main [MainThread]: End processing [django-htmx-autocomplete]: success
+[2023-06-28 01:11:52] INFO root fetch - processPackages [pyscal-rdf]: Remove: archive file [/home/abi/fetcher/tmp/pyscal_rdf-0.0.8.tar.gz]
+[2023-06-28 01:11:52] INFO root fetch - processPackages [pyscal-rdf]: Remove: archive file [/home/abi/fetcher/tmp/pyscal_rdf-0.0.9.tar.gz]
+[2023-06-28 01:11:52] INFO root fetch - main [MainThread]: End processing [pyscal-rdf]: success
+[2023-06-28 01:11:53] INFO root fetch - processPackages [dune-iga]: Remove: archive file [/home/abi/fetcher/tmp/dune-iga-0.1.8.dev20230618204354.tar.gz]
+[2023-06-28 01:11:53] INFO root fetch - processPackages [dune-iga]: Remove: archive file [/home/abi/fetcher/tmp/dune-iga-0.1.8.dev20230627230825.tar.gz]
+[2023-06-28 01:11:53] INFO root fetch - main [MainThread]: End processing [dune-iga]: success
+[2023-06-28 01:11:53] INFO root fetch - processPackages [depthai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/depthai-sdk-1.9.4.1.tar.gz]
+[2023-06-28 01:11:53] INFO root fetch - processPackages [depthai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/depthai-sdk-1.9.5.tar.gz]
+[2023-06-28 01:11:53] INFO root fetch - main [MainThread]: End processing [depthai-sdk]: success
+[2023-06-28 01:11:53] INFO root fetch - main [MainThread]: Store serial: [18669867]
