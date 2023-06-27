@@ -1235,3 +1235,60 @@
 [2023-06-28 00:55:45] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230627191637-py3-none-any.whl.zip]
 [2023-06-28 00:55:45] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-06-28 00:55:45] INFO root fetch - main [MainThread]: Store serial: [18669790]
+[2023-06-28 01:00:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18669790]
+[2023-06-28 01:00:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-28 01:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metricflow
+[2023-06-28 01:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yandil
+[2023-06-28 01:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaaql-middleware-python
+[2023-06-28 01:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-aws-native
+[2023-06-28 01:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-ecosystem-services
+[2023-06-28 01:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: WIDscript
+[2023-06-28 01:00:53] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.9.1a1641826769] Old Version: [0.9.1a1641824984]
+[2023-06-28 01:00:53] INFO root fetch - processPackages [metricflow]: New version: [0.93.0] Old Version: [0.92.1]
+[2023-06-28 01:00:53] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-28 01:00:53] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-28 01:00:53] INFO root fetch - processPackages [WIDscript]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-28 01:00:53] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2023-06-28 01:00:53] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-28 01:00:53] INFO root fetch - processPackages [yandil]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-28 01:00:53] INFO root fetch - processPackages [metricflow]: Downloading https://files.pythonhosted.org/packages/48/c0/df3a23893e69af35d2b44f7a54b4a898409d3b807860016dcad92e38c96e/metricflow-0.92.1.tar.gz
+[2023-06-28 01:00:53] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/89/ce/96408f528e6ba1eda1aea4b6573d97640f6288eac90da3e79f8e64f86ba8/pulumi_aws_native-0.9.1a1641824984.tar.gz
+[2023-06-28 01:00:53] INFO root fetch - processPackages [WIDscript]: Downloading https://files.pythonhosted.org/packages/ca/75/4adbd56584c62cdf623c43e1dfcb849b89b3944119d8f5051dc382390087/WIDscript-1.2.0.tar.gz
+[2023-06-28 01:00:54] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2023-06-28 01:00:54] INFO root fetch - processPackages [yandil]: Downloading https://files.pythonhosted.org/packages/83/68/666ef3d5ff1d51ff3a366e493ebefb88365a88a7237f28de08b1163a38b3/yandil-0.2.2.tar.gz
+[2023-06-28 01:00:54] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-06-28 01:00:54] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230628/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-28 01:00:54] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-28 01:00:54] INFO root fetch - processPackages [metricflow]: Downloading https://files.pythonhosted.org/packages/03/68/180ac09742d18eded44eac796173d6979f94ea672b47f02ceae672167dfa/metricflow-0.93.0.tar.gz
+[2023-06-28 01:00:54] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-28 01:00:54] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230628/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-28 01:00:54] INFO root fetch - processPackages [WIDscript]: Downloading https://files.pythonhosted.org/packages/59/7c/ab77a813c4d23a2894e0875ce92f2ce48aaf9d92a1e8f705afa1336f7835/WIDscript-1.2.1.tar.gz
+[2023-06-28 01:00:54] INFO root fetch - processPackages [metricflow]: executing diffoscope
+[2023-06-28 01:00:54] INFO root fetch - processPackages [metricflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricflow-0.92.1.tar.gz tmp/metricflow-0.93.0.tar.gz --markdown 20230628/m/metricflow/0.92.1-0.93.0/diff.md --exclude *.pyd
+[2023-06-28 01:00:54] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/c5/18/9e8b8df236b81bb0bae9bd78ac3551ff235749974974287ab4dd99269408/pulumi_aws_native-0.9.1a1641826769.tar.gz
+[2023-06-28 01:00:54] INFO root fetch - processPackages [yandil]: Downloading https://files.pythonhosted.org/packages/73/47/75699faf27a5c6475f8240cb6d02038978428cec24320af2ba0653a69dc5/yandil-0.2.3.tar.gz
+[2023-06-28 01:00:54] INFO root fetch - processPackages [WIDscript]: executing diffoscope
+[2023-06-28 01:00:54] INFO root fetch - processPackages [WIDscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WIDscript-1.2.0.tar.gz tmp/WIDscript-1.2.1.tar.gz --markdown 20230628/W/WIDscript/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-28 01:00:54] INFO root fetch - processPackages [yandil]: executing diffoscope
+[2023-06-28 01:00:54] INFO root fetch - processPackages [yandil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandil-0.2.2.tar.gz tmp/yandil-0.2.3.tar.gz --markdown 20230628/y/yandil/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-28 01:00:54] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2023-06-28 01:00:54] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz --markdown 20230628/p/pulumi-aws-native/0.9.1a1641824984-0.9.1a1641826769/diff.md --exclude *.pyd
+[2023-06-28 01:00:55] INFO root fetch - processPackages [WIDscript]: Remove: archive file [/home/abi/fetcher/tmp/WIDscript-1.2.0.tar.gz]
+[2023-06-28 01:00:55] INFO root fetch - processPackages [WIDscript]: Remove: archive file [/home/abi/fetcher/tmp/WIDscript-1.2.1.tar.gz]
+[2023-06-28 01:00:55] INFO root fetch - main [MainThread]: End processing [WIDscript]: success
+[2023-06-28 01:00:55] INFO root fetch - processPackages [yandil]: Remove: archive file [/home/abi/fetcher/tmp/yandil-0.2.2.tar.gz]
+[2023-06-28 01:00:55] INFO root fetch - processPackages [yandil]: Remove: archive file [/home/abi/fetcher/tmp/yandil-0.2.3.tar.gz]
+[2023-06-28 01:00:55] INFO root fetch - main [MainThread]: End processing [yandil]: success
+[2023-06-28 01:00:56] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-28 01:00:56] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-28 01:00:56] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-28 01:00:56] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2023-06-28 01:00:56] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2023-06-28 01:00:56] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-06-28 01:01:00] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.92.1.tar.gz]
+[2023-06-28 01:01:00] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.93.0.tar.gz]
+[2023-06-28 01:01:00] INFO root fetch - main [MainThread]: End processing [metricflow]: success
+[2023-06-28 01:01:18] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz]
+[2023-06-28 01:01:18] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
+[2023-06-28 01:01:18] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2023-06-28 01:01:18] INFO root fetch - main [MainThread]: Store serial: [18669807]
