@@ -1014,3 +1014,68 @@
 [2023-06-28 00:39:45] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.3.tar.gz]
 [2023-06-28 00:39:45] INFO root fetch - main [MainThread]: End processing [faker-file]: success
 [2023-06-28 00:39:45] INFO root fetch - main [MainThread]: Store serial: [18669710]
+[2023-06-28 00:44:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18669710]
+[2023-06-28 00:44:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-28 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redshift_client
+[2023-06-28 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: makemore
+[2023-06-28 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes
+[2023-06-28 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vollseg
+[2023-06-28 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: truss
+[2023-06-28 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unicon
+[2023-06-28 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hydrusvideodeduplicator
+[2023-06-28 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unicon.plugins
+[2023-06-28 00:44:54] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [4.0.0rc1] Old Version: [3.9.0]
+[2023-06-28 00:44:54] INFO root fetch - processPackages [hydrusvideodeduplicator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 00:44:54] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-28 00:44:54] INFO root fetch - processPackages [unicon.plugins]: New version: [23.6] Old Version: [23.5]
+[2023-06-28 00:44:54] INFO root fetch - processPackages [unicon]: New version: [3.4.7] Old Version: [3.4.6]
+[2023-06-28 00:44:54] INFO root fetch - processPackages [truss]: New version: [0.4.9rc9] Old Version: [0.4.9rc5]
+[2023-06-28 00:44:54] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/9e/7f/1ca7710c3caf8882500c947a59c6bc3a5ff3e3fef62ac8eee55ede556403/hydrusvideodeduplicator-0.1.8.tar.gz
+[2023-06-28 00:44:54] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/0f/a9/6759fd282fa569f4592dc30878e4ced26d260895c12602ac69c7737fe07f/pulumi_kubernetes-3.9.0.tar.gz
+[2023-06-28 00:44:54] INFO root fetch - processPackages [redshift_client]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-06-28 00:44:54] WARNING root fetch - processPackages [makemore]: Skipping, unable to determine old version
+[2023-06-28 00:44:54] INFO root fetch - main [MainThread]: End processing [makemore] error
+[2023-06-28 00:44:54] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-28 00:44:54] INFO root fetch - processPackages [unicon.plugins]: Downloading https://files.pythonhosted.org/packages/5b/ae/02b336d164cb99b1efffa9f836219a82757a795eebaf01715fa79516fd40/unicon.plugins-23.5-py3-none-any.whl
+[2023-06-28 00:44:54] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-28 00:44:54] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-28 00:44:54] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/26/b1/81e3c94beedc0ef950c2eaf14a3f18e55b160a9eb15647a97fbea97f60b7/hydrusvideodeduplicator-0.1.9.tar.gz
+[2023-06-28 00:44:54] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/53/7f/ee88b969dd6c46cb09ea7f0abd1c0511f0ed676e7ac3779e4c4b626730a9/pulumi_kubernetes-4.0.0rc1.tar.gz
+[2023-06-28 00:44:54] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/a5/ac/6da658c05b328c158997857f4315d9203f0c68cfcb1a90b247c8966bad5b/truss-0.4.9rc5.tar.gz
+[2023-06-28 00:44:54] INFO root fetch - processPackages [redshift_client]: Downloading https://files.pythonhosted.org/packages/ba/5a/a29dfc87a006cffcf9f67e8422d8126c4c710245dacd7c9552e5c0ae2bd7/redshift_client-2.0.0.tar.gz
+[2023-06-28 00:44:54] INFO root fetch - processPackages [unicon]: Downloading https://files.pythonhosted.org/packages/c7/c4/dbc56e68a9f16e836dd067ce6e31d0d0a287d2855c234b7595d61849d92c/unicon-3.4.6-cp36-cp36m-manylinux1_x86_64.whl
+[2023-06-28 00:44:54] INFO root fetch - processPackages [unicon.plugins]: Downloading https://files.pythonhosted.org/packages/e3/b6/b42903792213ce59923c86bb40bb1aa3818e64febf67b7d7a61cd406b06c/unicon.plugins-23.6-py3-none-any.whl
+[2023-06-28 00:44:55] INFO root fetch - processPackages [hydrusvideodeduplicator]: executing diffoscope
+[2023-06-28 00:44:55] INFO root fetch - processPackages [hydrusvideodeduplicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrusvideodeduplicator-0.1.8.tar.gz tmp/hydrusvideodeduplicator-0.1.9.tar.gz --markdown 20230628/h/hydrusvideodeduplicator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 00:44:55] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-06-28 00:44:55] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.9.0.tar.gz tmp/pulumi_kubernetes-4.0.0rc1.tar.gz --markdown 20230628/p/pulumi-kubernetes/3.9.0-4.0.0rc1/diff.md --exclude *.pyd
+[2023-06-28 00:44:55] INFO root fetch - processPackages [unicon.plugins]: executing diffoscope
+[2023-06-28 00:44:55] INFO root fetch - processPackages [unicon.plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicon.plugins-23.5-py3-none-any.whl.zip tmp/unicon.plugins-23.6-py3-none-any.whl.zip --markdown 20230628/u/unicon.plugins/23.5-23.6/diff.md --exclude *.pyd
+[2023-06-28 00:44:55] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/92/97/5f78d50e5618eaf7c5f3f918d7ea2a494d65cb8ebc0daf5e329af774240d/truss-0.4.9rc9.tar.gz
+[2023-06-28 00:44:55] INFO root fetch - processPackages [redshift_client]: Downloading https://files.pythonhosted.org/packages/5d/5b/9c629d46a31c23c1b44991a7c0e0e14f7e342c1330319230c010f60e5ed3/redshift_client-3.0.0.tar.gz
+[2023-06-28 00:44:55] INFO root fetch - processPackages [truss]: executing diffoscope
+[2023-06-28 00:44:55] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.4.9rc5.tar.gz tmp/truss-0.4.9rc9.tar.gz --markdown 20230628/t/truss/0.4.9rc5-0.4.9rc9/diff.md --exclude *.pyd
+[2023-06-28 00:44:55] INFO root fetch - processPackages [unicon]: Downloading https://files.pythonhosted.org/packages/c2/82/a640871e161b7e3c507a83aeb3c985efb918111f3f8f5333639af67063f4/unicon-3.4.7-cp36-cp36m-manylinux1_x86_64.whl
+[2023-06-28 00:44:55] INFO root fetch - processPackages [redshift_client]: executing diffoscope
+[2023-06-28 00:44:55] INFO root fetch - processPackages [redshift_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redshift_client-2.0.0.tar.gz tmp/redshift_client-3.0.0.tar.gz --markdown 20230628/r/redshift_client/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-06-28 00:44:55] INFO root fetch - processPackages [unicon]: executing diffoscope
+[2023-06-28 00:44:55] INFO root fetch - processPackages [unicon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicon-3.4.6-cp36-cp36m-manylinux1_x86_64.whl.zip tmp/unicon-3.4.7-cp36-cp36m-manylinux1_x86_64.whl.zip --markdown 20230628/u/unicon/3.4.6-3.4.7/diff.md --exclude *.pyd
+[2023-06-28 00:44:56] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.8.tar.gz]
+[2023-06-28 00:44:56] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.9.tar.gz]
+[2023-06-28 00:44:56] INFO root fetch - main [MainThread]: End processing [hydrusvideodeduplicator]: success
+[2023-06-28 00:44:56] INFO root fetch - processPackages [redshift_client]: Remove: archive file [/home/abi/fetcher/tmp/redshift_client-2.0.0.tar.gz]
+[2023-06-28 00:44:56] INFO root fetch - processPackages [redshift_client]: Remove: archive file [/home/abi/fetcher/tmp/redshift_client-3.0.0.tar.gz]
+[2023-06-28 00:44:56] INFO root fetch - main [MainThread]: End processing [redshift_client]: success
+[2023-06-28 00:44:57] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc5.tar.gz]
+[2023-06-28 00:44:57] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc9.tar.gz]
+[2023-06-28 00:44:57] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2023-06-28 00:45:03] INFO root fetch - processPackages [unicon.plugins]: Remove: archive file [/home/abi/fetcher/tmp/unicon.plugins-23.5-py3-none-any.whl.zip]
+[2023-06-28 00:45:03] INFO root fetch - processPackages [unicon.plugins]: Remove: archive file [/home/abi/fetcher/tmp/unicon.plugins-23.6-py3-none-any.whl.zip]
+[2023-06-28 00:45:03] INFO root fetch - main [MainThread]: End processing [unicon.plugins]: success
+[2023-06-28 00:45:06] INFO root fetch - processPackages [unicon]: Remove: archive file [/home/abi/fetcher/tmp/unicon-3.4.6-cp36-cp36m-manylinux1_x86_64.whl.zip]
+[2023-06-28 00:45:06] INFO root fetch - processPackages [unicon]: Remove: archive file [/home/abi/fetcher/tmp/unicon-3.4.7-cp36-cp36m-manylinux1_x86_64.whl.zip]
+[2023-06-28 00:45:06] INFO root fetch - main [MainThread]: End processing [unicon]: success
+[2023-06-28 00:45:06] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-3.9.0.tar.gz]
+[2023-06-28 00:45:06] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.0.0rc1.tar.gz]
+[2023-06-28 00:45:06] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-06-28 00:45:06] INFO root fetch - main [MainThread]: Store serial: [18669747]
