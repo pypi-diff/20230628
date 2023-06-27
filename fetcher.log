@@ -560,3 +560,150 @@
 [2023-06-28 00:13:32] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.4.tar.gz]
 [2023-06-28 00:13:32] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2023-06-28 00:13:32] INFO root fetch - main [MainThread]: Store serial: [18669550]
+[2023-06-28 00:18:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18669550]
+[2023-06-28 00:18:44] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-28 00:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frccontrol
+[2023-06-28 00:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysatNASA
+[2023-06-28 00:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-metrics-converter
+[2023-06-28 00:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypothesis
+[2023-06-28 00:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-group-by-class
+[2023-06-28 00:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: google-translate-django4
+[2023-06-28 00:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: layrz-sdk
+[2023-06-28 00:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: few-shot-priming
+[2023-06-28 00:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-vsphere
+[2023-06-28 00:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyintelx
+[2023-06-28 00:18:44] INFO root fetch - processPackages [hypothesis]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-28 00:18:44] INFO root fetch - processPackages [pyintelx]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-28 00:18:44] INFO root fetch - processPackages [dbt-metrics-converter]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-28 00:18:44] INFO root fetch - processPackages [pytest-group-by-class]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-28 00:18:44] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-28 00:18:44] INFO root fetch - processPackages [pyintelx]: Downloading https://files.pythonhosted.org/packages/2b/85/dc8775054c476a258915ca6266aba2e0ed8a04489cd680758901d8e927eb/pyintelx-0.1.2.tar.gz
+[2023-06-28 00:18:44] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/21/51/090644a56a1ccd0bd639535632ae004a14748414c625a4ee110764a147f5/hypothesis-6.9.1.tar.gz
+[2023-06-28 00:18:44] INFO root fetch - processPackages [pysatNASA]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-28 00:18:44] INFO root fetch - processPackages [google-translate-django4]: New version: [0.4] Old Version: [0.3]
+[2023-06-28 00:18:44] INFO root fetch - processPackages [frccontrol]: New version: [2023.30] Old Version: [2023.29]
+[2023-06-28 00:18:44] INFO root fetch - processPackages [layrz-sdk]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-28 00:18:44] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-28 00:18:44] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.6.0a1687903041] Old Version: [4.6.0a1687758153]
+[2023-06-28 00:18:44] INFO root fetch - processPackages [pytest-group-by-class]: Downloading https://files.pythonhosted.org/packages/3d/63/aa025efb2f9dc8354ccb2becae83f40060f3eb9ae85a70549b7a27b3c932/pytest-group-by-class-0.1.3.tar.gz
+[2023-06-28 00:18:44] INFO root fetch - processPackages [dbt-metrics-converter]: Downloading https://files.pythonhosted.org/packages/8e/9e/4d3f638c75455c302de3ae4eda971e9530099f3293dac59d1b0d9a03860f/dbt_metrics_converter-0.1.0.tar.gz
+[2023-06-28 00:18:44] INFO root fetch - processPackages [pysatNASA]: Downloading https://files.pythonhosted.org/packages/75/71/b783051fdc5e5e541e0e178d88333153108d6e3e06f162809c06f98f04ab/pysatNASA-0.0.4.tar.gz
+[2023-06-28 00:18:44] INFO root fetch - processPackages [pyintelx]: Downloading https://files.pythonhosted.org/packages/c0/15/06a7ac3e322632f596d1534f8871f415549def5f9b012213ad9bd4080ae8/pyintelx-0.1.3.tar.gz
+[2023-06-28 00:18:44] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/9f/55/ca134a35ade2848ccb6a38038cbdc144c8d975ba9f8535f980233784f3a5/hypothesis-6.9.2.tar.gz
+[2023-06-28 00:18:44] INFO root fetch - processPackages [layrz-sdk]: Downloading https://files.pythonhosted.org/packages/4a/f2/c4c42e5841f95eba37b0ee2f73b82e16a51e889a5f0269702f7f8ccf37e1/layrz-sdk-2.0.1.tar.gz
+[2023-06-28 00:18:44] INFO root fetch - processPackages [frccontrol]: Downloading https://files.pythonhosted.org/packages/df/4d/18b37660649f58820907d4e76dd274ba3f01ec5625795663466ced1ebf59/frccontrol-2023.29.tar.gz
+[2023-06-28 00:18:44] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/6a/c6/e7a7b5bd777c1a233efedea240643236ec417ac0c000e9d5e2da94991035/pulumi_vsphere-4.6.0a1687758153.tar.gz
+[2023-06-28 00:18:44] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-28 00:18:44] INFO root fetch - processPackages [google-translate-django4]: Downloading https://files.pythonhosted.org/packages/ce/5f/c53bbfd4440ac3bd27a8a24c51059aa8f5255b12e13ee7bed302bc7254cc/google_translate_django4-0.3.tar.gz
+[2023-06-28 00:18:44] INFO root fetch - processPackages [pyintelx]: executing diffoscope
+[2023-06-28 00:18:44] INFO root fetch - processPackages [pyintelx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyintelx-0.1.2.tar.gz tmp/pyintelx-0.1.3.tar.gz --markdown 20230628/p/pyintelx/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-28 00:18:44] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2023-06-28 00:18:44] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.9.1.tar.gz tmp/hypothesis-6.9.2.tar.gz --markdown 20230628/h/hypothesis/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-28 00:18:44] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-28 00:18:44] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230628/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 00:18:45] INFO root fetch - processPackages [dbt-metrics-converter]: Downloading https://files.pythonhosted.org/packages/6b/31/637b83b1ac4c3a69e1cb0291112ed098da49fbe67b9e99cdc7bb0d7265d0/dbt_metrics_converter-0.1.1.tar.gz
+[2023-06-28 00:18:45] INFO root fetch - processPackages [pysatNASA]: Downloading https://files.pythonhosted.org/packages/a6/86/3d80f8f3d21f860b9402b5fb20dc4d08e0b85355118221206da89f70c901/pysatNASA-0.0.5.tar.gz
+[2023-06-28 00:18:45] INFO root fetch - processPackages [dbt-metrics-converter]: executing diffoscope
+[2023-06-28 00:18:45] INFO root fetch - processPackages [dbt-metrics-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_metrics_converter-0.1.0.tar.gz tmp/dbt_metrics_converter-0.1.1.tar.gz --markdown 20230628/d/dbt-metrics-converter/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-28 00:18:45] INFO root fetch - processPackages [frccontrol]: Downloading https://files.pythonhosted.org/packages/2a/3a/c2403ba601fc3758eed57247008928016ed735678ab84bbe378e0b6b1c78/frccontrol-2023.30.tar.gz
+[2023-06-28 00:18:45] INFO root fetch - processPackages [google-translate-django4]: Downloading https://files.pythonhosted.org/packages/d3/2d/09cbf00675801a659a202c0b40ac71d396072a2104cd10ea4690ba56db88/google_translate_django4-0.4.tar.gz
+[2023-06-28 00:18:45] INFO root fetch - processPackages [pytest-group-by-class]: Downloading https://files.pythonhosted.org/packages/b6/e5/b29af76b65aa0414ae810867b52b173f8f05a63dc31c6d6b3fbd3967aada/pytest-group-by-class-0.1.4.tar.gz
+[2023-06-28 00:18:45] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/9a/a4/fea7d4828b2ff2184a1be700ea77e371814f0e4d3e1de5528e470f9eb4e6/pulumi_vsphere-4.6.0a1687903041.tar.gz
+[2023-06-28 00:18:45] INFO root fetch - processPackages [pysatNASA]: executing diffoscope
+[2023-06-28 00:18:45] INFO root fetch - processPackages [pysatNASA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysatNASA-0.0.4.tar.gz tmp/pysatNASA-0.0.5.tar.gz --markdown 20230628/p/pysatNASA/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-28 00:18:45] INFO root fetch - processPackages [layrz-sdk]: Downloading https://files.pythonhosted.org/packages/06/9f/ece9590690a503c972b2b5e1c0703ebc9e2b5bd13e4d03a15889543077a6/layrz-sdk-2.0.2.tar.gz
+[2023-06-28 00:18:45] INFO root fetch - processPackages [google-translate-django4]: executing diffoscope
+[2023-06-28 00:18:45] INFO root fetch - processPackages [google-translate-django4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_translate_django4-0.3.tar.gz tmp/google_translate_django4-0.4.tar.gz --markdown 20230628/g/google-translate-django4/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-28 00:18:45] INFO root fetch - processPackages [frccontrol]: executing diffoscope
+[2023-06-28 00:18:45] INFO root fetch - processPackages [frccontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frccontrol-2023.29.tar.gz tmp/frccontrol-2023.30.tar.gz --markdown 20230628/f/frccontrol/2023.29-2023.30/diff.md --exclude *.pyd
+[2023-06-28 00:18:45] INFO root fetch - processPackages [layrz-sdk]: executing diffoscope
+[2023-06-28 00:18:45] INFO root fetch - processPackages [layrz-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layrz-sdk-2.0.1.tar.gz tmp/layrz-sdk-2.0.2.tar.gz --markdown 20230628/l/layrz-sdk/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-28 00:18:45] INFO root fetch - processPackages [pytest-group-by-class]: executing diffoscope
+[2023-06-28 00:18:45] INFO root fetch - processPackages [pytest-group-by-class]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-group-by-class-0.1.3.tar.gz tmp/pytest-group-by-class-0.1.4.tar.gz --markdown 20230628/p/pytest-group-by-class/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-28 00:18:45] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2023-06-28 00:18:45] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.6.0a1687758153.tar.gz tmp/pulumi_vsphere-4.6.0a1687903041.tar.gz --markdown 20230628/p/pulumi-vsphere/4.6.0a1687758153-4.6.0a1687903041/diff.md --exclude *.pyd
+[2023-06-28 00:18:46] INFO root fetch - processPackages [pyintelx]: Remove: archive file [/home/abi/fetcher/tmp/pyintelx-0.1.2.tar.gz]
+[2023-06-28 00:18:46] INFO root fetch - processPackages [pyintelx]: Remove: archive file [/home/abi/fetcher/tmp/pyintelx-0.1.3.tar.gz]
+[2023-06-28 00:18:46] INFO root fetch - processPackages [pyintelx]: Start processing: hspylib-clitt
+[2023-06-28 00:18:46] INFO root fetch - main [MainThread]: End processing [pyintelx]: success
+[2023-06-28 00:18:46] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-28 00:18:46] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/a0/0f/42b890c8f02902edfff9f8ea73ea79d8acfea76c705b6966ff73e809437a/hspylib-clitt-0.9.8.tar.gz
+[2023-06-28 00:18:46] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/47/f9/72c8e44dc280a8f3542b8890670b05e5c03581d2712648f572e4b0717836/hspylib-clitt-0.9.9.tar.gz
+[2023-06-28 00:18:46] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-28 00:18:46] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-28 00:18:46] INFO root fetch - processPackages [few-shot-priming]: Start processing: dtschema
+[2023-06-28 00:18:46] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-28 00:18:46] INFO root fetch - processPackages [dtschema]: New version: [2023.6] Old Version: [2023.4]
+[2023-06-28 00:18:46] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2023-06-28 00:18:46] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.8.tar.gz tmp/hspylib-clitt-0.9.9.tar.gz --markdown 20230628/h/hspylib-clitt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-28 00:18:46] INFO root fetch - processPackages [dbt-metrics-converter]: Remove: archive file [/home/abi/fetcher/tmp/dbt_metrics_converter-0.1.0.tar.gz]
+[2023-06-28 00:18:46] INFO root fetch - processPackages [dbt-metrics-converter]: Remove: archive file [/home/abi/fetcher/tmp/dbt_metrics_converter-0.1.1.tar.gz]
+[2023-06-28 00:18:46] INFO root fetch - processPackages [dbt-metrics-converter]: Start processing: pulumi-azuredevops
+[2023-06-28 00:18:46] INFO root fetch - main [MainThread]: End processing [dbt-metrics-converter]: success
+[2023-06-28 00:18:46] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [2.9.0a1687903032] Old Version: [2.8.0a1683661270]
+[2023-06-28 00:18:46] INFO root fetch - processPackages [dtschema]: Downloading https://files.pythonhosted.org/packages/e3/70/f19d8f7c0ad527a368d06a7acb1091f82916a0fcb4953942da96eb6e3456/dtschema-2023.4.tar.gz
+[2023-06-28 00:18:46] INFO root fetch - processPackages [frccontrol]: Remove: archive file [/home/abi/fetcher/tmp/frccontrol-2023.29.tar.gz]
+[2023-06-28 00:18:46] INFO root fetch - processPackages [frccontrol]: Remove: archive file [/home/abi/fetcher/tmp/frccontrol-2023.30.tar.gz]
+[2023-06-28 00:18:46] INFO root fetch - processPackages [frccontrol]: Start processing: iamactionhunter
+[2023-06-28 00:18:46] INFO root fetch - main [MainThread]: End processing [frccontrol]: success
+[2023-06-28 00:18:46] INFO root fetch - processPackages [iamactionhunter]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-28 00:18:46] INFO root fetch - processPackages [iamactionhunter]: Downloading https://files.pythonhosted.org/packages/bc/de/142e3043def1f716d3d14ab16b34d62b6becf7ef80140b321d70d71787dd/iamactionhunter-1.0.1.tar.gz
+[2023-06-28 00:18:46] INFO root fetch - processPackages [google-translate-django4]: Remove: archive file [/home/abi/fetcher/tmp/google_translate_django4-0.3.tar.gz]
+[2023-06-28 00:18:46] INFO root fetch - processPackages [google-translate-django4]: Remove: archive file [/home/abi/fetcher/tmp/google_translate_django4-0.4.tar.gz]
+[2023-06-28 00:18:46] INFO root fetch - processPackages [google-translate-django4]: Start processing: khoj-assistant
+[2023-06-28 00:18:46] INFO root fetch - main [MainThread]: End processing [google-translate-django4]: success
+[2023-06-28 00:18:46] INFO root fetch - processPackages [dtschema]: Downloading https://files.pythonhosted.org/packages/24/cc/a5d1cdf1e1f2be9579e22fe85f9a35d677c5a6ad36c0c590e60ea532fa72/dtschema-2023.6.tar.gz
+[2023-06-28 00:18:46] INFO root fetch - processPackages [pytest-group-by-class]: Remove: archive file [/home/abi/fetcher/tmp/pytest-group-by-class-0.1.3.tar.gz]
+[2023-06-28 00:18:46] INFO root fetch - processPackages [pytest-group-by-class]: Remove: archive file [/home/abi/fetcher/tmp/pytest-group-by-class-0.1.4.tar.gz]
+[2023-06-28 00:18:46] INFO root fetch - processPackages [pytest-group-by-class]: Start processing: domolibrary
+[2023-06-28 00:18:46] INFO root fetch - main [MainThread]: End processing [pytest-group-by-class]: success
+[2023-06-28 00:18:47] INFO root fetch - processPackages [iamactionhunter]: Downloading https://files.pythonhosted.org/packages/0f/b0/e6a1ca4d32fc4d584ecb1c406891162ec2eb0ca30e24b46b83c5d88c0248/iamactionhunter-1.0.2.tar.gz
+[2023-06-28 00:18:47] INFO root fetch - processPackages [pysatNASA]: Remove: archive file [/home/abi/fetcher/tmp/pysatNASA-0.0.4.tar.gz]
+[2023-06-28 00:18:47] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/ee/b5/8577c72817679966c6efcd8791b99965585e0f2db3292b73535c3b759904/pulumi_azuredevops-2.8.0a1683661270.tar.gz
+[2023-06-28 00:18:47] INFO root fetch - processPackages [pysatNASA]: Remove: archive file [/home/abi/fetcher/tmp/pysatNASA-0.0.5.tar.gz]
+[2023-06-28 00:18:47] INFO root fetch - main [MainThread]: End processing [pysatNASA]: success
+[2023-06-28 00:18:47] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.88]
+[2023-06-28 00:18:47] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev98] Old Version: [0.6.3.dev97]
+[2023-06-28 00:18:47] INFO root fetch - processPackages [dtschema]: executing diffoscope
+[2023-06-28 00:18:47] INFO root fetch - processPackages [dtschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtschema-2023.4.tar.gz tmp/dtschema-2023.6.tar.gz --markdown 20230628/d/dtschema/2023.4-2023.6/diff.md --exclude *.pyd
+[2023-06-28 00:18:47] INFO root fetch - processPackages [iamactionhunter]: executing diffoscope
+[2023-06-28 00:18:47] INFO root fetch - processPackages [iamactionhunter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamactionhunter-1.0.1.tar.gz tmp/iamactionhunter-1.0.2.tar.gz --markdown 20230628/i/iamactionhunter/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-28 00:18:47] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/f4/35/b18851f811c7e85f40b5b8d8adc9ddd91dc69e657bd0d7e4c6163810cfdb/domolibrary-0.1.88.tar.gz
+[2023-06-28 00:18:47] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/52/3e/00e8a7320c4f8c9c3debe4b1423c02ef13f01f377e74630e1cc35e085a3a/khoj_assistant-0.6.3.dev97.tar.gz
+[2023-06-28 00:18:47] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/e1/18/3ed6670b5ec2da218207a72ee629edf8e9be664398be7789b637bfd9d500/pulumi_azuredevops-2.9.0a1687903032.tar.gz
+[2023-06-28 00:18:47] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ba/75/5a59616fc27c68dfb4e04e111a598384360b36ecbd4ac5c10bfb80277305/domolibrary-0.1.9.tar.gz
+[2023-06-28 00:18:47] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2023-06-28 00:18:47] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-2.8.0a1683661270.tar.gz tmp/pulumi_azuredevops-2.9.0a1687903032.tar.gz --markdown 20230628/p/pulumi-azuredevops/2.8.0a1683661270-2.9.0a1687903032/diff.md --exclude *.pyd
+[2023-06-28 00:18:47] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-06-28 00:18:47] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.88.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230628/d/domolibrary/0.1.88-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 00:18:47] INFO root fetch - processPackages [layrz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/layrz-sdk-2.0.1.tar.gz]
+[2023-06-28 00:18:47] INFO root fetch - processPackages [layrz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/layrz-sdk-2.0.2.tar.gz]
+[2023-06-28 00:18:47] INFO root fetch - main [MainThread]: End processing [layrz-sdk]: success
+[2023-06-28 00:18:47] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/9d/ff/7cbd5090c4832c8d2352fba09f03c093a4d17e209c1cf794a07d2b16b554/khoj_assistant-0.6.3.dev98.tar.gz
+[2023-06-28 00:18:47] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-06-28 00:18:47] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev97.tar.gz tmp/khoj_assistant-0.6.3.dev98.tar.gz --markdown 20230628/k/khoj-assistant/0.6.3.dev97-0.6.3.dev98/diff.md --exclude *.pyd
+[2023-06-28 00:18:48] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.8.tar.gz]
+[2023-06-28 00:18:48] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.9.tar.gz]
+[2023-06-28 00:18:48] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2023-06-28 00:18:48] INFO root fetch - processPackages [iamactionhunter]: Remove: archive file [/home/abi/fetcher/tmp/iamactionhunter-1.0.1.tar.gz]
+[2023-06-28 00:18:48] INFO root fetch - processPackages [iamactionhunter]: Remove: archive file [/home/abi/fetcher/tmp/iamactionhunter-1.0.2.tar.gz]
+[2023-06-28 00:18:48] INFO root fetch - main [MainThread]: End processing [iamactionhunter]: success
+[2023-06-28 00:18:48] INFO root fetch - processPackages [dtschema]: Remove: archive file [/home/abi/fetcher/tmp/dtschema-2023.4.tar.gz]
+[2023-06-28 00:18:48] INFO root fetch - processPackages [dtschema]: Remove: archive file [/home/abi/fetcher/tmp/dtschema-2023.6.tar.gz]
+[2023-06-28 00:18:48] INFO root fetch - main [MainThread]: End processing [dtschema]: success
+[2023-06-28 00:18:49] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev97.tar.gz]
+[2023-06-28 00:18:49] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev98.tar.gz]
+[2023-06-28 00:18:49] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-06-28 00:18:49] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.1.tar.gz]
+[2023-06-28 00:18:49] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.2.tar.gz]
+[2023-06-28 00:18:49] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2023-06-28 00:18:49] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.88.tar.gz]
+[2023-06-28 00:18:49] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.9.tar.gz]
+[2023-06-28 00:18:49] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-06-28 00:18:50] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-2.8.0a1683661270.tar.gz]
+[2023-06-28 00:18:50] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-2.9.0a1687903032.tar.gz]
+[2023-06-28 00:18:50] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2023-06-28 00:18:51] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.6.0a1687758153.tar.gz]
+[2023-06-28 00:18:51] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.6.0a1687903041.tar.gz]
+[2023-06-28 00:18:51] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2023-06-28 00:18:51] INFO root fetch - main [MainThread]: Store serial: [18669595]
