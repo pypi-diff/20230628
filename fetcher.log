@@ -13481,3 +13481,120 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 04:52:25] INFO root fetch - processPackages [sparseSEM]: Remove: archive file [/home/abi/fetcher/tmp/sparseSEM-2.0.tar.gz]
 [2023-06-28 04:52:25] INFO root fetch - main [MainThread]: End processing [sparseSEM]: success
 [2023-06-28 04:52:25] INFO root fetch - main [MainThread]: Store serial: [18673981]
+[2023-06-28 04:57:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18673981]
+[2023-06-28 04:57:35] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-28 04:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: topgrade
+[2023-06-28 04:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iPLAN
+[2023-06-28 04:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mobio-media-sdk-test
+[2023-06-28 04:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypomes-store
+[2023-06-28 04:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iam-actions
+[2023-06-28 04:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fast-brainfuck
+[2023-06-28 04:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-statement-import-base
+[2023-06-28 04:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastaws
+[2023-06-28 04:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: theseus-ai
+[2023-06-28 04:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aio-aws
+[2023-06-28 04:57:35] WARNING root fetch - processPackages [iPLAN]: Skipping, unable to determine old version
+[2023-06-28 04:57:35] INFO root fetch - processPackages [iPLAN]: Start processing: guniflask
+[2023-06-28 04:57:35] INFO root fetch - main [MainThread]: End processing [iPLAN] error
+[2023-06-28 04:57:35] INFO root fetch - processPackages [fast-brainfuck]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-28 04:57:35] INFO root fetch - processPackages [pypomes-store]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-28 04:57:35] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230627] Old Version: [1.2.20230626]
+[2023-06-28 04:57:35] INFO root fetch - processPackages [topgrade]: New version: [12.0.0] Old Version: [11.0.2]
+[2023-06-28 04:57:35] INFO root fetch - processPackages [fast-brainfuck]: Downloading https://files.pythonhosted.org/packages/cc/6b/56bd8ff49911896b8993c7cf60acba8d42b2212b8981dfc2053e28b0336c/fast-brainfuck-1.0.7.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [fastaws]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 04:57:35] INFO root fetch - processPackages [mobio-media-sdk-test]: New version: [0.2.9] Old Version: [0.2.12]
+[2023-06-28 04:57:35] INFO root fetch - processPackages [aio-aws]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-28 04:57:35] INFO root fetch - processPackages [odoo-addon-account-statement-import-base]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2023-06-28 04:57:35] INFO root fetch - processPackages [theseus-ai]: New version: [0.2.0.dev0] Old Version: [0.2.0]
+[2023-06-28 04:57:35] INFO root fetch - processPackages [guniflask]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-28 04:57:35] INFO root fetch - processPackages [pypomes-store]: Downloading https://files.pythonhosted.org/packages/15/a5/c3ca8f3ec9f01e5c3fe5b0ef2cd3af09361f41cc0b495a56d9a5b33e4af8/pypomes_store-0.1.1.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/27/55/4ec243255b17668ed5c4fe3d084c3d33c1c2bed41a534037aded0f9f94c2/iam_actions-1.2.20230626.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [fast-brainfuck]: Downloading https://files.pythonhosted.org/packages/8f/57/fb898681c9c4bb1e949bf992edccfc3d1040edcb4e5dd241a38d8eae18bf/fast-brainfuck-1.0.8.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [mobio-media-sdk-test]: Downloading https://files.pythonhosted.org/packages/3f/73/25ceedf722e564d1d7c6a6747af98c97311c5f7bfbedfde860137a29786b/mobio-media-sdk-test-0.2.12.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [theseus-ai]: Downloading https://files.pythonhosted.org/packages/27/ff/51a4123ff2bab092a459b428ce6820f89bc40f4c529b68e30a8252776f0b/theseus-ai-0.2.0.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [topgrade]: Downloading https://files.pythonhosted.org/packages/9d/6e/c665c03c2fd50673dce3b4c10cc6649acc0b06ac370c9f5db73f3c69e7cb/topgrade-11.0.2-py3-none-win_amd64.whl
+[2023-06-28 04:57:35] INFO root fetch - processPackages [odoo-addon-account-statement-import-base]: Downloading https://files.pythonhosted.org/packages/d1/78/5c0f7d3c5ebe13316c8e28f3f885377b53218052fc248bcb3ddcc6f745a4/odoo_addon_account_statement_import_base-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-28 04:57:35] INFO root fetch - processPackages [aio-aws]: Downloading https://files.pythonhosted.org/packages/77/3b/17135f7a819a2b506ddab5657e680f0ef974d5900ebe4b93765b88d221f9/aio-aws-0.8.0.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [guniflask]: Downloading https://files.pythonhosted.org/packages/19/c1/c50a2fd6807a0870609e65502a1ad0af39bd31410b096749f28ec8d966d3/guniflask-0.9.1.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [fastaws]: Downloading https://files.pythonhosted.org/packages/be/a2/3809b4e5305bcafe3aa1b7147b1190a51a6d4562627873b4dd46ec8dddb6/fastaws-0.0.8.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [fast-brainfuck]: executing diffoscope
+[2023-06-28 04:57:35] INFO root fetch - processPackages [fast-brainfuck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-brainfuck-1.0.7.tar.gz tmp/fast-brainfuck-1.0.8.tar.gz --markdown 20230628/f/fast-brainfuck/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-28 04:57:35] INFO root fetch - processPackages [pypomes-store]: Downloading https://files.pythonhosted.org/packages/20/6a/bdecf4766ed81ef1db59f5655c02324293da6208ea2b30f63e4341fbd309/pypomes_store-0.1.2.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [pypomes-store]: executing diffoscope
+[2023-06-28 04:57:35] INFO root fetch - processPackages [pypomes-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_store-0.1.1.tar.gz tmp/pypomes_store-0.1.2.tar.gz --markdown 20230628/p/pypomes-store/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-28 04:57:35] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/78/7b/587ba9d9aa460ac4886a32103fae9868d0223298abc8eb165e973c047c9b/iam_actions-1.2.20230627.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [topgrade]: Downloading https://files.pythonhosted.org/packages/c3/12/c74770e51c123646258d7a37fe59cf3617ff9adde98de22dce0c416e7947/topgrade-12.0.0.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [aio-aws]: Downloading https://files.pythonhosted.org/packages/4d/bc/9acf7f7c05011fe1a5002ddee28c7c54ef512c16ffaed8aca6ea64bcd8f5/aio-aws-0.9.0.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [theseus-ai]: Downloading https://files.pythonhosted.org/packages/43/82/a7bb67124f684d1cbc08497392bb433b3b95488aa3ea71c7b1b1653ad767/theseus-ai-0.2.0.dev0.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [odoo-addon-account-statement-import-base]: Downloading https://files.pythonhosted.org/packages/b9/28/9bb4b46c6fd710224f7c5401bfd5c703df2b9f4b07c334583ca60c842ffe/odoo_addon_account_statement_import_base-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-28 04:57:35] INFO root fetch - processPackages [mobio-media-sdk-test]: Downloading https://files.pythonhosted.org/packages/69/0a/da26039eb2f0fc80e3ef33a3ccc4e6548106465a02b124f8775a3b40a7e9/mobio-media-sdk-test-0.2.9.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [topgrade]: executing diffoscope
+[2023-06-28 04:57:35] INFO root fetch - processPackages [topgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topgrade-11.0.2-py3-none-win_amd64.whl.zip tmp/topgrade-12.0.0.tar.gz --markdown 20230628/t/topgrade/11.0.2-12.0.0/diff.md --exclude *.pyd
+[2023-06-28 04:57:35] INFO root fetch - processPackages [fastaws]: Downloading https://files.pythonhosted.org/packages/5e/3e/79643f9f3678283fe6ece8058852d87ed98892851311095923877cfe9fc8/fastaws-0.0.9.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-06-28 04:57:35] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230626.tar.gz tmp/iam_actions-1.2.20230627.tar.gz --markdown 20230628/i/iam-actions/1.2.20230626-1.2.20230627/diff.md --exclude *.pyd
+[2023-06-28 04:57:35] INFO root fetch - processPackages [aio-aws]: executing diffoscope
+[2023-06-28 04:57:35] INFO root fetch - processPackages [aio-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio-aws-0.8.0.tar.gz tmp/aio-aws-0.9.0.tar.gz --markdown 20230628/a/aio-aws/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 04:57:35] INFO root fetch - processPackages [theseus-ai]: executing diffoscope
+[2023-06-28 04:57:35] INFO root fetch - processPackages [theseus-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theseus-ai-0.2.0.tar.gz tmp/theseus-ai-0.2.0.dev0.tar.gz --markdown 20230628/t/theseus-ai/0.2.0-0.2.0.dev0/diff.md --exclude *.pyd
+[2023-06-28 04:57:35] INFO root fetch - processPackages [guniflask]: Downloading https://files.pythonhosted.org/packages/e1/a2/305a8fe0382bd5c1d88e59971add9af5fddfc3afba3057b602f8382facb2/guniflask-0.9.2.tar.gz
+[2023-06-28 04:57:35] INFO root fetch - processPackages [odoo-addon-account-statement-import-base]: executing diffoscope
+[2023-06-28 04:57:35] INFO root fetch - processPackages [odoo-addon-account-statement-import-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_base-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_base-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-account-statement-import-base/16.0.1.0.0.6-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-06-28 04:57:35] INFO root fetch - processPackages [fastaws]: executing diffoscope
+[2023-06-28 04:57:35] INFO root fetch - processPackages [fastaws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastaws-0.0.8.tar.gz tmp/fastaws-0.0.9.tar.gz --markdown 20230628/f/fastaws/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 04:57:35] INFO root fetch - processPackages [mobio-media-sdk-test]: executing diffoscope
+[2023-06-28 04:57:35] INFO root fetch - processPackages [mobio-media-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-media-sdk-test-0.2.12.tar.gz tmp/mobio-media-sdk-test-0.2.9.tar.gz --markdown 20230628/m/mobio-media-sdk-test/0.2.12-0.2.9/diff.md --exclude *.pyd
+[2023-06-28 04:57:36] INFO root fetch - processPackages [guniflask]: executing diffoscope
+[2023-06-28 04:57:36] INFO root fetch - processPackages [guniflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guniflask-0.9.1.tar.gz tmp/guniflask-0.9.2.tar.gz --markdown 20230628/g/guniflask/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-28 04:57:36] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-1.0.7.tar.gz]
+[2023-06-28 04:57:36] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-1.0.8.tar.gz]
+[2023-06-28 04:57:36] INFO root fetch - processPackages [fast-brainfuck]: Start processing: guniflask-cli
+[2023-06-28 04:57:36] INFO root fetch - main [MainThread]: End processing [fast-brainfuck]: success
+[2023-06-28 04:57:37] INFO root fetch - processPackages [guniflask-cli]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-28 04:57:37] INFO root fetch - processPackages [pypomes-store]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_store-0.1.1.tar.gz]
+[2023-06-28 04:57:37] INFO root fetch - processPackages [pypomes-store]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_store-0.1.2.tar.gz]
+[2023-06-28 04:57:37] INFO root fetch - processPackages [pypomes-store]: Start processing: pvdeg
+[2023-06-28 04:57:37] INFO root fetch - main [MainThread]: End processing [pypomes-store]: success
+[2023-06-28 04:57:37] WARNING root fetch - processPackages [pvdeg]: Skipping, unable to determine old version
+[2023-06-28 04:57:37] INFO root fetch - processPackages [pvdeg]: Start processing: mrlpy
+[2023-06-28 04:57:37] INFO root fetch - main [MainThread]: End processing [pvdeg] error
+[2023-06-28 04:57:37] INFO root fetch - processPackages [mrlpy]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-06-28 04:57:37] INFO root fetch - processPackages [guniflask-cli]: Downloading https://files.pythonhosted.org/packages/75/4e/eafaa8b0a955d29d7079dcb32028c70e2cf3afdcbc679ba9cd09a8e23e0a/guniflask-cli-0.9.1.tar.gz
+[2023-06-28 04:57:37] INFO root fetch - processPackages [mrlpy]: Downloading https://files.pythonhosted.org/packages/ae/65/4f2a46f4f736cd161f89e07cb57f67196cc91e93c6ec7fd14ed7f0d50fc7/mrlpy-0.3.0.tar.gz
+[2023-06-28 04:57:37] INFO root fetch - processPackages [mrlpy]: Downloading https://files.pythonhosted.org/packages/85/46/ee0c7d66f9d02c72d06de05c7a249a313f1616b5223ca52e96b96763ec0e/mrlpy-1.0.0.tar.gz
+[2023-06-28 04:57:37] INFO root fetch - processPackages [mrlpy]: executing diffoscope
+[2023-06-28 04:57:37] INFO root fetch - processPackages [mrlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrlpy-0.3.0.tar.gz tmp/mrlpy-1.0.0.tar.gz --markdown 20230628/m/mrlpy/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-28 04:57:37] INFO root fetch - processPackages [guniflask-cli]: Downloading https://files.pythonhosted.org/packages/a4/90/1d8a6003df261120759454830b9600c09c55f537a514b1772280aab13108/guniflask-cli-0.9.2.tar.gz
+[2023-06-28 04:57:37] INFO root fetch - processPackages [aio-aws]: Remove: archive file [/home/abi/fetcher/tmp/aio-aws-0.8.0.tar.gz]
+[2023-06-28 04:57:37] INFO root fetch - processPackages [aio-aws]: Remove: archive file [/home/abi/fetcher/tmp/aio-aws-0.9.0.tar.gz]
+[2023-06-28 04:57:37] INFO root fetch - main [MainThread]: End processing [aio-aws]: success
+[2023-06-28 04:57:37] INFO root fetch - processPackages [guniflask-cli]: executing diffoscope
+[2023-06-28 04:57:37] INFO root fetch - processPackages [guniflask-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guniflask-cli-0.9.1.tar.gz tmp/guniflask-cli-0.9.2.tar.gz --markdown 20230628/g/guniflask-cli/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-28 04:57:37] INFO root fetch - processPackages [fastaws]: Remove: archive file [/home/abi/fetcher/tmp/fastaws-0.0.8.tar.gz]
+[2023-06-28 04:57:37] INFO root fetch - processPackages [fastaws]: Remove: archive file [/home/abi/fetcher/tmp/fastaws-0.0.9.tar.gz]
+[2023-06-28 04:57:37] INFO root fetch - main [MainThread]: End processing [fastaws]: success
+[2023-06-28 04:57:37] INFO root fetch - processPackages [mobio-media-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-media-sdk-test-0.2.12.tar.gz]
+[2023-06-28 04:57:37] INFO root fetch - processPackages [mobio-media-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-media-sdk-test-0.2.9.tar.gz]
+[2023-06-28 04:57:37] INFO root fetch - main [MainThread]: End processing [mobio-media-sdk-test]: success
+[2023-06-28 04:57:37] INFO root fetch - processPackages [odoo-addon-account-statement-import-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_base-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-28 04:57:37] INFO root fetch - processPackages [odoo-addon-account-statement-import-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_base-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-28 04:57:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-base]: success
+[2023-06-28 04:57:38] INFO root fetch - processPackages [guniflask]: Remove: archive file [/home/abi/fetcher/tmp/guniflask-0.9.1.tar.gz]
+[2023-06-28 04:57:38] INFO root fetch - processPackages [guniflask]: Remove: archive file [/home/abi/fetcher/tmp/guniflask-0.9.2.tar.gz]
+[2023-06-28 04:57:38] INFO root fetch - main [MainThread]: End processing [guniflask]: success
+[2023-06-28 04:57:38] INFO root fetch - processPackages [topgrade]: Remove: archive file [/home/abi/fetcher/tmp/topgrade-11.0.2-py3-none-win_amd64.whl.zip]
+[2023-06-28 04:57:38] INFO root fetch - processPackages [topgrade]: Remove: archive file [/home/abi/fetcher/tmp/topgrade-12.0.0.tar.gz]
+[2023-06-28 04:57:38] INFO root fetch - main [MainThread]: End processing [topgrade]: success
+[2023-06-28 04:57:38] INFO root fetch - processPackages [mrlpy]: Remove: archive file [/home/abi/fetcher/tmp/mrlpy-0.3.0.tar.gz]
+[2023-06-28 04:57:38] INFO root fetch - processPackages [mrlpy]: Remove: archive file [/home/abi/fetcher/tmp/mrlpy-1.0.0.tar.gz]
+[2023-06-28 04:57:38] INFO root fetch - main [MainThread]: End processing [mrlpy]: success
+[2023-06-28 04:57:38] INFO root fetch - processPackages [guniflask-cli]: Remove: archive file [/home/abi/fetcher/tmp/guniflask-cli-0.9.1.tar.gz]
+[2023-06-28 04:57:38] INFO root fetch - processPackages [guniflask-cli]: Remove: archive file [/home/abi/fetcher/tmp/guniflask-cli-0.9.2.tar.gz]
+[2023-06-28 04:57:38] INFO root fetch - main [MainThread]: End processing [guniflask-cli]: success
+[2023-06-28 04:57:40] INFO root fetch - processPackages [theseus-ai]: Remove: archive file [/home/abi/fetcher/tmp/theseus-ai-0.2.0.tar.gz]
+[2023-06-28 04:57:40] INFO root fetch - processPackages [theseus-ai]: Remove: archive file [/home/abi/fetcher/tmp/theseus-ai-0.2.0.dev0.tar.gz]
+[2023-06-28 04:57:40] INFO root fetch - main [MainThread]: End processing [theseus-ai]: success
+[2023-06-28 04:57:41] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230626.tar.gz]
+[2023-06-28 04:57:41] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230627.tar.gz]
+[2023-06-28 04:57:41] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-06-28 04:57:41] INFO root fetch - main [MainThread]: Store serial: [18674034]
