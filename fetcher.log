@@ -14657,3 +14657,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 06:27:39] INFO root fetch - processPackages [javelin-cli]: Remove: archive file [/home/abi/fetcher/tmp/javelin-cli-0.9.0.tar.gz]
 [2023-06-28 06:27:39] INFO root fetch - main [MainThread]: End processing [javelin-cli]: success
 [2023-06-28 06:27:39] INFO root fetch - main [MainThread]: Store serial: [18674484]
+[2023-06-28 06:32:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674484]
+[2023-06-28 06:32:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-28 06:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: samshee
+[2023-06-28 06:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: buscolite
+[2023-06-28 06:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybw-comic
+[2023-06-28 06:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opents
+[2023-06-28 06:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transformers-supporter
+[2023-06-28 06:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snowflake-connector-python-nightly
+[2023-06-28 06:32:49] INFO root fetch - processPackages [transformers-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 06:32:49] INFO root fetch - processPackages [samshee]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-06-28 06:32:49] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/2d/b3/0a5ba4230b93d8b0af855a0cb099f7cd12620f36b5763aae64e4280f49ac/transformers-supporter-0.0.8.tar.gz
+[2023-06-28 06:32:49] INFO root fetch - processPackages [samshee]: Downloading https://files.pythonhosted.org/packages/11/b8/3daa09e006a9dc2cc60118b738aa57ad14cb2ce063ffefc770abebd54dd9/samshee-0.1.6.tar.gz
+[2023-06-28 06:32:49] WARNING root fetch - processPackages [buscolite]: Skipping, unable to determine old version
+[2023-06-28 06:32:49] INFO root fetch - main [MainThread]: End processing [buscolite] error
+[2023-06-28 06:32:49] INFO root fetch - processPackages [opents]: New version: [0.post1] Old Version: [0.1]
+[2023-06-28 06:32:49] WARNING root fetch - processPackages [pybw-comic]: Skipping, unable to determine old version
+[2023-06-28 06:32:49] INFO root fetch - main [MainThread]: End processing [pybw-comic] error
+[2023-06-28 06:32:49] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.6.7] Old Version: [2023.6.6]
+[2023-06-28 06:32:49] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/e3/57/5ebc8b77d3f7674a08c327be80e75ae6250845796c3e5eada5d7936121dc/transformers-supporter-0.0.9.tar.gz
+[2023-06-28 06:32:49] INFO root fetch - processPackages [opents]: Downloading https://files.pythonhosted.org/packages/6d/36/ff537732b9640e37850452bf7e6722e43263624a3bdad25e28faaacdfa85/opents-0.1-py3-none-any.whl
+[2023-06-28 06:32:49] INFO root fetch - processPackages [transformers-supporter]: executing diffoscope
+[2023-06-28 06:32:49] INFO root fetch - processPackages [transformers-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers-supporter-0.0.8.tar.gz tmp/transformers-supporter-0.0.9.tar.gz --markdown 20230628/t/transformers-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 06:32:49] INFO root fetch - processPackages [samshee]: Downloading https://files.pythonhosted.org/packages/11/15/64b4c94e5256ea5420eaf7fdcb8ea6354598a6a530e1c2a532cc6d740163/samshee-0.1.8.tar.gz
+[2023-06-28 06:32:49] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/3a/de/a3d5952ae14f1d96d817896cf0b50d559c49fe0383f469683ff8db639a87/snowflake-connector-python-nightly-2023.6.6.tar.gz
+[2023-06-28 06:32:50] INFO root fetch - processPackages [samshee]: executing diffoscope
+[2023-06-28 06:32:50] INFO root fetch - processPackages [samshee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samshee-0.1.6.tar.gz tmp/samshee-0.1.8.tar.gz --markdown 20230628/s/samshee/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-06-28 06:32:50] INFO root fetch - processPackages [opents]: Downloading https://files.pythonhosted.org/packages/3d/7d/e4db079ef5e519814ab0415fa2e4815599a0df45b3ada90f5ff1db1c090b/opents-0.post1-py3-none-any.whl
+[2023-06-28 06:32:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/68/b0/f336858f4c93e932845978ce40804a9fe4d176af4794484e6f9c6cbad8cf/snowflake-connector-python-nightly-2023.6.7.tar.gz
+[2023-06-28 06:32:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-06-28 06:32:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.6.6.tar.gz tmp/snowflake-connector-python-nightly-2023.6.7.tar.gz --markdown 20230628/s/snowflake-connector-python-nightly/2023.6.6-2023.6.7/diff.md --exclude *.pyd
+[2023-06-28 06:32:50] INFO root fetch - processPackages [opents]: executing diffoscope
+[2023-06-28 06:32:50] INFO root fetch - processPackages [opents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opents-0.1-py3-none-any.whl.zip tmp/opents-0.post1-py3-none-any.whl.zip --markdown 20230628/o/opents/0.1-0.post1/diff.md --exclude *.pyd
+[2023-06-28 06:32:51] INFO root fetch - processPackages [samshee]: Remove: archive file [/home/abi/fetcher/tmp/samshee-0.1.6.tar.gz]
+[2023-06-28 06:32:51] INFO root fetch - processPackages [samshee]: Remove: archive file [/home/abi/fetcher/tmp/samshee-0.1.8.tar.gz]
+[2023-06-28 06:32:51] INFO root fetch - main [MainThread]: End processing [samshee]: success
+[2023-06-28 06:32:51] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.8.tar.gz]
+[2023-06-28 06:32:51] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.9.tar.gz]
+[2023-06-28 06:32:51] INFO root fetch - main [MainThread]: End processing [transformers-supporter]: success
+[2023-06-28 06:32:51] INFO root fetch - processPackages [opents]: Remove: archive file [/home/abi/fetcher/tmp/opents-0.1-py3-none-any.whl.zip]
+[2023-06-28 06:32:51] INFO root fetch - processPackages [opents]: Remove: archive file [/home/abi/fetcher/tmp/opents-0.post1-py3-none-any.whl.zip]
+[2023-06-28 06:32:51] INFO root fetch - main [MainThread]: End processing [opents]: success
+[2023-06-28 06:32:52] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.6.6.tar.gz]
+[2023-06-28 06:32:52] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.6.7.tar.gz]
+[2023-06-28 06:32:52] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-06-28 06:32:52] INFO root fetch - main [MainThread]: Store serial: [18674533]
