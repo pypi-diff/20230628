@@ -14762,3 +14762,68 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 06:38:05] INFO root fetch - processPackages [django-ipghrms-leave]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-leave-1.8.tar.gz]
 [2023-06-28 06:38:05] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
 [2023-06-28 06:38:05] INFO root fetch - main [MainThread]: Store serial: [18674557]
+[2023-06-28 06:43:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674557]
+[2023-06-28 06:43:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-28 06:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-macos
+[2023-06-28 06:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-tts-plugin-piper
+[2023-06-28 06:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jmcomic
+[2023-06-28 06:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-pos
+[2023-06-28 06:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-dbd
+[2023-06-28 06:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-sdk-preview
+[2023-06-28 06:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-sdk
+[2023-06-28 06:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sphractal
+[2023-06-28 06:43:14] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 06:43:14] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-28 06:43:14] INFO root fetch - processPackages [odoo-addons-oca-pos]: New version: [16.0.20230627.0] Old Version: [16.0.20230517.0]
+[2023-06-28 06:43:14] WARNING root fetch - processPackages [sphractal]: Skipping, unable to determine old version
+[2023-06-28 06:43:14] INFO root fetch - main [MainThread]: End processing [sphractal] error
+[2023-06-28 06:43:14] INFO root fetch - processPackages [jmcomic]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-28 06:43:14] INFO root fetch - processPackages [ovos-tts-plugin-piper]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2023-06-28 06:43:14] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230627] Old Version: [2.14.0.dev20230626]
+[2023-06-28 06:43:14] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-28 06:43:14] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-28 06:43:14] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-06-28 06:43:14] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-06-28 06:43:14] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/db/86/2f29a860daa2788a2fa7a77807006df6a3a8957af331cc2829473c245195/odoo_addons_oca_pos-16.0.20230517.0-py3-none-any.whl
+[2023-06-28 06:43:14] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/fa/91/deb7e5684db2890a54286d6ea4054dbcf1b7195f70bc1cec419f8b315974/jmcomic-2.0.8.tar.gz
+[2023-06-28 06:43:14] INFO root fetch - processPackages [ovos-tts-plugin-piper]: Downloading https://files.pythonhosted.org/packages/63/25/568c96b90665fb8b38953ac4056437461270c49c7df4670da05945c754ea/ovos_tts_plugin_piper-0.0.1a3-py3-none-any.whl
+[2023-06-28 06:43:14] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/a7/31/4acf0167fe22057df910fc0bc4d5c6427db07ad859ee42ba63454f6ef817/tf_nightly_macos-2.14.0.dev20230626-cp39-cp39-macosx_12_0_arm64.whl
+[2023-06-28 06:43:14] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-28 06:43:14] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199530669>=10485760
+[2023-06-28 06:43:14] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-06-28 06:43:14] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-06-28 06:43:14] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-06-28 06:43:14] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-28 06:43:14] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230628/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 06:43:14] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/95/44/0419c6f702832e8c10b2fe9323a3e27b858463cb2f3079dba1ce23f212d2/odoo_addons_oca_pos-16.0.20230627.0-py3-none-any.whl
+[2023-06-28 06:43:14] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-06-28 06:43:14] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230628/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-28 06:43:14] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-06-28 06:43:14] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230628/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-28 06:43:14] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/46/8a/0714f3d530cd7c103834fc86c70ca9a744f2958af767b29f007990d08f1b/jmcomic-2.0.9.tar.gz
+[2023-06-28 06:43:14] INFO root fetch - processPackages [ovos-tts-plugin-piper]: Downloading https://files.pythonhosted.org/packages/aa/d4/606dc9cfc29c2f1ddd9d0722867e8d4e2ae9cc915a46f100130ab4b61a5d/ovos_tts_plugin_piper-0.0.1a4-py3-none-any.whl
+[2023-06-28 06:43:14] INFO root fetch - processPackages [odoo-addons-oca-pos]: executing diffoscope
+[2023-06-28 06:43:14] INFO root fetch - processPackages [odoo-addons-oca-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_pos-16.0.20230517.0-py3-none-any.whl.zip tmp/odoo_addons_oca_pos-16.0.20230627.0-py3-none-any.whl.zip --markdown 20230628/o/odoo-addons-oca-pos/16.0.20230517.0-16.0.20230627.0/diff.md --exclude *.pyd
+[2023-06-28 06:43:14] INFO root fetch - processPackages [jmcomic]: executing diffoscope
+[2023-06-28 06:43:14] INFO root fetch - processPackages [jmcomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmcomic-2.0.8.tar.gz tmp/jmcomic-2.0.9.tar.gz --markdown 20230628/j/jmcomic/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-28 06:43:14] INFO root fetch - processPackages [ovos-tts-plugin-piper]: executing diffoscope
+[2023-06-28 06:43:14] INFO root fetch - processPackages [ovos-tts-plugin-piper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_tts_plugin_piper-0.0.1a3-py3-none-any.whl.zip tmp/ovos_tts_plugin_piper-0.0.1a4-py3-none-any.whl.zip --markdown 20230628/o/ovos-tts-plugin-piper/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2023-06-28 06:43:15] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-28 06:43:15] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-28 06:43:15] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-28 06:43:15] INFO root fetch - processPackages [odoo-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_pos-16.0.20230517.0-py3-none-any.whl.zip]
+[2023-06-28 06:43:15] INFO root fetch - processPackages [odoo-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_pos-16.0.20230627.0-py3-none-any.whl.zip]
+[2023-06-28 06:43:15] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-pos]: success
+[2023-06-28 06:43:16] INFO root fetch - processPackages [ovos-tts-plugin-piper]: Remove: archive file [/home/abi/fetcher/tmp/ovos_tts_plugin_piper-0.0.1a3-py3-none-any.whl.zip]
+[2023-06-28 06:43:16] INFO root fetch - processPackages [ovos-tts-plugin-piper]: Remove: archive file [/home/abi/fetcher/tmp/ovos_tts_plugin_piper-0.0.1a4-py3-none-any.whl.zip]
+[2023-06-28 06:43:16] INFO root fetch - main [MainThread]: End processing [ovos-tts-plugin-piper]: success
+[2023-06-28 06:43:16] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.0.8.tar.gz]
+[2023-06-28 06:43:16] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.0.9.tar.gz]
+[2023-06-28 06:43:16] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
+[2023-06-28 06:43:37] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-06-28 06:43:37] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-06-28 06:43:37] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-06-28 06:43:47] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-06-28 06:43:47] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-06-28 06:43:47] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-06-28 06:43:47] INFO root fetch - main [MainThread]: Store serial: [18674583]
