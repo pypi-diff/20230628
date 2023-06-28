@@ -19336,3 +19336,162 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 10:44:16] INFO root fetch - processPackages [OpihiExarata]: Remove: archive file [/home/abi/fetcher/tmp/OpihiExarata-2023.6.8.tar.gz]
 [2023-06-28 10:44:16] INFO root fetch - main [MainThread]: End processing [OpihiExarata]: success
 [2023-06-28 10:44:16] INFO root fetch - main [MainThread]: Store serial: [18676436]
+[2023-06-28 10:49:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18676436]
+[2023-06-28 10:49:26] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petisco
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SESMG
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ert
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-js-asset
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dvc-data
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: windows-control
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-fc20230330-py2
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ncas-amof-netcdf-template
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pdf-oralia
+[2023-06-28 10:49:26] INFO root fetch - processPackages [dvc-data]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-28 10:49:26] INFO root fetch - processPackages [SESMG]: New version: [0.5.0rc2] Old Version: [0.5.0rc1]
+[2023-06-28 10:49:26] WARNING root fetch - processPackages [alibabacloud-fc20230330-py2]: Skipping, unable to determine old version
+[2023-06-28 10:49:26] INFO root fetch - processPackages [alibabacloud-fc20230330-py2]: Start processing: quote4py
+[2023-06-28 10:49:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-fc20230330-py2] error
+[2023-06-28 10:49:26] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc7] Old Version: [2.0.0rc6]
+[2023-06-28 10:49:26] INFO root fetch - processPackages [windows-control]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-28 10:49:26] INFO root fetch - processPackages [django-js-asset]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ncas-amof-netcdf-template]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-28 10:49:26] INFO root fetch - processPackages [pdf-oralia]: New version: [1.dev0] Old Version: [0.3.1]
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ert]: New version: [5.0.0rc4] Old Version: [5.0.0rc3]
+[2023-06-28 10:49:26] INFO root fetch - processPackages [quote4py]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-28 10:49:26] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/33/5d/c8e0fc14506fae23fbbbe5fbcec908bf41804e05c6cb5591ca6fc8982b6a/dvc-data-2.3.0.tar.gz
+[2023-06-28 10:49:26] INFO root fetch - processPackages [windows-control]: Downloading https://files.pythonhosted.org/packages/da/78/9634c1209f0e71b131ca70c896abe677d86f57d9157a842a53bfe9ce5cd7/windows_control-0.0.2.tar.gz
+[2023-06-28 10:49:26] INFO root fetch - processPackages [pdf-oralia]: Downloading https://files.pythonhosted.org/packages/75/13/70c8c99bbb12abfecc4f52cae61de7d7e56efeba56b4ae6840e85654984d/pdf_oralia-0.3.1.tar.gz
+[2023-06-28 10:49:26] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230628] Old Version: [2.14.0.dev20230627]
+[2023-06-28 10:49:26] INFO root fetch - processPackages [SESMG]: Downloading https://files.pythonhosted.org/packages/37/bb/099362898864a80b94b34317e0782e02c4e695a2400b431f6df7aa38dd3f/SESMG-0.5.0rc1.tar.gz
+[2023-06-28 10:49:26] INFO root fetch - processPackages [django-js-asset]: Downloading https://files.pythonhosted.org/packages/99/a7/06be13db4030fff013137f0ccd6a2f46babb623b536eec6068430e176fb1/django_js_asset-2.0.0.tar.gz
+[2023-06-28 10:49:26] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/7b/35/05acc0e727706fe1ab228ec50787d7089c60cd6ee087c253bd53872efb13/petisco-2.0.0rc6.tar.gz
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ncas-amof-netcdf-template]: Downloading https://files.pythonhosted.org/packages/d4/3f/78b19160ed4adbf59509e6836eb54155bd5363582999002dd4d6cb41ba04/ncas_amof_netcdf_template-2.2.0.tar.gz
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/50/cf/0230d753fb236ada6dcdeac1bba244aaef6277c3acbdc07e574616440ce5/ert-5.0.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-28 10:49:26] INFO root fetch - processPackages [quote4py]: Downloading https://files.pythonhosted.org/packages/2e/0a/cc395f82ca6fd01c653e8a42dce963333aa76ba5c2e3b5878195960b72e3/quote4py-1.0.0-py3-none-any.whl
+[2023-06-28 10:49:26] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/c9/eb/1f9ad6dd70d489668d0232bdceb903d45bebf0fcf67b3cd9e8bd372ade64/dvc-data-2.3.1.tar.gz
+[2023-06-28 10:49:26] INFO root fetch - processPackages [windows-control]: Downloading https://files.pythonhosted.org/packages/be/dd/f562bd726237949111364eb908588493f4d896e877c41df8ec704bc3d644/windows_control-0.0.3.tar.gz
+[2023-06-28 10:49:26] INFO root fetch - processPackages [pdf-oralia]: Downloading https://files.pythonhosted.org/packages/ab/3d/ce5f45028645c02732d382bf8b691be12983d7bcc45fb96ebec902ea4d0a/pdf_oralia-1.dev0-py3-none-any.whl
+[2023-06-28 10:49:26] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/94/ef/92c8fc33ad8cce6bb01a4e37dc6d5e0b3f857e2564ee8e169a03e872879a/tf_nightly-2.14.0.dev20230627-cp39-cp39-win_amd64.whl
+[2023-06-28 10:49:26] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-06-28 10:49:26] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-2.3.0.tar.gz tmp/dvc-data-2.3.1.tar.gz --markdown 20230628/d/dvc-data/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-28 10:49:26] INFO root fetch - processPackages [SESMG]: Downloading https://files.pythonhosted.org/packages/86/66/9de76871a875dbffb195d675ea884d59a4c59323baef5ba2b9a7553ca4a7/SESMG-0.5.0rc2.tar.gz
+[2023-06-28 10:49:26] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/8d/0f/b32d3c30337fff6546a44cdccdf2d83a830cdba6cbcb762f2941a2a58c9f/petisco-2.0.0rc7.tar.gz
+[2023-06-28 10:49:26] INFO root fetch - processPackages [django-js-asset]: Downloading https://files.pythonhosted.org/packages/fa/82/80c8379233632fa803db84b8bafb11782f23fe5b59f27d8f6afcf26decc3/django_js_asset-2.1.0.tar.gz
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ncas-amof-netcdf-template]: Downloading https://files.pythonhosted.org/packages/50/48/5e36e2782bb878175a8172ada55a79a82cd7e7562c9117f8fc11a46253f6/ncas_amof_netcdf_template-2.2.1.tar.gz
+[2023-06-28 10:49:26] INFO root fetch - processPackages [windows-control]: executing diffoscope
+[2023-06-28 10:49:26] INFO root fetch - processPackages [windows-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windows_control-0.0.2.tar.gz tmp/windows_control-0.0.3.tar.gz --markdown 20230628/w/windows-control/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-28 10:49:26] INFO root fetch - processPackages [quote4py]: Downloading https://files.pythonhosted.org/packages/65/5c/ea63210a96ba6674a8274e55db367a5317d1d1377e5ffa06ed1aa5cf0525/quote4py-1.0.1-py3-none-any.whl
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/8b/14/435a7510bac2c19290458d2e8448631ac9174e8931e5743820357b0251e0/ert-5.0.0rc4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-28 10:49:26] INFO root fetch - processPackages [pdf-oralia]: executing diffoscope
+[2023-06-28 10:49:26] INFO root fetch - processPackages [pdf-oralia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf_oralia-0.3.1.tar.gz tmp/pdf_oralia-1.dev0-py3-none-any.whl.zip --markdown 20230628/p/pdf-oralia/0.3.1-1.dev0/diff.md --exclude *.pyd
+[2023-06-28 10:49:26] INFO root fetch - processPackages [django-js-asset]: executing diffoscope
+[2023-06-28 10:49:26] INFO root fetch - processPackages [django-js-asset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_js_asset-2.0.0.tar.gz tmp/django_js_asset-2.1.0.tar.gz --markdown 20230628/d/django-js-asset/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ncas-amof-netcdf-template]: executing diffoscope
+[2023-06-28 10:49:26] INFO root fetch - processPackages [ncas-amof-netcdf-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncas_amof_netcdf_template-2.2.0.tar.gz tmp/ncas_amof_netcdf_template-2.2.1.tar.gz --markdown 20230628/n/ncas-amof-netcdf-template/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-28 10:49:26] INFO root fetch - processPackages [quote4py]: executing diffoscope
+[2023-06-28 10:49:26] INFO root fetch - processPackages [quote4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quote4py-1.0.0-py3-none-any.whl.zip tmp/quote4py-1.0.1-py3-none-any.whl.zip --markdown 20230628/q/quote4py/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-28 10:49:26] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-06-28 10:49:26] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc6.tar.gz tmp/petisco-2.0.0rc7.tar.gz --markdown 20230628/p/petisco/2.0.0rc6-2.0.0rc7/diff.md --exclude *.pyd
+[2023-06-28 10:49:26] INFO root fetch - processPackages [SESMG]: executing diffoscope
+[2023-06-28 10:49:26] INFO root fetch - processPackages [SESMG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SESMG-0.5.0rc1.tar.gz tmp/SESMG-0.5.0rc2.tar.gz --markdown 20230628/S/SESMG/0.5.0rc1-0.5.0rc2/diff.md --exclude *.pyd
+[2023-06-28 10:49:27] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-06-28 10:49:27] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.0.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.0.0rc4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230628/e/ert/5.0.0rc3-5.0.0rc4/diff.md --exclude *.pyd
+[2023-06-28 10:49:27] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/89/d5/fc52fe436de45e22276ad353cae5cbd60d5560b55f7389eaaf7797f2b4f0/tf_nightly-2.14.0.dev20230628-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-28 10:49:27] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 490565314>=10485760
+[2023-06-28 10:49:27] INFO root fetch - processPackages [tf-nightly]: Start processing: localstack-core
+[2023-06-28 10:49:27] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-06-28 10:49:27] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230628084721] Old Version: [2.1.1.dev20230627223112]
+[2023-06-28 10:49:27] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/23/42/02d316c9b6ab0e95a9c995e2076b03125dc25c7f613695d53a87d3ffa3be/localstack-core-2.1.1.dev20230627223112.tar.gz
+[2023-06-28 10:49:28] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/3a/da/cddd3ebc1219fff76697381cfcd97298b642d3620a5f85f9843aa50c4479/localstack-core-2.1.1.dev20230628084721.tar.gz
+[2023-06-28 10:49:28] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-28 10:49:28] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230627223112.tar.gz tmp/localstack-core-2.1.1.dev20230628084721.tar.gz --markdown 20230628/l/localstack-core/2.1.1.dev20230627223112-2.1.1.dev20230628084721/diff.md --exclude *.pyd
+[2023-06-28 10:49:28] INFO root fetch - processPackages [pdf-oralia]: Remove: archive file [/home/abi/fetcher/tmp/pdf_oralia-0.3.1.tar.gz]
+[2023-06-28 10:49:28] INFO root fetch - processPackages [pdf-oralia]: Remove: archive file [/home/abi/fetcher/tmp/pdf_oralia-1.dev0-py3-none-any.whl.zip]
+[2023-06-28 10:49:28] INFO root fetch - processPackages [pdf-oralia]: Start processing: pytextrust
+[2023-06-28 10:49:28] INFO root fetch - main [MainThread]: End processing [pdf-oralia]: success
+[2023-06-28 10:49:28] INFO root fetch - processPackages [pytextrust]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-28 10:49:28] INFO root fetch - processPackages [windows-control]: Remove: archive file [/home/abi/fetcher/tmp/windows_control-0.0.2.tar.gz]
+[2023-06-28 10:49:28] INFO root fetch - processPackages [windows-control]: Remove: archive file [/home/abi/fetcher/tmp/windows_control-0.0.3.tar.gz]
+[2023-06-28 10:49:28] INFO root fetch - processPackages [windows-control]: Start processing: alibabacloud-fc20230330
+[2023-06-28 10:49:28] INFO root fetch - main [MainThread]: End processing [windows-control]: success
+[2023-06-28 10:49:28] WARNING root fetch - processPackages [alibabacloud-fc20230330]: Skipping, unable to determine old version
+[2023-06-28 10:49:28] INFO root fetch - processPackages [alibabacloud-fc20230330]: Start processing: tkadw
+[2023-06-28 10:49:28] INFO root fetch - main [MainThread]: End processing [alibabacloud-fc20230330] error
+[2023-06-28 10:49:28] INFO root fetch - processPackages [django-js-asset]: Remove: archive file [/home/abi/fetcher/tmp/django_js_asset-2.0.0.tar.gz]
+[2023-06-28 10:49:28] INFO root fetch - processPackages [django-js-asset]: Remove: archive file [/home/abi/fetcher/tmp/django_js_asset-2.1.0.tar.gz]
+[2023-06-28 10:49:28] INFO root fetch - processPackages [django-js-asset]: Start processing: benimang
+[2023-06-28 10:49:28] INFO root fetch - main [MainThread]: End processing [django-js-asset]: success
+[2023-06-28 10:49:28] INFO root fetch - processPackages [quote4py]: Remove: archive file [/home/abi/fetcher/tmp/quote4py-1.0.0-py3-none-any.whl.zip]
+[2023-06-28 10:49:28] INFO root fetch - processPackages [quote4py]: Remove: archive file [/home/abi/fetcher/tmp/quote4py-1.0.1-py3-none-any.whl.zip]
+[2023-06-28 10:49:28] INFO root fetch - processPackages [quote4py]: Start processing: buteo
+[2023-06-28 10:49:28] INFO root fetch - main [MainThread]: End processing [quote4py]: success
+[2023-06-28 10:49:28] INFO root fetch - processPackages [pytextrust]: Downloading https://files.pythonhosted.org/packages/e3/bc/f80188c791eb430f80fdc359f51af59d94e17662d770871ab9749eccd247/pytextrust-0.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-28 10:49:28] INFO root fetch - processPackages [tkadw]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-28 10:49:28] INFO root fetch - processPackages [benimang]: New version: [3.0.0] Old Version: [0.2.2]
+[2023-06-28 10:49:28] INFO root fetch - processPackages [ncas-amof-netcdf-template]: Remove: archive file [/home/abi/fetcher/tmp/ncas_amof_netcdf_template-2.2.0.tar.gz]
+[2023-06-28 10:49:28] INFO root fetch - processPackages [ncas-amof-netcdf-template]: Remove: archive file [/home/abi/fetcher/tmp/ncas_amof_netcdf_template-2.2.1.tar.gz]
+[2023-06-28 10:49:28] INFO root fetch - processPackages [ncas-amof-netcdf-template]: Start processing: fiddler-client
+[2023-06-28 10:49:28] INFO root fetch - main [MainThread]: End processing [ncas-amof-netcdf-template]: success
+[2023-06-28 10:49:28] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-28 10:49:28] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/ba/38/78d6b17c147d51f0f54648a88af9ce6966714214d8ef55a3c13c44702789/benimang-0.2.2.tar.gz
+[2023-06-28 10:49:28] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/e7/2e/0335e106f91d091993d0b74332dd5982d6e9abb398acbd88672e41873ccd/tkadw-0.2.1.tar.gz
+[2023-06-28 10:49:28] INFO root fetch - processPackages [fiddler-client]: New version: [2.0.0.dev5] Old Version: [2.0.0.dev3]
+[2023-06-28 10:49:28] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-06-28 10:49:29] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/ac/b8/77b6cf424f1720a60926ac100e360f71965108b1656c1f739275b31c33af/fiddler-client-2.0.0.dev3.tar.gz
+[2023-06-28 10:49:29] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/a0/d1/e294fb3bea5d702d5e5b3fd54bbc292405ad009a7d1d0ce9cd47ac44556a/tkadw-0.2.2.tar.gz
+[2023-06-28 10:49:29] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/5a/e9/e8ae0f431ae93a50ac9c4c376cb58efaefe5db1dc56c0de5be73515a97a7/benimang-3.0.0.tar.gz
+[2023-06-28 10:49:29] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-06-28 10:49:29] INFO root fetch - processPackages [pytextrust]: Downloading https://files.pythonhosted.org/packages/f2/50/3ac4f53e52c9ca00af65c870172d963a9bee545cd73c8470aef43e2d9ce7/pytextrust-0.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-28 10:49:29] INFO root fetch - processPackages [tkadw]: executing diffoscope
+[2023-06-28 10:49:29] INFO root fetch - processPackages [tkadw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkadw-0.2.1.tar.gz tmp/tkadw-0.2.2.tar.gz --markdown 20230628/t/tkadw/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-28 10:49:29] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-06-28 10:49:29] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.2.2.tar.gz tmp/benimang-3.0.0.tar.gz --markdown 20230628/b/benimang/0.2.2-3.0.0/diff.md --exclude *.pyd
+[2023-06-28 10:49:29] INFO root fetch - processPackages [pytextrust]: executing diffoscope
+[2023-06-28 10:49:29] INFO root fetch - processPackages [pytextrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytextrust-0.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pytextrust-0.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230628/p/pytextrust/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-28 10:49:29] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-06-28 10:49:29] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230628/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-28 10:49:29] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/a6/89/a05235ced8375ca35530ed2660fe44e6699c6d36879bc64f39eb9c4e9a1a/fiddler-client-2.0.0.dev5.tar.gz
+[2023-06-28 10:49:29] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2023-06-28 10:49:29] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-2.0.0.dev3.tar.gz tmp/fiddler-client-2.0.0.dev5.tar.gz --markdown 20230628/f/fiddler-client/2.0.0.dev3-2.0.0.dev5/diff.md --exclude *.pyd
+[2023-06-28 10:49:29] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.3.0.tar.gz]
+[2023-06-28 10:49:29] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.3.1.tar.gz]
+[2023-06-28 10:49:29] INFO root fetch - processPackages [dvc-data]: Start processing: skl-graph
+[2023-06-28 10:49:29] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-06-28 10:49:29] INFO root fetch - processPackages [skl-graph]: New version: [2023.9] Old Version: [2023.8]
+[2023-06-28 10:49:30] INFO root fetch - processPackages [skl-graph]: Downloading https://files.pythonhosted.org/packages/15/a7/d7345fc604e1c94faa76a02b3050cefbf5c3e7be452108acbd957bef14e0/skl-graph-2023.8.tar.gz
+[2023-06-28 10:49:30] INFO root fetch - processPackages [skl-graph]: Downloading https://files.pythonhosted.org/packages/b1/0f/0929f13352edcf9f573edac5d68206a6f8ef2512983829ddf07833acdb97/skl-graph-2023.9.tar.gz
+[2023-06-28 10:49:30] INFO root fetch - processPackages [skl-graph]: executing diffoscope
+[2023-06-28 10:49:30] INFO root fetch - processPackages [skl-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skl-graph-2023.8.tar.gz tmp/skl-graph-2023.9.tar.gz --markdown 20230628/s/skl-graph/2023.8-2023.9/diff.md --exclude *.pyd
+[2023-06-28 10:49:30] INFO root fetch - processPackages [SESMG]: Remove: archive file [/home/abi/fetcher/tmp/SESMG-0.5.0rc1.tar.gz]
+[2023-06-28 10:49:30] INFO root fetch - processPackages [SESMG]: Remove: archive file [/home/abi/fetcher/tmp/SESMG-0.5.0rc2.tar.gz]
+[2023-06-28 10:49:30] INFO root fetch - main [MainThread]: End processing [SESMG]: success
+[2023-06-28 10:49:31] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.2.1.tar.gz]
+[2023-06-28 10:49:31] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.2.2.tar.gz]
+[2023-06-28 10:49:31] INFO root fetch - main [MainThread]: End processing [tkadw]: success
+[2023-06-28 10:49:31] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.2.2.tar.gz]
+[2023-06-28 10:49:31] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-3.0.0.tar.gz]
+[2023-06-28 10:49:31] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-06-28 10:49:31] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc6.tar.gz]
+[2023-06-28 10:49:31] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc7.tar.gz]
+[2023-06-28 10:49:31] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-06-28 10:49:31] INFO root fetch - processPackages [skl-graph]: Remove: archive file [/home/abi/fetcher/tmp/skl-graph-2023.8.tar.gz]
+[2023-06-28 10:49:31] INFO root fetch - processPackages [skl-graph]: Remove: archive file [/home/abi/fetcher/tmp/skl-graph-2023.9.tar.gz]
+[2023-06-28 10:49:31] INFO root fetch - main [MainThread]: End processing [skl-graph]: success
+[2023-06-28 10:49:33] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-06-28 10:49:33] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-06-28 10:49:33] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-06-28 10:49:33] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-2.0.0.dev3.tar.gz]
+[2023-06-28 10:49:33] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-2.0.0.dev5.tar.gz]
+[2023-06-28 10:49:33] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2023-06-28 10:49:38] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230627223112.tar.gz]
+[2023-06-28 10:49:38] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230628084721.tar.gz]
+[2023-06-28 10:49:38] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-28 10:49:40] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.0.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-28 10:49:40] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.0.0rc4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-28 10:49:40] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-06-28 10:50:02] INFO root fetch - processPackages [pytextrust]: Remove: archive file [/home/abi/fetcher/tmp/pytextrust-0.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-28 10:50:02] INFO root fetch - processPackages [pytextrust]: Remove: archive file [/home/abi/fetcher/tmp/pytextrust-0.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-28 10:50:02] INFO root fetch - main [MainThread]: End processing [pytextrust]: success
+[2023-06-28 10:50:02] INFO root fetch - main [MainThread]: Store serial: [18676506]
