@@ -20278,3 +20278,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 11:17:48] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-8.0.1rc1.tar.gz]
 [2023-06-28 11:17:48] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
 [2023-06-28 11:17:48] INFO root fetch - main [MainThread]: Store serial: [18676799]
+[2023-06-28 11:22:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18676799]
+[2023-06-28 11:22:57] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-28 11:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cytocipher
+[2023-06-28 11:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-slb20140515
+[2023-06-28 11:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rbx
+[2023-06-28 11:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ip-scanner-project
+[2023-06-28 11:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shortloop-python
+[2023-06-28 11:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inference-server
+[2023-06-28 11:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: f5project
+[2023-06-28 11:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neptune-pytorch
+[2023-06-28 11:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quote4py
+[2023-06-28 11:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dara-components
+[2023-06-28 11:22:57] INFO root fetch - processPackages [alibabacloud-slb20140515]: New version: [3.3.9] Old Version: [3.3.20]
+[2023-06-28 11:22:57] WARNING root fetch - processPackages [ip-scanner-project]: Skipping, unable to determine old version
+[2023-06-28 11:22:57] INFO root fetch - processPackages [ip-scanner-project]: Start processing: arxiv2text
+[2023-06-28 11:22:57] INFO root fetch - main [MainThread]: End processing [ip-scanner-project] error
+[2023-06-28 11:22:57] INFO root fetch - processPackages [inference-server]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-28 11:22:57] WARNING root fetch - processPackages [f5project]: Skipping, unable to determine old version
+[2023-06-28 11:22:57] INFO root fetch - processPackages [f5project]: Start processing: ai2-kit
+[2023-06-28 11:22:57] INFO root fetch - processPackages [neptune-pytorch]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-06-28 11:22:57] INFO root fetch - main [MainThread]: End processing [f5project] error
+[2023-06-28 11:22:57] WARNING root fetch - processPackages [dara-components]: Skipping, unable to determine old version
+[2023-06-28 11:22:57] INFO root fetch - processPackages [dara-components]: Start processing: iqm-cortex-cli
+[2023-06-28 11:22:57] INFO root fetch - main [MainThread]: End processing [dara-components] error
+[2023-06-28 11:22:58] INFO root fetch - processPackages [cytocipher]: New version: [0.1.20] Old Version: [0.1.15]
+[2023-06-28 11:22:58] INFO root fetch - processPackages [quote4py]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-28 11:22:58] INFO root fetch - processPackages [shortloop-python]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-28 11:22:58] INFO root fetch - processPackages [rbx]: New version: [3.2.0.dev29] Old Version: [3.2.0]
+[2023-06-28 11:22:58] WARNING root fetch - processPackages [arxiv2text]: Skipping, unable to determine old version
+[2023-06-28 11:22:58] INFO root fetch - processPackages [arxiv2text]: Start processing: sqlalchemy-pagination-fastapi
+[2023-06-28 11:22:58] INFO root fetch - main [MainThread]: End processing [arxiv2text] error
+[2023-06-28 11:22:58] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-28 11:22:58] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-28 11:22:58] INFO root fetch - processPackages [quote4py]: Downloading https://files.pythonhosted.org/packages/65/5c/ea63210a96ba6674a8274e55db367a5317d1d1377e5ffa06ed1aa5cf0525/quote4py-1.0.1-py3-none-any.whl
+[2023-06-28 11:22:58] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Downloading https://files.pythonhosted.org/packages/14/3f/06986af0f9d267d425fbbe0cd218ff52e91a2bcfeb04547f738429e0907b/sqlalchemy-pagination-fastapi-0.0.2.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [alibabacloud-slb20140515]: Downloading https://files.pythonhosted.org/packages/a6/88/1c2cd51828e442dcc761f23c7609d53cdad57e4f4bffbce9452d90789849/alibabacloud_slb20140515-3.3.20.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [rbx]: Downloading https://files.pythonhosted.org/packages/16/01/1a91465725c92a2f07c8b85d1ae614842180a45934c7f09f5200864720e7/rbx-3.2.0.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [shortloop-python]: Downloading https://files.pythonhosted.org/packages/1d/41/463c20e0c3f66dcd7450ab1c97e878a948f906d2c851902f2d0800ea1903/shortloop_python-0.1.5.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [cytocipher]: Downloading https://files.pythonhosted.org/packages/65/ec/a0db8682e14f4a22ff2614a52bb7a06eb37ad2f3ab4791bd3b0d1a3e3817/cytocipher-0.1.15.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [inference-server]: Downloading https://files.pythonhosted.org/packages/db/45/72e2b07add74bc5542758ba72d355b4a5aff35a25015aff008220b3e0c73/inference-server-1.0.3.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [neptune-pytorch]: Downloading https://files.pythonhosted.org/packages/2d/3e/682baefeb0236e9a4a9a4da6199a13d143a690ca0f9601dfeea9f1a45d57/neptune_pytorch-0.2.0.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Downloading https://files.pythonhosted.org/packages/9b/ac/bf88682b163421466513eb8ff3b1a0880d795da92eb5b3e35a6386523314/sqlalchemy-pagination-fastapi-0.0.3.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [iqm-cortex-cli]: New version: [4.3] Old Version: [4.2]
+[2023-06-28 11:22:58] INFO root fetch - processPackages [quote4py]: Downloading https://files.pythonhosted.org/packages/21/b3/5a7a65627ab68da1ddb00bd122c6d4fe1301ad78fb07b616c5cb41b1fa14/quote4py-1.1.0-py3-none-any.whl
+[2023-06-28 11:22:58] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/f8/ec/3044fde579418570279eb9f4c2d60facdbd573ed724ec7fa07e3a4c940aa/ai2_kit-0.3.9.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: executing diffoscope
+[2023-06-28 11:22:58] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-pagination-fastapi-0.0.2.tar.gz tmp/sqlalchemy-pagination-fastapi-0.0.3.tar.gz --markdown 20230628/s/sqlalchemy-pagination-fastapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-28 11:22:58] INFO root fetch - processPackages [rbx]: Downloading https://files.pythonhosted.org/packages/28/33/b430428a3db40162afbd282c56eb4f4612d1a23818314f8a4bc93d0b3f4d/rbx-3.2.0.dev29.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [quote4py]: executing diffoscope
+[2023-06-28 11:22:58] INFO root fetch - processPackages [quote4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quote4py-1.0.1-py3-none-any.whl.zip tmp/quote4py-1.1.0-py3-none-any.whl.zip --markdown 20230628/q/quote4py/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-28 11:22:58] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-06-28 11:22:58] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.8.tar.gz tmp/ai2_kit-0.3.9.tar.gz --markdown 20230628/a/ai2-kit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-28 11:22:58] INFO root fetch - processPackages [alibabacloud-slb20140515]: Downloading https://files.pythonhosted.org/packages/08/36/8938b06ab416dbdb8fadd176e704f66d9495833c984b75182f421065050b/alibabacloud_slb20140515-3.3.9.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [inference-server]: Downloading https://files.pythonhosted.org/packages/61/b3/59ba9989f55df3c7b67bf933c8a28b5200ddb7df29829aec855d486c1c0e/inference-server-1.0.4.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [rbx]: executing diffoscope
+[2023-06-28 11:22:58] INFO root fetch - processPackages [rbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbx-3.2.0.tar.gz tmp/rbx-3.2.0.dev29.tar.gz --markdown 20230628/r/rbx/3.2.0-3.2.0.dev29/diff.md --exclude *.pyd
+[2023-06-28 11:22:58] INFO root fetch - processPackages [shortloop-python]: Downloading https://files.pythonhosted.org/packages/1d/b7/fc15b79a386234bd3701c711aca1de957aac66cab74bbd1ab47ea47651e9/shortloop_python-0.1.6.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [iqm-cortex-cli]: Downloading https://files.pythonhosted.org/packages/9a/e1/178bb8d4f6071c10a069b8b3301fff9cea38d1070c09dbd229fc4d6dfee7/iqm-cortex-cli-4.2.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [cytocipher]: Downloading https://files.pythonhosted.org/packages/a8/65/171cc9a77cc9057df6c8307f1dad0ffd1df5f97122bc57c2f85a5a13748e/cytocipher-0.1.20.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [neptune-pytorch]: Downloading https://files.pythonhosted.org/packages/9f/2c/7701140f163dd5240b2c4ac0c5d6b764ab7400daeafd1b49db6fbeac6086/neptune_pytorch-1.0.0.tar.gz
+[2023-06-28 11:22:58] INFO root fetch - processPackages [alibabacloud-slb20140515]: executing diffoscope
+[2023-06-28 11:22:58] INFO root fetch - processPackages [alibabacloud-slb20140515]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_slb20140515-3.3.20.tar.gz tmp/alibabacloud_slb20140515-3.3.9.tar.gz --markdown 20230628/a/alibabacloud-slb20140515/3.3.20-3.3.9/diff.md --exclude *.pyd
+[2023-06-28 11:22:58] INFO root fetch - processPackages [inference-server]: executing diffoscope
+[2023-06-28 11:22:58] INFO root fetch - processPackages [inference-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inference-server-1.0.3.tar.gz tmp/inference-server-1.0.4.tar.gz --markdown 20230628/i/inference-server/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-28 11:22:58] INFO root fetch - processPackages [shortloop-python]: executing diffoscope
+[2023-06-28 11:22:58] INFO root fetch - processPackages [shortloop-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shortloop_python-0.1.5.tar.gz tmp/shortloop_python-0.1.6.tar.gz --markdown 20230628/s/shortloop-python/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-28 11:22:58] INFO root fetch - processPackages [cytocipher]: executing diffoscope
+[2023-06-28 11:22:58] INFO root fetch - processPackages [cytocipher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytocipher-0.1.15.tar.gz tmp/cytocipher-0.1.20.tar.gz --markdown 20230628/c/cytocipher/0.1.15-0.1.20/diff.md --exclude *.pyd
+[2023-06-28 11:22:58] INFO root fetch - processPackages [neptune-pytorch]: executing diffoscope
+[2023-06-28 11:22:58] INFO root fetch - processPackages [neptune-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune_pytorch-0.2.0.tar.gz tmp/neptune_pytorch-1.0.0.tar.gz --markdown 20230628/n/neptune-pytorch/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-28 11:22:58] INFO root fetch - processPackages [iqm-cortex-cli]: Downloading https://files.pythonhosted.org/packages/61/ae/12823fbca5ac65af30b17ff2bee4ac5011677cd094116caebcd5b0521d27/iqm-cortex-cli-4.3.tar.gz
+[2023-06-28 11:22:59] INFO root fetch - processPackages [iqm-cortex-cli]: executing diffoscope
+[2023-06-28 11:22:59] INFO root fetch - processPackages [iqm-cortex-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqm-cortex-cli-4.2.tar.gz tmp/iqm-cortex-cli-4.3.tar.gz --markdown 20230628/i/iqm-cortex-cli/4.2-4.3/diff.md --exclude *.pyd
+[2023-06-28 11:23:00] INFO root fetch - processPackages [quote4py]: Remove: archive file [/home/abi/fetcher/tmp/quote4py-1.0.1-py3-none-any.whl.zip]
+[2023-06-28 11:23:00] INFO root fetch - processPackages [quote4py]: Remove: archive file [/home/abi/fetcher/tmp/quote4py-1.1.0-py3-none-any.whl.zip]
+[2023-06-28 11:23:00] INFO root fetch - main [MainThread]: End processing [quote4py]: success
+[2023-06-28 11:23:00] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-pagination-fastapi-0.0.2.tar.gz]
+[2023-06-28 11:23:00] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-pagination-fastapi-0.0.3.tar.gz]
+[2023-06-28 11:23:00] INFO root fetch - main [MainThread]: End processing [sqlalchemy-pagination-fastapi]: success
+[2023-06-28 11:23:00] INFO root fetch - processPackages [neptune-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/neptune_pytorch-0.2.0.tar.gz]
+[2023-06-28 11:23:00] INFO root fetch - processPackages [neptune-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/neptune_pytorch-1.0.0.tar.gz]
+[2023-06-28 11:23:00] INFO root fetch - main [MainThread]: End processing [neptune-pytorch]: success
+[2023-06-28 11:23:00] INFO root fetch - processPackages [alibabacloud-slb20140515]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_slb20140515-3.3.20.tar.gz]
+[2023-06-28 11:23:00] INFO root fetch - processPackages [alibabacloud-slb20140515]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_slb20140515-3.3.9.tar.gz]
+[2023-06-28 11:23:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-slb20140515]: success
+[2023-06-28 11:23:00] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-06-28 11:23:00] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
+[2023-06-28 11:23:00] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-06-28 11:23:01] INFO root fetch - processPackages [rbx]: Remove: archive file [/home/abi/fetcher/tmp/rbx-3.2.0.tar.gz]
+[2023-06-28 11:23:01] INFO root fetch - processPackages [rbx]: Remove: archive file [/home/abi/fetcher/tmp/rbx-3.2.0.dev29.tar.gz]
+[2023-06-28 11:23:01] INFO root fetch - main [MainThread]: End processing [rbx]: success
+[2023-06-28 11:23:01] INFO root fetch - processPackages [shortloop-python]: Remove: archive file [/home/abi/fetcher/tmp/shortloop_python-0.1.5.tar.gz]
+[2023-06-28 11:23:01] INFO root fetch - processPackages [shortloop-python]: Remove: archive file [/home/abi/fetcher/tmp/shortloop_python-0.1.6.tar.gz]
+[2023-06-28 11:23:01] INFO root fetch - main [MainThread]: End processing [shortloop-python]: success
+[2023-06-28 11:23:01] INFO root fetch - processPackages [inference-server]: Remove: archive file [/home/abi/fetcher/tmp/inference-server-1.0.3.tar.gz]
+[2023-06-28 11:23:01] INFO root fetch - processPackages [inference-server]: Remove: archive file [/home/abi/fetcher/tmp/inference-server-1.0.4.tar.gz]
+[2023-06-28 11:23:01] INFO root fetch - main [MainThread]: End processing [inference-server]: success
+[2023-06-28 11:23:02] INFO root fetch - processPackages [cytocipher]: Remove: archive file [/home/abi/fetcher/tmp/cytocipher-0.1.15.tar.gz]
+[2023-06-28 11:23:02] INFO root fetch - processPackages [cytocipher]: Remove: archive file [/home/abi/fetcher/tmp/cytocipher-0.1.20.tar.gz]
+[2023-06-28 11:23:02] INFO root fetch - main [MainThread]: End processing [cytocipher]: success
+[2023-06-28 11:23:03] INFO root fetch - processPackages [iqm-cortex-cli]: Remove: archive file [/home/abi/fetcher/tmp/iqm-cortex-cli-4.2.tar.gz]
+[2023-06-28 11:23:03] INFO root fetch - processPackages [iqm-cortex-cli]: Remove: archive file [/home/abi/fetcher/tmp/iqm-cortex-cli-4.3.tar.gz]
+[2023-06-28 11:23:03] INFO root fetch - main [MainThread]: End processing [iqm-cortex-cli]: success
+[2023-06-28 11:23:03] INFO root fetch - main [MainThread]: Store serial: [18676844]
