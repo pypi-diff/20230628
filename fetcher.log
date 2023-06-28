@@ -14389,3 +14389,70 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 05:56:07] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.8.tar.gz]
 [2023-06-28 05:56:07] INFO root fetch - main [MainThread]: End processing [vstutils]: success
 [2023-06-28 05:56:07] INFO root fetch - main [MainThread]: Store serial: [18674349]
+[2023-06-28 06:01:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674349]
+[2023-06-28 06:01:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-28 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sickchill
+[2023-06-28 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: udmp-parser
+[2023-06-28 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JarvisAI
+[2023-06-28 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: circuitree
+[2023-06-28 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: saritasa-invocations
+[2023-06-28 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybw-comic
+[2023-06-28 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: http-content-parser
+[2023-06-28 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycades
+[2023-06-28 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: evals-nightly
+[2023-06-28 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdktf-cdktf-provider-google
+[2023-06-28 06:01:16] INFO root fetch - processPackages [sickchill]: New version: [2023.5.30] Old Version: [2023.5.28]
+[2023-06-28 06:01:16] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230626] Old Version: [1.0.3.dev20230625]
+[2023-06-28 06:01:16] WARNING root fetch - processPackages [pybw-comic]: Skipping, unable to determine old version
+[2023-06-28 06:01:16] INFO root fetch - main [MainThread]: End processing [pybw-comic] error
+[2023-06-28 06:01:16] INFO root fetch - processPackages [circuitree]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-28 06:01:16] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/7c/67/2e1f4d8f5703df07b504e87f98a17f6586696ab432611268bd2bb0c84f2b/circuitree-0.1.3.tar.gz
+[2023-06-28 06:01:16] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/c4/64/4f65c5c8989219794574fc4276ed1e9b3a2969f302e4737628687f8e93dc/evals-nightly-1.0.3.dev20230625.tar.gz
+[2023-06-28 06:01:16] INFO root fetch - processPackages [udmp-parser]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-28 06:01:16] WARNING root fetch - processPackages [saritasa-invocations]: Skipping, unable to determine old version
+[2023-06-28 06:01:16] INFO root fetch - main [MainThread]: End processing [saritasa-invocations] error
+[2023-06-28 06:01:16] INFO root fetch - processPackages [http-content-parser]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-28 06:01:16] WARNING root fetch - processPackages [pycades]: Skipping, unable to determine old version
+[2023-06-28 06:01:16] INFO root fetch - main [MainThread]: End processing [pycades] error
+[2023-06-28 06:01:16] INFO root fetch - processPackages [JarvisAI]: New version: [4.9] Old Version: [4.8]
+[2023-06-28 06:01:16] INFO root fetch - processPackages [http-content-parser]: Downloading https://files.pythonhosted.org/packages/41/cb/c8952a1df259e5a2eab8ad8fb8f221d55ae38dea7c5f7a37f5fea029f5a0/http_content_parser-0.0.3.tar.gz
+[2023-06-28 06:01:16] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [8.0.2] Old Version: [8.0.1]
+[2023-06-28 06:01:16] INFO root fetch - processPackages [sickchill]: Downloading https://files.pythonhosted.org/packages/54/9b/9d22719658048b81c044affc4f1ae87a53ffa1e7c75c9b8f0cce85d57d2a/sickchill-2023.5.28.tar.gz
+[2023-06-28 06:01:16] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/20/d0/de7341e4fa3c85d7e4cfa1717c33275e896073ef75ba174e49e8bef2cd51/evals-nightly-1.0.3.dev20230626.tar.gz
+[2023-06-28 06:01:16] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/2c/0f/0dfdb792433139a1782a82bc3c796a0bae9ca5cb66cdf32cb4104d5de2c8/circuitree-0.1.4.tar.gz
+[2023-06-28 06:01:16] WARNING root fetch - processPackages [sickchill]: Skipping package: exceeds size limit 14757662>=10485760
+[2023-06-28 06:01:16] INFO root fetch - main [MainThread]: End processing [sickchill] error
+[2023-06-28 06:01:16] INFO root fetch - processPackages [udmp-parser]: Downloading https://files.pythonhosted.org/packages/fc/af/f17867f90cf0fe73eadad36a635957dd9c6cd5068fde3a1f3b80fddcbc82/udmp_parser-0.4.2-cp39-cp39-win_amd64.whl
+[2023-06-28 06:01:16] INFO root fetch - processPackages [JarvisAI]: Downloading https://files.pythonhosted.org/packages/a6/11/49c0954223feb2e055f4e3ba92045a5c1e6cb8d0d191e6e0dae55fb98dc5/JarvisAI-4.8.tar.gz
+[2023-06-28 06:01:16] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/fa/a1/b91e8842156903356b2bab7ff95e3bffce5d783ab85ab7e53f03d27552f0/cdktf-cdktf-provider-google-8.0.1.tar.gz
+[2023-06-28 06:01:16] INFO root fetch - processPackages [circuitree]: executing diffoscope
+[2023-06-28 06:01:16] INFO root fetch - processPackages [circuitree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitree-0.1.3.tar.gz tmp/circuitree-0.1.4.tar.gz --markdown 20230628/c/circuitree/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-28 06:01:16] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-06-28 06:01:16] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230625.tar.gz tmp/evals-nightly-1.0.3.dev20230626.tar.gz --markdown 20230628/e/evals-nightly/1.0.3.dev20230625-1.0.3.dev20230626/diff.md --exclude *.pyd
+[2023-06-28 06:01:16] INFO root fetch - processPackages [http-content-parser]: Downloading https://files.pythonhosted.org/packages/a5/bd/2caa22d5c0ab4af9bcd884d8ea254cf4bbea1270d45b31831382691dc1fb/http_content_parser-0.0.4.tar.gz
+[2023-06-28 06:01:16] INFO root fetch - processPackages [JarvisAI]: Downloading https://files.pythonhosted.org/packages/98/d9/6c230c26510d3ee70f13e6b424d1a6e606c9278a03696d85f6a63b4adc3f/JarvisAI-4.9.tar.gz
+[2023-06-28 06:01:16] INFO root fetch - processPackages [udmp-parser]: Downloading https://files.pythonhosted.org/packages/6c/93/abd0007c2968959f91c05626224554b0ded656398a39d22c2392d206b262/udmp_parser-0.4.3-cp39-cp39-win_amd64.whl
+[2023-06-28 06:01:16] INFO root fetch - processPackages [http-content-parser]: executing diffoscope
+[2023-06-28 06:01:16] INFO root fetch - processPackages [http-content-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http_content_parser-0.0.3.tar.gz tmp/http_content_parser-0.0.4.tar.gz --markdown 20230628/h/http-content-parser/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-28 06:01:16] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 20152721>=10485760
+[2023-06-28 06:01:16] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2023-06-28 06:01:17] INFO root fetch - processPackages [JarvisAI]: executing diffoscope
+[2023-06-28 06:01:17] INFO root fetch - processPackages [JarvisAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JarvisAI-4.8.tar.gz tmp/JarvisAI-4.9.tar.gz --markdown 20230628/J/JarvisAI/4.8-4.9/diff.md --exclude *.pyd
+[2023-06-28 06:01:17] INFO root fetch - processPackages [udmp-parser]: executing diffoscope
+[2023-06-28 06:01:17] INFO root fetch - processPackages [udmp-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udmp_parser-0.4.2-cp39-cp39-win_amd64.whl.zip tmp/udmp_parser-0.4.3-cp39-cp39-win_amd64.whl.zip --markdown 20230628/u/udmp-parser/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-28 06:01:17] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.1.3.tar.gz]
+[2023-06-28 06:01:17] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.1.4.tar.gz]
+[2023-06-28 06:01:17] INFO root fetch - main [MainThread]: End processing [circuitree]: success
+[2023-06-28 06:01:17] INFO root fetch - processPackages [http-content-parser]: Remove: archive file [/home/abi/fetcher/tmp/http_content_parser-0.0.3.tar.gz]
+[2023-06-28 06:01:17] INFO root fetch - processPackages [http-content-parser]: Remove: archive file [/home/abi/fetcher/tmp/http_content_parser-0.0.4.tar.gz]
+[2023-06-28 06:01:17] INFO root fetch - main [MainThread]: End processing [http-content-parser]: success
+[2023-06-28 06:01:18] INFO root fetch - processPackages [udmp-parser]: Remove: archive file [/home/abi/fetcher/tmp/udmp_parser-0.4.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-28 06:01:18] INFO root fetch - processPackages [udmp-parser]: Remove: archive file [/home/abi/fetcher/tmp/udmp_parser-0.4.3-cp39-cp39-win_amd64.whl.zip]
+[2023-06-28 06:01:18] INFO root fetch - main [MainThread]: End processing [udmp-parser]: success
+[2023-06-28 06:01:18] INFO root fetch - processPackages [JarvisAI]: Remove: archive file [/home/abi/fetcher/tmp/JarvisAI-4.8.tar.gz]
+[2023-06-28 06:01:18] INFO root fetch - processPackages [JarvisAI]: Remove: archive file [/home/abi/fetcher/tmp/JarvisAI-4.9.tar.gz]
+[2023-06-28 06:01:18] INFO root fetch - main [MainThread]: End processing [JarvisAI]: success
+[2023-06-28 06:01:19] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230625.tar.gz]
+[2023-06-28 06:01:19] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230626.tar.gz]
+[2023-06-28 06:01:19] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-06-28 06:01:19] INFO root fetch - main [MainThread]: Store serial: [18674398]
