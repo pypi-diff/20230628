@@ -14143,3 +14143,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 05:34:14] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-cloudflare-8.0.0.tar.gz]
 [2023-06-28 05:34:14] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-cloudflare]: success
 [2023-06-28 05:34:14] INFO root fetch - main [MainThread]: Store serial: [18674271]
+[2023-06-28 05:39:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674271]
+[2023-06-28 05:39:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-28 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nerfvis
+[2023-06-28 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: general-calculator-zsd
+[2023-06-28 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: toontown-utils
+[2023-06-28 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-rename
+[2023-06-28 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-hr-expense-petty-cash
+[2023-06-28 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: konfuzio-sdk
+[2023-06-28 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dialogy
+[2023-06-28 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: etu-fastapi-frame
+[2023-06-28 05:39:24] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-06-28 05:39:24] INFO root fetch - processPackages [odoo14-addon-hr-expense-petty-cash]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev4]
+[2023-06-28 05:39:24] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-06-28 05:39:24] INFO root fetch - processPackages [odoo14-addon-hr-expense-petty-cash]: Downloading https://files.pythonhosted.org/packages/fa/80/60238a73dc696600754d663a0b9d303396ddeaed84ff4712022edeba66e6/odoo14_addon_hr_expense_petty_cash-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-06-28 05:39:24] INFO root fetch - processPackages [general-calculator-zsd]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-28 05:39:24] INFO root fetch - processPackages [nerfvis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 05:39:24] INFO root fetch - processPackages [toontown-utils]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-28 05:39:24] INFO root fetch - processPackages [etu-fastapi-frame]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-28 05:39:24] INFO root fetch - processPackages [nonebot-plugin-rename]: New version: [1.6.0] Old Version: [1.5.6]
+[2023-06-28 05:39:24] INFO root fetch - processPackages [dialogy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-28 05:39:24] INFO root fetch - processPackages [general-calculator-zsd]: Downloading https://files.pythonhosted.org/packages/14/dc/e126bae351ca350794765a22f2e250bc05d083fca3fd6d86b8ef243511a8/general_calculator_zsd-1.2.0.tar.gz
+[2023-06-28 05:39:24] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/12/1e/7138dbaaa61cf3566922d4bef3a4e22816ce221213d4a8db25c0371d4872/nonebot_plugin_rename-1.5.6.tar.gz
+[2023-06-28 05:39:24] INFO root fetch - processPackages [odoo14-addon-hr-expense-petty-cash]: Downloading https://files.pythonhosted.org/packages/06/7c/bbf68bfb174ab0b4133173daf75e00b06c399451e375221469991435b041/odoo14_addon_hr_expense_petty_cash-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-28 05:39:24] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-06-28 05:39:24] INFO root fetch - processPackages [nerfvis]: Downloading https://files.pythonhosted.org/packages/52/91/e991e9e223980ac306babbe433274ae32fa86476c8f1226be5e53f1eee75/nerfvis-0.1.8.tar.gz
+[2023-06-28 05:39:24] INFO root fetch - processPackages [etu-fastapi-frame]: Downloading https://files.pythonhosted.org/packages/1d/44/5cc8fd7b69f2b442f37b4f0cac1723691139e8c0a699f621251c22c106c8/etu-fastapi-frame-1.2.0.tar.gz
+[2023-06-28 05:39:24] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/ca/98/9c0607140525a5654c6e21f4f5142382491d00618c71ab35f6d398597a78/dialogy-2.0.8.tar.gz
+[2023-06-28 05:39:24] INFO root fetch - processPackages [toontown-utils]: Downloading https://files.pythonhosted.org/packages/55/8a/928fbd4778bb3b18c05b4d5610500fa92a2b7673a30d1314577ab40794ac/toontown_utils-2.0.0.tar.gz
+[2023-06-28 05:39:24] INFO root fetch - processPackages [odoo14-addon-hr-expense-petty-cash]: executing diffoscope
+[2023-06-28 05:39:24] INFO root fetch - processPackages [odoo14-addon-hr-expense-petty-cash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_expense_petty_cash-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_hr_expense_petty_cash-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230628/o/odoo14-addon-hr-expense-petty-cash/14.0.1.0.1.dev4-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-06-28 05:39:24] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-06-28 05:39:24] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230628/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-06-28 05:39:24] INFO root fetch - processPackages [general-calculator-zsd]: Downloading https://files.pythonhosted.org/packages/6c/f7/6d258ca7ec1e56f56a4870f20807be549ef6404522a70a01ea2e2e81e964/general_calculator_zsd-1.2.1.tar.gz
+[2023-06-28 05:39:24] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/68/a8/ac2aa7cb6c2c629119d4486ec91693ba892603ba03ae8fb24b9935868327/nonebot_plugin_rename-1.6.0.tar.gz
+[2023-06-28 05:39:24] INFO root fetch - processPackages [toontown-utils]: Downloading https://files.pythonhosted.org/packages/7d/e6/5f1229534f22c40bfea918acb902815bfe5837e48602bd2f4eff9e175e11/toontown_utils-2.0.1.tar.gz
+[2023-06-28 05:39:24] INFO root fetch - processPackages [general-calculator-zsd]: executing diffoscope
+[2023-06-28 05:39:24] INFO root fetch - processPackages [general-calculator-zsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_calculator_zsd-1.2.0.tar.gz tmp/general_calculator_zsd-1.2.1.tar.gz --markdown 20230628/g/general-calculator-zsd/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-28 05:39:24] INFO root fetch - processPackages [etu-fastapi-frame]: Downloading https://files.pythonhosted.org/packages/5f/21/374486320fce7837c6b55e3afdd22a233ae9bdd38b7e4be6c04a32731665/etu-fastapi-frame-1.3.0.tar.gz
+[2023-06-28 05:39:24] INFO root fetch - processPackages [nerfvis]: Downloading https://files.pythonhosted.org/packages/5f/0a/bacc31f9d22336334016226eee1db89d2428052b46526028fdf91a4c048f/nerfvis-0.1.9.tar.gz
+[2023-06-28 05:39:24] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/ca/d9/dca00478422152d39f4cd3351f106029580ab4f7401eaf41b4329643ddbe/dialogy-2.0.9.tar.gz
+[2023-06-28 05:39:24] INFO root fetch - processPackages [toontown-utils]: executing diffoscope
+[2023-06-28 05:39:24] INFO root fetch - processPackages [toontown-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toontown_utils-2.0.0.tar.gz tmp/toontown_utils-2.0.1.tar.gz --markdown 20230628/t/toontown-utils/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-28 05:39:24] INFO root fetch - processPackages [nonebot-plugin-rename]: executing diffoscope
+[2023-06-28 05:39:24] INFO root fetch - processPackages [nonebot-plugin-rename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_rename-1.5.6.tar.gz tmp/nonebot_plugin_rename-1.6.0.tar.gz --markdown 20230628/n/nonebot-plugin-rename/1.5.6-1.6.0/diff.md --exclude *.pyd
+[2023-06-28 05:39:24] INFO root fetch - processPackages [etu-fastapi-frame]: executing diffoscope
+[2023-06-28 05:39:24] INFO root fetch - processPackages [etu-fastapi-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etu-fastapi-frame-1.2.0.tar.gz tmp/etu-fastapi-frame-1.3.0.tar.gz --markdown 20230628/e/etu-fastapi-frame/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-28 05:39:24] INFO root fetch - processPackages [nerfvis]: executing diffoscope
+[2023-06-28 05:39:24] INFO root fetch - processPackages [nerfvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerfvis-0.1.8.tar.gz tmp/nerfvis-0.1.9.tar.gz --markdown 20230628/n/nerfvis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 05:39:24] INFO root fetch - processPackages [dialogy]: executing diffoscope
+[2023-06-28 05:39:24] INFO root fetch - processPackages [dialogy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialogy-2.0.8.tar.gz tmp/dialogy-2.0.9.tar.gz --markdown 20230628/d/dialogy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-28 05:39:25] INFO root fetch - processPackages [odoo14-addon-hr-expense-petty-cash]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_expense_petty_cash-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-06-28 05:39:25] INFO root fetch - processPackages [odoo14-addon-hr-expense-petty-cash]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_expense_petty_cash-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-28 05:39:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-expense-petty-cash]: success
+[2023-06-28 05:39:25] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-06-28 05:39:25] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-06-28 05:39:25] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-06-28 05:39:26] INFO root fetch - processPackages [general-calculator-zsd]: Remove: archive file [/home/abi/fetcher/tmp/general_calculator_zsd-1.2.0.tar.gz]
+[2023-06-28 05:39:26] INFO root fetch - processPackages [general-calculator-zsd]: Remove: archive file [/home/abi/fetcher/tmp/general_calculator_zsd-1.2.1.tar.gz]
+[2023-06-28 05:39:26] INFO root fetch - main [MainThread]: End processing [general-calculator-zsd]: success
+[2023-06-28 05:39:26] INFO root fetch - processPackages [nonebot-plugin-rename]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_rename-1.5.6.tar.gz]
+[2023-06-28 05:39:26] INFO root fetch - processPackages [nonebot-plugin-rename]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_rename-1.6.0.tar.gz]
+[2023-06-28 05:39:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-rename]: success
+[2023-06-28 05:39:26] INFO root fetch - processPackages [etu-fastapi-frame]: Remove: archive file [/home/abi/fetcher/tmp/etu-fastapi-frame-1.2.0.tar.gz]
+[2023-06-28 05:39:26] INFO root fetch - processPackages [etu-fastapi-frame]: Remove: archive file [/home/abi/fetcher/tmp/etu-fastapi-frame-1.3.0.tar.gz]
+[2023-06-28 05:39:26] INFO root fetch - main [MainThread]: End processing [etu-fastapi-frame]: success
+[2023-06-28 05:39:26] INFO root fetch - processPackages [toontown-utils]: Remove: archive file [/home/abi/fetcher/tmp/toontown_utils-2.0.0.tar.gz]
+[2023-06-28 05:39:26] INFO root fetch - processPackages [toontown-utils]: Remove: archive file [/home/abi/fetcher/tmp/toontown_utils-2.0.1.tar.gz]
+[2023-06-28 05:39:26] INFO root fetch - main [MainThread]: End processing [toontown-utils]: success
+[2023-06-28 05:39:26] INFO root fetch - processPackages [nerfvis]: Remove: archive file [/home/abi/fetcher/tmp/nerfvis-0.1.8.tar.gz]
+[2023-06-28 05:39:26] INFO root fetch - processPackages [nerfvis]: Remove: archive file [/home/abi/fetcher/tmp/nerfvis-0.1.9.tar.gz]
+[2023-06-28 05:39:26] INFO root fetch - main [MainThread]: End processing [nerfvis]: success
+[2023-06-28 05:39:28] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.0.8.tar.gz]
+[2023-06-28 05:39:28] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.0.9.tar.gz]
+[2023-06-28 05:39:28] INFO root fetch - main [MainThread]: End processing [dialogy]: success
+[2023-06-28 05:39:28] INFO root fetch - main [MainThread]: Store serial: [18674292]
