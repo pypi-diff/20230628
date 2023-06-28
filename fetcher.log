@@ -14218,3 +14218,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 05:39:28] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.0.9.tar.gz]
 [2023-06-28 05:39:28] INFO root fetch - main [MainThread]: End processing [dialogy]: success
 [2023-06-28 05:39:28] INFO root fetch - main [MainThread]: Store serial: [18674292]
+[2023-06-28 05:44:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674292]
+[2023-06-28 05:44:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-28 05:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpg-workflows
+[2023-06-28 05:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybw-comic
+[2023-06-28 05:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-iot-output-oca
+[2023-06-28 05:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-iot
+[2023-06-28 05:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: circuitree
+[2023-06-28 05:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eso-downloader
+[2023-06-28 05:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tej-tool-api
+[2023-06-28 05:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hatch-my-plugin
+[2023-06-28 05:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: uddr-client
+[2023-06-28 05:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-talk-with-chatgpt
+[2023-06-28 05:44:37] INFO root fetch - processPackages [uddr-client]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-28 05:44:37] INFO root fetch - processPackages [odoo-addon-iot-output-oca]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.8]
+[2023-06-28 05:44:37] INFO root fetch - processPackages [odoo-addons-oca-iot]: New version: [16.0.20230615.0] Old Version: [16.0.20230511.0]
+[2023-06-28 05:44:38] INFO root fetch - processPackages [uddr-client]: Downloading https://files.pythonhosted.org/packages/6d/5d/740efbfeb24338cb411f46c87ba46321b50afca20794705b20c9d03684c2/uddr_client-0.2.0.tar.gz
+[2023-06-28 05:44:38] INFO root fetch - processPackages [odoo-addons-oca-iot]: Downloading https://files.pythonhosted.org/packages/ae/9a/4e9687e0d292cdd9f5cecc7a0c0e028cae0215e20b3195d31f042e35892b/odoo_addons_oca_iot-16.0.20230511.0-py3-none-any.whl
+[2023-06-28 05:44:38] INFO root fetch - processPackages [odoo-addon-iot-output-oca]: Downloading https://files.pythonhosted.org/packages/ae/9d/302b8ae4fd443f41c4599ca1ccd7b97d20d7a818e17bbc63335f805f529c/odoo_addon_iot_output_oca-15.0.1.0.0.8-py3-none-any.whl
+[2023-06-28 05:44:38] INFO root fetch - processPackages [pybw-comic]: New version: [23.6.28.5] Old Version: [23.6.28.4]
+[2023-06-28 05:44:38] INFO root fetch - processPackages [tej-tool-api]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-28 05:44:38] WARNING root fetch - processPackages [eso-downloader]: Skipping, unable to determine old version
+[2023-06-28 05:44:38] INFO root fetch - processPackages [eso-downloader]: Start processing: dank-mids
+[2023-06-28 05:44:38] INFO root fetch - main [MainThread]: End processing [eso-downloader] error
+[2023-06-28 05:44:38] INFO root fetch - processPackages [circuitree]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-28 05:44:38] WARNING root fetch - processPackages [hatch-my-plugin]: Skipping, unable to determine old version
+[2023-06-28 05:44:38] INFO root fetch - main [MainThread]: End processing [hatch-my-plugin] error
+[2023-06-28 05:44:38] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-28 05:44:38] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-28 05:44:38] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-28 05:44:38] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/7c/67/2e1f4d8f5703df07b504e87f98a17f6586696ab432611268bd2bb0c84f2b/circuitree-0.1.3.tar.gz
+[2023-06-28 05:44:38] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-28 05:44:38] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2023-06-28 05:44:38] INFO root fetch - processPackages [odoo-addon-iot-output-oca]: Downloading https://files.pythonhosted.org/packages/a5/28/80e01501a52b084673b348baf5486ed03d609b6fd04b2b748d9ce7a32bca/odoo_addon_iot_output_oca-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-28 05:44:38] INFO root fetch - processPackages [odoo-addons-oca-iot]: Downloading https://files.pythonhosted.org/packages/54/b4/c7365f0b516614b4764051cfa4b37f9f3844ad0780a76cacf7656724bfb7/odoo_addons_oca_iot-16.0.20230615.0-py3-none-any.whl
+[2023-06-28 05:44:38] INFO root fetch - processPackages [uddr-client]: Downloading https://files.pythonhosted.org/packages/9a/8c/4a0656ece06252a11d65f90c8d7b29d07afe28e57340c7b278afa81bff5b/uddr_client-0.2.1.tar.gz
+[2023-06-28 05:44:38] INFO root fetch - processPackages [pybw-comic]: Downloading https://files.pythonhosted.org/packages/e0/78/dd0833d38029df752cf74e2c7857ea5d52e91d66bd606d0f341de3f10dd9/pybw_comic-23.6.28.4.tar.gz
+[2023-06-28 05:44:38] INFO root fetch - processPackages [tej-tool-api]: Downloading https://files.pythonhosted.org/packages/6a/75/2a193b64402864e8c34eed8a9bd1993f3c9e775c090053b28fc3507a5c8e/tej-tool-api-1.0.0.tar.gz
+[2023-06-28 05:44:38] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: Downloading https://files.pythonhosted.org/packages/21/de/83301ce1af1cfcc2ddfeaf682dfbcf82e296479f79377f22338fb1c9d0fd/nonebot_plugin_talk_with_chatgpt-0.6.0.tar.gz
+[2023-06-28 05:44:38] INFO root fetch - processPackages [odoo-addon-iot-output-oca]: executing diffoscope
+[2023-06-28 05:44:38] INFO root fetch - processPackages [odoo-addon-iot-output-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_iot_output_oca-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_iot_output_oca-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-iot-output-oca/15.0.1.0.0.8-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-28 05:44:38] INFO root fetch - processPackages [odoo-addons-oca-iot]: executing diffoscope
+[2023-06-28 05:44:38] INFO root fetch - processPackages [odoo-addons-oca-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_iot-16.0.20230511.0-py3-none-any.whl.zip tmp/odoo_addons_oca_iot-16.0.20230615.0-py3-none-any.whl.zip --markdown 20230628/o/odoo-addons-oca-iot/16.0.20230511.0-16.0.20230615.0/diff.md --exclude *.pyd
+[2023-06-28 05:44:38] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-28 05:44:38] INFO root fetch - processPackages [uddr-client]: executing diffoscope
+[2023-06-28 05:44:38] INFO root fetch - processPackages [uddr-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uddr_client-0.2.0.tar.gz tmp/uddr_client-0.2.1.tar.gz --markdown 20230628/u/uddr-client/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-28 05:44:38] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2023-06-28 05:44:38] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/2c/0f/0dfdb792433139a1782a82bc3c796a0bae9ca5cb66cdf32cb4104d5de2c8/circuitree-0.1.4.tar.gz
+[2023-06-28 05:44:38] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-28 05:44:38] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230628/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-28 05:44:38] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2023-06-28 05:44:38] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20230628/c/cpg-workflows/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-28 05:44:38] INFO root fetch - processPackages [pybw-comic]: Downloading https://files.pythonhosted.org/packages/bf/c1/835d703c2a496855f7b3d40ef1ffb3e4cfd2e893605c086cd8f175327083/pybw_comic-23.6.28.5.tar.gz
+[2023-06-28 05:44:38] INFO root fetch - processPackages [tej-tool-api]: Downloading https://files.pythonhosted.org/packages/50/ea/231f17554f9bb2d72ee63a8d2539ab5f8ff96cd170346507e80d28a5252f/tej-tool-api-1.0.1.tar.gz
+[2023-06-28 05:44:38] INFO root fetch - processPackages [circuitree]: executing diffoscope
+[2023-06-28 05:44:38] INFO root fetch - processPackages [circuitree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitree-0.1.3.tar.gz tmp/circuitree-0.1.4.tar.gz --markdown 20230628/c/circuitree/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-28 05:44:38] INFO root fetch - processPackages [tej-tool-api]: executing diffoscope
+[2023-06-28 05:44:38] INFO root fetch - processPackages [tej-tool-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tej-tool-api-1.0.0.tar.gz tmp/tej-tool-api-1.0.1.tar.gz --markdown 20230628/t/tej-tool-api/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-28 05:44:38] INFO root fetch - processPackages [pybw-comic]: executing diffoscope
+[2023-06-28 05:44:38] INFO root fetch - processPackages [pybw-comic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybw_comic-23.6.28.4.tar.gz tmp/pybw_comic-23.6.28.5.tar.gz --markdown 20230628/p/pybw-comic/23.6.28.4-23.6.28.5/diff.md --exclude *.pyd
+[2023-06-28 05:44:38] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: Downloading https://files.pythonhosted.org/packages/62/9d/b5d6382cacaebaaef7f4498f2d118b3b802e2af75f1f3f9b47f6f9bc7801/nonebot_plugin_talk_with_chatgpt-0.6.1.tar.gz
+[2023-06-28 05:44:39] INFO root fetch - processPackages [odoo-addons-oca-iot]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_iot-16.0.20230511.0-py3-none-any.whl.zip]
+[2023-06-28 05:44:39] INFO root fetch - processPackages [odoo-addons-oca-iot]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_iot-16.0.20230615.0-py3-none-any.whl.zip]
+[2023-06-28 05:44:39] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-iot]: success
+[2023-06-28 05:44:39] INFO root fetch - processPackages [odoo-addon-iot-output-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_iot_output_oca-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-28 05:44:39] INFO root fetch - processPackages [odoo-addon-iot-output-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_iot_output_oca-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-28 05:44:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-iot-output-oca]: success
+[2023-06-28 05:44:39] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-28 05:44:39] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-28 05:44:39] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-28 05:44:39] INFO root fetch - processPackages [uddr-client]: Remove: archive file [/home/abi/fetcher/tmp/uddr_client-0.2.0.tar.gz]
+[2023-06-28 05:44:39] INFO root fetch - processPackages [uddr-client]: Remove: archive file [/home/abi/fetcher/tmp/uddr_client-0.2.1.tar.gz]
+[2023-06-28 05:44:39] INFO root fetch - main [MainThread]: End processing [uddr-client]: success
+[2023-06-28 05:44:40] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2023-06-28 05:44:40] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2023-06-28 05:44:40] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2023-06-28 05:44:40] INFO root fetch - processPackages [pybw-comic]: Remove: archive file [/home/abi/fetcher/tmp/pybw_comic-23.6.28.4.tar.gz]
+[2023-06-28 05:44:40] INFO root fetch - processPackages [pybw-comic]: Remove: archive file [/home/abi/fetcher/tmp/pybw_comic-23.6.28.5.tar.gz]
+[2023-06-28 05:44:40] INFO root fetch - main [MainThread]: End processing [pybw-comic]: success
+[2023-06-28 05:44:40] INFO root fetch - processPackages [tej-tool-api]: Remove: archive file [/home/abi/fetcher/tmp/tej-tool-api-1.0.0.tar.gz]
+[2023-06-28 05:44:40] INFO root fetch - processPackages [tej-tool-api]: Remove: archive file [/home/abi/fetcher/tmp/tej-tool-api-1.0.1.tar.gz]
+[2023-06-28 05:44:40] INFO root fetch - main [MainThread]: End processing [tej-tool-api]: success
+[2023-06-28 05:44:41] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: executing diffoscope
+[2023-06-28 05:44:41] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_talk_with_chatgpt-0.6.0.tar.gz tmp/nonebot_plugin_talk_with_chatgpt-0.6.1.tar.gz --markdown 20230628/n/nonebot-plugin-talk-with-chatgpt/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-28 05:44:42] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_talk_with_chatgpt-0.6.0.tar.gz]
+[2023-06-28 05:44:42] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_talk_with_chatgpt-0.6.1.tar.gz]
+[2023-06-28 05:44:42] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-talk-with-chatgpt]: success
+[2023-06-28 05:45:32] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.1.3.tar.gz]
+[2023-06-28 05:45:32] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.1.4.tar.gz]
+[2023-06-28 05:45:32] INFO root fetch - main [MainThread]: End processing [circuitree]: success
+[2023-06-28 05:45:32] INFO root fetch - main [MainThread]: Store serial: [18674324]
