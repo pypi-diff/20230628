@@ -15192,3 +15192,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 07:18:56] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.5.tar.gz]
 [2023-06-28 07:18:56] INFO root fetch - main [MainThread]: End processing [geemap]: success
 [2023-06-28 07:18:56] INFO root fetch - main [MainThread]: Store serial: [18674776]
+[2023-06-28 07:24:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674776]
+[2023-06-28 07:24:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-28 07:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdsfactory
+[2023-06-28 07:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdkit
+[2023-06-28 07:24:06] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-28 07:24:06] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-06-28 07:24:06] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-06-28 07:24:06] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/c8/dd/88303eeb3c46484a4a64c2675611a92ea3816ae1ec8181c6eb5e78e85064/gdsfactory-6.98.2.tar.gz
+[2023-06-28 07:24:06] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-06-28 07:24:06] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-06-28 07:24:06] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230628/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-28 07:24:06] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/7e/ec/2cd39e2ce278d617eac6988e914b8df36d3496205cac9e991937c8cd1fe3/gdsfactory-6.99.0.tar.gz
+[2023-06-28 07:24:06] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-06-28 07:24:06] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230628/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-06-28 07:24:07] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-06-28 07:24:07] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-06-28 07:24:07] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-06-28 07:24:14] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.98.2.tar.gz]
+[2023-06-28 07:24:14] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
+[2023-06-28 07:24:14] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-06-28 07:24:14] INFO root fetch - main [MainThread]: Store serial: [18674782]
