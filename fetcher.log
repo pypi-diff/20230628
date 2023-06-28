@@ -15829,3 +15829,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 08:17:04] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.7.tar.gz]
 [2023-06-28 08:17:04] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
 [2023-06-28 08:17:04] INFO root fetch - main [MainThread]: Store serial: [18675109]
+[2023-06-28 08:22:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18675109]
+[2023-06-28 08:22:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-28 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datacube
+[2023-06-28 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tgwrap
+[2023-06-28 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycognaize
+[2023-06-28 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dynamic-links
+[2023-06-28 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blacksheep-cli
+[2023-06-28 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scikit-surgerybard
+[2023-06-28 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ddadevops
+[2023-06-28 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dcentrapi
+[2023-06-28 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mft2df
+[2023-06-28 08:22:14] INFO root fetch - processPackages [blacksheep-cli]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-28 08:22:14] INFO root fetch - processPackages [dynamic-links]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-28 08:22:14] INFO root fetch - processPackages [datacube]: New version: [1.8.9] Old Version: [1.8.8rc1]
+[2023-06-28 08:22:14] INFO root fetch - processPackages [tgwrap]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-28 08:22:14] INFO root fetch - processPackages [scikit-surgerybard]: New version: [1.0rc0] Old Version: [1.0.0]
+[2023-06-28 08:22:14] INFO root fetch - processPackages [dcentrapi]: New version: [0.2.97] Old Version: [0.2.96]
+[2023-06-28 08:22:14] INFO root fetch - processPackages [pycognaize]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-28 08:22:14] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-06-28 08:22:14] INFO root fetch - processPackages [dynamic-links]: Downloading https://files.pythonhosted.org/packages/99/d7/632becfa3278e5d9005e5e797a60f93193d817be00dc5735f60c94dc50ea/dynamic-links-0.0.2.tar.gz
+[2023-06-28 08:22:14] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/a0/cf/763bc9753443a74be444ae810ff09aba31838a816a4beb49347d4b1c7daf/dcentrapi-0.2.96.tar.gz
+[2023-06-28 08:22:14] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/c6/41/df115cada0c5393ed950c1f11a92f0bc6b4de8814eb97492a5bb505dc7ab/tgwrap-0.7.1.tar.gz
+[2023-06-28 08:22:14] WARNING root fetch - processPackages [mft2df]: Skipping, unable to determine old version
+[2023-06-28 08:22:14] INFO root fetch - main [MainThread]: End processing [mft2df] error
+[2023-06-28 08:22:14] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/5c/36/fb3952a90a0f2e57f9c0c1b9893d6d7dd466a2eae7d75130342669893d31/pycognaize-1.4.8.tar.gz
+[2023-06-28 08:22:14] INFO root fetch - processPackages [blacksheep-cli]: Downloading https://files.pythonhosted.org/packages/58/6f/06a77b92674b3a78d97e7d91f5396afb7dae0191bac48ae7f3d9a5bd9deb/blacksheep_cli-0.0.1.tar.gz
+[2023-06-28 08:22:14] INFO root fetch - processPackages [scikit-surgerybard]: Downloading https://files.pythonhosted.org/packages/3c/dc/2e93b2ad79040f77c14b291e3517076ae30d51c0656cfe05b8dc2c1588bf/scikit-surgerybard-1.0.0.tar.gz
+[2023-06-28 08:22:14] INFO root fetch - processPackages [datacube]: Downloading https://files.pythonhosted.org/packages/51/9d/6f73aa589a09061f1e4da57703199b73d30a3a188151cf5e291831aefaaa/datacube-1.8.8rc1.tar.gz
+[2023-06-28 08:22:14] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/53/53/8d5fbb694a5a27c3bfd85f47540af2476613fd26647dc23fb244cfb45e41/ddadevops-4.0.0.dev8.tar.gz
+[2023-06-28 08:22:14] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/fe/bb/26451b0bbddbd03704f60601f1f0392b063e5ada2fb7acef94a2464582c9/pycognaize-1.4.9.tar.gz
+[2023-06-28 08:22:14] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/ca/d2/0473f9b0317ea7c9c4631092a1283876d81360f738d4ca82dde9fc6be4ac/dcentrapi-0.2.97.tar.gz
+[2023-06-28 08:22:14] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/86/5e/1de2af0b29262daec803ac991526c228159f54965f5825ed0f6322e93f66/tgwrap-0.7.2.tar.gz
+[2023-06-28 08:22:14] INFO root fetch - processPackages [dynamic-links]: Downloading https://files.pythonhosted.org/packages/3d/84/fbf1baafdde099fb65aa66cf817c807853280dbb2da356acc7d3b9627e2c/dynamic-links-0.0.3.tar.gz
+[2023-06-28 08:22:14] INFO root fetch - processPackages [pycognaize]: executing diffoscope
+[2023-06-28 08:22:14] INFO root fetch - processPackages [pycognaize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycognaize-1.4.8.tar.gz tmp/pycognaize-1.4.9.tar.gz --markdown 20230628/p/pycognaize/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-28 08:22:14] INFO root fetch - processPackages [blacksheep-cli]: Downloading https://files.pythonhosted.org/packages/26/40/6731edc23058b3de55a792c54e66712bfb860f272ba2cc395d78ea88decd/blacksheep_cli-0.0.2.tar.gz
+[2023-06-28 08:22:14] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2023-06-28 08:22:14] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.2.96.tar.gz tmp/dcentrapi-0.2.97.tar.gz --markdown 20230628/d/dcentrapi/0.2.96-0.2.97/diff.md --exclude *.pyd
+[2023-06-28 08:22:15] INFO root fetch - processPackages [scikit-surgerybard]: Downloading https://files.pythonhosted.org/packages/e7/63/330531df444312da8a21470eea58cd2b5ee963964d1d1333d9e28efbc620/scikit-surgerybard-1.0rc0.tar.gz
+[2023-06-28 08:22:15] INFO root fetch - processPackages [dynamic-links]: executing diffoscope
+[2023-06-28 08:22:15] INFO root fetch - processPackages [dynamic-links]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-links-0.0.2.tar.gz tmp/dynamic-links-0.0.3.tar.gz --markdown 20230628/d/dynamic-links/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-28 08:22:15] INFO root fetch - processPackages [tgwrap]: executing diffoscope
+[2023-06-28 08:22:15] INFO root fetch - processPackages [tgwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgwrap-0.7.1.tar.gz tmp/tgwrap-0.7.2.tar.gz --markdown 20230628/t/tgwrap/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-28 08:22:15] INFO root fetch - processPackages [datacube]: Downloading https://files.pythonhosted.org/packages/29/f4/22fd735e40ad3ed6feafa1deafa257e4831d5722849e1b9b70d62544cea0/datacube-1.8.9.tar.gz
+[2023-06-28 08:22:15] INFO root fetch - processPackages [blacksheep-cli]: executing diffoscope
+[2023-06-28 08:22:15] INFO root fetch - processPackages [blacksheep-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blacksheep_cli-0.0.1.tar.gz tmp/blacksheep_cli-0.0.2.tar.gz --markdown 20230628/b/blacksheep-cli/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-28 08:22:15] INFO root fetch - processPackages [scikit-surgerybard]: executing diffoscope
+[2023-06-28 08:22:15] INFO root fetch - processPackages [scikit-surgerybard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-surgerybard-1.0.0.tar.gz tmp/scikit-surgerybard-1.0rc0.tar.gz --markdown 20230628/s/scikit-surgerybard/1.0.0-1.0rc0/diff.md --exclude *.pyd
+[2023-06-28 08:22:15] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/1a/08/2cc64f9080402b648c61f955d3eef2148f5a01af49c6ca6905fe47939af0/ddadevops-4.0.0.dev9.tar.gz
+[2023-06-28 08:22:15] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-06-28 08:22:15] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230628/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-06-28 08:22:15] INFO root fetch - processPackages [datacube]: executing diffoscope
+[2023-06-28 08:22:15] INFO root fetch - processPackages [datacube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datacube-1.8.8rc1.tar.gz tmp/datacube-1.8.9.tar.gz --markdown 20230628/d/datacube/1.8.8rc1-1.8.9/diff.md --exclude *.pyd
+[2023-06-28 08:22:16] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.2.96.tar.gz]
+[2023-06-28 08:22:16] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.2.97.tar.gz]
+[2023-06-28 08:22:16] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2023-06-28 08:22:16] INFO root fetch - processPackages [tgwrap]: Remove: archive file [/home/abi/fetcher/tmp/tgwrap-0.7.1.tar.gz]
+[2023-06-28 08:22:16] INFO root fetch - processPackages [tgwrap]: Remove: archive file [/home/abi/fetcher/tmp/tgwrap-0.7.2.tar.gz]
+[2023-06-28 08:22:16] INFO root fetch - main [MainThread]: End processing [tgwrap]: success
+[2023-06-28 08:22:16] INFO root fetch - processPackages [blacksheep-cli]: Remove: archive file [/home/abi/fetcher/tmp/blacksheep_cli-0.0.1.tar.gz]
+[2023-06-28 08:22:16] INFO root fetch - processPackages [blacksheep-cli]: Remove: archive file [/home/abi/fetcher/tmp/blacksheep_cli-0.0.2.tar.gz]
+[2023-06-28 08:22:16] INFO root fetch - main [MainThread]: End processing [blacksheep-cli]: success
+[2023-06-28 08:22:16] INFO root fetch - processPackages [dynamic-links]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-links-0.0.2.tar.gz]
+[2023-06-28 08:22:16] INFO root fetch - processPackages [dynamic-links]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-links-0.0.3.tar.gz]
+[2023-06-28 08:22:16] INFO root fetch - main [MainThread]: End processing [dynamic-links]: success
+[2023-06-28 08:22:16] INFO root fetch - processPackages [scikit-surgerybard]: Remove: archive file [/home/abi/fetcher/tmp/scikit-surgerybard-1.0.0.tar.gz]
+[2023-06-28 08:22:16] INFO root fetch - processPackages [scikit-surgerybard]: Remove: archive file [/home/abi/fetcher/tmp/scikit-surgerybard-1.0rc0.tar.gz]
+[2023-06-28 08:22:16] INFO root fetch - main [MainThread]: End processing [scikit-surgerybard]: success
+[2023-06-28 08:22:17] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.0.dev8.tar.gz]
+[2023-06-28 08:22:17] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.0.dev9.tar.gz]
+[2023-06-28 08:22:17] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-06-28 08:22:17] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.8.tar.gz]
+[2023-06-28 08:22:17] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.9.tar.gz]
+[2023-06-28 08:22:17] INFO root fetch - main [MainThread]: End processing [pycognaize]: success
+[2023-06-28 08:22:20] INFO root fetch - processPackages [datacube]: Remove: archive file [/home/abi/fetcher/tmp/datacube-1.8.8rc1.tar.gz]
+[2023-06-28 08:22:20] INFO root fetch - processPackages [datacube]: Remove: archive file [/home/abi/fetcher/tmp/datacube-1.8.9.tar.gz]
+[2023-06-28 08:22:20] INFO root fetch - main [MainThread]: End processing [datacube]: success
+[2023-06-28 08:22:20] INFO root fetch - main [MainThread]: Store serial: [18675136]
