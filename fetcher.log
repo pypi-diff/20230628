@@ -16348,3 +16348,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 08:49:00] INFO root fetch - processPackages [avwx-engine]: Remove: archive file [/home/abi/fetcher/tmp/avwx_engine-1.8.9.tar.gz]
 [2023-06-28 08:49:00] INFO root fetch - main [MainThread]: End processing [avwx-engine]: success
 [2023-06-28 08:49:00] INFO root fetch - main [MainThread]: Store serial: [18675315]
+[2023-06-28 08:54:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18675315]
+[2023-06-28 08:54:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-28 08:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spark-dummy-tools
+[2023-06-28 08:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: noiseflow
+[2023-06-28 08:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: petisco
+[2023-06-28 08:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sniimapp2
+[2023-06-28 08:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ddadevops
+[2023-06-28 08:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: taichu-dataflow
+[2023-06-28 08:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: errmod
+[2023-06-28 08:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-linkcard20210520-py2
+[2023-06-28 08:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyKagi
+[2023-06-28 08:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zebrazoom
+[2023-06-28 08:54:26] INFO root fetch - processPackages [noiseflow]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2023-06-28 08:54:26] INFO root fetch - processPackages [spark-dummy-tools]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-28 08:54:26] WARNING root fetch - processPackages [sniimapp2]: Skipping, unable to determine old version
+[2023-06-28 08:54:26] INFO root fetch - main [MainThread]: End processing [sniimapp2] error
+[2023-06-28 08:54:26] WARNING root fetch - processPackages [errmod]: Skipping, unable to determine old version
+[2023-06-28 08:54:26] INFO root fetch - main [MainThread]: End processing [errmod] error
+[2023-06-28 08:54:26] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc6] Old Version: [2.0.0rc5]
+[2023-06-28 08:54:26] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-06-28 08:54:26] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/e6/31/dfc16402ed161c375434ebf1c5902144f067ce968efef668ffc11051016e/petisco-2.0.0rc5.tar.gz
+[2023-06-28 08:54:26] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/5c/91/81a8a25096aefc36df94007cfceefb98184362e6d002f1051e0f6165b16f/noiseflow-0.0.1a3.tar.gz
+[2023-06-28 08:54:26] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/53/53/8d5fbb694a5a27c3bfd85f47540af2476613fd26647dc23fb244cfb45e41/ddadevops-4.0.0.dev8.tar.gz
+[2023-06-28 08:54:26] INFO root fetch - processPackages [taichu-dataflow]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-28 08:54:26] INFO root fetch - processPackages [alibabacloud-linkcard20210520-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 08:54:26] INFO root fetch - processPackages [PyKagi]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-28 08:54:26] INFO root fetch - processPackages [spark-dummy-tools]: Downloading https://files.pythonhosted.org/packages/e6/71/0b4bda7cd9c5b266572f49854f147f8b0f05d54363e9140deb7f432801a9/spark_dummy_tools-0.2.2.tar.gz
+[2023-06-28 08:54:26] INFO root fetch - processPackages [zebrazoom]: New version: [1.9] Old Version: [1.8]
+[2023-06-28 08:54:26] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/1a/08/2cc64f9080402b648c61f955d3eef2148f5a01af49c6ca6905fe47939af0/ddadevops-4.0.0.dev9.tar.gz
+[2023-06-28 08:54:26] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/5e/5d/1c6b9165889b3253a9a59f5761e6f2feb405d7b482b7f62554412acff5ed/taichu-dataflow-1.1.0.tar.gz
+[2023-06-28 08:54:26] INFO root fetch - processPackages [alibabacloud-linkcard20210520-py2]: Downloading https://files.pythonhosted.org/packages/9f/83/81b893247280eb48a49ce1f0e67d0b1c8ff75221827649f6edbbe52d4741/alibabacloud_linkcard20210520_py2-1.0.8.tar.gz
+[2023-06-28 08:54:26] INFO root fetch - processPackages [PyKagi]: Downloading https://files.pythonhosted.org/packages/14/72/a82683db90d408222759f7d2a31a3b2fad56b27a344aceedfc5a4a9b86a9/PyKagi-0.0.3.tar.gz
+[2023-06-28 08:54:26] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/c0/62/be9b7378cfbcc383eb5c866558633a010f7fe2bcfb39644d16c3b93c28ff/noiseflow-0.0.1a4.tar.gz
+[2023-06-28 08:54:26] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/7b/35/05acc0e727706fe1ab228ec50787d7089c60cd6ee087c253bd53872efb13/petisco-2.0.0rc6.tar.gz
+[2023-06-28 08:54:26] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/f8/26/fb333d50056298ab69d02c7c0e0fdaeae2e51fca825888178df88926b372/zebrazoom-1.8.tar.gz
+[2023-06-28 08:54:26] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-06-28 08:54:26] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230628/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-06-28 08:54:26] INFO root fetch - processPackages [spark-dummy-tools]: Downloading https://files.pythonhosted.org/packages/e1/29/502d1bd4c59f86c2b28d91648353399f987c31a83538c42c8e797feba72e/spark_dummy_tools-0.2.3.tar.gz
+[2023-06-28 08:54:26] INFO root fetch - processPackages [noiseflow]: executing diffoscope
+[2023-06-28 08:54:26] INFO root fetch - processPackages [noiseflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noiseflow-0.0.1a3.tar.gz tmp/noiseflow-0.0.1a4.tar.gz --markdown 20230628/n/noiseflow/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2023-06-28 08:54:26] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-06-28 08:54:26] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc5.tar.gz tmp/petisco-2.0.0rc6.tar.gz --markdown 20230628/p/petisco/2.0.0rc5-2.0.0rc6/diff.md --exclude *.pyd
+[2023-06-28 08:54:26] INFO root fetch - processPackages [spark-dummy-tools]: executing diffoscope
+[2023-06-28 08:54:26] INFO root fetch - processPackages [spark-dummy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_dummy_tools-0.2.2.tar.gz tmp/spark_dummy_tools-0.2.3.tar.gz --markdown 20230628/s/spark-dummy-tools/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-28 08:54:26] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/8d/9a/aa97b55478bf9ab67b62ef78a5248056abe8138242a2ea1d4241cea8df24/taichu-dataflow-1.1.1.tar.gz
+[2023-06-28 08:54:26] INFO root fetch - processPackages [alibabacloud-linkcard20210520-py2]: Downloading https://files.pythonhosted.org/packages/81/3a/18c52c2bc218c477867ba3c8be480a1693c7d608be37f45e44114b7f2cb8/alibabacloud_linkcard20210520_py2-1.0.9.tar.gz
+[2023-06-28 08:54:26] INFO root fetch - processPackages [taichu-dataflow]: executing diffoscope
+[2023-06-28 08:54:26] INFO root fetch - processPackages [taichu-dataflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-dataflow-1.1.0.tar.gz tmp/taichu-dataflow-1.1.1.tar.gz --markdown 20230628/t/taichu-dataflow/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-28 08:54:26] INFO root fetch - processPackages [PyKagi]: Downloading https://files.pythonhosted.org/packages/05/86/5f1a54048ddf676ecbfe2a4934519438b82385c65699d835b96af32df89d/PyKagi-0.0.4.tar.gz
+[2023-06-28 08:54:27] INFO root fetch - processPackages [alibabacloud-linkcard20210520-py2]: executing diffoscope
+[2023-06-28 08:54:27] INFO root fetch - processPackages [alibabacloud-linkcard20210520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_linkcard20210520_py2-1.0.8.tar.gz tmp/alibabacloud_linkcard20210520_py2-1.0.9.tar.gz --markdown 20230628/a/alibabacloud-linkcard20210520-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 08:54:27] INFO root fetch - processPackages [PyKagi]: executing diffoscope
+[2023-06-28 08:54:27] INFO root fetch - processPackages [PyKagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyKagi-0.0.3.tar.gz tmp/PyKagi-0.0.4.tar.gz --markdown 20230628/P/PyKagi/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-28 08:54:27] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/29/37/9f2aaa64707bbcd24502e836857b6c572452e441dc5bb3229137d00bfa9b/zebrazoom-1.9.tar.gz
+[2023-06-28 08:54:28] INFO root fetch - processPackages [spark-dummy-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dummy_tools-0.2.2.tar.gz]
+[2023-06-28 08:54:28] INFO root fetch - processPackages [spark-dummy-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dummy_tools-0.2.3.tar.gz]
+[2023-06-28 08:54:28] INFO root fetch - main [MainThread]: End processing [spark-dummy-tools]: success
+[2023-06-28 08:54:28] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.0.dev8.tar.gz]
+[2023-06-28 08:54:28] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.0.dev9.tar.gz]
+[2023-06-28 08:54:28] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-06-28 08:54:28] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.1a3.tar.gz]
+[2023-06-28 08:54:28] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.1a4.tar.gz]
+[2023-06-28 08:54:28] INFO root fetch - main [MainThread]: End processing [noiseflow]: success
+[2023-06-28 08:54:28] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.1.0.tar.gz]
+[2023-06-28 08:54:28] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.1.1.tar.gz]
+[2023-06-28 08:54:28] INFO root fetch - main [MainThread]: End processing [taichu-dataflow]: success
+[2023-06-28 08:54:28] INFO root fetch - processPackages [zebrazoom]: executing diffoscope
+[2023-06-28 08:54:28] INFO root fetch - processPackages [zebrazoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebrazoom-1.8.tar.gz tmp/zebrazoom-1.9.tar.gz --markdown 20230628/z/zebrazoom/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-28 08:54:28] INFO root fetch - processPackages [PyKagi]: Remove: archive file [/home/abi/fetcher/tmp/PyKagi-0.0.3.tar.gz]
+[2023-06-28 08:54:28] INFO root fetch - processPackages [PyKagi]: Remove: archive file [/home/abi/fetcher/tmp/PyKagi-0.0.4.tar.gz]
+[2023-06-28 08:54:28] INFO root fetch - main [MainThread]: End processing [PyKagi]: success
+[2023-06-28 08:54:28] INFO root fetch - processPackages [alibabacloud-linkcard20210520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkcard20210520_py2-1.0.8.tar.gz]
+[2023-06-28 08:54:28] INFO root fetch - processPackages [alibabacloud-linkcard20210520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkcard20210520_py2-1.0.9.tar.gz]
+[2023-06-28 08:54:28] INFO root fetch - main [MainThread]: End processing [alibabacloud-linkcard20210520-py2]: success
+[2023-06-28 08:54:28] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc5.tar.gz]
+[2023-06-28 08:54:28] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc6.tar.gz]
+[2023-06-28 08:54:28] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-06-28 08:54:30] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.8.tar.gz]
+[2023-06-28 08:54:30] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.9.tar.gz]
+[2023-06-28 08:54:30] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
+[2023-06-28 08:54:30] INFO root fetch - main [MainThread]: Store serial: [18675345]
