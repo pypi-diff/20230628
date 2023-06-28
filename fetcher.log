@@ -5637,3 +5637,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 03:12:28] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-06-28 03:12:28] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-06-28 03:12:28] INFO root fetch - main [MainThread]: Store serial: [18671282]
+[2023-06-28 03:17:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18671282]
+[2023-06-28 03:17:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-28 03:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-06-28 03:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybw-comic
+[2023-06-28 03:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2023-06-28 03:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-organizations
+[2023-06-28 03:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: draggan
+[2023-06-28 03:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aemcmc-nightly
+[2023-06-28 03:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-06-28 03:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: meshtastic
+[2023-06-28 03:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: json-lineage
+[2023-06-28 03:17:37] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230627] Old Version: [0.0.8.dev20230626]
+[2023-06-28 03:17:37] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-28 03:17:37] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-06-28 03:17:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-28 03:17:37] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/55/6e/3492ca002cf3bdb4af99c330aa01f4c40aee5b51296abbd7f417c41b0da9/aemcmc-nightly-0.0.8.dev20230626.tar.gz
+[2023-06-28 03:17:37] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-28 03:17:37] INFO root fetch - processPackages [draggan]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-28 03:17:37] WARNING root fetch - processPackages [pybw-comic]: Skipping, unable to determine old version
+[2023-06-28 03:17:37] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-06-28 03:17:37] INFO root fetch - main [MainThread]: End processing [pybw-comic] error
+[2023-06-28 03:17:37] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-28 03:17:37] INFO root fetch - processPackages [meshtastic]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-28 03:17:38] INFO root fetch - processPackages [json-lineage]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-28 03:17:38] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-28 03:17:38] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-06-28 03:17:38] INFO root fetch - processPackages [meshtastic]: Downloading https://files.pythonhosted.org/packages/e1/89/ecff2b65c35f31a05d99ff77dc401de9b8bca995c1a65a261914b8eab8d9/meshtastic-2.1.8.tar.gz
+[2023-06-28 03:17:38] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/fa/bf/b910937770e85af803aa1a797f0480b6d9defad4472f001d94249fcf59c5/draggan-1.1.5.tar.gz
+[2023-06-28 03:17:38] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-06-28 03:17:38] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/fd/68/5df89238dd34c4d5c41f490e6151fb1b96301ae9c9cf8f88f4d7b225cf02/aemcmc-nightly-0.0.8.dev20230627.tar.gz
+[2023-06-28 03:17:38] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-28 03:17:38] INFO root fetch - processPackages [json-lineage]: Downloading https://files.pythonhosted.org/packages/53/00/98eeb353b0af1126e33e5e007fb6b625ce467cd7fb676cc7b89216108706/json-lineage-0.1.0.tar.gz
+[2023-06-28 03:17:38] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-28 03:17:38] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-28 03:17:38] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230626.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230627.tar.gz --markdown 20230628/a/aemcmc-nightly/0.0.8.dev20230626-0.0.8.dev20230627/diff.md --exclude *.pyd
+[2023-06-28 03:17:38] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-06-28 03:17:38] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230628/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-06-28 03:17:38] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-06-28 03:17:38] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-28 03:17:38] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230628/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-28 03:17:38] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-28 03:17:38] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230628/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-28 03:17:38] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/6d/d4/e7864f38f4cb7f98f35418905bb72d6a5027ce0756e02f1ac41b2e38cd8b/draggan-1.1.6.tar.gz
+[2023-06-28 03:17:38] INFO root fetch - processPackages [meshtastic]: Downloading https://files.pythonhosted.org/packages/99/aa/332dba441d65feb0bc1b61bb50bcb84297c7d69d6dd71db2b67d54963b47/meshtastic-2.1.9.tar.gz
+[2023-06-28 03:17:38] INFO root fetch - processPackages [draggan]: executing diffoscope
+[2023-06-28 03:17:38] INFO root fetch - processPackages [draggan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggan-1.1.5.tar.gz tmp/draggan-1.1.6.tar.gz --markdown 20230628/d/draggan/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-28 03:17:38] INFO root fetch - processPackages [meshtastic]: executing diffoscope
+[2023-06-28 03:17:38] INFO root fetch - processPackages [meshtastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshtastic-2.1.8.tar.gz tmp/meshtastic-2.1.9.tar.gz --markdown 20230628/m/meshtastic/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-28 03:17:38] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-06-28 03:17:38] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230628/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-28 03:17:39] INFO root fetch - processPackages [json-lineage]: Downloading https://files.pythonhosted.org/packages/3d/ec/eb4702d9e0eec192d67dfafbe7232e34f16c2ed6051e2ef2a1465dc6dea2/json_lineage-0.2.0-py3-none-any.whl
+[2023-06-28 03:17:39] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-28 03:17:39] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-28 03:17:39] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-28 03:17:40] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-06-28 03:17:40] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-06-28 03:17:40] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-06-28 03:17:40] INFO root fetch - processPackages [draggan]: Remove: archive file [/home/abi/fetcher/tmp/draggan-1.1.5.tar.gz]
+[2023-06-28 03:17:40] INFO root fetch - processPackages [draggan]: Remove: archive file [/home/abi/fetcher/tmp/draggan-1.1.6.tar.gz]
+[2023-06-28 03:17:40] INFO root fetch - main [MainThread]: End processing [draggan]: success
+[2023-06-28 03:17:40] INFO root fetch - processPackages [json-lineage]: executing diffoscope
+[2023-06-28 03:17:40] INFO root fetch - processPackages [json-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-lineage-0.1.0.tar.gz tmp/json_lineage-0.2.0-py3-none-any.whl.zip --markdown 20230628/j/json-lineage/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-28 03:17:40] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230626.tar.gz]
+[2023-06-28 03:17:40] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230627.tar.gz]
+[2023-06-28 03:17:40] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-28 03:17:41] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-06-28 03:17:41] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-06-28 03:17:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-06-28 03:17:41] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-28 03:17:41] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-28 03:17:41] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-28 03:17:42] INFO root fetch - processPackages [json-lineage]: Remove: archive file [/home/abi/fetcher/tmp/json-lineage-0.1.0.tar.gz]
+[2023-06-28 03:17:42] INFO root fetch - processPackages [json-lineage]: Remove: archive file [/home/abi/fetcher/tmp/json_lineage-0.2.0-py3-none-any.whl.zip]
+[2023-06-28 03:17:42] INFO root fetch - main [MainThread]: End processing [json-lineage]: success
+[2023-06-28 03:18:36] INFO root fetch - processPackages [meshtastic]: Remove: archive file [/home/abi/fetcher/tmp/meshtastic-2.1.8.tar.gz]
+[2023-06-28 03:18:36] INFO root fetch - processPackages [meshtastic]: Remove: archive file [/home/abi/fetcher/tmp/meshtastic-2.1.9.tar.gz]
+[2023-06-28 03:18:36] INFO root fetch - main [MainThread]: End processing [meshtastic]: success
+[2023-06-28 03:18:36] INFO root fetch - main [MainThread]: Store serial: [18671306]
