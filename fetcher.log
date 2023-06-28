@@ -13022,3 +13022,113 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 04:30:31] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.1.9.tar.gz]
 [2023-06-28 04:30:31] INFO root fetch - main [MainThread]: End processing [prodvana]: success
 [2023-06-28 04:30:31] INFO root fetch - main [MainThread]: Store serial: [18673825]
+[2023-06-28 04:35:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18673825]
+[2023-06-28 04:35:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-28 04:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybw-comic
+[2023-06-28 04:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mindlakesdk
+[2023-06-28 04:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scratch-getdata
+[2023-06-28 04:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: afmmech
+[2023-06-28 04:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sinyi-datateam-utils
+[2023-06-28 04:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-cutoff-accrual-subscription
+[2023-06-28 04:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-cutoff-base
+[2023-06-28 04:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-cutoff-start-end-dates
+[2023-06-28 04:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-cutoff-accrual-picking
+[2023-06-28 04:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-multicurrency-revaluation
+[2023-06-28 04:35:40] WARNING root fetch - processPackages [afmmech]: Skipping, unable to determine old version
+[2023-06-28 04:35:40] INFO root fetch - processPackages [afmmech]: Start processing: funkagent
+[2023-06-28 04:35:40] INFO root fetch - main [MainThread]: End processing [afmmech] error
+[2023-06-28 04:35:40] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2023-06-28 04:35:40] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: New version: [15.0.1.0.0.6] Old Version: [15.0.1.0.0.5]
+[2023-06-28 04:35:40] INFO root fetch - processPackages [sinyi-datateam-utils]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-28 04:35:40] INFO root fetch - processPackages [pybw-comic]: New version: [23.6.28.3] Old Version: [23.6.28.2]
+[2023-06-28 04:35:40] INFO root fetch - processPackages [mindlakesdk]: New version: [1.0.5] Old Version: [1.0.2]
+[2023-06-28 04:35:40] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-06-28 04:35:40] INFO root fetch - processPackages [odoo-addon-account-cutoff-start-end-dates]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.5]
+[2023-06-28 04:35:40] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/9e/1e/20092d65027b891b020cb1e5302fe42b746602875368672095aa7107524e/odoo_addon_account_cutoff_base-16.0.1.1.0.1-py3-none-any.whl
+[2023-06-28 04:35:40] INFO root fetch - processPackages [scratch-getdata]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-06-28 04:35:40] INFO root fetch - processPackages [funkagent]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-28 04:35:40] INFO root fetch - processPackages [odoo-addon-account-multicurrency-revaluation]: New version: [15.0.1.1.0.4] Old Version: [15.0.1.1.0.2]
+[2023-06-28 04:35:40] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: Downloading https://files.pythonhosted.org/packages/b6/7e/c23371fff186d5b7438eba2bcc22852ba3752b3e92110c7c0669ec65d3fa/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.5-py3-none-any.whl
+[2023-06-28 04:35:41] INFO root fetch - processPackages [sinyi-datateam-utils]: Downloading https://files.pythonhosted.org/packages/a6/db/5959d5971350e1feb7e8024f7e2a4454575e5eeab73d4e9fb24c643dd25e/sinyi_datateam_utils-0.1.9.tar.gz
+[2023-06-28 04:35:41] INFO root fetch - processPackages [mindlakesdk]: Downloading https://files.pythonhosted.org/packages/42/ba/92e3f732ab0d586645ad9356d8fd46c2abc239b89839c122152d505d20d6/mindlakesdk-1.0.2.tar.gz
+[2023-06-28 04:35:41] INFO root fetch - processPackages [pybw-comic]: Downloading https://files.pythonhosted.org/packages/75/b9/28b0771e5e4c1105e2d8d3199f091f9cea61777f747745b41bf38635b20d/pybw_comic-23.6.28.2.tar.gz
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-cutoff-start-end-dates]: Downloading https://files.pythonhosted.org/packages/ff/a7/de2423b5570f35f3369d783df09513776c0c4ab0a6e100cc857e387e9b12/odoo_addon_account_cutoff_start_end_dates-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Downloading https://files.pythonhosted.org/packages/61/ac/bf861aee43481ca25ccaf19b7e4394a5823a8bdf70f8603c360b21ba4188/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0-py3-none-any.whl
+[2023-06-28 04:35:41] INFO root fetch - processPackages [scratch-getdata]: Downloading https://files.pythonhosted.org/packages/2c/8b/f0882e5f5b5aae0718cf88990d3a86378272dcdaeb1038a86fbbe9205410/scratch-getdata-0.0.9.tar.gz
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-multicurrency-revaluation]: Downloading https://files.pythonhosted.org/packages/ef/63/2d11d4d17dad20e3ae6cf31c2d444e6084d4199122da7c38212b44d32a19/odoo_addon_account_multicurrency_revaluation-15.0.1.1.0.2-py3-none-any.whl
+[2023-06-28 04:35:41] INFO root fetch - processPackages [funkagent]: Downloading https://files.pythonhosted.org/packages/d1/1d/01cd313275ae1554c6829d66b7795aa1ae7cc1a1921054337a513030161d/funkagent-0.0.1.tar.gz
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/a6/b4/504611d54c27bee509c928e8a552a03023237ad69ae77e7a01e57423bb86/odoo_addon_account_cutoff_base-16.0.1.1.0.2-py3-none-any.whl
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: Downloading https://files.pythonhosted.org/packages/ce/14/e70e0fbbbaec7cb9b4f786f4cca80d8eaffefa3a0e39ab78b403cd4acf55/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.6-py3-none-any.whl
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: executing diffoscope
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-account-cutoff-accrual-picking/15.0.1.0.0.5-15.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: executing diffoscope
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-account-cutoff-base/16.0.1.1.0.1-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-06-28 04:35:41] INFO root fetch - processPackages [pybw-comic]: Downloading https://files.pythonhosted.org/packages/50/a8/7c66efb41538595d74f27d15ba3836ed412669faff8c0ffb3a2a9cb12343/pybw_comic-23.6.28.3.tar.gz
+[2023-06-28 04:35:41] INFO root fetch - processPackages [sinyi-datateam-utils]: Downloading https://files.pythonhosted.org/packages/71/32/8a05ad986b3bf4ffead945666b94c92d5ebead95308b50969ddb83118947/sinyi_datateam_utils-0.2.0.tar.gz
+[2023-06-28 04:35:41] INFO root fetch - processPackages [mindlakesdk]: Downloading https://files.pythonhosted.org/packages/dc/2c/9314377a305be2d53cf2f02cbf2826b31ac352d22f114188cae6282066ab/mindlakesdk-1.0.5.tar.gz
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-cutoff-start-end-dates]: Downloading https://files.pythonhosted.org/packages/19/35/2dda3102a8070a8a4d3b570ed391235a7d22e1333181721836d8dac12766/odoo_addon_account_cutoff_start_end_dates-16.0.1.1.0-py3-none-any.whl
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Downloading https://files.pythonhosted.org/packages/b3/46/946d3994ede09ffc3a0fea2e42681a153230a75884152f95bfe632e98969/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0.1-py3-none-any.whl
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-multicurrency-revaluation]: Downloading https://files.pythonhosted.org/packages/37/fe/542a2626eae77db986a4a66cf774a537738e16c076db0acee7a4ee398d94/odoo_addon_account_multicurrency_revaluation-15.0.1.1.0.4-py3-none-any.whl
+[2023-06-28 04:35:41] INFO root fetch - processPackages [sinyi-datateam-utils]: executing diffoscope
+[2023-06-28 04:35:41] INFO root fetch - processPackages [sinyi-datateam-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinyi_datateam_utils-0.1.9.tar.gz tmp/sinyi_datateam_utils-0.2.0.tar.gz --markdown 20230628/s/sinyi-datateam-utils/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-28 04:35:41] INFO root fetch - processPackages [scratch-getdata]: Downloading https://files.pythonhosted.org/packages/a9/d3/7191e65ef2fd87134bf620083bbf1a7610d2ef5bf0cf1e12ccb545b7627c/scratch-getdata-1.0.0.tar.gz
+[2023-06-28 04:35:41] INFO root fetch - processPackages [pybw-comic]: executing diffoscope
+[2023-06-28 04:35:41] INFO root fetch - processPackages [pybw-comic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybw_comic-23.6.28.2.tar.gz tmp/pybw_comic-23.6.28.3.tar.gz --markdown 20230628/p/pybw-comic/23.6.28.2-23.6.28.3/diff.md --exclude *.pyd
+[2023-06-28 04:35:41] INFO root fetch - processPackages [mindlakesdk]: executing diffoscope
+[2023-06-28 04:35:41] INFO root fetch - processPackages [mindlakesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindlakesdk-1.0.2.tar.gz tmp/mindlakesdk-1.0.5.tar.gz --markdown 20230628/m/mindlakesdk/1.0.2-1.0.5/diff.md --exclude *.pyd
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: executing diffoscope
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-account-cutoff-accrual-subscription/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-06-28 04:35:41] INFO root fetch - processPackages [funkagent]: Downloading https://files.pythonhosted.org/packages/50/8a/a13126a75022f369a1d211a56f19d56be11058c833ba34220bbe775b5fc8/funkagent-0.0.2.tar.gz
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-cutoff-start-end-dates]: executing diffoscope
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-cutoff-start-end-dates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_start_end_dates-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_start_end_dates-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-account-cutoff-start-end-dates/16.0.1.0.0.5-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-multicurrency-revaluation]: executing diffoscope
+[2023-06-28 04:35:41] INFO root fetch - processPackages [odoo-addon-account-multicurrency-revaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_multicurrency_revaluation-15.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_multicurrency_revaluation-15.0.1.1.0.4-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-account-multicurrency-revaluation/15.0.1.1.0.2-15.0.1.1.0.4/diff.md --exclude *.pyd
+[2023-06-28 04:35:41] INFO root fetch - processPackages [scratch-getdata]: executing diffoscope
+[2023-06-28 04:35:41] INFO root fetch - processPackages [scratch-getdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratch-getdata-0.0.9.tar.gz tmp/scratch-getdata-1.0.0.tar.gz --markdown 20230628/s/scratch-getdata/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-06-28 04:35:41] INFO root fetch - processPackages [funkagent]: executing diffoscope
+[2023-06-28 04:35:41] INFO root fetch - processPackages [funkagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funkagent-0.0.1.tar.gz tmp/funkagent-0.0.2.tar.gz --markdown 20230628/f/funkagent/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-28 04:35:42] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-28 04:35:42] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-28 04:35:42] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: Start processing: fast-brainfuck
+[2023-06-28 04:35:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-accrual-picking]: success
+[2023-06-28 04:35:42] INFO root fetch - processPackages [fast-brainfuck]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-28 04:35:42] INFO root fetch - processPackages [fast-brainfuck]: Downloading https://files.pythonhosted.org/packages/0a/15/fe891015656334873671ef79aeb3b4f3b10a3a23b843b5fa89c1b0a37879/fast-brainfuck-1.0.3.tar.gz
+[2023-06-28 04:35:43] INFO root fetch - processPackages [sinyi-datateam-utils]: Remove: archive file [/home/abi/fetcher/tmp/sinyi_datateam_utils-0.1.9.tar.gz]
+[2023-06-28 04:35:43] INFO root fetch - processPackages [sinyi-datateam-utils]: Remove: archive file [/home/abi/fetcher/tmp/sinyi_datateam_utils-0.2.0.tar.gz]
+[2023-06-28 04:35:43] INFO root fetch - processPackages [sinyi-datateam-utils]: Start processing: bigdl-dllib-spark3
+[2023-06-28 04:35:43] INFO root fetch - main [MainThread]: End processing [sinyi-datateam-utils]: success
+[2023-06-28 04:35:43] INFO root fetch - processPackages [fast-brainfuck]: Downloading https://files.pythonhosted.org/packages/8b/3d/ffa7ccbc0fc7a13b2e4dc70de3bdf0321f58895347bb80bccad431ff2fa4/fast-brainfuck-1.0.4.tar.gz
+[2023-06-28 04:35:43] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230626] Old Version: [2.4.0b20230625]
+[2023-06-28 04:35:43] INFO root fetch - processPackages [fast-brainfuck]: executing diffoscope
+[2023-06-28 04:35:43] INFO root fetch - processPackages [fast-brainfuck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-brainfuck-1.0.3.tar.gz tmp/fast-brainfuck-1.0.4.tar.gz --markdown 20230628/f/fast-brainfuck/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-28 04:35:43] INFO root fetch - processPackages [mindlakesdk]: Remove: archive file [/home/abi/fetcher/tmp/mindlakesdk-1.0.2.tar.gz]
+[2023-06-28 04:35:43] INFO root fetch - processPackages [mindlakesdk]: Remove: archive file [/home/abi/fetcher/tmp/mindlakesdk-1.0.5.tar.gz]
+[2023-06-28 04:35:43] INFO root fetch - main [MainThread]: End processing [mindlakesdk]: success
+[2023-06-28 04:35:43] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/98/95/d10188818c41ba1059479f90daaea72514e8a561f5ab84a6bc5b3e856d06/bigdl-dllib-spark3-2.4.0b20230625.tar.gz
+[2023-06-28 04:35:43] INFO root fetch - processPackages [funkagent]: Remove: archive file [/home/abi/fetcher/tmp/funkagent-0.0.1.tar.gz]
+[2023-06-28 04:35:43] INFO root fetch - processPackages [funkagent]: Remove: archive file [/home/abi/fetcher/tmp/funkagent-0.0.2.tar.gz]
+[2023-06-28 04:35:43] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61329140>=10485760
+[2023-06-28 04:35:43] INFO root fetch - main [MainThread]: End processing [funkagent]: success
+[2023-06-28 04:35:43] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-06-28 04:35:43] INFO root fetch - processPackages [scratch-getdata]: Remove: archive file [/home/abi/fetcher/tmp/scratch-getdata-0.0.9.tar.gz]
+[2023-06-28 04:35:43] INFO root fetch - processPackages [scratch-getdata]: Remove: archive file [/home/abi/fetcher/tmp/scratch-getdata-1.0.0.tar.gz]
+[2023-06-28 04:35:43] INFO root fetch - main [MainThread]: End processing [scratch-getdata]: success
+[2023-06-28 04:35:43] INFO root fetch - processPackages [odoo-addon-account-cutoff-start-end-dates]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_start_end_dates-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-28 04:35:43] INFO root fetch - processPackages [odoo-addon-account-cutoff-start-end-dates]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_start_end_dates-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-28 04:35:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-start-end-dates]: success
+[2023-06-28 04:35:43] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-28 04:35:43] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-06-28 04:35:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-accrual-subscription]: success
+[2023-06-28 04:35:43] INFO root fetch - processPackages [pybw-comic]: Remove: archive file [/home/abi/fetcher/tmp/pybw_comic-23.6.28.2.tar.gz]
+[2023-06-28 04:35:43] INFO root fetch - processPackages [pybw-comic]: Remove: archive file [/home/abi/fetcher/tmp/pybw_comic-23.6.28.3.tar.gz]
+[2023-06-28 04:35:43] INFO root fetch - main [MainThread]: End processing [pybw-comic]: success
+[2023-06-28 04:35:43] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-06-28 04:35:43] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-06-28 04:35:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-base]: success
+[2023-06-28 04:35:43] INFO root fetch - processPackages [odoo-addon-account-multicurrency-revaluation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_multicurrency_revaluation-15.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-06-28 04:35:43] INFO root fetch - processPackages [odoo-addon-account-multicurrency-revaluation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_multicurrency_revaluation-15.0.1.1.0.4-py3-none-any.whl.zip]
+[2023-06-28 04:35:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-multicurrency-revaluation]: success
+[2023-06-28 04:35:44] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-1.0.3.tar.gz]
+[2023-06-28 04:35:44] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-1.0.4.tar.gz]
+[2023-06-28 04:35:44] INFO root fetch - main [MainThread]: End processing [fast-brainfuck]: success
+[2023-06-28 04:35:44] INFO root fetch - main [MainThread]: Store serial: [18673857]
