@@ -17772,3 +17772,219 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 09:51:07] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-06-28 09:51:07] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-06-28 09:51:07] INFO root fetch - main [MainThread]: Store serial: [18675854]
+[2023-06-28 09:56:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18675854]
+[2023-06-28 09:56:17] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-28 09:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-cpu
+[2023-06-28 09:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdbufr
+[2023-06-28 09:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: connect-sdk-python3
+[2023-06-28 09:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FPC
+[2023-06-28 09:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hezar
+[2023-06-28 09:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: image-label
+[2023-06-28 09:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Google-Ads-Transparency-Scraper
+[2023-06-28 09:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: steampunk-spotter
+[2023-06-28 09:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gdsfactory
+[2023-06-28 09:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: labelprinterkit
+[2023-06-28 09:56:17] INFO root fetch - processPackages [connect-sdk-python3]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-06-28 09:56:17] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: New version: [1.2] Old Version: [1.1]
+[2023-06-28 09:56:17] INFO root fetch - processPackages [steampunk-spotter]: New version: [2.0.3rc1] Old Version: [2.0.3a1]
+[2023-06-28 09:56:17] WARNING root fetch - processPackages [hezar]: Skipping, unable to determine old version
+[2023-06-28 09:56:17] INFO root fetch - processPackages [hezar]: Start processing: image-label
+[2023-06-28 09:56:17] INFO root fetch - main [MainThread]: End processing [hezar] error
+[2023-06-28 09:56:17] INFO root fetch - processPackages [pdbufr]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-28 09:56:17] INFO root fetch - processPackages [labelprinterkit]: New version: [0.6.0] Old Version: [0.5.8]
+[2023-06-28 09:56:17] INFO root fetch - processPackages [FPC]: New version: [0.9] Old Version: [0.8]
+[2023-06-28 09:56:17] INFO root fetch - processPackages [image-label]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-06-28 09:56:17] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-06-28 09:56:17] INFO root fetch - processPackages [image-label]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-06-28 09:56:17] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/51/3c/944b2a01c1219f21f2e9cfd8fdb5dd0e30cbb7555d7cb6bfe2c66de3b1f4/steampunk_spotter-2.0.3a1-py3-none-any.whl
+[2023-06-28 09:56:17] INFO root fetch - processPackages [labelprinterkit]: Downloading https://files.pythonhosted.org/packages/08/17/113db8b33ab9fa36ed60e03fa01856658708df38b362adf4f3c25ec5eae1/labelprinterkit-0.5.8.tar.gz
+[2023-06-28 09:56:17] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230628] Old Version: [2.14.0.dev20230627]
+[2023-06-28 09:56:17] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/c8/dd/88303eeb3c46484a4a64c2675611a92ea3816ae1ec8181c6eb5e78e85064/gdsfactory-6.98.2.tar.gz
+[2023-06-28 09:56:17] INFO root fetch - processPackages [connect-sdk-python3]: Downloading https://files.pythonhosted.org/packages/0c/ef/4b79c9048e3a01936eb932de8448d846de8ead1e1fefc3f0949d0dc7556b/connect-sdk-python3-3.8.0.zip
+[2023-06-28 09:56:17] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Downloading https://files.pythonhosted.org/packages/e8/a8/3b9fe5e5e02cde1a347fb630590d3bbf5132544681a9e92bbb68180877b4/Google%20Ads%20Transparency%20Scraper-1.1.tar.gz
+[2023-06-28 09:56:17] INFO root fetch - processPackages [image-label]: Downloading https://files.pythonhosted.org/packages/7f/72/297b0e8d8812373dfb40cb6c63f9c4346f40655dec4dc129d7dcb6afb9de/image_label-2.4.0.tar.gz
+[2023-06-28 09:56:17] INFO root fetch - processPackages [image-label]: Downloading https://files.pythonhosted.org/packages/7f/72/297b0e8d8812373dfb40cb6c63f9c4346f40655dec4dc129d7dcb6afb9de/image_label-2.4.0.tar.gz
+[2023-06-28 09:56:17] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/43/45/9148624303bfbcc4ec37149770a561a05c349123d704cf6e7dca5d15d312/steampunk_spotter-2.0.3rc1-py3-none-any.whl
+[2023-06-28 09:56:17] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/21/8e/cb3fde359346e40cec7994e595614ef647675f843dea133076850fd2db07/FPC-0.8.tar.gz
+[2023-06-28 09:56:17] INFO root fetch - processPackages [pdbufr]: Downloading https://files.pythonhosted.org/packages/d8/da/19bc8194732d2f0da593b4e2c724cff122b0070416ff396c8b712d98315e/pdbufr-0.8.2.tar.gz
+[2023-06-28 09:56:17] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/42/fb/101506ec1eb55ae0e8de9b703ea0ffe878a30cb57e3a415f5a1c5168b515/tf_nightly_cpu-2.14.0.dev20230627-cp39-cp39-win_amd64.whl
+[2023-06-28 09:56:17] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/7e/ec/2cd39e2ce278d617eac6988e914b8df36d3496205cac9e991937c8cd1fe3/gdsfactory-6.99.0.tar.gz
+[2023-06-28 09:56:17] INFO root fetch - processPackages [labelprinterkit]: Downloading https://files.pythonhosted.org/packages/69/41/9657f08cef0510c44c1d232385fb315216db7c9ca562b7be4e7e8ff56383/labelprinterkit-0.6.0.tar.gz
+[2023-06-28 09:56:17] INFO root fetch - processPackages [steampunk-spotter]: executing diffoscope
+[2023-06-28 09:56:17] INFO root fetch - processPackages [steampunk-spotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steampunk_spotter-2.0.3a1-py3-none-any.whl.zip tmp/steampunk_spotter-2.0.3rc1-py3-none-any.whl.zip --markdown 20230628/s/steampunk-spotter/2.0.3a1-2.0.3rc1/diff.md --exclude *.pyd
+[2023-06-28 09:56:17] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Downloading https://files.pythonhosted.org/packages/88/a8/40abd83f8d934707065cfb081adbf2391e85a6f82dd26e6d1db71d615718/Google%20Ads%20Transparency%20Scraper-1.2.tar.gz
+[2023-06-28 09:56:17] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-06-28 09:56:17] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230628/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-06-28 09:56:17] INFO root fetch - processPackages [labelprinterkit]: executing diffoscope
+[2023-06-28 09:56:17] INFO root fetch - processPackages [labelprinterkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelprinterkit-0.5.8.tar.gz tmp/labelprinterkit-0.6.0.tar.gz --markdown 20230628/l/labelprinterkit/0.5.8-0.6.0/diff.md --exclude *.pyd
+[2023-06-28 09:56:17] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: executing diffoscope
+[2023-06-28 09:56:17] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Google Ads Transparency Scraper-1.1.tar.gz tmp/Google Ads Transparency Scraper-1.2.tar.gz --markdown 20230628/G/Google-Ads-Transparency-Scraper/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-28 09:56:17] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/2e/52/6ad17c7fd21298054bcd96fc5e86fe54f07e006467ce5452d57c016d92bc/FPC-0.9.tar.gz
+[2023-06-28 09:56:17] INFO root fetch - processPackages [image-label]: Downloading https://files.pythonhosted.org/packages/eb/fc/c47de7b32f6b0f7acf89055220642f0b167996b6968966176367a51dd700/image_label-2.4.1.tar.gz
+[2023-06-28 09:56:17] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/b2/7e/41d8592039a284fa8213b71301ed1c5202a3f4f0b279ad409debefc202ef/tf_nightly_cpu-2.14.0.dev20230628-cp39-cp39-win_amd64.whl
+[2023-06-28 09:56:17] INFO root fetch - processPackages [image-label]: Downloading https://files.pythonhosted.org/packages/eb/fc/c47de7b32f6b0f7acf89055220642f0b167996b6968966176367a51dd700/image_label-2.4.1.tar.gz
+[2023-06-28 09:56:17] INFO root fetch - processPackages [FPC]: executing diffoscope
+[2023-06-28 09:56:17] INFO root fetch - processPackages [FPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FPC-0.8.tar.gz tmp/FPC-0.9.tar.gz --markdown 20230628/F/FPC/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-28 09:56:18] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-28 09:56:18] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230627-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230628-cp39-cp39-win_amd64.whl.zip --markdown 20230628/t/tf-nightly-cpu/2.14.0.dev20230627-2.14.0.dev20230628/diff.md --exclude *.pyd
+[2023-06-28 09:56:18] INFO root fetch - processPackages [image-label]: executing diffoscope
+[2023-06-28 09:56:18] INFO root fetch - processPackages [image-label]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_label-2.4.0.tar.gz tmp/image_label-2.4.1.tar.gz --markdown 20230628/i/image-label/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-06-28 09:56:18] INFO root fetch - processPackages [image-label]: executing diffoscope
+[2023-06-28 09:56:18] INFO root fetch - processPackages [image-label]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_label-2.4.0.tar.gz tmp/image_label-2.4.1.tar.gz --markdown 20230628/i/image-label/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-06-28 09:56:18] INFO root fetch - processPackages [connect-sdk-python3]: Downloading https://files.pythonhosted.org/packages/ba/9e/0bb70ffda1eb8ec19968e163e95828f095624eb9ca96ca13a136d41d23ca/connect-sdk-python3-3.9.0.zip
+[2023-06-28 09:56:18] INFO root fetch - processPackages [pdbufr]: Downloading https://files.pythonhosted.org/packages/fe/83/14473b718b6ee70c07a9ed16d4f6ec66c377673edbb009d33277aaa39c7a/pdbufr-0.9.0.tar.gz
+[2023-06-28 09:56:19] INFO root fetch - processPackages [connect-sdk-python3]: executing diffoscope
+[2023-06-28 09:56:19] INFO root fetch - processPackages [connect-sdk-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect-sdk-python3-3.8.0.zip tmp/connect-sdk-python3-3.9.0.zip --markdown 20230628/c/connect-sdk-python3/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-06-28 09:56:19] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.8.tar.gz]
+[2023-06-28 09:56:19] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.9.tar.gz]
+[2023-06-28 09:56:19] INFO root fetch - processPackages [FPC]: Start processing: bali-cli
+[2023-06-28 09:56:19] INFO root fetch - main [MainThread]: End processing [FPC]: success
+[2023-06-28 09:56:19] INFO root fetch - processPackages [bali-cli]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-06-28 09:56:19] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.0.3a1-py3-none-any.whl.zip]
+[2023-06-28 09:56:19] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.0.3rc1-py3-none-any.whl.zip]
+[2023-06-28 09:56:19] INFO root fetch - processPackages [steampunk-spotter]: Start processing: get-eyedata
+[2023-06-28 09:56:19] INFO root fetch - main [MainThread]: End processing [steampunk-spotter]: success
+[2023-06-28 09:56:19] INFO root fetch - processPackages [get-eyedata]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-28 09:56:19] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Remove: archive file [/home/abi/fetcher/tmp/Google Ads Transparency Scraper-1.1.tar.gz]
+[2023-06-28 09:56:19] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Remove: archive file [/home/abi/fetcher/tmp/Google Ads Transparency Scraper-1.2.tar.gz]
+[2023-06-28 09:56:19] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Start processing: alice-onboarding
+[2023-06-28 09:56:19] INFO root fetch - main [MainThread]: End processing [Google-Ads-Transparency-Scraper]: success
+[2023-06-28 09:56:19] INFO root fetch - processPackages [alice-onboarding]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-06-28 09:56:19] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230627-cp39-cp39-win_amd64.whl.zip]
+[2023-06-28 09:56:19] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230628-cp39-cp39-win_amd64.whl.zip]
+[2023-06-28 09:56:19] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: image-label
+[2023-06-28 09:56:19] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-28 09:56:19] INFO root fetch - processPackages [image-label]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-06-28 09:56:19] INFO root fetch - processPackages [bali-cli]: Downloading https://files.pythonhosted.org/packages/75/36/fca9f8f6cbacb3a4dc6a8af783982e9f8260b8c912803b410d5ec3eb84d3/bali-cli-2.6.0.tar.gz
+[2023-06-28 09:56:19] INFO root fetch - processPackages [labelprinterkit]: Remove: archive file [/home/abi/fetcher/tmp/labelprinterkit-0.5.8.tar.gz]
+[2023-06-28 09:56:19] INFO root fetch - processPackages [labelprinterkit]: Remove: archive file [/home/abi/fetcher/tmp/labelprinterkit-0.6.0.tar.gz]
+[2023-06-28 09:56:19] INFO root fetch - main [MainThread]: End processing [labelprinterkit]: success
+[2023-06-28 09:56:19] INFO root fetch - processPackages [pdbufr]: executing diffoscope
+[2023-06-28 09:56:19] INFO root fetch - processPackages [pdbufr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdbufr-0.8.2.tar.gz tmp/pdbufr-0.9.0.tar.gz --markdown 20230628/p/pdbufr/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 09:56:19] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/60/d1/9088b297441aae3879c11b15e4b740809d6c84a5b28f012d5a425def7284/get_eyedata-1.2.1-py3-none-any.whl
+[2023-06-28 09:56:19] INFO root fetch - processPackages [image-label]: executing diffoscope
+[2023-06-28 09:56:19] INFO root fetch - processPackages [image-label]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_label-2.4.0.tar.gz tmp/image_label-2.4.1.tar.gz --markdown 20230628/i/image-label/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-06-28 09:56:19] INFO root fetch - processPackages [alice-onboarding]: Downloading https://files.pythonhosted.org/packages/ec/50/aaab5ad8ae6a667a77b8f985fcf132b33229f571285ad36b887792fa4289/alice-onboarding-2.0.0.tar.gz
+[2023-06-28 09:56:19] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/f3/98/2ca761af74d70af752a76d601057cd14a34e661fc605701db95968855274/get_eyedata-1.2.2-py3-none-any.whl
+[2023-06-28 09:56:19] INFO root fetch - processPackages [image-label]: Remove: archive file [/home/abi/fetcher/tmp/image_label-2.4.0.tar.gz]
+[2023-06-28 09:56:19] INFO root fetch - processPackages [image-label]: Remove: archive file [/home/abi/fetcher/tmp/image_label-2.4.1.tar.gz]
+[2023-06-28 09:56:19] INFO root fetch - main [MainThread]: End processing [image-label]: success
+[2023-06-28 09:56:19] INFO root fetch - processPackages [bali-cli]: Downloading https://files.pythonhosted.org/packages/53/ca/753510dd1042367288f798f54837b7b6903a4812d536ea2540970f2b4a8c/bali-cli-2.7.0.tar.gz
+[2023-06-28 09:56:19] INFO root fetch - processPackages [alice-onboarding]: Downloading https://files.pythonhosted.org/packages/bf/91/731e9a35e867f8cd607ca54d42ff01339855015028c8413b7f3e60357644/alice-onboarding-3.0.0.tar.gz
+[2023-06-28 09:56:19] INFO root fetch - processPackages [get-eyedata]: executing diffoscope
+[2023-06-28 09:56:19] INFO root fetch - processPackages [get-eyedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_eyedata-1.2.1-py3-none-any.whl.zip tmp/get_eyedata-1.2.2-py3-none-any.whl.zip --markdown 20230628/g/get-eyedata/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-28 09:56:19] INFO root fetch - processPackages [bali-cli]: executing diffoscope
+[2023-06-28 09:56:19] INFO root fetch - processPackages [bali-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bali-cli-2.6.0.tar.gz tmp/bali-cli-2.7.0.tar.gz --markdown 20230628/b/bali-cli/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-06-28 09:56:20] INFO root fetch - processPackages [alice-onboarding]: executing diffoscope
+[2023-06-28 09:56:20] INFO root fetch - processPackages [alice-onboarding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alice-onboarding-2.0.0.tar.gz tmp/alice-onboarding-3.0.0.tar.gz --markdown 20230628/a/alice-onboarding/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-06-28 09:56:20] ERROR root fetch - processPackages [image-label]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/image_label-2.4.0.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/image_label-2.4.1.tar.gz: No such file or directory
+
+[2023-06-28 09:56:20] INFO root fetch - main [MainThread]: End processing [image-label] error
+[2023-06-28 09:56:21] INFO root fetch - processPackages [get-eyedata]: Remove: archive file [/home/abi/fetcher/tmp/get_eyedata-1.2.1-py3-none-any.whl.zip]
+[2023-06-28 09:56:21] INFO root fetch - processPackages [get-eyedata]: Remove: archive file [/home/abi/fetcher/tmp/get_eyedata-1.2.2-py3-none-any.whl.zip]
+[2023-06-28 09:56:21] INFO root fetch - main [MainThread]: End processing [get-eyedata]: success
+[2023-06-28 09:56:21] INFO root fetch - processPackages [bali-cli]: Remove: archive file [/home/abi/fetcher/tmp/bali-cli-2.6.0.tar.gz]
+[2023-06-28 09:56:21] INFO root fetch - processPackages [bali-cli]: Remove: archive file [/home/abi/fetcher/tmp/bali-cli-2.7.0.tar.gz]
+[2023-06-28 09:56:21] INFO root fetch - main [MainThread]: End processing [bali-cli]: success
+[2023-06-28 09:56:21] INFO root fetch - processPackages [pdbufr]: Remove: archive file [/home/abi/fetcher/tmp/pdbufr-0.8.2.tar.gz]
+[2023-06-28 09:56:21] INFO root fetch - processPackages [pdbufr]: Remove: archive file [/home/abi/fetcher/tmp/pdbufr-0.9.0.tar.gz]
+[2023-06-28 09:56:21] INFO root fetch - main [MainThread]: End processing [pdbufr]: success
+[2023-06-28 09:56:21] INFO root fetch - processPackages [alice-onboarding]: Remove: archive file [/home/abi/fetcher/tmp/alice-onboarding-2.0.0.tar.gz]
+[2023-06-28 09:56:21] INFO root fetch - processPackages [alice-onboarding]: Remove: archive file [/home/abi/fetcher/tmp/alice-onboarding-3.0.0.tar.gz]
+[2023-06-28 09:56:21] INFO root fetch - main [MainThread]: End processing [alice-onboarding]: success
+[2023-06-28 09:56:21] ERROR root fetch - processPackages [image-label]: Diffoscope failed: gzip: tmp/image_label-2.4.1.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/image_label-2.4.1.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-28 09:56:21] INFO root fetch - main [MainThread]: End processing [image-label] error
+[2023-06-28 09:56:24] INFO root fetch - processPackages [connect-sdk-python3]: Remove: archive file [/home/abi/fetcher/tmp/connect-sdk-python3-3.8.0.zip]
+[2023-06-28 09:56:24] INFO root fetch - processPackages [connect-sdk-python3]: Remove: archive file [/home/abi/fetcher/tmp/connect-sdk-python3-3.9.0.zip]
+[2023-06-28 09:56:24] INFO root fetch - main [MainThread]: End processing [connect-sdk-python3]: success
+[2023-06-28 09:56:25] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.98.2.tar.gz]
+[2023-06-28 09:56:25] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
+[2023-06-28 09:56:25] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-06-28 09:56:25] INFO root fetch - main [MainThread]: Store serial: [18675900]
