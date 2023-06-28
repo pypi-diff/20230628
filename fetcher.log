@@ -15456,3 +15456,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 07:50:30] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.1.0a1687929913.tar.gz]
 [2023-06-28 07:50:30] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
 [2023-06-28 07:50:30] INFO root fetch - main [MainThread]: Store serial: [18674943]
+[2023-06-28 07:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674943]
+[2023-06-28 07:55:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-28 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hack-hi
+[2023-06-28 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: noiseflow
+[2023-06-28 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yangsuite-gnmi
+[2023-06-28 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-cloud-storages
+[2023-06-28 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyass
+[2023-06-28 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nics
+[2023-06-28 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hackilnge
+[2023-06-28 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipo-india
+[2023-06-28 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: baltic
+[2023-06-28 07:55:39] INFO root fetch - processPackages [pyass]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-28 07:55:39] INFO root fetch - processPackages [yangsuite-gnmi]: New version: [2.7.8] Old Version: [2.7.7.post0.dev8]
+[2023-06-28 07:55:39] INFO root fetch - processPackages [ipo-india]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-28 07:55:39] INFO root fetch - processPackages [noiseflow]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2023-06-28 07:55:39] WARNING root fetch - processPackages [hack-hi]: Skipping, unable to determine old version
+[2023-06-28 07:55:39] INFO root fetch - main [MainThread]: End processing [hack-hi] error
+[2023-06-28 07:55:39] WARNING root fetch - processPackages [hackilnge]: Skipping, unable to determine old version
+[2023-06-28 07:55:39] INFO root fetch - main [MainThread]: End processing [hackilnge] error
+[2023-06-28 07:55:39] INFO root fetch - processPackages [django-cloud-storages]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-28 07:55:39] INFO root fetch - processPackages [nics]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-28 07:55:39] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/8c/db/3a6336e2b35ff4a60cece2d2d738e1aa44deac13622bf06bf97a71eb4df9/django_cloud_storages-0.1.1.tar.gz
+[2023-06-28 07:55:39] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/32/4f/e8f4bdd76e1184bbe68cbb0c6cb9a72ac09ce5d9e60e597538070daff230/nics-0.8.0.tar.gz
+[2023-06-28 07:55:39] INFO root fetch - processPackages [baltic]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-06-28 07:55:39] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/e3/a9/d4fb23a24831e0261a1d3dde5533f0acb3ada3ed822466e82336a66f62e6/noiseflow-0.0.1a0.tar.gz
+[2023-06-28 07:55:39] INFO root fetch - processPackages [ipo-india]: Downloading https://files.pythonhosted.org/packages/55/c2/2e634475d9aa0970b883184c95b1d295b88b60e800b1712f52e04d841b1b/ipo_india-0.0.5.tar.gz
+[2023-06-28 07:55:39] INFO root fetch - processPackages [pyass]: Downloading https://files.pythonhosted.org/packages/57/6f/1c99aba8960a6bfc9f90c31d5532bd1efa86878349fce5c74c1466934fe6/pyass-0.1.1.tar.gz
+[2023-06-28 07:55:39] INFO root fetch - processPackages [yangsuite-gnmi]: Downloading https://files.pythonhosted.org/packages/71/7e/8fe3d283bc9285bbf8262459c2ae4daf7f39ac0da9370fd0adf9daf749e0/yangsuite_gnmi-2.7.7.post0.dev8-py3-none-any.whl
+[2023-06-28 07:55:39] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/85/52/034654f14720116eeb5fef0809550fd712bd0cd84970b602b45f8f0f868f/django_cloud_storages-0.1.2.tar.gz
+[2023-06-28 07:55:39] INFO root fetch - processPackages [baltic]: Downloading https://files.pythonhosted.org/packages/06/f3/9476da640ea2fada808c91d0114f821b66ba59654d487e7a079a28bdd414/baltic-0.1.6.tar.gz
+[2023-06-28 07:55:39] INFO root fetch - processPackages [django-cloud-storages]: executing diffoscope
+[2023-06-28 07:55:39] INFO root fetch - processPackages [django-cloud-storages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloud_storages-0.1.1.tar.gz tmp/django_cloud_storages-0.1.2.tar.gz --markdown 20230628/d/django-cloud-storages/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-28 07:55:39] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/28/c9/ed0dc845f3c9d1ea9e22bbba2eb22804f6e3ff99e5cc338469af7756eee5/nics-0.9.0.tar.gz
+[2023-06-28 07:55:39] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/0c/f3/5d732e796fd21abcd66ff9461967dc238efece472e84ad425157309686dd/noiseflow-0.0.1a1.tar.gz
+[2023-06-28 07:55:39] INFO root fetch - processPackages [pyass]: Downloading https://files.pythonhosted.org/packages/45/9a/37c1576192e984cfde0966a4d64e6809277c2ad677f3ef36628d12bf0975/pyass-0.1.2.tar.gz
+[2023-06-28 07:55:39] INFO root fetch - processPackages [ipo-india]: Downloading https://files.pythonhosted.org/packages/6a/f5/6f6180a39b0c3ceba568cab3168c4f2ff7f9f2690e2bc1f0882229b58867/ipo_india-0.0.6.tar.gz
+[2023-06-28 07:55:39] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-28 07:55:39] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-0.8.0.tar.gz tmp/nics-0.9.0.tar.gz --markdown 20230628/n/nics/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 07:55:39] INFO root fetch - processPackages [pyass]: executing diffoscope
+[2023-06-28 07:55:39] INFO root fetch - processPackages [pyass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyass-0.1.1.tar.gz tmp/pyass-0.1.2.tar.gz --markdown 20230628/p/pyass/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-28 07:55:39] INFO root fetch - processPackages [ipo-india]: executing diffoscope
+[2023-06-28 07:55:39] INFO root fetch - processPackages [ipo-india]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipo_india-0.0.5.tar.gz tmp/ipo_india-0.0.6.tar.gz --markdown 20230628/i/ipo-india/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-28 07:55:39] INFO root fetch - processPackages [baltic]: Downloading https://files.pythonhosted.org/packages/3c/36/2783aabf12b23215abf0479687871b16e385adfb5ce50e391889a982781b/baltic-0.1.8.tar.gz
+[2023-06-28 07:55:39] INFO root fetch - processPackages [noiseflow]: executing diffoscope
+[2023-06-28 07:55:39] INFO root fetch - processPackages [noiseflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noiseflow-0.0.1a0.tar.gz tmp/noiseflow-0.0.1a1.tar.gz --markdown 20230628/n/noiseflow/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2023-06-28 07:55:39] INFO root fetch - processPackages [yangsuite-gnmi]: Downloading https://files.pythonhosted.org/packages/e3/7d/bef61dbed300ac35e06209ce304d3bd5386c3af1b2526ab258416a8bc8a1/yangsuite_gnmi-2.7.8-py3-none-any.whl
+[2023-06-28 07:55:40] INFO root fetch - processPackages [yangsuite-gnmi]: executing diffoscope
+[2023-06-28 07:55:40] INFO root fetch - processPackages [yangsuite-gnmi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite_gnmi-2.7.7.post0.dev8-py3-none-any.whl.zip tmp/yangsuite_gnmi-2.7.8-py3-none-any.whl.zip --markdown 20230628/y/yangsuite-gnmi/2.7.7.post0.dev8-2.7.8/diff.md --exclude *.pyd
+[2023-06-28 07:55:40] INFO root fetch - processPackages [baltic]: executing diffoscope
+[2023-06-28 07:55:40] INFO root fetch - processPackages [baltic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baltic-0.1.6.tar.gz tmp/baltic-0.1.8.tar.gz --markdown 20230628/b/baltic/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-06-28 07:55:40] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.8.0.tar.gz]
+[2023-06-28 07:55:40] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.9.0.tar.gz]
+[2023-06-28 07:55:40] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-28 07:55:40] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-0.1.1.tar.gz]
+[2023-06-28 07:55:40] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-0.1.2.tar.gz]
+[2023-06-28 07:55:40] INFO root fetch - main [MainThread]: End processing [django-cloud-storages]: success
+[2023-06-28 07:55:40] INFO root fetch - processPackages [pyass]: Remove: archive file [/home/abi/fetcher/tmp/pyass-0.1.1.tar.gz]
+[2023-06-28 07:55:40] INFO root fetch - processPackages [pyass]: Remove: archive file [/home/abi/fetcher/tmp/pyass-0.1.2.tar.gz]
+[2023-06-28 07:55:40] INFO root fetch - main [MainThread]: End processing [pyass]: success
+[2023-06-28 07:55:41] INFO root fetch - processPackages [ipo-india]: Remove: archive file [/home/abi/fetcher/tmp/ipo_india-0.0.5.tar.gz]
+[2023-06-28 07:55:41] INFO root fetch - processPackages [ipo-india]: Remove: archive file [/home/abi/fetcher/tmp/ipo_india-0.0.6.tar.gz]
+[2023-06-28 07:55:41] INFO root fetch - main [MainThread]: End processing [ipo-india]: success
+[2023-06-28 07:55:41] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.1a0.tar.gz]
+[2023-06-28 07:55:41] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.1a1.tar.gz]
+[2023-06-28 07:55:41] INFO root fetch - main [MainThread]: End processing [noiseflow]: success
+[2023-06-28 07:55:41] INFO root fetch - processPackages [baltic]: Remove: archive file [/home/abi/fetcher/tmp/baltic-0.1.6.tar.gz]
+[2023-06-28 07:55:41] INFO root fetch - processPackages [baltic]: Remove: archive file [/home/abi/fetcher/tmp/baltic-0.1.8.tar.gz]
+[2023-06-28 07:55:41] INFO root fetch - main [MainThread]: End processing [baltic]: success
+[2023-06-28 07:55:46] INFO root fetch - processPackages [yangsuite-gnmi]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_gnmi-2.7.7.post0.dev8-py3-none-any.whl.zip]
+[2023-06-28 07:55:46] INFO root fetch - processPackages [yangsuite-gnmi]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_gnmi-2.7.8-py3-none-any.whl.zip]
+[2023-06-28 07:55:46] INFO root fetch - main [MainThread]: End processing [yangsuite-gnmi]: success
+[2023-06-28 07:55:46] INFO root fetch - main [MainThread]: Store serial: [18674973]
