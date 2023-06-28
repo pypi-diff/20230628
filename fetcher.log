@@ -15730,3 +15730,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 08:11:49] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230628.tar.gz]
 [2023-06-28 08:11:49] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-06-28 08:11:49] INFO root fetch - main [MainThread]: Store serial: [18675074]
+[2023-06-28 08:16:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18675074]
+[2023-06-28 08:16:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsp-tools
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jcmutils
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dank-mids
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipo-india
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opvious
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qylitix-test2
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xj-user
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pretext
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyQt-Fluent-Widgets
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nics
+[2023-06-28 08:16:58] INFO root fetch - processPackages [dsp-tools]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-06-28 08:16:58] INFO root fetch - processPackages [jcmutils]: New version: [1.6.0] Old Version: [1.5.9]
+[2023-06-28 08:16:58] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230628] Old Version: [1.6.1.dev20230627]
+[2023-06-28 08:16:58] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ipo-india]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-28 08:16:58] WARNING root fetch - processPackages [qylitix-test2]: Skipping, unable to determine old version
+[2023-06-28 08:16:58] INFO root fetch - processPackages [qylitix-test2]: Start processing: ggml-python
+[2023-06-28 08:16:58] INFO root fetch - processPackages [nics]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-28 08:16:58] INFO root fetch - main [MainThread]: End processing [qylitix-test2] error
+[2023-06-28 08:16:58] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-28 08:16:58] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ggml-python]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-28 08:16:58] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-28 08:16:58] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ipo-india]: Downloading https://files.pythonhosted.org/packages/6a/f5/6f6180a39b0c3ceba568cab3168c4f2ff7f9f2690e2bc1f0882229b58867/ipo_india-0.0.6.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/32/4f/e8f4bdd76e1184bbe68cbb0c6cb9a72ac09ce5d9e60e597538070daff230/nics-0.8.0.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/0d/30/629d83990b4cd4b5d547fa7142fee045a55e0efd28d6a75da7341c8d7aa2/PyQt-Fluent-Widgets-0.9.8.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/74/ee/7d3fb8017aebe1ad0ab7c913eb0aaefda577aa0cd57db770f561c3f6d484/dsp_tools-2.3.3.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/85/a2/f0b34a5af2681177df586811ffb6223c68afc56cb3a9bf881ca4ace6c5be/pretext-1.6.1.dev20230627.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/88/2e/88c5d0f3df0bb1c77ce0325fe2da77b12b8bcc8d0a6fdae0a69a7529d6a2/jcmutils-1.5.9.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/28/c9/ed0dc845f3c9d1ea9e22bbba2eb22804f6e3ff99e5cc338469af7756eee5/nics-0.9.0.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-06-28 08:16:58] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230628/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-28 08:16:58] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/04/9c/7fb7dca77908fb42af99a27dcb388cf1df652f1eda0a9ec456f8fb4bd349/ggml-python-0.0.6.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-28 08:16:58] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-0.8.0.tar.gz tmp/nics-0.9.0.tar.gz --markdown 20230628/n/nics/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 08:16:58] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-28 08:16:58] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230628/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-28 08:16:58] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/45/99/a53cc088804e0ed85b809c5b42b2034e732e7a4299763ed6c8e1fad1f470/PyQt-Fluent-Widgets-0.9.9.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ipo-india]: Downloading https://files.pythonhosted.org/packages/b3/e0/db1cdcf044f7020e75d4eb1f8a1ea0aa5167591485eb35d4c6ef696b31f6/ipo_india-0.0.7.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ipo-india]: executing diffoscope
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ipo-india]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipo_india-0.0.6.tar.gz tmp/ipo_india-0.0.7.tar.gz --markdown 20230628/i/ipo-india/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-28 08:16:58] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/82/3d/dd82d78baacfce8281766fdf8f962038024119a214b206b81c5bea7b946a/dsp_tools-2.3.4.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-06-28 08:16:58] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-0.9.8.tar.gz tmp/PyQt-Fluent-Widgets-0.9.9.tar.gz --markdown 20230628/P/PyQt-Fluent-Widgets/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/9c/01/06f385da2e0475c19b4839adf799a0a429a40807eef7a3be9f9646258420/ggml-python-0.0.7.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [dsp-tools]: executing diffoscope
+[2023-06-28 08:16:58] INFO root fetch - processPackages [dsp-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_tools-2.3.3.tar.gz tmp/dsp_tools-2.3.4.tar.gz --markdown 20230628/d/dsp-tools/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-06-28 08:16:58] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/19/51/0ef30bd59f376602ad89f43c92bad3c412e7bd9f913da1506551773158ff/pretext-1.6.1.dev20230628.tar.gz
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ggml-python]: executing diffoscope
+[2023-06-28 08:16:58] INFO root fetch - processPackages [ggml-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggml-python-0.0.6.tar.gz tmp/ggml-python-0.0.7.tar.gz --markdown 20230628/g/ggml-python/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-28 08:16:58] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/30/92/d2824f69398b0ff41fe5feb2557ada28332322a16c5d874408bc782c22b3/jcmutils-1.6.0.tar.gz
+[2023-06-28 08:16:59] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-06-28 08:16:59] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230628/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-28 08:16:59] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-06-28 08:16:59] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.5.9.tar.gz tmp/jcmutils-1.6.0.tar.gz --markdown 20230628/j/jcmutils/1.5.9-1.6.0/diff.md --exclude *.pyd
+[2023-06-28 08:16:59] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-28 08:16:59] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230627.tar.gz tmp/pretext-1.6.1.dev20230628.tar.gz --markdown 20230628/p/pretext/1.6.1.dev20230627-1.6.1.dev20230628/diff.md --exclude *.pyd
+[2023-06-28 08:16:59] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.8.0.tar.gz]
+[2023-06-28 08:16:59] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.9.0.tar.gz]
+[2023-06-28 08:16:59] INFO root fetch - processPackages [nics]: Start processing: hackilnge
+[2023-06-28 08:16:59] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-28 08:16:59] WARNING root fetch - processPackages [hackilnge]: Skipping, unable to determine old version
+[2023-06-28 08:16:59] INFO root fetch - main [MainThread]: End processing [hackilnge] error
+[2023-06-28 08:17:00] INFO root fetch - processPackages [ipo-india]: Remove: archive file [/home/abi/fetcher/tmp/ipo_india-0.0.6.tar.gz]
+[2023-06-28 08:17:00] INFO root fetch - processPackages [ipo-india]: Remove: archive file [/home/abi/fetcher/tmp/ipo_india-0.0.7.tar.gz]
+[2023-06-28 08:17:00] INFO root fetch - main [MainThread]: End processing [ipo-india]: success
+[2023-06-28 08:17:00] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-28 08:17:00] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-28 08:17:00] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-28 08:17:00] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.5.tar.gz]
+[2023-06-28 08:17:00] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.6.tar.gz]
+[2023-06-28 08:17:00] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-06-28 08:17:00] INFO root fetch - processPackages [jcmutils]: Remove: archive file [/home/abi/fetcher/tmp/jcmutils-1.5.9.tar.gz]
+[2023-06-28 08:17:00] INFO root fetch - processPackages [jcmutils]: Remove: archive file [/home/abi/fetcher/tmp/jcmutils-1.6.0.tar.gz]
+[2023-06-28 08:17:00] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-06-28 08:17:00] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-2.3.3.tar.gz]
+[2023-06-28 08:17:00] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-2.3.4.tar.gz]
+[2023-06-28 08:17:00] INFO root fetch - main [MainThread]: End processing [dsp-tools]: success
+[2023-06-28 08:17:00] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.8.tar.gz]
+[2023-06-28 08:17:00] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.9.tar.gz]
+[2023-06-28 08:17:00] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-06-28 08:17:01] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-06-28 08:17:01] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-06-28 08:17:01] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-06-28 08:17:03] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230627.tar.gz]
+[2023-06-28 08:17:03] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230628.tar.gz]
+[2023-06-28 08:17:03] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-28 08:17:04] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.6.tar.gz]
+[2023-06-28 08:17:04] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.7.tar.gz]
+[2023-06-28 08:17:04] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
+[2023-06-28 08:17:04] INFO root fetch - main [MainThread]: Store serial: [18675109]
