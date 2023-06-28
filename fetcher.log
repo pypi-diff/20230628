@@ -16246,3 +16246,105 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 08:43:29] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2023-06-28 08:43:29] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-06-28 08:43:29] INFO root fetch - main [MainThread]: Store serial: [18675270]
+[2023-06-28 08:48:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18675270]
+[2023-06-28 08:48:38] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-28 08:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipo-india
+[2023-06-28 08:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspartn
+[2023-06-28 08:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tracebloc-package
+[2023-06-28 08:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: java-access-bridge-wrapper
+[2023-06-28 08:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyansys-tools-report
+[2023-06-28 08:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: avwx-engine
+[2023-06-28 08:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: validating-models
+[2023-06-28 08:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: noiseflow
+[2023-06-28 08:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: armonik
+[2023-06-28 08:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyQt6-Fluent-Widgets
+[2023-06-28 08:48:38] INFO root fetch - processPackages [ipo-india]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-28 08:48:38] INFO root fetch - processPackages [pyspartn]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-28 08:48:38] INFO root fetch - processPackages [java-access-bridge-wrapper]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-28 08:48:38] INFO root fetch - processPackages [noiseflow]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-06-28 08:48:38] INFO root fetch - processPackages [validating-models]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-28 08:48:38] INFO root fetch - processPackages [tracebloc-package]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 08:48:38] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-28 08:48:38] INFO root fetch - processPackages [pyansys-tools-report]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-28 08:48:38] INFO root fetch - processPackages [armonik]: New version: [3.9.1.dev577] Old Version: [3.9.1.dev562]
+[2023-06-28 08:48:38] INFO root fetch - processPackages [avwx-engine]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-06-28 08:48:38] INFO root fetch - processPackages [ipo-india]: Downloading https://files.pythonhosted.org/packages/b3/e0/db1cdcf044f7020e75d4eb1f8a1ea0aa5167591485eb35d4c6ef696b31f6/ipo_india-0.0.7.tar.gz
+[2023-06-28 08:48:38] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/fb/20/09091144c4446b0b651010e4398fb6d31f47764ff20eb07f134e938cd9f5/armonik-3.9.1.dev562.tar.gz
+[2023-06-28 08:48:38] INFO root fetch - processPackages [tracebloc-package]: Downloading https://files.pythonhosted.org/packages/8c/0c/53c1613f9f9cc2d451482f056ad41f63d79cd5a6df8760a925969349d056/tracebloc_package-0.1.8.tar.gz
+[2023-06-28 08:48:38] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/a3/dd/ae60484e87a6261e27e25164e8c63287286957b50fbc176b23f8fa50bc98/noiseflow-0.0.1a2.tar.gz
+[2023-06-28 08:48:38] INFO root fetch - processPackages [validating-models]: Downloading https://files.pythonhosted.org/packages/21/3f/c798e98bad26aea3f543a45408f04d35d26633890be6eedf1388fa6c0f20/validating_models-0.9.4.tar.gz
+[2023-06-28 08:48:38] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/80/99/0d1461fc1bd65f162d6ccf2a8f372d743136031ce66bd304c17171d7d71d/PyQt6-Fluent-Widgets-0.9.8.tar.gz
+[2023-06-28 08:48:38] INFO root fetch - processPackages [pyspartn]: Downloading https://files.pythonhosted.org/packages/c7/1b/1a676069f2c99cc1fbe0eccf6cf32b8160666cd0c18a0034478cb64b56f1/pyspartn-0.1.7.tar.gz
+[2023-06-28 08:48:38] INFO root fetch - processPackages [tracebloc-package]: Downloading https://files.pythonhosted.org/packages/2f/86/f5a06ff14db12b21fe7460dc71f1dae6aca3db77058e45f121993bc6a568/tracebloc_package-0.1.9.tar.gz
+[2023-06-28 08:48:38] INFO root fetch - processPackages [java-access-bridge-wrapper]: Downloading https://files.pythonhosted.org/packages/8f/33/2cdd3b65e0794aec317459cc1b84b29be7a3900a375f5e7fadfadece9f3e/java-access-bridge-wrapper-0.9.6.tar.gz
+[2023-06-28 08:48:38] INFO root fetch - processPackages [pyansys-tools-report]: Downloading https://files.pythonhosted.org/packages/cf/59/edcb4fba8cf1fcb087bb788d28b28fb04d40c5a2b1c6960d6172617e62a3/pyansys-tools-report-0.5.0.tar.gz
+[2023-06-28 08:48:38] INFO root fetch - processPackages [ipo-india]: Downloading https://files.pythonhosted.org/packages/8f/6b/041568162d7b83af73f0d51cdaf81d155de8f6a77390e0fbf6f3a1f737bf/ipo_india-0.0.8.tar.gz
+[2023-06-28 08:48:38] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/c5/a2/5d4f3ecb64b992911d44cbc9a665c5a07c1e1132293b104115fc7bfce74a/PyQt6-Fluent-Widgets-0.9.9.tar.gz
+[2023-06-28 08:48:38] INFO root fetch - processPackages [tracebloc-package]: executing diffoscope
+[2023-06-28 08:48:38] INFO root fetch - processPackages [tracebloc-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-0.1.8.tar.gz tmp/tracebloc_package-0.1.9.tar.gz --markdown 20230628/t/tracebloc-package/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 08:48:38] INFO root fetch - processPackages [avwx-engine]: Downloading https://files.pythonhosted.org/packages/98/23/e0c4ffac5bbf77546fe213f9def26a8756392320c99510562fb0f41d2b9d/avwx_engine-1.8.8.tar.gz
+[2023-06-28 08:48:38] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/5c/91/81a8a25096aefc36df94007cfceefb98184362e6d002f1051e0f6165b16f/noiseflow-0.0.1a3.tar.gz
+[2023-06-28 08:48:38] INFO root fetch - processPackages [validating-models]: Downloading https://files.pythonhosted.org/packages/9e/8c/4f085d006588b911a4b764d2789e52fb08c7bece19053ddbc54e1ef887f3/validating_models-0.9.5.tar.gz
+[2023-06-28 08:48:38] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/ff/38/7bb3e246541e4e3f1e3dd8b6666ba372d9100a76e43b654c89854af78410/armonik-3.9.1.dev577.tar.gz
+[2023-06-28 08:48:38] INFO root fetch - processPackages [ipo-india]: executing diffoscope
+[2023-06-28 08:48:38] INFO root fetch - processPackages [ipo-india]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipo_india-0.0.7.tar.gz tmp/ipo_india-0.0.8.tar.gz --markdown 20230628/i/ipo-india/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-28 08:48:39] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-06-28 08:48:39] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.9.8.tar.gz tmp/PyQt6-Fluent-Widgets-0.9.9.tar.gz --markdown 20230628/P/PyQt6-Fluent-Widgets/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-28 08:48:39] INFO root fetch - processPackages [validating-models]: executing diffoscope
+[2023-06-28 08:48:39] INFO root fetch - processPackages [validating-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validating_models-0.9.4.tar.gz tmp/validating_models-0.9.5.tar.gz --markdown 20230628/v/validating-models/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-28 08:48:39] INFO root fetch - processPackages [pyansys-tools-report]: Downloading https://files.pythonhosted.org/packages/4a/2f/cd20d0a82246e9f1b78f53c2bd09339905ce03fb3ef2fd4d639006b6e19b/pyansys_tools_report-0.6.0.tar.gz
+[2023-06-28 08:48:39] INFO root fetch - processPackages [java-access-bridge-wrapper]: Downloading https://files.pythonhosted.org/packages/a6/12/d261da43befaa85b16efd2921f32d9e770dfa2ef16a5ea159757ddee0741/java-access-bridge-wrapper-0.9.7.tar.gz
+[2023-06-28 08:48:39] INFO root fetch - processPackages [pyspartn]: Downloading https://files.pythonhosted.org/packages/94/8b/c16a772c937771bc6cf1954e6aeb9df5fd1f249f678070d5acac6630da73/pyspartn-0.1.8.tar.gz
+[2023-06-28 08:48:39] INFO root fetch - processPackages [noiseflow]: executing diffoscope
+[2023-06-28 08:48:39] INFO root fetch - processPackages [noiseflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noiseflow-0.0.1a2.tar.gz tmp/noiseflow-0.0.1a3.tar.gz --markdown 20230628/n/noiseflow/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-06-28 08:48:39] INFO root fetch - processPackages [pyansys-tools-report]: executing diffoscope
+[2023-06-28 08:48:39] INFO root fetch - processPackages [pyansys-tools-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyansys-tools-report-0.5.0.tar.gz tmp/pyansys_tools_report-0.6.0.tar.gz --markdown 20230628/p/pyansys-tools-report/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-28 08:48:39] INFO root fetch - processPackages [java-access-bridge-wrapper]: executing diffoscope
+[2023-06-28 08:48:39] INFO root fetch - processPackages [java-access-bridge-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/java-access-bridge-wrapper-0.9.6.tar.gz tmp/java-access-bridge-wrapper-0.9.7.tar.gz --markdown 20230628/j/java-access-bridge-wrapper/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-28 08:48:39] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-06-28 08:48:39] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.1.dev562.tar.gz tmp/armonik-3.9.1.dev577.tar.gz --markdown 20230628/a/armonik/3.9.1.dev562-3.9.1.dev577/diff.md --exclude *.pyd
+[2023-06-28 08:48:39] INFO root fetch - processPackages [pyspartn]: executing diffoscope
+[2023-06-28 08:48:39] INFO root fetch - processPackages [pyspartn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspartn-0.1.7.tar.gz tmp/pyspartn-0.1.8.tar.gz --markdown 20230628/p/pyspartn/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-28 08:48:40] INFO root fetch - processPackages [avwx-engine]: Downloading https://files.pythonhosted.org/packages/8e/d6/c5f4f781c8bb9fc272a1192d9ec936ba95599b8f2699f89a629385fc9cff/avwx_engine-1.8.9.tar.gz
+[2023-06-28 08:48:40] INFO root fetch - processPackages [ipo-india]: Remove: archive file [/home/abi/fetcher/tmp/ipo_india-0.0.7.tar.gz]
+[2023-06-28 08:48:40] INFO root fetch - processPackages [ipo-india]: Remove: archive file [/home/abi/fetcher/tmp/ipo_india-0.0.8.tar.gz]
+[2023-06-28 08:48:40] INFO root fetch - processPackages [ipo-india]: Start processing: pyees
+[2023-06-28 08:48:40] INFO root fetch - main [MainThread]: End processing [ipo-india]: success
+[2023-06-28 08:48:40] INFO root fetch - processPackages [pyees]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-28 08:48:40] INFO root fetch - processPackages [tracebloc-package]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-0.1.8.tar.gz]
+[2023-06-28 08:48:40] INFO root fetch - processPackages [tracebloc-package]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-0.1.9.tar.gz]
+[2023-06-28 08:48:40] INFO root fetch - main [MainThread]: End processing [tracebloc-package]: success
+[2023-06-28 08:48:40] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/08/0a/0fa1c2fba58c2d798eefdcd5da8d4a02f45156350420a4c6b22ef426c125/pyees-1.3.1.tar.gz
+[2023-06-28 08:48:40] INFO root fetch - processPackages [pyansys-tools-report]: Remove: archive file [/home/abi/fetcher/tmp/pyansys-tools-report-0.5.0.tar.gz]
+[2023-06-28 08:48:40] INFO root fetch - processPackages [pyansys-tools-report]: Remove: archive file [/home/abi/fetcher/tmp/pyansys_tools_report-0.6.0.tar.gz]
+[2023-06-28 08:48:40] INFO root fetch - main [MainThread]: End processing [pyansys-tools-report]: success
+[2023-06-28 08:48:40] INFO root fetch - processPackages [pyspartn]: Remove: archive file [/home/abi/fetcher/tmp/pyspartn-0.1.7.tar.gz]
+[2023-06-28 08:48:40] INFO root fetch - processPackages [pyspartn]: Remove: archive file [/home/abi/fetcher/tmp/pyspartn-0.1.8.tar.gz]
+[2023-06-28 08:48:40] INFO root fetch - main [MainThread]: End processing [pyspartn]: success
+[2023-06-28 08:48:40] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.1a2.tar.gz]
+[2023-06-28 08:48:40] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.1a3.tar.gz]
+[2023-06-28 08:48:40] INFO root fetch - main [MainThread]: End processing [noiseflow]: success
+[2023-06-28 08:48:40] INFO root fetch - processPackages [validating-models]: Remove: archive file [/home/abi/fetcher/tmp/validating_models-0.9.4.tar.gz]
+[2023-06-28 08:48:40] INFO root fetch - processPackages [validating-models]: Remove: archive file [/home/abi/fetcher/tmp/validating_models-0.9.5.tar.gz]
+[2023-06-28 08:48:40] INFO root fetch - main [MainThread]: End processing [validating-models]: success
+[2023-06-28 08:48:40] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/b6/21/8d40145c6a3352bfd48b8912a189f746b3bdb3061307d97095a807ffddb2/pyees-1.3.2.tar.gz
+[2023-06-28 08:48:40] INFO root fetch - processPackages [java-access-bridge-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/java-access-bridge-wrapper-0.9.6.tar.gz]
+[2023-06-28 08:48:40] INFO root fetch - processPackages [java-access-bridge-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/java-access-bridge-wrapper-0.9.7.tar.gz]
+[2023-06-28 08:48:40] INFO root fetch - main [MainThread]: End processing [java-access-bridge-wrapper]: success
+[2023-06-28 08:48:41] INFO root fetch - processPackages [pyees]: executing diffoscope
+[2023-06-28 08:48:41] INFO root fetch - processPackages [pyees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyees-1.3.1.tar.gz tmp/pyees-1.3.2.tar.gz --markdown 20230628/p/pyees/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-28 08:48:41] INFO root fetch - processPackages [avwx-engine]: executing diffoscope
+[2023-06-28 08:48:41] INFO root fetch - processPackages [avwx-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avwx_engine-1.8.8.tar.gz tmp/avwx_engine-1.8.9.tar.gz --markdown 20230628/a/avwx-engine/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-06-28 08:48:42] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.1.dev562.tar.gz]
+[2023-06-28 08:48:42] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.1.dev577.tar.gz]
+[2023-06-28 08:48:42] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-06-28 08:48:42] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.3.1.tar.gz]
+[2023-06-28 08:48:42] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.3.2.tar.gz]
+[2023-06-28 08:48:42] INFO root fetch - main [MainThread]: End processing [pyees]: success
+[2023-06-28 08:48:43] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.8.tar.gz]
+[2023-06-28 08:48:43] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.9.tar.gz]
+[2023-06-28 08:48:43] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-06-28 08:49:00] INFO root fetch - processPackages [avwx-engine]: Remove: archive file [/home/abi/fetcher/tmp/avwx_engine-1.8.8.tar.gz]
+[2023-06-28 08:49:00] INFO root fetch - processPackages [avwx-engine]: Remove: archive file [/home/abi/fetcher/tmp/avwx_engine-1.8.9.tar.gz]
+[2023-06-28 08:49:00] INFO root fetch - main [MainThread]: End processing [avwx-engine]: success
+[2023-06-28 08:49:00] INFO root fetch - main [MainThread]: Store serial: [18675315]
