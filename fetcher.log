@@ -18391,3 +18391,155 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 10:12:23] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.9.tar.gz]
 [2023-06-28 10:12:23] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-28 10:12:23] INFO root fetch - main [MainThread]: Store serial: [18676052]
+[2023-06-28 10:17:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18676052]
+[2023-06-28 10:17:33] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-28 10:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SELDOMpy
+[2023-06-28 10:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-sonarqube-api
+[2023-06-28 10:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pharmpy-core
+[2023-06-28 10:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irisml
+[2023-06-28 10:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: szh-toolbox
+[2023-06-28 10:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linear-cli-ai
+[2023-06-28 10:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: micropython-captive-dhcp-server
+[2023-06-28 10:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: meson-python
+[2023-06-28 10:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: daktari
+[2023-06-28 10:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quote4py
+[2023-06-28 10:17:33] INFO root fetch - processPackages [pharmpy-core]: New version: [0.97.0] Old Version: [0.96.0]
+[2023-06-28 10:17:33] INFO root fetch - processPackages [szh-toolbox]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-28 10:17:33] WARNING root fetch - processPackages [SELDOMpy]: Skipping, unable to determine old version
+[2023-06-28 10:17:33] INFO root fetch - processPackages [SELDOMpy]: Start processing: gpt-index
+[2023-06-28 10:17:33] INFO root fetch - main [MainThread]: End processing [SELDOMpy] error
+[2023-06-28 10:17:33] INFO root fetch - processPackages [linear-cli-ai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-28 10:17:33] INFO root fetch - processPackages [micropython-captive-dhcp-server]: New version: [0.0.2.dev0] Old Version: [0.0.1.dev0]
+[2023-06-28 10:17:33] INFO root fetch - processPackages [python-sonarqube-api]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-28 10:17:34] INFO root fetch - processPackages [meson-python]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-28 10:17:34] INFO root fetch - processPackages [irisml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 10:17:34] WARNING root fetch - processPackages [quote4py]: Skipping, unable to determine old version
+[2023-06-28 10:17:34] INFO root fetch - processPackages [quote4py]: Start processing: llama-index
+[2023-06-28 10:17:34] INFO root fetch - main [MainThread]: End processing [quote4py] error
+[2023-06-28 10:17:34] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-28 10:17:34] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-28 10:17:34] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-28 10:17:34] INFO root fetch - processPackages [micropython-captive-dhcp-server]: Downloading https://files.pythonhosted.org/packages/7c/09/5190731490887b588c1e51c944c9eceb6512ee3afe46f9b5e390844e74fe/micropython-captive-dhcp-server-0.0.1.dev0.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [szh-toolbox]: Downloading https://files.pythonhosted.org/packages/17/9a/07acb4716abde29651d66d4e79d9b405f9babcd1a2e5c92327146d6c2422/szh_toolbox-0.0.0.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [linear-cli-ai]: Downloading https://files.pythonhosted.org/packages/0a/70/83ea6b9bc6b7650439239b8f06ecdd2c899118a4c2d2cfed5e194080cb7c/linear_cli_ai-0.1.0.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [irisml]: Downloading https://files.pythonhosted.org/packages/d4/77/8fe10cadf12b529cfcb45955279bced0df877351825f09eec8e8e3dc70cc/irisml-0.0.8.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [meson-python]: Downloading https://files.pythonhosted.org/packages/c3/94/957a04750188722d09ade6ae3731b115366177faee32ace175c3ca59358b/meson_python-0.8.1.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [python-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/6d/59/fd46037d7360d471359c94d381463d2b0d81c1dbb7d5320c11c4e82f8015/python-sonarqube-api-2.0.2.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/f3/a4/8fcac26c887b38aa528079ee4a511159fe89337c438c32c575ef70afe1dc/llama_index-0.6.8.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/39/ed/965dee00b18d04a9e723c02a028442b257e1b226780861f81ac52cd324ba/gpt_index-0.6.8.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [pharmpy-core]: Downloading https://files.pythonhosted.org/packages/80/59/5c162a7cc5727f3dc2c51a28e41ecdb0980c57f1274b1caacf42fc5cb4b0/pharmpy-core-0.96.0.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [micropython-captive-dhcp-server]: Downloading https://files.pythonhosted.org/packages/82/c5/13c2dd8ea927743522c98a699afa98f3bca2f55dd57a220981725ccf2956/micropython-captive-dhcp-server-0.0.2.dev0.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [szh-toolbox]: Downloading https://files.pythonhosted.org/packages/1b/fc/a5e757158f870bc330963a4b178df3907772d780c127d51ae4e0e565bbe1/szh_toolbox-0.0.1.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [linear-cli-ai]: Downloading https://files.pythonhosted.org/packages/a3/5f/c19cd3a9d6fadcee060ddd63601dba52e5b424369aa0e550d0b788c217d2/linear_cli_ai-0.1.1.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [irisml]: Downloading https://files.pythonhosted.org/packages/89/fc/e470679233b923db63ba24ec0fe777e6ba04634022230150073d36bfe279/irisml-0.0.9.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [micropython-captive-dhcp-server]: executing diffoscope
+[2023-06-28 10:17:34] INFO root fetch - processPackages [micropython-captive-dhcp-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-captive-dhcp-server-0.0.1.dev0.tar.gz tmp/micropython-captive-dhcp-server-0.0.2.dev0.tar.gz --markdown 20230628/m/micropython-captive-dhcp-server/0.0.1.dev0-0.0.2.dev0/diff.md --exclude *.pyd
+[2023-06-28 10:17:34] INFO root fetch - processPackages [meson-python]: Downloading https://files.pythonhosted.org/packages/4a/ba/2ac2ba7b8e15c2d5ff7822e8a0bd5e777f5f5d7117d898efe478eee0dc9e/meson_python-0.9.0.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [linear-cli-ai]: executing diffoscope
+[2023-06-28 10:17:34] INFO root fetch - processPackages [linear-cli-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linear_cli_ai-0.1.0.tar.gz tmp/linear_cli_ai-0.1.1.tar.gz --markdown 20230628/l/linear-cli-ai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-28 10:17:34] INFO root fetch - processPackages [python-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/57/d2/d078a79968aafb83d3ee88bb888bfe61c44d10aef680fb93cff4bde57d01/python-sonarqube-api-2.0.3.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/9c/96/62b5a23720114f0ce0f6331a1c6f89c27b66d44db7187a5632221f0d6f27/llama_index-0.6.9.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [szh-toolbox]: executing diffoscope
+[2023-06-28 10:17:34] INFO root fetch - processPackages [szh-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/szh_toolbox-0.0.0.tar.gz tmp/szh_toolbox-0.0.1.tar.gz --markdown 20230628/s/szh-toolbox/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-28 10:17:34] INFO root fetch - processPackages [meson-python]: executing diffoscope
+[2023-06-28 10:17:34] INFO root fetch - processPackages [meson-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meson_python-0.8.1.tar.gz tmp/meson_python-0.9.0.tar.gz --markdown 20230628/m/meson-python/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 10:17:34] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fd/af/29feddbce0290a3ddaa8adad399a5fa0c83d3d4d9637bf47751161c55d5c/gpt_index-0.6.9.tar.gz
+[2023-06-28 10:17:34] INFO root fetch - processPackages [irisml]: executing diffoscope
+[2023-06-28 10:17:34] INFO root fetch - processPackages [irisml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-0.0.8.tar.gz tmp/irisml-0.0.9.tar.gz --markdown 20230628/i/irisml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 10:17:34] INFO root fetch - processPackages [python-sonarqube-api]: executing diffoscope
+[2023-06-28 10:17:34] INFO root fetch - processPackages [python-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sonarqube-api-2.0.2.tar.gz tmp/python-sonarqube-api-2.0.3.tar.gz --markdown 20230628/p/python-sonarqube-api/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-28 10:17:34] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-06-28 10:17:34] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230628/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-28 10:17:34] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-06-28 10:17:34] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230628/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-28 10:17:34] INFO root fetch - processPackages [pharmpy-core]: Downloading https://files.pythonhosted.org/packages/f8/49/054aec85630b19fb7a459a151ba3b59a965b9a03fdfe1df8f7c28fac7009/pharmpy-core-0.97.0.tar.gz
+[2023-06-28 10:17:35] INFO root fetch - processPackages [pharmpy-core]: executing diffoscope
+[2023-06-28 10:17:35] INFO root fetch - processPackages [pharmpy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharmpy-core-0.96.0.tar.gz tmp/pharmpy-core-0.97.0.tar.gz --markdown 20230628/p/pharmpy-core/0.96.0-0.97.0/diff.md --exclude *.pyd
+[2023-06-28 10:17:35] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-06-28 10:17:35] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20230628/d/daktari/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 10:17:36] INFO root fetch - processPackages [linear-cli-ai]: Remove: archive file [/home/abi/fetcher/tmp/linear_cli_ai-0.1.0.tar.gz]
+[2023-06-28 10:17:36] INFO root fetch - processPackages [linear-cli-ai]: Remove: archive file [/home/abi/fetcher/tmp/linear_cli_ai-0.1.1.tar.gz]
+[2023-06-28 10:17:36] INFO root fetch - processPackages [linear-cli-ai]: Start processing: libcoveofds
+[2023-06-28 10:17:36] INFO root fetch - main [MainThread]: End processing [linear-cli-ai]: success
+[2023-06-28 10:17:36] INFO root fetch - processPackages [micropython-captive-dhcp-server]: Remove: archive file [/home/abi/fetcher/tmp/micropython-captive-dhcp-server-0.0.1.dev0.tar.gz]
+[2023-06-28 10:17:36] INFO root fetch - processPackages [micropython-captive-dhcp-server]: Remove: archive file [/home/abi/fetcher/tmp/micropython-captive-dhcp-server-0.0.2.dev0.tar.gz]
+[2023-06-28 10:17:36] INFO root fetch - processPackages [micropython-captive-dhcp-server]: Start processing: lazyearth
+[2023-06-28 10:17:36] INFO root fetch - main [MainThread]: End processing [micropython-captive-dhcp-server]: success
+[2023-06-28 10:17:36] INFO root fetch - processPackages [libcoveofds]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-28 10:17:36] INFO root fetch - processPackages [szh-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/szh_toolbox-0.0.0.tar.gz]
+[2023-06-28 10:17:36] INFO root fetch - processPackages [szh-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/szh_toolbox-0.0.1.tar.gz]
+[2023-06-28 10:17:36] INFO root fetch - processPackages [szh-toolbox]: Start processing: spotPython
+[2023-06-28 10:17:36] INFO root fetch - main [MainThread]: End processing [szh-toolbox]: success
+[2023-06-28 10:17:36] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-28 10:17:36] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-28 10:17:36] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-06-28 10:17:36] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-28 10:17:36] INFO root fetch - processPackages [libcoveofds]: Downloading https://files.pythonhosted.org/packages/f0/2f/adb9f94dedada772c71163874d54cfd57946c560d047250b1ccb42049331/libcoveofds-0.8.2.tar.gz
+[2023-06-28 10:17:36] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-06-28 10:17:36] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-06-28 10:17:36] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230628/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-28 10:17:36] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-28 10:17:36] INFO root fetch - processPackages [libcoveofds]: Downloading https://files.pythonhosted.org/packages/20/01/159a894b5ee402544f39889fd6e50543334b0f069cb9aa4ed6511829c62c/libcoveofds-0.8.3.tar.gz
+[2023-06-28 10:17:36] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2023-06-28 10:17:36] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2023-06-28 10:17:36] INFO root fetch - processPackages [daktari]: Start processing: python-sonarqube-api
+[2023-06-28 10:17:36] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-06-28 10:17:36] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-28 10:17:36] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230628/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-28 10:17:36] INFO root fetch - processPackages [libcoveofds]: executing diffoscope
+[2023-06-28 10:17:36] INFO root fetch - processPackages [libcoveofds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcoveofds-0.8.2.tar.gz tmp/libcoveofds-0.8.3.tar.gz --markdown 20230628/l/libcoveofds/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-28 10:17:36] INFO root fetch - processPackages [python-sonarqube-api]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-28 10:17:36] INFO root fetch - processPackages [irisml]: Remove: archive file [/home/abi/fetcher/tmp/irisml-0.0.8.tar.gz]
+[2023-06-28 10:17:36] INFO root fetch - processPackages [irisml]: Remove: archive file [/home/abi/fetcher/tmp/irisml-0.0.9.tar.gz]
+[2023-06-28 10:17:36] INFO root fetch - processPackages [irisml]: Start processing: vectice
+[2023-06-28 10:17:36] INFO root fetch - main [MainThread]: End processing [irisml]: success
+[2023-06-28 10:17:36] INFO root fetch - processPackages [python-sonarqube-api]: executing diffoscope
+[2023-06-28 10:17:36] INFO root fetch - processPackages [python-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sonarqube-api-2.0.2.tar.gz tmp/python-sonarqube-api-2.0.3.tar.gz --markdown 20230628/p/python-sonarqube-api/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-28 10:17:37] INFO root fetch - processPackages [python-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/python-sonarqube-api-2.0.2.tar.gz]
+[2023-06-28 10:17:37] INFO root fetch - processPackages [python-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/python-sonarqube-api-2.0.3.tar.gz]
+[2023-06-28 10:17:37] INFO root fetch - processPackages [python-sonarqube-api]: Start processing: lamindb
+[2023-06-28 10:17:37] INFO root fetch - main [MainThread]: End processing [python-sonarqube-api]: success
+[2023-06-28 10:17:37] INFO root fetch - processPackages [vectice]: New version: [23.2.6.0] Old Version: [23.2.5.0]
+[2023-06-28 10:17:37] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-06-28 10:17:37] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-06-28 10:17:37] INFO root fetch - processPackages [meson-python]: Remove: archive file [/home/abi/fetcher/tmp/meson_python-0.8.1.tar.gz]
+[2023-06-28 10:17:37] INFO root fetch - processPackages [meson-python]: Remove: archive file [/home/abi/fetcher/tmp/meson_python-0.9.0.tar.gz]
+[2023-06-28 10:17:37] INFO root fetch - main [MainThread]: End processing [meson-python]: success
+[2023-06-28 10:17:37] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/6d/69/5e99a1e22e23f7e4f4076f14d9c0c47339e35b2ccd47780f65ce5480e481/vectice-23.2.5.0.tar.gz
+[2023-06-28 10:17:37] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-06-28 10:17:37] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-06-28 10:17:37] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230628/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-06-28 10:17:37] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/16/92/a57dfdbff0e070195ad3ff05427f27476a667213323fce9123e588cce4ea/vectice-23.2.6.0.tar.gz
+[2023-06-28 10:17:37] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.7.tar.gz]
+[2023-06-28 10:17:37] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.8.tar.gz]
+[2023-06-28 10:17:37] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-06-28 10:17:37] ERROR root fetch - processPackages [python-sonarqube-api]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/python-sonarqube-api-2.0.2.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/python-sonarqube-api-2.0.3.tar.gz: No such file or directory
+
+[2023-06-28 10:17:37] INFO root fetch - main [MainThread]: End processing [python-sonarqube-api] error
+[2023-06-28 10:17:38] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2023-06-28 10:17:38] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-23.2.5.0.tar.gz tmp/vectice-23.2.6.0.tar.gz --markdown 20230628/v/vectice/23.2.5.0-23.2.6.0/diff.md --exclude *.pyd
+[2023-06-28 10:17:39] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2023-06-28 10:17:39] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2023-06-28 10:17:39] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-06-28 10:17:39] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.8.tar.gz]
+[2023-06-28 10:17:39] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.9.tar.gz]
+[2023-06-28 10:17:39] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-06-28 10:17:39] INFO root fetch - processPackages [libcoveofds]: Remove: archive file [/home/abi/fetcher/tmp/libcoveofds-0.8.2.tar.gz]
+[2023-06-28 10:17:39] INFO root fetch - processPackages [libcoveofds]: Remove: archive file [/home/abi/fetcher/tmp/libcoveofds-0.8.3.tar.gz]
+[2023-06-28 10:17:39] INFO root fetch - main [MainThread]: End processing [libcoveofds]: success
+[2023-06-28 10:17:39] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-23.2.5.0.tar.gz]
+[2023-06-28 10:17:39] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-23.2.6.0.tar.gz]
+[2023-06-28 10:17:39] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2023-06-28 10:17:42] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.8.tar.gz]
+[2023-06-28 10:17:42] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.9.tar.gz]
+[2023-06-28 10:17:42] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-06-28 10:17:48] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-28 10:17:48] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-28 10:17:48] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-28 10:17:52] INFO root fetch - processPackages [pharmpy-core]: Remove: archive file [/home/abi/fetcher/tmp/pharmpy-core-0.96.0.tar.gz]
+[2023-06-28 10:17:52] INFO root fetch - processPackages [pharmpy-core]: Remove: archive file [/home/abi/fetcher/tmp/pharmpy-core-0.97.0.tar.gz]
+[2023-06-28 10:17:52] INFO root fetch - main [MainThread]: End processing [pharmpy-core]: success
+[2023-06-28 10:17:52] INFO root fetch - main [MainThread]: Store serial: [18676107]
