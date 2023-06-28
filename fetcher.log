@@ -22213,3 +22213,198 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 12:29:00] INFO root fetch - processPackages [ros-cdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-adb-1.0.9.tar.gz]
 [2023-06-28 12:29:00] INFO root fetch - main [MainThread]: End processing [ros-cdk-adb]: success
 [2023-06-28 12:29:00] INFO root fetch - main [MainThread]: Store serial: [18677620]
+[2023-06-28 12:34:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18677620]
+[2023-06-28 12:34:10] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-acm
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-marketplace
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metarace-roadmeet
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-dfs
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crypto-screening
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-brainindustrial
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo13-addon-website-analytics-piwik
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rustimport
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo13-addon-website-prevent-cls
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo13-addon-website-menu-icon
+[2023-06-28 12:34:10] WARNING root fetch - processPackages [metarace-roadmeet]: Skipping, unable to determine old version
+[2023-06-28 12:34:10] INFO root fetch - processPackages [metarace-roadmeet]: Start processing: odoo13-addon-website-snippet-country-dropdown
+[2023-06-28 12:34:10] INFO root fetch - main [MainThread]: End processing [metarace-roadmeet] error
+[2023-06-28 12:34:10] INFO root fetch - processPackages [crypto-screening]: New version: [1.3.0] Old Version: [1.2.6]
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ros-cdk-acm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ros-cdk-brainindustrial]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:34:10] INFO root fetch - processPackages [odoo13-addon-website-analytics-piwik]: New version: [13.0.1.0.1.dev8] Old Version: [13.0.1.0.1.dev7]
+[2023-06-28 12:34:10] INFO root fetch - processPackages [odoo13-addon-website-prevent-cls]: New version: [13.0.2.0.1] Old Version: [13.0.2.0.0]
+[2023-06-28 12:34:10] INFO root fetch - processPackages [odoo13-addon-website-menu-icon]: New version: [13.0.1.0.1.dev3] Old Version: [13.0.1.0.1]
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ros-cdk-dfs]: New version: [1.0.9] Old Version: [1.0.15]
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ros-cdk-marketplace]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:34:10] INFO root fetch - processPackages [rustimport]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-28 12:34:10] INFO root fetch - processPackages [odoo13-addon-website-snippet-country-dropdown]: New version: [13.0.1.0.1.dev2] Old Version: [13.0.1.0.1]
+[2023-06-28 12:34:10] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/82/e6/02beec5e07188c6079bc54d875be294a9d1923d9f7320a5d088eb3568428/crypto-screening-1.2.6.tar.gz
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ros-cdk-dfs]: Downloading https://files.pythonhosted.org/packages/b3/6d/eee57151d8e31f878203b795bf59fd46617bad14e4bcd3355c437aac2dd5/ros-cdk-dfs-1.0.15.tar.gz
+[2023-06-28 12:34:10] INFO root fetch - processPackages [odoo13-addon-website-menu-icon]: Downloading https://files.pythonhosted.org/packages/14/42/f8dfa7255ab7c28432a52c0f64c068ffb1cca9e1f6f59b0051ef757491cf/odoo13_addon_website_menu_icon-13.0.1.0.1-py3-none-any.whl
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ros-cdk-brainindustrial]: Downloading https://files.pythonhosted.org/packages/e5/ac/6bdcb1299b742100ab745573c20a22517f4ec6e3faecf7af95ae3b0da54b/ros-cdk-brainindustrial-1.0.8.tar.gz
+[2023-06-28 12:34:10] INFO root fetch - processPackages [odoo13-addon-website-snippet-country-dropdown]: Downloading https://files.pythonhosted.org/packages/82/05/f07cb8f7370157ec29a155da5b604c582af2ad5751c1a4c0ec6fdd727396/odoo13_addon_website_snippet_country_dropdown-13.0.1.0.1-py3-none-any.whl
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ros-cdk-marketplace]: Downloading https://files.pythonhosted.org/packages/8e/e1/b7232d178ee8b428ac6efa94d4197cdbf172033d640aa754c65f1cbac85a/ros-cdk-marketplace-1.0.8.tar.gz
+[2023-06-28 12:34:10] INFO root fetch - processPackages [odoo13-addon-website-analytics-piwik]: Downloading https://files.pythonhosted.org/packages/b7/6b/6230ee2b2c72127b8dfaad549219d24f53ac7ac4d4db4a5d97ec8f66f8a6/odoo13_addon_website_analytics_piwik-13.0.1.0.1.dev7-py3-none-any.whl
+[2023-06-28 12:34:10] INFO root fetch - processPackages [odoo13-addon-website-prevent-cls]: Downloading https://files.pythonhosted.org/packages/16/d0/2e6cf1ffed88bf19ed3214842163d0b3115f11fcd4536c93ff9d38f4b519/odoo13_addon_website_prevent_cls-13.0.2.0.0-py3-none-any.whl
+[2023-06-28 12:34:10] INFO root fetch - processPackages [rustimport]: Downloading https://files.pythonhosted.org/packages/79/cb/efecaf535ef08c0cf56969438a43367a6f9665192c110220ab7e31fb172c/rustimport-1.3.0.tar.gz
+[2023-06-28 12:34:10] INFO root fetch - processPackages [ros-cdk-acm]: Downloading https://files.pythonhosted.org/packages/ea/5f/8cbe48aa14ffdf53240beb1bd6800af41c12992c151cd87090789ab7c03e/ros-cdk-acm-1.0.8.tar.gz
+[2023-06-28 12:34:10] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/bb/46/bef244cffa60782e18d352e63df585a500ecfffec501750dac030d554173/crypto-screening-1.3.0.tar.gz
+[2023-06-28 12:34:10] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-06-28 12:34:10] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-1.2.6.tar.gz tmp/crypto-screening-1.3.0.tar.gz --markdown 20230628/c/crypto-screening/1.2.6-1.3.0/diff.md --exclude *.pyd
+[2023-06-28 12:34:11] INFO root fetch - processPackages [ros-cdk-dfs]: Downloading https://files.pythonhosted.org/packages/46/3d/9ce7da7ffa65d1a4e891fb205d146db05f2c729bae5edbbd338def78d151/ros-cdk-dfs-1.0.9.tar.gz
+[2023-06-28 12:34:11] INFO root fetch - processPackages [odoo13-addon-website-menu-icon]: Downloading https://files.pythonhosted.org/packages/60/eb/c7e6cb626d7837d7680f2c2eb94885f7b16aa61c6927b60450a7d401659c/odoo13_addon_website_menu_icon-13.0.1.0.1.dev3-py3-none-any.whl
+[2023-06-28 12:34:11] INFO root fetch - processPackages [odoo13-addon-website-analytics-piwik]: Downloading https://files.pythonhosted.org/packages/85/c0/d64872242d75564b96aa002053c2b50153d1f8966111b27359995cf36823/odoo13_addon_website_analytics_piwik-13.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-28 12:34:11] INFO root fetch - processPackages [ros-cdk-brainindustrial]: Downloading https://files.pythonhosted.org/packages/95/21/460091449d5b6bada34e96a3c1f8544e133d38716ff9491e715842c08448/ros-cdk-brainindustrial-1.0.9.tar.gz
+[2023-06-28 12:34:11] INFO root fetch - processPackages [odoo13-addon-website-prevent-cls]: Downloading https://files.pythonhosted.org/packages/95/98/ce7035204f2351a84d0bc31c48c62eae04af0c3389539e31f0fdb6c70486/odoo13_addon_website_prevent_cls-13.0.2.0.1-py3-none-any.whl
+[2023-06-28 12:34:11] INFO root fetch - processPackages [ros-cdk-marketplace]: Downloading https://files.pythonhosted.org/packages/cb/80/66e8ec6950fc3869e6a34747a60b7a1487015a9207a39c99c8b2a0a34449/ros-cdk-marketplace-1.0.9.tar.gz
+[2023-06-28 12:34:11] INFO root fetch - processPackages [rustimport]: Downloading https://files.pythonhosted.org/packages/fb/9a/089b81c5cc44e157b0404405b75bab8579ef2a3fd2088ec8665ddbe03e6a/rustimport-1.3.1.tar.gz
+[2023-06-28 12:34:11] INFO root fetch - processPackages [ros-cdk-acm]: Downloading https://files.pythonhosted.org/packages/22/44/33e8b5b470ae56f3ce9380169f2511ad04e752ee6b5d06636c073a29bcb6/ros-cdk-acm-1.0.9.tar.gz
+[2023-06-28 12:34:11] INFO root fetch - processPackages [ros-cdk-dfs]: executing diffoscope
+[2023-06-28 12:34:11] INFO root fetch - processPackages [odoo13-addon-website-snippet-country-dropdown]: Downloading https://files.pythonhosted.org/packages/02/fd/b3493ea5e3243364baf1b03b6f278da3e3d4398d9ce3d1ba581df845594a/odoo13_addon_website_snippet_country_dropdown-13.0.1.0.1.dev2-py3-none-any.whl
+[2023-06-28 12:34:11] INFO root fetch - processPackages [ros-cdk-dfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dfs-1.0.15.tar.gz tmp/ros-cdk-dfs-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-dfs/1.0.15-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:34:11] INFO root fetch - processPackages [odoo13-addon-website-menu-icon]: executing diffoscope
+[2023-06-28 12:34:11] INFO root fetch - processPackages [odoo13-addon-website-menu-icon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_website_menu_icon-13.0.1.0.1-py3-none-any.whl.zip tmp/odoo13_addon_website_menu_icon-13.0.1.0.1.dev3-py3-none-any.whl.zip --markdown 20230628/o/odoo13-addon-website-menu-icon/13.0.1.0.1-13.0.1.0.1.dev3/diff.md --exclude *.pyd
+[2023-06-28 12:34:11] INFO root fetch - processPackages [odoo13-addon-website-analytics-piwik]: executing diffoscope
+[2023-06-28 12:34:11] INFO root fetch - processPackages [odoo13-addon-website-analytics-piwik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_website_analytics_piwik-13.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo13_addon_website_analytics_piwik-13.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230628/o/odoo13-addon-website-analytics-piwik/13.0.1.0.1.dev7-13.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-06-28 12:34:11] INFO root fetch - processPackages [odoo13-addon-website-prevent-cls]: executing diffoscope
+[2023-06-28 12:34:11] INFO root fetch - processPackages [odoo13-addon-website-prevent-cls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_website_prevent_cls-13.0.2.0.0-py3-none-any.whl.zip tmp/odoo13_addon_website_prevent_cls-13.0.2.0.1-py3-none-any.whl.zip --markdown 20230628/o/odoo13-addon-website-prevent-cls/13.0.2.0.0-13.0.2.0.1/diff.md --exclude *.pyd
+[2023-06-28 12:34:11] INFO root fetch - processPackages [ros-cdk-brainindustrial]: executing diffoscope
+[2023-06-28 12:34:11] INFO root fetch - processPackages [ros-cdk-brainindustrial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-brainindustrial-1.0.8.tar.gz tmp/ros-cdk-brainindustrial-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-brainindustrial/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:34:11] INFO root fetch - processPackages [ros-cdk-marketplace]: executing diffoscope
+[2023-06-28 12:34:11] INFO root fetch - processPackages [ros-cdk-marketplace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-marketplace-1.0.8.tar.gz tmp/ros-cdk-marketplace-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-marketplace/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:34:11] INFO root fetch - processPackages [rustimport]: executing diffoscope
+[2023-06-28 12:34:11] INFO root fetch - processPackages [rustimport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustimport-1.3.0.tar.gz tmp/rustimport-1.3.1.tar.gz --markdown 20230628/r/rustimport/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-28 12:34:11] INFO root fetch - processPackages [ros-cdk-acm]: executing diffoscope
+[2023-06-28 12:34:11] INFO root fetch - processPackages [ros-cdk-acm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-acm-1.0.8.tar.gz tmp/ros-cdk-acm-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-acm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:34:11] INFO root fetch - processPackages [odoo13-addon-website-snippet-country-dropdown]: executing diffoscope
+[2023-06-28 12:34:11] INFO root fetch - processPackages [odoo13-addon-website-snippet-country-dropdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_website_snippet_country_dropdown-13.0.1.0.1-py3-none-any.whl.zip tmp/odoo13_addon_website_snippet_country_dropdown-13.0.1.0.1.dev2-py3-none-any.whl.zip --markdown 20230628/o/odoo13-addon-website-snippet-country-dropdown/13.0.1.0.1-13.0.1.0.1.dev2/diff.md --exclude *.pyd
+[2023-06-28 12:34:12] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.2.6.tar.gz]
+[2023-06-28 12:34:12] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.3.0.tar.gz]
+[2023-06-28 12:34:12] INFO root fetch - processPackages [crypto-screening]: Start processing: odoo13-addon-website-breadcrumb
+[2023-06-28 12:34:12] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-breadcrumb]: New version: [13.0.1.0.1.dev3] Old Version: [13.0.1.0.1.dev2]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-menu-icon]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_menu_icon-13.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-menu-icon]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_menu_icon-13.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-menu-icon]: Start processing: odoo13-addon-website-typed-text
+[2023-06-28 12:34:13] INFO root fetch - main [MainThread]: End processing [odoo13-addon-website-menu-icon]: success
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-typed-text]: New version: [13.0.1.0.1.dev7] Old Version: [13.0.1.0.1.dev5]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-prevent-cls]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_prevent_cls-13.0.2.0.0-py3-none-any.whl.zip]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-prevent-cls]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_prevent_cls-13.0.2.0.1-py3-none-any.whl.zip]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-prevent-cls]: Start processing: odoo13-addon-website-critical-css
+[2023-06-28 12:34:13] INFO root fetch - main [MainThread]: End processing [odoo13-addon-website-prevent-cls]: success
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-critical-css]: New version: [13.0.2.0.1] Old Version: [13.0.2.0.0]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-breadcrumb]: Downloading https://files.pythonhosted.org/packages/dd/7c/13dfbc6b12edebfe951673a1fe1edc25258a30dcb75e2477b9a040dfed77/odoo13_addon_website_breadcrumb-13.0.1.0.1.dev2-py3-none-any.whl
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-typed-text]: Downloading https://files.pythonhosted.org/packages/60/ac/53090474ac1088de272dd0f240a455948c56ae33305e0e25fe71e7774856/odoo13_addon_website_typed_text-13.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-critical-css]: Downloading https://files.pythonhosted.org/packages/dd/f4/d3df51a29bd0bfc4a40a62363196f5f7e4b5447280baf8e03e9c50550ab0/odoo13_addon_website_critical_css-13.0.2.0.0-py3-none-any.whl
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-acm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-acm-1.0.8.tar.gz]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-acm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-acm-1.0.9.tar.gz]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-acm]: Start processing: mse-cli-core
+[2023-06-28 12:34:13] INFO root fetch - main [MainThread]: End processing [ros-cdk-acm]: success
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-dfs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dfs-1.0.15.tar.gz]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-dfs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dfs-1.0.9.tar.gz]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-dfs]: Start processing: pipeline-ai
+[2023-06-28 12:34:13] INFO root fetch - main [MainThread]: End processing [ros-cdk-dfs]: success
+[2023-06-28 12:34:13] INFO root fetch - processPackages [mse-cli-core]: New version: [0.1a9] Old Version: [0.1a8]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [pipeline-ai]: New version: [0.5.0b9] Old Version: [0.5.0b8]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [rustimport]: Remove: archive file [/home/abi/fetcher/tmp/rustimport-1.3.0.tar.gz]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [rustimport]: Remove: archive file [/home/abi/fetcher/tmp/rustimport-1.3.1.tar.gz]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [rustimport]: Start processing: count-tokens
+[2023-06-28 12:34:13] INFO root fetch - main [MainThread]: End processing [rustimport]: success
+[2023-06-28 12:34:13] INFO root fetch - processPackages [mse-cli-core]: Downloading https://files.pythonhosted.org/packages/f1/da/a150ba3bd4f52dd763a0365c901a497c90e31350397f0c1ad461e7928f5b/mse_cli_core-0.1a8.tar.gz
+[2023-06-28 12:34:13] INFO root fetch - processPackages [count-tokens]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-snippet-country-dropdown]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_snippet_country_dropdown-13.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-snippet-country-dropdown]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_snippet_country_dropdown-13.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/45/84/69fb620c6f6b3f06697d71d86fa7f79d152166acbaff211bb451a9c093d9/pipeline_ai-0.5.0b8.tar.gz
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-snippet-country-dropdown]: Start processing: ros-cdk-vpc
+[2023-06-28 12:34:13] INFO root fetch - main [MainThread]: End processing [odoo13-addon-website-snippet-country-dropdown]: success
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-vpc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-marketplace]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-marketplace-1.0.8.tar.gz]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-marketplace]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-marketplace-1.0.9.tar.gz]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-marketplace]: Start processing: ros-cdk-iot
+[2023-06-28 12:34:13] INFO root fetch - main [MainThread]: End processing [ros-cdk-marketplace]: success
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-breadcrumb]: Downloading https://files.pythonhosted.org/packages/f1/26/3851784d79d3349d738d3b4fb03b8918a59a3523f6f75e34905c8bafd612/odoo13_addon_website_breadcrumb-13.0.1.0.1.dev3-py3-none-any.whl
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-analytics-piwik]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_analytics_piwik-13.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-analytics-piwik]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_analytics_piwik-13.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-analytics-piwik]: Start processing: ros-cdk-alb
+[2023-06-28 12:34:13] INFO root fetch - main [MainThread]: End processing [odoo13-addon-website-analytics-piwik]: success
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-brainindustrial]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-brainindustrial-1.0.8.tar.gz]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-iot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-brainindustrial]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-brainindustrial-1.0.9.tar.gz]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-brainindustrial]: Start processing: yellowdog-python-examples
+[2023-06-28 12:34:13] INFO root fetch - main [MainThread]: End processing [ros-cdk-brainindustrial]: success
+[2023-06-28 12:34:13] INFO root fetch - processPackages [mse-cli-core]: Downloading https://files.pythonhosted.org/packages/d0/b3/54deeb4cd2167809d0a93108100079353e27b24b73d7f1063f5949c0fa19/mse_cli_core-0.1a9.tar.gz
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-typed-text]: Downloading https://files.pythonhosted.org/packages/81/28/4752b78c112f996b8e0dde496340426215b1209dac77351cc83f7fccfa6f/odoo13_addon_website_typed_text-13.0.1.0.1.dev7-py3-none-any.whl
+[2023-06-28 12:34:13] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/b7/28/822a6cc9e70825b5c051ab9bf029b954982ed00aa6b036349995dcf4c5fa/pipeline_ai-0.5.0b9.tar.gz
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-breadcrumb]: executing diffoscope
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-breadcrumb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_website_breadcrumb-13.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo13_addon_website_breadcrumb-13.0.1.0.1.dev3-py3-none-any.whl.zip --markdown 20230628/o/odoo13-addon-website-breadcrumb/13.0.1.0.1.dev2-13.0.1.0.1.dev3/diff.md --exclude *.pyd
+[2023-06-28 12:34:13] INFO root fetch - processPackages [count-tokens]: Downloading https://files.pythonhosted.org/packages/fa/a2/6e6e7ae42d3dd7189f70c1b7a5feb8d65048932183cdc8a97a0f45f7ec79/count_tokens-0.1.0.tar.gz
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-alb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-critical-css]: Downloading https://files.pythonhosted.org/packages/b1/1b/ceba94dbf13a0f4f11f0d5c953c8e9c1b8960c85a6e6a865de57f19a1b08/odoo13_addon_website_critical_css-13.0.2.0.1-py3-none-any.whl
+[2023-06-28 12:34:13] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [6.0.6] Old Version: [6.0.5]
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-vpc]: Downloading https://files.pythonhosted.org/packages/2a/ad/d0d06a54ba7604e46fde3002486578ba382de631594e5357e1548f9b8f48/ros-cdk-vpc-1.0.8.tar.gz
+[2023-06-28 12:34:13] INFO root fetch - processPackages [mse-cli-core]: executing diffoscope
+[2023-06-28 12:34:13] INFO root fetch - processPackages [mse-cli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mse_cli_core-0.1a8.tar.gz tmp/mse_cli_core-0.1a9.tar.gz --markdown 20230628/m/mse-cli-core/0.1a8-0.1a9/diff.md --exclude *.pyd
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-typed-text]: executing diffoscope
+[2023-06-28 12:34:13] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/c8/33/f5c7b6d512cb473c1213b7856258dcb2bcde3374478733f3723e1da9048f/yellowdog-python-examples-6.0.5.tar.gz
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-typed-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_website_typed_text-13.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo13_addon_website_typed_text-13.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20230628/o/odoo13-addon-website-typed-text/13.0.1.0.1.dev5-13.0.1.0.1.dev7/diff.md --exclude *.pyd
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-iot]: Downloading https://files.pythonhosted.org/packages/9a/a7/afc8d729cf01f8e1c18e4ad0d7d2962c10f67b0f335e366caaef535df179/ros-cdk-iot-1.0.8.tar.gz
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-critical-css]: executing diffoscope
+[2023-06-28 12:34:13] INFO root fetch - processPackages [odoo13-addon-website-critical-css]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_website_critical_css-13.0.2.0.0-py3-none-any.whl.zip tmp/odoo13_addon_website_critical_css-13.0.2.0.1-py3-none-any.whl.zip --markdown 20230628/o/odoo13-addon-website-critical-css/13.0.2.0.0-13.0.2.0.1/diff.md --exclude *.pyd
+[2023-06-28 12:34:13] INFO root fetch - processPackages [pipeline-ai]: executing diffoscope
+[2023-06-28 12:34:13] INFO root fetch - processPackages [pipeline-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_ai-0.5.0b8.tar.gz tmp/pipeline_ai-0.5.0b9.tar.gz --markdown 20230628/p/pipeline-ai/0.5.0b8-0.5.0b9/diff.md --exclude *.pyd
+[2023-06-28 12:34:13] INFO root fetch - processPackages [ros-cdk-alb]: Downloading https://files.pythonhosted.org/packages/e7/c0/126c2dabaebee738d668a877343cd36c9fea4282dcfa5f17880e601a30ea/ros-cdk-alb-1.0.8.tar.gz
+[2023-06-28 12:34:13] INFO root fetch - processPackages [count-tokens]: Downloading https://files.pythonhosted.org/packages/9e/f9/b59a92b67f407a230855b5191be454a75585ef345e17fe1028f7fc4f39c2/count_tokens-0.2.0.tar.gz
+[2023-06-28 12:34:14] INFO root fetch - processPackages [ros-cdk-vpc]: Downloading https://files.pythonhosted.org/packages/39/46/58d02ac69ba57d2061af4ef44d7a49177d8962ad9258e13504f121205f0a/ros-cdk-vpc-1.0.9.tar.gz
+[2023-06-28 12:34:14] INFO root fetch - processPackages [ros-cdk-iot]: Downloading https://files.pythonhosted.org/packages/20/c3/9d1c46b23ce26ca76a9a8993273ec9f333655246a215eaec7452e417c917/ros-cdk-iot-1.0.9.tar.gz
+[2023-06-28 12:34:14] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/a0/a2/265394208e65c6636f8d4625d7add8a88e3b7b5ad6712f9b047160f4dad7/yellowdog-python-examples-6.0.6.tar.gz
+[2023-06-28 12:34:14] INFO root fetch - processPackages [ros-cdk-alb]: Downloading https://files.pythonhosted.org/packages/be/18/0247d322bd73070e5752769bb5dc8b918ae90ec602c044da31a81294b837/ros-cdk-alb-1.0.9.tar.gz
+[2023-06-28 12:34:14] INFO root fetch - processPackages [count-tokens]: executing diffoscope
+[2023-06-28 12:34:14] INFO root fetch - processPackages [count-tokens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/count_tokens-0.1.0.tar.gz tmp/count_tokens-0.2.0.tar.gz --markdown 20230628/c/count-tokens/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-28 12:34:14] INFO root fetch - processPackages [ros-cdk-vpc]: executing diffoscope
+[2023-06-28 12:34:14] INFO root fetch - processPackages [ros-cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-vpc-1.0.8.tar.gz tmp/ros-cdk-vpc-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-vpc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:34:14] INFO root fetch - processPackages [ros-cdk-iot]: executing diffoscope
+[2023-06-28 12:34:14] INFO root fetch - processPackages [ros-cdk-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-iot-1.0.8.tar.gz tmp/ros-cdk-iot-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-iot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:34:14] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2023-06-28 12:34:14] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-6.0.5.tar.gz tmp/yellowdog-python-examples-6.0.6.tar.gz --markdown 20230628/y/yellowdog-python-examples/6.0.5-6.0.6/diff.md --exclude *.pyd
+[2023-06-28 12:34:14] INFO root fetch - processPackages [ros-cdk-alb]: executing diffoscope
+[2023-06-28 12:34:14] INFO root fetch - processPackages [ros-cdk-alb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-alb-1.0.8.tar.gz tmp/ros-cdk-alb-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-alb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:34:15] INFO root fetch - processPackages [odoo13-addon-website-breadcrumb]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_breadcrumb-13.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2023-06-28 12:34:15] INFO root fetch - processPackages [odoo13-addon-website-breadcrumb]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_breadcrumb-13.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-28 12:34:15] INFO root fetch - processPackages [odoo13-addon-website-breadcrumb]: Start processing: ros-cdk-arms
+[2023-06-28 12:34:15] INFO root fetch - main [MainThread]: End processing [odoo13-addon-website-breadcrumb]: success
+[2023-06-28 12:34:15] INFO root fetch - processPackages [odoo13-addon-website-typed-text]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_typed_text-13.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-06-28 12:34:15] INFO root fetch - processPackages [odoo13-addon-website-typed-text]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_typed_text-13.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-06-28 12:34:15] INFO root fetch - main [MainThread]: End processing [odoo13-addon-website-typed-text]: success
+[2023-06-28 12:34:15] INFO root fetch - processPackages [ros-cdk-arms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:34:15] INFO root fetch - processPackages [odoo13-addon-website-critical-css]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_critical_css-13.0.2.0.0-py3-none-any.whl.zip]
+[2023-06-28 12:34:15] INFO root fetch - processPackages [odoo13-addon-website-critical-css]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_critical_css-13.0.2.0.1-py3-none-any.whl.zip]
+[2023-06-28 12:34:15] INFO root fetch - main [MainThread]: End processing [odoo13-addon-website-critical-css]: success
+[2023-06-28 12:34:15] INFO root fetch - processPackages [ros-cdk-arms]: Downloading https://files.pythonhosted.org/packages/05/d5/556a94dd81b599d712e14c8e5e30cf5e570e55be55da1fed52df879727b2/ros-cdk-arms-1.0.8.tar.gz
+[2023-06-28 12:34:15] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-0.5.0b8.tar.gz]
+[2023-06-28 12:34:15] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-0.5.0b9.tar.gz]
+[2023-06-28 12:34:15] INFO root fetch - main [MainThread]: End processing [pipeline-ai]: success
+[2023-06-28 12:34:15] INFO root fetch - processPackages [count-tokens]: Remove: archive file [/home/abi/fetcher/tmp/count_tokens-0.1.0.tar.gz]
+[2023-06-28 12:34:15] INFO root fetch - processPackages [count-tokens]: Remove: archive file [/home/abi/fetcher/tmp/count_tokens-0.2.0.tar.gz]
+[2023-06-28 12:34:15] INFO root fetch - main [MainThread]: End processing [count-tokens]: success
+[2023-06-28 12:34:15] INFO root fetch - processPackages [mse-cli-core]: Remove: archive file [/home/abi/fetcher/tmp/mse_cli_core-0.1a8.tar.gz]
+[2023-06-28 12:34:15] INFO root fetch - processPackages [mse-cli-core]: Remove: archive file [/home/abi/fetcher/tmp/mse_cli_core-0.1a9.tar.gz]
+[2023-06-28 12:34:15] INFO root fetch - main [MainThread]: End processing [mse-cli-core]: success
+[2023-06-28 12:34:15] INFO root fetch - processPackages [ros-cdk-arms]: Downloading https://files.pythonhosted.org/packages/0e/8f/eb220bbdd4df3638ff8d5656ad26a2eb3f90a94248ab44058eade9b49c78/ros-cdk-arms-1.0.9.tar.gz
+[2023-06-28 12:34:16] INFO root fetch - processPackages [ros-cdk-alb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-alb-1.0.8.tar.gz]
+[2023-06-28 12:34:16] INFO root fetch - processPackages [ros-cdk-alb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-alb-1.0.9.tar.gz]
+[2023-06-28 12:34:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-alb]: success
+[2023-06-28 12:34:16] INFO root fetch - processPackages [ros-cdk-arms]: executing diffoscope
+[2023-06-28 12:34:16] INFO root fetch - processPackages [ros-cdk-arms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-arms-1.0.8.tar.gz tmp/ros-cdk-arms-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-arms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:34:16] INFO root fetch - processPackages [ros-cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vpc-1.0.8.tar.gz]
+[2023-06-28 12:34:16] INFO root fetch - processPackages [ros-cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vpc-1.0.9.tar.gz]
+[2023-06-28 12:34:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-vpc]: success
+[2023-06-28 12:34:16] INFO root fetch - processPackages [ros-cdk-iot]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-iot-1.0.8.tar.gz]
+[2023-06-28 12:34:16] INFO root fetch - processPackages [ros-cdk-iot]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-iot-1.0.9.tar.gz]
+[2023-06-28 12:34:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-iot]: success
+[2023-06-28 12:34:17] INFO root fetch - processPackages [ros-cdk-arms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-arms-1.0.8.tar.gz]
+[2023-06-28 12:34:17] INFO root fetch - processPackages [ros-cdk-arms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-arms-1.0.9.tar.gz]
+[2023-06-28 12:34:17] INFO root fetch - main [MainThread]: End processing [ros-cdk-arms]: success
+[2023-06-28 12:34:17] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.5.tar.gz]
+[2023-06-28 12:34:17] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.6.tar.gz]
+[2023-06-28 12:34:17] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2023-06-28 12:34:17] INFO root fetch - main [MainThread]: Store serial: [18677683]
