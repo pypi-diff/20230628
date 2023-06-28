@@ -14827,3 +14827,34 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 06:43:47] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-06-28 06:43:47] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-06-28 06:43:47] INFO root fetch - main [MainThread]: Store serial: [18674583]
+[2023-06-28 06:48:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674583]
+[2023-06-28 06:48:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-28 06:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ethyca-fides
+[2023-06-28 06:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: performancetest
+[2023-06-28 06:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shapflow
+[2023-06-28 06:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: performancetest
+[2023-06-28 06:48:56] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-06-28 06:48:56] WARNING root fetch - processPackages [shapflow]: Skipping, unable to determine old version
+[2023-06-28 06:48:56] INFO root fetch - main [MainThread]: End processing [shapflow] error
+[2023-06-28 06:48:56] INFO root fetch - processPackages [performancetest]: New version: [1.0.3] Old Version: [0.0.4]
+[2023-06-28 06:48:56] INFO root fetch - processPackages [performancetest]: New version: [1.0.3] Old Version: [0.0.4]
+[2023-06-28 06:48:56] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2023-06-28 06:48:56] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/98/89/75394a91c27f9f531bb482d2f68022ffbcd3c22d8c071f27b1dcd0e125b7/performancetest-0.0.4.tar.gz
+[2023-06-28 06:48:56] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/98/89/75394a91c27f9f531bb482d2f68022ffbcd3c22d8c071f27b1dcd0e125b7/performancetest-0.0.4.tar.gz
+[2023-06-28 06:48:57] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2023-06-28 06:48:57] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/05/7e/d5ebfecfbad8bbe0217c2c73ff44979fc60e7f3fb5622a2d8b086b950741/performancetest-1.0.3.tar.gz
+[2023-06-28 06:48:57] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/05/7e/d5ebfecfbad8bbe0217c2c73ff44979fc60e7f3fb5622a2d8b086b950741/performancetest-1.0.3.tar.gz
+[2023-06-28 06:48:57] INFO root fetch - processPackages [performancetest]: executing diffoscope
+[2023-06-28 06:48:57] INFO root fetch - processPackages [performancetest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/performancetest-0.0.4.tar.gz tmp/performancetest-1.0.3.tar.gz --markdown 20230628/p/performancetest/0.0.4-1.0.3/diff.md --exclude *.pyd
+[2023-06-28 06:48:57] INFO root fetch - processPackages [performancetest]: executing diffoscope
+[2023-06-28 06:48:57] INFO root fetch - processPackages [performancetest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/performancetest-0.0.4.tar.gz tmp/performancetest-1.0.3.tar.gz --markdown 20230628/p/performancetest/0.0.4-1.0.3/diff.md --exclude *.pyd
+[2023-06-28 06:48:58] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-0.0.4.tar.gz]
+[2023-06-28 06:48:58] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-1.0.3.tar.gz]
+[2023-06-28 06:48:58] INFO root fetch - main [MainThread]: End processing [performancetest]: success
+[2023-06-28 06:48:58] INFO root fetch - main [MainThread]: End processing [performancetest]: success
+[2023-06-28 06:48:58] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-06-28 06:48:58] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230628/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-06-28 06:49:07] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2023-06-28 06:49:07] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2023-06-28 06:49:07] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-06-28 06:49:07] INFO root fetch - main [MainThread]: Store serial: [18674599]
