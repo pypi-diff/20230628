@@ -5269,3 +5269,51 @@
 [2023-06-28 02:44:21] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
 [2023-06-28 02:44:21] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-06-28 02:44:21] INFO root fetch - main [MainThread]: Store serial: [18671162]
+[2023-06-28 02:49:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18671162]
+[2023-06-28 02:49:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-28 02:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: motion-python
+[2023-06-28 02:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2023-06-28 02:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: platypush
+[2023-06-28 02:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py3toolbox
+[2023-06-28 02:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kubric-nightly
+[2023-06-28 02:49:29] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-28 02:49:29] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306270046] Old Version: [4.9.2.dev202306270045]
+[2023-06-28 02:49:29] INFO root fetch - processPackages [py3toolbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 02:49:29] INFO root fetch - processPackages [platypush]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-28 02:49:29] INFO root fetch - processPackages [motion-python]: New version: [0.1.69] Old Version: [0.1.68]
+[2023-06-28 02:49:30] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/41/3e/1d977b92482585709588a4805d1726cf75cddac3784ef3397a1aa460f431/tfds-nightly-4.9.2.dev202306270045.tar.gz
+[2023-06-28 02:49:30] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-28 02:49:30] INFO root fetch - processPackages [platypush]: Downloading https://files.pythonhosted.org/packages/7e/20/6852b81c44d86537b44598fce2c91024219e509b97aef80cbf9da48e3939/platypush-0.9.5.tar.gz
+[2023-06-28 02:49:30] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/fe/72/7dd26e3c1aabcda53bdd46fcba540a099c44622d2b648a70e343c2293560/motion_python-0.1.68.tar.gz
+[2023-06-28 02:49:30] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/e4/e6/6f1e77832ec5b71f6d0f65cfbec5c2f186703fac1a664626aea040325c7c/py3toolbox-0.1.8.tar.gz
+[2023-06-28 02:49:30] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/ab/66/189d8ce142bf4cc3bc16bce9d7bbc3e9c745e9c3aa6c3d1a53afa56cbe1e/tfds_nightly-4.9.2.dev202306270046-py3-none-any.whl
+[2023-06-28 02:49:30] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-28 02:49:30] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-28 02:49:30] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230628/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-28 02:49:30] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-28 02:49:30] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306270045.tar.gz tmp/tfds_nightly-4.9.2.dev202306270046-py3-none-any.whl.zip --markdown 20230628/t/tfds-nightly/4.9.2.dev202306270045-4.9.2.dev202306270046/diff.md --exclude *.pyd
+[2023-06-28 02:49:30] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/28/50/b97dfcb88f6c511873e8cc2e50e2136e7320c78d4c11139cf36bcbc0a996/motion_python-0.1.69.tar.gz
+[2023-06-28 02:49:30] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-06-28 02:49:30] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.68.tar.gz tmp/motion_python-0.1.69.tar.gz --markdown 20230628/m/motion-python/0.1.68-0.1.69/diff.md --exclude *.pyd
+[2023-06-28 02:49:30] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/25/6b/7f9865a1bedf9c30b0ba7956a568b97cc5dd18c9825e37d26c54ae28ed7d/py3toolbox-0.1.9.tar.gz
+[2023-06-28 02:49:30] INFO root fetch - processPackages [py3toolbox]: executing diffoscope
+[2023-06-28 02:49:30] INFO root fetch - processPackages [py3toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3toolbox-0.1.8.tar.gz tmp/py3toolbox-0.1.9.tar.gz --markdown 20230628/p/py3toolbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 02:49:31] INFO root fetch - processPackages [platypush]: Downloading https://files.pythonhosted.org/packages/7e/35/59d1ec1a6e1adbdae1077821c98c4771df412b7ffda91c342124c578d658/platypush-0.9.6.tar.gz
+[2023-06-28 02:49:31] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.68.tar.gz]
+[2023-06-28 02:49:31] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.69.tar.gz]
+[2023-06-28 02:49:31] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-06-28 02:49:31] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-28 02:49:31] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-28 02:49:31] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-28 02:49:32] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.8.tar.gz]
+[2023-06-28 02:49:32] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.9.tar.gz]
+[2023-06-28 02:49:32] INFO root fetch - main [MainThread]: End processing [py3toolbox]: success
+[2023-06-28 02:49:32] INFO root fetch - processPackages [platypush]: executing diffoscope
+[2023-06-28 02:49:32] INFO root fetch - processPackages [platypush]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platypush-0.9.5.tar.gz tmp/platypush-0.9.6.tar.gz --markdown 20230628/p/platypush/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-28 02:49:41] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306270045.tar.gz]
+[2023-06-28 02:49:41] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds_nightly-4.9.2.dev202306270046-py3-none-any.whl.zip]
+[2023-06-28 02:49:41] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-28 02:49:53] INFO root fetch - processPackages [platypush]: Remove: archive file [/home/abi/fetcher/tmp/platypush-0.9.5.tar.gz]
+[2023-06-28 02:49:53] INFO root fetch - processPackages [platypush]: Remove: archive file [/home/abi/fetcher/tmp/platypush-0.9.6.tar.gz]
+[2023-06-28 02:49:53] INFO root fetch - main [MainThread]: End processing [platypush]: success
+[2023-06-28 02:49:53] INFO root fetch - main [MainThread]: Store serial: [18671175]
