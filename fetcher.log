@@ -18943,3 +18943,192 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 10:28:29] INFO root fetch - processPackages [quark-engine]: Remove: archive file [/home/abi/fetcher/tmp/quark-engine-23.6.1.tar.gz]
 [2023-06-28 10:28:29] INFO root fetch - main [MainThread]: End processing [quark-engine]: success
 [2023-06-28 10:28:29] INFO root fetch - main [MainThread]: Store serial: [18676215]
+[2023-06-28 10:33:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18676215]
+[2023-06-28 10:33:38] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mizdb-tomselect
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: count-tokens
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ez0th
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: noiseflow
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-openupgrade-scripts
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: szh-toolbox
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: connect-extension-runner
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ggshield
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlalchemy-pagination-fastapi
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: league-shop-base
+[2023-06-28 10:33:38] INFO root fetch - processPackages [noiseflow]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2023-06-28 10:33:38] WARNING root fetch - processPackages [count-tokens]: Skipping, unable to determine old version
+[2023-06-28 10:33:38] INFO root fetch - processPackages [count-tokens]: Start processing: django-pfx
+[2023-06-28 10:33:38] INFO root fetch - processPackages [mizdb-tomselect]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-28 10:33:38] INFO root fetch - main [MainThread]: End processing [count-tokens] error
+[2023-06-28 10:33:38] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.1]
+[2023-06-28 10:33:38] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ez0th]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-06-28 10:33:38] INFO root fetch - processPackages [league-shop-base]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ggshield]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-28 10:33:38] INFO root fetch - processPackages [szh-toolbox]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-28 10:33:38] INFO root fetch - processPackages [connect-extension-runner]: New version: [28.1] Old Version: [28.0]
+[2023-06-28 10:33:38] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev68]
+[2023-06-28 10:33:38] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Downloading https://files.pythonhosted.org/packages/14/3f/06986af0f9d267d425fbbe0cd218ff52e91a2bcfeb04547f738429e0907b/sqlalchemy-pagination-fastapi-0.0.2.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/a6/fd/e562176a13e1b3af136df7a2e22962d6205720327de2de58eec87c237c97/noiseflow-0.0.1a7.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [mizdb-tomselect]: Downloading https://files.pythonhosted.org/packages/72/d7/c276a255874c1c07111551e326d6e0f68f9f789d7390cd5ccf2a58671eb9/mizdb-tomselect-0.3.1.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [connect-extension-runner]: Downloading https://files.pythonhosted.org/packages/99/fe/ae45a1d77a43f2a0e5a82d51216c9a3c772367bbc1eedde806059181f126/connect_extension_runner-28.0.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/3a/2e/29920fa9a409d93ecb339fe722f596f6cc7800756e9fb43bec4717805a3c/django-pfx-1.2.dev68.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/6b/54/b852b57115446247318f73ce1858acabc97648c6e8bcbc66297ad6d98b7f/odoo_addon_openupgrade_scripts-16.0.1.0.1.1-py3-none-any.whl
+[2023-06-28 10:33:38] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/9a/36/856f05ff8f20b041ffd8a46c1c83f9f8b227d1764d27b5882c86fee7084a/league-shop-base-1.0.8.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ez0th]: Downloading https://files.pythonhosted.org/packages/a0/64/2081b3737a8eb22bd31e5630ffd0a0bdd3e82c7503eac05050f499e72986/ez0th-0.0.3.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ggshield]: Downloading https://files.pythonhosted.org/packages/34/29/b6d09e3b410ddca0a4ae6b08203f751ff105ec3b48a59b3866f1ae0b16a4/ggshield-1.8.2.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [szh-toolbox]: Downloading https://files.pythonhosted.org/packages/1b/fc/a5e757158f870bc330963a4b178df3907772d780c127d51ae4e0e565bbe1/szh_toolbox-0.0.1.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Downloading https://files.pythonhosted.org/packages/9b/ac/bf88682b163421466513eb8ff3b1a0880d795da92eb5b3e35a6386523314/sqlalchemy-pagination-fastapi-0.0.3.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/db/82/59618cc74596e9b02732a292c4d5a4854ee32652b7193eedc67438271ecc/noiseflow-0.0.1a8.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [mizdb-tomselect]: Downloading https://files.pythonhosted.org/packages/16/2a/c8a2d97e6548ab7c93ccd9b3af892cd9d395daadff85260c626a65cec3d1/mizdb-tomselect-0.3.2.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/7d/9f/c864027970361c6dee6094c0beaeee2491b1d21383669b1fa637328e2f96/odoo_addon_openupgrade_scripts-16.0.1.0.2-py3-none-any.whl
+[2023-06-28 10:33:38] INFO root fetch - processPackages [szh-toolbox]: Downloading https://files.pythonhosted.org/packages/54/75/2813f156c61fb1898f2aec2f3663e246e9b7dff846028a5cfd329a8ccd40/szh_toolbox-0.0.2.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a8/a1/beee13dd42732e6b09a9fa98a5127296a4eb74cba08e3bdc0c5376e914db/django-pfx-1.2.dev8.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [mizdb-tomselect]: executing diffoscope
+[2023-06-28 10:33:38] INFO root fetch - processPackages [mizdb-tomselect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizdb-tomselect-0.3.1.tar.gz tmp/mizdb-tomselect-0.3.2.tar.gz --markdown 20230628/m/mizdb-tomselect/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-28 10:33:38] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-06-28 10:33:38] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-openupgrade-scripts/16.0.1.0.1.1-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-28 10:33:38] INFO root fetch - processPackages [connect-extension-runner]: Downloading https://files.pythonhosted.org/packages/35/bc/283830c07ba268fb01efb18a407377b8489d3322f82576cae4e5378ab073/connect_extension_runner-28.1.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ggshield]: Downloading https://files.pythonhosted.org/packages/81/85/79e39491697e19ecd74d5565f6f95759646b1aca4c3e7c2201addb976587/ggshield-1.9.0.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-06-28 10:33:38] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev68.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230628/d/django-pfx/1.2.dev68-1.2.dev8/diff.md --exclude *.pyd
+[2023-06-28 10:33:38] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: executing diffoscope
+[2023-06-28 10:33:38] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-pagination-fastapi-0.0.2.tar.gz tmp/sqlalchemy-pagination-fastapi-0.0.3.tar.gz --markdown 20230628/s/sqlalchemy-pagination-fastapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ez0th]: Downloading https://files.pythonhosted.org/packages/b7/78/61c5b82d8a27513fc0521456869504690a9c3696b454aecde769d5c70fbd/ez0th-0.1.0.tar.gz
+[2023-06-28 10:33:38] INFO root fetch - processPackages [noiseflow]: executing diffoscope
+[2023-06-28 10:33:38] INFO root fetch - processPackages [noiseflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noiseflow-0.0.1a7.tar.gz tmp/noiseflow-0.0.1a8.tar.gz --markdown 20230628/n/noiseflow/0.0.1a7-0.0.1a8/diff.md --exclude *.pyd
+[2023-06-28 10:33:38] INFO root fetch - processPackages [szh-toolbox]: executing diffoscope
+[2023-06-28 10:33:38] INFO root fetch - processPackages [szh-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/szh_toolbox-0.0.1.tar.gz tmp/szh_toolbox-0.0.2.tar.gz --markdown 20230628/s/szh-toolbox/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ez0th]: executing diffoscope
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ez0th]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez0th-0.0.3.tar.gz tmp/ez0th-0.1.0.tar.gz --markdown 20230628/e/ez0th/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ggshield]: executing diffoscope
+[2023-06-28 10:33:38] INFO root fetch - processPackages [ggshield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggshield-1.8.2.tar.gz tmp/ggshield-1.9.0.tar.gz --markdown 20230628/g/ggshield/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-06-28 10:33:38] INFO root fetch - processPackages [connect-extension-runner]: executing diffoscope
+[2023-06-28 10:33:38] INFO root fetch - processPackages [connect-extension-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_extension_runner-28.0.tar.gz tmp/connect_extension_runner-28.1.tar.gz --markdown 20230628/c/connect-extension-runner/28.0-28.1/diff.md --exclude *.pyd
+[2023-06-28 10:33:39] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/e2/26/1a7ca28a471c3705930fb862d3f11522557e5f6c0d324560bcea93b51906/league-shop-base-1.0.9.tar.gz
+[2023-06-28 10:33:39] INFO root fetch - processPackages [league-shop-base]: executing diffoscope
+[2023-06-28 10:33:39] INFO root fetch - processPackages [league-shop-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league-shop-base-1.0.8.tar.gz tmp/league-shop-base-1.0.9.tar.gz --markdown 20230628/l/league-shop-base/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 10:33:40] INFO root fetch - processPackages [szh-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/szh_toolbox-0.0.1.tar.gz]
+[2023-06-28 10:33:40] INFO root fetch - processPackages [szh-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/szh_toolbox-0.0.2.tar.gz]
+[2023-06-28 10:33:40] INFO root fetch - processPackages [szh-toolbox]: Start processing: collective.gridlisting
+[2023-06-28 10:33:40] INFO root fetch - main [MainThread]: End processing [szh-toolbox]: success
+[2023-06-28 10:33:40] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-pagination-fastapi-0.0.2.tar.gz]
+[2023-06-28 10:33:40] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-pagination-fastapi-0.0.3.tar.gz]
+[2023-06-28 10:33:40] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Start processing: windows-control
+[2023-06-28 10:33:40] INFO root fetch - main [MainThread]: End processing [sqlalchemy-pagination-fastapi]: success
+[2023-06-28 10:33:40] INFO root fetch - processPackages [windows-control]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-28 10:33:40] WARNING root fetch - processPackages [collective.gridlisting]: Skipping, unable to determine old version
+[2023-06-28 10:33:40] INFO root fetch - processPackages [collective.gridlisting]: Start processing: perun.proxy.utils
+[2023-06-28 10:33:40] INFO root fetch - main [MainThread]: End processing [collective.gridlisting] error
+[2023-06-28 10:33:40] INFO root fetch - processPackages [ez0th]: Remove: archive file [/home/abi/fetcher/tmp/ez0th-0.0.3.tar.gz]
+[2023-06-28 10:33:40] INFO root fetch - processPackages [ez0th]: Remove: archive file [/home/abi/fetcher/tmp/ez0th-0.1.0.tar.gz]
+[2023-06-28 10:33:40] INFO root fetch - processPackages [ez0th]: Start processing: underthesea_core
+[2023-06-28 10:33:40] INFO root fetch - main [MainThread]: End processing [ez0th]: success
+[2023-06-28 10:33:40] INFO root fetch - processPackages [perun.proxy.utils]: New version: [1.7.1] Old Version: [1.3.0]
+[2023-06-28 10:33:40] INFO root fetch - processPackages [underthesea_core]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-28 10:33:40] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.1a7.tar.gz]
+[2023-06-28 10:33:40] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.1a8.tar.gz]
+[2023-06-28 10:33:40] INFO root fetch - processPackages [noiseflow]: Start processing: python-hue-v2
+[2023-06-28 10:33:40] INFO root fetch - main [MainThread]: End processing [noiseflow]: success
+[2023-06-28 10:33:40] INFO root fetch - processPackages [windows-control]: Downloading https://files.pythonhosted.org/packages/ed/5c/0daf5fbd53209a979f28ba10000e75cd51b163566fbc20381bdb74207a8d/windows_control-0.0.1.tar.gz
+[2023-06-28 10:33:40] INFO root fetch - processPackages [python-hue-v2]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-06-28 10:33:40] INFO root fetch - processPackages [perun.proxy.utils]: Downloading https://files.pythonhosted.org/packages/00/44/1f217fc21d7c94a64423515041f30af0663bfcb71d4d6acbddfb678433e2/perun.proxy.utils-1.3.0.tar.gz
+[2023-06-28 10:33:40] INFO root fetch - processPackages [league-shop-base]: Remove: archive file [/home/abi/fetcher/tmp/league-shop-base-1.0.8.tar.gz]
+[2023-06-28 10:33:40] INFO root fetch - processPackages [league-shop-base]: Remove: archive file [/home/abi/fetcher/tmp/league-shop-base-1.0.9.tar.gz]
+[2023-06-28 10:33:40] INFO root fetch - processPackages [league-shop-base]: Start processing: python-calamine
+[2023-06-28 10:33:40] INFO root fetch - main [MainThread]: End processing [league-shop-base]: success
+[2023-06-28 10:33:40] INFO root fetch - processPackages [underthesea_core]: Downloading https://files.pythonhosted.org/packages/d3/9c/3f9f20175ec0bcd9ee3096d3477b3c4cde51d1f3ad1f5b572d85dfde1039/underthesea_core-1.0.3-cp39-none-win_amd64.whl
+[2023-06-28 10:33:40] INFO root fetch - processPackages [python-calamine]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-28 10:33:40] INFO root fetch - processPackages [python-hue-v2]: Downloading https://files.pythonhosted.org/packages/21/dc/4470ce76edead3f482748d17767da27e879359464339bf2b2905b9ab0223/python_hue_v2-0.1.2.tar.gz
+[2023-06-28 10:33:41] INFO root fetch - processPackages [windows-control]: Downloading https://files.pythonhosted.org/packages/da/78/9634c1209f0e71b131ca70c896abe677d86f57d9157a842a53bfe9ce5cd7/windows_control-0.0.2.tar.gz
+[2023-06-28 10:33:41] INFO root fetch - processPackages [python-calamine]: Downloading https://files.pythonhosted.org/packages/8c/84/fd9f8d847b9cd6f86ac315aaf8a82bb762b6c6db29fc6bb8168629718fb8/python_calamine-0.1.3.tar.gz
+[2023-06-28 10:33:41] INFO root fetch - processPackages [windows-control]: executing diffoscope
+[2023-06-28 10:33:41] INFO root fetch - processPackages [windows-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windows_control-0.0.1.tar.gz tmp/windows_control-0.0.2.tar.gz --markdown 20230628/w/windows-control/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-28 10:33:41] INFO root fetch - processPackages [underthesea_core]: Downloading https://files.pythonhosted.org/packages/2e/d2/0f11a1c70402f469bcb2270294954bd0ed9f72d04952ddd432b7fd0bd49a/underthesea_core-1.0.4-cp39-cp39-macosx_10_7_x86_64.whl
+[2023-06-28 10:33:41] INFO root fetch - processPackages [perun.proxy.utils]: Downloading https://files.pythonhosted.org/packages/b5/01/a4d600bff6f261a2bf0af8ad59eab849d4ac83704859f73be1aa4fe85625/perun.proxy.utils-1.7.1.tar.gz
+[2023-06-28 10:33:41] INFO root fetch - processPackages [perun.proxy.utils]: executing diffoscope
+[2023-06-28 10:33:41] INFO root fetch - processPackages [perun.proxy.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxy.utils-1.3.0.tar.gz tmp/perun.proxy.utils-1.7.1.tar.gz --markdown 20230628/p/perun.proxy.utils/1.3.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-28 10:33:41] INFO root fetch - processPackages [python-hue-v2]: Downloading https://files.pythonhosted.org/packages/75/2f/c38fa9fea6a9d6385126335bbf23298ee1c36747b7c227a92a41a3e86726/python_hue_v2-1.0.0.tar.gz
+[2023-06-28 10:33:41] INFO root fetch - processPackages [connect-extension-runner]: Remove: archive file [/home/abi/fetcher/tmp/connect_extension_runner-28.0.tar.gz]
+[2023-06-28 10:33:41] INFO root fetch - processPackages [connect-extension-runner]: Remove: archive file [/home/abi/fetcher/tmp/connect_extension_runner-28.1.tar.gz]
+[2023-06-28 10:33:41] INFO root fetch - processPackages [connect-extension-runner]: Start processing: zensols.mimicsid
+[2023-06-28 10:33:41] INFO root fetch - main [MainThread]: End processing [connect-extension-runner]: success
+[2023-06-28 10:33:41] INFO root fetch - processPackages [zensols.mimicsid]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-28 10:33:41] INFO root fetch - processPackages [python-hue-v2]: executing diffoscope
+[2023-06-28 10:33:41] INFO root fetch - processPackages [python-hue-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_hue_v2-0.1.2.tar.gz tmp/python_hue_v2-1.0.0.tar.gz --markdown 20230628/p/python-hue-v2/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-28 10:33:41] INFO root fetch - processPackages [underthesea_core]: executing diffoscope
+[2023-06-28 10:33:41] INFO root fetch - processPackages [underthesea_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/underthesea_core-1.0.3-cp39-none-win_amd64.whl.zip tmp/underthesea_core-1.0.4-cp39-cp39-macosx_10_7_x86_64.whl.zip --markdown 20230628/u/underthesea_core/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-28 10:33:41] INFO root fetch - processPackages [python-calamine]: Downloading https://files.pythonhosted.org/packages/59/32/44a4054464a1d293bc98b7de3bb8e72920c336db38cb697a2c21effcee2b/python_calamine-0.1.4-pp310-pypy310_pp73-macosx_10_7_x86_64.whl
+[2023-06-28 10:33:41] INFO root fetch - processPackages [zensols.mimicsid]: Downloading https://files.pythonhosted.org/packages/85/74/cb4090d85dbcf5792cf8983a4059258ec99b8b4b8d21347543f81aaafc08/zensols.mimicsid-1.3.0-py3-none-any.whl
+[2023-06-28 10:33:41] INFO root fetch - processPackages [zensols.mimicsid]: Downloading https://files.pythonhosted.org/packages/01/24/386bb6732651e05db5ca62b8020b88ed2e16de4d0017c9d4ac0c1204a4e1/zensols.mimicsid-1.3.1-py3-none-any.whl
+[2023-06-28 10:33:41] INFO root fetch - processPackages [zensols.mimicsid]: executing diffoscope
+[2023-06-28 10:33:41] INFO root fetch - processPackages [zensols.mimicsid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensols.mimicsid-1.3.0-py3-none-any.whl.zip tmp/zensols.mimicsid-1.3.1-py3-none-any.whl.zip --markdown 20230628/z/zensols.mimicsid/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-28 10:33:41] INFO root fetch - processPackages [ggshield]: Remove: archive file [/home/abi/fetcher/tmp/ggshield-1.8.2.tar.gz]
+[2023-06-28 10:33:41] INFO root fetch - processPackages [ggshield]: Remove: archive file [/home/abi/fetcher/tmp/ggshield-1.9.0.tar.gz]
+[2023-06-28 10:33:41] INFO root fetch - processPackages [ggshield]: Start processing: ampel-interface
+[2023-06-28 10:33:41] INFO root fetch - main [MainThread]: End processing [ggshield]: success
+[2023-06-28 10:33:41] INFO root fetch - processPackages [ampel-interface]: New version: [0.9.0] Old Version: [0.8a1]
+[2023-06-28 10:33:41] INFO root fetch - processPackages [mizdb-tomselect]: Remove: archive file [/home/abi/fetcher/tmp/mizdb-tomselect-0.3.1.tar.gz]
+[2023-06-28 10:33:41] INFO root fetch - processPackages [mizdb-tomselect]: Remove: archive file [/home/abi/fetcher/tmp/mizdb-tomselect-0.3.2.tar.gz]
+[2023-06-28 10:33:41] INFO root fetch - processPackages [mizdb-tomselect]: Start processing: geomstats
+[2023-06-28 10:33:41] INFO root fetch - main [MainThread]: End processing [mizdb-tomselect]: success
+[2023-06-28 10:33:42] INFO root fetch - processPackages [geomstats]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-06-28 10:33:42] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev68.tar.gz]
+[2023-06-28 10:33:42] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev8.tar.gz]
+[2023-06-28 10:33:42] INFO root fetch - processPackages [django-pfx]: Start processing: yplib
+[2023-06-28 10:33:42] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-06-28 10:33:42] INFO root fetch - processPackages [yplib]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-28 10:33:42] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/7d/b1/23836a7faba6457fcafacf5df209b343f11bec4b08702c8201ea045562f6/yplib-1.9.1.tar.gz
+[2023-06-28 10:33:42] INFO root fetch - processPackages [ampel-interface]: Downloading https://files.pythonhosted.org/packages/78/db/0c7133d2bb9fecd4457381ff065255ba50559be49b79079c101e654b8d26/ampel-interface-0.8a1.tar.gz
+[2023-06-28 10:33:42] INFO root fetch - processPackages [geomstats]: Downloading https://files.pythonhosted.org/packages/cd/20/1ac7b78f76a0e06ca5763e407a4c640297a9dcafed5412ceaec302ad73ac/geomstats-2.5.0.tar.gz
+[2023-06-28 10:33:42] INFO root fetch - processPackages [windows-control]: Remove: archive file [/home/abi/fetcher/tmp/windows_control-0.0.1.tar.gz]
+[2023-06-28 10:33:42] INFO root fetch - processPackages [windows-control]: Remove: archive file [/home/abi/fetcher/tmp/windows_control-0.0.2.tar.gz]
+[2023-06-28 10:33:42] INFO root fetch - processPackages [windows-control]: Start processing: pygame-ecs
+[2023-06-28 10:33:42] INFO root fetch - main [MainThread]: End processing [windows-control]: success
+[2023-06-28 10:33:42] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/be/19/3e5e73cbb45b737cb4d61e3be503c2f28becfa39d3adf6ba6b327d49a302/yplib-1.9.2.tar.gz
+[2023-06-28 10:33:42] INFO root fetch - processPackages [python-calamine]: executing diffoscope
+[2023-06-28 10:33:42] INFO root fetch - processPackages [python-calamine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_calamine-0.1.3.tar.gz tmp/python_calamine-0.1.4-pp310-pypy310_pp73-macosx_10_7_x86_64.whl.zip --markdown 20230628/p/python-calamine/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-28 10:33:42] INFO root fetch - processPackages [pygame-ecs]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-28 10:33:42] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-28 10:33:42] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.9.1.tar.gz tmp/yplib-1.9.2.tar.gz --markdown 20230628/y/yplib/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-28 10:33:42] INFO root fetch - processPackages [pygame-ecs]: Downloading https://files.pythonhosted.org/packages/82/fa/857c84130f01ee5e0e6bb6b52d47c739dc3f8fc95976e3bd9a5d1ae1ff06/pygame_ecs-0.2.2.tar.gz
+[2023-06-28 10:33:42] INFO root fetch - processPackages [geomstats]: Downloading https://files.pythonhosted.org/packages/d1/44/5f9c5deb5dd615c18223a2fcce746e451b69556330fee23e8955f2b6d1ed/geomstats-2.6.0-py3-none-any.whl
+[2023-06-28 10:33:42] INFO root fetch - processPackages [pygame-ecs]: Downloading https://files.pythonhosted.org/packages/4f/48/2a3dd5e7774d2cf9ab478f29204ba4053fe1d175595bad1c02072d44e6a5/pygame_ecs-0.2.3.tar.gz
+[2023-06-28 10:33:42] INFO root fetch - processPackages [ampel-interface]: Downloading https://files.pythonhosted.org/packages/37/11/c9ebfad826f36e587ec940cba06ea90f090d072463f3b9dfa000b989bd41/ampel_interface-0.9.0.tar.gz
+[2023-06-28 10:33:42] INFO root fetch - processPackages [geomstats]: executing diffoscope
+[2023-06-28 10:33:42] INFO root fetch - processPackages [geomstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomstats-2.5.0.tar.gz tmp/geomstats-2.6.0-py3-none-any.whl.zip --markdown 20230628/g/geomstats/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-06-28 10:33:42] INFO root fetch - processPackages [underthesea_core]: Remove: archive file [/home/abi/fetcher/tmp/underthesea_core-1.0.3-cp39-none-win_amd64.whl.zip]
+[2023-06-28 10:33:42] INFO root fetch - processPackages [underthesea_core]: Remove: archive file [/home/abi/fetcher/tmp/underthesea_core-1.0.4-cp39-cp39-macosx_10_7_x86_64.whl.zip]
+[2023-06-28 10:33:42] INFO root fetch - main [MainThread]: End processing [underthesea_core]: success
+[2023-06-28 10:33:42] INFO root fetch - processPackages [python-hue-v2]: Remove: archive file [/home/abi/fetcher/tmp/python_hue_v2-0.1.2.tar.gz]
+[2023-06-28 10:33:42] INFO root fetch - processPackages [python-hue-v2]: Remove: archive file [/home/abi/fetcher/tmp/python_hue_v2-1.0.0.tar.gz]
+[2023-06-28 10:33:42] INFO root fetch - main [MainThread]: End processing [python-hue-v2]: success
+[2023-06-28 10:33:42] INFO root fetch - processPackages [pygame-ecs]: executing diffoscope
+[2023-06-28 10:33:42] INFO root fetch - processPackages [pygame-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame_ecs-0.2.2.tar.gz tmp/pygame_ecs-0.2.3.tar.gz --markdown 20230628/p/pygame-ecs/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-28 10:33:42] INFO root fetch - processPackages [ampel-interface]: executing diffoscope
+[2023-06-28 10:33:42] INFO root fetch - processPackages [ampel-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampel-interface-0.8a1.tar.gz tmp/ampel_interface-0.9.0.tar.gz --markdown 20230628/a/ampel-interface/0.8a1-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 10:33:43] INFO root fetch - processPackages [perun.proxy.utils]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxy.utils-1.3.0.tar.gz]
+[2023-06-28 10:33:43] INFO root fetch - processPackages [perun.proxy.utils]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxy.utils-1.7.1.tar.gz]
+[2023-06-28 10:33:43] INFO root fetch - main [MainThread]: End processing [perun.proxy.utils]: success
+[2023-06-28 10:33:43] INFO root fetch - processPackages [zensols.mimicsid]: Remove: archive file [/home/abi/fetcher/tmp/zensols.mimicsid-1.3.0-py3-none-any.whl.zip]
+[2023-06-28 10:33:43] INFO root fetch - processPackages [zensols.mimicsid]: Remove: archive file [/home/abi/fetcher/tmp/zensols.mimicsid-1.3.1-py3-none-any.whl.zip]
+[2023-06-28 10:33:43] INFO root fetch - main [MainThread]: End processing [zensols.mimicsid]: success
+[2023-06-28 10:33:44] INFO root fetch - processPackages [python-calamine]: Remove: archive file [/home/abi/fetcher/tmp/python_calamine-0.1.3.tar.gz]
+[2023-06-28 10:33:44] INFO root fetch - processPackages [python-calamine]: Remove: archive file [/home/abi/fetcher/tmp/python_calamine-0.1.4-pp310-pypy310_pp73-macosx_10_7_x86_64.whl.zip]
+[2023-06-28 10:33:44] INFO root fetch - main [MainThread]: End processing [python-calamine]: success
+[2023-06-28 10:33:44] INFO root fetch - processPackages [pygame-ecs]: Remove: archive file [/home/abi/fetcher/tmp/pygame_ecs-0.2.2.tar.gz]
+[2023-06-28 10:33:44] INFO root fetch - processPackages [pygame-ecs]: Remove: archive file [/home/abi/fetcher/tmp/pygame_ecs-0.2.3.tar.gz]
+[2023-06-28 10:33:44] INFO root fetch - main [MainThread]: End processing [pygame-ecs]: success
+[2023-06-28 10:33:44] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.9.1.tar.gz]
+[2023-06-28 10:33:44] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.9.2.tar.gz]
+[2023-06-28 10:33:44] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-28 10:33:44] INFO root fetch - processPackages [ampel-interface]: Remove: archive file [/home/abi/fetcher/tmp/ampel-interface-0.8a1.tar.gz]
+[2023-06-28 10:33:44] INFO root fetch - processPackages [ampel-interface]: Remove: archive file [/home/abi/fetcher/tmp/ampel_interface-0.9.0.tar.gz]
+[2023-06-28 10:33:44] INFO root fetch - main [MainThread]: End processing [ampel-interface]: success
+[2023-06-28 10:33:44] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-06-28 10:33:44] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-28 10:33:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-06-28 10:33:46] INFO root fetch - processPackages [geomstats]: Remove: archive file [/home/abi/fetcher/tmp/geomstats-2.5.0.tar.gz]
+[2023-06-28 10:33:46] INFO root fetch - processPackages [geomstats]: Remove: archive file [/home/abi/fetcher/tmp/geomstats-2.6.0-py3-none-any.whl.zip]
+[2023-06-28 10:33:46] INFO root fetch - main [MainThread]: End processing [geomstats]: success
+[2023-06-28 10:33:46] INFO root fetch - main [MainThread]: Store serial: [18676349]
