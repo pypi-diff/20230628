@@ -17499,3 +17499,86 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 09:33:18] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.9.tar.gz]
 [2023-06-28 09:33:18] INFO root fetch - main [MainThread]: End processing [hm-pyhelper]: success
 [2023-06-28 09:33:18] INFO root fetch - main [MainThread]: Store serial: [18675698]
+[2023-06-28 09:38:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18675698]
+[2023-06-28 09:38:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-28 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: savant-rs
+[2023-06-28 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DLMS-SPODES
+[2023-06-28 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyCompGeomAlgorithms
+[2023-06-28 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-ga20191120-py2
+[2023-06-28 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: savant-rs-etcd-dynamic-state
+[2023-06-28 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-ga20191120
+[2023-06-28 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imagedata
+[2023-06-28 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sentry-ldap
+[2023-06-28 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sample-csv
+[2023-06-28 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rasa-sdk
+[2023-06-28 09:38:32] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 09:38:32] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-28 09:38:32] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-28 09:38:32] WARNING root fetch - processPackages [sample-csv]: Skipping, unable to determine old version
+[2023-06-28 09:38:32] INFO root fetch - main [MainThread]: End processing [sample-csv] error
+[2023-06-28 09:38:32] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: New version: [0.1.32] Old Version: [0.1.31]
+[2023-06-28 09:38:32] INFO root fetch - processPackages [sentry-ldap]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-28 09:38:32] INFO root fetch - processPackages [imagedata]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-28 09:38:32] INFO root fetch - processPackages [PyCompGeomAlgorithms]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-28 09:38:32] INFO root fetch - processPackages [alibabacloud-ga20191120]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 09:38:32] INFO root fetch - processPackages [rasa-sdk]: New version: [3.7.0b1] Old Version: [3.6.0a1]
+[2023-06-28 09:38:32] INFO root fetch - processPackages [sentry-ldap]: Downloading https://files.pythonhosted.org/packages/83/4f/5b72ebea104fdd41f242a822f4a7a9f8ffd97c3a559226af770dd3c713cc/sentry-ldap-1.2.0.tar.gz
+[2023-06-28 09:38:32] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Downloading https://files.pythonhosted.org/packages/d3/2d/209602335f6970a74ee91a85ffa966a1ebd63ba3ceca5db4b885eaeb4674/PyCompGeomAlgorithms-1.0.4.tar.gz
+[2023-06-28 09:38:32] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/c4/00/2644997dc31784c2debfbda253c475ca3463024586165f400ebc3871aaba/savant_rs-0.1.7.tar.gz
+[2023-06-28 09:38:32] INFO root fetch - processPackages [rasa-sdk]: Downloading https://files.pythonhosted.org/packages/20/27/c8224d0429a26f3eb3ed436ae127b4ca41f2d93bf8773622aa7bbe551a79/rasa_sdk-3.6.0a1.tar.gz
+[2023-06-28 09:38:32] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: Downloading https://files.pythonhosted.org/packages/72/46/c2303876e79df424073fd0f2e7c72664bed0078f1525665b04c7f59492aa/alibabacloud_ga20191120_py2-1.0.8.tar.gz
+[2023-06-28 09:38:32] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/c6/b1/95b9fc31e824925b38440aad2dce500f87a91d669922fe40edf047ebe3a0/savant_rs_etcd_dynamic_state-0.1.31-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-28 09:38:32] INFO root fetch - processPackages [imagedata]: Downloading https://files.pythonhosted.org/packages/76/ca/8e7669962e7473ffcc502e32a98d6fe093d632bae401c7ad6aa6a42e8c71/imagedata-2.1.2.tar.gz
+[2023-06-28 09:38:32] INFO root fetch - processPackages [alibabacloud-ga20191120]: Downloading https://files.pythonhosted.org/packages/32/84/3006c6a3b5d7f169e57fbffa6c88734716f54b0ef0db9f604381aa10d631/alibabacloud_ga20191120-1.0.8.tar.gz
+[2023-06-28 09:38:32] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-06-28 09:38:32] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Downloading https://files.pythonhosted.org/packages/14/c7/c454a69bb58240747f34e924b30422e7d705ef6cf5b3d7c626af79ad7231/PyCompGeomAlgorithms-1.0.5.tar.gz
+[2023-06-28 09:38:32] WARNING root fetch - processPackages [imagedata]: Skipping package: exceeds size limit 21794565>=10485760
+[2023-06-28 09:38:32] INFO root fetch - main [MainThread]: End processing [imagedata] error
+[2023-06-28 09:38:32] INFO root fetch - processPackages [PyCompGeomAlgorithms]: executing diffoscope
+[2023-06-28 09:38:32] INFO root fetch - processPackages [PyCompGeomAlgorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCompGeomAlgorithms-1.0.4.tar.gz tmp/PyCompGeomAlgorithms-1.0.5.tar.gz --markdown 20230628/P/PyCompGeomAlgorithms/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-28 09:38:32] INFO root fetch - processPackages [sentry-ldap]: Downloading https://files.pythonhosted.org/packages/5e/3f/f6fbd7f5f1436d9613f64bba9d9fa8a558b87439bf54f6d9501ace06d95d/sentry-ldap-1.2.1.tar.gz
+[2023-06-28 09:38:32] INFO root fetch - processPackages [sentry-ldap]: executing diffoscope
+[2023-06-28 09:38:32] INFO root fetch - processPackages [sentry-ldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-ldap-1.2.0.tar.gz tmp/sentry-ldap-1.2.1.tar.gz --markdown 20230628/s/sentry-ldap/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-28 09:38:32] INFO root fetch - processPackages [rasa-sdk]: Downloading https://files.pythonhosted.org/packages/6d/e7/dee82eaf3fc5441a6639af9d6f1d2d6fbc44607f3b8ce364931ba05db13a/rasa_sdk-3.7.0b1.tar.gz
+[2023-06-28 09:38:32] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/14/6f/20424ad55aaad55bea7d3a27e5a0cc5fe726f0b4507b2b6f406d79e8015a/savant_rs-0.1.9.tar.gz
+[2023-06-28 09:38:32] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-06-28 09:38:33] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-06-28 09:38:33] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230628/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 09:38:33] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-28 09:38:33] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230628/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 09:38:33] INFO root fetch - processPackages [rasa-sdk]: executing diffoscope
+[2023-06-28 09:38:33] INFO root fetch - processPackages [rasa-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasa_sdk-3.6.0a1.tar.gz tmp/rasa_sdk-3.7.0b1.tar.gz --markdown 20230628/r/rasa-sdk/3.6.0a1-3.7.0b1/diff.md --exclude *.pyd
+[2023-06-28 09:38:33] INFO root fetch - processPackages [alibabacloud-ga20191120]: Downloading https://files.pythonhosted.org/packages/eb/6f/237fdcd9b6b01606a499d28417dc8f06b9e33887a738708fd2388ef53f06/alibabacloud_ga20191120-1.0.9.tar.gz
+[2023-06-28 09:38:33] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: Downloading https://files.pythonhosted.org/packages/09/5c/e16eed3c82d30ce459f4788f5d900eb4fbba8cdf7e084ce198b7ff57c9dd/alibabacloud_ga20191120_py2-1.0.9.tar.gz
+[2023-06-28 09:38:33] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: executing diffoscope
+[2023-06-28 09:38:33] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ga20191120_py2-1.0.8.tar.gz tmp/alibabacloud_ga20191120_py2-1.0.9.tar.gz --markdown 20230628/a/alibabacloud-ga20191120-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 09:38:33] INFO root fetch - processPackages [alibabacloud-ga20191120]: executing diffoscope
+[2023-06-28 09:38:33] INFO root fetch - processPackages [alibabacloud-ga20191120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ga20191120-1.0.8.tar.gz tmp/alibabacloud_ga20191120-1.0.9.tar.gz --markdown 20230628/a/alibabacloud-ga20191120/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 09:38:34] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Remove: archive file [/home/abi/fetcher/tmp/PyCompGeomAlgorithms-1.0.4.tar.gz]
+[2023-06-28 09:38:34] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Remove: archive file [/home/abi/fetcher/tmp/PyCompGeomAlgorithms-1.0.5.tar.gz]
+[2023-06-28 09:38:34] INFO root fetch - main [MainThread]: End processing [PyCompGeomAlgorithms]: success
+[2023-06-28 09:38:34] INFO root fetch - processPackages [sentry-ldap]: Remove: archive file [/home/abi/fetcher/tmp/sentry-ldap-1.2.0.tar.gz]
+[2023-06-28 09:38:34] INFO root fetch - processPackages [sentry-ldap]: Remove: archive file [/home/abi/fetcher/tmp/sentry-ldap-1.2.1.tar.gz]
+[2023-06-28 09:38:34] INFO root fetch - main [MainThread]: End processing [sentry-ldap]: success
+[2023-06-28 09:38:34] INFO root fetch - processPackages [rasa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rasa_sdk-3.6.0a1.tar.gz]
+[2023-06-28 09:38:34] INFO root fetch - processPackages [rasa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rasa_sdk-3.7.0b1.tar.gz]
+[2023-06-28 09:38:34] INFO root fetch - main [MainThread]: End processing [rasa-sdk]: success
+[2023-06-28 09:38:34] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.7.tar.gz]
+[2023-06-28 09:38:34] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.9.tar.gz]
+[2023-06-28 09:38:34] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-06-28 09:38:34] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/e2/52/96c7a79061af2cb66df8c7b4bdf26616d038560eb869d62c684e812a5bc6/savant_rs_etcd_dynamic_state-0.1.32-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-28 09:38:34] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: executing diffoscope
+[2023-06-28 09:38:34] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs_etcd_dynamic_state-0.1.31-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/savant_rs_etcd_dynamic_state-0.1.32-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230628/s/savant-rs-etcd-dynamic-state/0.1.31-0.1.32/diff.md --exclude *.pyd
+[2023-06-28 09:38:35] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ga20191120_py2-1.0.8.tar.gz]
+[2023-06-28 09:38:35] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ga20191120_py2-1.0.9.tar.gz]
+[2023-06-28 09:38:35] INFO root fetch - main [MainThread]: End processing [alibabacloud-ga20191120-py2]: success
+[2023-06-28 09:38:35] INFO root fetch - processPackages [alibabacloud-ga20191120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ga20191120-1.0.8.tar.gz]
+[2023-06-28 09:38:35] INFO root fetch - processPackages [alibabacloud-ga20191120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ga20191120-1.0.9.tar.gz]
+[2023-06-28 09:38:35] INFO root fetch - main [MainThread]: End processing [alibabacloud-ga20191120]: success
+[2023-06-28 09:38:36] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-06-28 09:38:36] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-06-28 09:38:36] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-28 09:40:03] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.31-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-28 09:40:03] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.32-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-28 09:40:03] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
+[2023-06-28 09:40:03] INFO root fetch - main [MainThread]: Store serial: [18675770]
