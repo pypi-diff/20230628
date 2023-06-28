@@ -15334,3 +15334,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 07:34:46] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.7.6.tar.gz]
 [2023-06-28 07:34:46] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
 [2023-06-28 07:34:46] INFO root fetch - main [MainThread]: Store serial: [18674848]
+[2023-06-28 07:39:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674848]
+[2023-06-28 07:39:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-28 07:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kutsu
+[2023-06-28 07:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apigeecli
+[2023-06-28 07:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ersilia
+[2023-06-28 07:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nics
+[2023-06-28 07:39:56] INFO root fetch - processPackages [kutsu]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-28 07:39:56] INFO root fetch - processPackages [apigeecli]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-28 07:39:56] INFO root fetch - processPackages [nics]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-28 07:39:56] INFO root fetch - processPackages [ersilia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 07:39:56] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/df/17/bcc5e49ed055c8a30ec17207724be19de78561c458a32cc19a8a7dcfda5f/ersilia-0.1.8.tar.gz
+[2023-06-28 07:39:56] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/32/4f/e8f4bdd76e1184bbe68cbb0c6cb9a72ac09ce5d9e60e597538070daff230/nics-0.8.0.tar.gz
+[2023-06-28 07:39:56] INFO root fetch - processPackages [kutsu]: Downloading https://files.pythonhosted.org/packages/58/35/d87b848eaa25f040d07fe233af6bcbf1c4ceff21e56ea8a8c94a8ab853ee/kutsu-0.1.0.tar.gz
+[2023-06-28 07:39:56] INFO root fetch - processPackages [apigeecli]: Downloading https://files.pythonhosted.org/packages/1b/d9/46852ec119db83d37ce11b53ffffcb750084883bd5e5421ae5fc05fb92ab/apigeecli-0.8.3.tar.gz
+[2023-06-28 07:39:56] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/28/c9/ed0dc845f3c9d1ea9e22bbba2eb22804f6e3ff99e5cc338469af7756eee5/nics-0.9.0.tar.gz
+[2023-06-28 07:39:56] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-28 07:39:56] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-0.8.0.tar.gz tmp/nics-0.9.0.tar.gz --markdown 20230628/n/nics/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 07:39:56] INFO root fetch - processPackages [kutsu]: Downloading https://files.pythonhosted.org/packages/77/2e/b0ba66ad5737161ceddb6fbe1c9e7c2f1212cb8307860208c7fd614c34e8/kutsu-0.1.1.tar.gz
+[2023-06-28 07:39:56] INFO root fetch - processPackages [kutsu]: executing diffoscope
+[2023-06-28 07:39:56] INFO root fetch - processPackages [kutsu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kutsu-0.1.0.tar.gz tmp/kutsu-0.1.1.tar.gz --markdown 20230628/k/kutsu/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-28 07:39:56] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/e5/c8/bbe25f319721547bf0de64521c3e4e208423692183d8713cbe692d35db62/ersilia-0.1.9.tar.gz
+[2023-06-28 07:39:57] INFO root fetch - processPackages [apigeecli]: Downloading https://files.pythonhosted.org/packages/3c/d7/b28bf20f333e5f498af7eefd8b5ea532b5f02538dfdf857ed8caaaa0bd76/apigeecli-0.9.0.tar.gz
+[2023-06-28 07:39:57] INFO root fetch - processPackages [ersilia]: executing diffoscope
+[2023-06-28 07:39:57] INFO root fetch - processPackages [ersilia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersilia-0.1.8.tar.gz tmp/ersilia-0.1.9.tar.gz --markdown 20230628/e/ersilia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 07:39:57] INFO root fetch - processPackages [apigeecli]: executing diffoscope
+[2023-06-28 07:39:57] INFO root fetch - processPackages [apigeecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apigeecli-0.8.3.tar.gz tmp/apigeecli-0.9.0.tar.gz --markdown 20230628/a/apigeecli/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 07:39:57] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.8.0.tar.gz]
+[2023-06-28 07:39:57] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.9.0.tar.gz]
+[2023-06-28 07:39:57] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-28 07:39:57] INFO root fetch - processPackages [kutsu]: Remove: archive file [/home/abi/fetcher/tmp/kutsu-0.1.0.tar.gz]
+[2023-06-28 07:39:57] INFO root fetch - processPackages [kutsu]: Remove: archive file [/home/abi/fetcher/tmp/kutsu-0.1.1.tar.gz]
+[2023-06-28 07:39:57] INFO root fetch - main [MainThread]: End processing [kutsu]: success
+[2023-06-28 07:39:58] INFO root fetch - processPackages [apigeecli]: Remove: archive file [/home/abi/fetcher/tmp/apigeecli-0.8.3.tar.gz]
+[2023-06-28 07:39:58] INFO root fetch - processPackages [apigeecli]: Remove: archive file [/home/abi/fetcher/tmp/apigeecli-0.9.0.tar.gz]
+[2023-06-28 07:39:58] INFO root fetch - main [MainThread]: End processing [apigeecli]: success
+[2023-06-28 07:39:59] INFO root fetch - processPackages [ersilia]: Remove: archive file [/home/abi/fetcher/tmp/ersilia-0.1.8.tar.gz]
+[2023-06-28 07:39:59] INFO root fetch - processPackages [ersilia]: Remove: archive file [/home/abi/fetcher/tmp/ersilia-0.1.9.tar.gz]
+[2023-06-28 07:39:59] INFO root fetch - main [MainThread]: End processing [ersilia]: success
+[2023-06-28 07:39:59] INFO root fetch - main [MainThread]: Store serial: [18674861]
