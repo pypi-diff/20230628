@@ -20383,3 +20383,194 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 11:23:03] INFO root fetch - processPackages [iqm-cortex-cli]: Remove: archive file [/home/abi/fetcher/tmp/iqm-cortex-cli-4.3.tar.gz]
 [2023-06-28 11:23:03] INFO root fetch - main [MainThread]: End processing [iqm-cortex-cli]: success
 [2023-06-28 11:23:03] INFO root fetch - main [MainThread]: Store serial: [18676844]
+[2023-06-28 11:28:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18676844]
+[2023-06-28 11:28:12] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-28 11:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iqm-cortex-cli
+[2023-06-28 11:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlalchemy-pagination-fastapi
+[2023-06-28 11:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-06-28 11:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatgpt-functions
+[2023-06-28 11:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swh.web
+[2023-06-28 11:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aomaker
+[2023-06-28 11:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-06-28 11:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anser-module-upload
+[2023-06-28 11:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jwave
+[2023-06-28 11:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: djecrety
+[2023-06-28 11:28:13] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-28 11:28:13] INFO root fetch - processPackages [chatgpt-functions]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-28 11:28:13] INFO root fetch - processPackages [jwave]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-28 11:28:13] INFO root fetch - processPackages [iqm-cortex-cli]: New version: [4.3] Old Version: [4.2]
+[2023-06-28 11:28:13] WARNING root fetch - processPackages [anser-module-upload]: Skipping, unable to determine old version
+[2023-06-28 11:28:13] INFO root fetch - processPackages [anser-module-upload]: Start processing: k-anonym-4-texts
+[2023-06-28 11:28:13] INFO root fetch - main [MainThread]: End processing [anser-module-upload] error
+[2023-06-28 11:28:13] INFO root fetch - processPackages [aomaker]: New version: [2.3.0] Old Version: [2.2.3]
+[2023-06-28 11:28:13] INFO root fetch - processPackages [djecrety]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 11:28:13] INFO root fetch - processPackages [swh.web]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-28 11:28:13] WARNING root fetch - processPackages [k-anonym-4-texts]: Skipping, unable to determine old version
+[2023-06-28 11:28:13] INFO root fetch - processPackages [k-anonym-4-texts]: Start processing: portscannerali
+[2023-06-28 11:28:13] INFO root fetch - main [MainThread]: End processing [k-anonym-4-texts] error
+[2023-06-28 11:28:13] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-28 11:28:13] WARNING root fetch - processPackages [portscannerali]: Skipping, unable to determine old version
+[2023-06-28 11:28:13] INFO root fetch - processPackages [portscannerali]: Start processing: sinergym
+[2023-06-28 11:28:13] INFO root fetch - main [MainThread]: End processing [portscannerali] error
+[2023-06-28 11:28:13] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Downloading https://files.pythonhosted.org/packages/9b/ac/bf88682b163421466513eb8ff3b1a0880d795da92eb5b3e35a6386523314/sqlalchemy-pagination-fastapi-0.0.3.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [chatgpt-functions]: Downloading https://files.pythonhosted.org/packages/c7/68/92865acf7be00829d6debbd96e609068a7380f65c60e2ebdf3b1588732c6/chatgpt_functions-0.1.4.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [jwave]: Downloading https://files.pythonhosted.org/packages/8c/7c/be94b23668749a984bcf4984eeef67f1b38bd9042d82bf87e42cd2ca6b3b/jwave-0.1.2.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [sinergym]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-06-28 11:28:13] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-28 11:28:13] INFO root fetch - processPackages [aomaker]: Downloading https://files.pythonhosted.org/packages/6e/c0/ad4b040dfd7d0929cd63980aa06a4db0f2223c09d71d90a669c8aeab23ea/aomaker-2.2.3.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [iqm-cortex-cli]: Downloading https://files.pythonhosted.org/packages/9a/e1/178bb8d4f6071c10a069b8b3301fff9cea38d1070c09dbd229fc4d6dfee7/iqm-cortex-cli-4.2.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [swh.web]: Downloading https://files.pythonhosted.org/packages/66/15/6bc04af12a23337bb393e57e21ffba928a503bf0e3a5106bea151682da0d/swh.web-0.2.8.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [djecrety]: Downloading https://files.pythonhosted.org/packages/7b/80/0e6e3db99cf42731978f37c3662bac2fe6331a4f6bb67904ca2f5804df2c/djecrety-1.0.8.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [sinergym]: Downloading https://files.pythonhosted.org/packages/fe/17/6a103ed2337cf447c36381a98e4198b65271fe3941be9d24d1a8d82d1cae/sinergym-2.5.0.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [chatgpt-functions]: Downloading https://files.pythonhosted.org/packages/a0/4f/7a25eb3e690beac4facf889cb5b79af66d31242efd5a59b7bf5ed9fccb05/chatgpt_functions-0.1.5.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Downloading https://files.pythonhosted.org/packages/03/ca/9bec710ca46e1f2d392e197e509eb5f7b89d2cf4afb81ce6df8f2dc141ec/sqlalchemy-pagination-fastapi-0.0.4.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [jwave]: Downloading https://files.pythonhosted.org/packages/9e/67/2f01342c70b7fe657f0994e2976e9bef6639703e5d8eecec132d86da1e93/jwave-0.1.3.tar.gz
+[2023-06-28 11:28:13] WARNING root fetch - processPackages [swh.web]: Skipping package: exceeds size limit 13132382>=10485760
+[2023-06-28 11:28:13] INFO root fetch - processPackages [swh.web]: Start processing: quote4py
+[2023-06-28 11:28:13] INFO root fetch - main [MainThread]: End processing [swh.web] error
+[2023-06-28 11:28:13] INFO root fetch - processPackages [chatgpt-functions]: executing diffoscope
+[2023-06-28 11:28:13] INFO root fetch - processPackages [chatgpt-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_functions-0.1.4.tar.gz tmp/chatgpt_functions-0.1.5.tar.gz --markdown 20230628/c/chatgpt-functions/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-28 11:28:13] INFO root fetch - processPackages [quote4py]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-28 11:28:13] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: executing diffoscope
+[2023-06-28 11:28:13] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-pagination-fastapi-0.0.3.tar.gz tmp/sqlalchemy-pagination-fastapi-0.0.4.tar.gz --markdown 20230628/s/sqlalchemy-pagination-fastapi/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-28 11:28:13] INFO root fetch - processPackages [jwave]: executing diffoscope
+[2023-06-28 11:28:13] INFO root fetch - processPackages [jwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwave-0.1.2.tar.gz tmp/jwave-0.1.3.tar.gz --markdown 20230628/j/jwave/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-28 11:28:13] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [aomaker]: Downloading https://files.pythonhosted.org/packages/c4/ff/b7144304231e316e5a5910c797f2e2a9b2efc7a681ed2a31717b7bcb1c93/aomaker-2.3.0.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [djecrety]: Downloading https://files.pythonhosted.org/packages/9a/92/042cf67af7d92ce5be0de59aa642ec085b613e5a638fc9fbd9efbf4ac409/djecrety-1.0.9.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [iqm-cortex-cli]: Downloading https://files.pythonhosted.org/packages/61/ae/12823fbca5ac65af30b17ff2bee4ac5011677cd094116caebcd5b0521d27/iqm-cortex-cli-4.3.tar.gz
+[2023-06-28 11:28:13] INFO root fetch - processPackages [quote4py]: Downloading https://files.pythonhosted.org/packages/21/b3/5a7a65627ab68da1ddb00bd122c6d4fe1301ad78fb07b616c5cb41b1fa14/quote4py-1.1.0-py3-none-any.whl
+[2023-06-28 11:28:13] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-28 11:28:13] INFO root fetch - processPackages [aomaker]: executing diffoscope
+[2023-06-28 11:28:13] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230628/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-28 11:28:13] INFO root fetch - processPackages [aomaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aomaker-2.2.3.tar.gz tmp/aomaker-2.3.0.tar.gz --markdown 20230628/a/aomaker/2.2.3-2.3.0/diff.md --exclude *.pyd
+[2023-06-28 11:28:13] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-28 11:28:13] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230628/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-28 11:28:14] INFO root fetch - processPackages [iqm-cortex-cli]: executing diffoscope
+[2023-06-28 11:28:14] INFO root fetch - processPackages [iqm-cortex-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqm-cortex-cli-4.2.tar.gz tmp/iqm-cortex-cli-4.3.tar.gz --markdown 20230628/i/iqm-cortex-cli/4.2-4.3/diff.md --exclude *.pyd
+[2023-06-28 11:28:14] INFO root fetch - processPackages [djecrety]: executing diffoscope
+[2023-06-28 11:28:14] INFO root fetch - processPackages [djecrety]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djecrety-1.0.8.tar.gz tmp/djecrety-1.0.9.tar.gz --markdown 20230628/d/djecrety/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 11:28:14] INFO root fetch - processPackages [sinergym]: Downloading https://files.pythonhosted.org/packages/16/f4/284c31e1f740791a6596768a21064c9fc78fde64ce64ba8459a86a6036de/sinergym-2.5.1.tar.gz
+[2023-06-28 11:28:14] INFO root fetch - processPackages [sinergym]: executing diffoscope
+[2023-06-28 11:28:14] INFO root fetch - processPackages [sinergym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinergym-2.5.0.tar.gz tmp/sinergym-2.5.1.tar.gz --markdown 20230628/s/sinergym/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-06-28 11:28:14] INFO root fetch - processPackages [quote4py]: Downloading https://files.pythonhosted.org/packages/9c/66/a0aca29115045ad9c10e7e2b85263b663e26c0af5d2edc7f0fb821467f90/quote4py-1.1.1-py3-none-any.whl
+[2023-06-28 11:28:14] INFO root fetch - processPackages [quote4py]: executing diffoscope
+[2023-06-28 11:28:14] INFO root fetch - processPackages [quote4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quote4py-1.1.0-py3-none-any.whl.zip tmp/quote4py-1.1.1-py3-none-any.whl.zip --markdown 20230628/q/quote4py/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-28 11:28:15] INFO root fetch - processPackages [chatgpt-functions]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_functions-0.1.4.tar.gz]
+[2023-06-28 11:28:15] INFO root fetch - processPackages [chatgpt-functions]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_functions-0.1.5.tar.gz]
+[2023-06-28 11:28:15] INFO root fetch - processPackages [chatgpt-functions]: Start processing: fedml
+[2023-06-28 11:28:15] INFO root fetch - main [MainThread]: End processing [chatgpt-functions]: success
+[2023-06-28 11:28:15] INFO root fetch - processPackages [fedml]: New version: [0.8.5a3] Old Version: [0.8.5a2]
+[2023-06-28 11:28:15] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-pagination-fastapi-0.0.3.tar.gz]
+[2023-06-28 11:28:15] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-pagination-fastapi-0.0.4.tar.gz]
+[2023-06-28 11:28:15] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Start processing: django-dnoticias-services
+[2023-06-28 11:28:15] INFO root fetch - main [MainThread]: End processing [sqlalchemy-pagination-fastapi]: success
+[2023-06-28 11:28:15] INFO root fetch - processPackages [django-dnoticias-services]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-28 11:28:15] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/9c/c1/45ad44b611754b5604892cd76dd23df4517f504247b889c02b0776ed42ca/fedml-0.8.5a2.tar.gz
+[2023-06-28 11:28:15] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-28 11:28:15] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-28 11:28:15] INFO root fetch - processPackages [spanishconjugator]: Start processing: alibabacloud-cdn20180510-py2
+[2023-06-28 11:28:15] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-28 11:28:15] INFO root fetch - processPackages [django-dnoticias-services]: Downloading https://files.pythonhosted.org/packages/b8/b7/2c31884ca3e85ffbf017d6a69dc627ac7812f9fc2a435875e4a0db76bbb0/django_dnoticias_services-1.1.1.tar.gz
+[2023-06-28 11:28:15] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-28 11:28:16] INFO root fetch - processPackages [spanishconjugator]: Start processing: tuxsuite
+[2023-06-28 11:28:16] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-28 11:28:16] INFO root fetch - processPackages [jwave]: Remove: archive file [/home/abi/fetcher/tmp/jwave-0.1.2.tar.gz]
+[2023-06-28 11:28:16] INFO root fetch - processPackages [jwave]: Remove: archive file [/home/abi/fetcher/tmp/jwave-0.1.3.tar.gz]
+[2023-06-28 11:28:16] INFO root fetch - processPackages [jwave]: Start processing: codemagic-cli-tools
+[2023-06-28 11:28:16] INFO root fetch - main [MainThread]: End processing [jwave]: success
+[2023-06-28 11:28:16] INFO root fetch - processPackages [tuxsuite]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-28 11:28:16] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/89/0a/d140e636a4cf573964184cc1161f115e73b2d4f78d326ebfcf888fad5748/fedml-0.8.5a3.tar.gz
+[2023-06-28 11:28:16] INFO root fetch - processPackages [codemagic-cli-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-28 11:28:16] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Downloading https://files.pythonhosted.org/packages/35/ef/434de7cfc6944271044d56580cb478a0d5ac2d1134625c5f619618723fc4/alibabacloud_cdn20180510_py2-1.2.8.tar.gz
+[2023-06-28 11:28:16] INFO root fetch - processPackages [quote4py]: Remove: archive file [/home/abi/fetcher/tmp/quote4py-1.1.0-py3-none-any.whl.zip]
+[2023-06-28 11:28:16] INFO root fetch - processPackages [quote4py]: Remove: archive file [/home/abi/fetcher/tmp/quote4py-1.1.1-py3-none-any.whl.zip]
+[2023-06-28 11:28:16] INFO root fetch - processPackages [quote4py]: Start processing: swh.loader.cvs
+[2023-06-28 11:28:16] INFO root fetch - main [MainThread]: End processing [quote4py]: success
+[2023-06-28 11:28:16] INFO root fetch - processPackages [swh.loader.cvs]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-28 11:28:16] INFO root fetch - processPackages [djecrety]: Remove: archive file [/home/abi/fetcher/tmp/djecrety-1.0.8.tar.gz]
+[2023-06-28 11:28:16] INFO root fetch - processPackages [djecrety]: Remove: archive file [/home/abi/fetcher/tmp/djecrety-1.0.9.tar.gz]
+[2023-06-28 11:28:16] INFO root fetch - processPackages [djecrety]: Start processing: muffin-admin
+[2023-06-28 11:28:16] INFO root fetch - main [MainThread]: End processing [djecrety]: success
+[2023-06-28 11:28:16] INFO root fetch - processPackages [muffin-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-28 11:28:16] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-06-28 11:28:16] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.5a2.tar.gz tmp/fedml-0.8.5a3.tar.gz --markdown 20230628/f/fedml/0.8.5a2-0.8.5a3/diff.md --exclude *.pyd
+[2023-06-28 11:28:16] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/27/14/f25c40bc531aff32551c08e4d9c8b6894d4749d5ad96f37b58cc307cfb29/tuxsuite-1.8.0.tar.gz
+[2023-06-28 11:28:16] INFO root fetch - processPackages [django-dnoticias-services]: Downloading https://files.pythonhosted.org/packages/13/81/e44a130c798589d509ccda650d8071cee094f033d18b713ce901c38fcb5f/django_dnoticias_services-1.1.2.tar.gz
+[2023-06-28 11:28:16] INFO root fetch - processPackages [codemagic-cli-tools]: Downloading https://files.pythonhosted.org/packages/93/49/07ea6719177fe4b6226690fe45cf5b5ff9674ea427bcdb30ed25ded88aa7/codemagic-cli-tools-0.9.7.tar.gz
+[2023-06-28 11:28:16] INFO root fetch - processPackages [django-dnoticias-services]: executing diffoscope
+[2023-06-28 11:28:16] INFO root fetch - processPackages [django-dnoticias-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_dnoticias_services-1.1.1.tar.gz tmp/django_dnoticias_services-1.1.2.tar.gz --markdown 20230628/d/django-dnoticias-services/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-28 11:28:16] INFO root fetch - processPackages [swh.loader.cvs]: Downloading https://files.pythonhosted.org/packages/3d/46/a3173f0a24d07b78247056fb989fa3c1c8c117504f6198cd925b173c96b7/swh.loader.cvs-0.6.0.tar.gz
+[2023-06-28 11:28:16] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Downloading https://files.pythonhosted.org/packages/c0/ab/4534fca9a4233612688ff128425b4cb3ed491595e204a4732512452a2096/alibabacloud_cdn20180510_py2-1.2.9.tar.gz
+[2023-06-28 11:28:16] INFO root fetch - processPackages [muffin-admin]: Downloading https://files.pythonhosted.org/packages/63/e9/6b034c32bbf3742c8219ee3a69ba44c2b94b9758f99cfa0ec0aa10c3d352/muffin-admin-1.8.1.tar.gz
+[2023-06-28 11:28:16] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: executing diffoscope
+[2023-06-28 11:28:16] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cdn20180510_py2-1.2.8.tar.gz tmp/alibabacloud_cdn20180510_py2-1.2.9.tar.gz --markdown 20230628/a/alibabacloud-cdn20180510-py2/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-28 11:28:16] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/4d/5e/8be806f24d5782026eef566b71100557104f363339b8917671132eadf1ea/tuxsuite-1.9.0.tar.gz
+[2023-06-28 11:28:16] INFO root fetch - processPackages [swh.loader.cvs]: Downloading https://files.pythonhosted.org/packages/f5/87/85203c47de90857d592aae9df8620a86bb431886c0bcf55a229e2dc4ab48/swh.loader.cvs-0.7.0.tar.gz
+[2023-06-28 11:28:16] INFO root fetch - processPackages [tuxsuite]: executing diffoscope
+[2023-06-28 11:28:16] INFO root fetch - processPackages [tuxsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxsuite-1.8.0.tar.gz tmp/tuxsuite-1.9.0.tar.gz --markdown 20230628/t/tuxsuite/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-28 11:28:16] INFO root fetch - processPackages [swh.loader.cvs]: executing diffoscope
+[2023-06-28 11:28:16] INFO root fetch - processPackages [swh.loader.cvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.loader.cvs-0.6.0.tar.gz tmp/swh.loader.cvs-0.7.0.tar.gz --markdown 20230628/s/swh.loader.cvs/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-28 11:28:16] WARNING root fetch - processPackages [codemagic-cli-tools]: Skipping package: exceeds size limit 22148734>=10485760
+[2023-06-28 11:28:16] INFO root fetch - processPackages [codemagic-cli-tools]: Start processing: alibabacloud-dcdn20180115-py2
+[2023-06-28 11:28:16] INFO root fetch - main [MainThread]: End processing [codemagic-cli-tools] error
+[2023-06-28 11:28:17] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-28 11:28:17] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/eb/ef/06e095ffd858068c82d2589cae84966d4d2ac3e73812d62968e16dea80a1/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz
+[2023-06-28 11:28:17] INFO root fetch - processPackages [muffin-admin]: Downloading https://files.pythonhosted.org/packages/9e/5b/3cda6b53f22847d402f99962337e921c6478b940e51a6d1e692ea3b0538f/muffin-admin-1.9.0.tar.gz
+[2023-06-28 11:28:17] INFO root fetch - processPackages [muffin-admin]: executing diffoscope
+[2023-06-28 11:28:17] INFO root fetch - processPackages [muffin-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-admin-1.8.1.tar.gz tmp/muffin-admin-1.9.0.tar.gz --markdown 20230628/m/muffin-admin/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-28 11:28:17] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/7b/3b/d2e5e5872bff482675c6c8fb178b95174b8780c80e367084d17a3bc9ccb1/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz
+[2023-06-28 11:28:17] INFO root fetch - processPackages [aomaker]: Remove: archive file [/home/abi/fetcher/tmp/aomaker-2.2.3.tar.gz]
+[2023-06-28 11:28:17] INFO root fetch - processPackages [aomaker]: Remove: archive file [/home/abi/fetcher/tmp/aomaker-2.3.0.tar.gz]
+[2023-06-28 11:28:17] INFO root fetch - processPackages [aomaker]: Start processing: alibabacloud-cdn20180510
+[2023-06-28 11:28:17] INFO root fetch - main [MainThread]: End processing [aomaker]: success
+[2023-06-28 11:28:17] INFO root fetch - processPackages [alibabacloud-cdn20180510]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-28 11:28:17] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: executing diffoscope
+[2023-06-28 11:28:17] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz tmp/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz --markdown 20230628/a/alibabacloud-dcdn20180115-py2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-28 11:28:18] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Downloading https://files.pythonhosted.org/packages/e1/95/58156658c827b8a345a1bcff7bfab978eeb3e6157a1c0fa2a91995d775c6/alibabacloud_cdn20180510-1.2.8.tar.gz
+[2023-06-28 11:28:18] INFO root fetch - processPackages [django-dnoticias-services]: Remove: archive file [/home/abi/fetcher/tmp/django_dnoticias_services-1.1.1.tar.gz]
+[2023-06-28 11:28:18] INFO root fetch - processPackages [django-dnoticias-services]: Remove: archive file [/home/abi/fetcher/tmp/django_dnoticias_services-1.1.2.tar.gz]
+[2023-06-28 11:28:18] INFO root fetch - processPackages [django-dnoticias-services]: Start processing: alibabacloud-dcdn20180115
+[2023-06-28 11:28:18] INFO root fetch - main [MainThread]: End processing [django-dnoticias-services]: success
+[2023-06-28 11:28:18] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-28 11:28:18] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Downloading https://files.pythonhosted.org/packages/27/ed/4efd8c76dab91dff011f164093a515b4c95ad1b26a477f6ad015a3a19599/alibabacloud_cdn20180510-1.2.9.tar.gz
+[2023-06-28 11:28:18] INFO root fetch - processPackages [iqm-cortex-cli]: Remove: archive file [/home/abi/fetcher/tmp/iqm-cortex-cli-4.2.tar.gz]
+[2023-06-28 11:28:18] INFO root fetch - processPackages [iqm-cortex-cli]: Remove: archive file [/home/abi/fetcher/tmp/iqm-cortex-cli-4.3.tar.gz]
+[2023-06-28 11:28:18] INFO root fetch - main [MainThread]: End processing [iqm-cortex-cli]: success
+[2023-06-28 11:28:18] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Downloading https://files.pythonhosted.org/packages/2f/88/fe6cfb73e7d5c72f5860767276a2df606b63ca558583a27a818b60598985/alibabacloud_dcdn20180115-1.1.8.tar.gz
+[2023-06-28 11:28:18] INFO root fetch - processPackages [alibabacloud-cdn20180510]: executing diffoscope
+[2023-06-28 11:28:18] INFO root fetch - processPackages [alibabacloud-cdn20180510]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cdn20180510-1.2.8.tar.gz tmp/alibabacloud_cdn20180510-1.2.9.tar.gz --markdown 20230628/a/alibabacloud-cdn20180510/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-28 11:28:18] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Downloading https://files.pythonhosted.org/packages/25/a0/92e29300ed677fe50a0f0ce94c85630438f1d94f4fd30b950a9a0b4c2777/alibabacloud_dcdn20180115-1.1.9.tar.gz
+[2023-06-28 11:28:19] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: executing diffoscope
+[2023-06-28 11:28:19] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115-1.1.8.tar.gz tmp/alibabacloud_dcdn20180115-1.1.9.tar.gz --markdown 20230628/a/alibabacloud-dcdn20180115/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-28 11:28:19] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz]
+[2023-06-28 11:28:19] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz]
+[2023-06-28 11:28:19] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115-py2]: success
+[2023-06-28 11:28:20] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115-1.1.8.tar.gz]
+[2023-06-28 11:28:20] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115-1.1.9.tar.gz]
+[2023-06-28 11:28:20] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115]: success
+[2023-06-28 11:28:21] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.8.0.tar.gz]
+[2023-06-28 11:28:21] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.9.0.tar.gz]
+[2023-06-28 11:28:21] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
+[2023-06-28 11:28:21] INFO root fetch - processPackages [swh.loader.cvs]: Remove: archive file [/home/abi/fetcher/tmp/swh.loader.cvs-0.6.0.tar.gz]
+[2023-06-28 11:28:21] INFO root fetch - processPackages [swh.loader.cvs]: Remove: archive file [/home/abi/fetcher/tmp/swh.loader.cvs-0.7.0.tar.gz]
+[2023-06-28 11:28:21] INFO root fetch - main [MainThread]: End processing [swh.loader.cvs]: success
+[2023-06-28 11:28:21] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cdn20180510_py2-1.2.8.tar.gz]
+[2023-06-28 11:28:21] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cdn20180510_py2-1.2.9.tar.gz]
+[2023-06-28 11:28:21] INFO root fetch - main [MainThread]: End processing [alibabacloud-cdn20180510-py2]: success
+[2023-06-28 11:28:22] INFO root fetch - processPackages [sinergym]: Remove: archive file [/home/abi/fetcher/tmp/sinergym-2.5.0.tar.gz]
+[2023-06-28 11:28:22] INFO root fetch - processPackages [sinergym]: Remove: archive file [/home/abi/fetcher/tmp/sinergym-2.5.1.tar.gz]
+[2023-06-28 11:28:22] INFO root fetch - main [MainThread]: End processing [sinergym]: success
+[2023-06-28 11:28:22] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cdn20180510-1.2.8.tar.gz]
+[2023-06-28 11:28:22] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cdn20180510-1.2.9.tar.gz]
+[2023-06-28 11:28:22] INFO root fetch - main [MainThread]: End processing [alibabacloud-cdn20180510]: success
+[2023-06-28 11:28:29] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.5a2.tar.gz]
+[2023-06-28 11:28:29] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.5a3.tar.gz]
+[2023-06-28 11:28:29] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-06-28 11:28:38] INFO root fetch - processPackages [muffin-admin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-admin-1.8.1.tar.gz]
+[2023-06-28 11:28:38] INFO root fetch - processPackages [muffin-admin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-admin-1.9.0.tar.gz]
+[2023-06-28 11:28:38] INFO root fetch - main [MainThread]: End processing [muffin-admin]: success
+[2023-06-28 11:28:38] INFO root fetch - main [MainThread]: Store serial: [18676918]
