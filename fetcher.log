@@ -14702,3 +14702,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 06:32:52] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.6.7.tar.gz]
 [2023-06-28 06:32:52] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2023-06-28 06:32:52] INFO root fetch - main [MainThread]: Store serial: [18674533]
+[2023-06-28 06:37:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674533]
+[2023-06-28 06:38:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-28 06:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-bootstrap3
+[2023-06-28 06:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mercury-sync
+[2023-06-28 06:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: p2g
+[2023-06-28 06:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ipghrms-leave
+[2023-06-28 06:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omron-2jcie-bu01-interact
+[2023-06-28 06:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-pms
+[2023-06-28 06:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybw-comic
+[2023-06-28 06:38:01] WARNING root fetch - processPackages [pybw-comic]: Skipping, unable to determine old version
+[2023-06-28 06:38:01] INFO root fetch - main [MainThread]: End processing [pybw-comic] error
+[2023-06-28 06:38:01] INFO root fetch - processPackages [omron-2jcie-bu01-interact]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-28 06:38:01] INFO root fetch - processPackages [django-ipghrms-leave]: New version: [1.8] Old Version: [1.7]
+[2023-06-28 06:38:01] INFO root fetch - processPackages [django-bootstrap3]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-06-28 06:38:01] INFO root fetch - processPackages [p2g]: New version: [0.2.29] Old Version: [0.1.95]
+[2023-06-28 06:38:01] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-28 06:38:01] INFO root fetch - processPackages [odoo14-addon-pms]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2023-06-28 06:38:01] INFO root fetch - processPackages [omron-2jcie-bu01-interact]: Downloading https://files.pythonhosted.org/packages/3b/64/519e4ad69fc9a513fd8b977e94dfaa720afae91f9064f22f72072cb6f415/omron-2jcie-bu01-interact-0.1.0.tar.gz
+[2023-06-28 06:38:01] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/27/8a/072d08ea776455e813d8fb1165386e8171fae23396c46596eaaa90f173ea/django-ipghrms-leave-1.7.tar.gz
+[2023-06-28 06:38:01] INFO root fetch - processPackages [django-bootstrap3]: Downloading https://files.pythonhosted.org/packages/fa/4a/3f75fc3a377c51d7c5f890ffe9494849c2ddb8aeef3b269163c303ca001d/django-bootstrap3-9.0.0.tar.gz
+[2023-06-28 06:38:01] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/35/dd/9ca9ec4be1214b080d690d035081114d6c68515ac18307d8cb5edc8c7664/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl
+[2023-06-28 06:38:01] INFO root fetch - processPackages [p2g]: Downloading https://files.pythonhosted.org/packages/0c/2a/1e6cbb2a260ff73f4dd12fbe6a94df39b0215dbb71f1dc89bea2b262de71/p2g-0.1.95.tar.gz
+[2023-06-28 06:38:01] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-06-28 06:38:01] INFO root fetch - processPackages [omron-2jcie-bu01-interact]: Downloading https://files.pythonhosted.org/packages/9d/e2/f879e8bcc019d03b16a0df9131f37aea7499f502302a4af13a9e48f17357/omron-2jcie-bu01-interact-0.1.1.tar.gz
+[2023-06-28 06:38:01] INFO root fetch - processPackages [omron-2jcie-bu01-interact]: executing diffoscope
+[2023-06-28 06:38:01] INFO root fetch - processPackages [omron-2jcie-bu01-interact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omron-2jcie-bu01-interact-0.1.0.tar.gz tmp/omron-2jcie-bu01-interact-0.1.1.tar.gz --markdown 20230628/o/omron-2jcie-bu01-interact/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-28 06:38:01] INFO root fetch - processPackages [django-bootstrap3]: Downloading https://files.pythonhosted.org/packages/ca/b8/d91efa12368f28aa95cd3709c4f25f79b2c9e8735c1f87a69b45977375b1/django-bootstrap3-9.1.0.tar.gz
+[2023-06-28 06:38:01] INFO root fetch - processPackages [p2g]: Downloading https://files.pythonhosted.org/packages/ad/cf/1776a698da351e3b6c7967f4053b39b33ce35cbc7b6fade598501a2d80e8/p2g-0.2.29.tar.gz
+[2023-06-28 06:38:01] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/07/64/fb9dd61ec26bdeb66686e6047d2f2eed129d48e5b31f092d1c2a6ae208a5/django-ipghrms-leave-1.8.tar.gz
+[2023-06-28 06:38:01] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-06-28 06:38:02] INFO root fetch - processPackages [django-bootstrap3]: executing diffoscope
+[2023-06-28 06:38:02] INFO root fetch - processPackages [django-bootstrap3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bootstrap3-9.0.0.tar.gz tmp/django-bootstrap3-9.1.0.tar.gz --markdown 20230628/d/django-bootstrap3/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-06-28 06:38:02] INFO root fetch - processPackages [p2g]: executing diffoscope
+[2023-06-28 06:38:02] INFO root fetch - processPackages [p2g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p2g-0.1.95.tar.gz tmp/p2g-0.2.29.tar.gz --markdown 20230628/p/p2g/0.1.95-0.2.29/diff.md --exclude *.pyd
+[2023-06-28 06:38:02] INFO root fetch - processPackages [django-ipghrms-leave]: executing diffoscope
+[2023-06-28 06:38:02] INFO root fetch - processPackages [django-ipghrms-leave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-leave-1.7.tar.gz tmp/django-ipghrms-leave-1.8.tar.gz --markdown 20230628/d/django-ipghrms-leave/1.7-1.8/diff.md --exclude *.pyd
+[2023-06-28 06:38:02] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-06-28 06:38:02] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230628/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-28 06:38:02] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/6b/d2/872d4271026f02e164cdf6773633ee7c39723165f305fdf11e37a2224677/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl
+[2023-06-28 06:38:02] INFO root fetch - processPackages [odoo14-addon-pms]: executing diffoscope
+[2023-06-28 06:38:02] INFO root fetch - processPackages [odoo14-addon-pms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip --markdown 20230628/o/odoo14-addon-pms/14.0.2.8.0-14.0.2.9.0/diff.md --exclude *.pyd
+[2023-06-28 06:38:03] INFO root fetch - processPackages [omron-2jcie-bu01-interact]: Remove: archive file [/home/abi/fetcher/tmp/omron-2jcie-bu01-interact-0.1.0.tar.gz]
+[2023-06-28 06:38:03] INFO root fetch - processPackages [omron-2jcie-bu01-interact]: Remove: archive file [/home/abi/fetcher/tmp/omron-2jcie-bu01-interact-0.1.1.tar.gz]
+[2023-06-28 06:38:03] INFO root fetch - main [MainThread]: End processing [omron-2jcie-bu01-interact]: success
+[2023-06-28 06:38:03] INFO root fetch - processPackages [django-bootstrap3]: Remove: archive file [/home/abi/fetcher/tmp/django-bootstrap3-9.0.0.tar.gz]
+[2023-06-28 06:38:03] INFO root fetch - processPackages [django-bootstrap3]: Remove: archive file [/home/abi/fetcher/tmp/django-bootstrap3-9.1.0.tar.gz]
+[2023-06-28 06:38:03] INFO root fetch - main [MainThread]: End processing [django-bootstrap3]: success
+[2023-06-28 06:38:03] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.8.tar.gz]
+[2023-06-28 06:38:03] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.9.tar.gz]
+[2023-06-28 06:38:03] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-06-28 06:38:04] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip]
+[2023-06-28 06:38:04] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
+[2023-06-28 06:38:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
+[2023-06-28 06:38:04] INFO root fetch - processPackages [p2g]: Remove: archive file [/home/abi/fetcher/tmp/p2g-0.1.95.tar.gz]
+[2023-06-28 06:38:04] INFO root fetch - processPackages [p2g]: Remove: archive file [/home/abi/fetcher/tmp/p2g-0.2.29.tar.gz]
+[2023-06-28 06:38:04] INFO root fetch - main [MainThread]: End processing [p2g]: success
+[2023-06-28 06:38:05] INFO root fetch - processPackages [django-ipghrms-leave]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-leave-1.7.tar.gz]
+[2023-06-28 06:38:05] INFO root fetch - processPackages [django-ipghrms-leave]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-leave-1.8.tar.gz]
+[2023-06-28 06:38:05] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
+[2023-06-28 06:38:05] INFO root fetch - main [MainThread]: Store serial: [18674557]
