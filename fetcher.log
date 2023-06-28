@@ -16429,3 +16429,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 08:54:30] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.9.tar.gz]
 [2023-06-28 08:54:30] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
 [2023-06-28 08:54:30] INFO root fetch - main [MainThread]: Store serial: [18675345]
+[2023-06-28 08:59:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18675345]
+[2023-06-28 08:59:39] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-28 08:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lucupy
+[2023-06-28 08:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognite-sdk
+[2023-06-28 08:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-linkcard20210520
+[2023-06-28 08:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-grpc-lw-data-provider
+[2023-06-28 08:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yplib
+[2023-06-28 08:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: viur-cli
+[2023-06-28 08:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SESMG
+[2023-06-28 08:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kt-ds-core
+[2023-06-28 08:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ms-entropy
+[2023-06-28 08:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: peduncle
+[2023-06-28 08:59:39] INFO root fetch - processPackages [ms-entropy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-28 08:59:39] INFO root fetch - processPackages [lucupy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 08:59:39] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5398128400]
+[2023-06-28 08:59:39] INFO root fetch - processPackages [alibabacloud-linkcard20210520]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 08:59:39] WARNING root fetch - processPackages [SESMG]: Skipping, unable to determine old version
+[2023-06-28 08:59:39] INFO root fetch - processPackages [SESMG]: Start processing: image-label
+[2023-06-28 08:59:39] INFO root fetch - main [MainThread]: End processing [SESMG] error
+[2023-06-28 08:59:39] INFO root fetch - processPackages [peduncle]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-28 08:59:39] WARNING root fetch - processPackages [kt-ds-core]: Skipping, unable to determine old version
+[2023-06-28 08:59:39] INFO root fetch - processPackages [kt-ds-core]: Start processing: packg
+[2023-06-28 08:59:39] INFO root fetch - processPackages [viur-cli]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-28 08:59:39] INFO root fetch - main [MainThread]: End processing [kt-ds-core] error
+[2023-06-28 08:59:39] INFO root fetch - processPackages [cognite-sdk]: New version: [6.5.3] Old Version: [6.5.2]
+[2023-06-28 08:59:39] INFO root fetch - processPackages [yplib]: New version: [1.8.8] Old Version: [1.8.7]
+[2023-06-28 08:59:39] INFO root fetch - processPackages [ms-entropy]: Downloading https://files.pythonhosted.org/packages/04/be/448e7d51e143a924ab0bd0b19fda38bf90daef5f614d6de43ba8034af145/ms_entropy-0.9.0.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/ff/cc/783b53594724c4a91686cbc8c678453256666c53b95ddd4b628b9cbb546a/th2_grpc_lw_data_provider-2.0.0.dev5398128400.tar.gz
+[2023-06-28 08:59:40] WARNING root fetch - processPackages [image-label]: Skipping, unable to determine old version
+[2023-06-28 08:59:40] INFO root fetch - processPackages [image-label]: Start processing: qontract-reconcile
+[2023-06-28 08:59:40] INFO root fetch - main [MainThread]: End processing [image-label] error
+[2023-06-28 08:59:40] INFO root fetch - processPackages [packg]: New version: [0.2.14] Old Version: [0.2.13]
+[2023-06-28 08:59:40] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/48/24/564fb7fc12915db3e559e4a44c2c2ea56620d4da2174d3da93586a4d9af4/lucupy-0.1.8.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/26/f4/b5580f8b8ec683b97cbae81d81d959ffdf6c4bff6cbcab75142d6cad461f/cognite_sdk-6.5.2.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/97/dd/d02bb3bc66193458416386d6ef30ca8641849d9c9b3dda6d1f02f00804b1/yplib-1.8.7.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-28 08:59:40] INFO root fetch - processPackages [peduncle]: Downloading https://files.pythonhosted.org/packages/eb/14/7db925cbce2e73ce102c39b9b784f4b7e59da5a708a928dfe758e8e6f7b6/peduncle-0.0.1.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/a8/da/c73cb677d1129552a9c0fab73922093d093af1448c6536b4b82f5716a634/viur_cli-1.0.4.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [alibabacloud-linkcard20210520]: Downloading https://files.pythonhosted.org/packages/23/07/f08479d81af4688240a62f0380fdd561812e3ec806d2e44688f1ee6803f0/alibabacloud_linkcard20210520-1.0.8.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-28 08:59:40] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/6c/d6/f11d082cfd767c82e3d429b95666e1b2020a64e2eb5f2b76729c037e46f8/packg-0.2.13.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [ms-entropy]: Downloading https://files.pythonhosted.org/packages/98/77/82627df800b1e6a07ab1ca853ba06a963a1c750f96624768c8268bc4b400/ms_entropy-0.9.1.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [ms-entropy]: executing diffoscope
+[2023-06-28 08:59:40] INFO root fetch - processPackages [ms-entropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_entropy-0.9.0.tar.gz tmp/ms_entropy-0.9.1.tar.gz --markdown 20230628/m/ms-entropy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-28 08:59:40] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f4/9c/8265ad66f3cb25220eb918bd53e89116cdb595ff4a121d7eac2517444c22/yplib-1.8.8.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-28 08:59:40] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/7c/36/a7f73b991b4a8cb618a8491296a8c747b24af708ccbbf1f11be8738cbe6d/packg-0.2.14.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/b0/eb/d0c97486f39f0cce7c7ea5b2db81c1dea9a906d21d0adef53454b0af30a5/cognite_sdk-6.5.3.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [peduncle]: Downloading https://files.pythonhosted.org/packages/48/8d/a29dce88ccf0fad1da6b212a0cfe2a4d608ed2703c822ab9359a83a63fdf/peduncle-0.0.2.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [alibabacloud-linkcard20210520]: Downloading https://files.pythonhosted.org/packages/70/f1/273d35694977c25d60e5d7d5601db8adf40ca4a44a3e89703461dbc96b9a/alibabacloud_linkcard20210520-1.0.9.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/b7/6d/c4935e149268f94db7ec47fb41f6d59182379ddba36cd88e07132cb2a743/viur_cli-1.0.5.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-28 08:59:40] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230628/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-28 08:59:40] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-28 08:59:40] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.8.7.tar.gz tmp/yplib-1.8.8.tar.gz --markdown 20230628/y/yplib/1.8.7-1.8.8/diff.md --exclude *.pyd
+[2023-06-28 08:59:40] INFO root fetch - processPackages [peduncle]: executing diffoscope
+[2023-06-28 08:59:40] INFO root fetch - processPackages [peduncle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peduncle-0.0.1.tar.gz tmp/peduncle-0.0.2.tar.gz --markdown 20230628/p/peduncle/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-28 08:59:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-28 08:59:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5398128400.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230628/t/th2-grpc-lw-data-provider/2.0.0.dev5398128400-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-28 08:59:40] INFO root fetch - processPackages [viur-cli]: executing diffoscope
+[2023-06-28 08:59:40] INFO root fetch - processPackages [viur-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur_cli-1.0.4.tar.gz tmp/viur_cli-1.0.5.tar.gz --markdown 20230628/v/viur-cli/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-28 08:59:40] INFO root fetch - processPackages [packg]: executing diffoscope
+[2023-06-28 08:59:40] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.2.13.tar.gz tmp/packg-0.2.14.tar.gz --markdown 20230628/p/packg/0.2.13-0.2.14/diff.md --exclude *.pyd
+[2023-06-28 08:59:40] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-06-28 08:59:40] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.5.2.tar.gz tmp/cognite_sdk-6.5.3.tar.gz --markdown 20230628/c/cognite-sdk/6.5.2-6.5.3/diff.md --exclude *.pyd
+[2023-06-28 08:59:40] INFO root fetch - processPackages [alibabacloud-linkcard20210520]: executing diffoscope
+[2023-06-28 08:59:40] INFO root fetch - processPackages [alibabacloud-linkcard20210520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_linkcard20210520-1.0.8.tar.gz tmp/alibabacloud_linkcard20210520-1.0.9.tar.gz --markdown 20230628/a/alibabacloud-linkcard20210520/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 08:59:40] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/8e/71/90824741abbd5f41e02cef3f27573135ac7ee3e561efa91dfd0394c03374/lucupy-0.1.9.tar.gz
+[2023-06-28 08:59:40] INFO root fetch - processPackages [lucupy]: executing diffoscope
+[2023-06-28 08:59:40] INFO root fetch - processPackages [lucupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucupy-0.1.8.tar.gz tmp/lucupy-0.1.9.tar.gz --markdown 20230628/l/lucupy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 08:59:41] INFO root fetch - processPackages [peduncle]: Remove: archive file [/home/abi/fetcher/tmp/peduncle-0.0.1.tar.gz]
+[2023-06-28 08:59:41] INFO root fetch - processPackages [peduncle]: Remove: archive file [/home/abi/fetcher/tmp/peduncle-0.0.2.tar.gz]
+[2023-06-28 08:59:41] INFO root fetch - processPackages [peduncle]: Start processing: datacrunch
+[2023-06-28 08:59:41] INFO root fetch - main [MainThread]: End processing [peduncle]: success
+[2023-06-28 08:59:42] INFO root fetch - processPackages [datacrunch]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-06-28 08:59:42] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5398128400.tar.gz]
+[2023-06-28 08:59:42] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-28 08:59:42] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-28 08:59:42] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.13.tar.gz]
+[2023-06-28 08:59:42] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.14.tar.gz]
+[2023-06-28 08:59:42] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2023-06-28 08:59:42] INFO root fetch - processPackages [datacrunch]: Downloading https://files.pythonhosted.org/packages/60/4c/7bb60943fefb1ccfad2ed72db8d6a85168567f5a9745cf594b2a5f236a57/datacrunch-1.4.1.tar.gz
+[2023-06-28 08:59:42] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.8.tar.gz]
+[2023-06-28 08:59:42] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.9.tar.gz]
+[2023-06-28 08:59:42] INFO root fetch - main [MainThread]: End processing [lucupy]: success
+[2023-06-28 08:59:42] INFO root fetch - processPackages [datacrunch]: Downloading https://files.pythonhosted.org/packages/c7/e5/5d1b4fb9d238fb7d60c347af2f140398488a3492490f2a0469a2cb1c875f/datacrunch-1.5.0.tar.gz
+[2023-06-28 08:59:42] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.8.7.tar.gz]
+[2023-06-28 08:59:42] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.8.8.tar.gz]
+[2023-06-28 08:59:42] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-28 08:59:42] INFO root fetch - processPackages [datacrunch]: executing diffoscope
+[2023-06-28 08:59:42] INFO root fetch - processPackages [datacrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datacrunch-1.4.1.tar.gz tmp/datacrunch-1.5.0.tar.gz --markdown 20230628/d/datacrunch/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-06-28 08:59:42] INFO root fetch - processPackages [alibabacloud-linkcard20210520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkcard20210520-1.0.8.tar.gz]
+[2023-06-28 08:59:42] INFO root fetch - processPackages [alibabacloud-linkcard20210520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkcard20210520-1.0.9.tar.gz]
+[2023-06-28 08:59:42] INFO root fetch - main [MainThread]: End processing [alibabacloud-linkcard20210520]: success
+[2023-06-28 08:59:42] INFO root fetch - processPackages [viur-cli]: Remove: archive file [/home/abi/fetcher/tmp/viur_cli-1.0.4.tar.gz]
+[2023-06-28 08:59:42] INFO root fetch - processPackages [viur-cli]: Remove: archive file [/home/abi/fetcher/tmp/viur_cli-1.0.5.tar.gz]
+[2023-06-28 08:59:42] INFO root fetch - main [MainThread]: End processing [viur-cli]: success
+[2023-06-28 08:59:43] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.5.2.tar.gz]
+[2023-06-28 08:59:43] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.5.3.tar.gz]
+[2023-06-28 08:59:43] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-06-28 08:59:43] INFO root fetch - processPackages [ms-entropy]: Remove: archive file [/home/abi/fetcher/tmp/ms_entropy-0.9.0.tar.gz]
+[2023-06-28 08:59:43] INFO root fetch - processPackages [ms-entropy]: Remove: archive file [/home/abi/fetcher/tmp/ms_entropy-0.9.1.tar.gz]
+[2023-06-28 08:59:43] INFO root fetch - main [MainThread]: End processing [ms-entropy]: success
+[2023-06-28 08:59:44] INFO root fetch - processPackages [datacrunch]: Remove: archive file [/home/abi/fetcher/tmp/datacrunch-1.4.1.tar.gz]
+[2023-06-28 08:59:44] INFO root fetch - processPackages [datacrunch]: Remove: archive file [/home/abi/fetcher/tmp/datacrunch-1.5.0.tar.gz]
+[2023-06-28 08:59:44] INFO root fetch - main [MainThread]: End processing [datacrunch]: success
+[2023-06-28 08:59:47] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-28 08:59:47] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-28 08:59:47] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-28 08:59:47] INFO root fetch - main [MainThread]: Store serial: [18675391]
