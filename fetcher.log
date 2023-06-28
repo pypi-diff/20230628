@@ -14937,3 +14937,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 06:59:29] INFO root fetch - processPackages [ocr-iiif-tools]: Remove: archive file [/home/abi/fetcher/tmp/ocr_iiif_tools-0.0.9.tar.gz]
 [2023-06-28 06:59:29] INFO root fetch - main [MainThread]: End processing [ocr-iiif-tools]: success
 [2023-06-28 06:59:29] INFO root fetch - main [MainThread]: Store serial: [18674634]
+[2023-06-28 07:04:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674634]
+[2023-06-28 07:04:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-28 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: schemamodels
+[2023-06-28 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: noiseflow
+[2023-06-28 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spark-sdk
+[2023-06-28 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdkit
+[2023-06-28 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RegScale-CLI
+[2023-06-28 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightning-template
+[2023-06-28 07:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-q3c
+[2023-06-28 07:04:38] INFO root fetch - processPackages [schemamodels]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-28 07:04:38] INFO root fetch - processPackages [spark-sdk]: New version: [0.4.9] Old Version: [0.4.22rc3]
+[2023-06-28 07:04:38] WARNING root fetch - processPackages [noiseflow]: Skipping, unable to determine old version
+[2023-06-28 07:04:38] INFO root fetch - main [MainThread]: End processing [noiseflow] error
+[2023-06-28 07:04:38] INFO root fetch - processPackages [RegScale-CLI]: New version: [5.8.0] Old Version: [5.7.0]
+[2023-06-28 07:04:38] INFO root fetch - processPackages [lightning-template]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 07:04:38] WARNING root fetch - processPackages [django-q3c]: Skipping, unable to determine old version
+[2023-06-28 07:04:38] INFO root fetch - main [MainThread]: End processing [django-q3c] error
+[2023-06-28 07:04:38] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-28 07:04:38] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/17/94/431b98b2853a8f0a84025f214a70a4df784d473fad1facaed31876fe0421/spark_sdk-0.4.22rc3-py3-none-any.whl
+[2023-06-28 07:04:38] INFO root fetch - processPackages [schemamodels]: Downloading https://files.pythonhosted.org/packages/52/6b/b634f4c2f9003f3142fc980eb88e111ca9926eed852f4ba14d4cfaa36b56/schemamodels-0.8.0.tar.gz
+[2023-06-28 07:04:38] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/bb/23/283f51826390193fc77c120c748d3599480b234089dc9eea07057d06ac6a/lightning-template-1.0.8.tar.gz
+[2023-06-28 07:04:38] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/99/6c/b8f5b37eb910bbe8bc212c816b0c4703a97215b0a001a5f421cbdc5c2a42/RegScale_CLI-5.7.0-py3-none-any.whl
+[2023-06-28 07:04:38] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-06-28 07:04:38] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/78/ef/a94fc9e735951687c8ae5c09971b47a197f864afe848bd3c4ada1591b88a/spark_sdk-0.4.9-py3-none-any.whl
+[2023-06-28 07:04:38] INFO root fetch - processPackages [schemamodels]: Downloading https://files.pythonhosted.org/packages/27/c0/96149caafd543cffa3ad684b67950ab4791df06f0f794a26ff08624c3a69/schemamodels-0.9.0.tar.gz
+[2023-06-28 07:04:38] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/3c/15/188896748e785a66931b38a2f6e0ae23e7a6c736948e3b34b74d3220587a/lightning-template-1.0.9.tar.gz
+[2023-06-28 07:04:38] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/2b/3f/878438fa28f5ffd3c38125c73b4b234937896776bf6f52a64031c5602a30/RegScale_CLI-5.8.0-py3-none-any.whl
+[2023-06-28 07:04:38] INFO root fetch - processPackages [spark-sdk]: executing diffoscope
+[2023-06-28 07:04:38] INFO root fetch - processPackages [spark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sdk-0.4.22rc3-py3-none-any.whl.zip tmp/spark_sdk-0.4.9-py3-none-any.whl.zip --markdown 20230628/s/spark-sdk/0.4.22rc3-0.4.9/diff.md --exclude *.pyd
+[2023-06-28 07:04:38] INFO root fetch - processPackages [schemamodels]: executing diffoscope
+[2023-06-28 07:04:38] INFO root fetch - processPackages [schemamodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemamodels-0.8.0.tar.gz tmp/schemamodels-0.9.0.tar.gz --markdown 20230628/s/schemamodels/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 07:04:38] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-06-28 07:04:38] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.0.8.tar.gz tmp/lightning-template-1.0.9.tar.gz --markdown 20230628/l/lightning-template/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 07:04:38] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-06-28 07:04:39] INFO root fetch - processPackages [RegScale-CLI]: executing diffoscope
+[2023-06-28 07:04:39] INFO root fetch - processPackages [RegScale-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RegScale_CLI-5.7.0-py3-none-any.whl.zip tmp/RegScale_CLI-5.8.0-py3-none-any.whl.zip --markdown 20230628/R/RegScale-CLI/5.7.0-5.8.0/diff.md --exclude *.pyd
+[2023-06-28 07:04:39] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-06-28 07:04:39] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230628/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-28 07:04:39] INFO root fetch - processPackages [schemamodels]: Remove: archive file [/home/abi/fetcher/tmp/schemamodels-0.8.0.tar.gz]
+[2023-06-28 07:04:39] INFO root fetch - processPackages [schemamodels]: Remove: archive file [/home/abi/fetcher/tmp/schemamodels-0.9.0.tar.gz]
+[2023-06-28 07:04:39] INFO root fetch - main [MainThread]: End processing [schemamodels]: success
+[2023-06-28 07:04:40] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.0.8.tar.gz]
+[2023-06-28 07:04:40] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.0.9.tar.gz]
+[2023-06-28 07:04:40] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-06-28 07:04:40] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.22rc3-py3-none-any.whl.zip]
+[2023-06-28 07:04:40] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.9-py3-none-any.whl.zip]
+[2023-06-28 07:04:40] INFO root fetch - main [MainThread]: End processing [spark-sdk]: success
+[2023-06-28 07:04:40] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.7.0-py3-none-any.whl.zip]
+[2023-06-28 07:04:40] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.8.0-py3-none-any.whl.zip]
+[2023-06-28 07:04:40] INFO root fetch - main [MainThread]: End processing [RegScale-CLI]: success
+[2023-06-28 07:05:33] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-06-28 07:05:33] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-06-28 07:05:33] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-06-28 07:05:33] INFO root fetch - main [MainThread]: Store serial: [18674658]
