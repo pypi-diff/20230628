@@ -14456,3 +14456,38 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 06:01:19] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230626.tar.gz]
 [2023-06-28 06:01:19] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
 [2023-06-28 06:01:19] INFO root fetch - main [MainThread]: Store serial: [18674398]
+[2023-06-28 06:06:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674398]
+[2023-06-28 06:06:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-28 06:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangounittest
+[2023-06-28 06:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-l10n-es-ticketbai
+[2023-06-28 06:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: m23
+[2023-06-28 06:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-google-beta
+[2023-06-28 06:06:28] INFO root fetch - processPackages [m23]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-06-28 06:06:28] INFO root fetch - processPackages [djangounittest]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-28 06:06:28] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: New version: [12.0.2.7.8] Old Version: [12.0.2.7.7.99.dev1]
+[2023-06-28 06:06:28] INFO root fetch - processPackages [djangounittest]: Downloading https://files.pythonhosted.org/packages/36/14/c22c9c2bede334c12a4cb01b8fa3e8d621e6bac652e9b795b3a829ebf4bf/djangounittest-0.2.2.tar.gz
+[2023-06-28 06:06:28] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/25/1b/1cd98c7359d0d7840ad83680e5f0bb5c3ad5d40ae326078dcec90b87590d/m23-1.9.3.tar.gz
+[2023-06-28 06:06:28] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/91/e6/401a97448233f86ab4b985ba1e69b741dc7f24cd7e4a2d8ff6acc8bb755f/odoo12_addon_l10n_es_ticketbai-12.0.2.7.7.99.dev1-py3-none-any.whl
+[2023-06-28 06:06:28] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: New version: [8.0.2] Old Version: [8.0.1]
+[2023-06-28 06:06:28] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/f8/17/4c3aaf888ca9c095e4fd3d36cfa500554cba0933fab262c42443e75bd3d2/odoo12_addon_l10n_es_ticketbai-12.0.2.7.8-py3-none-any.whl
+[2023-06-28 06:06:28] INFO root fetch - processPackages [djangounittest]: Downloading https://files.pythonhosted.org/packages/a5/f0/9f13a30d8fd10d86508debd27cccb4bf12f47ca5e2cbff48f57b13acc64a/djangounittest-0.2.3.tar.gz
+[2023-06-28 06:06:28] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/b7/73/ef1e5a9923185ad2d38db84efb87e8d93114907ae85cca94cb643e419634/m23-1.9.4.tar.gz
+[2023-06-28 06:06:28] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: executing diffoscope
+[2023-06-28 06:06:28] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_es_ticketbai-12.0.2.7.7.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_l10n_es_ticketbai-12.0.2.7.8-py3-none-any.whl.zip --markdown 20230628/o/odoo12-addon-l10n-es-ticketbai/12.0.2.7.7.99.dev1-12.0.2.7.8/diff.md --exclude *.pyd
+[2023-06-28 06:06:28] INFO root fetch - processPackages [djangounittest]: executing diffoscope
+[2023-06-28 06:06:28] INFO root fetch - processPackages [djangounittest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangounittest-0.2.2.tar.gz tmp/djangounittest-0.2.3.tar.gz --markdown 20230628/d/djangounittest/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-28 06:06:28] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Downloading https://files.pythonhosted.org/packages/ff/5a/f6cc30056083bf533e2cbc695a22f1d60676a2c44048d7500d0ad2354b93/cdktf-cdktf-provider-google_beta-8.0.1.tar.gz
+[2023-06-28 06:06:28] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-06-28 06:06:28] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.9.3.tar.gz tmp/m23-1.9.4.tar.gz --markdown 20230628/m/m23/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-06-28 06:06:28] WARNING root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Skipping package: exceeds size limit 22964247>=10485760
+[2023-06-28 06:06:28] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google-beta] error
+[2023-06-28 06:06:29] INFO root fetch - processPackages [djangounittest]: Remove: archive file [/home/abi/fetcher/tmp/djangounittest-0.2.2.tar.gz]
+[2023-06-28 06:06:29] INFO root fetch - processPackages [djangounittest]: Remove: archive file [/home/abi/fetcher/tmp/djangounittest-0.2.3.tar.gz]
+[2023-06-28 06:06:29] INFO root fetch - main [MainThread]: End processing [djangounittest]: success
+[2023-06-28 06:06:29] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_es_ticketbai-12.0.2.7.7.99.dev1-py3-none-any.whl.zip]
+[2023-06-28 06:06:29] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_es_ticketbai-12.0.2.7.8-py3-none-any.whl.zip]
+[2023-06-28 06:06:29] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-es-ticketbai]: success
+[2023-06-28 06:06:30] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.3.tar.gz]
+[2023-06-28 06:06:30] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
+[2023-06-28 06:06:30] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-06-28 06:06:30] INFO root fetch - main [MainThread]: Store serial: [18674408]
