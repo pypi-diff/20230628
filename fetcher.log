@@ -21112,3 +21112,177 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 11:52:05] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
 [2023-06-28 11:52:05] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
 [2023-06-28 11:52:05] INFO root fetch - main [MainThread]: Store serial: [18677241]
+[2023-06-28 11:57:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18677241]
+[2023-06-28 11:57:15] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-28 11:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nomad-camels-driver-agilent-34401
+[2023-06-28 11:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qqq-test-hjahd
+[2023-06-28 11:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-stock-analytic
+[2023-06-28 11:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycargoebuild
+[2023-06-28 11:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-base-cancel-confirm
+[2023-06-28 11:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-snapshot-analysis
+[2023-06-28 11:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scinumtools
+[2023-06-28 11:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hydrusvideodeduplicator
+[2023-06-28 11:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bkapi-plugins-py
+[2023-06-28 11:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-cicd-base
+[2023-06-28 11:57:15] INFO root fetch - processPackages [odoo-addon-base-cancel-confirm]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-06-28 11:57:15] INFO root fetch - processPackages [scinumtools]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-28 11:57:15] WARNING root fetch - processPackages [qqq-test-hjahd]: Skipping, unable to determine old version
+[2023-06-28 11:57:15] INFO root fetch - processPackages [qqq-test-hjahd]: Start processing: gardener-cicd-cli
+[2023-06-28 11:57:15] WARNING root fetch - processPackages [nomad-camels-driver-agilent-34401]: Skipping, unable to determine old version
+[2023-06-28 11:57:15] INFO root fetch - main [MainThread]: End processing [qqq-test-hjahd] error
+[2023-06-28 11:57:15] INFO root fetch - processPackages [nomad-camels-driver-agilent-34401]: Start processing: gardener-cicd-dso
+[2023-06-28 11:57:15] INFO root fetch - processPackages [odoo13-addon-stock-analytic]: New version: [13.0.1.1.0] Old Version: [13.0.1.0.2.dev2]
+[2023-06-28 11:57:15] INFO root fetch - processPackages [pycargoebuild]: New version: [0.9] Old Version: [0.8]
+[2023-06-28 11:57:15] INFO root fetch - main [MainThread]: End processing [nomad-camels-driver-agilent-34401] error
+[2023-06-28 11:57:15] INFO root fetch - processPackages [hydrusvideodeduplicator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 11:57:15] INFO root fetch - processPackages [dbt-snapshot-analysis]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-28 11:57:15] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.6281] Old Version: [0.628]
+[2023-06-28 11:57:15] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2099.0] Old Version: [1.2098.0]
+[2023-06-28 11:57:15] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2099.0] Old Version: [1.2098.0]
+[2023-06-28 11:57:15] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2099.0] Old Version: [1.2098.0]
+[2023-06-28 11:57:15] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/11/73/bf08363588e0cb5fdd959166579e7fe76d20b2627fe1706a317929d19320/scinumtools-1.5.2.tar.gz
+[2023-06-28 11:57:15] INFO root fetch - processPackages [pycargoebuild]: Downloading https://files.pythonhosted.org/packages/72/6a/226eae295b2ac2d3aa4df8c1afcc14653cef4143e82c26c500491cb4e870/pycargoebuild-0.8.tar.gz
+[2023-06-28 11:57:15] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/9e/7f/1ca7710c3caf8882500c947a59c6bc3a5ff3e3fef62ac8eee55ede556403/hydrusvideodeduplicator-0.1.8.tar.gz
+[2023-06-28 11:57:15] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/77/1d/9ae230d4e529d333f7290d75db4abdc017222c40cffbb0b7dfd958a12583/gardener-cicd-base-1.2098.0.tar.gz
+[2023-06-28 11:57:15] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/91/a5/f002c6d7006d93b69f2687e592fa55ad9b8be0772901975273ad8d036328/gardener-cicd-cli-1.2098.0.tar.gz
+[2023-06-28 11:57:15] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/92/9d/e488394b4eeef45fe5c8eeaa0e27253b8d49cb611c8955c96a08d4826dd7/bkapi-plugins-py-0.628.tar.gz
+[2023-06-28 11:57:15] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/19/7a/1fa6a7e5958abdaaad987c2ff819617c0da80cd40f85120df3d563c66861/gardener-cicd-dso-1.2098.0.tar.gz
+[2023-06-28 11:57:15] INFO root fetch - processPackages [odoo-addon-base-cancel-confirm]: Downloading https://files.pythonhosted.org/packages/05/13/cd5bf944a83dd19275e8d9676de58d8eea9b5e907419a0f04f7b3f00578c/odoo_addon_base_cancel_confirm-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-28 11:57:15] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/26/b1/81e3c94beedc0ef950c2eaf14a3f18e55b160a9eb15647a97fbea97f60b7/hydrusvideodeduplicator-0.1.9.tar.gz
+[2023-06-28 11:57:15] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/75/95/5763eb9aa7ec5def9c3dcf53d456dbbaf8b39c1b998a8af388b53d828900/dbt_snapshot_analysis-0.2.6.tar.gz
+[2023-06-28 11:57:15] INFO root fetch - processPackages [odoo13-addon-stock-analytic]: Downloading https://files.pythonhosted.org/packages/69/67/590fff20e0178d4285f53a09407705bd8f918e201d4ffb2ece7ad9c9d946/odoo13_addon_stock_analytic-13.0.1.0.2.dev2-py3-none-any.whl
+[2023-06-28 11:57:15] INFO root fetch - processPackages [hydrusvideodeduplicator]: executing diffoscope
+[2023-06-28 11:57:15] INFO root fetch - processPackages [hydrusvideodeduplicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrusvideodeduplicator-0.1.8.tar.gz tmp/hydrusvideodeduplicator-0.1.9.tar.gz --markdown 20230628/h/hydrusvideodeduplicator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 11:57:15] INFO root fetch - processPackages [pycargoebuild]: Downloading https://files.pythonhosted.org/packages/bd/ef/27f46f9896cd0f2aa028fd919ae017fec2e0b0238105610fc2095fea8b85/pycargoebuild-0.9.tar.gz
+[2023-06-28 11:57:15] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/f1/62/1372c932f2ae19712857dd3e959375459b4a3a96a40f56d9e1db33f8c443/gardener-cicd-base-1.2099.0.tar.gz
+[2023-06-28 11:57:15] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/70/82/ea44eecc3a2585b04fd90fd946b41bf3e7477c910fb821ec596f3b37a3db/gardener-cicd-cli-1.2099.0.tar.gz
+[2023-06-28 11:57:16] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-06-28 11:57:16] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2098.0.tar.gz tmp/gardener-cicd-base-1.2099.0.tar.gz --markdown 20230628/g/gardener-cicd-base/1.2098.0-1.2099.0/diff.md --exclude *.pyd
+[2023-06-28 11:57:16] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-06-28 11:57:16] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2098.0.tar.gz tmp/gardener-cicd-cli-1.2099.0.tar.gz --markdown 20230628/g/gardener-cicd-cli/1.2098.0-1.2099.0/diff.md --exclude *.pyd
+[2023-06-28 11:57:16] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/84/9c/dd118b9d9a4c787378c4f66c5a1a68202bcee8a1e74df06c794031b48ba4/scinumtools-1.5.3.tar.gz
+[2023-06-28 11:57:16] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/48/77/acbb4e853aa020e7182f304987ceae6dd8bba23992af769c153df2e68dbd/gardener-cicd-dso-1.2099.0.tar.gz
+[2023-06-28 11:57:16] INFO root fetch - processPackages [pycargoebuild]: executing diffoscope
+[2023-06-28 11:57:16] INFO root fetch - processPackages [pycargoebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycargoebuild-0.8.tar.gz tmp/pycargoebuild-0.9.tar.gz --markdown 20230628/p/pycargoebuild/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-28 11:57:16] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/3c/19/70dce8d11ae6488e1c0e3278ad603087652868a5b7148557944c29d15b14/dbt_snapshot_analysis-0.2.7.tar.gz
+[2023-06-28 11:57:16] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/0a/cd/e136cc4d2bfc26858bcb477c6ad453237825814d92d522b07a2da9d0d60e/bkapi-plugins-py-0.6281.tar.gz
+[2023-06-28 11:57:16] INFO root fetch - processPackages [scinumtools]: executing diffoscope
+[2023-06-28 11:57:16] INFO root fetch - processPackages [scinumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scinumtools-1.5.2.tar.gz tmp/scinumtools-1.5.3.tar.gz --markdown 20230628/s/scinumtools/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-28 11:57:16] INFO root fetch - processPackages [odoo-addon-base-cancel-confirm]: Downloading https://files.pythonhosted.org/packages/2a/4b/fe16498f98ee35bfc29aa1030f6ccd235b1773a2cc636412805f935460b8/odoo_addon_base_cancel_confirm-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-28 11:57:16] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-06-28 11:57:16] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2098.0.tar.gz tmp/gardener-cicd-dso-1.2099.0.tar.gz --markdown 20230628/g/gardener-cicd-dso/1.2098.0-1.2099.0/diff.md --exclude *.pyd
+[2023-06-28 11:57:16] INFO root fetch - processPackages [odoo13-addon-stock-analytic]: Downloading https://files.pythonhosted.org/packages/53/6d/79e3882bf03d192ada235ae94ba89bacec46194dceda3acaefdec253c7e5/odoo13_addon_stock_analytic-13.0.1.1.0-py3-none-any.whl
+[2023-06-28 11:57:16] INFO root fetch - processPackages [bkapi-plugins-py]: executing diffoscope
+[2023-06-28 11:57:16] INFO root fetch - processPackages [bkapi-plugins-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkapi-plugins-py-0.628.tar.gz tmp/bkapi-plugins-py-0.6281.tar.gz --markdown 20230628/b/bkapi-plugins-py/0.628-0.6281/diff.md --exclude *.pyd
+[2023-06-28 11:57:16] INFO root fetch - processPackages [dbt-snapshot-analysis]: executing diffoscope
+[2023-06-28 11:57:16] INFO root fetch - processPackages [dbt-snapshot-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_snapshot_analysis-0.2.6.tar.gz tmp/dbt_snapshot_analysis-0.2.7.tar.gz --markdown 20230628/d/dbt-snapshot-analysis/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-28 11:57:16] INFO root fetch - processPackages [odoo-addon-base-cancel-confirm]: executing diffoscope
+[2023-06-28 11:57:16] INFO root fetch - processPackages [odoo-addon-base-cancel-confirm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_cancel_confirm-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_cancel_confirm-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-base-cancel-confirm/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-28 11:57:16] INFO root fetch - processPackages [odoo13-addon-stock-analytic]: executing diffoscope
+[2023-06-28 11:57:16] INFO root fetch - processPackages [odoo13-addon-stock-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_stock_analytic-13.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo13_addon_stock_analytic-13.0.1.1.0-py3-none-any.whl.zip --markdown 20230628/o/odoo13-addon-stock-analytic/13.0.1.0.2.dev2-13.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-28 11:57:17] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.8.tar.gz]
+[2023-06-28 11:57:17] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.9.tar.gz]
+[2023-06-28 11:57:17] INFO root fetch - processPackages [hydrusvideodeduplicator]: Start processing: gardener-cicd-libs
+[2023-06-28 11:57:17] INFO root fetch - main [MainThread]: End processing [hydrusvideodeduplicator]: success
+[2023-06-28 11:57:17] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2099.0] Old Version: [1.2098.0]
+[2023-06-28 11:57:17] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/ed/00/f1b0eb847e9d6b9a2b572cfba04b08982e7245697a7028bdf155ebc54082/gardener-cicd-libs-1.2098.0.tar.gz
+[2023-06-28 11:57:17] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/f6/71/4bcf1edbe2283cca0450b49352c2e9062a23dcef6f3a7b7a0eb50fcd40d8/gardener-cicd-libs-1.2099.0.tar.gz
+[2023-06-28 11:57:17] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-06-28 11:57:17] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2098.0.tar.gz tmp/gardener-cicd-libs-1.2099.0.tar.gz --markdown 20230628/g/gardener-cicd-libs/1.2098.0-1.2099.0/diff.md --exclude *.pyd
+[2023-06-28 11:57:17] INFO root fetch - processPackages [pycargoebuild]: Remove: archive file [/home/abi/fetcher/tmp/pycargoebuild-0.8.tar.gz]
+[2023-06-28 11:57:17] INFO root fetch - processPackages [pycargoebuild]: Remove: archive file [/home/abi/fetcher/tmp/pycargoebuild-0.9.tar.gz]
+[2023-06-28 11:57:17] INFO root fetch - processPackages [pycargoebuild]: Start processing: gardener-cicd-whd
+[2023-06-28 11:57:17] INFO root fetch - main [MainThread]: End processing [pycargoebuild]: success
+[2023-06-28 11:57:17] INFO root fetch - processPackages [odoo-addon-base-cancel-confirm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_cancel_confirm-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-28 11:57:17] INFO root fetch - processPackages [odoo-addon-base-cancel-confirm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_cancel_confirm-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-28 11:57:17] INFO root fetch - processPackages [odoo-addon-base-cancel-confirm]: Start processing: gardener-oci
+[2023-06-28 11:57:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-cancel-confirm]: success
+[2023-06-28 11:57:17] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2099.0] Old Version: [1.2098.0]
+[2023-06-28 11:57:17] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-06-28 11:57:17] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/64/b7/705f54e9bcdd29588cb80c24a48268ecc88c7f8afef020d8433550bedb6a/gardener-cicd-whd-1.2098.0.tar.gz
+[2023-06-28 11:57:17] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-06-28 11:57:18] INFO root fetch - processPackages [dbt-snapshot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snapshot_analysis-0.2.6.tar.gz]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [dbt-snapshot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snapshot_analysis-0.2.7.tar.gz]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [dbt-snapshot-analysis]: Start processing: odoo-addon-sale-product-category-menu
+[2023-06-28 11:57:18] INFO root fetch - main [MainThread]: End processing [dbt-snapshot-analysis]: success
+[2023-06-28 11:57:18] INFO root fetch - processPackages [odoo-addon-sale-product-category-menu]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.4]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2098.0.tar.gz]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2099.0.tar.gz]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: cloudpy-org
+[2023-06-28 11:57:18] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-06-28 11:57:18] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-06-28 11:57:18] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.628.tar.gz]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.6281.tar.gz]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [bkapi-plugins-py]: Start processing: pyfirebird
+[2023-06-28 11:57:18] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py]: success
+[2023-06-28 11:57:18] INFO root fetch - processPackages [cloudpy-org]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.56] Old Version: [0.0.55]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/71/a8/0a146d10a349657b769fc2c1f75e04679cd92ca188871151a24745db1471/gardener-cicd-whd-1.2099.0.tar.gz
+[2023-06-28 11:57:18] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-06-28 11:57:18] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230628/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-06-28 11:57:18] INFO root fetch - processPackages [odoo13-addon-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_stock_analytic-13.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [odoo13-addon-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_stock_analytic-13.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [odoo13-addon-stock-analytic]: Start processing: memorix-client-redis
+[2023-06-28 11:57:18] INFO root fetch - main [MainThread]: End processing [odoo13-addon-stock-analytic]: success
+[2023-06-28 11:57:18] INFO root fetch - processPackages [memorix-client-redis]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/e0/ad/1db3581bef3e921482a246f49b208d78e70759f861d0e93065a03725d47f/pyfirebird-0.0.55.tar.gz
+[2023-06-28 11:57:18] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/63/d9/40c4a492b82cc3391581f23131a48ec77d73d85f50c891d9485d023e7bc7/cloudpy_org-1.3.8.tar.gz
+[2023-06-28 11:57:18] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-06-28 11:57:18] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2098.0.tar.gz tmp/gardener-cicd-whd-1.2099.0.tar.gz --markdown 20230628/g/gardener-cicd-whd/1.2098.0-1.2099.0/diff.md --exclude *.pyd
+[2023-06-28 11:57:18] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2098.0.tar.gz]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2099.0.tar.gz]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: LLM-Toolbox
+[2023-06-28 11:57:18] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-06-28 11:57:18] INFO root fetch - processPackages [odoo-addon-sale-product-category-menu]: Downloading https://files.pythonhosted.org/packages/8f/e8/9319c4655d7553edb4c4fbc8b2b91b82445c94758bd42cd5a3180335d1ae/odoo_addon_sale_product_category_menu-15.0.1.0.0.4-py3-none-any.whl
+[2023-06-28 11:57:18] INFO root fetch - processPackages [LLM-Toolbox]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/ae/9a/dcd93feceadff40e40ee6bec470823163a713f2b6a2c333f3d8405121800/LLM-Toolbox-0.1.5.tar.gz
+[2023-06-28 11:57:18] INFO root fetch - processPackages [memorix-client-redis]: Downloading https://files.pythonhosted.org/packages/d3/a2/527210f451ebae7461041b00156e66dc038bfa58253ad10eed37b33651df/memorix_client_redis-1.4.7.tar.gz
+[2023-06-28 11:57:18] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/16/ae/f9aade1bcd63807cb9028747f7de8591dc9a9f19ce53e560fff85efb39fa/pyfirebird-0.0.56.tar.gz
+[2023-06-28 11:57:18] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/5c/f1/8b3fc3da0219d88c12c0e21e8ad2d87cf10f18f67eb045746eaaaa28b2ff/LLM-Toolbox-0.1.6.tar.gz
+[2023-06-28 11:57:18] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/15/4a/1c3ee5daac902ee1cbdc8fa848c61f4df0ef842ec77a4f0441ef3826cf78/cloudpy_org-1.3.9.tar.gz
+[2023-06-28 11:57:18] INFO root fetch - processPackages [LLM-Toolbox]: executing diffoscope
+[2023-06-28 11:57:18] INFO root fetch - processPackages [LLM-Toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LLM-Toolbox-0.1.5.tar.gz tmp/LLM-Toolbox-0.1.6.tar.gz --markdown 20230628/L/LLM-Toolbox/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-28 11:57:18] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.5.2.tar.gz]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.5.3.tar.gz]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [scinumtools]: Start processing: zcb-dbutils
+[2023-06-28 11:57:18] INFO root fetch - main [MainThread]: End processing [scinumtools]: success
+[2023-06-28 11:57:18] INFO root fetch - processPackages [odoo-addon-sale-product-category-menu]: Downloading https://files.pythonhosted.org/packages/15/85/0893b16ea159cd49466ed5cd9e81d280db19bc497a27f3d3b46e94366643/odoo_addon_sale_product_category_menu-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-28 11:57:18] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2098.0.tar.gz]
+[2023-06-28 11:57:18] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2099.0.tar.gz]
+[2023-06-28 11:57:18] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-06-28 11:57:18] INFO root fetch - processPackages [memorix-client-redis]: Downloading https://files.pythonhosted.org/packages/e5/9c/f22304634915f9c10a64aa6c2557b069266d30cc72eb856c9bc3321b8e00/memorix_client_redis-1.4.8.tar.gz
+[2023-06-28 11:57:18] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-06-28 11:57:18] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.55.tar.gz tmp/pyfirebird-0.0.56.tar.gz --markdown 20230628/p/pyfirebird/0.0.55-0.0.56/diff.md --exclude *.pyd
+[2023-06-28 11:57:18] INFO root fetch - processPackages [cloudpy-org]: executing diffoscope
+[2023-06-28 11:57:18] INFO root fetch - processPackages [cloudpy-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpy_org-1.3.8.tar.gz tmp/cloudpy_org-1.3.9.tar.gz --markdown 20230628/c/cloudpy-org/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-28 11:57:18] WARNING root fetch - processPackages [zcb-dbutils]: Skipping, unable to determine old version
+[2023-06-28 11:57:18] INFO root fetch - main [MainThread]: End processing [zcb-dbutils] error
+[2023-06-28 11:57:18] INFO root fetch - processPackages [odoo-addon-sale-product-category-menu]: executing diffoscope
+[2023-06-28 11:57:18] INFO root fetch - processPackages [odoo-addon-sale-product-category-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_product_category_menu-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_sale_product_category_menu-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-sale-product-category-menu/15.0.1.0.0.4-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-28 11:57:18] INFO root fetch - processPackages [memorix-client-redis]: executing diffoscope
+[2023-06-28 11:57:18] INFO root fetch - processPackages [memorix-client-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memorix_client_redis-1.4.7.tar.gz tmp/memorix_client_redis-1.4.8.tar.gz --markdown 20230628/m/memorix-client-redis/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-06-28 11:57:19] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-06-28 11:57:19] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-06-28 11:57:19] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-06-28 11:57:20] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.5.tar.gz]
+[2023-06-28 11:57:20] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.6.tar.gz]
+[2023-06-28 11:57:20] INFO root fetch - main [MainThread]: End processing [LLM-Toolbox]: success
+[2023-06-28 11:57:20] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.3.8.tar.gz]
+[2023-06-28 11:57:20] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.3.9.tar.gz]
+[2023-06-28 11:57:20] INFO root fetch - main [MainThread]: End processing [cloudpy-org]: success
+[2023-06-28 11:57:20] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2098.0.tar.gz]
+[2023-06-28 11:57:20] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2099.0.tar.gz]
+[2023-06-28 11:57:20] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-06-28 11:57:20] INFO root fetch - processPackages [odoo-addon-sale-product-category-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_product_category_menu-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-28 11:57:20] INFO root fetch - processPackages [odoo-addon-sale-product-category-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_product_category_menu-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-28 11:57:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-product-category-menu]: success
+[2023-06-28 11:57:20] INFO root fetch - processPackages [memorix-client-redis]: Remove: archive file [/home/abi/fetcher/tmp/memorix_client_redis-1.4.7.tar.gz]
+[2023-06-28 11:57:20] INFO root fetch - processPackages [memorix-client-redis]: Remove: archive file [/home/abi/fetcher/tmp/memorix_client_redis-1.4.8.tar.gz]
+[2023-06-28 11:57:20] INFO root fetch - main [MainThread]: End processing [memorix-client-redis]: success
+[2023-06-28 11:57:20] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.55.tar.gz]
+[2023-06-28 11:57:20] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.56.tar.gz]
+[2023-06-28 11:57:20] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-06-28 11:57:20] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2098.0.tar.gz]
+[2023-06-28 11:57:20] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2099.0.tar.gz]
+[2023-06-28 11:57:20] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-06-28 11:57:20] INFO root fetch - main [MainThread]: Store serial: [18677308]
