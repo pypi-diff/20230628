@@ -20983,3 +20983,132 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 11:46:43] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.6.6.tar.gz]
 [2023-06-28 11:46:43] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
 [2023-06-28 11:46:43] INFO root fetch - main [MainThread]: Store serial: [18677192]
+[2023-06-28 11:51:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18677192]
+[2023-06-28 11:51:54] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-28 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genworlds
+[2023-06-28 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resolwe-bio
+[2023-06-28 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinxcontrib-cadquery
+[2023-06-28 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: storage-device-managers
+[2023-06-28 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartapi-python
+[2023-06-28 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rtc-tools-interface
+[2023-06-28 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygame-ecs
+[2023-06-28 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: molgenis-emx2-pyclient
+[2023-06-28 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modal-client
+[2023-06-28 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: JustScan
+[2023-06-28 11:51:55] WARNING root fetch - processPackages [genworlds]: Skipping, unable to determine old version
+[2023-06-28 11:51:55] INFO root fetch - processPackages [genworlds]: Start processing: modal
+[2023-06-28 11:51:55] INFO root fetch - main [MainThread]: End processing [genworlds] error
+[2023-06-28 11:51:55] INFO root fetch - processPackages [pygame-ecs]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-28 11:51:55] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-28 11:51:55] INFO root fetch - processPackages [smartapi-python]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-28 11:51:55] INFO root fetch - processPackages [resolwe-bio]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-06-28 11:51:55] INFO root fetch - processPackages [storage-device-managers]: New version: [0.9.0] Old Version: [0.12.0]
+[2023-06-28 11:51:55] INFO root fetch - processPackages [sphinxcontrib-cadquery]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-28 11:51:55] INFO root fetch - processPackages [rtc-tools-interface]: New version: [0.0.1b3] Old Version: [0.0.1b2]
+[2023-06-28 11:51:55] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.198.4] Old Version: [8.198.3]
+[2023-06-28 11:51:55] INFO root fetch - processPackages [modal]: New version: [0.49.2504] Old Version: [0.49.2500]
+[2023-06-28 11:51:55] INFO root fetch - processPackages [modal-client]: New version: [0.49.2504] Old Version: [0.49.2500]
+[2023-06-28 11:51:55] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-28 11:51:55] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/34/eb/20a98aefb0d98a6744e9bb8886facaca8dab5f0d8b1f9773fcc4fc6ba6cb/molgenis_emx2_pyclient-8.198.3.tar.gz
+[2023-06-28 11:51:55] INFO root fetch - processPackages [pygame-ecs]: Downloading https://files.pythonhosted.org/packages/56/69/e9852db89f1d9e4aeec7cba2c8a1bd2acf1d381a2d8f02ec5a72c260f799/pygame_ecs-0.2.5.tar.gz
+[2023-06-28 11:51:55] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/6a/1f/d37c14cf0fd700466eea3dc8ae06e617be817526e7f5923176cd79430349/modal-0.49.2500-py3-none-any.whl
+[2023-06-28 11:51:55] INFO root fetch - processPackages [rtc-tools-interface]: Downloading https://files.pythonhosted.org/packages/1b/07/1fa56b38f7830addcb710bced0e2559cfb096b5da720479f8d81ec98df91/rtc-tools-interface-0.0.1b2.tar.gz
+[2023-06-28 11:51:55] INFO root fetch - processPackages [storage-device-managers]: Downloading https://files.pythonhosted.org/packages/b5/c5/621c315ffedb3045dd73cb2c889edbe590eafabeefcaaeb9e04afa65ab4d/storage_device_managers-0.12.0.tar.gz
+[2023-06-28 11:51:55] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-28 11:51:55] INFO root fetch - processPackages [smartapi-python]: Downloading https://files.pythonhosted.org/packages/b4/b3/3385194db0839c9e94aaa1644b6d954b443f7a2ad2c955c942ac84bdf686/smartapi-python-1.3.0.tar.gz
+[2023-06-28 11:51:55] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c2/bc/f6993bc75941b8f8244e41353c3ec4b4e616477c70876197f0e454cf674e/resolwe-bio-9.0.0a3.tar.gz
+[2023-06-28 11:51:55] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d3/cc/b27c5fb4f22bc0f8ccf4c8d658b520163bf333f1208646048c9aff6b154c/modal_client-0.49.2500-py3-none-any.whl
+[2023-06-28 11:51:55] INFO root fetch - processPackages [sphinxcontrib-cadquery]: Downloading https://files.pythonhosted.org/packages/5b/fb/f8a83f86c5941ebdf2cf198ea048d514c3c61914e9d5ec96fde79786dcf3/sphinxcontrib_cadquery-0.7.0.tar.gz
+[2023-06-28 11:51:55] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/71/f3/d64cb5894097116913456515dd39f6cdfd8b5e7d7e8de28e3a82c38cf318/molgenis_emx2_pyclient-8.198.4.tar.gz
+[2023-06-28 11:51:55] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-28 11:51:55] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230628/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-28 11:51:55] INFO root fetch - processPackages [rtc-tools-interface]: Downloading https://files.pythonhosted.org/packages/fe/cd/f42eb334103d73cb549b8bfc892716b18328c3f3db69978a3684f15c70d4/rtc-tools-interface-0.0.1b3.tar.gz
+[2023-06-28 11:51:55] INFO root fetch - processPackages [pygame-ecs]: Downloading https://files.pythonhosted.org/packages/f0/6a/1e0e37b53adf5b799ec6cf6bc58114f8afd1a16a82bc7f0b014a75b6a720/pygame_ecs-0.2.6.tar.gz
+[2023-06-28 11:51:55] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/e5/2b/759e758b0b1de3c48bb993faeacd6f306599884ba18b84f60c39bd2b7be7/modal-0.49.2504-py3-none-any.whl
+[2023-06-28 11:51:55] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-06-28 11:51:55] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.198.3.tar.gz tmp/molgenis_emx2_pyclient-8.198.4.tar.gz --markdown 20230628/m/molgenis-emx2-pyclient/8.198.3-8.198.4/diff.md --exclude *.pyd
+[2023-06-28 11:51:55] INFO root fetch - processPackages [pygame-ecs]: executing diffoscope
+[2023-06-28 11:51:55] INFO root fetch - processPackages [pygame-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame_ecs-0.2.5.tar.gz tmp/pygame_ecs-0.2.6.tar.gz --markdown 20230628/p/pygame-ecs/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-28 11:51:55] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-06-28 11:51:55] INFO root fetch - processPackages [storage-device-managers]: Downloading https://files.pythonhosted.org/packages/9e/c7/eb6f81f2a2f255c9999537ed11a4d05bf9c148cd3266cb1f8d8a7db61b54/storage_device_managers-0.9.0.tar.gz
+[2023-06-28 11:51:55] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.49.2500-py3-none-any.whl.zip tmp/modal-0.49.2504-py3-none-any.whl.zip --markdown 20230628/m/modal/0.49.2500-0.49.2504/diff.md --exclude *.pyd
+[2023-06-28 11:51:55] INFO root fetch - processPackages [smartapi-python]: Downloading https://files.pythonhosted.org/packages/ea/0a/e681293eebb143215ed8def558d8715de30e82a5b029b8d2dc0eb455d518/smartapi-python-1.3.1.tar.gz
+[2023-06-28 11:51:55] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/39/5a/a4bd81270e1ac2a16c7479619ea70bdde1b5118fba5a41d5bca7cd8c805b/modal_client-0.49.2504-py3-none-any.whl
+[2023-06-28 11:51:55] INFO root fetch - processPackages [rtc-tools-interface]: executing diffoscope
+[2023-06-28 11:51:55] INFO root fetch - processPackages [rtc-tools-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtc-tools-interface-0.0.1b2.tar.gz tmp/rtc-tools-interface-0.0.1b3.tar.gz --markdown 20230628/r/rtc-tools-interface/0.0.1b2-0.0.1b3/diff.md --exclude *.pyd
+[2023-06-28 11:51:55] INFO root fetch - processPackages [smartapi-python]: executing diffoscope
+[2023-06-28 11:51:55] INFO root fetch - processPackages [smartapi-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartapi-python-1.3.0.tar.gz tmp/smartapi-python-1.3.1.tar.gz --markdown 20230628/s/smartapi-python/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-28 11:51:55] INFO root fetch - processPackages [storage-device-managers]: executing diffoscope
+[2023-06-28 11:51:55] INFO root fetch - processPackages [storage-device-managers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storage_device_managers-0.12.0.tar.gz tmp/storage_device_managers-0.9.0.tar.gz --markdown 20230628/s/storage-device-managers/0.12.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 11:51:55] INFO root fetch - processPackages [sphinxcontrib-cadquery]: Downloading https://files.pythonhosted.org/packages/18/c9/d1c30824c1ad93794b647e078e156f11db69d941608b0cb6e13796466954/sphinxcontrib_cadquery-0.8.0.tar.gz
+[2023-06-28 11:51:55] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-06-28 11:51:55] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2500-py3-none-any.whl.zip tmp/modal_client-0.49.2504-py3-none-any.whl.zip --markdown 20230628/m/modal-client/0.49.2500-0.49.2504/diff.md --exclude *.pyd
+[2023-06-28 11:51:55] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c9/30/533d131f30f01305f0d25555f7e3eaa209d8400cd99b38de17dfec330f11/resolwe-bio-9.0.0a4.tar.gz
+[2023-06-28 11:51:55] INFO root fetch - processPackages [sphinxcontrib-cadquery]: executing diffoscope
+[2023-06-28 11:51:55] INFO root fetch - processPackages [sphinxcontrib-cadquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib_cadquery-0.7.0.tar.gz tmp/sphinxcontrib_cadquery-0.8.0.tar.gz --markdown 20230628/s/sphinxcontrib-cadquery/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-28 11:51:55] INFO root fetch - processPackages [resolwe-bio]: executing diffoscope
+[2023-06-28 11:51:55] INFO root fetch - processPackages [resolwe-bio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-bio-9.0.0a3.tar.gz tmp/resolwe-bio-9.0.0a4.tar.gz --markdown 20230628/r/resolwe-bio/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-06-28 11:51:57] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2500-py3-none-any.whl.zip]
+[2023-06-28 11:51:57] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2504-py3-none-any.whl.zip]
+[2023-06-28 11:51:57] INFO root fetch - processPackages [modal]: Start processing: dargus
+[2023-06-28 11:51:57] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-06-28 11:51:57] INFO root fetch - processPackages [dargus]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-28 11:51:57] INFO root fetch - processPackages [storage-device-managers]: Remove: archive file [/home/abi/fetcher/tmp/storage_device_managers-0.12.0.tar.gz]
+[2023-06-28 11:51:57] INFO root fetch - processPackages [storage-device-managers]: Remove: archive file [/home/abi/fetcher/tmp/storage_device_managers-0.9.0.tar.gz]
+[2023-06-28 11:51:57] INFO root fetch - processPackages [storage-device-managers]: Start processing: domino-composite-examples
+[2023-06-28 11:51:57] INFO root fetch - main [MainThread]: End processing [storage-device-managers]: success
+[2023-06-28 11:51:57] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.198.3.tar.gz]
+[2023-06-28 11:51:57] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.198.4.tar.gz]
+[2023-06-28 11:51:57] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Start processing: piel
+[2023-06-28 11:51:57] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-06-28 11:51:57] WARNING root fetch - processPackages [domino-composite-examples]: Skipping, unable to determine old version
+[2023-06-28 11:51:57] INFO root fetch - processPackages [domino-composite-examples]: Start processing: quote4py
+[2023-06-28 11:51:57] INFO root fetch - main [MainThread]: End processing [domino-composite-examples] error
+[2023-06-28 11:51:57] INFO root fetch - processPackages [quote4py]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-28 11:51:57] INFO root fetch - processPackages [piel]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-06-28 11:51:57] INFO root fetch - processPackages [dargus]: Downloading https://files.pythonhosted.org/packages/4c/e6/dca330a244458c9687784d898c6cab6a9a8929a2f6633b4e0d6c45561b4e/dargus-1.1.1.tar.gz
+[2023-06-28 11:51:57] INFO root fetch - processPackages [pygame-ecs]: Remove: archive file [/home/abi/fetcher/tmp/pygame_ecs-0.2.5.tar.gz]
+[2023-06-28 11:51:57] INFO root fetch - processPackages [pygame-ecs]: Remove: archive file [/home/abi/fetcher/tmp/pygame_ecs-0.2.6.tar.gz]
+[2023-06-28 11:51:57] INFO root fetch - processPackages [pygame-ecs]: Start processing: nomad-camels-driver-agilent-34401
+[2023-06-28 11:51:57] INFO root fetch - main [MainThread]: End processing [pygame-ecs]: success
+[2023-06-28 11:51:57] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/cf/7d/04dc9df270dd2ebe8b9d876f811c96b3638562e9381a7f977f5ec1787097/piel-0.0.32.tar.gz
+[2023-06-28 11:51:57] INFO root fetch - processPackages [quote4py]: Downloading https://files.pythonhosted.org/packages/9c/66/a0aca29115045ad9c10e7e2b85263b663e26c0af5d2edc7f0fb821467f90/quote4py-1.1.1-py3-none-any.whl
+[2023-06-28 11:51:57] INFO root fetch - processPackages [smartapi-python]: Remove: archive file [/home/abi/fetcher/tmp/smartapi-python-1.3.0.tar.gz]
+[2023-06-28 11:51:57] INFO root fetch - processPackages [smartapi-python]: Remove: archive file [/home/abi/fetcher/tmp/smartapi-python-1.3.1.tar.gz]
+[2023-06-28 11:51:57] INFO root fetch - main [MainThread]: End processing [smartapi-python]: success
+[2023-06-28 11:51:57] WARNING root fetch - processPackages [nomad-camels-driver-agilent-34401]: Skipping, unable to determine old version
+[2023-06-28 11:51:57] INFO root fetch - main [MainThread]: End processing [nomad-camels-driver-agilent-34401] error
+[2023-06-28 11:51:57] INFO root fetch - processPackages [sphinxcontrib-cadquery]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_cadquery-0.7.0.tar.gz]
+[2023-06-28 11:51:57] INFO root fetch - processPackages [sphinxcontrib-cadquery]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_cadquery-0.8.0.tar.gz]
+[2023-06-28 11:51:57] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-cadquery]: success
+[2023-06-28 11:51:57] INFO root fetch - processPackages [dargus]: Downloading https://files.pythonhosted.org/packages/ee/00/203cdf8b6944064b4041f8d5bbd59c88c7f897dd6c32c08daf603133ec81/dargus-1.1.2.tar.gz
+[2023-06-28 11:51:57] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/1d/68/33d1e17d06cb4da6d1ea2e1471c3b552b4318247b660afa30511dc6e2985/piel-0.0.33.tar.gz
+[2023-06-28 11:51:57] INFO root fetch - processPackages [quote4py]: Downloading https://files.pythonhosted.org/packages/45/6f/0a35cd8ca9eaadf7038c5fc1ded8622e9475161b9d534542371976376a08/quote4py-1.1.2-py3-none-any.whl
+[2023-06-28 11:51:57] INFO root fetch - processPackages [dargus]: executing diffoscope
+[2023-06-28 11:51:57] INFO root fetch - processPackages [dargus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dargus-1.1.1.tar.gz tmp/dargus-1.1.2.tar.gz --markdown 20230628/d/dargus/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-28 11:51:57] INFO root fetch - processPackages [rtc-tools-interface]: Remove: archive file [/home/abi/fetcher/tmp/rtc-tools-interface-0.0.1b2.tar.gz]
+[2023-06-28 11:51:57] INFO root fetch - processPackages [rtc-tools-interface]: Remove: archive file [/home/abi/fetcher/tmp/rtc-tools-interface-0.0.1b3.tar.gz]
+[2023-06-28 11:51:57] INFO root fetch - main [MainThread]: End processing [rtc-tools-interface]: success
+[2023-06-28 11:51:57] INFO root fetch - processPackages [piel]: executing diffoscope
+[2023-06-28 11:51:57] INFO root fetch - processPackages [piel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piel-0.0.32.tar.gz tmp/piel-0.0.33.tar.gz --markdown 20230628/p/piel/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-06-28 11:51:57] INFO root fetch - processPackages [quote4py]: executing diffoscope
+[2023-06-28 11:51:57] INFO root fetch - processPackages [quote4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quote4py-1.1.1-py3-none-any.whl.zip tmp/quote4py-1.1.2-py3-none-any.whl.zip --markdown 20230628/q/quote4py/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-28 11:51:58] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2500-py3-none-any.whl.zip]
+[2023-06-28 11:51:58] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2504-py3-none-any.whl.zip]
+[2023-06-28 11:51:58] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-06-28 11:51:58] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-28 11:51:58] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-28 11:51:58] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-28 11:51:58] INFO root fetch - processPackages [quote4py]: Remove: archive file [/home/abi/fetcher/tmp/quote4py-1.1.1-py3-none-any.whl.zip]
+[2023-06-28 11:51:58] INFO root fetch - processPackages [quote4py]: Remove: archive file [/home/abi/fetcher/tmp/quote4py-1.1.2-py3-none-any.whl.zip]
+[2023-06-28 11:51:58] INFO root fetch - main [MainThread]: End processing [quote4py]: success
+[2023-06-28 11:51:59] INFO root fetch - processPackages [dargus]: Remove: archive file [/home/abi/fetcher/tmp/dargus-1.1.1.tar.gz]
+[2023-06-28 11:51:59] INFO root fetch - processPackages [dargus]: Remove: archive file [/home/abi/fetcher/tmp/dargus-1.1.2.tar.gz]
+[2023-06-28 11:51:59] INFO root fetch - main [MainThread]: End processing [dargus]: success
+[2023-06-28 11:51:59] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.32.tar.gz]
+[2023-06-28 11:51:59] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.33.tar.gz]
+[2023-06-28 11:51:59] INFO root fetch - main [MainThread]: End processing [piel]: success
+[2023-06-28 11:52:05] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a3.tar.gz]
+[2023-06-28 11:52:05] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
+[2023-06-28 11:52:05] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
+[2023-06-28 11:52:05] INFO root fetch - main [MainThread]: Store serial: [18677241]
