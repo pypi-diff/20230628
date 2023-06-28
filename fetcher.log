@@ -2144,3 +2144,303 @@
 [2023-06-28 02:10:13] INFO root fetch - processPackages [dss-python]: Remove: archive file [/home/abi/fetcher/tmp/dss_python-0.9.8-cp37-cp37m-win_amd64.whl.zip]
 [2023-06-28 02:10:13] INFO root fetch - main [MainThread]: End processing [dss-python]: success
 [2023-06-28 02:10:13] INFO root fetch - main [MainThread]: Store serial: [18670103]
+[2023-06-28 02:15:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18670103]
+[2023-06-28 02:15:30] INFO root fetch - main [MainThread]: Found 35 changed packages
+[2023-06-28 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-postgresql
+[2023-06-28 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-ecosystem-services
+[2023-06-28 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aws-discord-notifiers
+[2023-06-28 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-grafana
+[2023-06-28 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oceanumlab
+[2023-06-28 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: constructs
+[2023-06-28 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-common
+[2023-06-28 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-iot-core-certificates
+[2023-06-28 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prom
+[2023-06-28 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-jenkins
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1687892989] Old Version: [3.9.0a1687673468]
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [prom]: New version: [4.4.2] Old Version: [4.4.1]
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk-iot-core-certificates]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 02:15:30] INFO root fetch - processPackages [oceanumlab]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-28 02:15:30] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-28 02:15:30] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-06-28 02:15:30] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/e6/c8/05cf61f36e0e0457efb63d90051ef801f55cf0db4e5f92c27a28a57c5501/constructs-3.4.98.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/3a/b3/0d1d8a2d23f756b70323caf832c97aaadf158c1a076050f6a5c45f656ff4/pulumi_postgresql-3.9.0a1687673468.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/f9/3a/11678fcacc9a26643437d84919789043bb31517789527c063bec8da27e8e/cdk-iot-core-certificates-1.0.8.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [oceanumlab]: Downloading https://files.pythonhosted.org/packages/7d/ca/622cdcc654d312a580795f185c3e5256790164396434e2dfd80fa5d318f0/oceanumlab-0.4.1.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [prom]: Downloading https://files.pythonhosted.org/packages/5d/3b/6a472f0b3a69b971be9a774a21947a2c6848577a4ac49f2cd97a464cac20/prom-4.4.1.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/0a/98/a9a1408d0c31908cc2c2129ea9ab047e19bc2d51b19406637848339f5c37/constructs-3.4.99.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230628/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-06-28 02:15:30] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230628/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230628/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/4a/43/39180d2063c944a0f8d32557a55dc2ed201b2244a615cecd4ba0e33dee1a/cdk-iot-core-certificates-1.0.9.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [prom]: Downloading https://files.pythonhosted.org/packages/33/58/e6040bfe726353f141809e8b236da328ccce7a29131912478c580cda605d/prom-4.4.2.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/7f/9f/0c75e064fed8fa7271e8cce7a11c1d7f074c31a70fa1cf16e9c7741c91ba/pulumi_postgresql-3.9.0a1687892989.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk-iot-core-certificates]: executing diffoscope
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk-iot-core-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-iot-core-certificates-1.0.8.tar.gz tmp/cdk-iot-core-certificates-1.0.9.tar.gz --markdown 20230628/c/cdk-iot-core-certificates/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 02:15:30] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [prom]: executing diffoscope
+[2023-06-28 02:15:30] INFO root fetch - processPackages [prom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prom-4.4.1.tar.gz tmp/prom-4.4.2.tar.gz --markdown 20230628/p/prom/4.4.1-4.4.2/diff.md --exclude *.pyd
+[2023-06-28 02:15:30] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2023-06-28 02:15:30] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1687673468.tar.gz tmp/pulumi_postgresql-3.9.0a1687892989.tar.gz --markdown 20230628/p/pulumi-postgresql/3.9.0a1687673468-3.9.0a1687892989/diff.md --exclude *.pyd
+[2023-06-28 02:15:30] INFO root fetch - processPackages [oceanumlab]: Downloading https://files.pythonhosted.org/packages/19/48/90b76ea7b7fa0dbbbff79a47850beca616e229a6fceb3b483c31b43901a0/oceanumlab-0.4.2.tar.gz
+[2023-06-28 02:15:30] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-28 02:15:30] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230628/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-28 02:15:31] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-06-28 02:15:31] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230628/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 02:15:31] INFO root fetch - processPackages [oceanumlab]: executing diffoscope
+[2023-06-28 02:15:31] INFO root fetch - processPackages [oceanumlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanumlab-0.4.1.tar.gz tmp/oceanumlab-0.4.2.tar.gz --markdown 20230628/o/oceanumlab/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-28 02:15:31] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-06-28 02:15:31] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230628/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-28 02:15:31] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-06-28 02:15:31] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-06-28 02:15:31] INFO root fetch - processPackages [cdk8s-grafana]: Start processing: openbb-nightly
+[2023-06-28 02:15:31] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-06-28 02:15:31] INFO root fetch - processPackages [openbb-nightly]: New version: [3.1.0.dev20230627] Old Version: [3.1.0.dev20230626]
+[2023-06-28 02:15:31] INFO root fetch - processPackages [constructs]: Remove: archive file [/home/abi/fetcher/tmp/constructs-3.4.98.tar.gz]
+[2023-06-28 02:15:31] INFO root fetch - processPackages [constructs]: Remove: archive file [/home/abi/fetcher/tmp/constructs-3.4.99.tar.gz]
+[2023-06-28 02:15:32] INFO root fetch - processPackages [constructs]: Start processing: tccli
+[2023-06-28 02:15:32] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-06-28 02:15:32] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-06-28 02:15:32] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2023-06-28 02:15:32] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2023-06-28 02:15:32] INFO root fetch - processPackages [cdk8s-jenkins]: Start processing: wemp
+[2023-06-28 02:15:32] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-06-28 02:15:32] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-06-28 02:15:32] INFO root fetch - processPackages [wemp]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-28 02:15:32] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/58/77/1c6c753c15056ade92ebc6dc8e9b39099d37873585c5186fbb0ee6742529/openbb_nightly-3.1.0.dev20230626.tar.gz
+[2023-06-28 02:15:32] INFO root fetch - processPackages [wemp]: Downloading https://files.pythonhosted.org/packages/b5/e2/65993c7ddf7744849cd32553cc04b62757713fe720e178b3c31de800fc2e/wemp-1.0.5-py3-none-any.whl
+[2023-06-28 02:15:32] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 21264216>=10485760
+[2023-06-28 02:15:32] INFO root fetch - processPackages [openbb-nightly]: Start processing: mct-quantizers-nightly
+[2023-06-28 02:15:32] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-06-28 02:15:32] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.1.0.20230627.post1339] Old Version: [1.1.0.20230626.post1226]
+[2023-06-28 02:15:32] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/2f/18/9cf46a7085df451a9cbf6ae1df32bf10ebcd46f4d0eeef805a4c6a36827d/mct-quantizers-nightly-1.1.0.20230626.post1226.tar.gz
+[2023-06-28 02:15:32] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-06-28 02:15:32] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.8.tar.gz]
+[2023-06-28 02:15:32] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.9.tar.gz]
+[2023-06-28 02:15:32] INFO root fetch - processPackages [cdk-iot-core-certificates]: Start processing: cdk8s-operator
+[2023-06-28 02:15:32] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates]: success
+[2023-06-28 02:15:32] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-06-28 02:15:32] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230628/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-06-28 02:15:32] INFO root fetch - processPackages [wemp]: Downloading https://files.pythonhosted.org/packages/2a/42/1707ecbb73168e9cc8b4bbf836e97bb67242e57384be378a9923cde70a10/wemp-1.0.6-py3-none-any.whl
+[2023-06-28 02:15:32] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-28 02:15:32] INFO root fetch - processPackages [wemp]: executing diffoscope
+[2023-06-28 02:15:32] INFO root fetch - processPackages [wemp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wemp-1.0.5-py3-none-any.whl.zip tmp/wemp-1.0.6-py3-none-any.whl.zip --markdown 20230628/w/wemp/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-28 02:15:32] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/78/fb/a6ad6d2ce5ca42e3ef53896eea4064df490d7efdf1f61b6d6b33cbc27385/mct-quantizers-nightly-1.1.0.20230627.post1339.tar.gz
+[2023-06-28 02:15:32] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-06-28 02:15:32] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-06-28 02:15:32] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Start processing: cirq-core
+[2023-06-28 02:15:32] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-06-28 02:15:32] INFO root fetch - processPackages [cirq-core]: New version: [1.2.0.dev20230627225358] Old Version: [1.2.0.dev20230627191637]
+[2023-06-28 02:15:32] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-06-28 02:15:32] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.1.0.20230626.post1226.tar.gz tmp/mct-quantizers-nightly-1.1.0.20230627.post1339.tar.gz --markdown 20230628/m/mct-quantizers-nightly/1.1.0.20230626.post1226-1.1.0.20230627.post1339/diff.md --exclude *.pyd
+[2023-06-28 02:15:32] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-06-28 02:15:32] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/7b/a1/989930bd4297a33a270b042cd2184de707010224e3454a1316ecdba3723e/cirq_core-1.2.0.dev20230627191637-py3-none-any.whl
+[2023-06-28 02:15:32] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-06-28 02:15:32] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-06-28 02:15:32] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230628/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-28 02:15:33] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/61/1a/b03e6c616f26d27ae0fc21704dbc9715f77cdc62da6238c54adf308a96e0/cirq_core-1.2.0.dev20230627225358-py3-none-any.whl
+[2023-06-28 02:15:33] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-06-28 02:15:33] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.2.0.dev20230627191637-py3-none-any.whl.zip tmp/cirq_core-1.2.0.dev20230627225358-py3-none-any.whl.zip --markdown 20230628/c/cirq-core/1.2.0.dev20230627191637-1.2.0.dev20230627225358/diff.md --exclude *.pyd
+[2023-06-28 02:15:33] INFO root fetch - processPackages [wemp]: Remove: archive file [/home/abi/fetcher/tmp/wemp-1.0.5-py3-none-any.whl.zip]
+[2023-06-28 02:15:33] INFO root fetch - processPackages [wemp]: Remove: archive file [/home/abi/fetcher/tmp/wemp-1.0.6-py3-none-any.whl.zip]
+[2023-06-28 02:15:33] INFO root fetch - processPackages [wemp]: Start processing: cirq-google
+[2023-06-28 02:15:33] INFO root fetch - main [MainThread]: End processing [wemp]: success
+[2023-06-28 02:15:33] INFO root fetch - processPackages [cirq-google]: New version: [1.2.0.dev20230627225358] Old Version: [1.2.0.dev20230627191637]
+[2023-06-28 02:15:33] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/f0/b6/985e510e3027a1619cac26cbda95769d79e61cc427af48615c8f4a9cceb8/cirq_google-1.2.0.dev20230627191637-py3-none-any.whl
+[2023-06-28 02:15:33] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-28 02:15:33] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-28 02:15:33] INFO root fetch - processPackages [data-ecosystem-services]: Start processing: neoden-kicad
+[2023-06-28 02:15:33] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-28 02:15:33] INFO root fetch - processPackages [prom]: Remove: archive file [/home/abi/fetcher/tmp/prom-4.4.1.tar.gz]
+[2023-06-28 02:15:33] INFO root fetch - processPackages [prom]: Remove: archive file [/home/abi/fetcher/tmp/prom-4.4.2.tar.gz]
+[2023-06-28 02:15:33] INFO root fetch - processPackages [prom]: Start processing: cirq-ionq
+[2023-06-28 02:15:33] INFO root fetch - main [MainThread]: End processing [prom]: success
+[2023-06-28 02:15:33] INFO root fetch - processPackages [cirq-ionq]: New version: [1.2.0.dev20230627225358] Old Version: [1.2.0.dev20230627191637]
+[2023-06-28 02:15:33] WARNING root fetch - processPackages [neoden-kicad]: Skipping, unable to determine old version
+[2023-06-28 02:15:33] INFO root fetch - processPackages [neoden-kicad]: Start processing: cirq
+[2023-06-28 02:15:33] INFO root fetch - main [MainThread]: End processing [neoden-kicad] error
+[2023-06-28 02:15:33] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/17/43/3a7c1d8776f2d4272326dc40e337a1e7ff8c8f1594fa5df0488b3de41db7/cirq_google-1.2.0.dev20230627225358-py3-none-any.whl
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230627225358] Old Version: [1.2.0.dev20230627191637]
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/05/ef/13646f694fb29d158f03c594517c50396438a80a1da73e5301e871126d92/cirq_ionq-1.2.0.dev20230627191637-py3-none-any.whl
+[2023-06-28 02:15:34] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230626.post1226.tar.gz]
+[2023-06-28 02:15:34] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230627.post1339.tar.gz]
+[2023-06-28 02:15:34] INFO root fetch - processPackages [mct-quantizers-nightly]: Start processing: cirq-aqt
+[2023-06-28 02:15:34] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/a8/4b/74db4120d5427f85fae1ee9e1d8115b736c3c51063877ee6cbe8439cbf16/cirq-1.2.0.dev20230627191637-py3-none-any.whl
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq-aqt]: New version: [1.2.0.dev20230627225358] Old Version: [1.2.0.dev20230627191637]
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cdk8s-operator]: Start processing: cirq-web
+[2023-06-28 02:15:34] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq-web]: New version: [1.2.0.dev20230627225358] Old Version: [1.2.0.dev20230627191637]
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.2.0.dev20230627191637-py3-none-any.whl.zip tmp/cirq_google-1.2.0.dev20230627225358-py3-none-any.whl.zip --markdown 20230628/c/cirq-google/1.2.0.dev20230627191637-1.2.0.dev20230627225358/diff.md --exclude *.pyd
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/61/cb/0788e4afa7b19f4b85c7365d6349845aa2ddf05bfe3997c20a47ca246627/cirq_web-1.2.0.dev20230627191637-py3-none-any.whl
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/73/8c/903cb3ea6bb022346feab07dbeb19e899ff4c24037fe59eaaa84ee70a861/cirq_ionq-1.2.0.dev20230627225358-py3-none-any.whl
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/11/0d/65dc9b1e75289338323a9b3d1cbfc7dbbf65bd80faeed5a6bccdaeba85e8/cirq_aqt-1.2.0.dev20230627191637-py3-none-any.whl
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/7a/d5/7ad164cc0d9b07b59c7db9454a0c6bff68ef42048fbffeaf9cd78911f7a8/cirq-1.2.0.dev20230627225358-py3-none-any.whl
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.2.0.dev20230627191637-py3-none-any.whl.zip tmp/cirq_ionq-1.2.0.dev20230627225358-py3-none-any.whl.zip --markdown 20230628/c/cirq-ionq/1.2.0.dev20230627191637-1.2.0.dev20230627225358/diff.md --exclude *.pyd
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230627191637-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230627225358-py3-none-any.whl.zip --markdown 20230628/c/cirq/1.2.0.dev20230627191637-1.2.0.dev20230627225358/diff.md --exclude *.pyd
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/22/a3/deb09fec21cb64a7c8ab432206fdcb1f530be316115c50c7a4ca8d7eed4f/cirq_web-1.2.0.dev20230627225358-py3-none-any.whl
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/3a/0a/09449ceaf764ad07d5e9e639d8b7c61d8219a2a2158d623806859ff92547/cirq_aqt-1.2.0.dev20230627225358-py3-none-any.whl
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.2.0.dev20230627191637-py3-none-any.whl.zip tmp/cirq_web-1.2.0.dev20230627225358-py3-none-any.whl.zip --markdown 20230628/c/cirq-web/1.2.0.dev20230627191637-1.2.0.dev20230627225358/diff.md --exclude *.pyd
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-06-28 02:15:34] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.2.0.dev20230627191637-py3-none-any.whl.zip tmp/cirq_aqt-1.2.0.dev20230627225358-py3-none-any.whl.zip --markdown 20230628/c/cirq-aqt/1.2.0.dev20230627191637-1.2.0.dev20230627225358/diff.md --exclude *.pyd
+[2023-06-28 02:15:35] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1687673468.tar.gz]
+[2023-06-28 02:15:35] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1687892989.tar.gz]
+[2023-06-28 02:15:35] INFO root fetch - processPackages [pulumi-postgresql]: Start processing: cirq-ft
+[2023-06-28 02:15:35] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2023-06-28 02:15:35] INFO root fetch - processPackages [cirq-ft]: New version: [1.2.0.dev20230627225358] Old Version: [1.2.0.dev20230627191637]
+[2023-06-28 02:15:35] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/ab/4a/eb9fe1197ca99ffb9cabdc18f7c1e0e77be7b53d853a3384cdea6010ff4f/cirq_ft-1.2.0.dev20230627191637-py3-none-any.whl
+[2023-06-28 02:15:35] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/de/2d/1f11f9311816cb3208eeaa41c06af7fe082ff3d5cafb1f2ebe87574e7b52/cirq_ft-1.2.0.dev20230627225358-py3-none-any.whl
+[2023-06-28 02:15:35] INFO root fetch - processPackages [cirq-ft]: executing diffoscope
+[2023-06-28 02:15:35] INFO root fetch - processPackages [cirq-ft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ft-1.2.0.dev20230627191637-py3-none-any.whl.zip tmp/cirq_ft-1.2.0.dev20230627225358-py3-none-any.whl.zip --markdown 20230628/c/cirq-ft/1.2.0.dev20230627191637-1.2.0.dev20230627225358/diff.md --exclude *.pyd
+[2023-06-28 02:15:35] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230627191637-py3-none-any.whl.zip]
+[2023-06-28 02:15:35] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230627225358-py3-none-any.whl.zip]
+[2023-06-28 02:15:35] INFO root fetch - processPackages [cirq]: Start processing: cirq-pasqal
+[2023-06-28 02:15:35] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-06-28 02:15:35] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.2.0.dev20230627225358] Old Version: [1.2.0.dev20230627191637]
+[2023-06-28 02:15:35] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/2e/fb/368d9586ff5c82136a420dbc6adf286b04a38e75afd266bad7238df1a2bc/cirq_pasqal-1.2.0.dev20230627191637-py3-none-any.whl
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.2.0.dev20230627191637-py3-none-any.whl.zip]
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.2.0.dev20230627225358-py3-none-any.whl.zip]
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-ionq]: Start processing: cirq-rigetti
+[2023-06-28 02:15:36] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.2.0.dev20230627225358] Old Version: [1.2.0.dev20230627191637]
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/80/64/3aa03d0f391eab2bb8115aace689d0effde82089e025e1e669e0dffe079f/cirq_pasqal-1.2.0.dev20230627225358-py3-none-any.whl
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/27/fe/c745aee078245018d23901d1fd6403bce4a0f01013221c8e11513f6fb50b/cirq_rigetti-1.2.0.dev20230627191637-py3-none-any.whl
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.2.0.dev20230627191637-py3-none-any.whl.zip]
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.2.0.dev20230627225358-py3-none-any.whl.zip]
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-web]: Start processing: pulumi-gitlab
+[2023-06-28 02:15:36] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.2.0.dev20230627191637-py3-none-any.whl.zip tmp/cirq_pasqal-1.2.0.dev20230627225358-py3-none-any.whl.zip --markdown 20230628/c/cirq-pasqal/1.2.0.dev20230627191637-1.2.0.dev20230627225358/diff.md --exclude *.pyd
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.2.0.dev20230627191637-py3-none-any.whl.zip]
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.2.0.dev20230627225358-py3-none-any.whl.zip]
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-aqt]: Start processing: nucleus-sdk
+[2023-06-28 02:15:36] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-06-28 02:15:36] INFO root fetch - processPackages [nucleus-sdk]: New version: [0.1a3] Old Version: [0.1a2]
+[2023-06-28 02:15:36] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.1.0a1687318522] Old Version: [6.1.0a1687054842]
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/19/a4/f790d3d6300b2481751573217cf08bad80ee35b5589150b540dd619b6dbf/cirq_rigetti-1.2.0.dev20230627225358-py3-none-any.whl
+[2023-06-28 02:15:36] INFO root fetch - processPackages [nucleus-sdk]: Downloading https://files.pythonhosted.org/packages/fa/4e/ef5d306a88c9f5aec229c18ad0bc60b509a5f98c14113ed981b223a08493/nucleus_sdk-0.1a2.tar.gz
+[2023-06-28 02:15:36] WARNING root fetch - processPackages [nucleus-sdk]: Skipping package: exceeds size limit 17527042>=10485760
+[2023-06-28 02:15:36] INFO root fetch - processPackages [nucleus-sdk]: Start processing: cdklabs.codepipeline-extensions
+[2023-06-28 02:15:36] INFO root fetch - main [MainThread]: End processing [nucleus-sdk] error
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.2.0.dev20230627191637-py3-none-any.whl.zip tmp/cirq_rigetti-1.2.0.dev20230627225358-py3-none-any.whl.zip --markdown 20230628/c/cirq-rigetti/1.2.0.dev20230627191637-1.2.0.dev20230627225358/diff.md --exclude *.pyd
+[2023-06-28 02:15:36] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/37/c7/b888b4a1a406ea6d81679fe18ec9679bcf7679a20743c2531ac8218d0b00/pulumi_gitlab-6.1.0a1687054842.tar.gz
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-06-28 02:15:36] INFO root fetch - processPackages [oceanumlab]: Remove: archive file [/home/abi/fetcher/tmp/oceanumlab-0.4.1.tar.gz]
+[2023-06-28 02:15:36] INFO root fetch - processPackages [oceanumlab]: Remove: archive file [/home/abi/fetcher/tmp/oceanumlab-0.4.2.tar.gz]
+[2023-06-28 02:15:36] INFO root fetch - processPackages [oceanumlab]: Start processing: speakeasy-client-sdk-python
+[2023-06-28 02:15:36] INFO root fetch - main [MainThread]: End processing [oceanumlab]: success
+[2023-06-28 02:15:36] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: pepperize.cdk-github
+[2023-06-28 02:15:36] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-06-28 02:15:36] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-28 02:15:36] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-28 02:15:36] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/fb/b8/fcf1edd33b8ec3b8033abd5b4f5ff175d0401f2db62c16872abb430c166f/pulumi_gitlab-6.1.0a1687318522.tar.gz
+[2023-06-28 02:15:36] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-06-28 02:15:36] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/51/73/c74332634e8130c6b89c1c8307ea722240a132020fa5c51bd7f7854b0c05/speakeasy-client-sdk-python-1.9.0.tar.gz
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-06-28 02:15:36] INFO root fetch - processPackages [cdk-common]: Start processing: cdk-watchful
+[2023-06-28 02:15:36] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-06-28 02:15:37] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2023-06-28 02:15:37] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.1.0a1687054842.tar.gz tmp/pulumi_gitlab-6.1.0a1687318522.tar.gz --markdown 20230628/p/pulumi-gitlab/6.1.0a1687054842-6.1.0a1687318522/diff.md --exclude *.pyd
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cdk-watchful]: New version: [0.6.99] Old Version: [0.6.98]
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cdk-watchful]: Downloading https://files.pythonhosted.org/packages/63/04/22034e5f4a6a78ec4b91dd73cac8c9dbe6e3a87354ee89a8eaae1037e53e/cdk-watchful-0.6.98.tar.gz
+[2023-06-28 02:15:37] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-06-28 02:15:37] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/ec/17/af09933815cbb33c06f585554b6a5963756ed5573cefe2151dde0046ce62/speakeasy-client-sdk-python-1.9.1.tar.gz
+[2023-06-28 02:15:37] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2023-06-28 02:15:37] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-1.9.0.tar.gz tmp/speakeasy-client-sdk-python-1.9.1.tar.gz --markdown 20230628/s/speakeasy-client-sdk-python/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cdk-watchful]: Downloading https://files.pythonhosted.org/packages/f8/58/6ba4dd415db16707dd7ba3e1359b74a8b5c71b19be3ed91e3f6f87c6c960/cdk-watchful-0.6.99.tar.gz
+[2023-06-28 02:15:37] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-06-28 02:15:37] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230628/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.2.0.dev20230627191637-py3-none-any.whl.zip]
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.2.0.dev20230627225358-py3-none-any.whl.zip]
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cirq-ft]: Start processing: cdk-events-notify
+[2023-06-28 02:15:37] INFO root fetch - main [MainThread]: End processing [cirq-ft]: success
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cdk-watchful]: executing diffoscope
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cdk-watchful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-watchful-0.6.98.tar.gz tmp/cdk-watchful-0.6.99.tar.gz --markdown 20230628/c/cdk-watchful/0.6.98-0.6.99/diff.md --exclude *.pyd
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.2.0.dev20230627191637-py3-none-any.whl.zip]
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.2.0.dev20230627225358-py3-none-any.whl.zip]
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cirq-pasqal]: Start processing: cdk8s-grafana
+[2023-06-28 02:15:37] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230628/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-28 02:15:37] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-06-28 02:15:37] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.98.1.tar.gz]
+[2023-06-28 02:15:37] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
+[2023-06-28 02:15:37] INFO root fetch - processPackages [tccli]: Start processing: cdktf-gitlab-runner
+[2023-06-28 02:15:37] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-06-28 02:15:38] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-28 02:15:38] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-06-28 02:15:38] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2023-06-28 02:15:38] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230627191637-py3-none-any.whl.zip]
+[2023-06-28 02:15:38] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230627225358-py3-none-any.whl.zip]
+[2023-06-28 02:15:38] INFO root fetch - processPackages [cirq-rigetti]: Start processing: mllibs
+[2023-06-28 02:15:38] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-06-28 02:15:38] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-06-28 02:15:38] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230628/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-28 02:15:38] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2023-06-28 02:15:38] INFO root fetch - processPackages [mllibs]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-28 02:15:38] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-06-28 02:15:38] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230628/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 02:15:38] INFO root fetch - processPackages [mllibs]: Downloading https://files.pythonhosted.org/packages/ee/61/508eb899b6439a0079fd3ffd569b661af7e137680da962783dc92b391d59/mllibs-0.1.2-py2.py3-none-any.whl
+[2023-06-28 02:15:38] INFO root fetch - processPackages [mllibs]: Downloading https://files.pythonhosted.org/packages/97/30/4c346ebd3ba5c47f19c2cfc02689d287993d9c9d7bd3f7915f058e59c90e/mllibs-0.1.3-py3-none-any.whl
+[2023-06-28 02:15:38] INFO root fetch - processPackages [mllibs]: executing diffoscope
+[2023-06-28 02:15:38] INFO root fetch - processPackages [mllibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mllibs-0.1.2-py2.py3-none-any.whl.zip tmp/mllibs-0.1.3-py3-none-any.whl.zip --markdown 20230628/m/mllibs/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-28 02:15:38] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-06-28 02:15:38] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-06-28 02:15:38] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-06-28 02:15:39] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.2.0.dev20230627191637-py3-none-any.whl.zip]
+[2023-06-28 02:15:39] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.2.0.dev20230627225358-py3-none-any.whl.zip]
+[2023-06-28 02:15:39] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-06-28 02:15:39] INFO root fetch - processPackages [cdk-watchful]: Remove: archive file [/home/abi/fetcher/tmp/cdk-watchful-0.6.98.tar.gz]
+[2023-06-28 02:15:39] INFO root fetch - processPackages [cdk-watchful]: Remove: archive file [/home/abi/fetcher/tmp/cdk-watchful-0.6.99.tar.gz]
+[2023-06-28 02:15:39] INFO root fetch - main [MainThread]: End processing [cdk-watchful]: success
+[2023-06-28 02:15:39] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-1.9.0.tar.gz]
+[2023-06-28 02:15:39] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-1.9.1.tar.gz]
+[2023-06-28 02:15:39] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2023-06-28 02:15:39] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2023-06-28 02:15:39] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2023-06-28 02:15:39] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-06-28 02:15:39] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-06-28 02:15:39] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-06-28 02:15:39] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-06-28 02:15:40] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-06-28 02:15:40] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-06-28 02:15:40] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-06-28 02:15:40] INFO root fetch - processPackages [mllibs]: Remove: archive file [/home/abi/fetcher/tmp/mllibs-0.1.2-py2.py3-none-any.whl.zip]
+[2023-06-28 02:15:40] INFO root fetch - processPackages [mllibs]: Remove: archive file [/home/abi/fetcher/tmp/mllibs-0.1.3-py3-none-any.whl.zip]
+[2023-06-28 02:15:40] INFO root fetch - main [MainThread]: End processing [mllibs]: success
+[2023-06-28 02:15:41] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.1.0a1687054842.tar.gz]
+[2023-06-28 02:15:41] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.1.0a1687318522.tar.gz]
+[2023-06-28 02:15:41] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2023-06-28 02:15:50] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230627191637-py3-none-any.whl.zip]
+[2023-06-28 02:15:50] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230627225358-py3-none-any.whl.zip]
+[2023-06-28 02:15:50] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-06-28 02:15:50] INFO root fetch - main [MainThread]: Store serial: [18670195]
