@@ -2039,3 +2039,108 @@
 [2023-06-28 02:04:40] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.3.0.tar.gz]
 [2023-06-28 02:04:40] INFO root fetch - main [MainThread]: End processing [evadb]: success
 [2023-06-28 02:04:40] INFO root fetch - main [MainThread]: Store serial: [18670063]
+[2023-06-28 02:09:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18670063]
+[2023-06-28 02:09:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-28 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-nightly
+[2023-06-28 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxkern-nightly
+[2023-06-28 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: theogravity-pulumi-fusionauth
+[2023-06-28 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: outerbounds
+[2023-06-28 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qctrl-commons
+[2023-06-28 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxutils-nightly
+[2023-06-28 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dss-python
+[2023-06-28 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: regpredict
+[2023-06-28 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ml-compiler-opt
+[2023-06-28 02:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: carambola-sch
+[2023-06-28 02:09:49] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202306270007] Old Version: [0.0.1.dev202306260008]
+[2023-06-28 02:09:49] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230627] Old Version: [0.0.8.dev20230626]
+[2023-06-28 02:09:49] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/23/4c/8eb28ba8891391871a639333b4b34584d195ef77765e641e1c0973143e0a/ml-compiler-opt-0.0.1.dev202306260008.tar.gz
+[2023-06-28 02:09:49] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/c3/55/44e7d896846f88904eaeae384638f4e11e4d44c4f88b6a4b8aae0ff3ab26/jaxutils-nightly-0.0.8.dev20230626.tar.gz
+[2023-06-28 02:09:49] WARNING root fetch - processPackages [carambola-sch]: Skipping, unable to determine old version
+[2023-06-28 02:09:49] INFO root fetch - processPackages [outerbounds]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-28 02:09:49] INFO root fetch - processPackages [carambola-sch]: Start processing: torchlayers-nightly
+[2023-06-28 02:09:49] INFO root fetch - main [MainThread]: End processing [carambola-sch] error
+[2023-06-28 02:09:49] INFO root fetch - processPackages [qctrl-commons]: New version: [9.0.0] Old Version: [8.1.0]
+[2023-06-28 02:09:49] INFO root fetch - processPackages [theogravity-pulumi-fusionauth]: New version: [3.0.5] Old Version: [2.9.0]
+[2023-06-28 02:09:49] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-28 02:09:49] INFO root fetch - processPackages [regpredict]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 02:09:49] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230628.post428] Old Version: [1.9.0.20230627.post428]
+[2023-06-28 02:09:49] INFO root fetch - processPackages [dss-python]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-28 02:09:49] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1687824489] Old Version: [1687738104]
+[2023-06-28 02:09:49] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-28 02:09:50] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/db/c3/414322f3ea100053ac3662e6bb112f6d3bc83f54c5c0996e89fef5c3d384/outerbounds-0.3.8-py3-none-any.whl
+[2023-06-28 02:09:50] INFO root fetch - processPackages [qctrl-commons]: Downloading https://files.pythonhosted.org/packages/46/db/d0de42840a30f78ba5260811263005b4cdbad033c1657ac8496e03ef08e2/qctrl-commons-8.1.0.tar.gz
+[2023-06-28 02:09:50] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/3d/fb/3ff8af5d44b2660eb09e3f63e7022d90bfb581ebc962c625991d5b27855d/torchlayers-nightly-1687738104.tar.gz
+[2023-06-28 02:09:50] INFO root fetch - processPackages [theogravity-pulumi-fusionauth]: Downloading https://files.pythonhosted.org/packages/3d/8c/9f3d8acace8de07eb54b6d198fe5dccee0307267b40654f5801bd3613df9/theogravity_pulumi-fusionauth-2.9.0.tar.gz
+[2023-06-28 02:09:50] INFO root fetch - processPackages [dss-python]: Downloading https://files.pythonhosted.org/packages/ba/cf/a5abece290b5d45a750b25f6d114e5b1462f4576dc2639d8c1f557b61d72/dss_python-0.9.7-cp36-cp36m-win_amd64.whl
+[2023-06-28 02:09:50] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/14/0f/01f9d8dadf138a25a7f1666b358a3367898dfb2e0425b832b5786717d402/mct-nightly-1.9.0.20230627.post428.tar.gz
+[2023-06-28 02:09:50] INFO root fetch - processPackages [regpredict]: Downloading https://files.pythonhosted.org/packages/0a/f5/db3a1fa69360930599889257d2545d57d75927c3650bf12743511ccef501/regpredict-0.0.8.tar.gz
+[2023-06-28 02:09:50] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/6c/2c/bff836200935a2417d775971a14e6e977077061e00f73be3634eacbb257f/jaxutils-nightly-0.0.8.dev20230627.tar.gz
+[2023-06-28 02:09:50] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-28 02:09:50] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/9c/b9/6a0d74f60d757362472331035cd962a0d10cd18fc8e0f997099032fe1702/ml-compiler-opt-0.0.1.dev202306270007.tar.gz
+[2023-06-28 02:09:50] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-28 02:09:50] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230626.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230627.tar.gz --markdown 20230628/j/jaxutils-nightly/0.0.8.dev20230626-0.0.8.dev20230627/diff.md --exclude *.pyd
+[2023-06-28 02:09:50] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-28 02:09:50] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230628/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-28 02:09:50] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/b1/f1/72e65c08d0c7feacb196a60304a83f9524a98f83e69e74b5cc51469d1d63/torchlayers-nightly-1687824489.tar.gz
+[2023-06-28 02:09:50] INFO root fetch - processPackages [qctrl-commons]: Downloading https://files.pythonhosted.org/packages/52/e6/108f3806637d0e22c3ca08e15d9dd71a4b256080e9616b42a0fdf859a5c6/qctrl-commons-9.0.0.tar.gz
+[2023-06-28 02:09:50] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-06-28 02:09:50] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202306260008.tar.gz tmp/ml-compiler-opt-0.0.1.dev202306270007.tar.gz --markdown 20230628/m/ml-compiler-opt/0.0.1.dev202306260008-0.0.1.dev202306270007/diff.md --exclude *.pyd
+[2023-06-28 02:09:50] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/d0/1f/f5ae80c82205364814bd64fc7ce477f3af98f92b63d22577ba519302cd20/mct-nightly-1.9.0.20230628.post428.tar.gz
+[2023-06-28 02:09:50] INFO root fetch - processPackages [qctrl-commons]: executing diffoscope
+[2023-06-28 02:09:50] INFO root fetch - processPackages [qctrl-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl-commons-8.1.0.tar.gz tmp/qctrl-commons-9.0.0.tar.gz --markdown 20230628/q/qctrl-commons/8.1.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-28 02:09:50] INFO root fetch - processPackages [dss-python]: Downloading https://files.pythonhosted.org/packages/01/44/9b7b908415f0e3ecbc413ebf6895b4465ca04c24d15d974ddac812e6cf2b/dss_python-0.9.8-cp37-cp37m-win_amd64.whl
+[2023-06-28 02:09:50] INFO root fetch - processPackages [regpredict]: Downloading https://files.pythonhosted.org/packages/f1/2d/99f43cff649258e263b708870c40897d0e236ed1fb5ad32bc7c7fde634ab/regpredict-0.0.9.tar.gz
+[2023-06-28 02:09:50] INFO root fetch - processPackages [theogravity-pulumi-fusionauth]: Downloading https://files.pythonhosted.org/packages/2a/d0/b3e82ae2f71e21d29923f5b3b26fa29458eb355de711c0304a77f4d7a5a3/theogravity_pulumi-fusionauth-3.0.5.tar.gz
+[2023-06-28 02:09:50] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-28 02:09:50] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230627.post428.tar.gz tmp/mct-nightly-1.9.0.20230628.post428.tar.gz --markdown 20230628/m/mct-nightly/1.9.0.20230627.post428-1.9.0.20230628.post428/diff.md --exclude *.pyd
+[2023-06-28 02:09:50] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-28 02:09:50] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1687738104.tar.gz tmp/torchlayers-nightly-1687824489.tar.gz --markdown 20230628/t/torchlayers-nightly/1687738104-1687824489/diff.md --exclude *.pyd
+[2023-06-28 02:09:50] INFO root fetch - processPackages [regpredict]: executing diffoscope
+[2023-06-28 02:09:50] INFO root fetch - processPackages [regpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regpredict-0.0.8.tar.gz tmp/regpredict-0.0.9.tar.gz --markdown 20230628/r/regpredict/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 02:09:50] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/eb/c8/c87d25484be12f66ee78314f7ebd89ca4200a29e85c757b1d2e469e06c52/outerbounds-0.3.9-py3-none-any.whl
+[2023-06-28 02:09:50] INFO root fetch - processPackages [theogravity-pulumi-fusionauth]: executing diffoscope
+[2023-06-28 02:09:50] INFO root fetch - processPackages [theogravity-pulumi-fusionauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theogravity_pulumi-fusionauth-2.9.0.tar.gz tmp/theogravity_pulumi-fusionauth-3.0.5.tar.gz --markdown 20230628/t/theogravity-pulumi-fusionauth/2.9.0-3.0.5/diff.md --exclude *.pyd
+[2023-06-28 02:09:50] INFO root fetch - processPackages [dss-python]: executing diffoscope
+[2023-06-28 02:09:50] INFO root fetch - processPackages [dss-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dss_python-0.9.7-cp36-cp36m-win_amd64.whl.zip tmp/dss_python-0.9.8-cp37-cp37m-win_amd64.whl.zip --markdown 20230628/d/dss-python/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-28 02:09:50] INFO root fetch - processPackages [outerbounds]: executing diffoscope
+[2023-06-28 02:09:50] INFO root fetch - processPackages [outerbounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outerbounds-0.3.8-py3-none-any.whl.zip tmp/outerbounds-0.3.9-py3-none-any.whl.zip --markdown 20230628/o/outerbounds/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-28 02:09:51] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230626.tar.gz]
+[2023-06-28 02:09:51] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230627.tar.gz]
+[2023-06-28 02:09:51] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: cdk8s
+[2023-06-28 02:09:51] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-28 02:09:51] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.86]
+[2023-06-28 02:09:51] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/e0/e5/c3ab80f2023a6f17552145e83cde4849df1adbb0b1dcdd1baba00423009a/cdk8s-2.7.86.tar.gz
+[2023-06-28 02:09:52] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-28 02:09:52] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-28 02:09:52] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-28 02:09:52] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/71/30/02a1bcc270c53f6b55cd50dc45c426ecdc5d520a1a3f21057474d46e3de9/cdk8s-2.7.9.tar.gz
+[2023-06-28 02:09:52] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-06-28 02:09:52] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.86.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230628/c/cdk8s/2.7.86-2.7.9/diff.md --exclude *.pyd
+[2023-06-28 02:09:52] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.8-py3-none-any.whl.zip]
+[2023-06-28 02:09:52] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.9-py3-none-any.whl.zip]
+[2023-06-28 02:09:52] INFO root fetch - main [MainThread]: End processing [outerbounds]: success
+[2023-06-28 02:09:52] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687738104.tar.gz]
+[2023-06-28 02:09:52] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687824489.tar.gz]
+[2023-06-28 02:09:52] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-28 02:09:52] INFO root fetch - processPackages [qctrl-commons]: Remove: archive file [/home/abi/fetcher/tmp/qctrl-commons-8.1.0.tar.gz]
+[2023-06-28 02:09:52] INFO root fetch - processPackages [qctrl-commons]: Remove: archive file [/home/abi/fetcher/tmp/qctrl-commons-9.0.0.tar.gz]
+[2023-06-28 02:09:52] INFO root fetch - main [MainThread]: End processing [qctrl-commons]: success
+[2023-06-28 02:09:52] INFO root fetch - processPackages [regpredict]: Remove: archive file [/home/abi/fetcher/tmp/regpredict-0.0.8.tar.gz]
+[2023-06-28 02:09:52] INFO root fetch - processPackages [regpredict]: Remove: archive file [/home/abi/fetcher/tmp/regpredict-0.0.9.tar.gz]
+[2023-06-28 02:09:52] INFO root fetch - main [MainThread]: End processing [regpredict]: success
+[2023-06-28 02:09:52] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306260008.tar.gz]
+[2023-06-28 02:09:52] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306270007.tar.gz]
+[2023-06-28 02:09:52] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-06-28 02:09:53] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.86.tar.gz]
+[2023-06-28 02:09:53] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.9.tar.gz]
+[2023-06-28 02:09:53] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-06-28 02:09:55] INFO root fetch - processPackages [theogravity-pulumi-fusionauth]: Remove: archive file [/home/abi/fetcher/tmp/theogravity_pulumi-fusionauth-2.9.0.tar.gz]
+[2023-06-28 02:09:55] INFO root fetch - processPackages [theogravity-pulumi-fusionauth]: Remove: archive file [/home/abi/fetcher/tmp/theogravity_pulumi-fusionauth-3.0.5.tar.gz]
+[2023-06-28 02:09:55] INFO root fetch - main [MainThread]: End processing [theogravity-pulumi-fusionauth]: success
+[2023-06-28 02:09:56] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230627.post428.tar.gz]
+[2023-06-28 02:09:56] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230628.post428.tar.gz]
+[2023-06-28 02:09:56] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-28 02:10:13] INFO root fetch - processPackages [dss-python]: Remove: archive file [/home/abi/fetcher/tmp/dss_python-0.9.7-cp36-cp36m-win_amd64.whl.zip]
+[2023-06-28 02:10:13] INFO root fetch - processPackages [dss-python]: Remove: archive file [/home/abi/fetcher/tmp/dss_python-0.9.8-cp37-cp37m-win_amd64.whl.zip]
+[2023-06-28 02:10:13] INFO root fetch - main [MainThread]: End processing [dss-python]: success
+[2023-06-28 02:10:13] INFO root fetch - main [MainThread]: Store serial: [18670103]
