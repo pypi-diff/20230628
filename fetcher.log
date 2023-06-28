@@ -14858,3 +14858,50 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 06:49:07] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2023-06-28 06:49:07] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-06-28 06:49:07] INFO root fetch - main [MainThread]: Store serial: [18674599]
+[2023-06-28 06:54:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674599]
+[2023-06-28 06:54:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-28 06:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secureli
+[2023-06-28 06:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ahoy-dtu-webthing
+[2023-06-28 06:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: performancetest
+[2023-06-28 06:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ocr-iiif-tools
+[2023-06-28 06:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-purchase-workflow
+[2023-06-28 06:54:16] INFO root fetch - processPackages [ocr-iiif-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 06:54:16] INFO root fetch - processPackages [performancetest]: New version: [1.0.3] Old Version: [0.0.4]
+[2023-06-28 06:54:16] INFO root fetch - processPackages [ahoy-dtu-webthing]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-28 06:54:16] INFO root fetch - processPackages [ocr-iiif-tools]: Downloading https://files.pythonhosted.org/packages/d2/69/b8d7e0f99ad3115fa0f50ac5853c4921cf858f8c427fd6e689a23e8b8140/ocr_iiif_tools-0.0.8.tar.gz
+[2023-06-28 06:54:16] INFO root fetch - processPackages [ahoy-dtu-webthing]: Downloading https://files.pythonhosted.org/packages/e4/a1/1ce90c7d0d630840375087a1de3a56177f601de7864488884b82ad6e81e6/ahoy_dtu_webthing-0.1.4.tar.gz
+[2023-06-28 06:54:16] INFO root fetch - processPackages [secureli]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-28 06:54:16] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/98/89/75394a91c27f9f531bb482d2f68022ffbcd3c22d8c071f27b1dcd0e125b7/performancetest-0.0.4.tar.gz
+[2023-06-28 06:54:16] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20230627.0] Old Version: [16.0.20230612.0]
+[2023-06-28 06:54:16] INFO root fetch - processPackages [ahoy-dtu-webthing]: executing diffoscope
+[2023-06-28 06:54:16] INFO root fetch - processPackages [ahoy-dtu-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahoy_dtu_webthing-0.1.4.tar.gz tmp/ahoy_dtu_webthing-0.1.5.tar.gz --markdown 20230628/a/ahoy-dtu-webthing/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-28 06:54:17] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/05/7e/d5ebfecfbad8bbe0217c2c73ff44979fc60e7f3fb5622a2d8b086b950741/performancetest-1.0.3.tar.gz
+[2023-06-28 06:54:17] INFO root fetch - processPackages [ocr-iiif-tools]: Downloading https://files.pythonhosted.org/packages/5b/55/7f43fcb52d469529146f5d9c4e480c9ea7672c6f60a089d803ca58c74d77/ocr_iiif_tools-0.0.9.tar.gz
+[2023-06-28 06:54:17] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/a2/56/c60cead36bb83cc697e4bb1438671c8acae644241a7510201cc4144b6b8f/odoo_addons_oca_purchase_workflow-16.0.20230612.0-py3-none-any.whl
+[2023-06-28 06:54:17] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/31/a5/44752e090bccc28f38c90265dd7e68023a7b01f0fd62475238980fabdb38/secureli-0.6.1.tar.gz
+[2023-06-28 06:54:17] INFO root fetch - processPackages [ocr-iiif-tools]: executing diffoscope
+[2023-06-28 06:54:17] INFO root fetch - processPackages [ocr-iiif-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocr_iiif_tools-0.0.8.tar.gz tmp/ocr_iiif_tools-0.0.9.tar.gz --markdown 20230628/o/ocr-iiif-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 06:54:17] INFO root fetch - processPackages [performancetest]: executing diffoscope
+[2023-06-28 06:54:17] INFO root fetch - processPackages [performancetest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/performancetest-0.0.4.tar.gz tmp/performancetest-1.0.3.tar.gz --markdown 20230628/p/performancetest/0.0.4-1.0.3/diff.md --exclude *.pyd
+[2023-06-28 06:54:17] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/69/6a/ad9863e67e322784ecca7a43cd2f381e4a4f7a327e36a53f4a42edc39a29/odoo_addons_oca_purchase_workflow-16.0.20230627.0-py3-none-any.whl
+[2023-06-28 06:54:17] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/38/cc/71f1636c85a070c043af3cae77fbebe1e5a578a00fc28ae8c9c275b2d653/secureli-0.6.2.tar.gz
+[2023-06-28 06:54:17] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2023-06-28 06:54:17] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20230612.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20230627.0-py3-none-any.whl.zip --markdown 20230628/o/odoo-addons-oca-purchase-workflow/16.0.20230612.0-16.0.20230627.0/diff.md --exclude *.pyd
+[2023-06-28 06:54:17] INFO root fetch - processPackages [secureli]: executing diffoscope
+[2023-06-28 06:54:17] INFO root fetch - processPackages [secureli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secureli-0.6.1.tar.gz tmp/secureli-0.6.2.tar.gz --markdown 20230628/s/secureli/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-28 06:54:17] INFO root fetch - processPackages [ahoy-dtu-webthing]: Remove: archive file [/home/abi/fetcher/tmp/ahoy_dtu_webthing-0.1.4.tar.gz]
+[2023-06-28 06:54:17] INFO root fetch - processPackages [ahoy-dtu-webthing]: Remove: archive file [/home/abi/fetcher/tmp/ahoy_dtu_webthing-0.1.5.tar.gz]
+[2023-06-28 06:54:17] INFO root fetch - main [MainThread]: End processing [ahoy-dtu-webthing]: success
+[2023-06-28 06:54:18] INFO root fetch - processPackages [ocr-iiif-tools]: Remove: archive file [/home/abi/fetcher/tmp/ocr_iiif_tools-0.0.8.tar.gz]
+[2023-06-28 06:54:18] INFO root fetch - processPackages [ocr-iiif-tools]: Remove: archive file [/home/abi/fetcher/tmp/ocr_iiif_tools-0.0.9.tar.gz]
+[2023-06-28 06:54:18] INFO root fetch - main [MainThread]: End processing [ocr-iiif-tools]: success
+[2023-06-28 06:54:18] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-0.0.4.tar.gz]
+[2023-06-28 06:54:18] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-1.0.3.tar.gz]
+[2023-06-28 06:54:18] INFO root fetch - main [MainThread]: End processing [performancetest]: success
+[2023-06-28 06:54:18] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_workflow-16.0.20230612.0-py3-none-any.whl.zip]
+[2023-06-28 06:54:18] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_workflow-16.0.20230627.0-py3-none-any.whl.zip]
+[2023-06-28 06:54:18] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2023-06-28 06:54:18] INFO root fetch - processPackages [secureli]: Remove: archive file [/home/abi/fetcher/tmp/secureli-0.6.1.tar.gz]
+[2023-06-28 06:54:18] INFO root fetch - processPackages [secureli]: Remove: archive file [/home/abi/fetcher/tmp/secureli-0.6.2.tar.gz]
+[2023-06-28 06:54:18] INFO root fetch - main [MainThread]: End processing [secureli]: success
+[2023-06-28 06:54:18] INFO root fetch - main [MainThread]: Store serial: [18674616]
