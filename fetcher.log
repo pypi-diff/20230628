@@ -14332,3 +14332,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 05:50:43] INFO root fetch - processPackages [PyTrilium]: Remove: archive file [/home/abi/fetcher/tmp/pytrilium-1.2.0.tar.gz]
 [2023-06-28 05:50:43] INFO root fetch - main [MainThread]: End processing [PyTrilium]: success
 [2023-06-28 05:50:43] INFO root fetch - main [MainThread]: Store serial: [18674333]
+[2023-06-28 05:55:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674333]
+[2023-06-28 05:55:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-28 05:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-fr-chorus-account
+[2023-06-28 05:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-banking-fr-lcr
+[2023-06-28 05:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-fr-chorus-facturx
+[2023-06-28 05:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-l10n-france
+[2023-06-28 05:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vstutils
+[2023-06-28 05:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybw-comic
+[2023-06-28 05:55:52] INFO root fetch - processPackages [odoo-addon-l10n-fr-chorus-account]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.1.0.2]
+[2023-06-28 05:55:52] INFO root fetch - processPackages [odoo-addon-l10n-fr-chorus-facturx]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.1.0.1]
+[2023-06-28 05:55:52] INFO root fetch - processPackages [pybw-comic]: New version: [23.6.28.5] Old Version: [23.6.28.4]
+[2023-06-28 05:55:52] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: New version: [16.0.20230626.0] Old Version: [16.0.20230609.1]
+[2023-06-28 05:55:52] INFO root fetch - processPackages [vstutils]: New version: [5.5.8] Old Version: [5.5.7]
+[2023-06-28 05:55:52] INFO root fetch - processPackages [odoo-addon-l10n-fr-chorus-facturx]: Downloading https://files.pythonhosted.org/packages/50/88/54964ccda2c7908c151c9f560e8ef9925dc033f5c88af1c6fa64aaea8853/odoo_addon_l10n_fr_chorus_facturx-15.0.1.1.0.1-py3-none-any.whl
+[2023-06-28 05:55:52] INFO root fetch - processPackages [odoo-addon-l10n-fr-chorus-account]: Downloading https://files.pythonhosted.org/packages/83/af/2067985018e78fc4dafea6ac188f9d208aee86972bd5a8913113864ca9e2/odoo_addon_l10n_fr_chorus_account-15.0.1.1.0.2-py3-none-any.whl
+[2023-06-28 05:55:52] INFO root fetch - processPackages [pybw-comic]: Downloading https://files.pythonhosted.org/packages/e0/78/dd0833d38029df752cf74e2c7857ea5d52e91d66bd606d0f341de3f10dd9/pybw_comic-23.6.28.4.tar.gz
+[2023-06-28 05:55:52] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: Downloading https://files.pythonhosted.org/packages/fb/8e/b16bdb868215d24ddbfacd7bc7afb56c9cddbd6b60b1f3d5f722af52c4cb/odoo_addons_oca_l10n_france-16.0.20230609.1-py3-none-any.whl
+[2023-06-28 05:55:52] INFO root fetch - processPackages [odoo-addon-account-banking-fr-lcr]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-06-28 05:55:52] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/ab/31/3a421c670505f84442023c0845d397635e50fd827994b6008652dd4e5ac3/vstutils-5.5.7.tar.gz
+[2023-06-28 05:55:52] INFO root fetch - processPackages [odoo-addon-l10n-fr-chorus-facturx]: Downloading https://files.pythonhosted.org/packages/d7/3c/ea4810b3269125275d939cb0a7fe8690708ee29f2f54ed72ddf6997cadff/odoo_addon_l10n_fr_chorus_facturx-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-28 05:55:52] INFO root fetch - processPackages [odoo-addon-l10n-fr-chorus-account]: Downloading https://files.pythonhosted.org/packages/ea/4b/714a751e48ed439fd4eccfdf75e621af08557387dc1dff5b81cad2e91ec6/odoo_addon_l10n_fr_chorus_account-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-28 05:55:52] INFO root fetch - processPackages [odoo-addon-account-banking-fr-lcr]: Downloading https://files.pythonhosted.org/packages/68/05/1f9114a51aa8555d7692c3d7ac1306c3774d4970b370754d16d65dd09a2b/odoo_addon_account_banking_fr_lcr-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-28 05:55:52] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: Downloading https://files.pythonhosted.org/packages/08/b7/080ce0965f7599f69a819b02406ad8e82c43a8286de5da3610431828b431/odoo_addons_oca_l10n_france-16.0.20230626.0-py3-none-any.whl
+[2023-06-28 05:55:52] INFO root fetch - processPackages [pybw-comic]: Downloading https://files.pythonhosted.org/packages/bf/c1/835d703c2a496855f7b3d40ef1ffb3e4cfd2e893605c086cd8f175327083/pybw_comic-23.6.28.5.tar.gz
+[2023-06-28 05:55:52] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/04/8a/5724aea5d6620bbcdb34b6d807e6551956415c0dae780c291e66666eb80d/vstutils-5.5.8.tar.gz
+[2023-06-28 05:55:53] INFO root fetch - processPackages [odoo-addon-l10n-fr-chorus-facturx]: executing diffoscope
+[2023-06-28 05:55:53] INFO root fetch - processPackages [odoo-addon-l10n-fr-chorus-facturx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_fr_chorus_facturx-15.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_fr_chorus_facturx-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-l10n-fr-chorus-facturx/15.0.1.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-28 05:55:53] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: executing diffoscope
+[2023-06-28 05:55:53] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_france-16.0.20230609.1-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_france-16.0.20230626.0-py3-none-any.whl.zip --markdown 20230628/o/odoo-addons-oca-l10n-france/16.0.20230609.1-16.0.20230626.0/diff.md --exclude *.pyd
+[2023-06-28 05:55:53] INFO root fetch - processPackages [odoo-addon-l10n-fr-chorus-account]: executing diffoscope
+[2023-06-28 05:55:53] INFO root fetch - processPackages [odoo-addon-l10n-fr-chorus-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_fr_chorus_account-15.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_fr_chorus_account-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-l10n-fr-chorus-account/15.0.1.1.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-28 05:55:53] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-06-28 05:55:53] INFO root fetch - processPackages [pybw-comic]: executing diffoscope
+[2023-06-28 05:55:53] INFO root fetch - processPackages [pybw-comic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybw_comic-23.6.28.4.tar.gz tmp/pybw_comic-23.6.28.5.tar.gz --markdown 20230628/p/pybw-comic/23.6.28.4-23.6.28.5/diff.md --exclude *.pyd
+[2023-06-28 05:55:53] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.5.7.tar.gz tmp/vstutils-5.5.8.tar.gz --markdown 20230628/v/vstutils/5.5.7-5.5.8/diff.md --exclude *.pyd
+[2023-06-28 05:55:53] INFO root fetch - processPackages [odoo-addon-account-banking-fr-lcr]: Downloading https://files.pythonhosted.org/packages/d6/9f/5c04008404d98ad24ca69066bd055f0d190dfad34d5d5cd4b8dd67bb1347/odoo_addon_account_banking_fr_lcr-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-28 05:55:53] INFO root fetch - processPackages [odoo-addon-account-banking-fr-lcr]: executing diffoscope
+[2023-06-28 05:55:53] INFO root fetch - processPackages [odoo-addon-account-banking-fr-lcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_fr_lcr-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_banking_fr_lcr-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-account-banking-fr-lcr/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-28 05:55:54] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_france-16.0.20230609.1-py3-none-any.whl.zip]
+[2023-06-28 05:55:54] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_france-16.0.20230626.0-py3-none-any.whl.zip]
+[2023-06-28 05:55:54] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-france]: success
+[2023-06-28 05:55:54] INFO root fetch - processPackages [odoo-addon-l10n-fr-chorus-facturx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_chorus_facturx-15.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-06-28 05:55:54] INFO root fetch - processPackages [odoo-addon-l10n-fr-chorus-facturx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_chorus_facturx-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-28 05:55:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-chorus-facturx]: success
+[2023-06-28 05:55:54] INFO root fetch - processPackages [pybw-comic]: Remove: archive file [/home/abi/fetcher/tmp/pybw_comic-23.6.28.4.tar.gz]
+[2023-06-28 05:55:54] INFO root fetch - processPackages [pybw-comic]: Remove: archive file [/home/abi/fetcher/tmp/pybw_comic-23.6.28.5.tar.gz]
+[2023-06-28 05:55:54] INFO root fetch - main [MainThread]: End processing [pybw-comic]: success
+[2023-06-28 05:55:54] INFO root fetch - processPackages [odoo-addon-account-banking-fr-lcr]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_fr_lcr-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-28 05:55:54] INFO root fetch - processPackages [odoo-addon-account-banking-fr-lcr]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_fr_lcr-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-28 05:55:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-fr-lcr]: success
+[2023-06-28 05:55:54] INFO root fetch - processPackages [odoo-addon-l10n-fr-chorus-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_chorus_account-15.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-06-28 05:55:54] INFO root fetch - processPackages [odoo-addon-l10n-fr-chorus-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_chorus_account-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-28 05:55:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-chorus-account]: success
+[2023-06-28 05:56:07] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.7.tar.gz]
+[2023-06-28 05:56:07] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.8.tar.gz]
+[2023-06-28 05:56:07] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-06-28 05:56:07] INFO root fetch - main [MainThread]: Store serial: [18674349]
