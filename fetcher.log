@@ -16036,3 +16036,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 08:32:53] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230628.tar.gz]
 [2023-06-28 08:32:53] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-06-28 08:32:53] INFO root fetch - main [MainThread]: Store serial: [18675178]
+[2023-06-28 08:38:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18675178]
+[2023-06-28 08:38:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-28 08:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radstar
+[2023-06-28 08:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ms-entropy
+[2023-06-28 08:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyansys-tools-versioning
+[2023-06-28 08:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcentrapi
+[2023-06-28 08:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scoamp
+[2023-06-28 08:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scoamppro
+[2023-06-28 08:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: automation_rest_server
+[2023-06-28 08:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kspdf
+[2023-06-28 08:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain
+[2023-06-28 08:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pynocaptcha
+[2023-06-28 08:38:07] INFO root fetch - processPackages [dcentrapi]: New version: [0.2.98] Old Version: [0.2.97]
+[2023-06-28 08:38:07] INFO root fetch - processPackages [scoamppro]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-28 08:38:07] INFO root fetch - processPackages [ms-entropy]: New version: [0.9.0] Old Version: [0.6.0]
+[2023-06-28 08:38:07] INFO root fetch - processPackages [pyansys-tools-versioning]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-06-28 08:38:07] INFO root fetch - processPackages [scoamp]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-28 08:38:07] WARNING root fetch - processPackages [kspdf]: Skipping, unable to determine old version
+[2023-06-28 08:38:07] WARNING root fetch - processPackages [radstar]: Skipping, unable to determine old version
+[2023-06-28 08:38:07] INFO root fetch - main [MainThread]: End processing [kspdf] error
+[2023-06-28 08:38:07] INFO root fetch - processPackages [pynocaptcha]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-06-28 08:38:07] INFO root fetch - main [MainThread]: End processing [radstar] error
+[2023-06-28 08:38:07] INFO root fetch - processPackages [automation_rest_server]: New version: [3.8.1] Old Version: [3.7.6]
+[2023-06-28 08:38:07] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-06-28 08:38:07] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/ca/d2/0473f9b0317ea7c9c4631092a1283876d81360f738d4ca82dde9fc6be4ac/dcentrapi-0.2.97.tar.gz
+[2023-06-28 08:38:07] INFO root fetch - processPackages [scoamppro]: Downloading https://files.pythonhosted.org/packages/dc/c0/541b1cc3b71f5816453aacae518446d2dab64d5034cc2ec7e2baa9d91c19/scoamppro-0.3.2-py3-none-any.whl
+[2023-06-28 08:38:07] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/91/9a/1a09bcf451079e4f6a66331ebe7c5bf0e3f714601dfd7659e12c4bdf3a0d/scoamp-0.3.2-py3-none-any.whl
+[2023-06-28 08:38:07] INFO root fetch - processPackages [pyansys-tools-versioning]: Downloading https://files.pythonhosted.org/packages/2f/5d/23b95d4852b9931f89573baf288e025a1b74ce4e80004a42cb335885d169/pyansys-tools-versioning-0.3.3.tar.gz
+[2023-06-28 08:38:07] INFO root fetch - processPackages [ms-entropy]: Downloading https://files.pythonhosted.org/packages/3c/42/622f0e791445b544df1a8321949924fe2e36456b00ba477e2569861cbd41/ms_entropy-0.6.0.tar.gz
+[2023-06-28 08:38:07] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/a6/c2/141576c05e1cf57198dc83c0983aea421bbd66b0115e2d329cb98b34a559/automation_rest_server-3.7.6.tar.gz
+[2023-06-28 08:38:07] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/c9/08/863fb0ab733ffe73d73acc78d8c669c246840d9b5b1ca77b8b33608cbe84/pynocaptcha-1.5.8.tar.gz
+[2023-06-28 08:38:07] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-06-28 08:38:07] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/03/2b/7048db0f6822b3b132ea5fa39988b2e57b999465755788ade69880682a91/dcentrapi-0.2.98.tar.gz
+[2023-06-28 08:38:07] INFO root fetch - processPackages [scoamppro]: Downloading https://files.pythonhosted.org/packages/84/4d/41628a52795293398b63ed38b08414b8b10e45076166614ed18b994808d0/scoamppro-0.3.3-py3-none-any.whl
+[2023-06-28 08:38:07] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/91/1a/bf84e70559af330eaeea98202bc055809289674859478dcfd3fbf7c1fcd3/scoamp-0.3.3-py3-none-any.whl
+[2023-06-28 08:38:07] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2023-06-28 08:38:07] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.2.97.tar.gz tmp/dcentrapi-0.2.98.tar.gz --markdown 20230628/d/dcentrapi/0.2.97-0.2.98/diff.md --exclude *.pyd
+[2023-06-28 08:38:07] INFO root fetch - processPackages [scoamp]: executing diffoscope
+[2023-06-28 08:38:07] INFO root fetch - processPackages [scoamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamp-0.3.2-py3-none-any.whl.zip tmp/scoamp-0.3.3-py3-none-any.whl.zip --markdown 20230628/s/scoamp/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-28 08:38:08] INFO root fetch - processPackages [ms-entropy]: Downloading https://files.pythonhosted.org/packages/04/be/448e7d51e143a924ab0bd0b19fda38bf90daef5f614d6de43ba8034af145/ms_entropy-0.9.0.tar.gz
+[2023-06-28 08:38:08] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/b8/67/fa28cf56d954e2adab772c000cb3bd3cedc6d0672570189147669ddb340e/pynocaptcha-1.5.9.tar.gz
+[2023-06-28 08:38:08] INFO root fetch - processPackages [pyansys-tools-versioning]: Downloading https://files.pythonhosted.org/packages/6e/26/4b51a193359e58b24eaf4e60c5f62e7d71f025948618e28590d8238072f5/pyansys_tools_versioning-0.4.0.tar.gz
+[2023-06-28 08:38:08] INFO root fetch - processPackages [scoamppro]: executing diffoscope
+[2023-06-28 08:38:08] INFO root fetch - processPackages [scoamppro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamppro-0.3.2-py3-none-any.whl.zip tmp/scoamppro-0.3.3-py3-none-any.whl.zip --markdown 20230628/s/scoamppro/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-28 08:38:08] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/b8/9d/d1b6865e3ac1663cbb5cc24fe8e9083b62965dc2a81b98387373bd071444/automation_rest_server-3.8.1.tar.gz
+[2023-06-28 08:38:08] INFO root fetch - processPackages [pyansys-tools-versioning]: executing diffoscope
+[2023-06-28 08:38:08] INFO root fetch - processPackages [pyansys-tools-versioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyansys-tools-versioning-0.3.3.tar.gz tmp/pyansys_tools_versioning-0.4.0.tar.gz --markdown 20230628/p/pyansys-tools-versioning/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-06-28 08:38:08] INFO root fetch - processPackages [pynocaptcha]: executing diffoscope
+[2023-06-28 08:38:08] INFO root fetch - processPackages [pynocaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynocaptcha-1.5.8.tar.gz tmp/pynocaptcha-1.5.9.tar.gz --markdown 20230628/p/pynocaptcha/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-06-28 08:38:08] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-06-28 08:38:08] INFO root fetch - processPackages [ms-entropy]: executing diffoscope
+[2023-06-28 08:38:08] INFO root fetch - processPackages [ms-entropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_entropy-0.6.0.tar.gz tmp/ms_entropy-0.9.0.tar.gz --markdown 20230628/m/ms-entropy/0.6.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 08:38:08] INFO root fetch - processPackages [automation_rest_server]: executing diffoscope
+[2023-06-28 08:38:08] INFO root fetch - processPackages [automation_rest_server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_rest_server-3.7.6.tar.gz tmp/automation_rest_server-3.8.1.tar.gz --markdown 20230628/a/automation_rest_server/3.7.6-3.8.1/diff.md --exclude *.pyd
+[2023-06-28 08:38:08] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-06-28 08:38:08] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230628/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-06-28 08:38:09] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.2.97.tar.gz]
+[2023-06-28 08:38:09] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.2.98.tar.gz]
+[2023-06-28 08:38:09] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2023-06-28 08:38:09] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.3.2-py3-none-any.whl.zip]
+[2023-06-28 08:38:09] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.3.3-py3-none-any.whl.zip]
+[2023-06-28 08:38:09] INFO root fetch - main [MainThread]: End processing [scoamp]: success
+[2023-06-28 08:38:09] INFO root fetch - processPackages [pyansys-tools-versioning]: Remove: archive file [/home/abi/fetcher/tmp/pyansys-tools-versioning-0.3.3.tar.gz]
+[2023-06-28 08:38:09] INFO root fetch - processPackages [pyansys-tools-versioning]: Remove: archive file [/home/abi/fetcher/tmp/pyansys_tools_versioning-0.4.0.tar.gz]
+[2023-06-28 08:38:09] INFO root fetch - main [MainThread]: End processing [pyansys-tools-versioning]: success
+[2023-06-28 08:38:09] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.8.tar.gz]
+[2023-06-28 08:38:09] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.9.tar.gz]
+[2023-06-28 08:38:09] INFO root fetch - main [MainThread]: End processing [pynocaptcha]: success
+[2023-06-28 08:38:09] INFO root fetch - processPackages [scoamppro]: Remove: archive file [/home/abi/fetcher/tmp/scoamppro-0.3.2-py3-none-any.whl.zip]
+[2023-06-28 08:38:09] INFO root fetch - processPackages [scoamppro]: Remove: archive file [/home/abi/fetcher/tmp/scoamppro-0.3.3-py3-none-any.whl.zip]
+[2023-06-28 08:38:09] INFO root fetch - main [MainThread]: End processing [scoamppro]: success
+[2023-06-28 08:38:10] INFO root fetch - processPackages [automation_rest_server]: Remove: archive file [/home/abi/fetcher/tmp/automation_rest_server-3.7.6.tar.gz]
+[2023-06-28 08:38:10] INFO root fetch - processPackages [automation_rest_server]: Remove: archive file [/home/abi/fetcher/tmp/automation_rest_server-3.8.1.tar.gz]
+[2023-06-28 08:38:10] INFO root fetch - main [MainThread]: End processing [automation_rest_server]: success
+[2023-06-28 08:38:11] INFO root fetch - processPackages [ms-entropy]: Remove: archive file [/home/abi/fetcher/tmp/ms_entropy-0.6.0.tar.gz]
+[2023-06-28 08:38:11] INFO root fetch - processPackages [ms-entropy]: Remove: archive file [/home/abi/fetcher/tmp/ms_entropy-0.9.0.tar.gz]
+[2023-06-28 08:38:11] INFO root fetch - main [MainThread]: End processing [ms-entropy]: success
+[2023-06-28 08:38:12] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-06-28 08:38:12] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-06-28 08:38:12] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-06-28 08:38:12] INFO root fetch - main [MainThread]: Store serial: [18675206]
