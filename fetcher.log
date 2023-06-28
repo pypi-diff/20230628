@@ -5566,3 +5566,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 03:01:41] INFO root fetch - processPackages [aspeak]: Remove: archive file [/home/abi/fetcher/tmp/aspeak-6.0.0b3-cp38-abi3-win_amd64.whl.zip]
 [2023-06-28 03:01:41] INFO root fetch - main [MainThread]: End processing [aspeak]: success
 [2023-06-28 03:01:41] INFO root fetch - main [MainThread]: Store serial: [18671237]
+[2023-06-28 03:06:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18671237]
+[2023-06-28 03:06:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-28 03:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BlockChainExplorerManiacalEngineer
+[2023-06-28 03:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-databrew-cicd
+[2023-06-28 03:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatglm-llm
+[2023-06-28 03:06:57] INFO root fetch - processPackages [chatglm-llm]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-28 03:06:57] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-28 03:06:57] ERROR root fetch - processPackages [BlockChainExplorerManiacalEngineer]: Unable to get metadata: No such project 'BlockChainExplorerManiacalEngineer'
+[2023-06-28 03:06:57] INFO root fetch - main [MainThread]: End processing [BlockChainExplorerManiacalEngineer] error
+[2023-06-28 03:06:57] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/c6/19/70f1386faa1d40aeb89cf9fe414072ee6b71475e62e8e51354e52006a66d/chatglm-llm-1.4.1.tar.gz
+[2023-06-28 03:06:57] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-28 03:06:58] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/b1/55/34b23b2c33f75ae3e0748f6e7461ee041f3651f2d0bc7551a74c092102bd/chatglm-llm-1.4.2.tar.gz
+[2023-06-28 03:06:58] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-28 03:06:58] INFO root fetch - processPackages [chatglm-llm]: executing diffoscope
+[2023-06-28 03:06:58] INFO root fetch - processPackages [chatglm-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatglm-llm-1.4.1.tar.gz tmp/chatglm-llm-1.4.2.tar.gz --markdown 20230628/c/chatglm-llm/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-28 03:06:58] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-28 03:06:58] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230628/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-28 03:06:59] INFO root fetch - processPackages [chatglm-llm]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-llm-1.4.1.tar.gz]
+[2023-06-28 03:06:59] INFO root fetch - processPackages [chatglm-llm]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-llm-1.4.2.tar.gz]
+[2023-06-28 03:06:59] INFO root fetch - main [MainThread]: End processing [chatglm-llm]: success
+[2023-06-28 03:06:59] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-28 03:06:59] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-28 03:06:59] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-28 03:06:59] INFO root fetch - main [MainThread]: Store serial: [18671250]
