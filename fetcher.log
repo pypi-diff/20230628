@@ -15949,3 +15949,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 08:27:35] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-06-28 08:27:35] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-28 08:27:35] INFO root fetch - main [MainThread]: Store serial: [18675150]
+[2023-06-28 08:32:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18675150]
+[2023-06-28 08:32:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-28 08:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MeUtils
+[2023-06-28 08:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcbot-url-parser
+[2023-06-28 08:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module-latest
+[2023-06-28 08:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-quickbi-public20220101-py2
+[2023-06-28 08:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xj-finance
+[2023-06-28 08:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openexpressions
+[2023-06-28 08:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-quickbi-public20220101
+[2023-06-28 08:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tracebloc-package
+[2023-06-28 08:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: etu-fastapi-frame
+[2023-06-28 08:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spark-dummy-tools
+[2023-06-28 08:32:44] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230628] Old Version: [20230627]
+[2023-06-28 08:32:44] WARNING root fetch - processPackages [openexpressions]: Skipping, unable to determine old version
+[2023-06-28 08:32:44] INFO root fetch - processPackages [zcbot-url-parser]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-06-28 08:32:44] INFO root fetch - processPackages [alibabacloud-quickbi-public20220101-py2]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-28 08:32:44] INFO root fetch - main [MainThread]: End processing [openexpressions] error
+[2023-06-28 08:32:44] INFO root fetch - processPackages [alibabacloud-quickbi-public20220101]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-28 08:32:44] INFO root fetch - processPackages [tracebloc-package]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 08:32:44] INFO root fetch - processPackages [etu-fastapi-frame]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-28 08:32:44] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-28 08:32:44] INFO root fetch - processPackages [spark-dummy-tools]: New version: [0.2.1] Old Version: [0.1.0]
+[2023-06-28 08:32:44] INFO root fetch - processPackages [MeUtils]: New version: [2023.6.8.9.46.19] Old Version: [2023.6.6.18.16.46]
+[2023-06-28 08:32:45] INFO root fetch - processPackages [etu-fastapi-frame]: Downloading https://files.pythonhosted.org/packages/5f/21/374486320fce7837c6b55e3afdd22a233ae9bdd38b7e4be6c04a32731665/etu-fastapi-frame-1.3.0.tar.gz
+[2023-06-28 08:32:45] INFO root fetch - processPackages [zcbot-url-parser]: Downloading https://files.pythonhosted.org/packages/57/c9/ec2d7bb95f0d6e9fb84fd932354da9b77089fd00c1183eb0099b825fd7e7/zcbot-url-parser-0.0.2.tar.gz
+[2023-06-28 08:32:45] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/8d/24/3453bcb85cab706ab8d5c5bab3949d7eafe19e159a1701e7081589ab7549/fake-bpy-module-latest-20230627.tar.gz
+[2023-06-28 08:32:45] INFO root fetch - processPackages [alibabacloud-quickbi-public20220101-py2]: Downloading https://files.pythonhosted.org/packages/5f/fa/27d84cd46206b27b2a7325a6d296c4c9d57c0810da53c5e0d78f3e66d52d/alibabacloud_quickbi-public20220101_py2-1.1.5.tar.gz
+[2023-06-28 08:32:45] INFO root fetch - processPackages [spark-dummy-tools]: Downloading https://files.pythonhosted.org/packages/c0/c1/a9d95326d50ff3f4a005c0bc98b1bce4adacb910831ed48b507ed3b4ce04/spark_dummy_tools-0.1.0.tar.gz
+[2023-06-28 08:32:45] INFO root fetch - processPackages [alibabacloud-quickbi-public20220101]: Downloading https://files.pythonhosted.org/packages/e9/d9/a7de1424fbe9af13770f88021f0cf884636a6b737e80306c4ac30a53330e/alibabacloud_quickbi-public20220101-1.1.5.tar.gz
+[2023-06-28 08:32:45] INFO root fetch - processPackages [tracebloc-package]: Downloading https://files.pythonhosted.org/packages/8c/0c/53c1613f9f9cc2d451482f056ad41f63d79cd5a6df8760a925969349d056/tracebloc_package-0.1.8.tar.gz
+[2023-06-28 08:32:45] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/85/06/1e9c8076aa8e0629c14bb494a76121b916ff57c4793069cd4ef44db94916/xj_finance-1.1.7.tar.gz
+[2023-06-28 08:32:45] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/d1/11/8d77c72aa3d20af25d58b4ab456dc705e2879b3bdb168bfd1fb0fc2734af/MeUtils-2023.6.6.18.16.46.tar.gz
+[2023-06-28 08:32:45] INFO root fetch - processPackages [etu-fastapi-frame]: Downloading https://files.pythonhosted.org/packages/8e/ae/879e7119d40657ee89e8427f7ff9b6b16212849b44e1756f28a3cafbc548/etu_fastapi_frame-1.3.1-py3-none-any.whl
+[2023-06-28 08:32:45] INFO root fetch - processPackages [zcbot-url-parser]: Downloading https://files.pythonhosted.org/packages/75/dc/0f9a9153289b517d958fa212db42bb95b56e9a25488c440f67ecc451bef6/zcbot-url-parser-0.0.4.tar.gz
+[2023-06-28 08:32:45] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/ff/05/870e36f7f563bd7f04c2b112ab12a910e9ff70d6db321ee2869e192b012c/fake-bpy-module-latest-20230628.tar.gz
+[2023-06-28 08:32:45] INFO root fetch - processPackages [spark-dummy-tools]: Downloading https://files.pythonhosted.org/packages/c0/58/d7d756348ca10f652e878d387966e8c301c697043498725ebe7867fd1625/spark_dummy_tools-0.2.1.tar.gz
+[2023-06-28 08:32:45] INFO root fetch - processPackages [zcbot-url-parser]: executing diffoscope
+[2023-06-28 08:32:45] INFO root fetch - processPackages [zcbot-url-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-url-parser-0.0.2.tar.gz tmp/zcbot-url-parser-0.0.4.tar.gz --markdown 20230628/z/zcbot-url-parser/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-06-28 08:32:45] INFO root fetch - processPackages [etu-fastapi-frame]: executing diffoscope
+[2023-06-28 08:32:45] INFO root fetch - processPackages [etu-fastapi-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etu-fastapi-frame-1.3.0.tar.gz tmp/etu_fastapi_frame-1.3.1-py3-none-any.whl.zip --markdown 20230628/e/etu-fastapi-frame/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-28 08:32:45] INFO root fetch - processPackages [tracebloc-package]: Downloading https://files.pythonhosted.org/packages/2f/86/f5a06ff14db12b21fe7460dc71f1dae6aca3db77058e45f121993bc6a568/tracebloc_package-0.1.9.tar.gz
+[2023-06-28 08:32:45] INFO root fetch - processPackages [alibabacloud-quickbi-public20220101-py2]: Downloading https://files.pythonhosted.org/packages/b9/3f/54904a46bcbef54f9071fc64e2c4daee1efdc6fc85314a28c1d4804668df/alibabacloud_quickbi-public20220101_py2-1.1.6.tar.gz
+[2023-06-28 08:32:45] INFO root fetch - processPackages [spark-dummy-tools]: executing diffoscope
+[2023-06-28 08:32:45] INFO root fetch - processPackages [spark-dummy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_dummy_tools-0.1.0.tar.gz tmp/spark_dummy_tools-0.2.1.tar.gz --markdown 20230628/s/spark-dummy-tools/0.1.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-28 08:32:45] INFO root fetch - processPackages [alibabacloud-quickbi-public20220101]: Downloading https://files.pythonhosted.org/packages/6f/f4/637edc846e40d71d36f0a7b90e9a6b11f43ed16f0b255055d2bf117d8d7a/alibabacloud_quickbi-public20220101-1.1.6.tar.gz
+[2023-06-28 08:32:45] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-06-28 08:32:45] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230627.tar.gz tmp/fake-bpy-module-latest-20230628.tar.gz --markdown 20230628/f/fake-bpy-module-latest/20230627-20230628/diff.md --exclude *.pyd
+[2023-06-28 08:32:45] INFO root fetch - processPackages [tracebloc-package]: executing diffoscope
+[2023-06-28 08:32:45] INFO root fetch - processPackages [tracebloc-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-0.1.8.tar.gz tmp/tracebloc_package-0.1.9.tar.gz --markdown 20230628/t/tracebloc-package/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 08:32:45] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/05/17/1d8ed3acedb3e976333c002d75343346b672b1b0907099e9685be98f80ac/xj_finance-1.1.8.tar.gz
+[2023-06-28 08:32:45] INFO root fetch - processPackages [alibabacloud-quickbi-public20220101-py2]: executing diffoscope
+[2023-06-28 08:32:45] INFO root fetch - processPackages [alibabacloud-quickbi-public20220101-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_quickbi-public20220101_py2-1.1.5.tar.gz tmp/alibabacloud_quickbi-public20220101_py2-1.1.6.tar.gz --markdown 20230628/a/alibabacloud-quickbi-public20220101-py2/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-28 08:32:45] INFO root fetch - processPackages [alibabacloud-quickbi-public20220101]: executing diffoscope
+[2023-06-28 08:32:45] INFO root fetch - processPackages [alibabacloud-quickbi-public20220101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_quickbi-public20220101-1.1.5.tar.gz tmp/alibabacloud_quickbi-public20220101-1.1.6.tar.gz --markdown 20230628/a/alibabacloud-quickbi-public20220101/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-28 08:32:45] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-06-28 08:32:45] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230628/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-28 08:32:46] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/0e/2e/ec2cc34871c3af09dac9ee93f99e7d89d8a20aca1a7c655697f42d240e9b/MeUtils-2023.6.8.9.46.19.tar.gz
+[2023-06-28 08:32:46] INFO root fetch - processPackages [zcbot-url-parser]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-url-parser-0.0.2.tar.gz]
+[2023-06-28 08:32:46] INFO root fetch - processPackages [zcbot-url-parser]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-url-parser-0.0.4.tar.gz]
+[2023-06-28 08:32:46] INFO root fetch - main [MainThread]: End processing [zcbot-url-parser]: success
+[2023-06-28 08:32:46] INFO root fetch - processPackages [spark-dummy-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dummy_tools-0.1.0.tar.gz]
+[2023-06-28 08:32:46] INFO root fetch - processPackages [spark-dummy-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dummy_tools-0.2.1.tar.gz]
+[2023-06-28 08:32:46] INFO root fetch - main [MainThread]: End processing [spark-dummy-tools]: success
+[2023-06-28 08:32:47] INFO root fetch - processPackages [tracebloc-package]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-0.1.8.tar.gz]
+[2023-06-28 08:32:47] INFO root fetch - processPackages [tracebloc-package]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-0.1.9.tar.gz]
+[2023-06-28 08:32:47] INFO root fetch - main [MainThread]: End processing [tracebloc-package]: success
+[2023-06-28 08:32:47] INFO root fetch - processPackages [etu-fastapi-frame]: Remove: archive file [/home/abi/fetcher/tmp/etu-fastapi-frame-1.3.0.tar.gz]
+[2023-06-28 08:32:47] INFO root fetch - processPackages [etu-fastapi-frame]: Remove: archive file [/home/abi/fetcher/tmp/etu_fastapi_frame-1.3.1-py3-none-any.whl.zip]
+[2023-06-28 08:32:47] INFO root fetch - main [MainThread]: End processing [etu-fastapi-frame]: success
+[2023-06-28 08:32:47] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.7.tar.gz]
+[2023-06-28 08:32:47] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.8.tar.gz]
+[2023-06-28 08:32:47] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-06-28 08:32:48] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-06-28 08:32:48] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.6.6.18.16.46.tar.gz tmp/MeUtils-2023.6.8.9.46.19.tar.gz --markdown 20230628/M/MeUtils/2023.6.6.18.16.46-2023.6.8.9.46.19/diff.md --exclude *.pyd
+[2023-06-28 08:32:48] INFO root fetch - processPackages [alibabacloud-quickbi-public20220101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_quickbi-public20220101_py2-1.1.5.tar.gz]
+[2023-06-28 08:32:48] INFO root fetch - processPackages [alibabacloud-quickbi-public20220101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_quickbi-public20220101_py2-1.1.6.tar.gz]
+[2023-06-28 08:32:48] INFO root fetch - main [MainThread]: End processing [alibabacloud-quickbi-public20220101-py2]: success
+[2023-06-28 08:32:49] INFO root fetch - processPackages [alibabacloud-quickbi-public20220101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_quickbi-public20220101-1.1.5.tar.gz]
+[2023-06-28 08:32:49] INFO root fetch - processPackages [alibabacloud-quickbi-public20220101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_quickbi-public20220101-1.1.6.tar.gz]
+[2023-06-28 08:32:49] INFO root fetch - main [MainThread]: End processing [alibabacloud-quickbi-public20220101]: success
+[2023-06-28 08:32:53] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.6.6.18.16.46.tar.gz]
+[2023-06-28 08:32:53] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.6.8.9.46.19.tar.gz]
+[2023-06-28 08:32:53] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-06-28 08:32:53] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230627.tar.gz]
+[2023-06-28 08:32:53] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230628.tar.gz]
+[2023-06-28 08:32:53] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-06-28 08:32:53] INFO root fetch - main [MainThread]: Store serial: [18675178]
