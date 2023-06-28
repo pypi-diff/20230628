@@ -16675,3 +16675,138 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 09:05:42] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-06-28 09:05:42] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-28 09:05:42] INFO root fetch - main [MainThread]: Store serial: [18675440]
+[2023-06-28 09:10:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18675440]
+[2023-06-28 09:10:52] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-28 09:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: numpysane
+[2023-06-28 09:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idocker
+[2023-06-28 09:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hugegraph-python
+[2023-06-28 09:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viur-cli
+[2023-06-28 09:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-sonarqube-api
+[2023-06-28 09:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sj-tool
+[2023-06-28 09:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hadder
+[2023-06-28 09:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ultralytics-dist-yolo
+[2023-06-28 09:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-28 09:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MeUtils
+[2023-06-28 09:10:52] INFO root fetch - processPackages [hugegraph-python]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2023-06-28 09:10:52] INFO root fetch - processPackages [idocker]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-28 09:10:52] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 09:10:52] INFO root fetch - processPackages [viur-cli]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-28 09:10:52] INFO root fetch - processPackages [python-sonarqube-api]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-28 09:10:52] WARNING root fetch - processPackages [ultralytics-dist-yolo]: Skipping, unable to determine old version
+[2023-06-28 09:10:52] INFO root fetch - processPackages [ultralytics-dist-yolo]: Start processing: bridgecrew
+[2023-06-28 09:10:52] INFO root fetch - main [MainThread]: End processing [ultralytics-dist-yolo] error
+[2023-06-28 09:10:52] INFO root fetch - processPackages [hadder]: New version: [1.8] Old Version: [1.7]
+[2023-06-28 09:10:52] INFO root fetch - processPackages [MeUtils]: New version: [2023.6.8.9.46.19] Old Version: [2023.6.6.18.16.46]
+[2023-06-28 09:10:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-28 09:10:52] INFO root fetch - processPackages [numpysane]: New version: [0.9] Old Version: [0.8]
+[2023-06-28 09:10:52] INFO root fetch - processPackages [python-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/6d/59/fd46037d7360d471359c94d381463d2b0d81c1dbb7d5320c11c4e82f8015/python-sonarqube-api-2.0.2.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/b7/6d/c4935e149268f94db7ec47fb41f6d59182379ddba36cd88e07132cb2a743/viur_cli-1.0.5.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-06-28 09:10:52] INFO root fetch - processPackages [hugegraph-python]: Downloading https://files.pythonhosted.org/packages/bf/cd/5e25df4040d9b7e29b20a9540bfa5c7d9f60c0d573d072449aa00a68f787/hugegraph-python-1.0.0.8.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [idocker]: Downloading https://files.pythonhosted.org/packages/f7/46/14384a37b1dc5cc5643f2fe4727a28710c62ee28db57e58e1b6c5f1fa3dd/idocker-1.0.0.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/d1/11/8d77c72aa3d20af25d58b4ab456dc705e2879b3bdb168bfd1fb0fc2734af/MeUtils-2023.6.6.18.16.46.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-28 09:10:52] INFO root fetch - processPackages [numpysane]: Downloading https://files.pythonhosted.org/packages/5a/2d/bc22d31b37add2b6330c0259338fd0a1f6dfd6dc0277a9f6ee685d8295aa/numpysane-0.8.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [hadder]: Downloading https://files.pythonhosted.org/packages/88/1d/6d5e17152f9eb9c2b1e5ff721bb5b48e5dd860a5d94743524ade90c4f35f/hadder-1.7.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [python-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/57/d2/d078a79968aafb83d3ee88bb888bfe61c44d10aef680fb93cff4bde57d01/python-sonarqube-api-2.0.3.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/c8/1c/6283509f032138d991091630b83866fb71b0ce5fe62d0701d67a281b297b/viur_cli-1.0.6.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [idocker]: Downloading https://files.pythonhosted.org/packages/ad/40/207ee416dad90e51909dc064266dd78b6de65b8f290d7e7e922f318d9347/idocker-1.1.0.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-06-28 09:10:52] INFO root fetch - processPackages [python-sonarqube-api]: executing diffoscope
+[2023-06-28 09:10:52] INFO root fetch - processPackages [python-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sonarqube-api-2.0.2.tar.gz tmp/python-sonarqube-api-2.0.3.tar.gz --markdown 20230628/p/python-sonarqube-api/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-28 09:10:52] INFO root fetch - processPackages [hugegraph-python]: Downloading https://files.pythonhosted.org/packages/2d/fc/5634e6c96a86f037806e5c80003d210b9b186c1756a5800dadd0ab1ebe9f/hugegraph-python-1.0.0.9.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [viur-cli]: executing diffoscope
+[2023-06-28 09:10:52] INFO root fetch - processPackages [viur-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur_cli-1.0.5.tar.gz tmp/viur_cli-1.0.6.tar.gz --markdown 20230628/v/viur-cli/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-28 09:10:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-28 09:10:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230628/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-28 09:10:52] INFO root fetch - processPackages [idocker]: executing diffoscope
+[2023-06-28 09:10:52] INFO root fetch - processPackages [idocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idocker-1.0.0.tar.gz tmp/idocker-1.1.0.tar.gz --markdown 20230628/i/idocker/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-28 09:10:52] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/0e/2e/ec2cc34871c3af09dac9ee93f99e7d89d8a20aca1a7c655697f42d240e9b/MeUtils-2023.6.8.9.46.19.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-28 09:10:52] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230628/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 09:10:52] INFO root fetch - processPackages [hugegraph-python]: executing diffoscope
+[2023-06-28 09:10:52] INFO root fetch - processPackages [hugegraph-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugegraph-python-1.0.0.8.tar.gz tmp/hugegraph-python-1.0.0.9.tar.gz --markdown 20230628/h/hugegraph-python/1.0.0.8-1.0.0.9/diff.md --exclude *.pyd
+[2023-06-28 09:10:52] INFO root fetch - processPackages [numpysane]: Downloading https://files.pythonhosted.org/packages/1a/1f/4ecd33bf851d1625a747502da9bf011ec8cac9fa4f73e939c085dc294497/numpysane-0.9.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [hadder]: Downloading https://files.pythonhosted.org/packages/8b/db/ea9be716ec4a1c9ae9b5ac450b88a1cfa1b83812a8d7e6de821cace4306a/hadder-1.8.tar.gz
+[2023-06-28 09:10:52] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-28 09:10:52] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230628/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-28 09:10:52] INFO root fetch - processPackages [hadder]: executing diffoscope
+[2023-06-28 09:10:52] INFO root fetch - processPackages [hadder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hadder-1.7.tar.gz tmp/hadder-1.8.tar.gz --markdown 20230628/h/hadder/1.7-1.8/diff.md --exclude *.pyd
+[2023-06-28 09:10:52] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-06-28 09:10:52] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.6.6.18.16.46.tar.gz tmp/MeUtils-2023.6.8.9.46.19.tar.gz --markdown 20230628/M/MeUtils/2023.6.6.18.16.46-2023.6.8.9.46.19/diff.md --exclude *.pyd
+[2023-06-28 09:10:53] INFO root fetch - processPackages [numpysane]: executing diffoscope
+[2023-06-28 09:10:53] INFO root fetch - processPackages [numpysane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpysane-0.8.tar.gz tmp/numpysane-0.9.tar.gz --markdown 20230628/n/numpysane/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-28 09:10:54] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [sj-tool]: Start processing: qylitixtestpack
+[2023-06-28 09:10:54] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-06-28 09:10:54] WARNING root fetch - processPackages [qylitixtestpack]: Skipping, unable to determine old version
+[2023-06-28 09:10:54] INFO root fetch - processPackages [qylitixtestpack]: Start processing: hyutils-hyutil-hoyun-lab
+[2023-06-28 09:10:54] INFO root fetch - main [MainThread]: End processing [qylitixtestpack] error
+[2023-06-28 09:10:54] INFO root fetch - processPackages [idocker]: Remove: archive file [/home/abi/fetcher/tmp/idocker-1.0.0.tar.gz]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [idocker]: Remove: archive file [/home/abi/fetcher/tmp/idocker-1.1.0.tar.gz]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [idocker]: Start processing: odoo13-addon-purchase-order-line-sequence
+[2023-06-28 09:10:54] INFO root fetch - main [MainThread]: End processing [idocker]: success
+[2023-06-28 09:10:54] INFO root fetch - processPackages [viur-cli]: Remove: archive file [/home/abi/fetcher/tmp/viur_cli-1.0.5.tar.gz]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [viur-cli]: Remove: archive file [/home/abi/fetcher/tmp/viur_cli-1.0.6.tar.gz]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [viur-cli]: Start processing: SpatialCluster
+[2023-06-28 09:10:54] INFO root fetch - main [MainThread]: End processing [viur-cli]: success
+[2023-06-28 09:10:54] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: New version: [0.0.6.5] Old Version: [0.0.6.4]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [odoo13-addon-purchase-order-line-sequence]: New version: [13.0.1.1.0] Old Version: [13.0.1.0.1.dev3]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [SpatialCluster]: New version: [0.0.9] Old Version: [0.0.80]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [bridgecrew]: Start processing: sharingiscaring
+[2023-06-28 09:10:54] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-28 09:10:54] INFO root fetch - processPackages [SpatialCluster]: Downloading https://files.pythonhosted.org/packages/4f/d0/5d0f8b1c02939930bb0869256a8b195440c471193011abb2a5938d30d8fb/SpatialCluster-0.0.80.tar.gz
+[2023-06-28 09:10:54] INFO root fetch - processPackages [hugegraph-python]: Remove: archive file [/home/abi/fetcher/tmp/hugegraph-python-1.0.0.8.tar.gz]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [hugegraph-python]: Remove: archive file [/home/abi/fetcher/tmp/hugegraph-python-1.0.0.9.tar.gz]
+[2023-06-28 09:10:54] INFO root fetch - main [MainThread]: End processing [hugegraph-python]: success
+[2023-06-28 09:10:54] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/d4/2d/27f63b99a155fb64e0efef27eddc2556fc21cfeec9d91d184dae0f3202c6/hyutils-hyutil-hoyun-lab-0.0.6.4.tar.gz
+[2023-06-28 09:10:54] INFO root fetch - processPackages [odoo13-addon-purchase-order-line-sequence]: Downloading https://files.pythonhosted.org/packages/e0/83/ecfe01921c104aa0e8c922005c6fe00b14dbbe85e06d67c042ddc8651194/odoo13_addon_purchase_order_line_sequence-13.0.1.0.1.dev3-py3-none-any.whl
+[2023-06-28 09:10:54] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-28 09:10:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-28 09:10:54] INFO root fetch - processPackages [SpatialCluster]: Downloading https://files.pythonhosted.org/packages/9a/12/7d550441bb0b8a09aa8b4ed03f2557ac00593b9de40598dc0797cdacced9/SpatialCluster-0.0.9.tar.gz
+[2023-06-28 09:10:54] INFO root fetch - processPackages [hadder]: Remove: archive file [/home/abi/fetcher/tmp/hadder-1.7.tar.gz]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [hadder]: Remove: archive file [/home/abi/fetcher/tmp/hadder-1.8.tar.gz]
+[2023-06-28 09:10:54] INFO root fetch - main [MainThread]: End processing [hadder]: success
+[2023-06-28 09:10:54] INFO root fetch - processPackages [numpysane]: Remove: archive file [/home/abi/fetcher/tmp/numpysane-0.8.tar.gz]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [numpysane]: Remove: archive file [/home/abi/fetcher/tmp/numpysane-0.9.tar.gz]
+[2023-06-28 09:10:54] INFO root fetch - main [MainThread]: End processing [numpysane]: success
+[2023-06-28 09:10:54] INFO root fetch - processPackages [python-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/python-sonarqube-api-2.0.2.tar.gz]
+[2023-06-28 09:10:54] INFO root fetch - processPackages [python-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/python-sonarqube-api-2.0.3.tar.gz]
+[2023-06-28 09:10:54] INFO root fetch - main [MainThread]: End processing [python-sonarqube-api]: success
+[2023-06-28 09:10:54] INFO root fetch - processPackages [SpatialCluster]: executing diffoscope
+[2023-06-28 09:10:54] INFO root fetch - processPackages [SpatialCluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpatialCluster-0.0.80.tar.gz tmp/SpatialCluster-0.0.9.tar.gz --markdown 20230628/S/SpatialCluster/0.0.80-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 09:10:54] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/ec/8c/18f997c3d361aa358776fa84dc75aa9ae090ce8fbc3f7099d41d86437e2e/sharingiscaring-0.2.8.tar.gz
+[2023-06-28 09:10:54] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/75/7a/a1dd23c3b7fa2d51e180f976638e39a62c03b6d9ff286464f67b73a78b6a/hyutils-hyutil-hoyun-lab-0.0.6.5.tar.gz
+[2023-06-28 09:10:54] INFO root fetch - processPackages [odoo13-addon-purchase-order-line-sequence]: Downloading https://files.pythonhosted.org/packages/e5/ba/7a146b7b81b624ad9817bd4c71680a1805ca22ffed3b659e3ec8dc335dd0/odoo13_addon_purchase_order_line_sequence-13.0.1.1.0-py3-none-any.whl
+[2023-06-28 09:10:55] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: executing diffoscope
+[2023-06-28 09:10:55] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyutils-hyutil-hoyun-lab-0.0.6.4.tar.gz tmp/hyutils-hyutil-hoyun-lab-0.0.6.5.tar.gz --markdown 20230628/h/hyutils-hyutil-hoyun-lab/0.0.6.4-0.0.6.5/diff.md --exclude *.pyd
+[2023-06-28 09:10:55] INFO root fetch - processPackages [odoo13-addon-purchase-order-line-sequence]: executing diffoscope
+[2023-06-28 09:10:55] INFO root fetch - processPackages [odoo13-addon-purchase-order-line-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_order_line_sequence-13.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo13_addon_purchase_order_line_sequence-13.0.1.1.0-py3-none-any.whl.zip --markdown 20230628/o/odoo13-addon-purchase-order-line-sequence/13.0.1.0.1.dev3-13.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-28 09:10:55] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/3c/51/994c3bf1116cc8b6234cbdc78a444ab9f875f5c3ce1e11c36bc0b2cdfa0e/sharingiscaring-0.2.9.tar.gz
+[2023-06-28 09:10:55] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-06-28 09:10:55] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230628/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-28 09:10:56] INFO root fetch - processPackages [SpatialCluster]: Remove: archive file [/home/abi/fetcher/tmp/SpatialCluster-0.0.80.tar.gz]
+[2023-06-28 09:10:56] INFO root fetch - processPackages [SpatialCluster]: Remove: archive file [/home/abi/fetcher/tmp/SpatialCluster-0.0.9.tar.gz]
+[2023-06-28 09:10:56] INFO root fetch - main [MainThread]: End processing [SpatialCluster]: success
+[2023-06-28 09:10:56] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.6.4.tar.gz]
+[2023-06-28 09:10:56] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.6.5.tar.gz]
+[2023-06-28 09:10:56] INFO root fetch - main [MainThread]: End processing [hyutils-hyutil-hoyun-lab]: success
+[2023-06-28 09:10:56] INFO root fetch - processPackages [odoo13-addon-purchase-order-line-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_order_line_sequence-13.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-28 09:10:56] INFO root fetch - processPackages [odoo13-addon-purchase-order-line-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_order_line_sequence-13.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-28 09:10:56] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-order-line-sequence]: success
+[2023-06-28 09:10:56] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.8.tar.gz]
+[2023-06-28 09:10:56] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.9.tar.gz]
+[2023-06-28 09:10:56] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-06-28 09:11:00] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.6.6.18.16.46.tar.gz]
+[2023-06-28 09:11:00] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.6.8.9.46.19.tar.gz]
+[2023-06-28 09:11:00] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-06-28 09:11:00] INFO root fetch - main [MainThread]: Store serial: [18675488]
