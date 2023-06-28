@@ -5317,3 +5317,203 @@
 [2023-06-28 02:49:53] INFO root fetch - processPackages [platypush]: Remove: archive file [/home/abi/fetcher/tmp/platypush-0.9.6.tar.gz]
 [2023-06-28 02:49:53] INFO root fetch - main [MainThread]: End processing [platypush]: success
 [2023-06-28 02:49:53] INFO root fetch - main [MainThread]: Store serial: [18671175]
+[2023-06-28 02:54:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18671175]
+[2023-06-28 02:55:02] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-28 02:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfirebird
+[2023-06-28 02:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: truss
+[2023-06-28 02:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: importils
+[2023-06-28 02:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: psalpsdtools
+[2023-06-28 02:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: angola
+[2023-06-28 02:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ciphertrust-sdk
+[2023-06-28 02:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-comprehend-s3olap
+[2023-06-28 02:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ml-plugins-2
+[2023-06-28 02:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: midas-data-util
+[2023-06-28 02:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: angola
+[2023-06-28 02:55:02] INFO root fetch - processPackages [psalpsdtools]: New version: [0.7] Old Version: [0.6]
+[2023-06-28 02:55:02] INFO root fetch - processPackages [midas-data-util]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-28 02:55:02] INFO root fetch - processPackages [importils]: New version: [0.4] Old Version: [0.3]
+[2023-06-28 02:55:02] INFO root fetch - processPackages [truss]: New version: [0.4.9rc9] Old Version: [0.4.9rc5]
+[2023-06-28 02:55:02] INFO root fetch - processPackages [ml-plugins-2]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-06-28 02:55:02] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-28 02:55:02] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.54] Old Version: [0.0.53]
+[2023-06-28 02:55:02] INFO root fetch - processPackages [angola]: New version: [0.14.3] Old Version: [0.14.2]
+[2023-06-28 02:55:02] INFO root fetch - processPackages [angola]: New version: [0.14.3] Old Version: [0.14.2]
+[2023-06-28 02:55:02] INFO root fetch - processPackages [midas-data-util]: Downloading https://files.pythonhosted.org/packages/89/0f/26beb17153414476a6e7fb9d74ba7318f64999b2afa2e4c3cf2d05d70634/midas-data-util-0.2.7.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [psalpsdtools]: Downloading https://files.pythonhosted.org/packages/f3/1f/618bb1efc83caf51fb1a2ae2d09344dd804ffe56b67c92b17cf585abbce7/psalpsdtools-0.6.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [ciphertrust-sdk]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-28 02:55:03] INFO root fetch - processPackages [ml-plugins-2]: Downloading https://files.pythonhosted.org/packages/48/e7/1d06457aef1443b424b18c5d7be4a0fc3aa896f5e6defab623a927c0c242/ml_plugins_2-0.0.19.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/a5/ac/6da658c05b328c158997857f4315d9203f0c68cfcb1a90b247c8966bad5b/truss-0.4.9rc5.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [importils]: Downloading https://files.pythonhosted.org/packages/50/fa/67c06778db911f33c4127e1727c5f2ec68d4aa49acc263f3d56bfa70d538/importils-0.3.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [angola]: Downloading https://files.pythonhosted.org/packages/5a/3c/fcc7445572f30d4ea4e3d76877d1b6857dc10b97174c506724307da3762b/angola-0.14.2.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [angola]: Downloading https://files.pythonhosted.org/packages/5a/3c/fcc7445572f30d4ea4e3d76877d1b6857dc10b97174c506724307da3762b/angola-0.14.2.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [psalpsdtools]: Downloading https://files.pythonhosted.org/packages/3a/75/7c9dcbfcca8d0e55f0ce828497fcc369ba08590eb4ad68818b629ec41d52/psalpsdtools-0.7.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/92/97/5f78d50e5618eaf7c5f3f918d7ea2a494d65cb8ebc0daf5e329af774240d/truss-0.4.9rc9.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/f9/55/1e95294e96255009e09dc0ccd9fc7c88b3c67f496229613d81055b1bf213/pyfirebird-0.0.53.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [ml-plugins-2]: Downloading https://files.pythonhosted.org/packages/90/5e/9203a465dc586566c79b9917a2c8a32d8ebaa85bbda523354ec22e6e003a/ml_plugins_2-0.0.20.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [psalpsdtools]: executing diffoscope
+[2023-06-28 02:55:03] INFO root fetch - processPackages [psalpsdtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psalpsdtools-0.6.tar.gz tmp/psalpsdtools-0.7.tar.gz --markdown 20230628/p/psalpsdtools/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-28 02:55:03] INFO root fetch - processPackages [midas-data-util]: Downloading https://files.pythonhosted.org/packages/84/ae/55cb95c9ab7a004cd1a3ac069145066918bd2db4436930681b91c1aeeef9/midas-data-util-0.2.8.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [importils]: Downloading https://files.pythonhosted.org/packages/a7/e4/88587dc6af16be526f2729f20ba92d910143a229e342d8356d5b320a70b1/importils-0.4.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [angola]: Downloading https://files.pythonhosted.org/packages/22/4e/b7e614ff8ced8412a8f5cee07233964250c9f3fb4cab26ea62250c99d2a8/angola-0.14.3.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [midas-data-util]: executing diffoscope
+[2023-06-28 02:55:03] INFO root fetch - processPackages [midas-data-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas-data-util-0.2.7.tar.gz tmp/midas-data-util-0.2.8.tar.gz --markdown 20230628/m/midas-data-util/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-28 02:55:03] INFO root fetch - processPackages [ciphertrust-sdk]: Downloading https://files.pythonhosted.org/packages/2d/05/88d13d60ff81e4a5420c32648d746b5c35511337a576bdefb8994b0bd7a3/ciphertrust-sdk-1.0.6.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [truss]: executing diffoscope
+[2023-06-28 02:55:03] INFO root fetch - processPackages [angola]: Downloading https://files.pythonhosted.org/packages/22/4e/b7e614ff8ced8412a8f5cee07233964250c9f3fb4cab26ea62250c99d2a8/angola-0.14.3.tar.gz
+[2023-06-28 02:55:03] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.4.9rc5.tar.gz tmp/truss-0.4.9rc9.tar.gz --markdown 20230628/t/truss/0.4.9rc5-0.4.9rc9/diff.md --exclude *.pyd
+[2023-06-28 02:55:03] INFO root fetch - processPackages [ml-plugins-2]: executing diffoscope
+[2023-06-28 02:55:03] INFO root fetch - processPackages [ml-plugins-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_plugins_2-0.0.19.tar.gz tmp/ml_plugins_2-0.0.20.tar.gz --markdown 20230628/m/ml-plugins-2/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-06-28 02:55:03] INFO root fetch - processPackages [importils]: executing diffoscope
+[2023-06-28 02:55:03] INFO root fetch - processPackages [importils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importils-0.3.tar.gz tmp/importils-0.4.tar.gz --markdown 20230628/i/importils/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-28 02:55:03] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/ff/23/9b22b80eb2d1a3c24b7629aa2fc1bfc9057e1dfab801abd7627f5b8f59e5/pyfirebird-0.0.54.tar.gz
+[2023-06-28 02:55:03] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-28 02:55:03] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Start processing: zensols.nlp
+[2023-06-28 02:55:03] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-28 02:55:03] INFO root fetch - processPackages [angola]: executing diffoscope
+[2023-06-28 02:55:03] INFO root fetch - processPackages [angola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angola-0.14.2.tar.gz tmp/angola-0.14.3.tar.gz --markdown 20230628/a/angola/0.14.2-0.14.3/diff.md --exclude *.pyd
+[2023-06-28 02:55:03] INFO root fetch - processPackages [angola]: executing diffoscope
+[2023-06-28 02:55:03] INFO root fetch - processPackages [angola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angola-0.14.2.tar.gz tmp/angola-0.14.3.tar.gz --markdown 20230628/a/angola/0.14.2-0.14.3/diff.md --exclude *.pyd
+[2023-06-28 02:55:03] INFO root fetch - processPackages [ciphertrust-sdk]: executing diffoscope
+[2023-06-28 02:55:03] INFO root fetch - processPackages [ciphertrust-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciphertrust-sdk-1.0.5.tar.gz tmp/ciphertrust-sdk-1.0.6.tar.gz --markdown 20230628/c/ciphertrust-sdk/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-28 02:55:03] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-06-28 02:55:03] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.53.tar.gz tmp/pyfirebird-0.0.54.tar.gz --markdown 20230628/p/pyfirebird/0.0.53-0.0.54/diff.md --exclude *.pyd
+[2023-06-28 02:55:03] INFO root fetch - processPackages [zensols.nlp]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-28 02:55:04] INFO root fetch - processPackages [zensols.nlp]: Downloading https://files.pythonhosted.org/packages/9b/8e/032164c9264e697cfd2c9a1becdc43c2d94d6075cd0680f8f1b2de09821d/zensols.nlp-1.7.1-py3-none-any.whl
+[2023-06-28 02:55:04] INFO root fetch - processPackages [zensols.nlp]: Downloading https://files.pythonhosted.org/packages/62/28/8ffa4f2b08134961cb64303e5ff22ed0e966ee840ca923ac5826d490c31c/zensols.nlp-1.7.2-py3-none-any.whl
+[2023-06-28 02:55:04] INFO root fetch - processPackages [zensols.nlp]: executing diffoscope
+[2023-06-28 02:55:04] INFO root fetch - processPackages [zensols.nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensols.nlp-1.7.1-py3-none-any.whl.zip tmp/zensols.nlp-1.7.2-py3-none-any.whl.zip --markdown 20230628/z/zensols.nlp/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-28 02:55:04] INFO root fetch - processPackages [psalpsdtools]: Remove: archive file [/home/abi/fetcher/tmp/psalpsdtools-0.6.tar.gz]
+[2023-06-28 02:55:04] INFO root fetch - processPackages [psalpsdtools]: Remove: archive file [/home/abi/fetcher/tmp/psalpsdtools-0.7.tar.gz]
+[2023-06-28 02:55:04] INFO root fetch - processPackages [psalpsdtools]: Start processing: mahautils
+[2023-06-28 02:55:04] INFO root fetch - main [MainThread]: End processing [psalpsdtools]: success
+[2023-06-28 02:55:04] INFO root fetch - processPackages [mahautils]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-28 02:55:04] INFO root fetch - processPackages [midas-data-util]: Remove: archive file [/home/abi/fetcher/tmp/midas-data-util-0.2.7.tar.gz]
+[2023-06-28 02:55:04] INFO root fetch - processPackages [midas-data-util]: Remove: archive file [/home/abi/fetcher/tmp/midas-data-util-0.2.8.tar.gz]
+[2023-06-28 02:55:04] INFO root fetch - processPackages [midas-data-util]: Start processing: pycde
+[2023-06-28 02:55:04] INFO root fetch - main [MainThread]: End processing [midas-data-util]: success
+[2023-06-28 02:55:05] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev832]
+[2023-06-28 02:55:05] INFO root fetch - processPackages [ml-plugins-2]: Remove: archive file [/home/abi/fetcher/tmp/ml_plugins_2-0.0.19.tar.gz]
+[2023-06-28 02:55:05] INFO root fetch - processPackages [ml-plugins-2]: Remove: archive file [/home/abi/fetcher/tmp/ml_plugins_2-0.0.20.tar.gz]
+[2023-06-28 02:55:05] INFO root fetch - main [MainThread]: End processing [ml-plugins-2]: success
+[2023-06-28 02:55:05] INFO root fetch - processPackages [mahautils]: Downloading https://files.pythonhosted.org/packages/3d/dc/e99be668bc01c49b7d2785778e83daa77117395c886e0ff733b5acedd08a/mahautils-0.1.0.tar.gz
+[2023-06-28 02:55:05] INFO root fetch - processPackages [importils]: Remove: archive file [/home/abi/fetcher/tmp/importils-0.3.tar.gz]
+[2023-06-28 02:55:05] INFO root fetch - processPackages [importils]: Remove: archive file [/home/abi/fetcher/tmp/importils-0.4.tar.gz]
+[2023-06-28 02:55:05] INFO root fetch - main [MainThread]: End processing [importils]: success
+[2023-06-28 02:55:05] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/03/de/88c967952c0ba19c7049e01a964ed3dc992b54bc2dd2bf24e6740172583c/pycde-0.2.1.dev832-cp39-cp39-win_amd64.whl
+[2023-06-28 02:55:05] INFO root fetch - processPackages [angola]: Remove: archive file [/home/abi/fetcher/tmp/angola-0.14.2.tar.gz]
+[2023-06-28 02:55:05] INFO root fetch - processPackages [angola]: Remove: archive file [/home/abi/fetcher/tmp/angola-0.14.3.tar.gz]
+[2023-06-28 02:55:05] INFO root fetch - main [MainThread]: End processing [angola]: success
+[2023-06-28 02:55:05] INFO root fetch - processPackages [mahautils]: Downloading https://files.pythonhosted.org/packages/8e/e7/890839e3e12fa8bc2c2ad1877912944d9ab28e5f56f22c1cb109667e6994/mahautils-0.2.0.tar.gz
+[2023-06-28 02:55:05] INFO root fetch - processPackages [ciphertrust-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ciphertrust-sdk-1.0.5.tar.gz]
+[2023-06-28 02:55:05] INFO root fetch - processPackages [ciphertrust-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ciphertrust-sdk-1.0.6.tar.gz]
+[2023-06-28 02:55:05] INFO root fetch - main [MainThread]: End processing [ciphertrust-sdk]: success
+[2023-06-28 02:55:05] INFO root fetch - processPackages [mahautils]: executing diffoscope
+[2023-06-28 02:55:05] INFO root fetch - processPackages [mahautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mahautils-0.1.0.tar.gz tmp/mahautils-0.2.0.tar.gz --markdown 20230628/m/mahautils/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-28 02:55:05] ERROR root fetch - processPackages [angola]: Diffoscope failed: gzip: tmp/angola-0.14.3.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/angola-0.14.3.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-28 02:55:05] INFO root fetch - main [MainThread]: End processing [angola] error
+[2023-06-28 02:55:05] INFO root fetch - processPackages [zensols.nlp]: Remove: archive file [/home/abi/fetcher/tmp/zensols.nlp-1.7.1-py3-none-any.whl.zip]
+[2023-06-28 02:55:05] INFO root fetch - processPackages [zensols.nlp]: Remove: archive file [/home/abi/fetcher/tmp/zensols.nlp-1.7.2-py3-none-any.whl.zip]
+[2023-06-28 02:55:05] INFO root fetch - main [MainThread]: End processing [zensols.nlp]: success
+[2023-06-28 02:55:05] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/02/67/a0802e854af7f826dd695e46eb4ae1d0ab14c4a75671d50c34a7eb8074a8/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl
+[2023-06-28 02:55:06] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc5.tar.gz]
+[2023-06-28 02:55:06] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc9.tar.gz]
+[2023-06-28 02:55:06] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2023-06-28 02:55:06] INFO root fetch - processPackages [mahautils]: Remove: archive file [/home/abi/fetcher/tmp/mahautils-0.1.0.tar.gz]
+[2023-06-28 02:55:06] INFO root fetch - processPackages [mahautils]: Remove: archive file [/home/abi/fetcher/tmp/mahautils-0.2.0.tar.gz]
+[2023-06-28 02:55:06] INFO root fetch - main [MainThread]: End processing [mahautils]: success
+[2023-06-28 02:55:06] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2023-06-28 02:55:06] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.2.1.dev832-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl.zip --markdown 20230628/p/pycde/0.2.1.dev832-0.2.1.dev9/diff.md --exclude *.pyd
+[2023-06-28 02:55:14] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.53.tar.gz]
+[2023-06-28 02:55:14] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.54.tar.gz]
+[2023-06-28 02:55:14] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-06-28 02:55:52] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev832-cp39-cp39-win_amd64.whl.zip]
+[2023-06-28 02:55:52] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-28 02:55:52] INFO root fetch - main [MainThread]: End processing [pycde]: success
+[2023-06-28 02:55:52] INFO root fetch - main [MainThread]: Store serial: [18671212]
