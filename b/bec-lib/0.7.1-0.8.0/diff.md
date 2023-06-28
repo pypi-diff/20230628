@@ -1,0 +1,340 @@
+# Comparing `tmp/bec_lib-0.7.1.tar.gz` & `tmp/bec_lib-0.8.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "bec_lib-0.7.1.tar", last modified: Wed Jun 28 14:36:03 2023, max compression
++gzip compressed data, was "bec_lib-0.8.0.tar", last modified: Wed Jun 28 15:24:02 2023, max compression
+```
+
+## Comparing `bec_lib-0.7.1.tar` & `bec_lib-0.8.0.tar`
+
+### file list
+
+```diff
+@@ -1,44 +1,44 @@
+-drwxr-xr-x   0 root         (0) root         (0)        0 2023-06-28 14:36:03.698714 bec_lib-0.7.1/
+--rw-r--r--   0 root         (0) root         (0)     3049 2023-06-28 14:36:03.698714 bec_lib-0.7.1/PKG-INFO
+--rw-r--r--   0 root         (0) root         (0)     2616 2023-06-28 14:35:35.000000 bec_lib-0.7.1/README.md
+-drwxr-xr-x   0 root         (0) root         (0)        0 2023-06-28 14:36:03.692715 bec_lib-0.7.1/bec_lib/
+--rw-r--r--   0 root         (0) root         (0)       30 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/__init__.py
+--rw-r--r--   0 root         (0) root         (0)     3865 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/alarm_handler.py
+--rw-r--r--   0 root         (0) root         (0)     5674 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/callback_handler.py
+--rw-r--r--   0 root         (0) root         (0)     7316 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/client.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2023-06-28 14:36:03.697714 bec_lib-0.7.1/bec_lib/core/
+--rw-r--r--   0 root         (0) root         (0)    26694 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/BECMessage.py
+--rw-r--r--   0 root         (0) root         (0)      514 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/__init__.py
+--rw-r--r--   0 root         (0) root         (0)      278 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/bec_errors.py
+--rw-r--r--   0 root         (0) root         (0)     8789 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/bec_service.py
+--rw-r--r--   0 root         (0) root         (0)      919 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/channel_monitor.py
+--rw-r--r--   0 root         (0) root         (0)     4021 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/config_helper.py
+--rw-r--r--   0 root         (0) root         (0)     5100 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/connector.py
+--rw-r--r--   0 root         (0) root         (0)    27437 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/devicemanager.py
+--rw-r--r--   0 root         (0) root         (0)    21582 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/endpoints.py
+--rw-r--r--   0 root         (0) root         (0)      968 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/init_config.py
+--rw-r--r--   0 root         (0) root         (0)     2329 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/logbook_connector.py
+--rw-r--r--   0 root         (0) root         (0)     3064 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/logger.py
+--rw-r--r--   0 root         (0) root         (0)     2981 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/numpy_encoder.py
+--rw-r--r--   0 root         (0) root         (0)     4820 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/observer.py
+--rw-r--r--   0 root         (0) root         (0)     2696 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/pdf_writer.py
+--rw-r--r--   0 root         (0) root         (0)    11309 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/redis_connector.py
+--rw-r--r--   0 root         (0) root         (0)     1868 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/service_config.py
+--rw-r--r--   0 root         (0) root         (0)      231 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/session_manager.py
+--rw-r--r--   0 root         (0) root         (0)     2586 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/timeout.py
+--rw-r--r--   0 root         (0) root         (0)      308 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/core/utils.py
+--rw-r--r--   0 root         (0) root         (0)    12126 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/devicemanager_client.py
+--rw-r--r--   0 root         (0) root         (0)     7632 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/queue_items.py
+--rw-r--r--   0 root         (0) root         (0)     5420 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/request_items.py
+--rw-r--r--   0 root         (0) root         (0)     9232 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/scan_items.py
+--rw-r--r--   0 root         (0) root         (0)    11556 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/scan_manager.py
+--rw-r--r--   0 root         (0) root         (0)    10918 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/scans.py
+--rw-r--r--   0 root         (0) root         (0)     3748 2023-06-28 14:35:35.000000 bec_lib-0.7.1/bec_lib/user_scripts_mixin.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2023-06-28 14:36:03.698714 bec_lib-0.7.1/bec_lib.egg-info/
+--rw-r--r--   0 root         (0) root         (0)     3049 2023-06-28 14:36:03.000000 bec_lib-0.7.1/bec_lib.egg-info/PKG-INFO
+--rw-r--r--   0 root         (0) root         (0)     1067 2023-06-28 14:36:03.000000 bec_lib-0.7.1/bec_lib.egg-info/SOURCES.txt
+--rw-r--r--   0 root         (0) root         (0)        1 2023-06-28 14:36:03.000000 bec_lib-0.7.1/bec_lib.egg-info/dependency_links.txt
+--rw-r--r--   0 root         (0) root         (0)      139 2023-06-28 14:36:03.000000 bec_lib-0.7.1/bec_lib.egg-info/requires.txt
+--rw-r--r--   0 root         (0) root         (0)        8 2023-06-28 14:36:03.000000 bec_lib-0.7.1/bec_lib.egg-info/top_level.txt
+--rw-r--r--   0 root         (0) root         (0)      501 2023-06-28 14:36:03.699714 bec_lib-0.7.1/setup.cfg
+--rw-r--r--   0 root         (0) root         (0)      902 2023-06-28 14:35:35.000000 bec_lib-0.7.1/setup.py
++drwxr-xr-x   0 root         (0) root         (0)        0 2023-06-28 15:24:01.999773 bec_lib-0.8.0/
++-rw-r--r--   0 root         (0) root         (0)     3049 2023-06-28 15:24:01.999773 bec_lib-0.8.0/PKG-INFO
++-rw-r--r--   0 root         (0) root         (0)     2616 2023-06-28 10:41:58.000000 bec_lib-0.8.0/README.md
++drwxr-xr-x   0 root         (0) root         (0)        0 2023-06-28 15:24:01.995773 bec_lib-0.8.0/bec_lib/
++-rw-r--r--   0 root         (0) root         (0)       30 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/__init__.py
++-rw-r--r--   0 root         (0) root         (0)     3865 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/alarm_handler.py
++-rw-r--r--   0 root         (0) root         (0)     5674 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/callback_handler.py
++-rw-r--r--   0 root         (0) root         (0)     7316 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/client.py
++drwxr-xr-x   0 root         (0) root         (0)        0 2023-06-28 15:24:01.998773 bec_lib-0.8.0/bec_lib/core/
++-rw-r--r--   0 root         (0) root         (0)    26694 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/BECMessage.py
++-rw-r--r--   0 root         (0) root         (0)      514 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/__init__.py
++-rw-r--r--   0 root         (0) root         (0)      278 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/bec_errors.py
++-rw-r--r--   0 root         (0) root         (0)     8789 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/bec_service.py
++-rw-r--r--   0 root         (0) root         (0)      919 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/channel_monitor.py
++-rw-r--r--   0 root         (0) root         (0)     4021 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/config_helper.py
++-rw-r--r--   0 root         (0) root         (0)     5100 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/connector.py
++-rw-r--r--   0 root         (0) root         (0)    27444 2023-06-28 15:23:35.000000 bec_lib-0.8.0/bec_lib/core/devicemanager.py
++-rw-r--r--   0 root         (0) root         (0)    21582 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/endpoints.py
++-rw-r--r--   0 root         (0) root         (0)      968 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/init_config.py
++-rw-r--r--   0 root         (0) root         (0)     2329 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/logbook_connector.py
++-rw-r--r--   0 root         (0) root         (0)     3064 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/logger.py
++-rw-r--r--   0 root         (0) root         (0)     2981 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/numpy_encoder.py
++-rw-r--r--   0 root         (0) root         (0)     4820 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/observer.py
++-rw-r--r--   0 root         (0) root         (0)     2696 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/pdf_writer.py
++-rw-r--r--   0 root         (0) root         (0)    11309 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/redis_connector.py
++-rw-r--r--   0 root         (0) root         (0)     1868 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/service_config.py
++-rw-r--r--   0 root         (0) root         (0)      231 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/session_manager.py
++-rw-r--r--   0 root         (0) root         (0)     2586 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/timeout.py
++-rw-r--r--   0 root         (0) root         (0)      308 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/core/utils.py
++-rw-r--r--   0 root         (0) root         (0)    12126 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/devicemanager_client.py
++-rw-r--r--   0 root         (0) root         (0)     7632 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/queue_items.py
++-rw-r--r--   0 root         (0) root         (0)     5420 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/request_items.py
++-rw-r--r--   0 root         (0) root         (0)     9232 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/scan_items.py
++-rw-r--r--   0 root         (0) root         (0)    11556 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/scan_manager.py
++-rw-r--r--   0 root         (0) root         (0)    10918 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/scans.py
++-rw-r--r--   0 root         (0) root         (0)     3748 2023-06-28 10:41:58.000000 bec_lib-0.8.0/bec_lib/user_scripts_mixin.py
++drwxr-xr-x   0 root         (0) root         (0)        0 2023-06-28 15:24:01.999773 bec_lib-0.8.0/bec_lib.egg-info/
++-rw-r--r--   0 root         (0) root         (0)     3049 2023-06-28 15:24:01.000000 bec_lib-0.8.0/bec_lib.egg-info/PKG-INFO
++-rw-r--r--   0 root         (0) root         (0)     1067 2023-06-28 15:24:01.000000 bec_lib-0.8.0/bec_lib.egg-info/SOURCES.txt
++-rw-r--r--   0 root         (0) root         (0)        1 2023-06-28 15:24:01.000000 bec_lib-0.8.0/bec_lib.egg-info/dependency_links.txt
++-rw-r--r--   0 root         (0) root         (0)      139 2023-06-28 15:24:01.000000 bec_lib-0.8.0/bec_lib.egg-info/requires.txt
++-rw-r--r--   0 root         (0) root         (0)        8 2023-06-28 15:24:01.000000 bec_lib-0.8.0/bec_lib.egg-info/top_level.txt
++-rw-r--r--   0 root         (0) root         (0)      501 2023-06-28 15:24:01.999773 bec_lib-0.8.0/setup.cfg
++-rw-r--r--   0 root         (0) root         (0)      902 2023-06-28 14:27:03.000000 bec_lib-0.8.0/setup.py
+```
+
+### Comparing `bec_lib-0.7.1/PKG-INFO` & `bec_lib-0.8.0/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: bec_lib
+-Version: 0.7.1
++Version: 0.8.0
+ Summary: BEC library
+ Home-page: https://gitlab.psi.ch/bec/bec
+ License: UNKNOWN
+ Project-URL: Bug Tracker, https://gitlab.psi.ch/bec/bec/issues
+ Platform: UNKNOWN
+ Classifier: Programming Language :: Python :: 3
+ Classifier: Development Status :: 3 - Alpha
+```
+
+### Comparing `bec_lib-0.7.1/README.md` & `bec_lib-0.8.0/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/alarm_handler.py` & `bec_lib-0.8.0/bec_lib/alarm_handler.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/callback_handler.py` & `bec_lib-0.8.0/bec_lib/callback_handler.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/client.py` & `bec_lib-0.8.0/bec_lib/client.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/BECMessage.py` & `bec_lib-0.8.0/bec_lib/core/BECMessage.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/__init__.py` & `bec_lib-0.8.0/bec_lib/core/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/bec_service.py` & `bec_lib-0.8.0/bec_lib/core/bec_service.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/channel_monitor.py` & `bec_lib-0.8.0/bec_lib/core/channel_monitor.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/config_helper.py` & `bec_lib-0.8.0/bec_lib/core/config_helper.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/connector.py` & `bec_lib-0.8.0/bec_lib/core/connector.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/devicemanager.py` & `bec_lib-0.8.0/bec_lib/core/devicemanager.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,18 +1,19 @@
+ import enum
+ import time
+ from typing import List
+ 
+ import msgpack
+-from bec_lib.core import ConfigHelper
+-from bec_lib.core.connector import ConnectorBase
+ from rich.console import Console
+ from rich.table import Table
+ from typeguard import typechecked
+ 
++from bec_lib.core import ConfigHelper
++from bec_lib.core.connector import ConnectorBase
++
+ from .bec_errors import DeviceConfigError
+ from .BECMessage import (
+     BECStatus,
+     DeviceConfigMessage,
+     DeviceInfoMessage,
+     DeviceMessage,
+     DeviceStatusMessage,
+@@ -361,15 +362,15 @@
+     def async_devices(self) -> list:
+         """get a list of all synchronous devices"""
+         return [
+             dev for _, dev in self.items() if dev._config["acquisitionConfig"]["schedule"] != "sync"
+         ]
+ 
+     @typechecked
+-    def primary_devices(self, scan_motors: list = None, readout_priority: dict = None) -> list:
++    def monitored_devices(self, scan_motors: list = None, readout_priority: dict = None) -> list:
+         """get a list of all enabled primary devices"""
+         devices = self.readout_priority("monitored")
+         if scan_motors:
+             if not isinstance(scan_motors, list):
+                 scan_motors = [scan_motors]
+             for scan_motor in scan_motors:
+                 if not scan_motor in devices:
+@@ -395,15 +396,15 @@
+         """get a list of all enabled baseline devices"""
+         if not readout_priority:
+             readout_priority = {}
+ 
+         devices = self.enabled_devices
+         devices.extend([self.get(dev) for dev in readout_priority.get("baseline", [])])
+ 
+-        excluded_devices = self.primary_devices(scan_motors)
++        excluded_devices = self.monitored_devices(scan_motors)
+         excluded_devices.extend(self.async_devices())
+         excluded_devices.extend(self.detectors())
+         excluded_devices.extend(self.readout_priority("ignored"))
+         excluded_devices.extend([self.get(dev) for dev in readout_priority.get("monitored", [])])
+         excluded_devices.extend([self.get(dev) for dev in readout_priority.get("ignored", [])])
+ 
+         return [dev for dev in set(devices) if dev not in excluded_devices]
+@@ -431,15 +432,15 @@
+ 
+         Args:
+             device_names (List[str]): List of device names
+ 
+         Examples:
+             >>> dev.wm('samx')
+             >>> dev.wm(['samx', 'samy'])
+-            >>> dev.wm(dev.primary_devices())
++            >>> dev.wm(dev.monitored_devices())
+             >>> dev.wm(dev.get_devices_with_tags('user motors'))
+ 
+         """
+         if not isinstance(device_names, list):
+             device_names = [device_names]
+         if len(device_names) == 0:
+             return
+```
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/endpoints.py` & `bec_lib-0.8.0/bec_lib/core/endpoints.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/init_config.py` & `bec_lib-0.8.0/bec_lib/core/init_config.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/logbook_connector.py` & `bec_lib-0.8.0/bec_lib/core/logbook_connector.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/logger.py` & `bec_lib-0.8.0/bec_lib/core/logger.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/numpy_encoder.py` & `bec_lib-0.8.0/bec_lib/core/numpy_encoder.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/observer.py` & `bec_lib-0.8.0/bec_lib/core/observer.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/pdf_writer.py` & `bec_lib-0.8.0/bec_lib/core/pdf_writer.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/redis_connector.py` & `bec_lib-0.8.0/bec_lib/core/redis_connector.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/service_config.py` & `bec_lib-0.8.0/bec_lib/core/service_config.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/core/timeout.py` & `bec_lib-0.8.0/bec_lib/core/timeout.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/devicemanager_client.py` & `bec_lib-0.8.0/bec_lib/devicemanager_client.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/queue_items.py` & `bec_lib-0.8.0/bec_lib/queue_items.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/request_items.py` & `bec_lib-0.8.0/bec_lib/request_items.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/scan_items.py` & `bec_lib-0.8.0/bec_lib/scan_items.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/scan_manager.py` & `bec_lib-0.8.0/bec_lib/scan_manager.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/scans.py` & `bec_lib-0.8.0/bec_lib/scans.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib/user_scripts_mixin.py` & `bec_lib-0.8.0/bec_lib/user_scripts_mixin.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/bec_lib.egg-info/PKG-INFO` & `bec_lib-0.8.0/bec_lib.egg-info/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: bec-lib
+-Version: 0.7.1
++Version: 0.8.0
+ Summary: BEC library
+ Home-page: https://gitlab.psi.ch/bec/bec
+ License: UNKNOWN
+ Project-URL: Bug Tracker, https://gitlab.psi.ch/bec/bec/issues
+ Platform: UNKNOWN
+ Classifier: Programming Language :: Python :: 3
+ Classifier: Development Status :: 3 - Alpha
+```
+
+### Comparing `bec_lib-0.7.1/bec_lib.egg-info/SOURCES.txt` & `bec_lib-0.8.0/bec_lib.egg-info/SOURCES.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `bec_lib-0.7.1/setup.py` & `bec_lib-0.8.0/setup.py`
+
+ * *Files identical despite different names*
+
