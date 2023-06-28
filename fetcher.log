@@ -14905,3 +14905,35 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 06:54:18] INFO root fetch - processPackages [secureli]: Remove: archive file [/home/abi/fetcher/tmp/secureli-0.6.2.tar.gz]
 [2023-06-28 06:54:18] INFO root fetch - main [MainThread]: End processing [secureli]: success
 [2023-06-28 06:54:18] INFO root fetch - main [MainThread]: Store serial: [18674616]
+[2023-06-28 06:59:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674616]
+[2023-06-28 06:59:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-28 06:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocr-iiif-tools
+[2023-06-28 06:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: performancetest
+[2023-06-28 06:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: splam
+[2023-06-28 06:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nics
+[2023-06-28 06:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: performancetest
+[2023-06-28 06:59:27] INFO root fetch - processPackages [nics]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-28 06:59:27] INFO root fetch - processPackages [splam]: New version: [0.2.9] Old Version: [0.2.13]
+[2023-06-28 06:59:27] WARNING root fetch - processPackages [performancetest]: Skipping, unable to determine old version
+[2023-06-28 06:59:27] INFO root fetch - main [MainThread]: End processing [performancetest] error
+[2023-06-28 06:59:27] WARNING root fetch - processPackages [performancetest]: Skipping, unable to determine old version
+[2023-06-28 06:59:27] INFO root fetch - main [MainThread]: End processing [performancetest] error
+[2023-06-28 06:59:27] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/32/4f/e8f4bdd76e1184bbe68cbb0c6cb9a72ac09ce5d9e60e597538070daff230/nics-0.8.0.tar.gz
+[2023-06-28 06:59:27] INFO root fetch - processPackages [ocr-iiif-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 06:59:27] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/cf/fb/2e5425fcdb2e5fd7ff963b174b1582816154fd0373bbc96edf4e851d272d/splam-0.2.13.tar.gz
+[2023-06-28 06:59:27] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/28/c9/ed0dc845f3c9d1ea9e22bbba2eb22804f6e3ff99e5cc338469af7756eee5/nics-0.9.0.tar.gz
+[2023-06-28 06:59:27] WARNING root fetch - processPackages [splam]: Skipping package: exceeds size limit 40506234>=10485760
+[2023-06-28 06:59:27] INFO root fetch - main [MainThread]: End processing [splam] error
+[2023-06-28 06:59:27] INFO root fetch - processPackages [ocr-iiif-tools]: Downloading https://files.pythonhosted.org/packages/d2/69/b8d7e0f99ad3115fa0f50ac5853c4921cf858f8c427fd6e689a23e8b8140/ocr_iiif_tools-0.0.8.tar.gz
+[2023-06-28 06:59:27] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-28 06:59:27] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-0.8.0.tar.gz tmp/nics-0.9.0.tar.gz --markdown 20230628/n/nics/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 06:59:28] INFO root fetch - processPackages [ocr-iiif-tools]: Downloading https://files.pythonhosted.org/packages/5b/55/7f43fcb52d469529146f5d9c4e480c9ea7672c6f60a089d803ca58c74d77/ocr_iiif_tools-0.0.9.tar.gz
+[2023-06-28 06:59:28] INFO root fetch - processPackages [ocr-iiif-tools]: executing diffoscope
+[2023-06-28 06:59:28] INFO root fetch - processPackages [ocr-iiif-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocr_iiif_tools-0.0.8.tar.gz tmp/ocr_iiif_tools-0.0.9.tar.gz --markdown 20230628/o/ocr-iiif-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 06:59:29] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.8.0.tar.gz]
+[2023-06-28 06:59:29] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.9.0.tar.gz]
+[2023-06-28 06:59:29] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-28 06:59:29] INFO root fetch - processPackages [ocr-iiif-tools]: Remove: archive file [/home/abi/fetcher/tmp/ocr_iiif_tools-0.0.8.tar.gz]
+[2023-06-28 06:59:29] INFO root fetch - processPackages [ocr-iiif-tools]: Remove: archive file [/home/abi/fetcher/tmp/ocr_iiif_tools-0.0.9.tar.gz]
+[2023-06-28 06:59:29] INFO root fetch - main [MainThread]: End processing [ocr-iiif-tools]: success
+[2023-06-28 06:59:29] INFO root fetch - main [MainThread]: Store serial: [18674634]
