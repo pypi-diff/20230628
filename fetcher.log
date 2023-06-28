@@ -13132,3 +13132,109 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 04:35:44] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-1.0.4.tar.gz]
 [2023-06-28 04:35:44] INFO root fetch - main [MainThread]: End processing [fast-brainfuck]: success
 [2023-06-28 04:35:44] INFO root fetch - main [MainThread]: Store serial: [18673857]
+[2023-06-28 04:40:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18673857]
+[2023-06-28 04:40:53] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-28 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syslabappsdk
+[2023-06-28 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: citation-utils
+[2023-06-28 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lytekit
+[2023-06-28 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tendenci
+[2023-06-28 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai2-kit
+[2023-06-28 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: webtemplate-dbca
+[2023-06-28 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyCapsid
+[2023-06-28 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OpenDSSDirect.py
+[2023-06-28 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fast-brainfuck
+[2023-06-28 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dank-mids
+[2023-06-28 04:40:53] INFO root fetch - processPackages [fast-brainfuck]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-28 04:40:53] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-28 04:40:53] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-28 04:40:53] INFO root fetch - processPackages [fast-brainfuck]: Downloading https://files.pythonhosted.org/packages/8b/3d/ffa7ccbc0fc7a13b2e4dc70de3bdf0321f58895347bb80bccad431ff2fa4/fast-brainfuck-1.0.4.tar.gz
+[2023-06-28 04:40:53] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/6a/0c/963b214051b21688cbfaea31cc9775942d45694a70adfe1143a29d92441d/ai2_kit-0.3.5.tar.gz
+[2023-06-28 04:40:53] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-28 04:40:53] INFO root fetch - processPackages [lytekit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-28 04:40:53] INFO root fetch - processPackages [webtemplate-dbca]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-06-28 04:40:53] WARNING root fetch - processPackages [syslabappsdk]: Skipping, unable to determine old version
+[2023-06-28 04:40:53] INFO root fetch - processPackages [syslabappsdk]: Start processing: odoo-addon-account-invoice-constraint-chronology
+[2023-06-28 04:40:53] INFO root fetch - main [MainThread]: End processing [syslabappsdk] error
+[2023-06-28 04:40:53] INFO root fetch - processPackages [citation-utils]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-28 04:40:53] INFO root fetch - processPackages [pyCapsid]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-28 04:40:53] INFO root fetch - processPackages [OpenDSSDirect.py]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-06-28 04:40:53] INFO root fetch - processPackages [tendenci]: New version: [7.5.2] Old Version: [7.5.1]
+[2023-06-28 04:40:53] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.2.7]
+[2023-06-28 04:40:53] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: Downloading https://files.pythonhosted.org/packages/9b/e8/1ce69fcbac659f2ad265ef2e3ef1cfc7052e9eba03092af596abae8b9a3b/odoo_addon_account_invoice_constraint_chronology-16.0.1.0.2.7-py3-none-any.whl
+[2023-06-28 04:40:54] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/fb/0a/a61d83a217a3078897ee212e3e910d2b06a3310f6dec199906a2893b6861/ai2_kit-0.3.6.tar.gz
+[2023-06-28 04:40:54] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-28 04:40:54] INFO root fetch - processPackages [lytekit]: Downloading https://files.pythonhosted.org/packages/48/cd/6a788f7e7d3a2c6402e6960b97f9026ea7e521c6e6245a58cfb4fc6efb4f/lytekit-0.9.0.tar.gz
+[2023-06-28 04:40:54] INFO root fetch - processPackages [citation-utils]: Downloading https://files.pythonhosted.org/packages/62/21/2001638957cac6755bd951d4ac004e57ae59754e464427640d5e749c0e3a/citation_utils-0.4.3.tar.gz
+[2023-06-28 04:40:54] INFO root fetch - processPackages [webtemplate-dbca]: Downloading https://files.pythonhosted.org/packages/bb/22/dcd85b78118c80c7ddb46584f17cfda6804e690192e97d7a564d88954dc5/webtemplate-dbca-1.5.2.tar.gz
+[2023-06-28 04:40:54] INFO root fetch - processPackages [fast-brainfuck]: Downloading https://files.pythonhosted.org/packages/71/ec/4a2caba5e5d91671612dde63d63bd1314cc465e35f9e31d87140b4e70767/fast-brainfuck-1.0.5.tar.gz
+[2023-06-28 04:40:54] INFO root fetch - processPackages [tendenci]: Downloading https://files.pythonhosted.org/packages/aa/f5/02cb65e296927a22f364ed749d762471ddf0808e38af72fdee168cc9c081/tendenci-7.5.1.tar.gz
+[2023-06-28 04:40:54] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-28 04:40:54] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230628/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-28 04:40:54] INFO root fetch - processPackages [OpenDSSDirect.py]: Downloading https://files.pythonhosted.org/packages/3d/6b/603638f7f7fed181da7d3ba1826c3ae2de1180b13d7fe34613d46bd29ca3/OpenDSSDirect.py-0.8.3.tar.gz
+[2023-06-28 04:40:54] INFO root fetch - processPackages [pyCapsid]: Downloading https://files.pythonhosted.org/packages/6c/00/5266d34885a49ffab7660c51a1971c1751034b454abcf4ba9d58b4056033/pyCapsid-0.3.5.tar.gz
+[2023-06-28 04:40:54] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-06-28 04:40:54] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.5.tar.gz tmp/ai2_kit-0.3.6.tar.gz --markdown 20230628/a/ai2-kit/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-28 04:40:54] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: Downloading https://files.pythonhosted.org/packages/1d/e5/1c56d792d794f9ffcdf48a960197ddeba3c530746c39a93c5b4e2f77086d/odoo_addon_account_invoice_constraint_chronology-16.0.1.1.0-py3-none-any.whl
+[2023-06-28 04:40:54] WARNING root fetch - processPackages [pyCapsid]: Skipping package: exceeds size limit 59233452>=10485760
+[2023-06-28 04:40:54] INFO root fetch - processPackages [pyCapsid]: Start processing: odoo-addons-oca-account-financial-tools
+[2023-06-28 04:40:54] INFO root fetch - main [MainThread]: End processing [pyCapsid] error
+[2023-06-28 04:40:54] INFO root fetch - processPackages [fast-brainfuck]: executing diffoscope
+[2023-06-28 04:40:54] INFO root fetch - processPackages [fast-brainfuck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-brainfuck-1.0.4.tar.gz tmp/fast-brainfuck-1.0.5.tar.gz --markdown 20230628/f/fast-brainfuck/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-28 04:40:54] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: executing diffoscope
+[2023-06-28 04:40:54] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_constraint_chronology-16.0.1.0.2.7-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_constraint_chronology-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-account-invoice-constraint-chronology/16.0.1.0.2.7-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-28 04:40:54] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: New version: [16.0.20230627.0] Old Version: [16.0.20230606.1]
+[2023-06-28 04:40:54] INFO root fetch - processPackages [citation-utils]: Downloading https://files.pythonhosted.org/packages/3f/ed/62313b0c28b38d7dfda271a79edf928d5b63acb28e655c204cf7c10a17ed/citation_utils-0.4.4.tar.gz
+[2023-06-28 04:40:54] INFO root fetch - processPackages [webtemplate-dbca]: Downloading https://files.pythonhosted.org/packages/4c/ed/ec3d94c503c6f05c969b252136ef8e77d4758f38927bb5a40c6f53974b2f/webtemplate-dbca-1.6.0.tar.gz
+[2023-06-28 04:40:54] INFO root fetch - processPackages [lytekit]: Downloading https://files.pythonhosted.org/packages/be/b6/90e266a6c058766bec4ce41653490f4b504a5be53aea11f1ff7873bb8d07/lytekit-0.9.1.tar.gz
+[2023-06-28 04:40:54] INFO root fetch - processPackages [OpenDSSDirect.py]: Downloading https://files.pythonhosted.org/packages/0d/2d/59bf8af893dc023607b572aa63547f96bc46e3781f9aabfd557baf0d51cf/OpenDSSDirect.py-0.8.4.tar.gz
+[2023-06-28 04:40:54] INFO root fetch - processPackages [webtemplate-dbca]: executing diffoscope
+[2023-06-28 04:40:54] INFO root fetch - processPackages [webtemplate-dbca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webtemplate-dbca-1.5.2.tar.gz tmp/webtemplate-dbca-1.6.0.tar.gz --markdown 20230628/w/webtemplate-dbca/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-06-28 04:40:54] INFO root fetch - processPackages [citation-utils]: executing diffoscope
+[2023-06-28 04:40:54] INFO root fetch - processPackages [citation-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_utils-0.4.3.tar.gz tmp/citation_utils-0.4.4.tar.gz --markdown 20230628/c/citation-utils/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-28 04:40:54] INFO root fetch - processPackages [lytekit]: executing diffoscope
+[2023-06-28 04:40:54] INFO root fetch - processPackages [OpenDSSDirect.py]: executing diffoscope
+[2023-06-28 04:40:54] INFO root fetch - processPackages [lytekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytekit-0.9.0.tar.gz tmp/lytekit-0.9.1.tar.gz --markdown 20230628/l/lytekit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-28 04:40:54] INFO root fetch - processPackages [OpenDSSDirect.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenDSSDirect.py-0.8.3.tar.gz tmp/OpenDSSDirect.py-0.8.4.tar.gz --markdown 20230628/O/OpenDSSDirect.py/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-06-28 04:40:54] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: Downloading https://files.pythonhosted.org/packages/b2/a4/2f2fd6237440b7073eaf2050cbfa178c490d3237da96f1dbbb0f65b0a20f/odoo_addons_oca_account_financial_tools-16.0.20230606.1-py3-none-any.whl
+[2023-06-28 04:40:54] WARNING root fetch - processPackages [tendenci]: Skipping package: exceeds size limit 18750556>=10485760
+[2023-06-28 04:40:54] INFO root fetch - processPackages [tendenci]: Start processing: frontengine-dev
+[2023-06-28 04:40:54] INFO root fetch - main [MainThread]: End processing [tendenci] error
+[2023-06-28 04:40:54] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 04:40:54] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: Downloading https://files.pythonhosted.org/packages/82/d0/a991ea3d26c025386116d6c5098146ba191accc841fb7d9c7b300fd60df8/odoo_addons_oca_account_financial_tools-16.0.20230627.0-py3-none-any.whl
+[2023-06-28 04:40:55] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2023-06-28 04:40:55] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: executing diffoscope
+[2023-06-28 04:40:55] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_financial_tools-16.0.20230606.1-py3-none-any.whl.zip tmp/odoo_addons_oca_account_financial_tools-16.0.20230627.0-py3-none-any.whl.zip --markdown 20230628/o/odoo-addons-oca-account-financial-tools/16.0.20230606.1-16.0.20230627.0/diff.md --exclude *.pyd
+[2023-06-28 04:40:55] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2023-06-28 04:40:55] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-06-28 04:40:55] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230628/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 04:40:55] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.5.tar.gz]
+[2023-06-28 04:40:55] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.6.tar.gz]
+[2023-06-28 04:40:55] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-06-28 04:40:55] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-1.0.4.tar.gz]
+[2023-06-28 04:40:55] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-1.0.5.tar.gz]
+[2023-06-28 04:40:55] INFO root fetch - main [MainThread]: End processing [fast-brainfuck]: success
+[2023-06-28 04:40:56] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-28 04:40:56] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-28 04:40:56] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-28 04:40:56] INFO root fetch - processPackages [webtemplate-dbca]: Remove: archive file [/home/abi/fetcher/tmp/webtemplate-dbca-1.5.2.tar.gz]
+[2023-06-28 04:40:56] INFO root fetch - processPackages [webtemplate-dbca]: Remove: archive file [/home/abi/fetcher/tmp/webtemplate-dbca-1.6.0.tar.gz]
+[2023-06-28 04:40:56] INFO root fetch - main [MainThread]: End processing [webtemplate-dbca]: success
+[2023-06-28 04:40:56] INFO root fetch - processPackages [citation-utils]: Remove: archive file [/home/abi/fetcher/tmp/citation_utils-0.4.3.tar.gz]
+[2023-06-28 04:40:56] INFO root fetch - processPackages [citation-utils]: Remove: archive file [/home/abi/fetcher/tmp/citation_utils-0.4.4.tar.gz]
+[2023-06-28 04:40:56] INFO root fetch - main [MainThread]: End processing [citation-utils]: success
+[2023-06-28 04:40:56] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_constraint_chronology-16.0.1.0.2.7-py3-none-any.whl.zip]
+[2023-06-28 04:40:56] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_constraint_chronology-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-28 04:40:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-constraint-chronology]: success
+[2023-06-28 04:40:56] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_financial_tools-16.0.20230606.1-py3-none-any.whl.zip]
+[2023-06-28 04:40:56] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_financial_tools-16.0.20230627.0-py3-none-any.whl.zip]
+[2023-06-28 04:40:56] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-financial-tools]: success
+[2023-06-28 04:40:56] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2023-06-28 04:40:56] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2023-06-28 04:40:56] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-06-28 04:40:57] INFO root fetch - processPackages [lytekit]: Remove: archive file [/home/abi/fetcher/tmp/lytekit-0.9.0.tar.gz]
+[2023-06-28 04:40:57] INFO root fetch - processPackages [lytekit]: Remove: archive file [/home/abi/fetcher/tmp/lytekit-0.9.1.tar.gz]
+[2023-06-28 04:40:57] INFO root fetch - main [MainThread]: End processing [lytekit]: success
+[2023-06-28 04:41:50] INFO root fetch - processPackages [OpenDSSDirect.py]: Remove: archive file [/home/abi/fetcher/tmp/OpenDSSDirect.py-0.8.3.tar.gz]
+[2023-06-28 04:41:50] INFO root fetch - processPackages [OpenDSSDirect.py]: Remove: archive file [/home/abi/fetcher/tmp/OpenDSSDirect.py-0.8.4.tar.gz]
+[2023-06-28 04:41:50] INFO root fetch - main [MainThread]: End processing [OpenDSSDirect.py]: success
+[2023-06-28 04:41:50] INFO root fetch - main [MainThread]: Store serial: [18673894]
