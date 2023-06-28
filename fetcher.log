@@ -15373,3 +15373,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 07:39:59] INFO root fetch - processPackages [ersilia]: Remove: archive file [/home/abi/fetcher/tmp/ersilia-0.1.9.tar.gz]
 [2023-06-28 07:39:59] INFO root fetch - main [MainThread]: End processing [ersilia]: success
 [2023-06-28 07:39:59] INFO root fetch - main [MainThread]: Store serial: [18674861]
+[2023-06-28 07:45:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674861]
+[2023-06-28 07:45:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-28 07:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xw-utils
+[2023-06-28 07:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: splam
+[2023-06-28 07:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hack-pc-to-LV-1
+[2023-06-28 07:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastqe
+[2023-06-28 07:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py3toolbox
+[2023-06-28 07:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sentry-ldap
+[2023-06-28 07:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-ddosbgp20180201-py2
+[2023-06-28 07:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yangsuite-yangtree
+[2023-06-28 07:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-ddosbgp20180201
+[2023-06-28 07:45:08] INFO root fetch - processPackages [fastqe]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-06-28 07:45:08] INFO root fetch - processPackages [py3toolbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 07:45:08] WARNING root fetch - processPackages [hack-pc-to-LV-1]: Skipping, unable to determine old version
+[2023-06-28 07:45:08] INFO root fetch - main [MainThread]: End processing [hack-pc-to-LV-1] error
+[2023-06-28 07:45:08] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 07:45:08] INFO root fetch - processPackages [splam]: New version: [0.2.9] Old Version: [0.2.15]
+[2023-06-28 07:45:08] WARNING root fetch - processPackages [sentry-ldap]: Skipping, unable to determine old version
+[2023-06-28 07:45:08] INFO root fetch - main [MainThread]: End processing [sentry-ldap] error
+[2023-06-28 07:45:08] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/e4/e6/6f1e77832ec5b71f6d0f65cfbec5c2f186703fac1a664626aea040325c7c/py3toolbox-0.1.8.tar.gz
+[2023-06-28 07:45:08] WARNING root fetch - processPackages [alibabacloud-ddosbgp20180201-py2]: Skipping, unable to determine old version
+[2023-06-28 07:45:08] INFO root fetch - main [MainThread]: End processing [alibabacloud-ddosbgp20180201-py2] error
+[2023-06-28 07:45:08] INFO root fetch - processPackages [yangsuite-yangtree]: New version: [2.1.7] Old Version: [2.1.6.post0.dev2]
+[2023-06-28 07:45:08] WARNING root fetch - processPackages [alibabacloud-ddosbgp20180201]: Skipping, unable to determine old version
+[2023-06-28 07:45:08] INFO root fetch - main [MainThread]: End processing [alibabacloud-ddosbgp20180201] error
+[2023-06-28 07:45:08] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/29/d0/5e9ef93e49636308cb56b70a06c8932321cb60a4aae678d8bb1d213b52b5/splam-0.2.15.tar.gz
+[2023-06-28 07:45:08] INFO root fetch - processPackages [fastqe]: Downloading https://files.pythonhosted.org/packages/63/b3/653b483de0c0b1a13d49e1ad1c25052beb9666d0ba9d16e7310613286812/fastqe-0.2.7.tar.gz
+[2023-06-28 07:45:08] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-06-28 07:45:08] WARNING root fetch - processPackages [splam]: Skipping package: exceeds size limit 40589299>=10485760
+[2023-06-28 07:45:08] INFO root fetch - main [MainThread]: End processing [splam] error
+[2023-06-28 07:45:08] INFO root fetch - processPackages [yangsuite-yangtree]: Downloading https://files.pythonhosted.org/packages/ba/46/4c0e725de9e911b0768a5cac60d624e98a766a1cf7dd330b9951d3596c08/yangsuite_yangtree-2.1.6.post0.dev2-py3-none-any.whl
+[2023-06-28 07:45:08] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/25/6b/7f9865a1bedf9c30b0ba7956a568b97cc5dd18c9825e37d26c54ae28ed7d/py3toolbox-0.1.9.tar.gz
+[2023-06-28 07:45:09] INFO root fetch - processPackages [py3toolbox]: executing diffoscope
+[2023-06-28 07:45:09] INFO root fetch - processPackages [py3toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3toolbox-0.1.8.tar.gz tmp/py3toolbox-0.1.9.tar.gz --markdown 20230628/p/py3toolbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 07:45:09] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-06-28 07:45:09] INFO root fetch - processPackages [fastqe]: Downloading https://files.pythonhosted.org/packages/4c/4a/17478b702683e96c9db35b0b1ccdeb046a7c3563d0875d7987a9d520a978/fastqe-0.3.0.tar.gz
+[2023-06-28 07:45:09] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-06-28 07:45:09] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230628/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 07:45:09] INFO root fetch - processPackages [fastqe]: executing diffoscope
+[2023-06-28 07:45:09] INFO root fetch - processPackages [fastqe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastqe-0.2.7.tar.gz tmp/fastqe-0.3.0.tar.gz --markdown 20230628/f/fastqe/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-06-28 07:45:09] INFO root fetch - processPackages [yangsuite-yangtree]: Downloading https://files.pythonhosted.org/packages/72/b3/56b9a9750df84c5ad89b23bf7a48fdee8a360b923cb50d0b007aa2f07291/yangsuite_yangtree-2.1.7-py3-none-any.whl
+[2023-06-28 07:45:10] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-28 07:45:10] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-28 07:45:10] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-06-28 07:45:10] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.8.tar.gz]
+[2023-06-28 07:45:10] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.9.tar.gz]
+[2023-06-28 07:45:10] INFO root fetch - main [MainThread]: End processing [py3toolbox]: success
+[2023-06-28 07:45:10] INFO root fetch - processPackages [fastqe]: Remove: archive file [/home/abi/fetcher/tmp/fastqe-0.2.7.tar.gz]
+[2023-06-28 07:45:10] INFO root fetch - processPackages [fastqe]: Remove: archive file [/home/abi/fetcher/tmp/fastqe-0.3.0.tar.gz]
+[2023-06-28 07:45:10] INFO root fetch - main [MainThread]: End processing [fastqe]: success
+[2023-06-28 07:45:10] INFO root fetch - processPackages [yangsuite-yangtree]: executing diffoscope
+[2023-06-28 07:45:10] INFO root fetch - processPackages [yangsuite-yangtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite_yangtree-2.1.6.post0.dev2-py3-none-any.whl.zip tmp/yangsuite_yangtree-2.1.7-py3-none-any.whl.zip --markdown 20230628/y/yangsuite-yangtree/2.1.6.post0.dev2-2.1.7/diff.md --exclude *.pyd
+[2023-06-28 07:45:16] INFO root fetch - processPackages [yangsuite-yangtree]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_yangtree-2.1.6.post0.dev2-py3-none-any.whl.zip]
+[2023-06-28 07:45:16] INFO root fetch - processPackages [yangsuite-yangtree]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_yangtree-2.1.7-py3-none-any.whl.zip]
+[2023-06-28 07:45:16] INFO root fetch - main [MainThread]: End processing [yangsuite-yangtree]: success
+[2023-06-28 07:45:16] INFO root fetch - main [MainThread]: Store serial: [18674911]
