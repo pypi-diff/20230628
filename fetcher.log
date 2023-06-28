@@ -5938,3 +5938,92 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 03:36:20] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
 [2023-06-28 03:36:20] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
 [2023-06-28 03:36:20] INFO root fetch - main [MainThread]: Store serial: [18671405]
+[2023-06-28 03:41:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18671405]
+[2023-06-28 03:41:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-28 03:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psalpsdtools
+[2023-06-28 03:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sesg
+[2023-06-28 03:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqLister
+[2023-06-28 03:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: formulae
+[2023-06-28 03:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: truss
+[2023-06-28 03:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-numpy
+[2023-06-28 03:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proactive
+[2023-06-28 03:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pandas
+[2023-06-28 03:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-aws
+[2023-06-28 03:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proactive-jupyter-kernel
+[2023-06-28 03:41:29] INFO root fetch - processPackages [formulae]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-06-28 03:41:29] INFO root fetch - processPackages [truss]: New version: [0.4.9rc9] Old Version: [0.4.9rc5]
+[2023-06-28 03:41:29] INFO root fetch - processPackages [psalpsdtools]: New version: [0.8] Old Version: [0.7]
+[2023-06-28 03:41:29] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-28 03:41:29] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 03:41:29] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-28 03:41:29] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-28 03:41:29] INFO root fetch - processPackages [seqLister]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-28 03:41:29] INFO root fetch - processPackages [psalpsdtools]: Downloading https://files.pythonhosted.org/packages/3a/75/7c9dcbfcca8d0e55f0ce828497fcc369ba08590eb4ad68818b629ec41d52/psalpsdtools-0.7.tar.gz
+[2023-06-28 03:41:29] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-28 03:41:29] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/a5/ac/6da658c05b328c158997857f4315d9203f0c68cfcb1a90b247c8966bad5b/truss-0.4.9rc5.tar.gz
+[2023-06-28 03:41:29] INFO root fetch - processPackages [pulumi-aws]: New version: [6.0.0a2] Old Version: [6.0.0a1]
+[2023-06-28 03:41:29] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-06-28 03:41:29] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/32/a5/c948ce4c33581a843a2c081120906c27c689f26208e8d99c3228f95c9c33/sesg-0.0.8.tar.gz
+[2023-06-28 03:41:29] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-28 03:41:29] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-28 03:41:29] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-28 03:41:29] INFO root fetch - processPackages [formulae]: Downloading https://files.pythonhosted.org/packages/43/a7/4a3043b24f76d318eb6f12464aca4daef39c23630803eeb6acbae8a78fc3/formulae-0.3.4.tar.gz
+[2023-06-28 03:41:29] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-28 03:41:29] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-28 03:41:29] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/92/97/5f78d50e5618eaf7c5f3f918d7ea2a494d65cb8ebc0daf5e329af774240d/truss-0.4.9rc9.tar.gz
+[2023-06-28 03:41:29] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/b0/99/29404871db61302e769d5573a523b07920080eb0de82ce589685af7d2da5/sesg-0.0.9.tar.gz
+[2023-06-28 03:41:29] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-06-28 03:41:29] INFO root fetch - processPackages [seqLister]: Downloading https://files.pythonhosted.org/packages/6e/31/227a95130e89182bc7b369d19518a2b8272249241b201bbb222d1ded1b9f/seqLister-1.0.0.tar.gz
+[2023-06-28 03:41:29] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/cb/4d/71b217ffa76349bc6dfe750451addec15e5a2936f12c72bdc65e6f905da0/pulumi_aws-6.0.0a1.tar.gz
+[2023-06-28 03:41:29] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-28 03:41:30] INFO root fetch - processPackages [truss]: executing diffoscope
+[2023-06-28 03:41:30] INFO root fetch - processPackages [psalpsdtools]: Downloading https://files.pythonhosted.org/packages/c1/6d/87dd629881fbeb0ab092cfe0c62802e6c2a72d4c42485d9e8b0b496d0bdc/psalpsdtools-0.8.tar.gz
+[2023-06-28 03:41:30] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.4.9rc5.tar.gz tmp/truss-0.4.9rc9.tar.gz --markdown 20230628/t/truss/0.4.9rc5-0.4.9rc9/diff.md --exclude *.pyd
+[2023-06-28 03:41:30] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-06-28 03:41:30] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230628/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 03:41:30] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-28 03:41:30] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-28 03:41:30] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230628/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-28 03:41:30] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-28 03:41:30] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230628/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 03:41:30] INFO root fetch - processPackages [psalpsdtools]: executing diffoscope
+[2023-06-28 03:41:30] INFO root fetch - processPackages [psalpsdtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psalpsdtools-0.7.tar.gz tmp/psalpsdtools-0.8.tar.gz --markdown 20230628/p/psalpsdtools/0.7-0.8/diff.md --exclude *.pyd
+[2023-06-28 03:41:30] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-28 03:41:30] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230628/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 03:41:30] INFO root fetch - processPackages [seqLister]: Downloading https://files.pythonhosted.org/packages/c2/ee/c8f5a7d6a409b1f3135678057474d1ea754fcfa04fc27e384b53e578d6c6/seqLister-1.1.0.tar.gz
+[2023-06-28 03:41:30] INFO root fetch - processPackages [seqLister]: executing diffoscope
+[2023-06-28 03:41:30] INFO root fetch - processPackages [seqLister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqLister-1.0.0.tar.gz tmp/seqLister-1.1.0.tar.gz --markdown 20230628/s/seqLister/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-28 03:41:30] INFO root fetch - processPackages [formulae]: Downloading https://files.pythonhosted.org/packages/ba/23/883f3a0055889953ed4d0465e2ca9b4ad46dc9a80c2d5078b4d4a6300db3/formulae-0.4.0.tar.gz
+[2023-06-28 03:41:30] INFO root fetch - processPackages [formulae]: executing diffoscope
+[2023-06-28 03:41:30] INFO root fetch - processPackages [formulae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formulae-0.3.4.tar.gz tmp/formulae-0.4.0.tar.gz --markdown 20230628/f/formulae/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-06-28 03:41:31] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/c1/e0/3301415e6673a3ca90b1b33968bc8018662de35dd80aec8e92f93264a460/pulumi_aws-6.0.0a2.tar.gz
+[2023-06-28 03:41:31] INFO root fetch - processPackages [sesg]: Remove: archive file [/home/abi/fetcher/tmp/sesg-0.0.8.tar.gz]
+[2023-06-28 03:41:31] INFO root fetch - processPackages [sesg]: Remove: archive file [/home/abi/fetcher/tmp/sesg-0.0.9.tar.gz]
+[2023-06-28 03:41:31] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-06-28 03:41:31] INFO root fetch - processPackages [psalpsdtools]: Remove: archive file [/home/abi/fetcher/tmp/psalpsdtools-0.7.tar.gz]
+[2023-06-28 03:41:31] INFO root fetch - processPackages [psalpsdtools]: Remove: archive file [/home/abi/fetcher/tmp/psalpsdtools-0.8.tar.gz]
+[2023-06-28 03:41:31] INFO root fetch - main [MainThread]: End processing [psalpsdtools]: success
+[2023-06-28 03:41:31] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-06-28 03:41:31] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.0.0a1.tar.gz tmp/pulumi_aws-6.0.0a2.tar.gz --markdown 20230628/p/pulumi-aws/6.0.0a1-6.0.0a2/diff.md --exclude *.pyd
+[2023-06-28 03:41:31] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-28 03:41:31] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-28 03:41:31] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-28 03:41:31] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-06-28 03:41:31] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-06-28 03:41:31] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-28 03:41:31] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-28 03:41:31] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-28 03:41:31] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-28 03:41:31] INFO root fetch - processPackages [seqLister]: Remove: archive file [/home/abi/fetcher/tmp/seqLister-1.0.0.tar.gz]
+[2023-06-28 03:41:31] INFO root fetch - processPackages [seqLister]: Remove: archive file [/home/abi/fetcher/tmp/seqLister-1.1.0.tar.gz]
+[2023-06-28 03:41:31] INFO root fetch - main [MainThread]: End processing [seqLister]: success
+[2023-06-28 03:41:31] INFO root fetch - processPackages [formulae]: Remove: archive file [/home/abi/fetcher/tmp/formulae-0.3.4.tar.gz]
+[2023-06-28 03:41:31] INFO root fetch - processPackages [formulae]: Remove: archive file [/home/abi/fetcher/tmp/formulae-0.4.0.tar.gz]
+[2023-06-28 03:41:31] INFO root fetch - main [MainThread]: End processing [formulae]: success
+[2023-06-28 03:41:34] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc5.tar.gz]
+[2023-06-28 03:41:34] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc9.tar.gz]
+[2023-06-28 03:41:34] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2023-06-28 03:42:28] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a1.tar.gz]
+[2023-06-28 03:42:28] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a2.tar.gz]
+[2023-06-28 03:42:28] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-06-28 03:42:28] INFO root fetch - main [MainThread]: Store serial: [18671434]
