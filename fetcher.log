@@ -18806,3 +18806,140 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 10:23:15] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-06-28 10:23:15] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-06-28 10:23:15] INFO root fetch - main [MainThread]: Store serial: [18676169]
+[2023-06-28 10:28:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18676169]
+[2023-06-28 10:28:24] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-28 10:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantizeml
+[2023-06-28 10:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysquril
+[2023-06-28 10:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eiffel-framework
+[2023-06-28 10:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gov-uk-dashboards
+[2023-06-28 10:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-sonarqube-api
+[2023-06-28 10:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rosetta-ce
+[2023-06-28 10:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: convtools
+[2023-06-28 10:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seatsio
+[2023-06-28 10:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygamd
+[2023-06-28 10:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: InfixToPostfix
+[2023-06-28 10:28:24] INFO root fetch - processPackages [quantizeml]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-06-28 10:28:24] INFO root fetch - processPackages [pysquril]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-28 10:28:24] INFO root fetch - processPackages [convtools]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-28 10:28:24] INFO root fetch - processPackages [InfixToPostfix]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-06-28 10:28:24] INFO root fetch - processPackages [eiffel-framework]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-28 10:28:24] INFO root fetch - processPackages [rosetta-ce]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-28 10:28:24] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-06-28 10:28:24] INFO root fetch - processPackages [seatsio]: New version: [73.1.0] Old Version: [73.0.0]
+[2023-06-28 10:28:24] INFO root fetch - processPackages [python-sonarqube-api]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-28 10:28:24] INFO root fetch - processPackages [pygamd]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-28 10:28:24] INFO root fetch - processPackages [python-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/6d/59/fd46037d7360d471359c94d381463d2b0d81c1dbb7d5320c11c4e82f8015/python-sonarqube-api-2.0.2.tar.gz
+[2023-06-28 10:28:24] INFO root fetch - processPackages [quantizeml]: Downloading https://files.pythonhosted.org/packages/bf/2e/3f23c2b62ed73bad3fdc7ebfcfb834fbb27f55f5c644370c2521cfa8ada5/quantizeml-0.4.2.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/38/53/656fcafd1a9799cd1824f1782e7cdb227929cc20e895ffab4f1cf7bd8a65/rosetta-ce-1.2.3.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [convtools]: Downloading https://files.pythonhosted.org/packages/00/54/c66619ac4c2dcd0635c97247991c8ee516db8dd756e4d4ed5439fe35918f/convtools-1.3.0.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [pysquril]: Downloading https://files.pythonhosted.org/packages/82/24/58bfa8373fb1d5cfa21d4324ea069550e1c89368aabdd37eaa9f621523c9/pysquril-0.3.3.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [seatsio]: Downloading https://files.pythonhosted.org/packages/6b/41/b6b6c0d4f629020603be78d535e345768682075cfe867855ef9f3d62d87d/seatsio-73.0.0.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [pygamd]: Downloading https://files.pythonhosted.org/packages/aa/d2/0b3b51411ee489ef1db99c0494ace3e4d179dfbe0bfd2bec7be8b5dee521/pygamd-1.3.0.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [InfixToPostfix]: Downloading https://files.pythonhosted.org/packages/f1/7c/4968ad60506e4352b7cb48442a5d30a3767537e2bc7a9c5c9f2fab464cd6/InfixToPostfix-1.0.8.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [eiffel-framework]: Downloading https://files.pythonhosted.org/packages/45/c6/608b780aedb58d68c408940b51c996709bedfeeea15af24d263d12ef6d02/eiffel_framework-0.1.3.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [python-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/57/d2/d078a79968aafb83d3ee88bb888bfe61c44d10aef680fb93cff4bde57d01/python-sonarqube-api-2.0.3.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [python-sonarqube-api]: executing diffoscope
+[2023-06-28 10:28:25] INFO root fetch - processPackages [python-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sonarqube-api-2.0.2.tar.gz tmp/python-sonarqube-api-2.0.3.tar.gz --markdown 20230628/p/python-sonarqube-api/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-28 10:28:25] INFO root fetch - processPackages [quantizeml]: Downloading https://files.pythonhosted.org/packages/18/96/967a3d6e1b8b62d079572282a396251d7bc009595ce4cac538d3bb254340/quantizeml-0.5.0.tar.gz
+[2023-06-28 10:28:25] WARNING root fetch - processPackages [pygamd]: Skipping package: exceeds size limit 25770138>=10485760
+[2023-06-28 10:28:25] INFO root fetch - processPackages [pygamd]: Start processing: email-cleaning-service
+[2023-06-28 10:28:25] INFO root fetch - main [MainThread]: End processing [pygamd] error
+[2023-06-28 10:28:25] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/c1/ce/3305cda76688fdb2e79be7ad1219797b2ef6f46e788614ec3d7433991a76/rosetta-ce-1.2.4.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [email-cleaning-service]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 10:28:25] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-06-28 10:28:25] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.2.3.tar.gz tmp/rosetta-ce-1.2.4.tar.gz --markdown 20230628/r/rosetta-ce/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-28 10:28:25] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [quantizeml]: executing diffoscope
+[2023-06-28 10:28:25] INFO root fetch - processPackages [quantizeml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantizeml-0.4.2.tar.gz tmp/quantizeml-0.5.0.tar.gz --markdown 20230628/q/quantizeml/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-06-28 10:28:25] INFO root fetch - processPackages [email-cleaning-service]: Downloading https://files.pythonhosted.org/packages/68/44/17bdc725a3740d787af894a0fc39336465898e760c2526fb232c144f5d15/email_cleaning_service-0.0.8.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [pysquril]: Downloading https://files.pythonhosted.org/packages/3e/95/da667545c89d6aa06755c1f078f96831653bbe23e5750ad7021b912c4809/pysquril-0.3.4.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [convtools]: Downloading https://files.pythonhosted.org/packages/d9/e2/ccae005b9d75509f8762d2778f53f4ec451a31f389ef6f4dad4429467a92/convtools-1.4.0.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [pysquril]: executing diffoscope
+[2023-06-28 10:28:25] INFO root fetch - processPackages [pysquril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysquril-0.3.3.tar.gz tmp/pysquril-0.3.4.tar.gz --markdown 20230628/p/pysquril/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-28 10:28:25] INFO root fetch - processPackages [InfixToPostfix]: Downloading https://files.pythonhosted.org/packages/54/9d/5e9df5054cc926e959ead46c744128d43a3c94b0ec2714c56f00a74427bd/InfixToPostfix-1.1.0.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [seatsio]: Downloading https://files.pythonhosted.org/packages/59/e5/69252cbdfbbd57b04c0792cc1c121ed119c4d4fd0bd43b27aae0146ccac6/seatsio-73.1.0.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [eiffel-framework]: Downloading https://files.pythonhosted.org/packages/a4/fd/4ff4dea1e7c649cdfd463618be022b8d7e3625b5c1e6e7350662e53398db/eiffel_framework-0.1.4.tar.gz
+[2023-06-28 10:28:25] INFO root fetch - processPackages [convtools]: executing diffoscope
+[2023-06-28 10:28:25] INFO root fetch - processPackages [convtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convtools-1.3.0.tar.gz tmp/convtools-1.4.0.tar.gz --markdown 20230628/c/convtools/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-28 10:28:25] INFO root fetch - processPackages [seatsio]: executing diffoscope
+[2023-06-28 10:28:25] INFO root fetch - processPackages [seatsio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seatsio-73.0.0.tar.gz tmp/seatsio-73.1.0.tar.gz --markdown 20230628/s/seatsio/73.0.0-73.1.0/diff.md --exclude *.pyd
+[2023-06-28 10:28:25] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2023-06-28 10:28:25] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20230628/g/gov-uk-dashboards/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-06-28 10:28:25] INFO root fetch - processPackages [eiffel-framework]: executing diffoscope
+[2023-06-28 10:28:25] INFO root fetch - processPackages [eiffel-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eiffel_framework-0.1.3.tar.gz tmp/eiffel_framework-0.1.4.tar.gz --markdown 20230628/e/eiffel-framework/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-28 10:28:25] INFO root fetch - processPackages [InfixToPostfix]: executing diffoscope
+[2023-06-28 10:28:25] INFO root fetch - processPackages [InfixToPostfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InfixToPostfix-1.0.8.tar.gz tmp/InfixToPostfix-1.1.0.tar.gz --markdown 20230628/I/InfixToPostfix/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-06-28 10:28:25] WARNING root fetch - processPackages [email-cleaning-service]: Skipping package: exceeds size limit 39560921>=10485760
+[2023-06-28 10:28:25] INFO root fetch - processPackages [email-cleaning-service]: Start processing: quark-engine
+[2023-06-28 10:28:25] INFO root fetch - main [MainThread]: End processing [email-cleaning-service] error
+[2023-06-28 10:28:25] INFO root fetch - processPackages [quark-engine]: New version: [23.6.1] Old Version: [23.5.1]
+[2023-06-28 10:28:26] INFO root fetch - processPackages [quark-engine]: Downloading https://files.pythonhosted.org/packages/34/52/65ac1010e4a2ba2a8f45c17ce45cf94d1647135cb4b914d8a75968db44dc/quark-engine-23.5.1.tar.gz
+[2023-06-28 10:28:26] INFO root fetch - processPackages [quark-engine]: Downloading https://files.pythonhosted.org/packages/7b/56/61d6ce4af7c44ec58d753d0e26e7d83d0176aa649fe5177baf16b1286a28/quark-engine-23.6.1.tar.gz
+[2023-06-28 10:28:26] INFO root fetch - processPackages [quark-engine]: executing diffoscope
+[2023-06-28 10:28:26] INFO root fetch - processPackages [quark-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quark-engine-23.5.1.tar.gz tmp/quark-engine-23.6.1.tar.gz --markdown 20230628/q/quark-engine/23.5.1-23.6.1/diff.md --exclude *.pyd
+[2023-06-28 10:28:26] INFO root fetch - processPackages [pysquril]: Remove: archive file [/home/abi/fetcher/tmp/pysquril-0.3.3.tar.gz]
+[2023-06-28 10:28:26] INFO root fetch - processPackages [pysquril]: Remove: archive file [/home/abi/fetcher/tmp/pysquril-0.3.4.tar.gz]
+[2023-06-28 10:28:26] INFO root fetch - processPackages [pysquril]: Start processing: python-sonarqube-api
+[2023-06-28 10:28:26] INFO root fetch - main [MainThread]: End processing [pysquril]: success
+[2023-06-28 10:28:26] INFO root fetch - processPackages [python-sonarqube-api]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-28 10:28:27] INFO root fetch - processPackages [eiffel-framework]: Remove: archive file [/home/abi/fetcher/tmp/eiffel_framework-0.1.3.tar.gz]
+[2023-06-28 10:28:27] INFO root fetch - processPackages [eiffel-framework]: Remove: archive file [/home/abi/fetcher/tmp/eiffel_framework-0.1.4.tar.gz]
+[2023-06-28 10:28:27] INFO root fetch - processPackages [eiffel-framework]: Start processing: guan
+[2023-06-28 10:28:27] INFO root fetch - main [MainThread]: End processing [eiffel-framework]: success
+[2023-06-28 10:28:27] INFO root fetch - processPackages [guan]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-28 10:28:27] INFO root fetch - processPackages [python-sonarqube-api]: executing diffoscope
+[2023-06-28 10:28:27] INFO root fetch - processPackages [python-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sonarqube-api-2.0.2.tar.gz tmp/python-sonarqube-api-2.0.3.tar.gz --markdown 20230628/p/python-sonarqube-api/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-28 10:28:27] INFO root fetch - processPackages [convtools]: Remove: archive file [/home/abi/fetcher/tmp/convtools-1.3.0.tar.gz]
+[2023-06-28 10:28:27] INFO root fetch - processPackages [convtools]: Remove: archive file [/home/abi/fetcher/tmp/convtools-1.4.0.tar.gz]
+[2023-06-28 10:28:27] INFO root fetch - processPackages [convtools]: Start processing: python-sonarqube-api
+[2023-06-28 10:28:27] INFO root fetch - main [MainThread]: End processing [convtools]: success
+[2023-06-28 10:28:27] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.2.3.tar.gz]
+[2023-06-28 10:28:27] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.2.4.tar.gz]
+[2023-06-28 10:28:27] INFO root fetch - processPackages [rosetta-ce]: Start processing: xlparser
+[2023-06-28 10:28:27] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-06-28 10:28:27] INFO root fetch - processPackages [xlparser]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-28 10:28:27] INFO root fetch - processPackages [python-sonarqube-api]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-28 10:28:27] INFO root fetch - processPackages [InfixToPostfix]: Remove: archive file [/home/abi/fetcher/tmp/InfixToPostfix-1.0.8.tar.gz]
+[2023-06-28 10:28:27] INFO root fetch - processPackages [InfixToPostfix]: Remove: archive file [/home/abi/fetcher/tmp/InfixToPostfix-1.1.0.tar.gz]
+[2023-06-28 10:28:27] INFO root fetch - main [MainThread]: End processing [InfixToPostfix]: success
+[2023-06-28 10:28:27] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/2f/2f/64697ef1ce35181684112fb95641cbf3f56bca4e607502424176584c4e11/guan-0.0.98.tar.gz
+[2023-06-28 10:28:27] INFO root fetch - processPackages [seatsio]: Remove: archive file [/home/abi/fetcher/tmp/seatsio-73.0.0.tar.gz]
+[2023-06-28 10:28:27] INFO root fetch - processPackages [seatsio]: Remove: archive file [/home/abi/fetcher/tmp/seatsio-73.1.0.tar.gz]
+[2023-06-28 10:28:27] INFO root fetch - main [MainThread]: End processing [seatsio]: success
+[2023-06-28 10:28:27] INFO root fetch - processPackages [python-sonarqube-api]: executing diffoscope
+[2023-06-28 10:28:27] INFO root fetch - processPackages [python-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sonarqube-api-2.0.2.tar.gz tmp/python-sonarqube-api-2.0.3.tar.gz --markdown 20230628/p/python-sonarqube-api/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-28 10:28:27] INFO root fetch - processPackages [xlparser]: Downloading https://files.pythonhosted.org/packages/5e/fa/413907fb9f1ec4ca18b387f17d76404d0838e301c4b499ca928da823514b/xlparser-0.5.8.tar.gz
+[2023-06-28 10:28:27] INFO root fetch - processPackages [quantizeml]: Remove: archive file [/home/abi/fetcher/tmp/quantizeml-0.4.2.tar.gz]
+[2023-06-28 10:28:27] INFO root fetch - processPackages [quantizeml]: Remove: archive file [/home/abi/fetcher/tmp/quantizeml-0.5.0.tar.gz]
+[2023-06-28 10:28:27] INFO root fetch - main [MainThread]: End processing [quantizeml]: success
+[2023-06-28 10:28:27] INFO root fetch - processPackages [python-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/python-sonarqube-api-2.0.2.tar.gz]
+[2023-06-28 10:28:27] INFO root fetch - processPackages [python-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/python-sonarqube-api-2.0.3.tar.gz]
+[2023-06-28 10:28:27] INFO root fetch - main [MainThread]: End processing [python-sonarqube-api]: success
+[2023-06-28 10:28:27] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/73/bf/798860b195a9284a0cfef1c9cbd178ef81cae8f027e0fad0295fa8cf0fd3/guan-0.0.99.tar.gz
+[2023-06-28 10:28:27] INFO root fetch - processPackages [guan]: executing diffoscope
+[2023-06-28 10:28:27] INFO root fetch - processPackages [guan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guan-0.0.98.tar.gz tmp/guan-0.0.99.tar.gz --markdown 20230628/g/guan/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 10:28:27] INFO root fetch - processPackages [xlparser]: Downloading https://files.pythonhosted.org/packages/56/63/26eff95d7efcdd699b930160d51ff383c48438fcacf733fff7ea8ce02759/xlparser-0.5.9.tar.gz
+[2023-06-28 10:28:27] ERROR root fetch - processPackages [python-sonarqube-api]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/python-sonarqube-api-2.0.2.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/python-sonarqube-api-2.0.3.tar.gz: No such file or directory
+
+[2023-06-28 10:28:27] INFO root fetch - main [MainThread]: End processing [python-sonarqube-api] error
+[2023-06-28 10:28:27] INFO root fetch - processPackages [xlparser]: executing diffoscope
+[2023-06-28 10:28:27] INFO root fetch - processPackages [xlparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlparser-0.5.8.tar.gz tmp/xlparser-0.5.9.tar.gz --markdown 20230628/x/xlparser/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-28 10:28:27] ERROR root fetch - processPackages [python-sonarqube-api]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/python-sonarqube-api-2.0.2.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/python-sonarqube-api-2.0.3.tar.gz: No such file or directory
+
+[2023-06-28 10:28:27] INFO root fetch - main [MainThread]: End processing [python-sonarqube-api] error
+[2023-06-28 10:28:28] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.0.98.tar.gz]
+[2023-06-28 10:28:28] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.0.99.tar.gz]
+[2023-06-28 10:28:28] INFO root fetch - main [MainThread]: End processing [guan]: success
+[2023-06-28 10:28:28] INFO root fetch - processPackages [xlparser]: Remove: archive file [/home/abi/fetcher/tmp/xlparser-0.5.8.tar.gz]
+[2023-06-28 10:28:28] INFO root fetch - processPackages [xlparser]: Remove: archive file [/home/abi/fetcher/tmp/xlparser-0.5.9.tar.gz]
+[2023-06-28 10:28:28] INFO root fetch - main [MainThread]: End processing [xlparser]: success
+[2023-06-28 10:28:29] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2023-06-28 10:28:29] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2023-06-28 10:28:29] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2023-06-28 10:28:29] INFO root fetch - processPackages [quark-engine]: Remove: archive file [/home/abi/fetcher/tmp/quark-engine-23.5.1.tar.gz]
+[2023-06-28 10:28:29] INFO root fetch - processPackages [quark-engine]: Remove: archive file [/home/abi/fetcher/tmp/quark-engine-23.6.1.tar.gz]
+[2023-06-28 10:28:29] INFO root fetch - main [MainThread]: End processing [quark-engine]: success
+[2023-06-28 10:28:29] INFO root fetch - main [MainThread]: Store serial: [18676215]
