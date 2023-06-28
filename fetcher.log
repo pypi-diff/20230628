@@ -19216,3 +19216,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 10:39:00] INFO root fetch - processPackages [ubiquity-student]: Remove: archive file [/home/abi/fetcher/tmp/ubiquity-student-1.1.0.tar.gz]
 [2023-06-28 10:39:00] INFO root fetch - main [MainThread]: End processing [ubiquity-student]: success
 [2023-06-28 10:39:00] INFO root fetch - main [MainThread]: Store serial: [18676401]
+[2023-06-28 10:44:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18676401]
+[2023-06-28 10:44:09] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-28 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: space-stream
+[2023-06-28 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lime-stable
+[2023-06-28 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inmanta-dev-dependencies
+[2023-06-28 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sc-cc-ng-sdk-python
+[2023-06-28 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-semantic-release
+[2023-06-28 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pywinstyles
+[2023-06-28 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tff-nightly
+[2023-06-28 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OpihiExarata
+[2023-06-28 10:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tradingeconomics
+[2023-06-28 10:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SESMG
+[2023-06-28 10:44:10] INFO root fetch - processPackages [python-semantic-release]: New version: [8.0.0rc2] Old Version: [8.0.0rc1]
+[2023-06-28 10:44:10] INFO root fetch - processPackages [lime-stable]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-28 10:44:10] INFO root fetch - processPackages [tradingeconomics]: New version: [4.2.4] Old Version: [4.2.3]
+[2023-06-28 10:44:10] INFO root fetch - processPackages [SESMG]: New version: [0.5.0rc1] Old Version: [0.5.0]
+[2023-06-28 10:44:10] INFO root fetch - processPackages [pywinstyles]: New version: [1.1] Old Version: [1.0]
+[2023-06-28 10:44:10] INFO root fetch - processPackages [OpihiExarata]: New version: [2023.6.8] Old Version: [2023.6.7]
+[2023-06-28 10:44:10] INFO root fetch - processPackages [space-stream]: New version: [0.1.7.2] Old Version: [0.1.7.1]
+[2023-06-28 10:44:10] INFO root fetch - processPackages [inmanta-dev-dependencies]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-28 10:44:10] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-28 10:44:10] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230627] Old Version: [0.0.1.dev20230626]
+[2023-06-28 10:44:10] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Downloading https://files.pythonhosted.org/packages/86/a6/85ab2c271977641bd029bb42fd68c2b068ba4bd2b00f60dfccdf7727958f/sc_cc_ng_sdk_python-0.1.4.tar.gz
+[2023-06-28 10:44:10] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/9f/9a/a56812d26bf90cfd2fdc048f2b56cac9e02825c5a862e8791c61aeb9ce44/tff_nightly-0.0.1.dev20230626-py2.py3-none-any.whl
+[2023-06-28 10:44:10] INFO root fetch - processPackages [lime-stable]: Downloading https://files.pythonhosted.org/packages/9b/2d/322b07b77aff36888e5222bda0bf4d62b9b966d482a135fea26e94f4b357/lime-stable-0.9.8.tar.gz
+[2023-06-28 10:44:10] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/82/46/1be048aefbea43ffe9dbfbdfec22216f1ecf9ecb90746ff5562d4778672f/python-semantic-release-8.0.0rc1.tar.gz
+[2023-06-28 10:44:10] INFO root fetch - processPackages [SESMG]: Downloading https://files.pythonhosted.org/packages/b9/d2/f6e6f49abbebe98583b5153d43dfd3a4d2b3ace7c8d81c436ffbd49b4950/SESMG-0.5.0.tar.gz
+[2023-06-28 10:44:10] INFO root fetch - processPackages [OpihiExarata]: Downloading https://files.pythonhosted.org/packages/7d/4f/2d78e09338c7644ed63df4e060a19c5a759f8cf050ffe700850c4a24db51/OpihiExarata-2023.6.7.tar.gz
+[2023-06-28 10:44:10] INFO root fetch - processPackages [space-stream]: Downloading https://files.pythonhosted.org/packages/04/48/c327c8da0830f9ccd136550da34b38e85647be6105bc8b91674d3bab2bb0/space_stream-0.1.7.1-py3-none-any.whl
+[2023-06-28 10:44:10] INFO root fetch - processPackages [inmanta-dev-dependencies]: Downloading https://files.pythonhosted.org/packages/a7/46/214378646a99a91221dc71abb67439f6a0c0215cd3c41aaada2a93fe0511/inmanta-dev-dependencies-2.8.0.tar.gz
+[2023-06-28 10:44:10] INFO root fetch - processPackages [pywinstyles]: Downloading https://files.pythonhosted.org/packages/b2/31/c338fb1afbb9b4f7db0d4fc963c8dc93c50c06389414216e510bda46f2d6/pywinstyles-1.0.tar.gz
+[2023-06-28 10:44:10] INFO root fetch - processPackages [tradingeconomics]: Downloading https://files.pythonhosted.org/packages/4e/f7/172ae0897bb1168018629cd8fbbc23300bd6358a532fa6d6d6496fe92434/tradingeconomics-4.2.3.tar.gz
+[2023-06-28 10:44:10] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Downloading https://files.pythonhosted.org/packages/6f/ff/c877f94010c5038f42db1cf1c329a5b7f6d1240d312ae338b838eac0f49d/sc_cc_ng_sdk_python-0.1.5.tar.gz
+[2023-06-28 10:44:10] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: executing diffoscope
+[2023-06-28 10:44:10] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_cc_ng_sdk_python-0.1.4.tar.gz tmp/sc_cc_ng_sdk_python-0.1.5.tar.gz --markdown 20230628/s/sc-cc-ng-sdk-python/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-28 10:44:10] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/d3/c8/4e920679ea14fce4a2c1877d532827a59a0ccaece9620ec235121150ced3/tff_nightly-0.0.1.dev20230627-py2.py3-none-any.whl
+[2023-06-28 10:44:10] INFO root fetch - processPackages [SESMG]: Downloading https://files.pythonhosted.org/packages/37/bb/099362898864a80b94b34317e0782e02c4e695a2400b431f6df7aa38dd3f/SESMG-0.5.0rc1.tar.gz
+[2023-06-28 10:44:10] INFO root fetch - processPackages [space-stream]: Downloading https://files.pythonhosted.org/packages/96/cc/a51bb1d91fd814af50904a720b5b78b96855427e30c9ba4257e9b743cb43/space_stream-0.1.7.2-py3-none-any.whl
+[2023-06-28 10:44:10] INFO root fetch - processPackages [lime-stable]: Downloading https://files.pythonhosted.org/packages/a3/88/4940908e003bc08dbc00ea92ef8b91f35daf8e9bce7d0f3e00551b160e56/lime-stable-0.9.9.tar.gz
+[2023-06-28 10:44:10] INFO root fetch - processPackages [pywinstyles]: Downloading https://files.pythonhosted.org/packages/a5/24/9fbf0c73021fe4fa5e70be8c6e594a4344a70bd729a015c3cf7fe4aba798/pywinstyles-1.1.tar.gz
+[2023-06-28 10:44:10] INFO root fetch - processPackages [tradingeconomics]: Downloading https://files.pythonhosted.org/packages/cc/56/8c87ae84eaffc2e57d61fee3099efe8179f4fd67af6d7dcf88e28786ff6f/tradingeconomics-4.2.4.tar.gz
+[2023-06-28 10:44:10] INFO root fetch - processPackages [SESMG]: executing diffoscope
+[2023-06-28 10:44:10] INFO root fetch - processPackages [SESMG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SESMG-0.5.0.tar.gz tmp/SESMG-0.5.0rc1.tar.gz --markdown 20230628/S/SESMG/0.5.0-0.5.0rc1/diff.md --exclude *.pyd
+[2023-06-28 10:44:10] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/24/8f/9f76c87cf7c705467a25303b27fa0a0b412291dd276b8a177ce3d88e9ba0/python-semantic-release-8.0.0rc2.tar.gz
+[2023-06-28 10:44:10] INFO root fetch - processPackages [pywinstyles]: executing diffoscope
+[2023-06-28 10:44:10] INFO root fetch - processPackages [pywinstyles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywinstyles-1.0.tar.gz tmp/pywinstyles-1.1.tar.gz --markdown 20230628/p/pywinstyles/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-28 10:44:10] INFO root fetch - processPackages [lime-stable]: executing diffoscope
+[2023-06-28 10:44:10] INFO root fetch - processPackages [lime-stable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lime-stable-0.9.8.tar.gz tmp/lime-stable-0.9.9.tar.gz --markdown 20230628/l/lime-stable/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-28 10:44:10] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-28 10:44:10] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230626-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230627-py2.py3-none-any.whl.zip --markdown 20230628/t/tff-nightly/0.0.1.dev20230626-0.0.1.dev20230627/diff.md --exclude *.pyd
+[2023-06-28 10:44:10] INFO root fetch - processPackages [tradingeconomics]: executing diffoscope
+[2023-06-28 10:44:10] INFO root fetch - processPackages [tradingeconomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradingeconomics-4.2.3.tar.gz tmp/tradingeconomics-4.2.4.tar.gz --markdown 20230628/t/tradingeconomics/4.2.3-4.2.4/diff.md --exclude *.pyd
+[2023-06-28 10:44:10] INFO root fetch - processPackages [space-stream]: executing diffoscope
+[2023-06-28 10:44:10] INFO root fetch - processPackages [space-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_stream-0.1.7.1-py3-none-any.whl.zip tmp/space_stream-0.1.7.2-py3-none-any.whl.zip --markdown 20230628/s/space-stream/0.1.7.1-0.1.7.2/diff.md --exclude *.pyd
+[2023-06-28 10:44:10] INFO root fetch - processPackages [inmanta-dev-dependencies]: Downloading https://files.pythonhosted.org/packages/6e/d6/4b81b4f539003cb2b65af1a32f5a66e6362d70ee9e7920c96cd4a868671f/inmanta-dev-dependencies-2.9.0.tar.gz
+[2023-06-28 10:44:10] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2023-06-28 10:44:10] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-semantic-release-8.0.0rc1.tar.gz tmp/python-semantic-release-8.0.0rc2.tar.gz --markdown 20230628/p/python-semantic-release/8.0.0rc1-8.0.0rc2/diff.md --exclude *.pyd
+[2023-06-28 10:44:10] INFO root fetch - processPackages [inmanta-dev-dependencies]: executing diffoscope
+[2023-06-28 10:44:10] INFO root fetch - processPackages [inmanta-dev-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta-dev-dependencies-2.8.0.tar.gz tmp/inmanta-dev-dependencies-2.9.0.tar.gz --markdown 20230628/i/inmanta-dev-dependencies/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-28 10:44:11] INFO root fetch - processPackages [OpihiExarata]: Downloading https://files.pythonhosted.org/packages/ca/20/19583133c939072e1b2e1e47381047a22e062a842928635a1cf607b9c31f/OpihiExarata-2023.6.8.tar.gz
+[2023-06-28 10:44:11] INFO root fetch - processPackages [OpihiExarata]: executing diffoscope
+[2023-06-28 10:44:11] INFO root fetch - processPackages [OpihiExarata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpihiExarata-2023.6.7.tar.gz tmp/OpihiExarata-2023.6.8.tar.gz --markdown 20230628/O/OpihiExarata/2023.6.7-2023.6.8/diff.md --exclude *.pyd
+[2023-06-28 10:44:12] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/sc_cc_ng_sdk_python-0.1.4.tar.gz]
+[2023-06-28 10:44:12] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/sc_cc_ng_sdk_python-0.1.5.tar.gz]
+[2023-06-28 10:44:12] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Start processing: nnanoncomp
+[2023-06-28 10:44:12] INFO root fetch - main [MainThread]: End processing [sc-cc-ng-sdk-python]: success
+[2023-06-28 10:44:12] INFO root fetch - processPackages [nnanoncomp]: New version: [0.5] Old Version: [0.4]
+[2023-06-28 10:44:12] INFO root fetch - processPackages [nnanoncomp]: Downloading https://files.pythonhosted.org/packages/17/e7/d0286f4b8a725aa656b8428f9b13b6dc73f79fa8d155e65e158b758494a6/nnanoncomp-0.4-py3-none-any.whl
+[2023-06-28 10:44:12] INFO root fetch - processPackages [pywinstyles]: Remove: archive file [/home/abi/fetcher/tmp/pywinstyles-1.0.tar.gz]
+[2023-06-28 10:44:12] INFO root fetch - processPackages [pywinstyles]: Remove: archive file [/home/abi/fetcher/tmp/pywinstyles-1.1.tar.gz]
+[2023-06-28 10:44:12] INFO root fetch - processPackages [pywinstyles]: Start processing: typedspark
+[2023-06-28 10:44:12] INFO root fetch - main [MainThread]: End processing [pywinstyles]: success
+[2023-06-28 10:44:12] INFO root fetch - processPackages [typedspark]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 10:44:12] INFO root fetch - processPackages [nnanoncomp]: Downloading https://files.pythonhosted.org/packages/fb/87/44de06bfee109c663a935c41f0809c434da1f35d308483a748cb44f1b857/nnanoncomp-0.5-py3-none-any.whl
+[2023-06-28 10:44:12] INFO root fetch - processPackages [typedspark]: Downloading https://files.pythonhosted.org/packages/c8/7a/5b7af5fea6a6c69d54446f8601e38d6e127d5160464f50fc2fb9f6783a82/typedspark-1.0.8.tar.gz
+[2023-06-28 10:44:12] INFO root fetch - processPackages [inmanta-dev-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-dev-dependencies-2.8.0.tar.gz]
+[2023-06-28 10:44:12] INFO root fetch - processPackages [inmanta-dev-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-dev-dependencies-2.9.0.tar.gz]
+[2023-06-28 10:44:12] INFO root fetch - processPackages [inmanta-dev-dependencies]: Start processing: ggshield
+[2023-06-28 10:44:12] INFO root fetch - main [MainThread]: End processing [inmanta-dev-dependencies]: success
+[2023-06-28 10:44:12] INFO root fetch - processPackages [space-stream]: Remove: archive file [/home/abi/fetcher/tmp/space_stream-0.1.7.1-py3-none-any.whl.zip]
+[2023-06-28 10:44:12] INFO root fetch - processPackages [space-stream]: Remove: archive file [/home/abi/fetcher/tmp/space_stream-0.1.7.2-py3-none-any.whl.zip]
+[2023-06-28 10:44:12] INFO root fetch - main [MainThread]: End processing [space-stream]: success
+[2023-06-28 10:44:12] INFO root fetch - processPackages [ggshield]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-28 10:44:12] INFO root fetch - processPackages [nnanoncomp]: executing diffoscope
+[2023-06-28 10:44:12] INFO root fetch - processPackages [nnanoncomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnanoncomp-0.4-py3-none-any.whl.zip tmp/nnanoncomp-0.5-py3-none-any.whl.zip --markdown 20230628/n/nnanoncomp/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-28 10:44:12] INFO root fetch - processPackages [ggshield]: Downloading https://files.pythonhosted.org/packages/34/29/b6d09e3b410ddca0a4ae6b08203f751ff105ec3b48a59b3866f1ae0b16a4/ggshield-1.8.2.tar.gz
+[2023-06-28 10:44:12] INFO root fetch - processPackages [typedspark]: Downloading https://files.pythonhosted.org/packages/f9/d8/51db73310caf1dd33e354a0bd438352fd44612a51dac6e8440593bc7ab02/typedspark-1.0.9.tar.gz
+[2023-06-28 10:44:13] INFO root fetch - processPackages [ggshield]: Downloading https://files.pythonhosted.org/packages/81/85/79e39491697e19ecd74d5565f6f95759646b1aca4c3e7c2201addb976587/ggshield-1.9.0.tar.gz
+[2023-06-28 10:44:13] INFO root fetch - processPackages [typedspark]: executing diffoscope
+[2023-06-28 10:44:13] INFO root fetch - processPackages [typedspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedspark-1.0.8.tar.gz tmp/typedspark-1.0.9.tar.gz --markdown 20230628/t/typedspark/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 10:44:13] INFO root fetch - processPackages [ggshield]: executing diffoscope
+[2023-06-28 10:44:13] INFO root fetch - processPackages [ggshield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggshield-1.8.2.tar.gz tmp/ggshield-1.9.0.tar.gz --markdown 20230628/g/ggshield/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-06-28 10:44:13] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0rc1.tar.gz]
+[2023-06-28 10:44:13] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0rc2.tar.gz]
+[2023-06-28 10:44:13] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2023-06-28 10:44:13] INFO root fetch - processPackages [tradingeconomics]: Remove: archive file [/home/abi/fetcher/tmp/tradingeconomics-4.2.3.tar.gz]
+[2023-06-28 10:44:13] INFO root fetch - processPackages [tradingeconomics]: Remove: archive file [/home/abi/fetcher/tmp/tradingeconomics-4.2.4.tar.gz]
+[2023-06-28 10:44:13] INFO root fetch - main [MainThread]: End processing [tradingeconomics]: success
+[2023-06-28 10:44:13] INFO root fetch - processPackages [lime-stable]: Remove: archive file [/home/abi/fetcher/tmp/lime-stable-0.9.8.tar.gz]
+[2023-06-28 10:44:13] INFO root fetch - processPackages [lime-stable]: Remove: archive file [/home/abi/fetcher/tmp/lime-stable-0.9.9.tar.gz]
+[2023-06-28 10:44:13] INFO root fetch - main [MainThread]: End processing [lime-stable]: success
+[2023-06-28 10:44:13] INFO root fetch - processPackages [nnanoncomp]: Remove: archive file [/home/abi/fetcher/tmp/nnanoncomp-0.4-py3-none-any.whl.zip]
+[2023-06-28 10:44:13] INFO root fetch - processPackages [nnanoncomp]: Remove: archive file [/home/abi/fetcher/tmp/nnanoncomp-0.5-py3-none-any.whl.zip]
+[2023-06-28 10:44:13] INFO root fetch - main [MainThread]: End processing [nnanoncomp]: success
+[2023-06-28 10:44:14] INFO root fetch - processPackages [SESMG]: Remove: archive file [/home/abi/fetcher/tmp/SESMG-0.5.0.tar.gz]
+[2023-06-28 10:44:14] INFO root fetch - processPackages [SESMG]: Remove: archive file [/home/abi/fetcher/tmp/SESMG-0.5.0rc1.tar.gz]
+[2023-06-28 10:44:14] INFO root fetch - main [MainThread]: End processing [SESMG]: success
+[2023-06-28 10:44:14] INFO root fetch - processPackages [typedspark]: Remove: archive file [/home/abi/fetcher/tmp/typedspark-1.0.8.tar.gz]
+[2023-06-28 10:44:14] INFO root fetch - processPackages [typedspark]: Remove: archive file [/home/abi/fetcher/tmp/typedspark-1.0.9.tar.gz]
+[2023-06-28 10:44:14] INFO root fetch - main [MainThread]: End processing [typedspark]: success
+[2023-06-28 10:44:14] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230626-py2.py3-none-any.whl.zip]
+[2023-06-28 10:44:14] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230627-py2.py3-none-any.whl.zip]
+[2023-06-28 10:44:14] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-28 10:44:14] INFO root fetch - processPackages [ggshield]: Remove: archive file [/home/abi/fetcher/tmp/ggshield-1.8.2.tar.gz]
+[2023-06-28 10:44:14] INFO root fetch - processPackages [ggshield]: Remove: archive file [/home/abi/fetcher/tmp/ggshield-1.9.0.tar.gz]
+[2023-06-28 10:44:14] INFO root fetch - main [MainThread]: End processing [ggshield]: success
+[2023-06-28 10:44:16] INFO root fetch - processPackages [OpihiExarata]: Remove: archive file [/home/abi/fetcher/tmp/OpihiExarata-2023.6.7.tar.gz]
+[2023-06-28 10:44:16] INFO root fetch - processPackages [OpihiExarata]: Remove: archive file [/home/abi/fetcher/tmp/OpihiExarata-2023.6.8.tar.gz]
+[2023-06-28 10:44:16] INFO root fetch - main [MainThread]: End processing [OpihiExarata]: success
+[2023-06-28 10:44:16] INFO root fetch - main [MainThread]: Store serial: [18676436]
