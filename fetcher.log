@@ -5776,3 +5776,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 03:25:41] INFO root fetch - processPackages [json-lineage]: Remove: archive file [/home/abi/fetcher/tmp/json-lineage-0.2.0.tar.gz]
 [2023-06-28 03:25:41] INFO root fetch - main [MainThread]: End processing [json-lineage]: success
 [2023-06-28 03:25:41] INFO root fetch - main [MainThread]: Store serial: [18671330]
+[2023-06-28 03:30:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18671330]
+[2023-06-28 03:31:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-28 03:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wisedata
+[2023-06-28 03:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-hugo-deploy
+[2023-06-28 03:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydtk
+[2023-06-28 03:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datasette-upload-csvs
+[2023-06-28 03:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sops-secrets
+[2023-06-28 03:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyagrum-nightly
+[2023-06-28 03:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-roborock
+[2023-06-28 03:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: determined
+[2023-06-28 03:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: model-hub
+[2023-06-28 03:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tui-typer-tutor
+[2023-06-28 03:31:03] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-06-28 03:31:03] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-28 03:31:03] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/bc/a5/7bd08437421c34e92b81b72e3d3eaf9ab00bc7dcca9dd03a427476c13e59/python_roborock-0.9.0.tar.gz
+[2023-06-28 03:31:03] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-06-28 03:31:03] INFO root fetch - processPackages [datasette-upload-csvs]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-28 03:31:03] INFO root fetch - processPackages [wisedata]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-28 03:31:03] WARNING root fetch - processPackages [tui-typer-tutor]: Skipping, unable to determine old version
+[2023-06-28 03:31:03] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-28 03:31:03] INFO root fetch - main [MainThread]: End processing [tui-typer-tutor] error
+[2023-06-28 03:31:03] INFO root fetch - processPackages [pydtk]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-28 03:31:03] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-28 03:31:03] INFO root fetch - processPackages [model-hub]: New version: [0.23.2rc0] Old Version: [0.23.1rc2]
+[2023-06-28 03:31:03] INFO root fetch - processPackages [determined]: New version: [0.23.2rc0] Old Version: [0.23.1rc2]
+[2023-06-28 03:31:03] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-06-28 03:31:03] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/40/9b/30bb82604def56c9a66db0578b68938e38bd30a9c931295d66012a137825/python_roborock-0.9.0rc0.tar.gz
+[2023-06-28 03:31:04] INFO root fetch - processPackages [datasette-upload-csvs]: Downloading https://files.pythonhosted.org/packages/fb/0a/9232fcd9b1da99c47c776760fd67e4ee621eb01930645a79f00d45d16e30/datasette-upload-csvs-0.8.2.tar.gz
+[2023-06-28 03:31:04] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/f4/16/528f14b7196eb7a5e0b79ae0dca17055ab911442aa00dc567a6596d56178/model_hub-0.23.1rc2-py3-none-any.whl
+[2023-06-28 03:31:04] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-28 03:31:04] INFO root fetch - processPackages [wisedata]: Downloading https://files.pythonhosted.org/packages/e2/e9/c834b7c5bfa4a73a7b0ee828bb12709fb1926674863e1aed3ee653ac14ed/wisedata-1.0.5.tar.gz
+[2023-06-28 03:31:04] INFO root fetch - processPackages [pydtk]: Downloading https://files.pythonhosted.org/packages/98/49/948e53787a75276aa9eaa52056a2283f5d92ba714d2a0648d18c5b601d34/pydtk-0.3.0.tar.gz
+[2023-06-28 03:31:04] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/d7/e7/5c675dc6e3d8fc3727d8899642b3066f82bdf3e4d22e91a0c3e61b899138/determined-0.23.1rc2-py3-none-any.whl
+[2023-06-28 03:31:04] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-06-28 03:31:04] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230628/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-06-28 03:31:04] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-28 03:31:04] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-06-28 03:31:04] INFO root fetch - processPackages [datasette-upload-csvs]: Downloading https://files.pythonhosted.org/packages/01/83/81a9295525e649f9ba0fcba38c166e6351c22702a2d77354cde42c081849/datasette-upload-csvs-0.8.3.tar.gz
+[2023-06-28 03:31:04] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-28 03:31:04] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230628/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-28 03:31:04] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/2d/3c/fbb7886817b2c016a4b18a77d1e25f078ea1dcb0fe670d6f387c205592cb/model_hub-0.23.2rc0-py3-none-any.whl
+[2023-06-28 03:31:04] INFO root fetch - processPackages [wisedata]: Downloading https://files.pythonhosted.org/packages/75/85/81c6287e74416455f6fa70948e45be3c77a4b65e3e910819fcfdcf4eb3a4/wisedata-1.0.6.tar.gz
+[2023-06-28 03:31:04] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/24/f6/dfcd6ed171ddfd7ac27164a5ec270dfd958910480bad283ad0e96497787a/determined-0.23.2rc0-py3-none-any.whl
+[2023-06-28 03:31:04] INFO root fetch - processPackages [datasette-upload-csvs]: executing diffoscope
+[2023-06-28 03:31:04] INFO root fetch - processPackages [datasette-upload-csvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette-upload-csvs-0.8.2.tar.gz tmp/datasette-upload-csvs-0.8.3.tar.gz --markdown 20230628/d/datasette-upload-csvs/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-28 03:31:04] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-06-28 03:31:04] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.23.1rc2-py3-none-any.whl.zip tmp/model_hub-0.23.2rc0-py3-none-any.whl.zip --markdown 20230628/m/model-hub/0.23.1rc2-0.23.2rc0/diff.md --exclude *.pyd
+[2023-06-28 03:31:04] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-06-28 03:31:04] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230628/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-06-28 03:31:04] INFO root fetch - processPackages [pydtk]: Downloading https://files.pythonhosted.org/packages/34/da/4193b839ce60435ddc182996c2ecdf509c8d37baca48d8fb55eed46fc25f/pydtk-0.3.1.tar.gz
+[2023-06-28 03:31:04] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-06-28 03:31:04] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.23.1rc2-py3-none-any.whl.zip tmp/determined-0.23.2rc0-py3-none-any.whl.zip --markdown 20230628/d/determined/0.23.1rc2-0.23.2rc0/diff.md --exclude *.pyd
+[2023-06-28 03:31:04] INFO root fetch - processPackages [wisedata]: executing diffoscope
+[2023-06-28 03:31:04] INFO root fetch - processPackages [wisedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wisedata-1.0.5.tar.gz tmp/wisedata-1.0.6.tar.gz --markdown 20230628/w/wisedata/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-28 03:31:04] INFO root fetch - processPackages [pydtk]: executing diffoscope
+[2023-06-28 03:31:04] INFO root fetch - processPackages [pydtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydtk-0.3.0.tar.gz tmp/pydtk-0.3.1.tar.gz --markdown 20230628/p/pydtk/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-28 03:31:05] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-28 03:31:05] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-28 03:31:05] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230628/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 03:31:05] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0.tar.gz]
+[2023-06-28 03:31:05] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0rc0.tar.gz]
+[2023-06-28 03:31:05] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-06-28 03:31:05] INFO root fetch - processPackages [datasette-upload-csvs]: Remove: archive file [/home/abi/fetcher/tmp/datasette-upload-csvs-0.8.2.tar.gz]
+[2023-06-28 03:31:05] INFO root fetch - processPackages [datasette-upload-csvs]: Remove: archive file [/home/abi/fetcher/tmp/datasette-upload-csvs-0.8.3.tar.gz]
+[2023-06-28 03:31:05] INFO root fetch - main [MainThread]: End processing [datasette-upload-csvs]: success
+[2023-06-28 03:31:05] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.1rc2-py3-none-any.whl.zip]
+[2023-06-28 03:31:05] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.2rc0-py3-none-any.whl.zip]
+[2023-06-28 03:31:05] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-06-28 03:31:05] INFO root fetch - processPackages [wisedata]: Remove: archive file [/home/abi/fetcher/tmp/wisedata-1.0.5.tar.gz]
+[2023-06-28 03:31:05] INFO root fetch - processPackages [wisedata]: Remove: archive file [/home/abi/fetcher/tmp/wisedata-1.0.6.tar.gz]
+[2023-06-28 03:31:05] INFO root fetch - main [MainThread]: End processing [wisedata]: success
+[2023-06-28 03:31:06] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-28 03:31:06] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-28 03:31:06] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-28 03:31:07] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-28 03:31:07] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-28 03:31:07] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-28 03:31:07] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-28 03:31:07] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-28 03:31:07] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-06-28 03:31:08] INFO root fetch - processPackages [pydtk]: Remove: archive file [/home/abi/fetcher/tmp/pydtk-0.3.0.tar.gz]
+[2023-06-28 03:31:08] INFO root fetch - processPackages [pydtk]: Remove: archive file [/home/abi/fetcher/tmp/pydtk-0.3.1.tar.gz]
+[2023-06-28 03:31:08] INFO root fetch - main [MainThread]: End processing [pydtk]: success
+[2023-06-28 03:31:08] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.1rc2-py3-none-any.whl.zip]
+[2023-06-28 03:31:08] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.2rc0-py3-none-any.whl.zip]
+[2023-06-28 03:31:08] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-06-28 03:31:08] INFO root fetch - main [MainThread]: Store serial: [18671379]
