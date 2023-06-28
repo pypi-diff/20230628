@@ -16912,3 +16912,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 09:16:23] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-06-28 09:16:23] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-06-28 09:16:23] INFO root fetch - main [MainThread]: Store serial: [18675527]
+[2023-06-28 09:21:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18675527]
+[2023-06-28 09:21:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-28 09:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2023-06-28 09:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jsonpython
+[2023-06-28 09:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-sonarqube-api
+[2023-06-28 09:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2023-06-28 09:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acryl-datahub-airflow-plugin
+[2023-06-28 09:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acryl-datahub
+[2023-06-28 09:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-cloud-storages
+[2023-06-28 09:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lazynovel
+[2023-06-28 09:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qwak-core
+[2023-06-28 09:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: EasyDeL
+[2023-06-28 09:21:33] INFO root fetch - processPackages [kfish]: New version: [99.0.202306280718] Old Version: [99.0.202306272004]
+[2023-06-28 09:21:33] INFO root fetch - processPackages [jsonpython]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-28 09:21:33] INFO root fetch - processPackages [EasyDeL]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-28 09:21:33] INFO root fetch - processPackages [django-cloud-storages]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-28 09:21:33] INFO root fetch - processPackages [python-sonarqube-api]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-28 09:21:33] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-06-28 09:21:33] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-28 09:21:33] INFO root fetch - processPackages [lazynovel]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-28 09:21:33] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-06-28 09:21:33] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-06-28 09:21:33] INFO root fetch - processPackages [kcli]: New version: [99.0.202306280716] Old Version: [99.0.202306272002]
+[2023-06-28 09:21:33] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-06-28 09:21:33] INFO root fetch - processPackages [python-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/6d/59/fd46037d7360d471359c94d381463d2b0d81c1dbb7d5320c11c4e82f8015/python-sonarqube-api-2.0.2.tar.gz
+[2023-06-28 09:21:33] INFO root fetch - processPackages [lazynovel]: Downloading https://files.pythonhosted.org/packages/43/6d/3a93efcd5d3a015524ef874e9ca7ace1bfaf6226ff44c399f39bcc309f15/lazynovel-0.1.4.tar.gz
+[2023-06-28 09:21:33] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/e0/87/23d1efaf181e2a34f2578083857e33f63dc05a1fb93e738633c3c2a1ebca/django_cloud_storages-0.1.3.tar.gz
+[2023-06-28 09:21:33] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c7/83/30361cf2e0d0044d1c36bdd983d656676db3f77cfd272b4898ac2581bd0f/kfish-99.0.202306272004-py3-none-any.whl
+[2023-06-28 09:21:33] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-06-28 09:21:33] INFO root fetch - processPackages [jsonpython]: Downloading https://files.pythonhosted.org/packages/68/59/835e341f57548226b2e571ed808a3acdd976696099e3cf02439625c9b8ee/jsonpython-0.0.7.tar.gz
+[2023-06-28 09:21:33] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/70/9a/aaaaf3017b2212946509b1ab16abd9788e8f9c9d972dce79fb8820d7ce19/EasyDeL-0.0.4.tar.gz
+[2023-06-28 09:21:33] INFO root fetch - processPackages [python-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/57/d2/d078a79968aafb83d3ee88bb888bfe61c44d10aef680fb93cff4bde57d01/python-sonarqube-api-2.0.3.tar.gz
+[2023-06-28 09:21:33] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-06-28 09:21:33] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/78/c2/3ed76b12e4609b71877495080f55f0faf60b77c3810ddfc1397276a1825a/kcli-99.0.202306272002-py3-none-any.whl
+[2023-06-28 09:21:33] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-06-28 09:21:33] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-06-28 09:21:33] INFO root fetch - processPackages [lazynovel]: Downloading https://files.pythonhosted.org/packages/5b/76/fdd0d22b17a1b75af8fca9dd9d354c8206a429cfae597c8850b5d69a2aaa/lazynovel-0.1.5.tar.gz
+[2023-06-28 09:21:33] INFO root fetch - processPackages [python-sonarqube-api]: executing diffoscope
+[2023-06-28 09:21:33] INFO root fetch - processPackages [python-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sonarqube-api-2.0.2.tar.gz tmp/python-sonarqube-api-2.0.3.tar.gz --markdown 20230628/p/python-sonarqube-api/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-28 09:21:33] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/38/c6/f497b8b86b2323829a760f4b65a0cb01a92fbdef4cbf223429570ab831db/kfish-99.0.202306280718-py3-none-any.whl
+[2023-06-28 09:21:33] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/fe/5d/46cda6469fd32cafa27d4da12279162a99b7ec7070eaaec71eae1db6a4ea/django_cloud_storages-0.1.4.tar.gz
+[2023-06-28 09:21:33] INFO root fetch - processPackages [jsonpython]: Downloading https://files.pythonhosted.org/packages/4d/f7/ca5a5945191415a1846983bdb10274b48e104e2162f00f1e370f669afafd/jsonpython-0.0.8.tar.gz
+[2023-06-28 09:21:33] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-06-28 09:21:33] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230628/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 09:21:33] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-06-28 09:21:33] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230628/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-06-28 09:21:33] INFO root fetch - processPackages [lazynovel]: executing diffoscope
+[2023-06-28 09:21:33] INFO root fetch - processPackages [lazynovel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazynovel-0.1.4.tar.gz tmp/lazynovel-0.1.5.tar.gz --markdown 20230628/l/lazynovel/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-28 09:21:33] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-06-28 09:21:33] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230628/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-06-28 09:21:33] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-28 09:21:33] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306272004-py3-none-any.whl.zip tmp/kfish-99.0.202306280718-py3-none-any.whl.zip --markdown 20230628/k/kfish/99.0.202306272004-99.0.202306280718/diff.md --exclude *.pyd
+[2023-06-28 09:21:33] INFO root fetch - processPackages [django-cloud-storages]: executing diffoscope
+[2023-06-28 09:21:33] INFO root fetch - processPackages [django-cloud-storages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloud_storages-0.1.3.tar.gz tmp/django_cloud_storages-0.1.4.tar.gz --markdown 20230628/d/django-cloud-storages/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-28 09:21:33] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/e3/33/534c759dbf3100c16e81fbf4b6ea0df7f1a3c4deeb6c8e7585eacd8b4c6b/EasyDeL-0.0.5.tar.gz
+[2023-06-28 09:21:33] INFO root fetch - processPackages [jsonpython]: executing diffoscope
+[2023-06-28 09:21:33] INFO root fetch - processPackages [jsonpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonpython-0.0.7.tar.gz tmp/jsonpython-0.0.8.tar.gz --markdown 20230628/j/jsonpython/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-28 09:21:34] INFO root fetch - processPackages [EasyDeL]: executing diffoscope
+[2023-06-28 09:21:34] INFO root fetch - processPackages [EasyDeL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyDeL-0.0.4.tar.gz tmp/EasyDeL-0.0.5.tar.gz --markdown 20230628/E/EasyDeL/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-28 09:21:34] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/05/5f/e1f39d5d8c42c23eec103c05999f1da3b4930bc4c14ee4b94ac05b4e8b35/kcli-99.0.202306280716-py3-none-any.whl
+[2023-06-28 09:21:34] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-28 09:21:34] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306272002-py3-none-any.whl.zip tmp/kcli-99.0.202306280716-py3-none-any.whl.zip --markdown 20230628/k/kcli/99.0.202306272002-99.0.202306280716/diff.md --exclude *.pyd
+[2023-06-28 09:21:35] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306272004-py3-none-any.whl.zip]
+[2023-06-28 09:21:35] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306280718-py3-none-any.whl.zip]
+[2023-06-28 09:21:35] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-28 09:21:35] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-06-28 09:21:35] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-06-28 09:21:35] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-06-28 09:21:35] INFO root fetch - processPackages [jsonpython]: Remove: archive file [/home/abi/fetcher/tmp/jsonpython-0.0.7.tar.gz]
+[2023-06-28 09:21:35] INFO root fetch - processPackages [jsonpython]: Remove: archive file [/home/abi/fetcher/tmp/jsonpython-0.0.8.tar.gz]
+[2023-06-28 09:21:35] INFO root fetch - main [MainThread]: End processing [jsonpython]: success
+[2023-06-28 09:21:35] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-0.1.3.tar.gz]
+[2023-06-28 09:21:35] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-0.1.4.tar.gz]
+[2023-06-28 09:21:35] INFO root fetch - main [MainThread]: End processing [django-cloud-storages]: success
+[2023-06-28 09:21:35] INFO root fetch - processPackages [python-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/python-sonarqube-api-2.0.2.tar.gz]
+[2023-06-28 09:21:35] INFO root fetch - processPackages [python-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/python-sonarqube-api-2.0.3.tar.gz]
+[2023-06-28 09:21:35] INFO root fetch - main [MainThread]: End processing [python-sonarqube-api]: success
+[2023-06-28 09:21:36] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.4.tar.gz]
+[2023-06-28 09:21:36] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.5.tar.gz]
+[2023-06-28 09:21:36] INFO root fetch - main [MainThread]: End processing [EasyDeL]: success
+[2023-06-28 09:21:39] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-06-28 09:21:39] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-06-28 09:21:39] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-06-28 09:21:43] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306272002-py3-none-any.whl.zip]
+[2023-06-28 09:21:43] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306280716-py3-none-any.whl.zip]
+[2023-06-28 09:21:43] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-28 09:21:43] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-06-28 09:21:43] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-06-28 09:21:43] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-06-28 09:22:26] INFO root fetch - processPackages [lazynovel]: Remove: archive file [/home/abi/fetcher/tmp/lazynovel-0.1.4.tar.gz]
+[2023-06-28 09:22:26] INFO root fetch - processPackages [lazynovel]: Remove: archive file [/home/abi/fetcher/tmp/lazynovel-0.1.5.tar.gz]
+[2023-06-28 09:22:26] INFO root fetch - main [MainThread]: End processing [lazynovel]: success
+[2023-06-28 09:22:26] INFO root fetch - main [MainThread]: Store serial: [18675566]
