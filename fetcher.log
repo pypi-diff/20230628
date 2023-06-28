@@ -18543,3 +18543,266 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 10:17:52] INFO root fetch - processPackages [pharmpy-core]: Remove: archive file [/home/abi/fetcher/tmp/pharmpy-core-0.97.0.tar.gz]
 [2023-06-28 10:17:52] INFO root fetch - main [MainThread]: End processing [pharmpy-core]: success
 [2023-06-28 10:17:52] INFO root fetch - main [MainThread]: Store serial: [18676107]
+[2023-06-28 10:22:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18676107]
+[2023-06-28 10:23:02] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-28 10:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alnoda-wrk
+[2023-06-28 10:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lightning-template
+[2023-06-28 10:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai2-kit
+[2023-06-28 10:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yplib
+[2023-06-28 10:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bkapi-plugins-py
+[2023-06-28 10:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cellseg-gsontools
+[2023-06-28 10:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-sonarqube-api
+[2023-06-28 10:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kuflow-rest
+[2023-06-28 10:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kuflow-robotframework
+[2023-06-28 10:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kuflow-temporal-common
+[2023-06-28 10:23:02] INFO root fetch - processPackages [yplib]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-28 10:23:02] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.628] Old Version: [0.627]
+[2023-06-28 10:23:02] INFO root fetch - processPackages [alnoda-wrk]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-28 10:23:02] INFO root fetch - processPackages [lightning-template]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 10:23:02] WARNING root fetch - processPackages [cellseg-gsontools]: Skipping, unable to determine old version
+[2023-06-28 10:23:02] INFO root fetch - processPackages [cellseg-gsontools]: Start processing: kuflow-temporal-activity-kuflow
+[2023-06-28 10:23:02] INFO root fetch - main [MainThread]: End processing [cellseg-gsontools] error
+[2023-06-28 10:23:02] INFO root fetch - processPackages [python-sonarqube-api]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-28 10:23:02] INFO root fetch - processPackages [kuflow-robotframework]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-28 10:23:02] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-28 10:23:02] INFO root fetch - processPackages [kuflow-rest]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-28 10:23:02] INFO root fetch - processPackages [kuflow-temporal-common]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-28 10:23:02] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-28 10:23:02] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/51/ad/70f11e14121071bdc5b87ed62f822f8cfd2395917a17651fd033f2406490/yplib-1.9.0.tar.gz
+[2023-06-28 10:23:02] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/c4/24/745a7fba435b1ae0276bcaa3bffb5d24f19cbd84e5e66897d6ca0c3767f5/bkapi-plugins-py-0.627.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/bb/23/283f51826390193fc77c120c748d3599480b234089dc9eea07057d06ac6a/lightning-template-1.0.8.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [python-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/6d/59/fd46037d7360d471359c94d381463d2b0d81c1dbb7d5320c11c4e82f8015/python-sonarqube-api-2.0.2.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/d6/40/f0f634e148b80256c8538a8d09a19cac048537f7ab9443d8cffef9216c6d/ai2_kit-0.3.7.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/69/c1/589240c58ae240f749f41cf53411de746dac616ac0cbf00925dd9fd79e5f/alnoda_wrk-0.4.8.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [kuflow-robotframework]: Downloading https://files.pythonhosted.org/packages/f6/a4/772ecd4924bcdad1976b4e0c47cd891348d616b5e7feb3f0c4b4b2e00c3d/kuflow_robotframework-0.7.1.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Downloading https://files.pythonhosted.org/packages/64/15/a8d54c2d0bd121a6fc8176adfada70b3bf3977d536d399710d19eabac371/kuflow_temporal_activity_kuflow-0.7.1.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [kuflow-rest]: Downloading https://files.pythonhosted.org/packages/88/a7/d3be1985fbb92ae5e52fdda806c9b790b249c92bd018f46acc6ff18da0d4/kuflow_rest-0.7.1.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/6a/fd/2a2ad6a93d06eb3651a78b23c1f080d2ff30401a455d6af8e36fa814e3ed/kuflow_temporal_common-0.7.1.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/3c/15/188896748e785a66931b38a2f6e0ae23e7a6c736948e3b34b74d3220587a/lightning-template-1.0.9.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [python-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/57/d2/d078a79968aafb83d3ee88bb888bfe61c44d10aef680fb93cff4bde57d01/python-sonarqube-api-2.0.3.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/92/9d/e488394b4eeef45fe5c8eeaa0e27253b8d49cb611c8955c96a08d4826dd7/bkapi-plugins-py-0.628.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/7d/b1/23836a7faba6457fcafacf5df209b343f11bec4b08702c8201ea045562f6/yplib-1.9.1.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-06-28 10:23:03] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.0.8.tar.gz tmp/lightning-template-1.0.9.tar.gz --markdown 20230628/l/lightning-template/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 10:23:03] INFO root fetch - processPackages [python-sonarqube-api]: executing diffoscope
+[2023-06-28 10:23:03] INFO root fetch - processPackages [python-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sonarqube-api-2.0.2.tar.gz tmp/python-sonarqube-api-2.0.3.tar.gz --markdown 20230628/p/python-sonarqube-api/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-28 10:23:03] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [kuflow-robotframework]: Downloading https://files.pythonhosted.org/packages/bf/79/701491bf5dbb09bdf2fdc49216fe495c0e1207183926d78eb7caf335ce27/kuflow_robotframework-0.8.0.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [bkapi-plugins-py]: executing diffoscope
+[2023-06-28 10:23:03] INFO root fetch - processPackages [bkapi-plugins-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkapi-plugins-py-0.627.tar.gz tmp/bkapi-plugins-py-0.628.tar.gz --markdown 20230628/b/bkapi-plugins-py/0.627-0.628/diff.md --exclude *.pyd
+[2023-06-28 10:23:03] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Downloading https://files.pythonhosted.org/packages/54/1f/ef549820a11178d03f65d7db74e2156125a31fb8a207f987281fec7acbfe/kuflow_temporal_activity_kuflow-0.8.0.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-28 10:23:03] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.9.0.tar.gz tmp/yplib-1.9.1.tar.gz --markdown 20230628/y/yplib/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-28 10:23:03] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/31/aa/8d749b05c97d5fcea85e10098a84f5b5f264310d145ee86c92c93e83223a/alnoda_wrk-0.4.9.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/7d/51/43da29e394c56e30a7ceab7b1029a475f29547856e88a236045748d3c9a0/kuflow_temporal_common-0.8.0.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [kuflow-rest]: Downloading https://files.pythonhosted.org/packages/1e/6c/712e48e1c989841fce119327c78b8e6f5f4b0ad68320b2f8de583cce2788/kuflow_rest-0.8.0.tar.gz
+[2023-06-28 10:23:03] INFO root fetch - processPackages [kuflow-robotframework]: executing diffoscope
+[2023-06-28 10:23:03] INFO root fetch - processPackages [kuflow-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_robotframework-0.7.1.tar.gz tmp/kuflow_robotframework-0.8.0.tar.gz --markdown 20230628/k/kuflow-robotframework/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-28 10:23:03] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: executing diffoscope
+[2023-06-28 10:23:03] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_activity_kuflow-0.7.1.tar.gz tmp/kuflow_temporal_activity_kuflow-0.8.0.tar.gz --markdown 20230628/k/kuflow-temporal-activity-kuflow/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-28 10:23:03] INFO root fetch - processPackages [kuflow-temporal-common]: executing diffoscope
+[2023-06-28 10:23:03] INFO root fetch - processPackages [kuflow-temporal-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_common-0.7.1.tar.gz tmp/kuflow_temporal_common-0.8.0.tar.gz --markdown 20230628/k/kuflow-temporal-common/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-28 10:23:03] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-06-28 10:23:03] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.7.tar.gz tmp/ai2_kit-0.3.8.tar.gz --markdown 20230628/a/ai2-kit/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-28 10:23:03] INFO root fetch - processPackages [kuflow-rest]: executing diffoscope
+[2023-06-28 10:23:03] INFO root fetch - processPackages [kuflow-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_rest-0.7.1.tar.gz tmp/kuflow_rest-0.8.0.tar.gz --markdown 20230628/k/kuflow-rest/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-28 10:23:03] INFO root fetch - processPackages [alnoda-wrk]: executing diffoscope
+[2023-06-28 10:23:03] INFO root fetch - processPackages [alnoda-wrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alnoda_wrk-0.4.8.tar.gz tmp/alnoda_wrk-0.4.9.tar.gz --markdown 20230628/a/alnoda-wrk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-28 10:23:05] INFO root fetch - processPackages [kuflow-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_robotframework-0.7.1.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [kuflow-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_robotframework-0.8.0.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [kuflow-robotframework]: Start processing: kuflow-temporal-activity-robotframework
+[2023-06-28 10:23:05] INFO root fetch - main [MainThread]: End processing [kuflow-robotframework]: success
+[2023-06-28 10:23:05] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [kuflow-temporal-common]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_common-0.7.1.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [kuflow-temporal-common]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_common-0.8.0.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [kuflow-temporal-common]: Start processing: qwak-core
+[2023-06-28 10:23:05] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-common]: success
+[2023-06-28 10:23:05] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-06-28 10:23:05] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.7.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [ai2-kit]: Start processing: check-syncrepl-extended
+[2023-06-28 10:23:05] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-06-28 10:23:05] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Downloading https://files.pythonhosted.org/packages/a3/0d/68c6b58b51eb5ef70299afcd9a80c2e5ff0b80fd27302c678b6e2efc28aa/kuflow_temporal_activity_robotframework-0.7.1.tar.gz
+[2023-06-28 10:23:05] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.0.8.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.0.9.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [lightning-template]: Start processing: python-sonarqube-api
+[2023-06-28 10:23:05] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-06-28 10:23:05] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-06-28 10:23:05] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.9.0.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.9.1.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [yplib]: Start processing: noiseflow
+[2023-06-28 10:23:05] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-28 10:23:05] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_kuflow-0.7.1.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_kuflow-0.8.0.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Start processing: pysui
+[2023-06-28 10:23:05] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-activity-kuflow]: success
+[2023-06-28 10:23:05] INFO root fetch - processPackages [python-sonarqube-api]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-28 10:23:05] WARNING root fetch - processPackages [check-syncrepl-extended]: Skipping, unable to determine old version
+[2023-06-28 10:23:05] INFO root fetch - processPackages [check-syncrepl-extended]: Start processing: recon-lw
+[2023-06-28 10:23:05] INFO root fetch - main [MainThread]: End processing [check-syncrepl-extended] error
+[2023-06-28 10:23:05] INFO root fetch - processPackages [noiseflow]: New version: [0.0.1a7] Old Version: [0.0.1a5]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [pysui]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5398854918] Old Version: [2.0.0.dev5391252981]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/c9/92/ec5657b52f1be243832f0dc91c83ce7fe867b8245f6517dd2c8b51b206c5/noiseflow-0.0.1a5.tar.gz
+[2023-06-28 10:23:05] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-06-28 10:23:05] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230628/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 10:23:05] INFO root fetch - processPackages [python-sonarqube-api]: executing diffoscope
+[2023-06-28 10:23:05] INFO root fetch - processPackages [python-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sonarqube-api-2.0.2.tar.gz tmp/python-sonarqube-api-2.0.3.tar.gz --markdown 20230628/p/python-sonarqube-api/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-28 10:23:05] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/df/fd/8060c20cdf32607400911d43fc627a8bf48fe7571dc1992ab190b3274d7b/pysui-0.8.0-py3-none-any.whl
+[2023-06-28 10:23:05] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.627.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.628.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [bkapi-plugins-py]: Start processing: plutous-trade-crypto
+[2023-06-28 10:23:05] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py]: success
+[2023-06-28 10:23:05] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/f8/d6/79e27549ffdec8ec094ce379c8d9fc95f133269b88f9505e1f80c4a107d8/recon_lw-2.0.0.dev5391252981.tar.gz
+[2023-06-28 10:23:05] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Downloading https://files.pythonhosted.org/packages/86/62/8d055de5228b9a90140a8e5aca53547fa27b621cea7733feebbec25859e2/kuflow_temporal_activity_robotframework-0.8.0.tar.gz
+[2023-06-28 10:23:05] INFO root fetch - processPackages [alnoda-wrk]: Remove: archive file [/home/abi/fetcher/tmp/alnoda_wrk-0.4.8.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [alnoda-wrk]: Remove: archive file [/home/abi/fetcher/tmp/alnoda_wrk-0.4.9.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [alnoda-wrk]: Start processing: python-sonarqube-api
+[2023-06-28 10:23:05] INFO root fetch - main [MainThread]: End processing [alnoda-wrk]: success
+[2023-06-28 10:23:05] INFO root fetch - processPackages [python-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/python-sonarqube-api-2.0.2.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [python-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/python-sonarqube-api-2.0.3.tar.gz]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [python-sonarqube-api]: Start processing: quantizeml
+[2023-06-28 10:23:05] INFO root fetch - main [MainThread]: End processing [python-sonarqube-api]: success
+[2023-06-28 10:23:05] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-06-28 10:23:05] INFO root fetch - processPackages [python-sonarqube-api]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: executing diffoscope
+[2023-06-28 10:23:05] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_activity_robotframework-0.7.1.tar.gz tmp/kuflow_temporal_activity_robotframework-0.8.0.tar.gz --markdown 20230628/k/kuflow-temporal-activity-robotframework/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-28 10:23:05] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/d0/d5/e2108ab88d1f544ccab9554dcf4127133263950ae9c3e3912ab5bb6db12a/pysui-0.9.0-py3-none-any.whl
+[2023-06-28 10:23:05] INFO root fetch - processPackages [python-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/6d/59/fd46037d7360d471359c94d381463d2b0d81c1dbb7d5320c11c4e82f8015/python-sonarqube-api-2.0.2.tar.gz
+[2023-06-28 10:23:05] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/a6/fd/e562176a13e1b3af136df7a2e22962d6205720327de2de58eec87c237c97/noiseflow-0.0.1a7.tar.gz
+[2023-06-28 10:23:05] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-06-28 10:23:05] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/fa/e1/d9b798e570b35342fabed09c45edf458446683a03b32a3d714249ac83076/recon_lw-2.0.0.dev5398854918.tar.gz
+[2023-06-28 10:23:05] INFO root fetch - processPackages [quantizeml]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-06-28 10:23:05] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2023-06-28 10:23:05] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.8.0-py3-none-any.whl.zip tmp/pysui-0.9.0-py3-none-any.whl.zip --markdown 20230628/p/pysui/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 10:23:06] INFO root fetch - processPackages [python-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/57/d2/d078a79968aafb83d3ee88bb888bfe61c44d10aef680fb93cff4bde57d01/python-sonarqube-api-2.0.3.tar.gz
+[2023-06-28 10:23:06] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-06-28 10:23:06] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230628/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 10:23:06] INFO root fetch - processPackages [noiseflow]: executing diffoscope
+[2023-06-28 10:23:06] INFO root fetch - processPackages [noiseflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noiseflow-0.0.1a5.tar.gz tmp/noiseflow-0.0.1a7.tar.gz --markdown 20230628/n/noiseflow/0.0.1a5-0.0.1a7/diff.md --exclude *.pyd
+[2023-06-28 10:23:06] INFO root fetch - processPackages [python-sonarqube-api]: executing diffoscope
+[2023-06-28 10:23:06] INFO root fetch - processPackages [python-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sonarqube-api-2.0.2.tar.gz tmp/python-sonarqube-api-2.0.3.tar.gz --markdown 20230628/p/python-sonarqube-api/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-28 10:23:06] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-06-28 10:23:06] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5391252981.tar.gz tmp/recon_lw-2.0.0.dev5398854918.tar.gz --markdown 20230628/r/recon-lw/2.0.0.dev5391252981-2.0.0.dev5398854918/diff.md --exclude *.pyd
+[2023-06-28 10:23:06] INFO root fetch - processPackages [quantizeml]: Downloading https://files.pythonhosted.org/packages/bf/2e/3f23c2b62ed73bad3fdc7ebfcfb834fbb27f55f5c644370c2521cfa8ada5/quantizeml-0.4.2.tar.gz
+[2023-06-28 10:23:06] INFO root fetch - processPackages [quantizeml]: Downloading https://files.pythonhosted.org/packages/18/96/967a3d6e1b8b62d079572282a396251d7bc009595ce4cac538d3bb254340/quantizeml-0.5.0.tar.gz
+[2023-06-28 10:23:06] INFO root fetch - processPackages [quantizeml]: executing diffoscope
+[2023-06-28 10:23:06] INFO root fetch - processPackages [quantizeml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantizeml-0.4.2.tar.gz tmp/quantizeml-0.5.0.tar.gz --markdown 20230628/q/quantizeml/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-06-28 10:23:07] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_robotframework-0.7.1.tar.gz]
+[2023-06-28 10:23:07] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_robotframework-0.8.0.tar.gz]
+[2023-06-28 10:23:07] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-activity-robotframework]: success
+[2023-06-28 10:23:07] INFO root fetch - processPackages [python-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/python-sonarqube-api-2.0.2.tar.gz]
+[2023-06-28 10:23:07] INFO root fetch - processPackages [python-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/python-sonarqube-api-2.0.3.tar.gz]
+[2023-06-28 10:23:07] INFO root fetch - main [MainThread]: End processing [python-sonarqube-api]: success
+[2023-06-28 10:23:07] ERROR root fetch - processPackages [python-sonarqube-api]: Diffoscope failed: gzip: tmp/python-sonarqube-api-2.0.2.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 130, in comparisons
+    my_members = OrderedDict(self.get_adjusted_members_sizes())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/python-sonarqube-api-2.0.2.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-28 10:23:07] INFO root fetch - main [MainThread]: End processing [python-sonarqube-api] error
+[2023-06-28 10:23:07] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-06-28 10:23:07] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-06-28 10:23:07] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-06-28 10:23:07] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.1a5.tar.gz]
+[2023-06-28 10:23:07] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.1a7.tar.gz]
+[2023-06-28 10:23:07] INFO root fetch - main [MainThread]: End processing [noiseflow]: success
+[2023-06-28 10:23:07] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.8.0-py3-none-any.whl.zip]
+[2023-06-28 10:23:07] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.9.0-py3-none-any.whl.zip]
+[2023-06-28 10:23:07] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2023-06-28 10:23:07] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5391252981.tar.gz]
+[2023-06-28 10:23:07] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5398854918.tar.gz]
+[2023-06-28 10:23:07] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-06-28 10:23:08] INFO root fetch - processPackages [quantizeml]: Remove: archive file [/home/abi/fetcher/tmp/quantizeml-0.4.2.tar.gz]
+[2023-06-28 10:23:08] INFO root fetch - processPackages [quantizeml]: Remove: archive file [/home/abi/fetcher/tmp/quantizeml-0.5.0.tar.gz]
+[2023-06-28 10:23:08] INFO root fetch - main [MainThread]: End processing [quantizeml]: success
+[2023-06-28 10:23:08] INFO root fetch - processPackages [kuflow-rest]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_rest-0.7.1.tar.gz]
+[2023-06-28 10:23:08] INFO root fetch - processPackages [kuflow-rest]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_rest-0.8.0.tar.gz]
+[2023-06-28 10:23:08] INFO root fetch - main [MainThread]: End processing [kuflow-rest]: success
+[2023-06-28 10:23:15] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-06-28 10:23:15] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-06-28 10:23:15] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-06-28 10:23:15] INFO root fetch - main [MainThread]: Store serial: [18676169]
