@@ -17582,3 +17582,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 09:40:03] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.32-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-28 09:40:03] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
 [2023-06-28 09:40:03] INFO root fetch - main [MainThread]: Store serial: [18675770]
+[2023-06-28 09:45:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18675770]
+[2023-06-28 09:45:25] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-28 09:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ht2
+[2023-06-28 09:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqint
+[2023-06-28 09:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dahu12
+[2023-06-28 09:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdf-oralia
+[2023-06-28 09:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkTestCase
+[2023-06-28 09:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thipster
+[2023-06-28 09:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sample-csv
+[2023-06-28 09:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openmim
+[2023-06-28 09:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: automation_rest_server
+[2023-06-28 09:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyAEZ
+[2023-06-28 09:45:25] INFO root fetch - processPackages [pyqint]: New version: [0.9.7.2] Old Version: [0.9.7.1]
+[2023-06-28 09:45:25] INFO root fetch - processPackages [openmim]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-28 09:45:25] INFO root fetch - processPackages [ht2]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-28 09:45:25] INFO root fetch - processPackages [dahu12]: New version: [0.0.0.0.2.2] Old Version: [0.0.0.0.2.1]
+[2023-06-28 09:45:25] INFO root fetch - processPackages [mkTestCase]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-28 09:45:25] INFO root fetch - processPackages [pdf-oralia]: New version: [0.3.1] Old Version: [0.3]
+[2023-06-28 09:45:25] INFO root fetch - processPackages [thipster]: New version: [0.20.1] Old Version: [0.20.0]
+[2023-06-28 09:45:25] INFO root fetch - processPackages [automation_rest_server]: New version: [3.8.2] Old Version: [3.8.1]
+[2023-06-28 09:45:25] WARNING root fetch - processPackages [sample-csv]: Skipping, unable to determine old version
+[2023-06-28 09:45:25] INFO root fetch - main [MainThread]: End processing [sample-csv] error
+[2023-06-28 09:45:25] INFO root fetch - processPackages [mkTestCase]: Downloading https://files.pythonhosted.org/packages/60/20/6447704c07c2421ce19dbbbe0cd51d2b90b22621f36bba56be0776cc5ace/mkTestCase-0.0.2.tar.gz
+[2023-06-28 09:45:25] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/b8/9d/d1b6865e3ac1663cbb5cc24fe8e9083b62965dc2a81b98387373bd071444/automation_rest_server-3.8.1.tar.gz
+[2023-06-28 09:45:25] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/d3/a6/bc2dcf4de67018f9f5a73e7788df865b52e80ac852dc1e114f1e316b728c/thipster-0.20.0.tar.gz
+[2023-06-28 09:45:25] INFO root fetch - processPackages [PyAEZ]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-28 09:45:25] INFO root fetch - processPackages [ht2]: Downloading https://files.pythonhosted.org/packages/a6/96/41c3bf9ada5f834a010c96989327d5eb2e452987a133b7fb2f7bf9749e4b/ht2-0.2.3.tar.gz
+[2023-06-28 09:45:25] INFO root fetch - processPackages [openmim]: Downloading https://files.pythonhosted.org/packages/95/b6/b756e63743e5a22107ef8f4c890197b8254fc8ea35fc3cb74a9857c35f5a/openmim-0.3.7.tar.gz
+[2023-06-28 09:45:25] INFO root fetch - processPackages [dahu12]: Downloading https://files.pythonhosted.org/packages/b0/7e/b4304df262368ce13f7ed603a6a54ee6bda9087137bee3c90628c84a8fb9/dahu12-0.0.0.0.2.1.tar.gz
+[2023-06-28 09:45:25] INFO root fetch - processPackages [pdf-oralia]: Downloading https://files.pythonhosted.org/packages/cb/68/1903c9f95b49e19b1daa6cf908d15041500eed59d0bf57a57acbceda5956/pdf_oralia-0.3.tar.gz
+[2023-06-28 09:45:25] INFO root fetch - processPackages [pyqint]: Downloading https://files.pythonhosted.org/packages/e1/6f/f0baaa4fc34d51a75654547ad912cdf525f93b34ef1a95f1294cd34dadbc/pyqint-0.9.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-28 09:45:25] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/c3/7d/10850a2d1316c18cedca79baad202b8bd3ed1ef87710064a9bb03dae1c26/thipster-0.20.1.tar.gz
+[2023-06-28 09:45:25] INFO root fetch - processPackages [PyAEZ]: Downloading https://files.pythonhosted.org/packages/a6/3e/a35000b86538076537f97f92ad0ca9b08029c9bb1af8d07f1d402f20d537/PyAEZ-2.0.0.tar.gz
+[2023-06-28 09:45:25] INFO root fetch - processPackages [mkTestCase]: Downloading https://files.pythonhosted.org/packages/e6/ff/854c3eb86c83a8442866c2bd594032f7e6457358e6d39f410f44cef2f70d/mkTestCase-0.0.3.tar.gz
+[2023-06-28 09:45:25] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/48/ab/3fed0f381ffa5c83dc8e8674ab7ca4132d445e68426fa67f885d1438f51c/automation_rest_server-3.8.2.tar.gz
+[2023-06-28 09:45:25] INFO root fetch - processPackages [ht2]: Downloading https://files.pythonhosted.org/packages/0f/23/441ea2a7386beafe8de089027be15f3d3018fc980cc2c6799b5a4156461a/ht2-0.2.4.tar.gz
+[2023-06-28 09:45:25] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-28 09:45:25] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.20.0.tar.gz tmp/thipster-0.20.1.tar.gz --markdown 20230628/t/thipster/0.20.0-0.20.1/diff.md --exclude *.pyd
+[2023-06-28 09:45:25] INFO root fetch - processPackages [pdf-oralia]: Downloading https://files.pythonhosted.org/packages/75/13/70c8c99bbb12abfecc4f52cae61de7d7e56efeba56b4ae6840e85654984d/pdf_oralia-0.3.1.tar.gz
+[2023-06-28 09:45:26] INFO root fetch - processPackages [dahu12]: Downloading https://files.pythonhosted.org/packages/7b/32/2d0086f7a7001f30e55a6a7a6596c790226ea91417b53ac40593f7b02455/dahu12-0.0.0.0.2.2.tar.gz
+[2023-06-28 09:45:26] INFO root fetch - processPackages [mkTestCase]: executing diffoscope
+[2023-06-28 09:45:26] INFO root fetch - processPackages [mkTestCase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkTestCase-0.0.2.tar.gz tmp/mkTestCase-0.0.3.tar.gz --markdown 20230628/m/mkTestCase/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-28 09:45:26] INFO root fetch - processPackages [openmim]: Downloading https://files.pythonhosted.org/packages/e2/9a/40a67aa134a46995d08749c4d64a8c8b58c4a1760f68c51c06211ebdf6c6/openmim-0.3.8.tar.gz
+[2023-06-28 09:45:26] INFO root fetch - processPackages [ht2]: executing diffoscope
+[2023-06-28 09:45:26] INFO root fetch - processPackages [ht2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ht2-0.2.3.tar.gz tmp/ht2-0.2.4.tar.gz --markdown 20230628/h/ht2/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-28 09:45:26] INFO root fetch - processPackages [pdf-oralia]: executing diffoscope
+[2023-06-28 09:45:26] INFO root fetch - processPackages [pdf-oralia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf_oralia-0.3.tar.gz tmp/pdf_oralia-0.3.1.tar.gz --markdown 20230628/p/pdf-oralia/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-06-28 09:45:26] INFO root fetch - processPackages [dahu12]: executing diffoscope
+[2023-06-28 09:45:26] INFO root fetch - processPackages [dahu12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dahu12-0.0.0.0.2.1.tar.gz tmp/dahu12-0.0.0.0.2.2.tar.gz --markdown 20230628/d/dahu12/0.0.0.0.2.1-0.0.0.0.2.2/diff.md --exclude *.pyd
+[2023-06-28 09:45:26] INFO root fetch - processPackages [openmim]: executing diffoscope
+[2023-06-28 09:45:26] INFO root fetch - processPackages [openmim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmim-0.3.7.tar.gz tmp/openmim-0.3.8.tar.gz --markdown 20230628/o/openmim/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-28 09:45:26] INFO root fetch - processPackages [PyAEZ]: Downloading https://files.pythonhosted.org/packages/82/2c/15f9f825c999d2711f384f8dfaef1b3c26ebdeefb15bf7deedd9d50fc9c6/PyAEZ-2.1.0.tar.gz
+[2023-06-28 09:45:26] INFO root fetch - processPackages [pyqint]: Downloading https://files.pythonhosted.org/packages/c6/91/7907d7a29f5c26c031da3175916525427e9150b5a9ab871b7734076bbf41/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-28 09:45:26] INFO root fetch - processPackages [PyAEZ]: executing diffoscope
+[2023-06-28 09:45:26] INFO root fetch - processPackages [PyAEZ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAEZ-2.0.0.tar.gz tmp/PyAEZ-2.1.0.tar.gz --markdown 20230628/P/PyAEZ/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-28 09:45:26] INFO root fetch - processPackages [automation_rest_server]: executing diffoscope
+[2023-06-28 09:45:26] INFO root fetch - processPackages [automation_rest_server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_rest_server-3.8.1.tar.gz tmp/automation_rest_server-3.8.2.tar.gz --markdown 20230628/a/automation_rest_server/3.8.1-3.8.2/diff.md --exclude *.pyd
+[2023-06-28 09:45:26] INFO root fetch - processPackages [pyqint]: executing diffoscope
+[2023-06-28 09:45:26] INFO root fetch - processPackages [pyqint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqint-0.9.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230628/p/pyqint/0.9.7.1-0.9.7.2/diff.md --exclude *.pyd
+[2023-06-28 09:45:27] INFO root fetch - processPackages [mkTestCase]: Remove: archive file [/home/abi/fetcher/tmp/mkTestCase-0.0.2.tar.gz]
+[2023-06-28 09:45:27] INFO root fetch - processPackages [mkTestCase]: Remove: archive file [/home/abi/fetcher/tmp/mkTestCase-0.0.3.tar.gz]
+[2023-06-28 09:45:27] INFO root fetch - main [MainThread]: End processing [mkTestCase]: success
+[2023-06-28 09:45:27] INFO root fetch - processPackages [pdf-oralia]: Remove: archive file [/home/abi/fetcher/tmp/pdf_oralia-0.3.tar.gz]
+[2023-06-28 09:45:27] INFO root fetch - processPackages [pdf-oralia]: Remove: archive file [/home/abi/fetcher/tmp/pdf_oralia-0.3.1.tar.gz]
+[2023-06-28 09:45:27] INFO root fetch - main [MainThread]: End processing [pdf-oralia]: success
+[2023-06-28 09:45:27] INFO root fetch - processPackages [dahu12]: Remove: archive file [/home/abi/fetcher/tmp/dahu12-0.0.0.0.2.1.tar.gz]
+[2023-06-28 09:45:27] INFO root fetch - processPackages [dahu12]: Remove: archive file [/home/abi/fetcher/tmp/dahu12-0.0.0.0.2.2.tar.gz]
+[2023-06-28 09:45:27] INFO root fetch - main [MainThread]: End processing [dahu12]: success
+[2023-06-28 09:45:27] INFO root fetch - processPackages [ht2]: Remove: archive file [/home/abi/fetcher/tmp/ht2-0.2.3.tar.gz]
+[2023-06-28 09:45:27] INFO root fetch - processPackages [ht2]: Remove: archive file [/home/abi/fetcher/tmp/ht2-0.2.4.tar.gz]
+[2023-06-28 09:45:27] INFO root fetch - main [MainThread]: End processing [ht2]: success
+[2023-06-28 09:45:27] INFO root fetch - processPackages [openmim]: Remove: archive file [/home/abi/fetcher/tmp/openmim-0.3.7.tar.gz]
+[2023-06-28 09:45:27] INFO root fetch - processPackages [openmim]: Remove: archive file [/home/abi/fetcher/tmp/openmim-0.3.8.tar.gz]
+[2023-06-28 09:45:27] INFO root fetch - main [MainThread]: End processing [openmim]: success
+[2023-06-28 09:45:28] INFO root fetch - processPackages [PyAEZ]: Remove: archive file [/home/abi/fetcher/tmp/PyAEZ-2.0.0.tar.gz]
+[2023-06-28 09:45:28] INFO root fetch - processPackages [PyAEZ]: Remove: archive file [/home/abi/fetcher/tmp/PyAEZ-2.1.0.tar.gz]
+[2023-06-28 09:45:28] INFO root fetch - main [MainThread]: End processing [PyAEZ]: success
+[2023-06-28 09:45:28] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.20.0.tar.gz]
+[2023-06-28 09:45:28] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.20.1.tar.gz]
+[2023-06-28 09:45:28] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-28 09:45:30] INFO root fetch - processPackages [automation_rest_server]: Remove: archive file [/home/abi/fetcher/tmp/automation_rest_server-3.8.1.tar.gz]
+[2023-06-28 09:45:30] INFO root fetch - processPackages [automation_rest_server]: Remove: archive file [/home/abi/fetcher/tmp/automation_rest_server-3.8.2.tar.gz]
+[2023-06-28 09:45:30] INFO root fetch - main [MainThread]: End processing [automation_rest_server]: success
+[2023-06-28 09:45:49] INFO root fetch - processPackages [pyqint]: Remove: archive file [/home/abi/fetcher/tmp/pyqint-0.9.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-28 09:45:49] INFO root fetch - processPackages [pyqint]: Remove: archive file [/home/abi/fetcher/tmp/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-28 09:45:49] INFO root fetch - main [MainThread]: End processing [pyqint]: success
+[2023-06-28 09:45:49] INFO root fetch - main [MainThread]: Store serial: [18675814]
