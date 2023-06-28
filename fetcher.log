@@ -12998,3 +12998,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 04:25:18] INFO root fetch - processPackages [mayatk]: Remove: archive file [/home/abi/fetcher/tmp/mayatk-0.6.7.tar.gz]
 [2023-06-28 04:25:18] INFO root fetch - main [MainThread]: End processing [mayatk]: success
 [2023-06-28 04:25:18] INFO root fetch - main [MainThread]: Store serial: [18673814]
+[2023-06-28 04:30:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18673814]
+[2023-06-28 04:30:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-28 04:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dynamic-links
+[2023-06-28 04:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phdimporter
+[2023-06-28 04:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prodvana
+[2023-06-28 04:30:28] WARNING root fetch - processPackages [dynamic-links]: Skipping, unable to determine old version
+[2023-06-28 04:30:28] INFO root fetch - main [MainThread]: End processing [dynamic-links] error
+[2023-06-28 04:30:28] INFO root fetch - processPackages [prodvana]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 04:30:28] INFO root fetch - processPackages [phdimporter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-28 04:30:28] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/3a/7a/c54125ee1d8b035c415415bfef4c63e7901981f8f2ce0cdd04746a4dcdd5/prodvana-0.1.8.tar.gz
+[2023-06-28 04:30:28] INFO root fetch - processPackages [phdimporter]: Downloading https://files.pythonhosted.org/packages/6b/06/3e2f42f6a53a8b316a5242f12addcc09a748cab80d02f3539bed8be64c6c/phdimporter-0.0.1.tar.gz
+[2023-06-28 04:30:28] INFO root fetch - processPackages [phdimporter]: Downloading https://files.pythonhosted.org/packages/4c/f0/ee38a5f1cf4acbdb36017840740d4cb93acc50e8814485d116bf71b3de86/phdimporter-0.0.2.tar.gz
+[2023-06-28 04:30:28] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/69/06/90596fb26d2ac7ef4f64a6b7aacf20cb6a48fa7fea333d8c5b9ad537072d/prodvana-0.1.9.tar.gz
+[2023-06-28 04:30:28] INFO root fetch - processPackages [prodvana]: executing diffoscope
+[2023-06-28 04:30:28] INFO root fetch - processPackages [prodvana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodvana-0.1.8.tar.gz tmp/prodvana-0.1.9.tar.gz --markdown 20230628/p/prodvana/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 04:30:28] INFO root fetch - processPackages [phdimporter]: executing diffoscope
+[2023-06-28 04:30:28] INFO root fetch - processPackages [phdimporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdimporter-0.0.1.tar.gz tmp/phdimporter-0.0.2.tar.gz --markdown 20230628/p/phdimporter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-28 04:30:29] INFO root fetch - processPackages [phdimporter]: Remove: archive file [/home/abi/fetcher/tmp/phdimporter-0.0.1.tar.gz]
+[2023-06-28 04:30:29] INFO root fetch - processPackages [phdimporter]: Remove: archive file [/home/abi/fetcher/tmp/phdimporter-0.0.2.tar.gz]
+[2023-06-28 04:30:29] INFO root fetch - main [MainThread]: End processing [phdimporter]: success
+[2023-06-28 04:30:31] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.1.8.tar.gz]
+[2023-06-28 04:30:31] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.1.9.tar.gz]
+[2023-06-28 04:30:31] INFO root fetch - main [MainThread]: End processing [prodvana]: success
+[2023-06-28 04:30:31] INFO root fetch - main [MainThread]: Store serial: [18673825]
