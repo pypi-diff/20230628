@@ -13956,3 +13956,94 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 05:23:44] INFO root fetch - processPackages [metarace-ttstart]: Remove: archive file [/home/abi/fetcher/tmp/metarace-ttstart-1.0.1.tar.gz]
 [2023-06-28 05:23:44] INFO root fetch - main [MainThread]: End processing [metarace-ttstart]: success
 [2023-06-28 05:23:44] INFO root fetch - main [MainThread]: Store serial: [18674171]
+[2023-06-28 05:28:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674171]
+[2023-06-28 05:28:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-28 05:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-base-facturx
+[2023-06-28 05:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-einvoice-generate
+[2023-06-28 05:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-invoice-facturx
+[2023-06-28 05:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-edi
+[2023-06-28 05:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sage-acsv
+[2023-06-28 05:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-plugins-2
+[2023-06-28 05:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-event-sale-reservation
+[2023-06-28 05:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lifetimefitting
+[2023-06-28 05:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lifetimefitting
+[2023-06-28 05:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aio-aws
+[2023-06-28 05:28:53] INFO root fetch - processPackages [lifetimefitting]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-06-28 05:28:53] INFO root fetch - processPackages [lifetimefitting]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-06-28 05:28:53] INFO root fetch - processPackages [ml-plugins-2]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-06-28 05:28:53] INFO root fetch - processPackages [odoo-addon-account-invoice-facturx]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.2]
+[2023-06-28 05:28:53] INFO root fetch - processPackages [aio-aws]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-28 05:28:53] INFO root fetch - processPackages [lifetimefitting]: Downloading https://files.pythonhosted.org/packages/b0/ee/775933826378787bc78f96317244ceba5aeb1354af036628d6c9822223cd/lifetimefitting-0.0.27.tar.gz
+[2023-06-28 05:28:53] INFO root fetch - processPackages [lifetimefitting]: Downloading https://files.pythonhosted.org/packages/b0/ee/775933826378787bc78f96317244ceba5aeb1354af036628d6c9822223cd/lifetimefitting-0.0.27.tar.gz
+[2023-06-28 05:28:53] INFO root fetch - processPackages [odoo-addon-base-facturx]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-06-28 05:28:53] INFO root fetch - processPackages [odoo-addons-oca-edi]: New version: [16.0.20230627.0] Old Version: [16.0.20230521.0]
+[2023-06-28 05:28:53] INFO root fetch - processPackages [aio-aws]: Downloading https://files.pythonhosted.org/packages/77/3b/17135f7a819a2b506ddab5657e680f0ef974d5900ebe4b93765b88d221f9/aio-aws-0.8.0.tar.gz
+[2023-06-28 05:28:53] INFO root fetch - processPackages [odoo-addon-account-einvoice-generate]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-06-28 05:28:53] INFO root fetch - processPackages [sage-acsv]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-28 05:28:53] INFO root fetch - processPackages [ml-plugins-2]: Downloading https://files.pythonhosted.org/packages/90/5e/9203a465dc586566c79b9917a2c8a32d8ebaa85bbda523354ec22e6e003a/ml_plugins_2-0.0.20.tar.gz
+[2023-06-28 05:28:53] INFO root fetch - processPackages [odoo-addon-event-sale-reservation]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-06-28 05:28:53] INFO root fetch - processPackages [odoo-addon-account-invoice-facturx]: Downloading https://files.pythonhosted.org/packages/6e/7c/f03c6c5e1e5e72aafc8fbfab8e417a80e6b0c160d95e8750cd748d82db10/odoo_addon_account_invoice_facturx-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-28 05:28:53] INFO root fetch - processPackages [aio-aws]: Downloading https://files.pythonhosted.org/packages/4d/bc/9acf7f7c05011fe1a5002ddee28c7c54ef512c16ffaed8aca6ea64bcd8f5/aio-aws-0.9.0.tar.gz
+[2023-06-28 05:28:53] INFO root fetch - processPackages [odoo-addon-account-invoice-facturx]: Downloading https://files.pythonhosted.org/packages/c5/8d/7c7ec1d66182291b6ecb1b40e63fa2dd679c8282734c7df7e0312831bfe9/odoo_addon_account_invoice_facturx-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-28 05:28:53] INFO root fetch - processPackages [odoo-addon-base-facturx]: Downloading https://files.pythonhosted.org/packages/82/fe/751ec5c56cf4c9c2df9adccdcaa9ef4330288faf4e067faed952bad88eb3/odoo_addon_base_facturx-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-28 05:28:53] INFO root fetch - processPackages [odoo-addon-account-einvoice-generate]: Downloading https://files.pythonhosted.org/packages/e1/e8/3b0f39fc5bb76c7e944fcba9bce24a6f2e67746141ba936c160b25a3a8cd/odoo_addon_account_einvoice_generate-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-28 05:28:53] INFO root fetch - processPackages [odoo-addons-oca-edi]: Downloading https://files.pythonhosted.org/packages/cc/59/f1cebde7f79c37b0766f93c2a88ccc3f5d5364a7975530c018ba03fe0411/odoo_addons_oca_edi-16.0.20230521.0-py3-none-any.whl
+[2023-06-28 05:28:53] INFO root fetch - processPackages [aio-aws]: executing diffoscope
+[2023-06-28 05:28:53] INFO root fetch - processPackages [aio-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio-aws-0.8.0.tar.gz tmp/aio-aws-0.9.0.tar.gz --markdown 20230628/a/aio-aws/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 05:28:53] INFO root fetch - processPackages [odoo-addon-event-sale-reservation]: Downloading https://files.pythonhosted.org/packages/59/de/d68380b111342284e123396e422d29720e4db029a3147feedf1c7c391f4b/odoo_addon_event_sale_reservation-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-28 05:28:53] INFO root fetch - processPackages [lifetimefitting]: Downloading https://files.pythonhosted.org/packages/18/6c/a6c3f45d1bbc2d2a5c2d1921c80bfb8ed7619968ab77981d7c439e28ccb3/lifetimefitting-0.0.28.tar.gz
+[2023-06-28 05:28:53] INFO root fetch - processPackages [sage-acsv]: Downloading https://files.pythonhosted.org/packages/89/39/e0e461efbc17c7a2975da758e4669aff2a61bbe4574f6ecf8582e56026f7/sage_acsv-0.1.0.tar.gz
+[2023-06-28 05:28:53] INFO root fetch - processPackages [odoo-addon-account-invoice-facturx]: executing diffoscope
+[2023-06-28 05:28:53] INFO root fetch - processPackages [odoo-addon-account-invoice-facturx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_facturx-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_facturx-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-account-invoice-facturx/15.0.1.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-28 05:28:53] INFO root fetch - processPackages [lifetimefitting]: Downloading https://files.pythonhosted.org/packages/18/6c/a6c3f45d1bbc2d2a5c2d1921c80bfb8ed7619968ab77981d7c439e28ccb3/lifetimefitting-0.0.28.tar.gz
+[2023-06-28 05:28:53] INFO root fetch - processPackages [ml-plugins-2]: Downloading https://files.pythonhosted.org/packages/45/a1/baf6939c23c9b7c51c72a92f8c1c011a28b8bd65213ed295a9d804872210/ml_plugins_2-0.0.21.tar.gz
+[2023-06-28 05:28:53] INFO root fetch - processPackages [lifetimefitting]: executing diffoscope
+[2023-06-28 05:28:53] INFO root fetch - processPackages [lifetimefitting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifetimefitting-0.0.27.tar.gz tmp/lifetimefitting-0.0.28.tar.gz --markdown 20230628/l/lifetimefitting/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-06-28 05:28:53] INFO root fetch - processPackages [lifetimefitting]: executing diffoscope
+[2023-06-28 05:28:53] INFO root fetch - processPackages [lifetimefitting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifetimefitting-0.0.27.tar.gz tmp/lifetimefitting-0.0.28.tar.gz --markdown 20230628/l/lifetimefitting/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-06-28 05:28:54] INFO root fetch - processPackages [ml-plugins-2]: executing diffoscope
+[2023-06-28 05:28:54] INFO root fetch - processPackages [ml-plugins-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_plugins_2-0.0.20.tar.gz tmp/ml_plugins_2-0.0.21.tar.gz --markdown 20230628/m/ml-plugins-2/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-06-28 05:28:54] INFO root fetch - processPackages [odoo-addon-account-einvoice-generate]: Downloading https://files.pythonhosted.org/packages/ed/b0/14e82d470ad33214901396b5915bafabd04767ef96b639f0b3daa73fa81c/odoo_addon_account_einvoice_generate-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-28 05:28:54] INFO root fetch - processPackages [odoo-addon-base-facturx]: Downloading https://files.pythonhosted.org/packages/94/ce/bb8a501f4b6a330c36915647ddaf448fccf7659d509eedf27b4c837751fc/odoo_addon_base_facturx-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-28 05:28:54] INFO root fetch - processPackages [odoo-addons-oca-edi]: Downloading https://files.pythonhosted.org/packages/a5/d1/f254599d374da75b16ca09f6f4d8c78ca3935c92a60d5b3cc1435ea8ba65/odoo_addons_oca_edi-16.0.20230627.0-py3-none-any.whl
+[2023-06-28 05:28:54] INFO root fetch - processPackages [sage-acsv]: Downloading https://files.pythonhosted.org/packages/4e/6f/939e12c6a99d06d1bada112794f7d5cae2912a06ff45decab6e182932ee8/sage_acsv-0.1.1.tar.gz
+[2023-06-28 05:28:54] INFO root fetch - processPackages [odoo-addon-event-sale-reservation]: Downloading https://files.pythonhosted.org/packages/62/a1/46d68e2d7700e2d547d7c7a71ca8c05992938477f23bd80c1893449f461f/odoo_addon_event_sale_reservation-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-28 05:28:54] INFO root fetch - processPackages [odoo-addon-account-einvoice-generate]: executing diffoscope
+[2023-06-28 05:28:54] INFO root fetch - processPackages [odoo-addon-account-einvoice-generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_einvoice_generate-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_einvoice_generate-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-account-einvoice-generate/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-28 05:28:54] INFO root fetch - processPackages [odoo-addon-base-facturx]: executing diffoscope
+[2023-06-28 05:28:54] INFO root fetch - processPackages [odoo-addon-base-facturx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_facturx-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_facturx-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-base-facturx/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-28 05:28:54] INFO root fetch - processPackages [odoo-addons-oca-edi]: executing diffoscope
+[2023-06-28 05:28:54] INFO root fetch - processPackages [odoo-addons-oca-edi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_edi-16.0.20230521.0-py3-none-any.whl.zip tmp/odoo_addons_oca_edi-16.0.20230627.0-py3-none-any.whl.zip --markdown 20230628/o/odoo-addons-oca-edi/16.0.20230521.0-16.0.20230627.0/diff.md --exclude *.pyd
+[2023-06-28 05:28:54] INFO root fetch - processPackages [sage-acsv]: executing diffoscope
+[2023-06-28 05:28:54] INFO root fetch - processPackages [sage-acsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage_acsv-0.1.0.tar.gz tmp/sage_acsv-0.1.1.tar.gz --markdown 20230628/s/sage-acsv/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-28 05:28:54] INFO root fetch - processPackages [odoo-addon-event-sale-reservation]: executing diffoscope
+[2023-06-28 05:28:54] INFO root fetch - processPackages [odoo-addon-event-sale-reservation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_event_sale_reservation-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_event_sale_reservation-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-event-sale-reservation/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-28 05:28:55] INFO root fetch - processPackages [lifetimefitting]: Remove: archive file [/home/abi/fetcher/tmp/lifetimefitting-0.0.27.tar.gz]
+[2023-06-28 05:28:55] INFO root fetch - processPackages [lifetimefitting]: Remove: archive file [/home/abi/fetcher/tmp/lifetimefitting-0.0.28.tar.gz]
+[2023-06-28 05:28:55] INFO root fetch - main [MainThread]: End processing [lifetimefitting]: success
+[2023-06-28 05:28:55] INFO root fetch - processPackages [odoo-addon-account-invoice-facturx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_facturx-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-28 05:28:55] INFO root fetch - processPackages [odoo-addon-account-invoice-facturx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_facturx-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-28 05:28:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-facturx]: success
+[2023-06-28 05:28:55] INFO root fetch - main [MainThread]: End processing [lifetimefitting]: success
+[2023-06-28 05:28:55] INFO root fetch - processPackages [ml-plugins-2]: Remove: archive file [/home/abi/fetcher/tmp/ml_plugins_2-0.0.20.tar.gz]
+[2023-06-28 05:28:55] INFO root fetch - processPackages [ml-plugins-2]: Remove: archive file [/home/abi/fetcher/tmp/ml_plugins_2-0.0.21.tar.gz]
+[2023-06-28 05:28:55] INFO root fetch - main [MainThread]: End processing [ml-plugins-2]: success
+[2023-06-28 05:28:55] INFO root fetch - processPackages [aio-aws]: Remove: archive file [/home/abi/fetcher/tmp/aio-aws-0.8.0.tar.gz]
+[2023-06-28 05:28:55] INFO root fetch - processPackages [aio-aws]: Remove: archive file [/home/abi/fetcher/tmp/aio-aws-0.9.0.tar.gz]
+[2023-06-28 05:28:55] INFO root fetch - main [MainThread]: End processing [aio-aws]: success
+[2023-06-28 05:28:55] INFO root fetch - processPackages [odoo-addon-account-einvoice-generate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_einvoice_generate-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-28 05:28:55] INFO root fetch - processPackages [odoo-addon-account-einvoice-generate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_einvoice_generate-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-28 05:28:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-einvoice-generate]: success
+[2023-06-28 05:28:55] INFO root fetch - processPackages [odoo-addons-oca-edi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_edi-16.0.20230521.0-py3-none-any.whl.zip]
+[2023-06-28 05:28:55] INFO root fetch - processPackages [odoo-addons-oca-edi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_edi-16.0.20230627.0-py3-none-any.whl.zip]
+[2023-06-28 05:28:55] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-edi]: success
+[2023-06-28 05:28:55] INFO root fetch - processPackages [odoo-addon-base-facturx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_facturx-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-28 05:28:55] INFO root fetch - processPackages [odoo-addon-base-facturx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_facturx-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-28 05:28:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-facturx]: success
+[2023-06-28 05:28:55] INFO root fetch - processPackages [sage-acsv]: Remove: archive file [/home/abi/fetcher/tmp/sage_acsv-0.1.0.tar.gz]
+[2023-06-28 05:28:55] INFO root fetch - processPackages [sage-acsv]: Remove: archive file [/home/abi/fetcher/tmp/sage_acsv-0.1.1.tar.gz]
+[2023-06-28 05:28:55] INFO root fetch - main [MainThread]: End processing [sage-acsv]: success
+[2023-06-28 05:28:55] INFO root fetch - processPackages [odoo-addon-event-sale-reservation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_sale_reservation-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-28 05:28:55] INFO root fetch - processPackages [odoo-addon-event-sale-reservation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_sale_reservation-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-28 05:28:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-event-sale-reservation]: success
+[2023-06-28 05:28:55] INFO root fetch - main [MainThread]: Store serial: [18674206]
