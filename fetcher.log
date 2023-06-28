@@ -21322,3 +21322,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 12:02:31] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
 [2023-06-28 12:02:31] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
 [2023-06-28 12:02:31] INFO root fetch - main [MainThread]: Store serial: [18677327]
+[2023-06-28 12:07:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18677327]
+[2023-06-28 12:07:40] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-28 12:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: construct-editor
+[2023-06-28 12:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ler
+[2023-06-28 12:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: market-engine
+[2023-06-28 12:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skops
+[2023-06-28 12:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hastexo-xblock
+[2023-06-28 12:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zcb-dbutils
+[2023-06-28 12:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pallet-sim
+[2023-06-28 12:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-helpdesk-mgmt-project
+[2023-06-28 12:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pywa
+[2023-06-28 12:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-assembly-schema
+[2023-06-28 12:07:40] WARNING root fetch - processPackages [zcb-dbutils]: Skipping, unable to determine old version
+[2023-06-28 12:07:40] INFO root fetch - processPackages [market-engine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 12:07:40] INFO root fetch - processPackages [zcb-dbutils]: Start processing: c2cciutils
+[2023-06-28 12:07:40] INFO root fetch - main [MainThread]: End processing [zcb-dbutils] error
+[2023-06-28 12:07:40] WARNING root fetch - processPackages [pallet-sim]: Skipping, unable to determine old version
+[2023-06-28 12:07:40] INFO root fetch - processPackages [pallet-sim]: Start processing: relion
+[2023-06-28 12:07:40] INFO root fetch - main [MainThread]: End processing [pallet-sim] error
+[2023-06-28 12:07:40] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-28 12:07:40] INFO root fetch - processPackages [ler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 12:07:40] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/65/b8/cc0815b769875bbc57b0c5f199b0a3987be090f1fafab07531252b2972a2/market-engine-0.0.8.tar.gz
+[2023-06-28 12:07:40] INFO root fetch - processPackages [ros-cdk-assembly-schema]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:07:40] INFO root fetch - processPackages [construct-editor]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-28 12:07:40] INFO root fetch - processPackages [pywa]: New version: [0.0.1rc12] Old Version: [0.0.1rc11]
+[2023-06-28 12:07:40] INFO root fetch - processPackages [skops]: New version: [0.8.0] Old Version: [0.7.post0]
+[2023-06-28 12:07:40] INFO root fetch - processPackages [hastexo-xblock]: New version: [7.6.0] Old Version: [7.5.0]
+[2023-06-28 12:07:40] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-project]: New version: [14.0.1.2.1] Old Version: [14.0.1.2.0]
+[2023-06-28 12:07:40] INFO root fetch - processPackages [relion]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-28 12:07:40] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-06-28 12:07:40] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/0b/88/47639a851c5081b1dbc460316d90eb0716fb29e775062a14575a98e3ef54/market-engine-0.0.9.tar.gz
+[2023-06-28 12:07:40] INFO root fetch - processPackages [construct-editor]: Downloading https://files.pythonhosted.org/packages/32/ef/b52a53b3d6d2df512f305e2734bef14ddbdf37b4af29f474ce89173dd343/construct-editor-0.1.3.tar.gz
+[2023-06-28 12:07:40] INFO root fetch - processPackages [ler]: Downloading https://files.pythonhosted.org/packages/dc/ed/f7c6f619e2adb205b69b3af634357ed7544bb1fd6197a2d88868d439b7a8/ler-0.1.8-py2.py3-none-any.whl
+[2023-06-28 12:07:40] INFO root fetch - processPackages [skops]: Downloading https://files.pythonhosted.org/packages/a7/33/1b3848d3422df009f52f799a13d2f53bf1948ba9c72cee44f04cf27083df/skops-0.7.post0.tar.gz
+[2023-06-28 12:07:40] INFO root fetch - processPackages [relion]: Downloading https://files.pythonhosted.org/packages/e0/82/69a9de4ba7a280713f6191fe700469d5c59405c8691b42cf7436e7793241/relion-0.9.8.tar.gz
+[2023-06-28 12:07:40] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/57/6e/a6173ad90673e97d49c5ea1599202e6e2950117536e377160dfe99961345/pywa-0.0.1rc11-py3-none-any.whl
+[2023-06-28 12:07:40] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Downloading https://files.pythonhosted.org/packages/69/c7/844c7616a479dbd33dba633da09bb99b6647c86e91d4ebf7a7bf8e50d64a/ros-cdk-assembly-schema-1.0.8.tar.gz
+[2023-06-28 12:07:40] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-project]: Downloading https://files.pythonhosted.org/packages/30/d9/ad3928de04bfb2a7ad14f6ea7da8b79a01890efcf915b7671901bfc03248/odoo14_addon_helpdesk_mgmt_project-14.0.1.2.0-py3-none-any.whl
+[2023-06-28 12:07:40] INFO root fetch - processPackages [hastexo-xblock]: Downloading https://files.pythonhosted.org/packages/54/fd/708091acaa90b5e1173b584fbaadc52ccaec90c54c9bc4fdcabff869fe4e/hastexo-xblock-7.5.0.tar.gz
+[2023-06-28 12:07:40] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2023-06-28 12:07:40] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.0.8.tar.gz tmp/market-engine-0.0.9.tar.gz --markdown 20230628/m/market-engine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:07:40] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-06-28 12:07:41] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-28 12:07:41] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230628/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-28 12:07:41] INFO root fetch - processPackages [ler]: Downloading https://files.pythonhosted.org/packages/54/29/0b95e91e7d0bd2f5bd2ee6999d083d3f2c7a30366e6dcda51f1aa1c30543/ler-0.1.9-py2.py3-none-any.whl
+[2023-06-28 12:07:41] INFO root fetch - processPackages [skops]: Downloading https://files.pythonhosted.org/packages/3b/00/1409f6e61e7df12f4c90111f9388041bad2f9c8e0f779a82a5f91ea6b5f5/skops-0.8.0.tar.gz
+[2023-06-28 12:07:41] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/37/7c/ddee7e8b08a4662e87d2de3e71a23c4469292106cda1eb4dd1fe448c1c87/pywa-0.0.1rc12-py3-none-any.whl
+[2023-06-28 12:07:41] INFO root fetch - processPackages [construct-editor]: Downloading https://files.pythonhosted.org/packages/1a/6f/959151edc75869567b52de7fe1da3a69178e548bed92553ff5c8983e35be/construct-editor-0.1.4.tar.gz
+[2023-06-28 12:07:41] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-project]: Downloading https://files.pythonhosted.org/packages/cf/ee/91bcf533de0518c0c9bd89df5cd2bb134023e73226dcf8224e5db20f45e3/odoo14_addon_helpdesk_mgmt_project-14.0.1.2.1-py3-none-any.whl
+[2023-06-28 12:07:41] INFO root fetch - processPackages [relion]: Downloading https://files.pythonhosted.org/packages/f1/34/df132ddc1c4f86e0fbbbf6901e5d7faf00fc28548ec49050cf5ecc44ac6d/relion-0.9.9.tar.gz
+[2023-06-28 12:07:41] INFO root fetch - processPackages [ler]: executing diffoscope
+[2023-06-28 12:07:41] INFO root fetch - processPackages [ler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ler-0.1.8-py2.py3-none-any.whl.zip tmp/ler-0.1.9-py2.py3-none-any.whl.zip --markdown 20230628/l/ler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 12:07:41] INFO root fetch - processPackages [hastexo-xblock]: Downloading https://files.pythonhosted.org/packages/bc/08/d91021f9f5497117693b7e9ec55473e17602b9f26132d92d5a832d9b0457/hastexo-xblock-7.6.0.tar.gz
+[2023-06-28 12:07:41] INFO root fetch - processPackages [pywa]: executing diffoscope
+[2023-06-28 12:07:41] INFO root fetch - processPackages [pywa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywa-0.0.1rc11-py3-none-any.whl.zip tmp/pywa-0.0.1rc12-py3-none-any.whl.zip --markdown 20230628/p/pywa/0.0.1rc11-0.0.1rc12/diff.md --exclude *.pyd
+[2023-06-28 12:07:41] INFO root fetch - processPackages [construct-editor]: executing diffoscope
+[2023-06-28 12:07:41] INFO root fetch - processPackages [construct-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/construct-editor-0.1.3.tar.gz tmp/construct-editor-0.1.4.tar.gz --markdown 20230628/c/construct-editor/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-28 12:07:41] INFO root fetch - processPackages [skops]: executing diffoscope
+[2023-06-28 12:07:41] INFO root fetch - processPackages [skops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skops-0.7.post0.tar.gz tmp/skops-0.8.0.tar.gz --markdown 20230628/s/skops/0.7.post0-0.8.0/diff.md --exclude *.pyd
+[2023-06-28 12:07:41] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Downloading https://files.pythonhosted.org/packages/2b/83/1e959ec26eed4d2aa4034c97ab2977a82364f27f03651d9841a04d9defe4/ros-cdk-assembly-schema-1.0.9.tar.gz
+[2023-06-28 12:07:41] INFO root fetch - processPackages [relion]: executing diffoscope
+[2023-06-28 12:07:41] INFO root fetch - processPackages [relion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relion-0.9.8.tar.gz tmp/relion-0.9.9.tar.gz --markdown 20230628/r/relion/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-28 12:07:41] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-project]: executing diffoscope
+[2023-06-28 12:07:41] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt_project-14.0.1.2.0-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt_project-14.0.1.2.1-py3-none-any.whl.zip --markdown 20230628/o/odoo14-addon-helpdesk-mgmt-project/14.0.1.2.0-14.0.1.2.1/diff.md --exclude *.pyd
+[2023-06-28 12:07:41] INFO root fetch - processPackages [hastexo-xblock]: executing diffoscope
+[2023-06-28 12:07:41] INFO root fetch - processPackages [hastexo-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hastexo-xblock-7.5.0.tar.gz tmp/hastexo-xblock-7.6.0.tar.gz --markdown 20230628/h/hastexo-xblock/7.5.0-7.6.0/diff.md --exclude *.pyd
+[2023-06-28 12:07:41] INFO root fetch - processPackages [ros-cdk-assembly-schema]: executing diffoscope
+[2023-06-28 12:07:41] INFO root fetch - processPackages [ros-cdk-assembly-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-assembly-schema-1.0.8.tar.gz tmp/ros-cdk-assembly-schema-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-assembly-schema/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:07:42] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.8.tar.gz]
+[2023-06-28 12:07:42] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.9.tar.gz]
+[2023-06-28 12:07:42] INFO root fetch - processPackages [market-engine]: Start processing: robotframework-tidy
+[2023-06-28 12:07:42] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2023-06-28 12:07:42] INFO root fetch - processPackages [robotframework-tidy]: New version: [4.4.0] Old Version: [4.3.0]
+[2023-06-28 12:07:42] INFO root fetch - processPackages [ler]: Remove: archive file [/home/abi/fetcher/tmp/ler-0.1.8-py2.py3-none-any.whl.zip]
+[2023-06-28 12:07:42] INFO root fetch - processPackages [ler]: Remove: archive file [/home/abi/fetcher/tmp/ler-0.1.9-py2.py3-none-any.whl.zip]
+[2023-06-28 12:07:42] INFO root fetch - processPackages [ler]: Start processing: detect-gene-feature
+[2023-06-28 12:07:42] INFO root fetch - main [MainThread]: End processing [ler]: success
+[2023-06-28 12:07:42] WARNING root fetch - processPackages [detect-gene-feature]: Skipping, unable to determine old version
+[2023-06-28 12:07:42] INFO root fetch - main [MainThread]: End processing [detect-gene-feature] error
+[2023-06-28 12:07:42] INFO root fetch - processPackages [robotframework-tidy]: Downloading https://files.pythonhosted.org/packages/c3/89/7d2371bcb66b32d5e1d4553447a29e9e60482720ce6dfdbd9e137d4a5251/robotframework-tidy-4.3.0.tar.gz
+[2023-06-28 12:07:42] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc11-py3-none-any.whl.zip]
+[2023-06-28 12:07:42] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc12-py3-none-any.whl.zip]
+[2023-06-28 12:07:42] INFO root fetch - main [MainThread]: End processing [pywa]: success
+[2023-06-28 12:07:43] INFO root fetch - processPackages [construct-editor]: Remove: archive file [/home/abi/fetcher/tmp/construct-editor-0.1.3.tar.gz]
+[2023-06-28 12:07:43] INFO root fetch - processPackages [construct-editor]: Remove: archive file [/home/abi/fetcher/tmp/construct-editor-0.1.4.tar.gz]
+[2023-06-28 12:07:43] INFO root fetch - main [MainThread]: End processing [construct-editor]: success
+[2023-06-28 12:07:43] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt_project-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-28 12:07:43] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt_project-14.0.1.2.1-py3-none-any.whl.zip]
+[2023-06-28 12:07:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt-project]: success
+[2023-06-28 12:07:43] INFO root fetch - processPackages [robotframework-tidy]: Downloading https://files.pythonhosted.org/packages/a9/a5/d5973eae35b0199344fa849f2504ca0a166b0d801dc2983b9a7981d0b4c6/robotframework-tidy-4.4.0.tar.gz
+[2023-06-28 12:07:43] INFO root fetch - processPackages [robotframework-tidy]: executing diffoscope
+[2023-06-28 12:07:43] INFO root fetch - processPackages [robotframework-tidy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-tidy-4.3.0.tar.gz tmp/robotframework-tidy-4.4.0.tar.gz --markdown 20230628/r/robotframework-tidy/4.3.0-4.4.0/diff.md --exclude *.pyd
+[2023-06-28 12:07:44] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-assembly-schema-1.0.8.tar.gz]
+[2023-06-28 12:07:44] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-assembly-schema-1.0.9.tar.gz]
+[2023-06-28 12:07:44] INFO root fetch - main [MainThread]: End processing [ros-cdk-assembly-schema]: success
+[2023-06-28 12:07:44] INFO root fetch - processPackages [robotframework-tidy]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-tidy-4.3.0.tar.gz]
+[2023-06-28 12:07:44] INFO root fetch - processPackages [robotframework-tidy]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-tidy-4.4.0.tar.gz]
+[2023-06-28 12:07:44] INFO root fetch - main [MainThread]: End processing [robotframework-tidy]: success
+[2023-06-28 12:07:45] INFO root fetch - processPackages [skops]: Remove: archive file [/home/abi/fetcher/tmp/skops-0.7.post0.tar.gz]
+[2023-06-28 12:07:45] INFO root fetch - processPackages [skops]: Remove: archive file [/home/abi/fetcher/tmp/skops-0.8.0.tar.gz]
+[2023-06-28 12:07:45] INFO root fetch - main [MainThread]: End processing [skops]: success
+[2023-06-28 12:07:45] INFO root fetch - processPackages [relion]: Remove: archive file [/home/abi/fetcher/tmp/relion-0.9.8.tar.gz]
+[2023-06-28 12:07:45] INFO root fetch - processPackages [relion]: Remove: archive file [/home/abi/fetcher/tmp/relion-0.9.9.tar.gz]
+[2023-06-28 12:07:45] INFO root fetch - main [MainThread]: End processing [relion]: success
+[2023-06-28 12:07:45] INFO root fetch - processPackages [hastexo-xblock]: Remove: archive file [/home/abi/fetcher/tmp/hastexo-xblock-7.5.0.tar.gz]
+[2023-06-28 12:07:45] INFO root fetch - processPackages [hastexo-xblock]: Remove: archive file [/home/abi/fetcher/tmp/hastexo-xblock-7.6.0.tar.gz]
+[2023-06-28 12:07:45] INFO root fetch - main [MainThread]: End processing [hastexo-xblock]: success
+[2023-06-28 12:07:49] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-06-28 12:07:49] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-06-28 12:07:49] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-28 12:07:49] INFO root fetch - main [MainThread]: Store serial: [18677365]
