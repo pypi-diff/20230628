@@ -13598,3 +13598,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 04:57:41] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230627.tar.gz]
 [2023-06-28 04:57:41] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-06-28 04:57:41] INFO root fetch - main [MainThread]: Store serial: [18674034]
+[2023-06-28 05:02:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674034]
+[2023-06-28 05:02:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-28 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-sale-commission-product-criteria
+[2023-06-28 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: estival
+[2023-06-28 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tellosync
+[2023-06-28 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mobio-media-sdk
+[2023-06-28 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fast-brainfuck
+[2023-06-28 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scratch-getdata
+[2023-06-28 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: detect-hate-speech
+[2023-06-28 05:02:53] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: New version: [14.0.1.0.2.dev5] Old Version: [14.0.1.0.2.dev3]
+[2023-06-28 05:02:53] WARNING root fetch - processPackages [detect-hate-speech]: Skipping, unable to determine old version
+[2023-06-28 05:02:53] INFO root fetch - main [MainThread]: End processing [detect-hate-speech] error
+[2023-06-28 05:02:53] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: Downloading https://files.pythonhosted.org/packages/e4/78/e3522c9764d6fef7f27e6efa02d0efeb0b282c6766b6d750f3ab3196ac9a/odoo14_addon_sale_commission_product_criteria-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-06-28 05:02:53] INFO root fetch - processPackages [scratch-getdata]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-28 05:02:53] INFO root fetch - processPackages [tellosync]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-28 05:02:53] INFO root fetch - processPackages [estival]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-06-28 05:02:53] INFO root fetch - processPackages [fast-brainfuck]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-28 05:02:53] INFO root fetch - processPackages [mobio-media-sdk]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-28 05:02:54] INFO root fetch - processPackages [scratch-getdata]: Downloading https://files.pythonhosted.org/packages/ce/13/249ab925182d7f6a715898222da150705b1549d2beb1ce5f1f852cbc5191/scratch-getdata-1.0.2.tar.gz
+[2023-06-28 05:02:54] INFO root fetch - processPackages [fast-brainfuck]: Downloading https://files.pythonhosted.org/packages/9a/a6/b7f6cc512261df63c2a67a5e4f648fbac0a4589fe7a416beda9e6b353d4d/fast-brainfuck-2.0.0.tar.gz
+[2023-06-28 05:02:54] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: Downloading https://files.pythonhosted.org/packages/ce/a2/f8e91c6a80c7072c3c1db6fb9345f1fe3868a021f56f3cbcb3f92e73a3e2/odoo14_addon_sale_commission_product_criteria-14.0.1.0.2.dev5-py3-none-any.whl
+[2023-06-28 05:02:54] INFO root fetch - processPackages [mobio-media-sdk]: Downloading https://files.pythonhosted.org/packages/1e/6c/e29ea17699ade1ec4a6acb3d0fb892835f11d9713cb81450d505197f174a/mobio-media-sdk-0.2.8.tar.gz
+[2023-06-28 05:02:54] INFO root fetch - processPackages [tellosync]: Downloading https://files.pythonhosted.org/packages/83/26/6137c3011186d9505dd1840efee309298bd867f54d44e5f9cb8c22238658/tellosync-0.0.3.tar.gz
+[2023-06-28 05:02:54] INFO root fetch - processPackages [estival]: Downloading https://files.pythonhosted.org/packages/ec/24/3edae0d3bc875f5c9055c25b578599f9c4f09a6e32c899ee60e2b84de7c7/estival-0.2.6.tar.gz
+[2023-06-28 05:02:54] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: executing diffoscope
+[2023-06-28 05:02:54] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_commission_product_criteria-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_sale_commission_product_criteria-14.0.1.0.2.dev5-py3-none-any.whl.zip --markdown 20230628/o/odoo14-addon-sale-commission-product-criteria/14.0.1.0.2.dev3-14.0.1.0.2.dev5/diff.md --exclude *.pyd
+[2023-06-28 05:02:54] INFO root fetch - processPackages [fast-brainfuck]: Downloading https://files.pythonhosted.org/packages/51/6c/71d301a4285c51f6fe169dcb77a08f6a330ac6198b65831b56790a5e0105/fast-brainfuck-2.0.1.tar.gz
+[2023-06-28 05:02:54] INFO root fetch - processPackages [scratch-getdata]: Downloading https://files.pythonhosted.org/packages/d2/93/878c2978cf485378751ca2a440d0e077d6774cf36387271885385f5e1c67/scratch-getdata-1.0.3.tar.gz
+[2023-06-28 05:02:54] INFO root fetch - processPackages [tellosync]: Downloading https://files.pythonhosted.org/packages/51/7f/b911e2f6c00ff65a883ad3402c2cc97d07b245dffe429a38f6b4cf35ebfc/tellosync-0.0.4.tar.gz
+[2023-06-28 05:02:54] INFO root fetch - processPackages [estival]: Downloading https://files.pythonhosted.org/packages/3d/2c/a023b18e9b59e60cd7dfd274f093049ddf38c699f0932d3690c7e54749c9/estival-0.3.0.tar.gz
+[2023-06-28 05:02:54] INFO root fetch - processPackages [fast-brainfuck]: executing diffoscope
+[2023-06-28 05:02:54] INFO root fetch - processPackages [fast-brainfuck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-brainfuck-2.0.0.tar.gz tmp/fast-brainfuck-2.0.1.tar.gz --markdown 20230628/f/fast-brainfuck/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-28 05:02:54] INFO root fetch - processPackages [scratch-getdata]: executing diffoscope
+[2023-06-28 05:02:54] INFO root fetch - processPackages [scratch-getdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratch-getdata-1.0.2.tar.gz tmp/scratch-getdata-1.0.3.tar.gz --markdown 20230628/s/scratch-getdata/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-28 05:02:54] INFO root fetch - processPackages [estival]: executing diffoscope
+[2023-06-28 05:02:54] INFO root fetch - processPackages [estival]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estival-0.2.6.tar.gz tmp/estival-0.3.0.tar.gz --markdown 20230628/e/estival/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-06-28 05:02:54] INFO root fetch - processPackages [tellosync]: executing diffoscope
+[2023-06-28 05:02:54] INFO root fetch - processPackages [tellosync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tellosync-0.0.3.tar.gz tmp/tellosync-0.0.4.tar.gz --markdown 20230628/t/tellosync/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-28 05:02:54] INFO root fetch - processPackages [mobio-media-sdk]: Downloading https://files.pythonhosted.org/packages/8e/1f/b1bf8f1364efcd4c79f309221d07963aaef1060c92e6986a80996dce8e85/mobio-media-sdk-0.2.9.tar.gz
+[2023-06-28 05:02:54] INFO root fetch - processPackages [mobio-media-sdk]: executing diffoscope
+[2023-06-28 05:02:54] INFO root fetch - processPackages [mobio-media-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-media-sdk-0.2.8.tar.gz tmp/mobio-media-sdk-0.2.9.tar.gz --markdown 20230628/m/mobio-media-sdk/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-28 05:02:55] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_product_criteria-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2023-06-28 05:02:55] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_product_criteria-14.0.1.0.2.dev5-py3-none-any.whl.zip]
+[2023-06-28 05:02:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission-product-criteria]: success
+[2023-06-28 05:02:55] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-2.0.0.tar.gz]
+[2023-06-28 05:02:55] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-2.0.1.tar.gz]
+[2023-06-28 05:02:55] INFO root fetch - main [MainThread]: End processing [fast-brainfuck]: success
+[2023-06-28 05:02:55] INFO root fetch - processPackages [tellosync]: Remove: archive file [/home/abi/fetcher/tmp/tellosync-0.0.3.tar.gz]
+[2023-06-28 05:02:55] INFO root fetch - processPackages [tellosync]: Remove: archive file [/home/abi/fetcher/tmp/tellosync-0.0.4.tar.gz]
+[2023-06-28 05:02:55] INFO root fetch - main [MainThread]: End processing [tellosync]: success
+[2023-06-28 05:02:55] INFO root fetch - processPackages [estival]: Remove: archive file [/home/abi/fetcher/tmp/estival-0.2.6.tar.gz]
+[2023-06-28 05:02:55] INFO root fetch - processPackages [estival]: Remove: archive file [/home/abi/fetcher/tmp/estival-0.3.0.tar.gz]
+[2023-06-28 05:02:55] INFO root fetch - main [MainThread]: End processing [estival]: success
+[2023-06-28 05:02:56] INFO root fetch - processPackages [scratch-getdata]: Remove: archive file [/home/abi/fetcher/tmp/scratch-getdata-1.0.2.tar.gz]
+[2023-06-28 05:02:56] INFO root fetch - processPackages [scratch-getdata]: Remove: archive file [/home/abi/fetcher/tmp/scratch-getdata-1.0.3.tar.gz]
+[2023-06-28 05:02:56] INFO root fetch - main [MainThread]: End processing [scratch-getdata]: success
+[2023-06-28 05:02:56] INFO root fetch - processPackages [mobio-media-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio-media-sdk-0.2.8.tar.gz]
+[2023-06-28 05:02:56] INFO root fetch - processPackages [mobio-media-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio-media-sdk-0.2.9.tar.gz]
+[2023-06-28 05:02:56] INFO root fetch - main [MainThread]: End processing [mobio-media-sdk]: success
+[2023-06-28 05:02:56] INFO root fetch - main [MainThread]: Store serial: [18674055]
