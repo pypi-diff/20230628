@@ -15907,3 +15907,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 08:22:20] INFO root fetch - processPackages [datacube]: Remove: archive file [/home/abi/fetcher/tmp/datacube-1.8.9.tar.gz]
 [2023-06-28 08:22:20] INFO root fetch - main [MainThread]: End processing [datacube]: success
 [2023-06-28 08:22:20] INFO root fetch - main [MainThread]: Store serial: [18675136]
+[2023-06-28 08:27:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18675136]
+[2023-06-28 08:27:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-28 08:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nics
+[2023-06-28 08:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datalibro-utils
+[2023-06-28 08:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raga-testing-platform
+[2023-06-28 08:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-06-28 08:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trongrid-extractor
+[2023-06-28 08:27:29] INFO root fetch - processPackages [nics]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-28 08:27:29] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 08:27:29] INFO root fetch - processPackages [datalibro-utils]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-28 08:27:29] WARNING root fetch - processPackages [trongrid-extractor]: Skipping, unable to determine old version
+[2023-06-28 08:27:29] INFO root fetch - main [MainThread]: End processing [trongrid-extractor] error
+[2023-06-28 08:27:29] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-28 08:27:29] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-28 08:27:29] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-06-28 08:27:29] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/32/4f/e8f4bdd76e1184bbe68cbb0c6cb9a72ac09ce5d9e60e597538070daff230/nics-0.8.0.tar.gz
+[2023-06-28 08:27:29] INFO root fetch - processPackages [datalibro-utils]: Downloading https://files.pythonhosted.org/packages/5f/2d/b70a676595d222c59dd9d805c6e22b784c811568f7c5169afbe785ec6168/datalibro_utils-1.0.0.tar.gz
+[2023-06-28 08:27:30] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-28 08:27:30] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/28/c9/ed0dc845f3c9d1ea9e22bbba2eb22804f6e3ff99e5cc338469af7756eee5/nics-0.9.0.tar.gz
+[2023-06-28 08:27:30] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-28 08:27:30] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230628/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-28 08:27:30] INFO root fetch - processPackages [datalibro-utils]: Downloading https://files.pythonhosted.org/packages/94/11/eae2849f55b6a98db2dd5fa5358c0a87a09bc25dbb40cea99733d3cd4f16/datalibro_utils-1.0.1.tar.gz
+[2023-06-28 08:27:30] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-06-28 08:27:30] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-28 08:27:30] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-0.8.0.tar.gz tmp/nics-0.9.0.tar.gz --markdown 20230628/n/nics/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 08:27:30] INFO root fetch - processPackages [datalibro-utils]: executing diffoscope
+[2023-06-28 08:27:30] INFO root fetch - processPackages [datalibro-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalibro_utils-1.0.0.tar.gz tmp/datalibro_utils-1.0.1.tar.gz --markdown 20230628/d/datalibro-utils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-28 08:27:30] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-06-28 08:27:30] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230628/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 08:27:31] INFO root fetch - processPackages [datalibro-utils]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_utils-1.0.0.tar.gz]
+[2023-06-28 08:27:31] INFO root fetch - processPackages [datalibro-utils]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_utils-1.0.1.tar.gz]
+[2023-06-28 08:27:31] INFO root fetch - main [MainThread]: End processing [datalibro-utils]: success
+[2023-06-28 08:27:31] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.8.0.tar.gz]
+[2023-06-28 08:27:31] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.9.0.tar.gz]
+[2023-06-28 08:27:31] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-28 08:27:31] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-06-28 08:27:31] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-06-28 08:27:31] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-06-28 08:27:35] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-28 08:27:35] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-28 08:27:35] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-28 08:27:35] INFO root fetch - main [MainThread]: Store serial: [18675150]
