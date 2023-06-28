@@ -12820,3 +12820,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 04:13:30] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
 [2023-06-28 04:13:30] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
 [2023-06-28 04:13:30] INFO root fetch - main [MainThread]: Store serial: [18673747]
+[2023-06-28 04:18:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18673747]
+[2023-06-28 04:18:38] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-28 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TimeManager
+[2023-06-28 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: afmmech
+[2023-06-28 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-polardb
+[2023-06-28 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-us
+[2023-06-28 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfsd
+[2023-06-28 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dank-mids
+[2023-06-28 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: enfugue
+[2023-06-28 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mozartpy
+[2023-06-28 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aptosindexer
+[2023-06-28 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kfsd
+[2023-06-28 04:18:38] WARNING root fetch - processPackages [enfugue]: Skipping, unable to determine old version
+[2023-06-28 04:18:38] INFO root fetch - processPackages [enfugue]: Start processing: smart-chromadb
+[2023-06-28 04:18:38] INFO root fetch - main [MainThread]: End processing [enfugue] error
+[2023-06-28 04:18:38] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-28 04:18:39] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-28 04:18:39] WARNING root fetch - processPackages [afmmech]: Skipping, unable to determine old version
+[2023-06-28 04:18:39] INFO root fetch - main [MainThread]: End processing [afmmech] error
+[2023-06-28 04:18:39] INFO root fetch - processPackages [TimeManager]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-28 04:18:39] INFO root fetch - processPackages [mozartpy]: New version: [1.0.0rc1] Old Version: [1.0.0rc0]
+[2023-06-28 04:18:39] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 04:18:39] WARNING root fetch - processPackages [aptosindexer]: Skipping, unable to determine old version
+[2023-06-28 04:18:39] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-06-28 04:18:39] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 04:18:39] INFO root fetch - main [MainThread]: End processing [aptosindexer] error
+[2023-06-28 04:18:39] INFO root fetch - processPackages [smart-chromadb]: New version: [0.1.dev731] Old Version: [0.1.dev730]
+[2023-06-28 04:18:39] INFO root fetch - processPackages [policyengine-us]: New version: [0.342.0] Old Version: [0.341.0]
+[2023-06-28 04:18:39] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-06-28 04:18:39] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-06-28 04:18:39] INFO root fetch - processPackages [TimeManager]: Downloading https://files.pythonhosted.org/packages/6d/77/69d450ccc2823d99e47a9fc77fa0df88b5517ce92867255a2b32b4ef1c14/timemanager-1.0.2.tar.gz
+[2023-06-28 04:18:39] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-28 04:18:39] INFO root fetch - processPackages [mozartpy]: Downloading https://files.pythonhosted.org/packages/28/d8/99e9bc831c29bcf9a93d1ef525b6fa97227fa34c5b2834afc37f61019949/mozartpy-1.0.0rc0-py3-none-any.whl
+[2023-06-28 04:18:39] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-28 04:18:39] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230628/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-28 04:18:39] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/01/fe/f5790b8610dcb697110bfde0cee5a9b77c5d4fdda092e10ee9c36171477c/aliyun-python-sdk-polardb-1.8.8.tar.gz
+[2023-06-28 04:18:39] INFO root fetch - processPackages [smart-chromadb]: Downloading https://files.pythonhosted.org/packages/fd/68/6450dcf58672b793a75931974a6b7599dd8131b13debab864d46a05364aa/smart_chromadb-0.1.dev730.tar.gz
+[2023-06-28 04:18:39] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/d5/22/e8f0e53ed3c01e583ec401805abaca6e1859da1cba1fd4be7fa9ec59c6fd/policyengine-us-0.341.0.tar.gz
+[2023-06-28 04:18:39] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-06-28 04:18:39] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-06-28 04:18:39] INFO root fetch - processPackages [TimeManager]: Downloading https://files.pythonhosted.org/packages/43/9e/428f67c323c54179b20ca580b2aa38af417ca2315e034543fe8785e74b6a/timemanager-1.0.3.tar.gz
+[2023-06-28 04:18:39] WARNING root fetch - processPackages [mozartpy]: Skipping package: exceeds size limit 45625830>=10485760
+[2023-06-28 04:18:39] INFO root fetch - main [MainThread]: End processing [mozartpy] error
+[2023-06-28 04:18:39] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-06-28 04:18:39] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230628/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 04:18:39] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-06-28 04:18:39] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230628/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 04:18:39] INFO root fetch - processPackages [TimeManager]: executing diffoscope
+[2023-06-28 04:18:39] INFO root fetch - processPackages [TimeManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timemanager-1.0.2.tar.gz tmp/timemanager-1.0.3.tar.gz --markdown 20230628/T/TimeManager/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-28 04:18:39] INFO root fetch - processPackages [smart-chromadb]: Downloading https://files.pythonhosted.org/packages/7d/d7/df184e4d9bd8637adffc439496d4a3076fdb0558454f9d977c4e162c2020/smart_chromadb-0.1.dev731.tar.gz
+[2023-06-28 04:18:39] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/c7/b8/b6c0726678ba9008a558852027fe04242f7042814fed675906b14a28b0ed/policyengine-us-0.342.0.tar.gz
+[2023-06-28 04:18:39] INFO root fetch - processPackages [smart-chromadb]: executing diffoscope
+[2023-06-28 04:18:39] INFO root fetch - processPackages [smart-chromadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_chromadb-0.1.dev730.tar.gz tmp/smart_chromadb-0.1.dev731.tar.gz --markdown 20230628/s/smart-chromadb/0.1.dev730-0.1.dev731/diff.md --exclude *.pyd
+[2023-06-28 04:18:39] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/98/11/7b55beb702af2e9183edd5e70523b817de7c96f4f0e211ad727fd870afd2/aliyun-python-sdk-polardb-1.8.9.tar.gz
+[2023-06-28 04:18:40] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-28 04:18:40] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.341.0.tar.gz tmp/policyengine-us-0.342.0.tar.gz --markdown 20230628/p/policyengine-us/0.341.0-0.342.0/diff.md --exclude *.pyd
+[2023-06-28 04:18:40] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: executing diffoscope
+[2023-06-28 04:18:40] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz --markdown 20230628/a/aliyun-python-sdk-polardb/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-06-28 04:18:40] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-28 04:18:40] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-28 04:18:40] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-28 04:18:40] INFO root fetch - processPackages [TimeManager]: Remove: archive file [/home/abi/fetcher/tmp/timemanager-1.0.2.tar.gz]
+[2023-06-28 04:18:40] INFO root fetch - processPackages [TimeManager]: Remove: archive file [/home/abi/fetcher/tmp/timemanager-1.0.3.tar.gz]
+[2023-06-28 04:18:40] INFO root fetch - main [MainThread]: End processing [TimeManager]: success
+[2023-06-28 04:18:41] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz]
+[2023-06-28 04:18:41] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz]
+[2023-06-28 04:18:41] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-polardb]: success
+[2023-06-28 04:18:41] INFO root fetch - processPackages [smart-chromadb]: Remove: archive file [/home/abi/fetcher/tmp/smart_chromadb-0.1.dev730.tar.gz]
+[2023-06-28 04:18:41] INFO root fetch - processPackages [smart-chromadb]: Remove: archive file [/home/abi/fetcher/tmp/smart_chromadb-0.1.dev731.tar.gz]
+[2023-06-28 04:18:41] INFO root fetch - main [MainThread]: End processing [smart-chromadb]: success
+[2023-06-28 04:18:42] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-06-28 04:18:42] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-06-28 04:18:42] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-06-28 04:18:42] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-06-28 04:20:05] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.341.0.tar.gz]
+[2023-06-28 04:20:05] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.342.0.tar.gz]
+[2023-06-28 04:20:05] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-28 04:20:05] INFO root fetch - main [MainThread]: Store serial: [18673782]
