@@ -14991,3 +14991,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 07:05:33] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
 [2023-06-28 07:05:33] INFO root fetch - main [MainThread]: End processing [sdkit]: success
 [2023-06-28 07:05:33] INFO root fetch - main [MainThread]: Store serial: [18674658]
+[2023-06-28 07:10:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674658]
+[2023-06-28 07:10:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-28 07:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multi-model-server
+[2023-06-28 07:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tflite-model-maker-nightly
+[2023-06-28 07:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iqrfpy
+[2023-06-28 07:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-sale-order-partner-restrict
+[2023-06-28 07:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dask-cuda
+[2023-06-28 07:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyxrk
+[2023-06-28 07:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spark-sdk
+[2023-06-28 07:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tomwer
+[2023-06-28 07:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py3toolbox
+[2023-06-28 07:10:42] INFO root fetch - processPackages [py3toolbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 07:10:42] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-06-28 07:10:42] INFO root fetch - processPackages [odoo14-addon-sale-order-partner-restrict]: New version: [14.0.1.1.1.dev4] Old Version: [14.0.1.1.1.dev2]
+[2023-06-28 07:10:42] INFO root fetch - processPackages [spark-sdk]: New version: [0.4.9] Old Version: [0.4.22rc4]
+[2023-06-28 07:10:42] INFO root fetch - processPackages [pyxrk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-28 07:10:42] INFO root fetch - processPackages [tomwer]: New version: [1.2.0a1] Old Version: [1.2.0a0]
+[2023-06-28 07:10:42] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 07:10:42] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306270508] Old Version: [0.4.3.dev202306260507]
+[2023-06-28 07:10:42] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/e4/e6/6f1e77832ec5b71f6d0f65cfbec5c2f186703fac1a664626aea040325c7c/py3toolbox-0.1.8.tar.gz
+[2023-06-28 07:10:42] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230628] Old Version: [23.8.0a230627]
+[2023-06-28 07:10:42] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/b7/5f/e812275617185f777c7fce9c456eb51a907a7befdc183c6889e181172873/iqrfpy-0.1.8.tar.gz
+[2023-06-28 07:10:42] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/ea/05/f7659f55b9c009246e8c2f57e88043e6d887c9be5096268216b88a920a1a/tflite-model-maker-nightly-0.4.3.dev202306260507.tar.gz
+[2023-06-28 07:10:42] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/06/5a/3c50f83ab110e48ed9bc7ba81233e80d8342c97071ef5841ddcea8199df0/dask-cuda-23.8.0a230627.tar.gz
+[2023-06-28 07:10:42] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-28 07:10:42] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230628/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-28 07:10:42] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/55/e2/51deca77c72c63d2cf45e1e2662ae01f72e3bf6634c8491cb56d4ff29361/tomwer-1.2.0a0.tar.gz
+[2023-06-28 07:10:42] INFO root fetch - processPackages [odoo14-addon-sale-order-partner-restrict]: Downloading https://files.pythonhosted.org/packages/4b/75/acc9533fc0c1cd3fcc077870bdfaaaada63d483aa2d7b8eddc0168cced80/odoo14_addon_sale_order_partner_restrict-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-06-28 07:10:42] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/41/29/72266524f27b8d269968d6e56f404bf9639474f34081629c233bd83ed744/spark_sdk-0.4.22rc4-py3-none-any.whl
+[2023-06-28 07:10:42] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/25/6b/7f9865a1bedf9c30b0ba7956a568b97cc5dd18c9825e37d26c54ae28ed7d/py3toolbox-0.1.9.tar.gz
+[2023-06-28 07:10:42] INFO root fetch - processPackages [pyxrk]: Downloading https://files.pythonhosted.org/packages/2e/a2/1745d010db603bd146c133614108564bd77d68b7158b3a2a50903598c754/pyxrk-0.0.1.tar.gz
+[2023-06-28 07:10:42] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-06-28 07:10:42] INFO root fetch - processPackages [py3toolbox]: executing diffoscope
+[2023-06-28 07:10:42] INFO root fetch - processPackages [py3toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3toolbox-0.1.8.tar.gz tmp/py3toolbox-0.1.9.tar.gz --markdown 20230628/p/py3toolbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 07:10:42] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/5e/76/fae045f7c207704664d63ac61e66b7295e41e9028a096764a4ea911c61a0/dask-cuda-23.8.0a230628.tar.gz
+[2023-06-28 07:10:42] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/2b/db/000cd99ba6835c6e8c680e5e6c49aa14930064b7a11512a5fcbcae82a6e6/tflite-model-maker-nightly-0.4.3.dev202306270508.tar.gz
+[2023-06-28 07:10:42] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-06-28 07:10:42] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230628/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 07:10:42] INFO root fetch - processPackages [odoo14-addon-sale-order-partner-restrict]: Downloading https://files.pythonhosted.org/packages/15/05/bfe8decf5adda507e07a2d161bf7f6e5dc59f04ad0bfbbf473891867d655/odoo14_addon_sale_order_partner_restrict-14.0.1.1.1.dev4-py3-none-any.whl
+[2023-06-28 07:10:42] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/78/ef/a94fc9e735951687c8ae5c09971b47a197f864afe848bd3c4ada1591b88a/spark_sdk-0.4.9-py3-none-any.whl
+[2023-06-28 07:10:42] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-28 07:10:42] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306260507.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306270508.tar.gz --markdown 20230628/t/tflite-model-maker-nightly/0.4.3.dev202306260507-0.4.3.dev202306270508/diff.md --exclude *.pyd
+[2023-06-28 07:10:43] INFO root fetch - processPackages [odoo14-addon-sale-order-partner-restrict]: executing diffoscope
+[2023-06-28 07:10:43] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/9c/a6/94383f8fefff438a708de6a15de54cdf27095e019093eba700e8d3150b0f/tomwer-1.2.0a1.tar.gz
+[2023-06-28 07:10:43] INFO root fetch - processPackages [odoo14-addon-sale-order-partner-restrict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_partner_restrict-14.0.1.1.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_partner_restrict-14.0.1.1.1.dev4-py3-none-any.whl.zip --markdown 20230628/o/odoo14-addon-sale-order-partner-restrict/14.0.1.1.1.dev2-14.0.1.1.1.dev4/diff.md --exclude *.pyd
+[2023-06-28 07:10:43] INFO root fetch - processPackages [spark-sdk]: executing diffoscope
+[2023-06-28 07:10:43] INFO root fetch - processPackages [spark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sdk-0.4.22rc4-py3-none-any.whl.zip tmp/spark_sdk-0.4.9-py3-none-any.whl.zip --markdown 20230628/s/spark-sdk/0.4.22rc4-0.4.9/diff.md --exclude *.pyd
+[2023-06-28 07:10:43] INFO root fetch - processPackages [pyxrk]: Downloading https://files.pythonhosted.org/packages/2f/c8/e8d1c3a0842ae1a840db437cb1aaae342e766522a69ac981405af9e67f59/pyxrk-0.0.2.tar.gz
+[2023-06-28 07:10:43] INFO root fetch - processPackages [tomwer]: executing diffoscope
+[2023-06-28 07:10:43] INFO root fetch - processPackages [tomwer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomwer-1.2.0a0.tar.gz tmp/tomwer-1.2.0a1.tar.gz --markdown 20230628/t/tomwer/1.2.0a0-1.2.0a1/diff.md --exclude *.pyd
+[2023-06-28 07:10:43] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-28 07:10:43] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230627.tar.gz tmp/dask-cuda-23.8.0a230628.tar.gz --markdown 20230628/d/dask-cuda/23.8.0a230627-23.8.0a230628/diff.md --exclude *.pyd
+[2023-06-28 07:10:43] INFO root fetch - processPackages [pyxrk]: executing diffoscope
+[2023-06-28 07:10:43] INFO root fetch - processPackages [pyxrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxrk-0.0.1.tar.gz tmp/pyxrk-0.0.2.tar.gz --markdown 20230628/p/pyxrk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-28 07:10:44] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.8.tar.gz]
+[2023-06-28 07:10:44] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.9.tar.gz]
+[2023-06-28 07:10:44] INFO root fetch - main [MainThread]: End processing [py3toolbox]: success
+[2023-06-28 07:10:44] INFO root fetch - processPackages [odoo14-addon-sale-order-partner-restrict]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_partner_restrict-14.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-06-28 07:10:44] INFO root fetch - processPackages [odoo14-addon-sale-order-partner-restrict]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_partner_restrict-14.0.1.1.1.dev4-py3-none-any.whl.zip]
+[2023-06-28 07:10:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-partner-restrict]: success
+[2023-06-28 07:10:44] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.22rc4-py3-none-any.whl.zip]
+[2023-06-28 07:10:44] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.9-py3-none-any.whl.zip]
+[2023-06-28 07:10:44] INFO root fetch - main [MainThread]: End processing [spark-sdk]: success
+[2023-06-28 07:10:44] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230627.tar.gz]
+[2023-06-28 07:10:44] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230628.tar.gz]
+[2023-06-28 07:10:44] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-28 07:10:45] INFO root fetch - processPackages [pyxrk]: Remove: archive file [/home/abi/fetcher/tmp/pyxrk-0.0.1.tar.gz]
+[2023-06-28 07:10:45] INFO root fetch - processPackages [pyxrk]: Remove: archive file [/home/abi/fetcher/tmp/pyxrk-0.0.2.tar.gz]
+[2023-06-28 07:10:45] INFO root fetch - main [MainThread]: End processing [pyxrk]: success
+[2023-06-28 07:10:46] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.8.tar.gz]
+[2023-06-28 07:10:46] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.9.tar.gz]
+[2023-06-28 07:10:46] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-06-28 07:10:48] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306260507.tar.gz]
+[2023-06-28 07:10:48] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306270508.tar.gz]
+[2023-06-28 07:10:48] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-28 07:10:54] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.2.0a0.tar.gz]
+[2023-06-28 07:10:54] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.2.0a1.tar.gz]
+[2023-06-28 07:10:54] INFO root fetch - main [MainThread]: End processing [tomwer]: success
+[2023-06-28 07:13:42] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-28 07:13:42] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-28 07:13:42] INFO root fetch - main [MainThread]: Store serial: [18674699]
