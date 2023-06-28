@@ -15528,3 +15528,85 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 07:55:46] INFO root fetch - processPackages [yangsuite-gnmi]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_gnmi-2.7.8-py3-none-any.whl.zip]
 [2023-06-28 07:55:46] INFO root fetch - main [MainThread]: End processing [yangsuite-gnmi]: success
 [2023-06-28 07:55:46] INFO root fetch - main [MainThread]: Store serial: [18674973]
+[2023-06-28 08:00:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674973]
+[2023-06-28 08:00:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-28 08:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sora-sdk
+[2023-06-28 08:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ttqakit
+[2023-06-28 08:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: superannotate-databricks-connector
+[2023-06-28 08:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: noiseflow
+[2023-06-28 08:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloud-governance
+[2023-06-28 08:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yangsuite
+[2023-06-28 08:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qlytix-pack
+[2023-06-28 08:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netbox-inventory
+[2023-06-28 08:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-cloud-storages
+[2023-06-28 08:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sj-tool
+[2023-06-28 08:00:57] INFO root fetch - processPackages [sora-sdk]: New version: [2023.1.2.dev0] Old Version: [2023.1.1]
+[2023-06-28 08:00:57] WARNING root fetch - processPackages [ttqakit]: Skipping, unable to determine old version
+[2023-06-28 08:00:57] INFO root fetch - processPackages [ttqakit]: Start processing: yangsuite-coverage
+[2023-06-28 08:00:57] INFO root fetch - main [MainThread]: End processing [ttqakit] error
+[2023-06-28 08:00:57] INFO root fetch - processPackages [superannotate-databricks-connector]: New version: [0.0.1.dev2] Old Version: [0.0.1.dev1]
+[2023-06-28 08:00:57] WARNING root fetch - processPackages [qlytix-pack]: Skipping, unable to determine old version
+[2023-06-28 08:00:57] INFO root fetch - processPackages [django-cloud-storages]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-28 08:00:57] INFO root fetch - processPackages [yangsuite]: New version: [2.9.9] Old Version: [2.9.8.post0.dev8]
+[2023-06-28 08:00:57] INFO root fetch - processPackages [noiseflow]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-06-28 08:00:57] INFO root fetch - processPackages [netbox-inventory]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-28 08:00:57] INFO root fetch - main [MainThread]: End processing [qlytix-pack] error
+[2023-06-28 08:00:57] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 08:00:57] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-28 08:00:58] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-06-28 08:00:58] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-06-28 08:00:58] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/0c/f3/5d732e796fd21abcd66ff9461967dc238efece472e84ad425157309686dd/noiseflow-0.0.1a1.tar.gz
+[2023-06-28 08:00:58] INFO root fetch - processPackages [yangsuite-coverage]: New version: [3.0.9.post0.dev2] Old Version: [3.0.9]
+[2023-06-28 08:00:58] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/85/52/034654f14720116eeb5fef0809550fd712bd0cd84970b602b45f8f0f868f/django_cloud_storages-0.1.2.tar.gz
+[2023-06-28 08:00:58] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/f9/45/1ebe27219be51426bf77ea64377401f535f441b2b625988b249661adc836/sora_sdk-2023.1.1.tar.gz
+[2023-06-28 08:00:58] INFO root fetch - processPackages [superannotate-databricks-connector]: Downloading https://files.pythonhosted.org/packages/fc/32/c9fa8e7325bbe354464adf200e4146b0b9c5cf19d87f12544f0a83c53deb/superannotate_databricks_connector-0.0.1.dev1.tar.gz
+[2023-06-28 08:00:58] INFO root fetch - processPackages [netbox-inventory]: Downloading https://files.pythonhosted.org/packages/fe/99/8c48681c5538eaf791d9ea9dd488102cfe102e2b0d2e8035a6b3ea1958fe/netbox-inventory-1.3.2.tar.gz
+[2023-06-28 08:00:58] INFO root fetch - processPackages [yangsuite]: Downloading https://files.pythonhosted.org/packages/e8/b8/7f02e283a84cfc303c186b9be837b75fa32b1c783cf33ab85c52db9fa3e2/yangsuite-2.9.8.post0.dev8-py3-none-any.whl
+[2023-06-28 08:00:58] WARNING root fetch - processPackages [sora-sdk]: Skipping package: exceeds size limit 11007960>=10485760
+[2023-06-28 08:00:58] INFO root fetch - main [MainThread]: End processing [sora-sdk] error
+[2023-06-28 08:00:58] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-06-28 08:00:58] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-06-28 08:00:58] INFO root fetch - processPackages [yangsuite-coverage]: Downloading https://files.pythonhosted.org/packages/d0/9b/c0f963d3535b117eef30800b9dfdf490325376b28d8fb0957c9fffa4f969/yangsuite_coverage-3.0.9-py3-none-any.whl
+[2023-06-28 08:00:58] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-28 08:00:58] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230628/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 08:00:58] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-06-28 08:00:58] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230628/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-28 08:00:58] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/a3/dd/ae60484e87a6261e27e25164e8c63287286957b50fbc176b23f8fa50bc98/noiseflow-0.0.1a2.tar.gz
+[2023-06-28 08:00:58] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/e0/87/23d1efaf181e2a34f2578083857e33f63dc05a1fb93e738633c3c2a1ebca/django_cloud_storages-0.1.3.tar.gz
+[2023-06-28 08:00:58] WARNING root fetch - processPackages [yangsuite-coverage]: Skipping package: exceeds size limit 14794051>=10485760
+[2023-06-28 08:00:58] INFO root fetch - main [MainThread]: End processing [yangsuite-coverage] error
+[2023-06-28 08:00:58] INFO root fetch - processPackages [netbox-inventory]: Downloading https://files.pythonhosted.org/packages/39/39/0ff788293e6200a87736db631b40331eea14a992025fda53a21af64834ba/netbox-inventory-1.3.3.tar.gz
+[2023-06-28 08:00:58] INFO root fetch - processPackages [superannotate-databricks-connector]: Downloading https://files.pythonhosted.org/packages/37/15/061f0f85917dd124ad2bf3dc587655a1427cf284fa249c33e24990270cba/superannotate_databricks_connector-0.0.1.dev2.tar.gz
+[2023-06-28 08:00:58] INFO root fetch - processPackages [netbox-inventory]: executing diffoscope
+[2023-06-28 08:00:58] INFO root fetch - processPackages [netbox-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-inventory-1.3.2.tar.gz tmp/netbox-inventory-1.3.3.tar.gz --markdown 20230628/n/netbox-inventory/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-28 08:00:58] INFO root fetch - processPackages [superannotate-databricks-connector]: executing diffoscope
+[2023-06-28 08:00:58] INFO root fetch - processPackages [superannotate-databricks-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superannotate_databricks_connector-0.0.1.dev1.tar.gz tmp/superannotate_databricks_connector-0.0.1.dev2.tar.gz --markdown 20230628/s/superannotate-databricks-connector/0.0.1.dev1-0.0.1.dev2/diff.md --exclude *.pyd
+[2023-06-28 08:00:58] INFO root fetch - processPackages [noiseflow]: executing diffoscope
+[2023-06-28 08:00:58] INFO root fetch - processPackages [noiseflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noiseflow-0.0.1a1.tar.gz tmp/noiseflow-0.0.1a2.tar.gz --markdown 20230628/n/noiseflow/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-06-28 08:00:58] INFO root fetch - processPackages [django-cloud-storages]: executing diffoscope
+[2023-06-28 08:00:58] INFO root fetch - processPackages [django-cloud-storages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloud_storages-0.1.2.tar.gz tmp/django_cloud_storages-0.1.3.tar.gz --markdown 20230628/d/django-cloud-storages/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-28 08:00:59] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-06-28 08:00:59] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-06-28 08:00:59] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-06-28 08:00:59] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-0.1.2.tar.gz]
+[2023-06-28 08:00:59] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-0.1.3.tar.gz]
+[2023-06-28 08:00:59] INFO root fetch - main [MainThread]: End processing [django-cloud-storages]: success
+[2023-06-28 08:00:59] INFO root fetch - processPackages [superannotate-databricks-connector]: Remove: archive file [/home/abi/fetcher/tmp/superannotate_databricks_connector-0.0.1.dev1.tar.gz]
+[2023-06-28 08:00:59] INFO root fetch - processPackages [superannotate-databricks-connector]: Remove: archive file [/home/abi/fetcher/tmp/superannotate_databricks_connector-0.0.1.dev2.tar.gz]
+[2023-06-28 08:00:59] INFO root fetch - main [MainThread]: End processing [superannotate-databricks-connector]: success
+[2023-06-28 08:01:00] INFO root fetch - processPackages [netbox-inventory]: Remove: archive file [/home/abi/fetcher/tmp/netbox-inventory-1.3.2.tar.gz]
+[2023-06-28 08:01:00] INFO root fetch - processPackages [netbox-inventory]: Remove: archive file [/home/abi/fetcher/tmp/netbox-inventory-1.3.3.tar.gz]
+[2023-06-28 08:01:00] INFO root fetch - main [MainThread]: End processing [netbox-inventory]: success
+[2023-06-28 08:01:00] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-06-28 08:01:00] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-06-28 08:01:00] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-06-28 08:01:00] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.1a1.tar.gz]
+[2023-06-28 08:01:00] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.1a2.tar.gz]
+[2023-06-28 08:01:00] INFO root fetch - main [MainThread]: End processing [noiseflow]: success
+[2023-06-28 08:01:00] INFO root fetch - processPackages [yangsuite]: Downloading https://files.pythonhosted.org/packages/8c/e2/9f4a3cadfdfd2adfda81faf4cac3e1c9f150f6669ce547a7329eb3339960/yangsuite-2.9.9-py3-none-any.whl
+[2023-06-28 08:01:02] INFO root fetch - processPackages [yangsuite]: executing diffoscope
+[2023-06-28 08:01:02] INFO root fetch - processPackages [yangsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite-2.9.8.post0.dev8-py3-none-any.whl.zip tmp/yangsuite-2.9.9-py3-none-any.whl.zip --markdown 20230628/y/yangsuite/2.9.8.post0.dev8-2.9.9/diff.md --exclude *.pyd
+[2023-06-28 08:01:11] INFO root fetch - processPackages [yangsuite]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite-2.9.8.post0.dev8-py3-none-any.whl.zip]
+[2023-06-28 08:01:11] INFO root fetch - processPackages [yangsuite]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite-2.9.9-py3-none-any.whl.zip]
+[2023-06-28 08:01:11] INFO root fetch - main [MainThread]: End processing [yangsuite]: success
+[2023-06-28 08:01:11] INFO root fetch - main [MainThread]: Store serial: [18675028]
