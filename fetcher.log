@@ -17988,3 +17988,156 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 09:56:25] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
 [2023-06-28 09:56:25] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-06-28 09:56:25] INFO root fetch - main [MainThread]: Store serial: [18675900]
+[2023-06-28 10:01:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18675900]
+[2023-06-28 10:01:35] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-28 10:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-purchase-open-qty
+[2023-06-28 10:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: few-shot-priming
+[2023-06-28 10:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlalchemy-pagination-fastapi
+[2023-06-28 10:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: port4me
+[2023-06-28 10:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: indykite-sdk-python
+[2023-06-28 10:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tweeterpy
+[2023-06-28 10:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kidash
+[2023-06-28 10:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: few-shot-priming
+[2023-06-28 10:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grimoirelab-toolkit
+[2023-06-28 10:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-sonarqube-api
+[2023-06-28 10:01:35] WARNING root fetch - processPackages [sqlalchemy-pagination-fastapi]: Skipping, unable to determine old version
+[2023-06-28 10:01:35] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Start processing: qontract-reconcile
+[2023-06-28 10:01:35] INFO root fetch - main [MainThread]: End processing [sqlalchemy-pagination-fastapi] error
+[2023-06-28 10:01:35] INFO root fetch - processPackages [python-sonarqube-api]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-28 10:01:35] INFO root fetch - processPackages [grimoirelab-toolkit]: New version: [0.3.5rc1] Old Version: [0.3.5]
+[2023-06-28 10:01:35] INFO root fetch - processPackages [kidash]: New version: [0.5.7rc1] Old Version: [0.5.7]
+[2023-06-28 10:01:35] INFO root fetch - processPackages [port4me]: New version: [0.5.1.post9002] Old Version: [0.5.1.post9001]
+[2023-06-28 10:01:35] INFO root fetch - processPackages [odoo-addon-purchase-open-qty]: New version: [16.0.2.0.1.2] Old Version: [15.0.2.0.1]
+[2023-06-28 10:01:35] INFO root fetch - processPackages [indykite-sdk-python]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-28 10:01:35] INFO root fetch - processPackages [tweeterpy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-28 10:01:35] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-28 10:01:35] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-28 10:01:35] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-28 10:01:35] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-28 10:01:35] INFO root fetch - processPackages [port4me]: Downloading https://files.pythonhosted.org/packages/86/3b/88b1f1423ebf6ee6420f5ab176078fa8667456e15e82e521a0eec7663fcd/port4me-0.5.1.post9001.tar.gz
+[2023-06-28 10:01:35] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-28 10:01:35] INFO root fetch - processPackages [python-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/6d/59/fd46037d7360d471359c94d381463d2b0d81c1dbb7d5320c11c4e82f8015/python-sonarqube-api-2.0.2.tar.gz
+[2023-06-28 10:01:35] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-28 10:01:35] INFO root fetch - processPackages [grimoirelab-toolkit]: Downloading https://files.pythonhosted.org/packages/28/28/62206ec8114199ce9e151faf9f1fdf54d5e849c02a506f5bbb7984082776/grimoirelab_toolkit-0.3.5.tar.gz
+[2023-06-28 10:01:35] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/cd/dc/440ea155155f2669ee5e109d5d269a80575823c1762dffc616cc90e2c808/kidash-0.5.7.tar.gz
+[2023-06-28 10:01:35] INFO root fetch - processPackages [tweeterpy]: Downloading https://files.pythonhosted.org/packages/0a/8c/a5d6a8548373d068ddac5a0bb53b77d7914fa27be85647fed5193e7c0be4/tweeterpy-0.0.4.tar.gz
+[2023-06-28 10:01:35] INFO root fetch - processPackages [odoo-addon-purchase-open-qty]: Downloading https://files.pythonhosted.org/packages/0b/45/830381ef7dbe5d8b2dded9f9bd64e3849675ca35b9ae653edf9ff6375b66/odoo_addon_purchase_open_qty-15.0.2.0.1-py3-none-any.whl
+[2023-06-28 10:01:35] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/50/f3/0a2a0a7f8486f219a6a319ede3c2de5288cb2e115cd7139571b4cd724d82/indykite-sdk-python-1.8.0.tar.gz
+[2023-06-28 10:01:35] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-28 10:01:35] INFO root fetch - processPackages [python-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/57/d2/d078a79968aafb83d3ee88bb888bfe61c44d10aef680fb93cff4bde57d01/python-sonarqube-api-2.0.3.tar.gz
+[2023-06-28 10:01:35] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-28 10:01:35] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-28 10:01:35] INFO root fetch - processPackages [port4me]: Downloading https://files.pythonhosted.org/packages/df/5f/61827ee34f0bff1538d20e99096227718fad08ab3af997d21d018fbedc45/port4me-0.5.1.post9002.tar.gz
+[2023-06-28 10:01:35] INFO root fetch - processPackages [python-sonarqube-api]: executing diffoscope
+[2023-06-28 10:01:35] INFO root fetch - processPackages [python-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sonarqube-api-2.0.2.tar.gz tmp/python-sonarqube-api-2.0.3.tar.gz --markdown 20230628/p/python-sonarqube-api/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-28 10:01:35] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-28 10:01:35] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-28 10:01:35] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230628/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 10:01:35] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230628/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 10:01:35] INFO root fetch - processPackages [tweeterpy]: Downloading https://files.pythonhosted.org/packages/f8/80/306565a17328f36c75875b47d8a29a0c04da9ff138ed7c0b185aa7144501/tweeterpy-0.0.5.tar.gz
+[2023-06-28 10:01:35] INFO root fetch - processPackages [port4me]: executing diffoscope
+[2023-06-28 10:01:35] INFO root fetch - processPackages [port4me]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port4me-0.5.1.post9001.tar.gz tmp/port4me-0.5.1.post9002.tar.gz --markdown 20230628/p/port4me/0.5.1.post9001-0.5.1.post9002/diff.md --exclude *.pyd
+[2023-06-28 10:01:35] INFO root fetch - processPackages [odoo-addon-purchase-open-qty]: Downloading https://files.pythonhosted.org/packages/55/95/c21982bcb7d747d0efeb594953757615cbedccf8f002d6cb6313b1b2e083/odoo_addon_purchase_open_qty-16.0.2.0.1.2-py3-none-any.whl
+[2023-06-28 10:01:35] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-28 10:01:35] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230628/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-28 10:01:35] INFO root fetch - processPackages [grimoirelab-toolkit]: Downloading https://files.pythonhosted.org/packages/4e/c8/a413bcb9c3e9f64cd25f1b1ec51b060e02dd4036facc8e93388f9a8b6e64/grimoirelab_toolkit-0.3.5rc1.tar.gz
+[2023-06-28 10:01:35] INFO root fetch - processPackages [tweeterpy]: executing diffoscope
+[2023-06-28 10:01:35] INFO root fetch - processPackages [tweeterpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweeterpy-0.0.4.tar.gz tmp/tweeterpy-0.0.5.tar.gz --markdown 20230628/t/tweeterpy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-28 10:01:35] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/1d/24/d3c0f1913c780f3c300d6d0606ce03543a97b03f19a6fc0be3c53e1b8774/indykite-sdk-python-1.9.0.tar.gz
+[2023-06-28 10:01:35] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/86/cb/52964106ec325c958254156859c58159c97f0d6401c101168043e7ce085c/kidash-0.5.7rc1.tar.gz
+[2023-06-28 10:01:35] INFO root fetch - processPackages [odoo-addon-purchase-open-qty]: executing diffoscope
+[2023-06-28 10:01:35] INFO root fetch - processPackages [odoo-addon-purchase-open-qty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_open_qty-15.0.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_purchase_open_qty-16.0.2.0.1.2-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-purchase-open-qty/15.0.2.0.1-16.0.2.0.1.2/diff.md --exclude *.pyd
+[2023-06-28 10:01:35] INFO root fetch - processPackages [grimoirelab-toolkit]: executing diffoscope
+[2023-06-28 10:01:35] INFO root fetch - processPackages [grimoirelab-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoirelab_toolkit-0.3.5.tar.gz tmp/grimoirelab_toolkit-0.3.5rc1.tar.gz --markdown 20230628/g/grimoirelab-toolkit/0.3.5-0.3.5rc1/diff.md --exclude *.pyd
+[2023-06-28 10:01:35] INFO root fetch - processPackages [kidash]: executing diffoscope
+[2023-06-28 10:01:35] INFO root fetch - processPackages [kidash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kidash-0.5.7.tar.gz tmp/kidash-0.5.7rc1.tar.gz --markdown 20230628/k/kidash/0.5.7-0.5.7rc1/diff.md --exclude *.pyd
+[2023-06-28 10:01:35] INFO root fetch - processPackages [indykite-sdk-python]: executing diffoscope
+[2023-06-28 10:01:35] INFO root fetch - processPackages [indykite-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indykite-sdk-python-1.8.0.tar.gz tmp/indykite-sdk-python-1.9.0.tar.gz --markdown 20230628/i/indykite-sdk-python/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-28 10:01:37] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [few-shot-priming]: Start processing: sj-tool
+[2023-06-28 10:01:37] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-28 10:01:37] INFO root fetch - processPackages [few-shot-priming]: Start processing: few-shot-priming
+[2023-06-28 10:01:37] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-28 10:01:37] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-28 10:01:37] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-06-28 10:01:37] INFO root fetch - processPackages [grimoirelab-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab_toolkit-0.3.5.tar.gz]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [grimoirelab-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab_toolkit-0.3.5rc1.tar.gz]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [grimoirelab-toolkit]: Start processing: steamship
+[2023-06-28 10:01:37] INFO root fetch - main [MainThread]: End processing [grimoirelab-toolkit]: success
+[2023-06-28 10:01:37] INFO root fetch - processPackages [port4me]: Remove: archive file [/home/abi/fetcher/tmp/port4me-0.5.1.post9001.tar.gz]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [port4me]: Remove: archive file [/home/abi/fetcher/tmp/port4me-0.5.1.post9002.tar.gz]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [port4me]: Start processing: odoo-addon-website-crm-privacy-policy
+[2023-06-28 10:01:37] INFO root fetch - main [MainThread]: End processing [port4me]: success
+[2023-06-28 10:01:37] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-06-28 10:01:37] INFO root fetch - processPackages [tweeterpy]: Remove: archive file [/home/abi/fetcher/tmp/tweeterpy-0.0.4.tar.gz]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [tweeterpy]: Remove: archive file [/home/abi/fetcher/tmp/tweeterpy-0.0.5.tar.gz]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [tweeterpy]: Start processing: pyuftp
+[2023-06-28 10:01:37] INFO root fetch - main [MainThread]: End processing [tweeterpy]: success
+[2023-06-28 10:01:37] INFO root fetch - processPackages [kidash]: Remove: archive file [/home/abi/fetcher/tmp/kidash-0.5.7.tar.gz]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [kidash]: Remove: archive file [/home/abi/fetcher/tmp/kidash-0.5.7rc1.tar.gz]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [kidash]: Start processing: automation_rest_server
+[2023-06-28 10:01:37] INFO root fetch - main [MainThread]: End processing [kidash]: success
+[2023-06-28 10:01:37] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-28 10:01:37] INFO root fetch - processPackages [automation_rest_server]: New version: [3.8.2] Old Version: [3.8.1]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [odoo-addon-website-crm-privacy-policy]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.1.0.2]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-28 10:01:37] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230628/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 10:01:37] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/b8/9d/d1b6865e3ac1663cbb5cc24fe8e9083b62965dc2a81b98387373bd071444/automation_rest_server-3.8.1.tar.gz
+[2023-06-28 10:01:37] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-28 10:01:37] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230628/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 10:01:37] INFO root fetch - processPackages [pyuftp]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [odoo-addon-purchase-open-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_open_qty-15.0.2.0.1-py3-none-any.whl.zip]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [odoo-addon-purchase-open-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_open_qty-16.0.2.0.1.2-py3-none-any.whl.zip]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [odoo-addon-purchase-open-qty]: Start processing: few-shot-priming
+[2023-06-28 10:01:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-open-qty]: success
+[2023-06-28 10:01:37] INFO root fetch - processPackages [python-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/python-sonarqube-api-2.0.2.tar.gz]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [python-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/python-sonarqube-api-2.0.3.tar.gz]
+[2023-06-28 10:01:37] INFO root fetch - main [MainThread]: End processing [python-sonarqube-api]: success
+[2023-06-28 10:01:37] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/d5/9d/2e877493befc03aade673fa8cbf159f77955b8658f16d4b0e16ad0ab106f/steamship-2.3.8.tar.gz
+[2023-06-28 10:01:37] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-28 10:01:37] INFO root fetch - processPackages [odoo-addon-website-crm-privacy-policy]: Downloading https://files.pythonhosted.org/packages/16/7f/ff3fd9bc6698045f939ebe005bd074fe060a9cd68c2f4c91abf0f79c8fa6/odoo_addon_website_crm_privacy_policy-15.0.1.1.0.2-py3-none-any.whl
+[2023-06-28 10:01:37] INFO root fetch - processPackages [pyuftp]: Downloading https://files.pythonhosted.org/packages/8b/84/f82f47fc9b80912a010456413a3e423655ea4fceaaf8b77bedbbdcb811c3/pyuftp-0.0.4.tar.gz
+[2023-06-28 10:01:37] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/48/ab/3fed0f381ffa5c83dc8e8674ab7ca4132d445e68426fa67f885d1438f51c/automation_rest_server-3.8.2.tar.gz
+[2023-06-28 10:01:37] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-28 10:01:37] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230628/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 10:01:38] INFO root fetch - processPackages [automation_rest_server]: executing diffoscope
+[2023-06-28 10:01:38] INFO root fetch - processPackages [automation_rest_server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_rest_server-3.8.1.tar.gz tmp/automation_rest_server-3.8.2.tar.gz --markdown 20230628/a/automation_rest_server/3.8.1-3.8.2/diff.md --exclude *.pyd
+[2023-06-28 10:01:38] INFO root fetch - processPackages [odoo-addon-website-crm-privacy-policy]: Downloading https://files.pythonhosted.org/packages/c0/17/5ff83d737f66dab19b6045d46cd37e2efc9b6b4db7c1b2d415db221325a2/odoo_addon_website_crm_privacy_policy-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-28 10:01:38] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/8a/2c/45284b04a7bcb421510b1bbb2e3f826c87946551d954eb3a3cd6b481fe09/steamship-2.3.9.tar.gz
+[2023-06-28 10:01:38] INFO root fetch - processPackages [pyuftp]: Downloading https://files.pythonhosted.org/packages/ff/ea/5e7e49b54437b1fdd0b191439ac77a2d769ec8aa63d305e309c491d88c52/pyuftp-0.0.5.tar.gz
+[2023-06-28 10:01:38] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-06-28 10:01:38] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230628/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-28 10:01:38] INFO root fetch - processPackages [odoo-addon-website-crm-privacy-policy]: executing diffoscope
+[2023-06-28 10:01:38] INFO root fetch - processPackages [odoo-addon-website-crm-privacy-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_crm_privacy_policy-15.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_website_crm_privacy_policy-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-website-crm-privacy-policy/15.0.1.1.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-28 10:01:38] INFO root fetch - processPackages [pyuftp]: executing diffoscope
+[2023-06-28 10:01:38] INFO root fetch - processPackages [pyuftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuftp-0.0.4.tar.gz tmp/pyuftp-0.0.5.tar.gz --markdown 20230628/p/pyuftp/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-28 10:01:39] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-06-28 10:01:39] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-06-28 10:01:39] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-06-28 10:01:39] INFO root fetch - processPackages [indykite-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/indykite-sdk-python-1.8.0.tar.gz]
+[2023-06-28 10:01:39] INFO root fetch - processPackages [indykite-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/indykite-sdk-python-1.9.0.tar.gz]
+[2023-06-28 10:01:39] INFO root fetch - main [MainThread]: End processing [indykite-sdk-python]: success
+[2023-06-28 10:01:39] INFO root fetch - processPackages [odoo-addon-website-crm-privacy-policy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_crm_privacy_policy-15.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-06-28 10:01:39] INFO root fetch - processPackages [odoo-addon-website-crm-privacy-policy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_crm_privacy_policy-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-28 10:01:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-crm-privacy-policy]: success
+[2023-06-28 10:01:40] INFO root fetch - processPackages [pyuftp]: Remove: archive file [/home/abi/fetcher/tmp/pyuftp-0.0.4.tar.gz]
+[2023-06-28 10:01:40] INFO root fetch - processPackages [pyuftp]: Remove: archive file [/home/abi/fetcher/tmp/pyuftp-0.0.5.tar.gz]
+[2023-06-28 10:01:40] INFO root fetch - main [MainThread]: End processing [pyuftp]: success
+[2023-06-28 10:01:40] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-28 10:01:40] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-28 10:01:40] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-28 10:01:41] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-28 10:01:41] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-28 10:01:41] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-28 10:01:41] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-28 10:01:41] INFO root fetch - processPackages [automation_rest_server]: Remove: archive file [/home/abi/fetcher/tmp/automation_rest_server-3.8.1.tar.gz]
+[2023-06-28 10:01:41] INFO root fetch - processPackages [automation_rest_server]: Remove: archive file [/home/abi/fetcher/tmp/automation_rest_server-3.8.2.tar.gz]
+[2023-06-28 10:01:41] INFO root fetch - main [MainThread]: End processing [automation_rest_server]: success
+[2023-06-28 10:01:43] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.8.tar.gz]
+[2023-06-28 10:01:43] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.9.tar.gz]
+[2023-06-28 10:01:43] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-06-28 10:01:43] INFO root fetch - main [MainThread]: Store serial: [18675944]
