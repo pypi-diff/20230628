@@ -15240,3 +15240,97 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 07:29:26] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.9.tar.gz]
 [2023-06-28 07:29:26] INFO root fetch - main [MainThread]: End processing [vstutils]: success
 [2023-06-28 07:29:26] INFO root fetch - main [MainThread]: Store serial: [18674800]
+[2023-06-28 07:34:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674800]
+[2023-06-28 07:34:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-28 07:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BlitzChain
+[2023-06-28 07:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: allure-combine
+[2023-06-28 07:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addons-oca-stock-logistics-warehouse
+[2023-06-28 07:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gravitorch
+[2023-06-28 07:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipen-board
+[2023-06-28 07:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crazy-thursday
+[2023-06-28 07:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py3toolbox
+[2023-06-28 07:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-peewee-filter
+[2023-06-28 07:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-stock-reserve
+[2023-06-28 07:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-stock-move-location
+[2023-06-28 07:34:35] INFO root fetch - processPackages [gravitorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 07:34:35] INFO root fetch - processPackages [BlitzChain]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-28 07:34:35] INFO root fetch - processPackages [odoo-addon-stock-move-location]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2023-06-28 07:34:35] INFO root fetch - processPackages [odoo-addon-stock-reserve]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2023-06-28 07:34:35] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-warehouse]: New version: [13.0.20230627.1] Old Version: [13.0.20230518.0]
+[2023-06-28 07:34:35] WARNING root fetch - processPackages [fastapi-peewee-filter]: Skipping, unable to determine old version
+[2023-06-28 07:34:35] INFO root fetch - processPackages [fastapi-peewee-filter]: Start processing: py3toolbox
+[2023-06-28 07:34:35] INFO root fetch - main [MainThread]: End processing [fastapi-peewee-filter] error
+[2023-06-28 07:34:35] INFO root fetch - processPackages [allure-combine]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-28 07:34:35] INFO root fetch - processPackages [pipen-board]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-06-28 07:34:35] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.9.1] Old Version: [2023.6.9.0]
+[2023-06-28 07:34:35] INFO root fetch - processPackages [py3toolbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 07:34:35] INFO root fetch - processPackages [py3toolbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 07:34:35] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Downloading https://files.pythonhosted.org/packages/86/6f/767dd230b5aa79541f4d3f060b62c218f5b98722f2d1d3d6f53e47df7d96/odoo_addon_stock_move_location-16.0.1.2.0-py3-none-any.whl
+[2023-06-28 07:34:35] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/e4/e6/6f1e77832ec5b71f6d0f65cfbec5c2f186703fac1a664626aea040325c7c/py3toolbox-0.1.8.tar.gz
+[2023-06-28 07:34:35] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/b1/40/5829ec135b8688f4278ad96c53701edc59c7542d244da7fff625e9bf0586/crazy-thursday-2023.6.9.0.tar.gz
+[2023-06-28 07:34:36] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/e4/e6/6f1e77832ec5b71f6d0f65cfbec5c2f186703fac1a664626aea040325c7c/py3toolbox-0.1.8.tar.gz
+[2023-06-28 07:34:36] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/b5/d9/3b2fbbda93b9acadc12c752a3cc0a271aa2a1e138bdbdb3609cdebe2feb1/BlitzChain-0.2.4.tar.gz
+[2023-06-28 07:34:36] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/3c/eb/d596884cdb31e5198aa387878eb8ef895802e567d7d679b97f4a406e21ae/gravitorch-0.0.8.tar.gz
+[2023-06-28 07:34:36] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/8e/42/9059e257dba7aa12c05f08986a240a0550f298112d234bb6738bd0fbf595/pipen_board-0.7.5.tar.gz
+[2023-06-28 07:34:36] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/d8/37/b689fcf4c85870ac0a6e6dcb3513cc15e922dd8466187ba00cbaec962699/odoo13_addons_oca_stock_logistics_warehouse-13.0.20230518.0-py3-none-any.whl
+[2023-06-28 07:34:36] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/25/6b/7f9865a1bedf9c30b0ba7956a568b97cc5dd18c9825e37d26c54ae28ed7d/py3toolbox-0.1.9.tar.gz
+[2023-06-28 07:34:36] INFO root fetch - processPackages [allure-combine]: Downloading https://files.pythonhosted.org/packages/5f/e5/9f3811cff402085a153168d318dea9413482c39a6ccf91c814a116b75cb9/allure_combine-1.0.7.tar.gz
+[2023-06-28 07:34:36] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/5e/9d/4da02a3a3f23da194e2e84c3736bb6b6dddf3afa5ff453187cab26459381/crazy-thursday-2023.6.9.1.tar.gz
+[2023-06-28 07:34:36] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/1d/6b/9b0b018cea56a936a4c3ddde90472012fd32665730bad15aa6981f0388ae/odoo_addon_stock_reserve-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-28 07:34:36] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/25/6b/7f9865a1bedf9c30b0ba7956a568b97cc5dd18c9825e37d26c54ae28ed7d/py3toolbox-0.1.9.tar.gz
+[2023-06-28 07:34:36] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Downloading https://files.pythonhosted.org/packages/ac/0c/25d0c624bf20659dcbc77b1ed5b308fe2e4cf81b7c5083840992fbfc6b4b/odoo_addon_stock_move_location-16.0.1.2.0.1-py3-none-any.whl
+[2023-06-28 07:34:36] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-28 07:34:36] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.9.0.tar.gz tmp/crazy-thursday-2023.6.9.1.tar.gz --markdown 20230628/c/crazy-thursday/2023.6.9.0-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-28 07:34:36] INFO root fetch - processPackages [py3toolbox]: executing diffoscope
+[2023-06-28 07:34:36] INFO root fetch - processPackages [py3toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3toolbox-0.1.8.tar.gz tmp/py3toolbox-0.1.9.tar.gz --markdown 20230628/p/py3toolbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 07:34:36] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/0a/1e/1c556dc3bbc700766b3c244b64d8ceea22b538c1b2d739d8ec54cb203de4/BlitzChain-0.2.5.tar.gz
+[2023-06-28 07:34:36] INFO root fetch - processPackages [odoo-addon-stock-move-location]: executing diffoscope
+[2023-06-28 07:34:36] INFO root fetch - processPackages [odoo-addon-stock-move-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_move_location-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_stock_move_location-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-stock-move-location/16.0.1.2.0-16.0.1.2.0.1/diff.md --exclude *.pyd
+[2023-06-28 07:34:36] INFO root fetch - processPackages [py3toolbox]: executing diffoscope
+[2023-06-28 07:34:36] INFO root fetch - processPackages [py3toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3toolbox-0.1.8.tar.gz tmp/py3toolbox-0.1.9.tar.gz --markdown 20230628/p/py3toolbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 07:34:36] INFO root fetch - processPackages [BlitzChain]: executing diffoscope
+[2023-06-28 07:34:36] INFO root fetch - processPackages [BlitzChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlitzChain-0.2.4.tar.gz tmp/BlitzChain-0.2.5.tar.gz --markdown 20230628/B/BlitzChain/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-28 07:34:36] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/6c/f8/a0d5d83991ac8a5ea0d2246d31609c65dfc3e1c6d9e4357aa2df0687c1e2/odoo13_addons_oca_stock_logistics_warehouse-13.0.20230627.1-py3-none-any.whl
+[2023-06-28 07:34:36] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/d8/af/12bd29b316e1abfd4a89affc84ab78a2b03aaa0ebdf20315c6dc8c4c3886/gravitorch-0.0.9.tar.gz
+[2023-06-28 07:34:36] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/6f/d1/4d746154708bbbd748146b60715337b636fe5a48eafb76fb4c2ca338cfdd/odoo_addon_stock_reserve-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-28 07:34:36] INFO root fetch - processPackages [allure-combine]: Downloading https://files.pythonhosted.org/packages/01/71/9e8c58166d3769919faf8d56af787efe6dc2b0e35baa151939423dfff873/allure_combine-1.0.8.tar.gz
+[2023-06-28 07:34:36] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-warehouse]: executing diffoscope
+[2023-06-28 07:34:36] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-warehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_stock_logistics_warehouse-13.0.20230518.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_stock_logistics_warehouse-13.0.20230627.1-py3-none-any.whl.zip --markdown 20230628/o/odoo13-addons-oca-stock-logistics-warehouse/13.0.20230518.0-13.0.20230627.1/diff.md --exclude *.pyd
+[2023-06-28 07:34:36] INFO root fetch - processPackages [gravitorch]: executing diffoscope
+[2023-06-28 07:34:36] INFO root fetch - processPackages [gravitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitorch-0.0.8.tar.gz tmp/gravitorch-0.0.9.tar.gz --markdown 20230628/g/gravitorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 07:34:36] INFO root fetch - processPackages [odoo-addon-stock-reserve]: executing diffoscope
+[2023-06-28 07:34:36] INFO root fetch - processPackages [odoo-addon-stock-reserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_reserve-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_stock_reserve-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-stock-reserve/16.0.1.0.0.4-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-28 07:34:36] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/f5/c2/7b11d310b8542c73bd7ce9bb4809e14e8b1661172eaba0640425562c35c8/pipen_board-0.7.6.tar.gz
+[2023-06-28 07:34:36] INFO root fetch - processPackages [allure-combine]: executing diffoscope
+[2023-06-28 07:34:36] INFO root fetch - processPackages [allure-combine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allure_combine-1.0.7.tar.gz tmp/allure_combine-1.0.8.tar.gz --markdown 20230628/a/allure-combine/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-28 07:34:36] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-06-28 07:34:36] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.7.5.tar.gz tmp/pipen_board-0.7.6.tar.gz --markdown 20230628/p/pipen-board/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-06-28 07:34:37] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.0.tar.gz]
+[2023-06-28 07:34:37] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.1.tar.gz]
+[2023-06-28 07:34:37] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-28 07:34:38] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_location-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-28 07:34:38] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_location-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2023-06-28 07:34:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-location]: success
+[2023-06-28 07:34:38] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.8.tar.gz]
+[2023-06-28 07:34:38] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.9.tar.gz]
+[2023-06-28 07:34:38] INFO root fetch - main [MainThread]: End processing [py3toolbox]: success
+[2023-06-28 07:34:38] INFO root fetch - main [MainThread]: End processing [py3toolbox]: success
+[2023-06-28 07:34:38] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_stock_logistics_warehouse-13.0.20230518.0-py3-none-any.whl.zip]
+[2023-06-28 07:34:38] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_stock_logistics_warehouse-13.0.20230627.1-py3-none-any.whl.zip]
+[2023-06-28 07:34:38] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-stock-logistics-warehouse]: success
+[2023-06-28 07:34:38] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.2.4.tar.gz]
+[2023-06-28 07:34:38] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.2.5.tar.gz]
+[2023-06-28 07:34:38] INFO root fetch - main [MainThread]: End processing [BlitzChain]: success
+[2023-06-28 07:34:38] INFO root fetch - processPackages [allure-combine]: Remove: archive file [/home/abi/fetcher/tmp/allure_combine-1.0.7.tar.gz]
+[2023-06-28 07:34:38] INFO root fetch - processPackages [allure-combine]: Remove: archive file [/home/abi/fetcher/tmp/allure_combine-1.0.8.tar.gz]
+[2023-06-28 07:34:38] INFO root fetch - main [MainThread]: End processing [allure-combine]: success
+[2023-06-28 07:34:39] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_reserve-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-28 07:34:39] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_reserve-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-28 07:34:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-reserve]: success
+[2023-06-28 07:34:40] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.8.tar.gz]
+[2023-06-28 07:34:40] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
+[2023-06-28 07:34:40] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
+[2023-06-28 07:34:46] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.7.5.tar.gz]
+[2023-06-28 07:34:46] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.7.6.tar.gz]
+[2023-06-28 07:34:46] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-06-28 07:34:46] INFO root fetch - main [MainThread]: Store serial: [18674848]
