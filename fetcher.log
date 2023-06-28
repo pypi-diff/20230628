@@ -13361,3 +13361,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 04:47:05] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
 [2023-06-28 04:47:05] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-06-28 04:47:05] INFO root fetch - main [MainThread]: Store serial: [18673939]
+[2023-06-28 04:52:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18673939]
+[2023-06-28 04:52:21] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-28 04:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alphawave
+[2023-06-28 04:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparseSEM
+[2023-06-28 04:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-brainfuck
+[2023-06-28 04:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: radstar
+[2023-06-28 04:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mrlpy
+[2023-06-28 04:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rubi
+[2023-06-28 04:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-account-payment
+[2023-06-28 04:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybw-comic
+[2023-06-28 04:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scratch-getdata
+[2023-06-28 04:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-move-base-import
+[2023-06-28 04:52:21] INFO root fetch - processPackages [radstar]: New version: [0.1.0] Old Version: [0.0.231790245]
+[2023-06-28 04:52:21] INFO root fetch - processPackages [pybw-comic]: New version: [23.6.28.3] Old Version: [23.6.28.2]
+[2023-06-28 04:52:21] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/80/21/ca1cd502abe7c84e5b1ac469b3da8554f98b10ac795f8603869049f1b001/radstar-0.0.231790245.tar.gz
+[2023-06-28 04:52:21] INFO root fetch - processPackages [pybw-comic]: Downloading https://files.pythonhosted.org/packages/75/b9/28b0771e5e4c1105e2d8d3199f091f9cea61777f747745b41bf38635b20d/pybw_comic-23.6.28.2.tar.gz
+[2023-06-28 04:52:21] INFO root fetch - processPackages [alphawave]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-28 04:52:21] INFO root fetch - processPackages [sparseSEM]: New version: [2.0] Old Version: [1.1]
+[2023-06-28 04:52:21] INFO root fetch - processPackages [mrlpy]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-06-28 04:52:21] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.8]
+[2023-06-28 04:52:21] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: New version: [16.0.20230623.0] Old Version: [16.0.20230511.0]
+[2023-06-28 04:52:21] INFO root fetch - processPackages [scratch-getdata]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-06-28 04:52:21] INFO root fetch - processPackages [fast-brainfuck]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-28 04:52:21] INFO root fetch - processPackages [rubi]: New version: [2.0.5] Old Version: [2.0.4b1]
+[2023-06-28 04:52:21] INFO root fetch - processPackages [fast-brainfuck]: Downloading https://files.pythonhosted.org/packages/cc/6b/56bd8ff49911896b8993c7cf60acba8d42b2212b8981dfc2053e28b0336c/fast-brainfuck-1.0.7.tar.gz
+[2023-06-28 04:52:21] INFO root fetch - processPackages [pybw-comic]: Downloading https://files.pythonhosted.org/packages/50/a8/7c66efb41538595d74f27d15ba3836ed412669faff8c0ffb3a2a9cb12343/pybw_comic-23.6.28.3.tar.gz
+[2023-06-28 04:52:21] INFO root fetch - processPackages [mrlpy]: Downloading https://files.pythonhosted.org/packages/ae/65/4f2a46f4f736cd161f89e07cb57f67196cc91e93c6ec7fd14ed7f0d50fc7/mrlpy-0.3.0.tar.gz
+[2023-06-28 04:52:21] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/20/03/1113710eb36a03122fd1a6294278526f2b06157ac6adcade8268a28e6483/radstar-0.1.0-py3-none-any.whl
+[2023-06-28 04:52:21] INFO root fetch - processPackages [scratch-getdata]: Downloading https://files.pythonhosted.org/packages/a9/d3/7191e65ef2fd87134bf620083bbf1a7610d2ef5bf0cf1e12ccb545b7627c/scratch-getdata-1.0.0.tar.gz
+[2023-06-28 04:52:21] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/83/0c/0205697e990424ea6ec3ec2354f744e122cff91a4ccc6261e226960de0e3/alphawave-0.2.9.tar.gz
+[2023-06-28 04:52:21] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: Downloading https://files.pythonhosted.org/packages/5d/42/08bd96b487fe09c67c91a563b3c3a490d09c017512ad2e7d9517c636386c/odoo_addons_oca_account_payment-16.0.20230511.0-py3-none-any.whl
+[2023-06-28 04:52:21] INFO root fetch - processPackages [pybw-comic]: executing diffoscope
+[2023-06-28 04:52:21] INFO root fetch - processPackages [pybw-comic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybw_comic-23.6.28.2.tar.gz tmp/pybw_comic-23.6.28.3.tar.gz --markdown 20230628/p/pybw-comic/23.6.28.2-23.6.28.3/diff.md --exclude *.pyd
+[2023-06-28 04:52:21] INFO root fetch - processPackages [sparseSEM]: Downloading https://files.pythonhosted.org/packages/75/29/7af0589feb4e3d7d9edd93b2800effadcbecf41cf275d28b053bd81e5daf/sparseSEM-1.1.tar.gz
+[2023-06-28 04:52:21] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/25/be/053b9763b6e1cc84b681e580024d1d84b1efcc83d001d57dff4d3151c9ea/rubi-2.0.4b1.tar.gz
+[2023-06-28 04:52:21] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Downloading https://files.pythonhosted.org/packages/e9/0c/718c37d0c94ecbe2a810b92e8abc73eddb459f1faff2958fbcaf12449d61/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl
+[2023-06-28 04:52:21] INFO root fetch - processPackages [radstar]: executing diffoscope
+[2023-06-28 04:52:21] INFO root fetch - processPackages [radstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radstar-0.0.231790245.tar.gz tmp/radstar-0.1.0-py3-none-any.whl.zip --markdown 20230628/r/radstar/0.0.231790245-0.1.0/diff.md --exclude *.pyd
+[2023-06-28 04:52:21] INFO root fetch - processPackages [fast-brainfuck]: Downloading https://files.pythonhosted.org/packages/8f/57/fb898681c9c4bb1e949bf992edccfc3d1040edcb4e5dd241a38d8eae18bf/fast-brainfuck-1.0.8.tar.gz
+[2023-06-28 04:52:21] INFO root fetch - processPackages [mrlpy]: Downloading https://files.pythonhosted.org/packages/85/46/ee0c7d66f9d02c72d06de05c7a249a313f1616b5223ca52e96b96763ec0e/mrlpy-1.0.0.tar.gz
+[2023-06-28 04:52:21] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/0a/7d/8a54b32f525ae5ebedc6f745a1f31d1e11cb6a04e1c31cfba013081d4f03/alphawave-0.3.0.tar.gz
+[2023-06-28 04:52:21] INFO root fetch - processPackages [scratch-getdata]: Downloading https://files.pythonhosted.org/packages/ce/13/249ab925182d7f6a715898222da150705b1549d2beb1ce5f1f852cbc5191/scratch-getdata-1.0.2.tar.gz
+[2023-06-28 04:52:21] INFO root fetch - processPackages [mrlpy]: executing diffoscope
+[2023-06-28 04:52:21] INFO root fetch - processPackages [mrlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrlpy-0.3.0.tar.gz tmp/mrlpy-1.0.0.tar.gz --markdown 20230628/m/mrlpy/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-28 04:52:21] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/97/83/b69cec66e371df4e409d26d44fe53dd91de4bbd5b33afe8d49734e53c991/rubi-2.0.5.tar.gz
+[2023-06-28 04:52:21] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: Downloading https://files.pythonhosted.org/packages/0b/50/b9f49caaaa2dfa4943ad598c034c5151c3a0e339da556fc905e2807208cf/odoo_addons_oca_account_payment-16.0.20230623.0-py3-none-any.whl
+[2023-06-28 04:52:21] INFO root fetch - processPackages [alphawave]: executing diffoscope
+[2023-06-28 04:52:21] INFO root fetch - processPackages [alphawave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphawave-0.2.9.tar.gz tmp/alphawave-0.3.0.tar.gz --markdown 20230628/a/alphawave/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-28 04:52:21] INFO root fetch - processPackages [scratch-getdata]: executing diffoscope
+[2023-06-28 04:52:21] INFO root fetch - processPackages [scratch-getdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratch-getdata-1.0.0.tar.gz tmp/scratch-getdata-1.0.2.tar.gz --markdown 20230628/s/scratch-getdata/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-06-28 04:52:21] INFO root fetch - processPackages [fast-brainfuck]: executing diffoscope
+[2023-06-28 04:52:21] INFO root fetch - processPackages [fast-brainfuck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-brainfuck-1.0.7.tar.gz tmp/fast-brainfuck-1.0.8.tar.gz --markdown 20230628/f/fast-brainfuck/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-28 04:52:22] INFO root fetch - processPackages [rubi]: executing diffoscope
+[2023-06-28 04:52:22] INFO root fetch - processPackages [rubi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubi-2.0.4b1.tar.gz tmp/rubi-2.0.5.tar.gz --markdown 20230628/r/rubi/2.0.4b1-2.0.5/diff.md --exclude *.pyd
+[2023-06-28 04:52:22] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: executing diffoscope
+[2023-06-28 04:52:22] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_payment-16.0.20230511.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_payment-16.0.20230623.0-py3-none-any.whl.zip --markdown 20230628/o/odoo-addons-oca-account-payment/16.0.20230511.0-16.0.20230623.0/diff.md --exclude *.pyd
+[2023-06-28 04:52:22] INFO root fetch - processPackages [sparseSEM]: Downloading https://files.pythonhosted.org/packages/18/c0/91a20e815164372250042b8dc422928b479d47ebe42c7aa1588e3021135f/sparseSEM-2.0.tar.gz
+[2023-06-28 04:52:22] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Downloading https://files.pythonhosted.org/packages/4a/69/5efcd2e48f11ff30e7f159eb7bee37b1717bf7a8622c39acf7a474711650/odoo_addon_account_move_base_import-16.0.1.0.1.9-py3-none-any.whl
+[2023-06-28 04:52:22] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: executing diffoscope
+[2023-06-28 04:52:22] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_account_move_base_import-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-account-move-base-import/16.0.1.0.1.8-16.0.1.0.1.9/diff.md --exclude *.pyd
+[2023-06-28 04:52:22] INFO root fetch - processPackages [sparseSEM]: executing diffoscope
+[2023-06-28 04:52:22] INFO root fetch - processPackages [sparseSEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparseSEM-1.1.tar.gz tmp/sparseSEM-2.0.tar.gz --markdown 20230628/s/sparseSEM/1.1-2.0/diff.md --exclude *.pyd
+[2023-06-28 04:52:23] INFO root fetch - processPackages [pybw-comic]: Remove: archive file [/home/abi/fetcher/tmp/pybw_comic-23.6.28.2.tar.gz]
+[2023-06-28 04:52:23] INFO root fetch - processPackages [pybw-comic]: Remove: archive file [/home/abi/fetcher/tmp/pybw_comic-23.6.28.3.tar.gz]
+[2023-06-28 04:52:23] INFO root fetch - processPackages [pybw-comic]: Start processing: odoo-addon-account-move-line-reconcile-manual
+[2023-06-28 04:52:23] INFO root fetch - main [MainThread]: End processing [pybw-comic]: success
+[2023-06-28 04:52:23] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.16]
+[2023-06-28 04:52:23] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.0.231790245.tar.gz]
+[2023-06-28 04:52:23] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.1.0-py3-none-any.whl.zip]
+[2023-06-28 04:52:23] INFO root fetch - processPackages [radstar]: Start processing: odoo-addon-account-reconcile-oca
+[2023-06-28 04:52:23] INFO root fetch - main [MainThread]: End processing [radstar]: success
+[2023-06-28 04:52:23] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: Downloading https://files.pythonhosted.org/packages/fd/26/5b619a366da55c448ff0606cd311b6acb5b8ee968f621908156720e23b95/odoo_addon_account_move_line_reconcile_manual-16.0.1.0.0.16-py3-none-any.whl
+[2023-06-28 04:52:23] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: New version: [16.0.1.0.3.4] Old Version: [16.0.1.0.3.3]
+[2023-06-28 04:52:23] INFO root fetch - processPackages [mrlpy]: Remove: archive file [/home/abi/fetcher/tmp/mrlpy-0.3.0.tar.gz]
+[2023-06-28 04:52:23] INFO root fetch - processPackages [mrlpy]: Remove: archive file [/home/abi/fetcher/tmp/mrlpy-1.0.0.tar.gz]
+[2023-06-28 04:52:23] INFO root fetch - processPackages [mrlpy]: Start processing: baysalt-christmas
+[2023-06-28 04:52:23] INFO root fetch - main [MainThread]: End processing [mrlpy]: success
+[2023-06-28 04:52:23] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/be/24/1f342c8670f25346d172db64d1392f083bbd023198ec41750865484a31d8/odoo_addon_account_reconcile_oca-16.0.1.0.3.3-py3-none-any.whl
+[2023-06-28 04:52:23] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_payment-16.0.20230511.0-py3-none-any.whl.zip]
+[2023-06-28 04:52:23] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_payment-16.0.20230623.0-py3-none-any.whl.zip]
+[2023-06-28 04:52:23] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-payment]: success
+[2023-06-28 04:52:23] INFO root fetch - processPackages [baysalt-christmas]: New version: [0.1.7.9] Old Version: [0.1.7.8]
+[2023-06-28 04:52:23] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-1.0.7.tar.gz]
+[2023-06-28 04:52:23] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-1.0.8.tar.gz]
+[2023-06-28 04:52:23] INFO root fetch - main [MainThread]: End processing [fast-brainfuck]: success
+[2023-06-28 04:52:23] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: Downloading https://files.pythonhosted.org/packages/88/81/45b71917215166e70fde086c0e70ea5d79a15568f0316d8894511d5dfdc4/odoo_addon_account_move_line_reconcile_manual-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-28 04:52:23] INFO root fetch - processPackages [scratch-getdata]: Remove: archive file [/home/abi/fetcher/tmp/scratch-getdata-1.0.0.tar.gz]
+[2023-06-28 04:52:23] INFO root fetch - processPackages [scratch-getdata]: Remove: archive file [/home/abi/fetcher/tmp/scratch-getdata-1.0.2.tar.gz]
+[2023-06-28 04:52:23] INFO root fetch - main [MainThread]: End processing [scratch-getdata]: success
+[2023-06-28 04:52:23] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: executing diffoscope
+[2023-06-28 04:52:23] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_line_reconcile_manual-16.0.1.0.0.16-py3-none-any.whl.zip tmp/odoo_addon_account_move_line_reconcile_manual-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-account-move-line-reconcile-manual/16.0.1.0.0.16-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-06-28 04:52:23] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/bc/44/79aa8b36b330473f1ac474f1512c6fc1deadb0d86fb58542885df63a8df7/odoo_addon_account_reconcile_oca-16.0.1.0.3.4-py3-none-any.whl
+[2023-06-28 04:52:23] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/d2/4e/fbb7f18ba1d40b5d59a61b4184cdfeffe27e25ba3e15f6cfcce4433a301a/baysalt_christmas-0.1.7.8.tar.gz
+[2023-06-28 04:52:23] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: executing diffoscope
+[2023-06-28 04:52:23] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconcile_oca-16.0.1.0.3.3-py3-none-any.whl.zip tmp/odoo_addon_account_reconcile_oca-16.0.1.0.3.4-py3-none-any.whl.zip --markdown 20230628/o/odoo-addon-account-reconcile-oca/16.0.1.0.3.3-16.0.1.0.3.4/diff.md --exclude *.pyd
+[2023-06-28 04:52:24] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.0.4b1.tar.gz]
+[2023-06-28 04:52:24] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.0.5.tar.gz]
+[2023-06-28 04:52:24] INFO root fetch - main [MainThread]: End processing [rubi]: success
+[2023-06-28 04:52:24] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/5c/7f/6b585fb5472c47d9f577904e0c891c23d928cb30e8ae19c173ff8172e645/baysalt_christmas-0.1.7.9.tar.gz
+[2023-06-28 04:52:24] INFO root fetch - processPackages [baysalt-christmas]: executing diffoscope
+[2023-06-28 04:52:24] INFO root fetch - processPackages [baysalt-christmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baysalt_christmas-0.1.7.8.tar.gz tmp/baysalt_christmas-0.1.7.9.tar.gz --markdown 20230628/b/baysalt-christmas/0.1.7.8-0.1.7.9/diff.md --exclude *.pyd
+[2023-06-28 04:52:24] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2023-06-28 04:52:24] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_base_import-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2023-06-28 04:52:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-base-import]: success
+[2023-06-28 04:52:24] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.2.9.tar.gz]
+[2023-06-28 04:52:24] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.3.0.tar.gz]
+[2023-06-28 04:52:24] INFO root fetch - main [MainThread]: End processing [alphawave]: success
+[2023-06-28 04:52:25] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_line_reconcile_manual-16.0.1.0.0.16-py3-none-any.whl.zip]
+[2023-06-28 04:52:25] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_line_reconcile_manual-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-28 04:52:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-line-reconcile-manual]: success
+[2023-06-28 04:52:25] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.7.8.tar.gz]
+[2023-06-28 04:52:25] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.7.9.tar.gz]
+[2023-06-28 04:52:25] INFO root fetch - main [MainThread]: End processing [baysalt-christmas]: success
+[2023-06-28 04:52:25] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-16.0.1.0.3.3-py3-none-any.whl.zip]
+[2023-06-28 04:52:25] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-16.0.1.0.3.4-py3-none-any.whl.zip]
+[2023-06-28 04:52:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-oca]: success
+[2023-06-28 04:52:25] INFO root fetch - processPackages [sparseSEM]: Remove: archive file [/home/abi/fetcher/tmp/sparseSEM-1.1.tar.gz]
+[2023-06-28 04:52:25] INFO root fetch - processPackages [sparseSEM]: Remove: archive file [/home/abi/fetcher/tmp/sparseSEM-2.0.tar.gz]
+[2023-06-28 04:52:25] INFO root fetch - main [MainThread]: End processing [sparseSEM]: success
+[2023-06-28 04:52:25] INFO root fetch - main [MainThread]: Store serial: [18673981]
