@@ -22003,3 +22003,213 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 12:23:44] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.2.4.tar.gz]
 [2023-06-28 12:23:44] INFO root fetch - main [MainThread]: End processing [pymino]: success
 [2023-06-28 12:23:44] INFO root fetch - main [MainThread]: Store serial: [18677534]
+[2023-06-28 12:28:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18677534]
+[2023-06-28 12:28:53] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-28 12:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-ots
+[2023-06-28 12:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: causa
+[2023-06-28 12:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-memcache
+[2023-06-28 12:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-nlb
+[2023-06-28 12:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-bastionhost
+[2023-06-28 12:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qlytix-pack
+[2023-06-28 12:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-alconna
+[2023-06-28 12:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: palmers-agents-general
+[2023-06-28 12:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-oss
+[2023-06-28 12:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bec-ipython-client
+[2023-06-28 12:28:53] WARNING root fetch - processPackages [qlytix-pack]: Skipping, unable to determine old version
+[2023-06-28 12:28:53] INFO root fetch - processPackages [qlytix-pack]: Start processing: bec-lib
+[2023-06-28 12:28:53] INFO root fetch - processPackages [ros-cdk-memcache]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:28:53] INFO root fetch - main [MainThread]: End processing [qlytix-pack] error
+[2023-06-28 12:28:53] INFO root fetch - processPackages [ros-cdk-bastionhost]: New version: [1.0.15] Old Version: [1.0.14]
+[2023-06-28 12:28:53] WARNING root fetch - processPackages [causa]: Skipping, unable to determine old version
+[2023-06-28 12:28:53] INFO root fetch - processPackages [ros-cdk-ots]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:28:53] INFO root fetch - processPackages [causa]: Start processing: bec-scan-server
+[2023-06-28 12:28:53] INFO root fetch - processPackages [bec-ipython-client]: New version: [0.7.0] Old Version: [0.6.14]
+[2023-06-28 12:28:53] INFO root fetch - main [MainThread]: End processing [causa] error
+[2023-06-28 12:28:53] WARNING root fetch - processPackages [bec-lib]: Skipping, unable to determine old version
+[2023-06-28 12:28:53] INFO root fetch - processPackages [bec-lib]: Start processing: bec-device-server
+[2023-06-28 12:28:53] INFO root fetch - processPackages [palmers-agents-general]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 12:28:53] INFO root fetch - main [MainThread]: End processing [bec-lib] error
+[2023-06-28 12:28:53] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-28 12:28:53] INFO root fetch - processPackages [ros-cdk-nlb]: New version: [1.0.9] Old Version: [1.0.15]
+[2023-06-28 12:28:53] INFO root fetch - processPackages [ros-cdk-oss]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:28:53] INFO root fetch - processPackages [bec-device-server]: New version: [0.7.0] Old Version: [0.6.14]
+[2023-06-28 12:28:53] INFO root fetch - processPackages [bec-scan-server]: New version: [0.7.0] Old Version: [0.6.14]
+[2023-06-28 12:28:54] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/81/b3/886f4c95bdb242954c8b818636bbb331d9be6a06e4ae5ad83e7d46515498/nonebot-plugin-alconna-0.8.2.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-nlb]: Downloading https://files.pythonhosted.org/packages/82/58/4409e8bfa99f6a6aea879fa18629797771e24b733f17c6fe3d442b935d32/ros-cdk-nlb-1.0.15.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-memcache]: Downloading https://files.pythonhosted.org/packages/a4/87/eba13b9af02a957d7160fc2bc3e6c2232fd6206eb6866c6a49e8077ab5ef/ros-cdk-memcache-1.0.8.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-bastionhost]: Downloading https://files.pythonhosted.org/packages/47/db/b4cc3bd0eca211ef08e15946cd399d5bab70a0afaf74f297bed938bee6a0/ros-cdk-bastionhost-1.0.14.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-ots]: Downloading https://files.pythonhosted.org/packages/3b/93/ae1fb3cf7a5549ee4bc3b3b2230d7ce48976c5fde905db888ea3776314dc/ros-cdk-ots-1.0.8.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/2f/af/5e9d4c4c89642acefa5ab39eb263f68774960c2d5d263f475d463c9de135/bec_ipython_client-0.6.14.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/a0/ba/bb9972f2c344a2bfc6289bc81301dc0b876b6cc6c50834a9b71e5b5ffdf4/palmers_agents_general-0.0.8.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/a0/bd/b75e87fd2ed6b3581b2874319d50544e5fb3f03613a833f791bb4f44fcc2/bec_device_server-0.6.14.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-oss]: Downloading https://files.pythonhosted.org/packages/a5/b8/c2ac5419e05c9605d2cae551c93f7db8cc980bbbcc901875c2bf6217ee41/ros-cdk-oss-1.0.8.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/74/9c/cea000f28cba366d817f90b2b129c3e7e2ccd8c3a3fa6923b4152298ced9/bec_scan_server-0.6.14.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/92/b7/970a9307db00e497f0c2b9b843179ff82b5c0dd637c3351cb14c4e493076/nonebot-plugin-alconna-0.8.3.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-bastionhost]: Downloading https://files.pythonhosted.org/packages/8c/cb/ae1143168c3c2eec96674252456995371e28ac8b09099235e22080535ac5/ros-cdk-bastionhost-1.0.15.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/72/e2/d243786b4f7c654c534f40f975105093289ba80f895749a5fc78e2dacc65/bec_ipython_client-0.7.0.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-ots]: Downloading https://files.pythonhosted.org/packages/0c/41/781713882f6cd0475dfbd98ad1cea7e3afc83cbf15cae9582ca15ae23988/ros-cdk-ots-1.0.9.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-nlb]: Downloading https://files.pythonhosted.org/packages/ab/40/a90fcab30009222af951845f910e77e5ecef6b1d0760b0f478506bc6eb96/ros-cdk-nlb-1.0.9.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2023-06-28 12:28:54] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.8.2.tar.gz tmp/nonebot-plugin-alconna-0.8.3.tar.gz --markdown 20230628/n/nonebot-plugin-alconna/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-memcache]: Downloading https://files.pythonhosted.org/packages/8f/53/6ddb0fd72d796a0560bd5e0e81926aafb56011ec006ded043aed4cb1a427/ros-cdk-memcache-1.0.9.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/9c/ff/a86c9e18f52932244855a56245ed5bb40221ff2d94d248e40307fc5ef6ed/bec_device_server-0.7.0.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-bastionhost]: executing diffoscope
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-bastionhost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-bastionhost-1.0.14.tar.gz tmp/ros-cdk-bastionhost-1.0.15.tar.gz --markdown 20230628/r/ros-cdk-bastionhost/1.0.14-1.0.15/diff.md --exclude *.pyd
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-oss]: Downloading https://files.pythonhosted.org/packages/97/44/a47ac5301ba96430211be492cdcc79a0e95bf88b5fd492d06266fe025f2b/ros-cdk-oss-1.0.9.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/65/8b/cd296247448851cab0c50117a091ede048d7d25e0359770ad4252d276791/bec_scan_server-0.7.0.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/61/cd/e3e3e79d25eaa13474a77df36729a9c49c52bf78a9aabee81eb71e0e9622/palmers_agents_general-0.0.9.tar.gz
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-nlb]: executing diffoscope
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-nlb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-nlb-1.0.15.tar.gz tmp/ros-cdk-nlb-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-nlb/1.0.15-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:28:54] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2023-06-28 12:28:54] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-0.6.14.tar.gz tmp/bec_ipython_client-0.7.0.tar.gz --markdown 20230628/b/bec-ipython-client/0.6.14-0.7.0/diff.md --exclude *.pyd
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-oss]: executing diffoscope
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-oss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-oss-1.0.8.tar.gz tmp/ros-cdk-oss-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-oss/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-memcache]: executing diffoscope
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-memcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-memcache-1.0.8.tar.gz tmp/ros-cdk-memcache-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-memcache/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:28:54] INFO root fetch - processPackages [palmers-agents-general]: executing diffoscope
+[2023-06-28 12:28:54] INFO root fetch - processPackages [palmers-agents-general]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmers_agents_general-0.0.8.tar.gz tmp/palmers_agents_general-0.0.9.tar.gz --markdown 20230628/p/palmers-agents-general/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-ots]: executing diffoscope
+[2023-06-28 12:28:54] INFO root fetch - processPackages [ros-cdk-ots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ots-1.0.8.tar.gz tmp/ros-cdk-ots-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-ots/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:28:54] INFO root fetch - processPackages [bec-device-server]: executing diffoscope
+[2023-06-28 12:28:54] INFO root fetch - processPackages [bec-device-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_device_server-0.6.14.tar.gz tmp/bec_device_server-0.7.0.tar.gz --markdown 20230628/b/bec-device-server/0.6.14-0.7.0/diff.md --exclude *.pyd
+[2023-06-28 12:28:54] INFO root fetch - processPackages [bec-scan-server]: executing diffoscope
+[2023-06-28 12:28:54] INFO root fetch - processPackages [bec-scan-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_server-0.6.14.tar.gz tmp/bec_scan_server-0.7.0.tar.gz --markdown 20230628/b/bec-scan-server/0.6.14-0.7.0/diff.md --exclude *.pyd
+[2023-06-28 12:28:56] INFO root fetch - processPackages [ros-cdk-oss]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-oss-1.0.8.tar.gz]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [ros-cdk-oss]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-oss-1.0.9.tar.gz]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [ros-cdk-oss]: Start processing: bec-scan-bundler
+[2023-06-28 12:28:56] INFO root fetch - main [MainThread]: End processing [ros-cdk-oss]: success
+[2023-06-28 12:28:56] INFO root fetch - processPackages [bec-scan-bundler]: New version: [0.7.0] Old Version: [0.6.14]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.8.tar.gz]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.9.tar.gz]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [palmers-agents-general]: Start processing: bec-file-writer
+[2023-06-28 12:28:56] INFO root fetch - main [MainThread]: End processing [palmers-agents-general]: success
+[2023-06-28 12:28:56] INFO root fetch - processPackages [bec-file-writer]: New version: [0.7.0] Old Version: [0.6.14]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.6.14.tar.gz]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.7.0.tar.gz]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [bec-ipython-client]: Start processing: bec-dap
+[2023-06-28 12:28:56] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2023-06-28 12:28:56] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/5d/9a/eefb7803d8b5688c831c0222f69915a55d7a906b39c7b4d8ee50bf8ccd5a/bec_scan_bundler-0.6.14.tar.gz
+[2023-06-28 12:28:56] INFO root fetch - processPackages [bec-dap]: New version: [0.7.0] Old Version: [0.6.14]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [ros-cdk-bastionhost]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bastionhost-1.0.14.tar.gz]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [ros-cdk-bastionhost]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bastionhost-1.0.15.tar.gz]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [ros-cdk-bastionhost]: Start processing: vocalhost
+[2023-06-28 12:28:56] INFO root fetch - main [MainThread]: End processing [ros-cdk-bastionhost]: success
+[2023-06-28 12:28:56] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.6.14.tar.gz]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.7.0.tar.gz]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [bec-scan-server]: Start processing: ros-cdk-rocketmq
+[2023-06-28 12:28:56] INFO root fetch - main [MainThread]: End processing [bec-scan-server]: success
+[2023-06-28 12:28:56] INFO root fetch - processPackages [vocalhost]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/ae/b0/2557c6cad0d9bdce3a97a21eec8b7da76ac261d6116d9b83b638db180335/bec_file_writer-0.6.14.tar.gz
+[2023-06-28 12:28:56] INFO root fetch - processPackages [ros-cdk-rocketmq]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [ros-cdk-ots]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ots-1.0.8.tar.gz]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [ros-cdk-ots]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ots-1.0.9.tar.gz]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [ros-cdk-ots]: Start processing: enfobench
+[2023-06-28 12:28:56] INFO root fetch - main [MainThread]: End processing [ros-cdk-ots]: success
+[2023-06-28 12:28:56] INFO root fetch - processPackages [enfobench]: New version: [0.2.2] Old Version: [0.1.1]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [vocalhost]: Downloading https://files.pythonhosted.org/packages/63/d7/f690870561be33cff51ab6c19de9e8e2ab2f3e1838a9920a8ccc49a77914/vocalhost-1.0.4.tar.gz
+[2023-06-28 12:28:56] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.6.14.tar.gz]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.7.0.tar.gz]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [bec-device-server]: Start processing: ros-cdk-slb
+[2023-06-28 12:28:56] INFO root fetch - main [MainThread]: End processing [bec-device-server]: success
+[2023-06-28 12:28:56] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/1a/4b/31a48e1a16b728f3722911dc68e3cbcf388d74864c3fb2f0f22ee83939f8/bec_dap-0.6.14.tar.gz
+[2023-06-28 12:28:56] INFO root fetch - processPackages [ros-cdk-slb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.8.2.tar.gz]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.8.3.tar.gz]
+[2023-06-28 12:28:56] INFO root fetch - processPackages [nonebot-plugin-alconna]: Start processing: mediapy
+[2023-06-28 12:28:56] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2023-06-28 12:28:56] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/98/81/dbb6d88d76623b8bb1267577d65a35552f122dc8ce651d1b7d302c5c36ed/bec_scan_bundler-0.7.0.tar.gz
+[2023-06-28 12:28:56] INFO root fetch - processPackages [mediapy]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-rocketmq]: Downloading https://files.pythonhosted.org/packages/88/5e/16d18709c1269ddf859c9ccbc945824451982b6c51d066a47d9655547955/ros-cdk-rocketmq-1.0.8.tar.gz
+[2023-06-28 12:28:57] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/8b/f2/0e2f1f850be83dcd49b884df8b10612feb5219211de05435efb349ecbc11/bec_file_writer-0.7.0.tar.gz
+[2023-06-28 12:28:57] INFO root fetch - processPackages [enfobench]: Downloading https://files.pythonhosted.org/packages/cc/9e/0e7f9c0fc5c5f4599e5a817677d058b28889b5cb23e7ce0ad40cabb31679/enfobench-0.1.1.tar.gz
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-memcache]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-memcache-1.0.8.tar.gz]
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-memcache]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-memcache-1.0.9.tar.gz]
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-memcache]: Start processing: ros-cdk-maxcompute
+[2023-06-28 12:28:57] INFO root fetch - main [MainThread]: End processing [ros-cdk-memcache]: success
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-slb]: Downloading https://files.pythonhosted.org/packages/74/ad/5c48cd3815ba0fc1048e117d80967eae95cd1842f9ef377522e0fa5e48b4/ros-cdk-slb-1.0.8.tar.gz
+[2023-06-28 12:28:57] INFO root fetch - processPackages [vocalhost]: Downloading https://files.pythonhosted.org/packages/57/28/04c8a335d0b325bb1c48da804d62267cea734f570377c80de1c73f1b241f/vocalhost-1.0.5.tar.gz
+[2023-06-28 12:28:57] INFO root fetch - processPackages [bec-scan-bundler]: executing diffoscope
+[2023-06-28 12:28:57] INFO root fetch - processPackages [bec-scan-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_bundler-0.6.14.tar.gz tmp/bec_scan_bundler-0.7.0.tar.gz --markdown 20230628/b/bec-scan-bundler/0.6.14-0.7.0/diff.md --exclude *.pyd
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-maxcompute]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:28:57] INFO root fetch - processPackages [mediapy]: Downloading https://files.pythonhosted.org/packages/27/3d/6c9c9af88a52465dbf46804bb4c8afa377aa533f9bbf8a2afb58db6b175b/mediapy-1.1.7.tar.gz
+[2023-06-28 12:28:57] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/cb/a6/d93552455f235b6d00064d4beae102fecee50859a8e5601748243d828fde/bec_dap-0.7.0.tar.gz
+[2023-06-28 12:28:57] INFO root fetch - processPackages [bec-file-writer]: executing diffoscope
+[2023-06-28 12:28:57] INFO root fetch - processPackages [bec-file-writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_file_writer-0.6.14.tar.gz tmp/bec_file_writer-0.7.0.tar.gz --markdown 20230628/b/bec-file-writer/0.6.14-0.7.0/diff.md --exclude *.pyd
+[2023-06-28 12:28:57] INFO root fetch - processPackages [bec-dap]: executing diffoscope
+[2023-06-28 12:28:57] INFO root fetch - processPackages [bec-dap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_dap-0.6.14.tar.gz tmp/bec_dap-0.7.0.tar.gz --markdown 20230628/b/bec-dap/0.6.14-0.7.0/diff.md --exclude *.pyd
+[2023-06-28 12:28:57] INFO root fetch - processPackages [vocalhost]: executing diffoscope
+[2023-06-28 12:28:57] INFO root fetch - processPackages [vocalhost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocalhost-1.0.4.tar.gz tmp/vocalhost-1.0.5.tar.gz --markdown 20230628/v/vocalhost/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-maxcompute]: Downloading https://files.pythonhosted.org/packages/b2/bc/4a7b7fc2a1b0e702023e28c4af25ff30d9a517221ca40daca96f5ddb2582/ros-cdk-maxcompute-1.0.8.tar.gz
+[2023-06-28 12:28:57] INFO root fetch - processPackages [enfobench]: Downloading https://files.pythonhosted.org/packages/80/4c/8e286ff11b23e465592a80894bfc538ab0f818bbc6cc7fccc5a2b0c9735e/enfobench-0.2.2.tar.gz
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-rocketmq]: Downloading https://files.pythonhosted.org/packages/61/cd/467d0c00a5d11269809fbd0c9699e7c95b96ce902cc841ac369be1d9272c/ros-cdk-rocketmq-1.0.9.tar.gz
+[2023-06-28 12:28:57] INFO root fetch - processPackages [mediapy]: Downloading https://files.pythonhosted.org/packages/6d/2f/2c4d921fb5c59664aea60a518444052ee245761ed5edef250228dcb9b60e/mediapy-1.1.8.tar.gz
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-rocketmq]: executing diffoscope
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-rocketmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-rocketmq-1.0.8.tar.gz tmp/ros-cdk-rocketmq-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-rocketmq/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-nlb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nlb-1.0.15.tar.gz]
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-nlb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nlb-1.0.9.tar.gz]
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-nlb]: Start processing: pystools
+[2023-06-28 12:28:57] INFO root fetch - main [MainThread]: End processing [ros-cdk-nlb]: success
+[2023-06-28 12:28:57] INFO root fetch - processPackages [enfobench]: executing diffoscope
+[2023-06-28 12:28:57] INFO root fetch - processPackages [enfobench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enfobench-0.1.1.tar.gz tmp/enfobench-0.2.2.tar.gz --markdown 20230628/e/enfobench/0.1.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-slb]: Downloading https://files.pythonhosted.org/packages/40/e3/c5f19aed2f14ba0d2dd20e09b1342b3c4297e73015c12af0b7ac24640289/ros-cdk-slb-1.0.9.tar.gz
+[2023-06-28 12:28:57] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 12:28:57] INFO root fetch - processPackages [mediapy]: executing diffoscope
+[2023-06-28 12:28:57] INFO root fetch - processPackages [mediapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediapy-1.1.7.tar.gz tmp/mediapy-1.1.8.tar.gz --markdown 20230628/m/mediapy/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-maxcompute]: Downloading https://files.pythonhosted.org/packages/cc/2c/bf8279ef66988d3e374281ed6efe68f210443379e9c02aaa15b0f74951ad/ros-cdk-maxcompute-1.0.9.tar.gz
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-slb]: executing diffoscope
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-slb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-slb-1.0.8.tar.gz tmp/ros-cdk-slb-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-slb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:28:57] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-maxcompute]: executing diffoscope
+[2023-06-28 12:28:57] INFO root fetch - processPackages [ros-cdk-maxcompute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-maxcompute-1.0.8.tar.gz tmp/ros-cdk-maxcompute-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-maxcompute/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:28:57] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-06-28 12:28:58] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-06-28 12:28:58] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230628/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:28:58] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.6.14.tar.gz]
+[2023-06-28 12:28:58] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.7.0.tar.gz]
+[2023-06-28 12:28:58] INFO root fetch - processPackages [bec-scan-bundler]: Start processing: ros-cdk-adb
+[2023-06-28 12:28:58] INFO root fetch - main [MainThread]: End processing [bec-scan-bundler]: success
+[2023-06-28 12:28:58] INFO root fetch - processPackages [ros-cdk-adb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:28:59] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.6.14.tar.gz]
+[2023-06-28 12:28:59] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.7.0.tar.gz]
+[2023-06-28 12:28:59] INFO root fetch - processPackages [bec-file-writer]: Start processing: ITK-dev-shared-components
+[2023-06-28 12:28:59] INFO root fetch - main [MainThread]: End processing [bec-file-writer]: success
+[2023-06-28 12:28:59] INFO root fetch - processPackages [ITK-dev-shared-components]: New version: [0.0.3b0] Old Version: [0.0.2]
+[2023-06-28 12:28:59] INFO root fetch - processPackages [ITK-dev-shared-components]: Downloading https://files.pythonhosted.org/packages/cf/14/e196083678c16486c81c5b097fb0c94439701353d9ac6d72f6fb9e5e34ce/ITK_dev_shared_components-0.0.2.tar.gz
+[2023-06-28 12:28:59] INFO root fetch - processPackages [ros-cdk-adb]: Downloading https://files.pythonhosted.org/packages/1a/64/b4ed9ad2c0a4e2060a3e0c0670b8ebc56e100aa98f34049cf06fd69c83eb/ros-cdk-adb-1.0.8.tar.gz
+[2023-06-28 12:28:59] INFO root fetch - processPackages [vocalhost]: Remove: archive file [/home/abi/fetcher/tmp/vocalhost-1.0.4.tar.gz]
+[2023-06-28 12:28:59] INFO root fetch - processPackages [vocalhost]: Remove: archive file [/home/abi/fetcher/tmp/vocalhost-1.0.5.tar.gz]
+[2023-06-28 12:28:59] INFO root fetch - main [MainThread]: End processing [vocalhost]: success
+[2023-06-28 12:28:59] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.6.14.tar.gz]
+[2023-06-28 12:28:59] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.7.0.tar.gz]
+[2023-06-28 12:28:59] INFO root fetch - main [MainThread]: End processing [bec-dap]: success
+[2023-06-28 12:28:59] INFO root fetch - processPackages [ITK-dev-shared-components]: Downloading https://files.pythonhosted.org/packages/3d/87/e26b911f1c446e89811c8999a3cd1171441046f7ace48f548f77b904150a/ITK_dev_shared_components-0.0.3b0.tar.gz
+[2023-06-28 12:28:59] INFO root fetch - processPackages [enfobench]: Remove: archive file [/home/abi/fetcher/tmp/enfobench-0.1.1.tar.gz]
+[2023-06-28 12:28:59] INFO root fetch - processPackages [enfobench]: Remove: archive file [/home/abi/fetcher/tmp/enfobench-0.2.2.tar.gz]
+[2023-06-28 12:28:59] INFO root fetch - main [MainThread]: End processing [enfobench]: success
+[2023-06-28 12:28:59] INFO root fetch - processPackages [ITK-dev-shared-components]: executing diffoscope
+[2023-06-28 12:28:59] INFO root fetch - processPackages [ITK-dev-shared-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ITK_dev_shared_components-0.0.2.tar.gz tmp/ITK_dev_shared_components-0.0.3b0.tar.gz --markdown 20230628/I/ITK-dev-shared-components/0.0.2-0.0.3b0/diff.md --exclude *.pyd
+[2023-06-28 12:28:59] INFO root fetch - processPackages [ros-cdk-adb]: Downloading https://files.pythonhosted.org/packages/24/43/de2b821538577a04d2e77bd24da29873d8eabd80115b69bf8df04d7a0429/ros-cdk-adb-1.0.9.tar.gz
+[2023-06-28 12:28:59] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-06-28 12:28:59] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-06-28 12:28:59] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-06-28 12:28:59] INFO root fetch - processPackages [ros-cdk-adb]: executing diffoscope
+[2023-06-28 12:28:59] INFO root fetch - processPackages [ros-cdk-adb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-adb-1.0.8.tar.gz tmp/ros-cdk-adb-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-adb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:28:59] INFO root fetch - processPackages [mediapy]: Remove: archive file [/home/abi/fetcher/tmp/mediapy-1.1.7.tar.gz]
+[2023-06-28 12:28:59] INFO root fetch - processPackages [mediapy]: Remove: archive file [/home/abi/fetcher/tmp/mediapy-1.1.8.tar.gz]
+[2023-06-28 12:28:59] INFO root fetch - main [MainThread]: End processing [mediapy]: success
+[2023-06-28 12:29:00] INFO root fetch - processPackages [ros-cdk-maxcompute]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-maxcompute-1.0.8.tar.gz]
+[2023-06-28 12:29:00] INFO root fetch - processPackages [ros-cdk-maxcompute]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-maxcompute-1.0.9.tar.gz]
+[2023-06-28 12:29:00] INFO root fetch - main [MainThread]: End processing [ros-cdk-maxcompute]: success
+[2023-06-28 12:29:00] INFO root fetch - processPackages [ros-cdk-rocketmq]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rocketmq-1.0.8.tar.gz]
+[2023-06-28 12:29:00] INFO root fetch - processPackages [ros-cdk-rocketmq]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rocketmq-1.0.9.tar.gz]
+[2023-06-28 12:29:00] INFO root fetch - main [MainThread]: End processing [ros-cdk-rocketmq]: success
+[2023-06-28 12:29:00] INFO root fetch - processPackages [ITK-dev-shared-components]: Remove: archive file [/home/abi/fetcher/tmp/ITK_dev_shared_components-0.0.2.tar.gz]
+[2023-06-28 12:29:00] INFO root fetch - processPackages [ITK-dev-shared-components]: Remove: archive file [/home/abi/fetcher/tmp/ITK_dev_shared_components-0.0.3b0.tar.gz]
+[2023-06-28 12:29:00] INFO root fetch - main [MainThread]: End processing [ITK-dev-shared-components]: success
+[2023-06-28 12:29:00] INFO root fetch - processPackages [ros-cdk-slb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-slb-1.0.8.tar.gz]
+[2023-06-28 12:29:00] INFO root fetch - processPackages [ros-cdk-slb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-slb-1.0.9.tar.gz]
+[2023-06-28 12:29:00] INFO root fetch - main [MainThread]: End processing [ros-cdk-slb]: success
+[2023-06-28 12:29:00] INFO root fetch - processPackages [ros-cdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-adb-1.0.8.tar.gz]
+[2023-06-28 12:29:00] INFO root fetch - processPackages [ros-cdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-adb-1.0.9.tar.gz]
+[2023-06-28 12:29:00] INFO root fetch - main [MainThread]: End processing [ros-cdk-adb]: success
+[2023-06-28 12:29:00] INFO root fetch - main [MainThread]: Store serial: [18677620]
