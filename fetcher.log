@@ -14511,3 +14511,47 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 06:11:41] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_facturae_face-15.0.2.1.0.2-py3-none-any.whl.zip]
 [2023-06-28 06:11:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-facturae-face]: success
 [2023-06-28 06:11:41] INFO root fetch - main [MainThread]: Store serial: [18674423]
+[2023-06-28 06:16:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674423]
+[2023-06-28 06:16:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-28 06:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py3toolbox
+[2023-06-28 06:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omekac-iiif-tools
+[2023-06-28 06:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ploomber-core
+[2023-06-28 06:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dank-mids
+[2023-06-28 06:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: koverage
+[2023-06-28 06:16:50] INFO root fetch - processPackages [ploomber-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-28 06:16:50] INFO root fetch - processPackages [py3toolbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 06:16:50] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-28 06:16:50] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/e4/e6/6f1e77832ec5b71f6d0f65cfbec5c2f186703fac1a664626aea040325c7c/py3toolbox-0.1.8.tar.gz
+[2023-06-28 06:16:50] INFO root fetch - processPackages [koverage]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-28 06:16:50] INFO root fetch - processPackages [omekac-iiif-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-28 06:16:50] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-28 06:16:50] INFO root fetch - processPackages [ploomber-core]: Downloading https://files.pythonhosted.org/packages/bf/07/8eea84f257217fe0a5826e6127147eb1986939621cc1c4af4384f2ab06d4/ploomber-core-0.2.8.tar.gz
+[2023-06-28 06:16:50] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/25/6b/7f9865a1bedf9c30b0ba7956a568b97cc5dd18c9825e37d26c54ae28ed7d/py3toolbox-0.1.9.tar.gz
+[2023-06-28 06:16:50] INFO root fetch - processPackages [omekac-iiif-tools]: Downloading https://files.pythonhosted.org/packages/2e/6e/abd70e5fcfa9284486e471c47d090126e94d2942b1096e742b0031bd7c81/omekac_iiif_tools-0.0.1.tar.gz
+[2023-06-28 06:16:50] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-28 06:16:50] INFO root fetch - processPackages [koverage]: Downloading https://files.pythonhosted.org/packages/35/a6/0ea238c5ae50c03096045a9b8de8a5c65075e3f834732ad2f9d6af45f2eb/koverage-0.1.1.tar.gz
+[2023-06-28 06:16:50] INFO root fetch - processPackages [py3toolbox]: executing diffoscope
+[2023-06-28 06:16:50] INFO root fetch - processPackages [py3toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3toolbox-0.1.8.tar.gz tmp/py3toolbox-0.1.9.tar.gz --markdown 20230628/p/py3toolbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 06:16:50] WARNING root fetch - processPackages [koverage]: Skipping package: exceeds size limit 19796864>=10485760
+[2023-06-28 06:16:50] INFO root fetch - main [MainThread]: End processing [koverage] error
+[2023-06-28 06:16:50] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-28 06:16:50] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230628/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-28 06:16:50] INFO root fetch - processPackages [ploomber-core]: Downloading https://files.pythonhosted.org/packages/89/9b/3200c9af8cc2acbd5a0a060af7370bd2068c4020d5d1cdfd07042d1a819e/ploomber-core-0.2.9.tar.gz
+[2023-06-28 06:16:50] INFO root fetch - processPackages [omekac-iiif-tools]: Downloading https://files.pythonhosted.org/packages/5d/0d/af3de11a504957903a3ab1f72a10e6d0594163ad0680b8dc86b09fd38dbd/omekac_iiif_tools-0.0.2.tar.gz
+[2023-06-28 06:16:50] INFO root fetch - processPackages [ploomber-core]: executing diffoscope
+[2023-06-28 06:16:50] INFO root fetch - processPackages [ploomber-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-core-0.2.8.tar.gz tmp/ploomber-core-0.2.9.tar.gz --markdown 20230628/p/ploomber-core/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-28 06:16:50] INFO root fetch - processPackages [omekac-iiif-tools]: executing diffoscope
+[2023-06-28 06:16:50] INFO root fetch - processPackages [omekac-iiif-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omekac_iiif_tools-0.0.1.tar.gz tmp/omekac_iiif_tools-0.0.2.tar.gz --markdown 20230628/o/omekac-iiif-tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-28 06:16:51] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.8.tar.gz]
+[2023-06-28 06:16:51] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.9.tar.gz]
+[2023-06-28 06:16:51] INFO root fetch - main [MainThread]: End processing [py3toolbox]: success
+[2023-06-28 06:16:51] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-28 06:16:51] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-28 06:16:51] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-28 06:16:51] INFO root fetch - processPackages [ploomber-core]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-core-0.2.8.tar.gz]
+[2023-06-28 06:16:51] INFO root fetch - processPackages [ploomber-core]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-core-0.2.9.tar.gz]
+[2023-06-28 06:16:51] INFO root fetch - main [MainThread]: End processing [ploomber-core]: success
+[2023-06-28 06:16:51] INFO root fetch - processPackages [omekac-iiif-tools]: Remove: archive file [/home/abi/fetcher/tmp/omekac_iiif_tools-0.0.1.tar.gz]
+[2023-06-28 06:16:51] INFO root fetch - processPackages [omekac-iiif-tools]: Remove: archive file [/home/abi/fetcher/tmp/omekac_iiif_tools-0.0.2.tar.gz]
+[2023-06-28 06:16:51] INFO root fetch - main [MainThread]: End processing [omekac-iiif-tools]: success
+[2023-06-28 06:16:51] INFO root fetch - main [MainThread]: Store serial: [18674439]
