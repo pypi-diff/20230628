@@ -20818,3 +20818,168 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 11:40:57] INFO root fetch - processPackages [jijbench]: Remove: archive file [/home/abi/fetcher/tmp/jijbench-0.5.8.tar.gz]
 [2023-06-28 11:40:57] INFO root fetch - main [MainThread]: End processing [jijbench]: success
 [2023-06-28 11:40:57] INFO root fetch - main [MainThread]: Store serial: [18677113]
+[2023-06-28 11:46:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18677113]
+[2023-06-28 11:46:06] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-28 11:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-flask-zqb
+[2023-06-28 11:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SESMG
+[2023-06-28 11:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bl3d
+[2023-06-28 11:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Nuitka
+[2023-06-28 11:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vocalhost
+[2023-06-28 11:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-hue-v2
+[2023-06-28 11:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygame-ecs
+[2023-06-28 11:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyfirebird
+[2023-06-28 11:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rekuest
+[2023-06-28 11:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mikro
+[2023-06-28 11:46:06] INFO root fetch - processPackages [SESMG]: New version: [0.5.0rc4] Old Version: [0.5.0rc3]
+[2023-06-28 11:46:06] WARNING root fetch - processPackages [test-flask-zqb]: Skipping, unable to determine old version
+[2023-06-28 11:46:06] INFO root fetch - processPackages [test-flask-zqb]: Start processing: fluss
+[2023-06-28 11:46:06] INFO root fetch - main [MainThread]: End processing [test-flask-zqb] error
+[2023-06-28 11:46:06] INFO root fetch - processPackages [pygame-ecs]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-28 11:46:06] INFO root fetch - processPackages [Nuitka]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-06-28 11:46:06] INFO root fetch - processPackages [bl3d]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-28 11:46:06] WARNING root fetch - processPackages [vocalhost]: Skipping, unable to determine old version
+[2023-06-28 11:46:06] INFO root fetch - processPackages [vocalhost]: Start processing: reaktion
+[2023-06-28 11:46:06] INFO root fetch - main [MainThread]: End processing [vocalhost] error
+[2023-06-28 11:46:06] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.55] Old Version: [0.0.54]
+[2023-06-28 11:46:06] INFO root fetch - processPackages [python-hue-v2]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-28 11:46:06] INFO root fetch - processPackages [rekuest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 11:46:06] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.80]
+[2023-06-28 11:46:06] INFO root fetch - processPackages [fluss]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 11:46:06] INFO root fetch - processPackages [reaktion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 11:46:06] INFO root fetch - processPackages [python-hue-v2]: Downloading https://files.pythonhosted.org/packages/94/55/935f019667350e8cb9fea4cb0b032491d142782805b5df84e09c18f46097/python_hue_v2-1.0.1.tar.gz
+[2023-06-28 11:46:06] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/ff/23/9b22b80eb2d1a3c24b7629aa2fc1bfc9057e1dfab801abd7627f5b8f59e5/pyfirebird-0.0.54.tar.gz
+[2023-06-28 11:46:06] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/66/4b/ea83f157a48f83c30614869ce53caaec3994f62d1675238f1f9c54ea514e/Nuitka-1.6.5.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [mikro]: Downloading https://files.pythonhosted.org/packages/67/0a/11885df2832023385b85d3b27f4f97c142bb882cebfde275af6a3de379ed/mikro-0.3.80.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [pygame-ecs]: Downloading https://files.pythonhosted.org/packages/80/0f/cdaf98c37382a56e79fc9e732cdee0d3ae4836ab67c0c6bad98fa65c1f70/pygame_ecs-0.2.4.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [SESMG]: Downloading https://files.pythonhosted.org/packages/6e/ee/e121856926e2d58516ae7ed22bbe986a42d5f514a9b5b1221ee489d7838f/SESMG-0.5.0rc3.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [rekuest]: Downloading https://files.pythonhosted.org/packages/48/f2/3190b6c553e57d0d7cdd24d76862ef45faae7ac9eff40cae2c066106ab77/rekuest-0.1.8.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [bl3d]: Downloading https://files.pythonhosted.org/packages/81/ea/238e96e7e59eb5911fa798f60db9487a08375a310a7cd899f519769bbff5/bl3d-0.4.0.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [fluss]: Downloading https://files.pythonhosted.org/packages/53/b7/8ff92a5a6685a4072ae111d8bec915e15a5682020fcc403fa91a69346a35/fluss-0.1.8.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [reaktion]: Downloading https://files.pythonhosted.org/packages/6b/17/78062ca4f758d824980e4ccd3a4ccf0de1302e137ee3d7f9bd644f790be3/reaktion-0.1.8.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [python-hue-v2]: Downloading https://files.pythonhosted.org/packages/19/81/c80bb61fd8f87ca108920de284cbff7752fcc386c9251521a2356f3d9154/python_hue_v2-1.0.2.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [SESMG]: Downloading https://files.pythonhosted.org/packages/47/c1/05c7af1c0968379f2d72cf99745a3cef5539bf336202e4c38aaacbacfbd6/SESMG-0.5.0rc4.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [bl3d]: Downloading https://files.pythonhosted.org/packages/4e/56/a524afbc76194b0ac970e069c5f37d4cb6ccd8c6c21030bb64a03db277ae/bl3d-0.4.1.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/e0/ad/1db3581bef3e921482a246f49b208d78e70759f861d0e93065a03725d47f/pyfirebird-0.0.55.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [pygame-ecs]: Downloading https://files.pythonhosted.org/packages/56/69/e9852db89f1d9e4aeec7cba2c8a1bd2acf1d381a2d8f02ec5a72c260f799/pygame_ecs-0.2.5.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/37/12/17cafb4c4c176355a4079974d3b2c7f0ac13fc8af34b41563d089d8a2042/Nuitka-1.6.6.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [python-hue-v2]: executing diffoscope
+[2023-06-28 11:46:07] INFO root fetch - processPackages [python-hue-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_hue_v2-1.0.1.tar.gz tmp/python_hue_v2-1.0.2.tar.gz --markdown 20230628/p/python-hue-v2/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-28 11:46:07] INFO root fetch - processPackages [mikro]: Downloading https://files.pythonhosted.org/packages/26/a6/7ee733ac462341b8ca4423365288b9a6988a89d4d02f56e536dd8f8672a7/mikro-0.3.9.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [fluss]: Downloading https://files.pythonhosted.org/packages/50/76/9edfc881baab8d439ab2edc2727312771bb676cf387e48ce1a149177f1f6/fluss-0.1.9.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [reaktion]: Downloading https://files.pythonhosted.org/packages/b4/a4/974724e81dad303e0138484e1693d23ee43c3627d4e3d0f4a9fade9cc233/reaktion-0.1.9.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [rekuest]: Downloading https://files.pythonhosted.org/packages/c7/6e/bcea729c864b4bbd4c9c26534b40f4ebed9f00eb63aeb606692eb0667517/rekuest-0.1.9.tar.gz
+[2023-06-28 11:46:07] INFO root fetch - processPackages [bl3d]: executing diffoscope
+[2023-06-28 11:46:07] INFO root fetch - processPackages [bl3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bl3d-0.4.0.tar.gz tmp/bl3d-0.4.1.tar.gz --markdown 20230628/b/bl3d/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-28 11:46:07] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-06-28 11:46:07] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.80.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230628/m/mikro/0.3.80-0.3.9/diff.md --exclude *.pyd
+[2023-06-28 11:46:07] INFO root fetch - processPackages [rekuest]: executing diffoscope
+[2023-06-28 11:46:07] INFO root fetch - processPackages [rekuest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rekuest-0.1.8.tar.gz tmp/rekuest-0.1.9.tar.gz --markdown 20230628/r/rekuest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 11:46:07] INFO root fetch - processPackages [SESMG]: executing diffoscope
+[2023-06-28 11:46:07] INFO root fetch - processPackages [SESMG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SESMG-0.5.0rc3.tar.gz tmp/SESMG-0.5.0rc4.tar.gz --markdown 20230628/S/SESMG/0.5.0rc3-0.5.0rc4/diff.md --exclude *.pyd
+[2023-06-28 11:46:07] INFO root fetch - processPackages [reaktion]: executing diffoscope
+[2023-06-28 11:46:07] INFO root fetch - processPackages [reaktion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaktion-0.1.8.tar.gz tmp/reaktion-0.1.9.tar.gz --markdown 20230628/r/reaktion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 11:46:07] INFO root fetch - processPackages [Nuitka]: executing diffoscope
+[2023-06-28 11:46:07] INFO root fetch - processPackages [Nuitka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-1.6.5.tar.gz tmp/Nuitka-1.6.6.tar.gz --markdown 20230628/N/Nuitka/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-06-28 11:46:07] INFO root fetch - processPackages [pygame-ecs]: executing diffoscope
+[2023-06-28 11:46:07] INFO root fetch - processPackages [pygame-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame_ecs-0.2.4.tar.gz tmp/pygame_ecs-0.2.5.tar.gz --markdown 20230628/p/pygame-ecs/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-28 11:46:07] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-06-28 11:46:07] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.54.tar.gz tmp/pyfirebird-0.0.55.tar.gz --markdown 20230628/p/pyfirebird/0.0.54-0.0.55/diff.md --exclude *.pyd
+[2023-06-28 11:46:07] INFO root fetch - processPackages [fluss]: executing diffoscope
+[2023-06-28 11:46:07] INFO root fetch - processPackages [fluss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluss-0.1.8.tar.gz tmp/fluss-0.1.9.tar.gz --markdown 20230628/f/fluss/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 11:46:09] INFO root fetch - processPackages [bl3d]: Remove: archive file [/home/abi/fetcher/tmp/bl3d-0.4.0.tar.gz]
+[2023-06-28 11:46:09] INFO root fetch - processPackages [bl3d]: Remove: archive file [/home/abi/fetcher/tmp/bl3d-0.4.1.tar.gz]
+[2023-06-28 11:46:09] INFO root fetch - processPackages [bl3d]: Start processing: eodc-faas-openeo
+[2023-06-28 11:46:09] INFO root fetch - main [MainThread]: End processing [bl3d]: success
+[2023-06-28 11:46:09] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-28 11:46:09] INFO root fetch - processPackages [reaktion]: Remove: archive file [/home/abi/fetcher/tmp/reaktion-0.1.8.tar.gz]
+[2023-06-28 11:46:09] INFO root fetch - processPackages [reaktion]: Remove: archive file [/home/abi/fetcher/tmp/reaktion-0.1.9.tar.gz]
+[2023-06-28 11:46:09] INFO root fetch - processPackages [reaktion]: Start processing: arkitekt
+[2023-06-28 11:46:09] INFO root fetch - main [MainThread]: End processing [reaktion]: success
+[2023-06-28 11:46:09] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/bf/65/17c492bd7934456ef4a003078ffcb510f62f943407298b90a63969aa3f1f/eodc_faas_openeo-2023.6.8.tar.gz
+[2023-06-28 11:46:09] INFO root fetch - processPackages [arkitekt]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-06-28 11:46:09] INFO root fetch - processPackages [python-hue-v2]: Remove: archive file [/home/abi/fetcher/tmp/python_hue_v2-1.0.1.tar.gz]
+[2023-06-28 11:46:09] INFO root fetch - processPackages [python-hue-v2]: Remove: archive file [/home/abi/fetcher/tmp/python_hue_v2-1.0.2.tar.gz]
+[2023-06-28 11:46:09] INFO root fetch - processPackages [python-hue-v2]: Start processing: pallet-sim
+[2023-06-28 11:46:09] INFO root fetch - main [MainThread]: End processing [python-hue-v2]: success
+[2023-06-28 11:46:09] WARNING root fetch - processPackages [pallet-sim]: Skipping, unable to determine old version
+[2023-06-28 11:46:09] INFO root fetch - processPackages [pallet-sim]: Start processing: dans-datastation-tools
+[2023-06-28 11:46:09] INFO root fetch - main [MainThread]: End processing [pallet-sim] error
+[2023-06-28 11:46:09] INFO root fetch - processPackages [dans-datastation-tools]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-28 11:46:09] INFO root fetch - processPackages [pygame-ecs]: Remove: archive file [/home/abi/fetcher/tmp/pygame_ecs-0.2.4.tar.gz]
+[2023-06-28 11:46:09] INFO root fetch - processPackages [pygame-ecs]: Remove: archive file [/home/abi/fetcher/tmp/pygame_ecs-0.2.5.tar.gz]
+[2023-06-28 11:46:09] INFO root fetch - processPackages [pygame-ecs]: Start processing: moosez
+[2023-06-28 11:46:09] INFO root fetch - main [MainThread]: End processing [pygame-ecs]: success
+[2023-06-28 11:46:09] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/45/d9/35169f132b775e9da3d8ce31f38662fadbe59f5edc60636fe5ea9f5de4dc/arkitekt-0.4.98.tar.gz
+[2023-06-28 11:46:09] INFO root fetch - processPackages [moosez]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-06-28 11:46:09] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/77/6b/8eb1deae635c30a05c1c3a89c459d64974381087d1c84d89e3ad9410049a/eodc_faas_openeo-2023.6.9.tar.gz
+[2023-06-28 11:46:09] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/90/80/6c8f4eff266df74d5a9eef52d3912be2ae0792d7b46371e69cf1dab5331a/moosez-2.1.3.tar.gz
+[2023-06-28 11:46:09] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2023-06-28 11:46:09] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2023.6.8.tar.gz tmp/eodc_faas_openeo-2023.6.9.tar.gz --markdown 20230628/e/eodc-faas-openeo/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-28 11:46:09] INFO root fetch - processPackages [dans-datastation-tools]: Downloading https://files.pythonhosted.org/packages/08/62/4cba38c948e0fa33a69c9beca81c47287fee27036ce8c320827363d60325/dans-datastation-tools-0.8.0.tar.gz
+[2023-06-28 11:46:09] INFO root fetch - processPackages [fluss]: Remove: archive file [/home/abi/fetcher/tmp/fluss-0.1.8.tar.gz]
+[2023-06-28 11:46:09] INFO root fetch - processPackages [fluss]: Remove: archive file [/home/abi/fetcher/tmp/fluss-0.1.9.tar.gz]
+[2023-06-28 11:46:09] INFO root fetch - processPackages [fluss]: Start processing: pysquril
+[2023-06-28 11:46:09] INFO root fetch - main [MainThread]: End processing [fluss]: success
+[2023-06-28 11:46:09] INFO root fetch - processPackages [pysquril]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-28 11:46:09] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/5e/c8/1f19f729f12496e96b8d1969f7079b0cdcacc1dee86057e74cb04b3087e0/arkitekt-0.4.99.tar.gz
+[2023-06-28 11:46:09] INFO root fetch - processPackages [pysquril]: Downloading https://files.pythonhosted.org/packages/3e/95/da667545c89d6aa06755c1f078f96831653bbe23e5750ad7021b912c4809/pysquril-0.3.4.tar.gz
+[2023-06-28 11:46:09] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/d2/8a/cd3447c61df168c192d5fdae6c476ccc665e102557e76d921ab331b83db1/moosez-2.1.4.tar.gz
+[2023-06-28 11:46:09] INFO root fetch - processPackages [dans-datastation-tools]: Downloading https://files.pythonhosted.org/packages/33/96/44cd919e59f5edb30e2236c9f4259f8c9e7483d1219012cbaf403482dd4d/dans-datastation-tools-0.9.0.tar.gz
+[2023-06-28 11:46:09] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-06-28 11:46:09] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.98.tar.gz tmp/arkitekt-0.4.99.tar.gz --markdown 20230628/a/arkitekt/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-06-28 11:46:09] INFO root fetch - processPackages [dans-datastation-tools]: executing diffoscope
+[2023-06-28 11:46:09] INFO root fetch - processPackages [dans-datastation-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dans-datastation-tools-0.8.0.tar.gz tmp/dans-datastation-tools-0.9.0.tar.gz --markdown 20230628/d/dans-datastation-tools/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-28 11:46:09] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-06-28 11:46:09] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.1.3.tar.gz tmp/moosez-2.1.4.tar.gz --markdown 20230628/m/moosez/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-06-28 11:46:10] INFO root fetch - processPackages [pysquril]: Downloading https://files.pythonhosted.org/packages/fe/f0/53e3056546a372b078a6a04a22d38821a21566b734624549e376edc74691/pysquril-0.3.5.tar.gz
+[2023-06-28 11:46:10] INFO root fetch - processPackages [pysquril]: executing diffoscope
+[2023-06-28 11:46:10] INFO root fetch - processPackages [pysquril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysquril-0.3.4.tar.gz tmp/pysquril-0.3.5.tar.gz --markdown 20230628/p/pysquril/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-28 11:46:10] INFO root fetch - processPackages [mikro]: Remove: archive file [/home/abi/fetcher/tmp/mikro-0.3.80.tar.gz]
+[2023-06-28 11:46:10] INFO root fetch - processPackages [mikro]: Remove: archive file [/home/abi/fetcher/tmp/mikro-0.3.9.tar.gz]
+[2023-06-28 11:46:10] INFO root fetch - processPackages [mikro]: Start processing: kanonym4text
+[2023-06-28 11:46:10] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-06-28 11:46:10] INFO root fetch - processPackages [rekuest]: Remove: archive file [/home/abi/fetcher/tmp/rekuest-0.1.8.tar.gz]
+[2023-06-28 11:46:10] INFO root fetch - processPackages [rekuest]: Remove: archive file [/home/abi/fetcher/tmp/rekuest-0.1.9.tar.gz]
+[2023-06-28 11:46:10] INFO root fetch - processPackages [rekuest]: Start processing: ign-pdal-tools
+[2023-06-28 11:46:10] INFO root fetch - main [MainThread]: End processing [rekuest]: success
+[2023-06-28 11:46:10] INFO root fetch - processPackages [kanonym4text]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-28 11:46:10] INFO root fetch - processPackages [ign-pdal-tools]: New version: [0.5.6.dev0] Old Version: [0.5.6]
+[2023-06-28 11:46:10] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.6.8.tar.gz]
+[2023-06-28 11:46:10] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.6.9.tar.gz]
+[2023-06-28 11:46:10] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2023-06-28 11:46:10] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/ef/66/7230f121c1d47a9bea6dbe021beca26a0b95916536bb8864eab6233961e1/kanonym4text-0.0.1.tar.gz
+[2023-06-28 11:46:11] INFO root fetch - processPackages [ign-pdal-tools]: Downloading https://files.pythonhosted.org/packages/46/e9/0bd028f836d8c5a2c695a86ed72e4aeff866e560db050ea05bf84f0329bd/ign-pdal-tools-0.5.6.tar.gz
+[2023-06-28 11:46:11] INFO root fetch - processPackages [SESMG]: Remove: archive file [/home/abi/fetcher/tmp/SESMG-0.5.0rc3.tar.gz]
+[2023-06-28 11:46:11] INFO root fetch - processPackages [SESMG]: Remove: archive file [/home/abi/fetcher/tmp/SESMG-0.5.0rc4.tar.gz]
+[2023-06-28 11:46:11] INFO root fetch - main [MainThread]: End processing [SESMG]: success
+[2023-06-28 11:46:11] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/9e/bf/f9beac6de558bd0b796609a64b1ff1fa05fa645522450d7811181e75f056/kanonym4text-0.0.2.tar.gz
+[2023-06-28 11:46:11] INFO root fetch - processPackages [ign-pdal-tools]: Downloading https://files.pythonhosted.org/packages/47/d0/503ec07bb5ddb33cc95af97e86849f00e2019427b151531df70d38f093a6/ign-pdal-tools-0.5.6.dev0.tar.gz
+[2023-06-28 11:46:11] INFO root fetch - processPackages [kanonym4text]: executing diffoscope
+[2023-06-28 11:46:11] INFO root fetch - processPackages [kanonym4text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanonym4text-0.0.1.tar.gz tmp/kanonym4text-0.0.2.tar.gz --markdown 20230628/k/kanonym4text/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-28 11:46:11] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.1.3.tar.gz]
+[2023-06-28 11:46:11] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.1.4.tar.gz]
+[2023-06-28 11:46:11] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-06-28 11:46:11] INFO root fetch - processPackages [ign-pdal-tools]: executing diffoscope
+[2023-06-28 11:46:11] INFO root fetch - processPackages [ign-pdal-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign-pdal-tools-0.5.6.tar.gz tmp/ign-pdal-tools-0.5.6.dev0.tar.gz --markdown 20230628/i/ign-pdal-tools/0.5.6-0.5.6.dev0/diff.md --exclude *.pyd
+[2023-06-28 11:46:11] INFO root fetch - processPackages [pysquril]: Remove: archive file [/home/abi/fetcher/tmp/pysquril-0.3.4.tar.gz]
+[2023-06-28 11:46:11] INFO root fetch - processPackages [pysquril]: Remove: archive file [/home/abi/fetcher/tmp/pysquril-0.3.5.tar.gz]
+[2023-06-28 11:46:11] INFO root fetch - main [MainThread]: End processing [pysquril]: success
+[2023-06-28 11:46:11] INFO root fetch - processPackages [arkitekt]: Remove: archive file [/home/abi/fetcher/tmp/arkitekt-0.4.98.tar.gz]
+[2023-06-28 11:46:11] INFO root fetch - processPackages [arkitekt]: Remove: archive file [/home/abi/fetcher/tmp/arkitekt-0.4.99.tar.gz]
+[2023-06-28 11:46:11] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-06-28 11:46:11] INFO root fetch - processPackages [dans-datastation-tools]: Remove: archive file [/home/abi/fetcher/tmp/dans-datastation-tools-0.8.0.tar.gz]
+[2023-06-28 11:46:11] INFO root fetch - processPackages [dans-datastation-tools]: Remove: archive file [/home/abi/fetcher/tmp/dans-datastation-tools-0.9.0.tar.gz]
+[2023-06-28 11:46:11] INFO root fetch - main [MainThread]: End processing [dans-datastation-tools]: success
+[2023-06-28 11:46:12] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-0.0.1.tar.gz]
+[2023-06-28 11:46:12] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-0.0.2.tar.gz]
+[2023-06-28 11:46:12] INFO root fetch - main [MainThread]: End processing [kanonym4text]: success
+[2023-06-28 11:46:12] INFO root fetch - processPackages [ign-pdal-tools]: Remove: archive file [/home/abi/fetcher/tmp/ign-pdal-tools-0.5.6.tar.gz]
+[2023-06-28 11:46:12] INFO root fetch - processPackages [ign-pdal-tools]: Remove: archive file [/home/abi/fetcher/tmp/ign-pdal-tools-0.5.6.dev0.tar.gz]
+[2023-06-28 11:46:12] INFO root fetch - main [MainThread]: End processing [ign-pdal-tools]: success
+[2023-06-28 11:46:15] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.54.tar.gz]
+[2023-06-28 11:46:15] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.55.tar.gz]
+[2023-06-28 11:46:15] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-06-28 11:46:43] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.6.5.tar.gz]
+[2023-06-28 11:46:43] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.6.6.tar.gz]
+[2023-06-28 11:46:43] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
+[2023-06-28 11:46:43] INFO root fetch - main [MainThread]: Store serial: [18677192]
