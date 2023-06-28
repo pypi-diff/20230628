@@ -13238,3 +13238,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 04:41:50] INFO root fetch - processPackages [OpenDSSDirect.py]: Remove: archive file [/home/abi/fetcher/tmp/OpenDSSDirect.py-0.8.4.tar.gz]
 [2023-06-28 04:41:50] INFO root fetch - main [MainThread]: End processing [OpenDSSDirect.py]: success
 [2023-06-28 04:41:50] INFO root fetch - main [MainThread]: Store serial: [18673894]
+[2023-06-28 04:46:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18673894]
+[2023-06-28 04:46:59] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-28 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-brainfuck
+[2023-06-28 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-24
+[2023-06-28 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlabsio
+[2023-06-28 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: latch
+[2023-06-28 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-chatrecorder
+[2023-06-28 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adaboost-model
+[2023-06-28 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-25
+[2023-06-28 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: naif-eop-high-prec
+[2023-06-28 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: frontengine
+[2023-06-28 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lite-tools
+[2023-06-28 04:46:59] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-28 04:46:59] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-28 04:46:59] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-28 04:46:59] INFO root fetch - processPackages [fast-brainfuck]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-28 04:46:59] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-06-28 04:46:59] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/ea/0f/9044bbdb2efd71c50d870fc6fcaa6c3fd51bb323c9c484bdca69334e5a1e/naif_eop_high_prec-2023.6.8.tar.gz
+[2023-06-28 04:46:59] INFO root fetch - processPackages [lite-tools]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2023-06-28 04:46:59] INFO root fetch - processPackages [nonebot-plugin-chatrecorder]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-28 04:46:59] INFO root fetch - processPackages [adaboost-model]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-28 04:46:59] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-28 04:46:59] INFO root fetch - processPackages [streamlabsio]: New version: [1.0.0] Old Version: [0.1.3]
+[2023-06-28 04:46:59] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-28 04:46:59] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-28 04:46:59] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/80/d5/d151970554e6582252b98c3108705d13085a7dc34245e27d8a84aa9dc7fb/lite_tools-0.4.9.8-py3-none-any.whl
+[2023-06-28 04:46:59] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-06-28 04:47:00] INFO root fetch - processPackages [fast-brainfuck]: Downloading https://files.pythonhosted.org/packages/09/17/de43c7d8611ea041179a9d239b505f7d7b4e20c5b2326fdb82220907aca7/fast-brainfuck-1.0.6.tar.gz
+[2023-06-28 04:47:00] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-06-28 04:47:00] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230628/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-28 04:47:00] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-28 04:47:00] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-06-28 04:47:00] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2023-06-28 04:47:00] INFO root fetch - processPackages [nonebot-plugin-chatrecorder]: Downloading https://files.pythonhosted.org/packages/dd/8a/9f04b0a4adfd7adcfdcd053da89b18329fc30ce0db5d4c6a198247226758/nonebot_plugin_chatrecorder-0.2.3.tar.gz
+[2023-06-28 04:47:00] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/40/02/c8d1ce34f7fdcb6015276185ff6ef593475a639f13f131e8d0da62426dbc/lite_tools-0.4.9.9-py3-none-any.whl
+[2023-06-28 04:47:00] INFO root fetch - processPackages [adaboost-model]: Downloading https://files.pythonhosted.org/packages/ec/04/e72b39de76a549ac61ae60a1b1570f4f3e7a6031ff2ee120543d6a6f4597/adaboost-model-0.2.1.tar.gz
+[2023-06-28 04:47:00] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-28 04:47:00] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230628/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-28 04:47:00] INFO root fetch - processPackages [lite-tools]: executing diffoscope
+[2023-06-28 04:47:00] INFO root fetch - processPackages [lite-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip --markdown 20230628/l/lite-tools/0.4.9.8-0.4.9.9/diff.md --exclude *.pyd
+[2023-06-28 04:47:00] INFO root fetch - processPackages [streamlabsio]: Downloading https://files.pythonhosted.org/packages/0b/08/20b927be5ef70ee151b05bf174bef8fdf0623a041e54fc8c47a5f484cf99/streamlabsio-0.1.3.tar.gz
+[2023-06-28 04:47:00] INFO root fetch - processPackages [fast-brainfuck]: Downloading https://files.pythonhosted.org/packages/cc/6b/56bd8ff49911896b8993c7cf60acba8d42b2212b8981dfc2053e28b0336c/fast-brainfuck-1.0.7.tar.gz
+[2023-06-28 04:47:00] INFO root fetch - processPackages [adaboost-model]: Downloading https://files.pythonhosted.org/packages/80/55/3b9bd0d909a03a956711f1283b5b23291a5106298e4088d480b700e2f94d/adaboost-model-0.2.2.tar.gz
+[2023-06-28 04:47:00] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2023-06-28 04:47:00] INFO root fetch - processPackages [nonebot-plugin-chatrecorder]: Downloading https://files.pythonhosted.org/packages/58/50/d57326d2130101a89620a05a5347bc4fe22938dbafaa4d28e737c017574c/nonebot_plugin_chatrecorder-0.2.4.tar.gz
+[2023-06-28 04:47:00] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/86/df/7e6a8b8768d3fb282891cae7859ab48b4ff949a7ed50e8d31090c561c199/naif_eop_high_prec-2023.6.9.tar.gz
+[2023-06-28 04:47:00] INFO root fetch - processPackages [fast-brainfuck]: executing diffoscope
+[2023-06-28 04:47:00] INFO root fetch - processPackages [fast-brainfuck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-brainfuck-1.0.6.tar.gz tmp/fast-brainfuck-1.0.7.tar.gz --markdown 20230628/f/fast-brainfuck/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-28 04:47:00] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-06-28 04:47:00] INFO root fetch - processPackages [adaboost-model]: executing diffoscope
+[2023-06-28 04:47:00] INFO root fetch - processPackages [adaboost-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaboost-model-0.2.1.tar.gz tmp/adaboost-model-0.2.2.tar.gz --markdown 20230628/a/adaboost-model/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-28 04:47:00] INFO root fetch - processPackages [nonebot-plugin-chatrecorder]: executing diffoscope
+[2023-06-28 04:47:00] INFO root fetch - processPackages [nonebot-plugin-chatrecorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_chatrecorder-0.2.3.tar.gz tmp/nonebot_plugin_chatrecorder-0.2.4.tar.gz --markdown 20230628/n/nonebot-plugin-chatrecorder/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-28 04:47:00] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-06-28 04:47:00] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230628/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-28 04:47:00] INFO root fetch - processPackages [streamlabsio]: Downloading https://files.pythonhosted.org/packages/8c/f7/c94888e7ef6941dde01b26a41f1d4f321ec33aac7875a91bc535d9f91085/streamlabsio-1.0.0.tar.gz
+[2023-06-28 04:47:00] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-28 04:47:00] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230628/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-28 04:47:00] INFO root fetch - processPackages [streamlabsio]: executing diffoscope
+[2023-06-28 04:47:00] INFO root fetch - processPackages [streamlabsio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlabsio-0.1.3.tar.gz tmp/streamlabsio-1.0.0.tar.gz --markdown 20230628/s/streamlabsio/0.1.3-1.0.0/diff.md --exclude *.pyd
+[2023-06-28 04:47:01] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-06-28 04:47:01] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.8.tar.gz tmp/naif_eop_high_prec-2023.6.9.tar.gz --markdown 20230628/n/naif-eop-high-prec/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-28 04:47:02] INFO root fetch - processPackages [nonebot-plugin-chatrecorder]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_chatrecorder-0.2.3.tar.gz]
+[2023-06-28 04:47:02] INFO root fetch - processPackages [nonebot-plugin-chatrecorder]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_chatrecorder-0.2.4.tar.gz]
+[2023-06-28 04:47:02] INFO root fetch - processPackages [nonebot-plugin-chatrecorder]: Start processing: cdk8s-plus-26
+[2023-06-28 04:47:02] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-chatrecorder]: success
+[2023-06-28 04:47:02] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-1.0.6.tar.gz]
+[2023-06-28 04:47:02] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-1.0.7.tar.gz]
+[2023-06-28 04:47:02] INFO root fetch - processPackages [fast-brainfuck]: Start processing: radstar
+[2023-06-28 04:47:02] INFO root fetch - main [MainThread]: End processing [fast-brainfuck]: success
+[2023-06-28 04:47:02] INFO root fetch - processPackages [adaboost-model]: Remove: archive file [/home/abi/fetcher/tmp/adaboost-model-0.2.1.tar.gz]
+[2023-06-28 04:47:02] INFO root fetch - processPackages [adaboost-model]: Remove: archive file [/home/abi/fetcher/tmp/adaboost-model-0.2.2.tar.gz]
+[2023-06-28 04:47:02] INFO root fetch - processPackages [adaboost-model]: Start processing: metarace-tagreg
+[2023-06-28 04:47:02] INFO root fetch - main [MainThread]: End processing [adaboost-model]: success
+[2023-06-28 04:47:02] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-28 04:47:02] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-28 04:47:02] INFO root fetch - processPackages [radstar]: New version: [0.1.0] Old Version: [0.0.231790245]
+[2023-06-28 04:47:02] INFO root fetch - processPackages [metarace-tagreg]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-28 04:47:02] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip]
+[2023-06-28 04:47:02] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip]
+[2023-06-28 04:47:02] INFO root fetch - processPackages [lite-tools]: Start processing: pypomes-store
+[2023-06-28 04:47:02] INFO root fetch - main [MainThread]: End processing [lite-tools]: success
+[2023-06-28 04:47:02] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-28 04:47:02] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/80/21/ca1cd502abe7c84e5b1ac469b3da8554f98b10ac795f8603869049f1b001/radstar-0.0.231790245.tar.gz
+[2023-06-28 04:47:02] WARNING root fetch - processPackages [pypomes-store]: Skipping, unable to determine old version
+[2023-06-28 04:47:02] INFO root fetch - main [MainThread]: End processing [pypomes-store] error
+[2023-06-28 04:47:02] INFO root fetch - processPackages [streamlabsio]: Remove: archive file [/home/abi/fetcher/tmp/streamlabsio-0.1.3.tar.gz]
+[2023-06-28 04:47:02] INFO root fetch - processPackages [streamlabsio]: Remove: archive file [/home/abi/fetcher/tmp/streamlabsio-1.0.0.tar.gz]
+[2023-06-28 04:47:02] INFO root fetch - main [MainThread]: End processing [streamlabsio]: success
+[2023-06-28 04:47:02] INFO root fetch - processPackages [metarace-tagreg]: Downloading https://files.pythonhosted.org/packages/ae/8c/a44160245d625e848b2271edde8e9168ab42a1535bb4b10871d2663932e6/metarace-tagreg-1.0.1.tar.gz
+[2023-06-28 04:47:02] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2023-06-28 04:47:02] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2023-06-28 04:47:02] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-06-28 04:47:02] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-06-28 04:47:02] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-06-28 04:47:02] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-28 04:47:02] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-28 04:47:02] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230628/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-28 04:47:02] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-28 04:47:02] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-28 04:47:02] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-28 04:47:02] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-06-28 04:47:02] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-06-28 04:47:02] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-06-28 04:47:02] INFO root fetch - processPackages [metarace-tagreg]: Downloading https://files.pythonhosted.org/packages/8e/4f/0168585fd9527ab569457aa1fb9952b6751342d8514f8af414d3d0bcb7ea/metarace-tagreg-1.0.2.tar.gz
+[2023-06-28 04:47:02] INFO root fetch - processPackages [metarace-tagreg]: executing diffoscope
+[2023-06-28 04:47:02] INFO root fetch - processPackages [metarace-tagreg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metarace-tagreg-1.0.1.tar.gz tmp/metarace-tagreg-1.0.2.tar.gz --markdown 20230628/m/metarace-tagreg/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-28 04:47:03] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/20/03/1113710eb36a03122fd1a6294278526f2b06157ac6adcade8268a28e6483/radstar-0.1.0-py3-none-any.whl
+[2023-06-28 04:47:03] INFO root fetch - processPackages [radstar]: executing diffoscope
+[2023-06-28 04:47:03] INFO root fetch - processPackages [radstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radstar-0.0.231790245.tar.gz tmp/radstar-0.1.0-py3-none-any.whl.zip --markdown 20230628/r/radstar/0.0.231790245-0.1.0/diff.md --exclude *.pyd
+[2023-06-28 04:47:03] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-28 04:47:03] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-28 04:47:03] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-28 04:47:04] INFO root fetch - processPackages [metarace-tagreg]: Remove: archive file [/home/abi/fetcher/tmp/metarace-tagreg-1.0.1.tar.gz]
+[2023-06-28 04:47:04] INFO root fetch - processPackages [metarace-tagreg]: Remove: archive file [/home/abi/fetcher/tmp/metarace-tagreg-1.0.2.tar.gz]
+[2023-06-28 04:47:04] INFO root fetch - main [MainThread]: End processing [metarace-tagreg]: success
+[2023-06-28 04:47:04] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.0.231790245.tar.gz]
+[2023-06-28 04:47:04] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.1.0-py3-none-any.whl.zip]
+[2023-06-28 04:47:04] INFO root fetch - main [MainThread]: End processing [radstar]: success
+[2023-06-28 04:47:05] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.8.tar.gz]
+[2023-06-28 04:47:05] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
+[2023-06-28 04:47:05] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-06-28 04:47:05] INFO root fetch - main [MainThread]: Store serial: [18673939]
