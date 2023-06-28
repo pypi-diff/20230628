@@ -15429,3 +15429,30 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 07:45:16] INFO root fetch - processPackages [yangsuite-yangtree]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_yangtree-2.1.7-py3-none-any.whl.zip]
 [2023-06-28 07:45:16] INFO root fetch - main [MainThread]: End processing [yangsuite-yangtree]: success
 [2023-06-28 07:45:16] INFO root fetch - main [MainThread]: Store serial: [18674911]
+[2023-06-28 07:50:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674911]
+[2023-06-28 07:50:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-28 07:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-ddosbgp20180201
+[2023-06-28 07:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-gitlab
+[2023-06-28 07:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hack-pc-to-LV-1
+[2023-06-28 07:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sentry-ldap
+[2023-06-28 07:50:27] WARNING root fetch - processPackages [alibabacloud-ddosbgp20180201]: Skipping, unable to determine old version
+[2023-06-28 07:50:27] INFO root fetch - main [MainThread]: End processing [alibabacloud-ddosbgp20180201] error
+[2023-06-28 07:50:27] WARNING root fetch - processPackages [sentry-ldap]: Skipping, unable to determine old version
+[2023-06-28 07:50:27] INFO root fetch - main [MainThread]: End processing [sentry-ldap] error
+[2023-06-28 07:50:27] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.1.0a1687929913] Old Version: [6.1.0a1687318522]
+[2023-06-28 07:50:27] INFO root fetch - processPackages [hack-pc-to-LV-1]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-28 07:50:27] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/fb/b8/fcf1edd33b8ec3b8033abd5b4f5ff175d0401f2db62c16872abb430c166f/pulumi_gitlab-6.1.0a1687318522.tar.gz
+[2023-06-28 07:50:27] INFO root fetch - processPackages [hack-pc-to-LV-1]: Downloading https://files.pythonhosted.org/packages/0e/7a/ff7b8008eadbc8aaf12115aca967101636ab4ab96c7187f61f3e38185df6/hack_pc_to_LV_1-0.0.1.tar.gz
+[2023-06-28 07:50:27] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/22/67/79fa46d1a997bf683bc12e2c18806610ae55aa29a885152bc7f84a28919e/pulumi_gitlab-6.1.0a1687929913.tar.gz
+[2023-06-28 07:50:27] INFO root fetch - processPackages [hack-pc-to-LV-1]: Downloading https://files.pythonhosted.org/packages/9f/32/48a29076ec325cdc9f9c14c582851508a069df15308a7e3baba845de733c/hack_pc_to_LV_1-0.0.3-py3-none-any.whl
+[2023-06-28 07:50:27] INFO root fetch - processPackages [hack-pc-to-LV-1]: executing diffoscope
+[2023-06-28 07:50:27] INFO root fetch - processPackages [hack-pc-to-LV-1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hack_pc_to_LV_1-0.0.1.tar.gz tmp/hack_pc_to_LV_1-0.0.3-py3-none-any.whl.zip --markdown 20230628/h/hack-pc-to-LV-1/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-28 07:50:27] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2023-06-28 07:50:27] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.1.0a1687318522.tar.gz tmp/pulumi_gitlab-6.1.0a1687929913.tar.gz --markdown 20230628/p/pulumi-gitlab/6.1.0a1687318522-6.1.0a1687929913/diff.md --exclude *.pyd
+[2023-06-28 07:50:28] INFO root fetch - processPackages [hack-pc-to-LV-1]: Remove: archive file [/home/abi/fetcher/tmp/hack_pc_to_LV_1-0.0.1.tar.gz]
+[2023-06-28 07:50:28] INFO root fetch - processPackages [hack-pc-to-LV-1]: Remove: archive file [/home/abi/fetcher/tmp/hack_pc_to_LV_1-0.0.3-py3-none-any.whl.zip]
+[2023-06-28 07:50:28] INFO root fetch - main [MainThread]: End processing [hack-pc-to-LV-1]: success
+[2023-06-28 07:50:30] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.1.0a1687318522.tar.gz]
+[2023-06-28 07:50:30] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.1.0a1687929913.tar.gz]
+[2023-06-28 07:50:30] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2023-06-28 07:50:30] INFO root fetch - main [MainThread]: Store serial: [18674943]
