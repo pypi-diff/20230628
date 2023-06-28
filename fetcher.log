@@ -21643,3 +21643,180 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 12:13:05] INFO root fetch - processPackages [ros-cdk-clickhouse]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-clickhouse-1.0.9.tar.gz]
 [2023-06-28 12:13:05] INFO root fetch - main [MainThread]: End processing [ros-cdk-clickhouse]: success
 [2023-06-28 12:13:05] INFO root fetch - main [MainThread]: Store serial: [18677424]
+[2023-06-28 12:18:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18677424]
+[2023-06-28 12:18:14] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyneurosdk2
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-ram
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ixcom
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-asm
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kanonym4text
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-searchengine
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-bss
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-github
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-kafka
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-rds
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ros-cdk-ram]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:18:14] INFO root fetch - processPackages [kanonym4text]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-28 12:18:14] INFO root fetch - processPackages [pyneurosdk2]: New version: [1.0.5] Old Version: [1.0.4.post1]
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ros-cdk-asm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ros-cdk-rds]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ros-cdk-bss]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ros-cdk-searchengine]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ros-cdk-kafka]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ixcom]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-06-28 12:18:14] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.1] Old Version: [5.9.0a1683752304]
+[2023-06-28 12:18:14] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/9e/bf/f9beac6de558bd0b796609a64b1ff1fa05fa645522450d7811181e75f056/kanonym4text-0.0.2.tar.gz
+[2023-06-28 12:18:14] INFO root fetch - processPackages [pyneurosdk2]: Downloading https://files.pythonhosted.org/packages/cb/d6/a9aa1badc52e7ac91688c04ff8dc437b76eb5c34860d23ec67dffd697e64/pyneurosdk2-1.0.4.post1.tar.gz
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ros-cdk-ram]: Downloading https://files.pythonhosted.org/packages/72/1c/1dd143ca0b5dbde3c0227f0effa0e20ec8e19e4d87115a3c00dd4fff8639/ros-cdk-ram-1.0.8.tar.gz
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ixcom]: Downloading https://files.pythonhosted.org/packages/f6/3d/1aa2e420d4511472ce0897e927a558c95304a42d0760e279446167376918/ixcom-1.3.6.tar.gz
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ros-cdk-rds]: Downloading https://files.pythonhosted.org/packages/4d/b9/54939a4be8c7f3fc90857a78705be2ea6ff1efdc2577ae9c348c1fc306fa/ros-cdk-rds-1.0.8.tar.gz
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ros-cdk-asm]: Downloading https://files.pythonhosted.org/packages/14/e7/5878fa168e4b5e5076d02feb289d0cc0c7abe835224fac5756c88c7c455e/ros-cdk-asm-1.0.8.tar.gz
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ros-cdk-bss]: Downloading https://files.pythonhosted.org/packages/01/5d/7367ba097309c2cad4d93042e0b57559d3baca78f6413adfc0241c79ab5c/ros-cdk-bss-1.0.8.tar.gz
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ros-cdk-searchengine]: Downloading https://files.pythonhosted.org/packages/bf/3b/30c5eaff9b36fce6cdba9745b74eee3c770da09e85aab9d379276650b4a3/ros-cdk-searchengine-1.0.8.tar.gz
+[2023-06-28 12:18:14] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/32/ed/961d0285211aa15049b6c58f7c819b33844f2916f9a913ccf0bfb1e54b4c/pulumi_github-5.9.0a1683752304.tar.gz
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ros-cdk-kafka]: Downloading https://files.pythonhosted.org/packages/a3/99/c40da094f8be49c3470e220bbe6f6af2a035df2d0cf91637a4591129356b/ros-cdk-kafka-1.0.8.tar.gz
+[2023-06-28 12:18:14] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/be/92/2f1107afb205f131d242f825a664242a601bf997446b409380d25da6998e/kanonym4text-0.0.3.tar.gz
+[2023-06-28 12:18:14] INFO root fetch - processPackages [kanonym4text]: executing diffoscope
+[2023-06-28 12:18:14] INFO root fetch - processPackages [kanonym4text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanonym4text-0.0.2.tar.gz tmp/kanonym4text-0.0.3.tar.gz --markdown 20230628/k/kanonym4text/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-28 12:18:14] INFO root fetch - processPackages [ixcom]: Downloading https://files.pythonhosted.org/packages/96/9a/d113b690560525ba1fa7fc383dd214bb0de179fbdd01fd3f503c1dfacc8f/ixcom-1.3.7.tar.gz
+[2023-06-28 12:18:15] INFO root fetch - processPackages [pyneurosdk2]: Downloading https://files.pythonhosted.org/packages/7e/bc/10b62048a3a55257c74c6eaadad632572c0144417ec96d7bb72f44b7bee1/pyneurosdk2-1.0.5.tar.gz
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-ram]: Downloading https://files.pythonhosted.org/packages/01/77/29a2ece550d18a242fa77432a9ade1af180f7a002d1dd1548235638e66b7/ros-cdk-ram-1.0.9.tar.gz
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-searchengine]: Downloading https://files.pythonhosted.org/packages/e2/9e/a6cfd33bb3d00e36bf216514e31cd054a8f1530ebfb460860da76c52b98a/ros-cdk-searchengine-1.0.9.tar.gz
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ixcom]: executing diffoscope
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ixcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixcom-1.3.6.tar.gz tmp/ixcom-1.3.7.tar.gz --markdown 20230628/i/ixcom/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-asm]: Downloading https://files.pythonhosted.org/packages/77/2e/0382bd98bdddc0b3148f6a38a5267e292d026a858707240b6bf76e705961/ros-cdk-asm-1.0.9.tar.gz
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-rds]: Downloading https://files.pythonhosted.org/packages/a7/73/941d30ecd6a2e656e2bbafa58831a40dd39d1fad6b10b9a3c25f6c6dda65/ros-cdk-rds-1.0.9.tar.gz
+[2023-06-28 12:18:15] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/c9/c7/93ab5613466154b7124ec8eae861573f6b499bd2807accd6d08c5fa08291/pulumi_github-5.9.1.tar.gz
+[2023-06-28 12:18:15] INFO root fetch - processPackages [pyneurosdk2]: executing diffoscope
+[2023-06-28 12:18:15] INFO root fetch - processPackages [pyneurosdk2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneurosdk2-1.0.4.post1.tar.gz tmp/pyneurosdk2-1.0.5.tar.gz --markdown 20230628/p/pyneurosdk2/1.0.4.post1-1.0.5/diff.md --exclude *.pyd
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-searchengine]: executing diffoscope
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-kafka]: Downloading https://files.pythonhosted.org/packages/c5/51/5727735ae9a6c3a2ec45a2f27a7668e524d6066953bd376dbfadea5eebd6/ros-cdk-kafka-1.0.9.tar.gz
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-searchengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-searchengine-1.0.8.tar.gz tmp/ros-cdk-searchengine-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-searchengine/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-ram]: executing diffoscope
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-ram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ram-1.0.8.tar.gz tmp/ros-cdk-ram-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-ram/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-asm]: executing diffoscope
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-asm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-asm-1.0.8.tar.gz tmp/ros-cdk-asm-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-asm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:18:15] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-06-28 12:18:15] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1683752304.tar.gz tmp/pulumi_github-5.9.1.tar.gz --markdown 20230628/p/pulumi-github/5.9.0a1683752304-5.9.1/diff.md --exclude *.pyd
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-kafka]: executing diffoscope
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-kafka-1.0.8.tar.gz tmp/ros-cdk-kafka-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-kafka/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-rds]: executing diffoscope
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-rds-1.0.8.tar.gz tmp/ros-cdk-rds-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-rds/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-bss]: Downloading https://files.pythonhosted.org/packages/3a/67/4f5261976d3d0ebbad88eead45b2e0cea6f54d974cab64d1e56e73d28912/ros-cdk-bss-1.0.9.tar.gz
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-bss]: executing diffoscope
+[2023-06-28 12:18:15] INFO root fetch - processPackages [ros-cdk-bss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-bss-1.0.8.tar.gz tmp/ros-cdk-bss-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-bss/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:18:16] INFO root fetch - processPackages [ixcom]: Remove: archive file [/home/abi/fetcher/tmp/ixcom-1.3.6.tar.gz]
+[2023-06-28 12:18:16] INFO root fetch - processPackages [ixcom]: Remove: archive file [/home/abi/fetcher/tmp/ixcom-1.3.7.tar.gz]
+[2023-06-28 12:18:16] INFO root fetch - processPackages [ixcom]: Start processing: intezer-sdk
+[2023-06-28 12:18:16] INFO root fetch - main [MainThread]: End processing [ixcom]: success
+[2023-06-28 12:18:16] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-0.0.2.tar.gz]
+[2023-06-28 12:18:16] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-0.0.3.tar.gz]
+[2023-06-28 12:18:16] INFO root fetch - processPackages [kanonym4text]: Start processing: JustScan
+[2023-06-28 12:18:16] INFO root fetch - main [MainThread]: End processing [kanonym4text]: success
+[2023-06-28 12:18:16] INFO root fetch - processPackages [intezer-sdk]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-06-28 12:18:16] INFO root fetch - processPackages [JustScan]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-06-28 12:18:16] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-28 12:18:16] INFO root fetch - processPackages [ros-cdk-ram]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ram-1.0.8.tar.gz]
+[2023-06-28 12:18:16] INFO root fetch - processPackages [ros-cdk-ram]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ram-1.0.9.tar.gz]
+[2023-06-28 12:18:16] INFO root fetch - processPackages [ros-cdk-ram]: Start processing: ros-cdk-ehpc
+[2023-06-28 12:18:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-ram]: success
+[2023-06-28 12:18:16] INFO root fetch - processPackages [ros-cdk-ehpc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:18:16] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/54/07/b1b49e1d9407879a59c376b8799d8e3abe495ec3380638b2f1fbc61dd234/intezer_sdk-1.9.3-py3-none-any.whl
+[2023-06-28 12:18:16] INFO root fetch - processPackages [ros-cdk-searchengine]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-searchengine-1.0.8.tar.gz]
+[2023-06-28 12:18:16] INFO root fetch - processPackages [ros-cdk-searchengine]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-searchengine-1.0.9.tar.gz]
+[2023-06-28 12:18:16] INFO root fetch - processPackages [ros-cdk-searchengine]: Start processing: ITK-dev-shared-components
+[2023-06-28 12:18:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-searchengine]: success
+[2023-06-28 12:18:16] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/20/51/396244f1251090b72fd2bff6812da34962e3a4765e9191645f97ef99e24b/JustScan-1.2.0.tar.gz
+[2023-06-28 12:18:16] INFO root fetch - processPackages [ITK-dev-shared-components]: New version: [0.0.3b0] Old Version: [0.0.2]
+[2023-06-28 12:18:16] INFO root fetch - processPackages [ros-cdk-ehpc]: Downloading https://files.pythonhosted.org/packages/5f/fb/da450a6f4356330477bdd5c858b95f464547b579cbe4a5f9ec7d42ef528c/ros-cdk-ehpc-1.0.8.tar.gz
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ITK-dev-shared-components]: Downloading https://files.pythonhosted.org/packages/cf/14/e196083678c16486c81c5b097fb0c94439701353d9ac6d72f6fb9e5e34ce/ITK_dev_shared_components-0.0.2.tar.gz
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ros-cdk-kafka]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-kafka-1.0.8.tar.gz]
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ros-cdk-kafka]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-kafka-1.0.9.tar.gz]
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ros-cdk-kafka]: Start processing: hacalctest
+[2023-06-28 12:18:17] INFO root fetch - main [MainThread]: End processing [ros-cdk-kafka]: success
+[2023-06-28 12:18:17] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-28 12:18:17] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.9.tar.gz tmp/JustScan-1.2.0.tar.gz --markdown 20230628/J/JustScan/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-06-28 12:18:17] WARNING root fetch - processPackages [hacalctest]: Skipping, unable to determine old version
+[2023-06-28 12:18:17] INFO root fetch - processPackages [hacalctest]: Start processing: tilecloud
+[2023-06-28 12:18:17] INFO root fetch - main [MainThread]: End processing [hacalctest] error
+[2023-06-28 12:18:17] INFO root fetch - processPackages [tilecloud]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-28 12:18:17] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/1c/aa/b1c8d382cd3e6aeabd68aef67900e65831956e5715f6a86367c94bf60cd4/intezer_sdk-1.9.4-py3-none-any.whl
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ITK-dev-shared-components]: Downloading https://files.pythonhosted.org/packages/3d/87/e26b911f1c446e89811c8999a3cd1171441046f7ace48f548f77b904150a/ITK_dev_shared_components-0.0.3b0.tar.gz
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ros-cdk-ehpc]: Downloading https://files.pythonhosted.org/packages/95/74/ef0ec11d36690065c29a58d9f825e84280097ee058c6ea482be4acad5fc9/ros-cdk-ehpc-1.0.9.tar.gz
+[2023-06-28 12:18:17] INFO root fetch - processPackages [tilecloud]: Downloading https://files.pythonhosted.org/packages/f3/18/742bddb77e5c9b140f7568826c7daa6cd901adae70f9d18d48ed96c7562c/tilecloud-1.9.2.tar.gz
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ITK-dev-shared-components]: executing diffoscope
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ITK-dev-shared-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ITK_dev_shared_components-0.0.2.tar.gz tmp/ITK_dev_shared_components-0.0.3b0.tar.gz --markdown 20230628/I/ITK-dev-shared-components/0.0.2-0.0.3b0/diff.md --exclude *.pyd
+[2023-06-28 12:18:17] INFO root fetch - processPackages [intezer-sdk]: executing diffoscope
+[2023-06-28 12:18:17] INFO root fetch - processPackages [intezer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip --markdown 20230628/i/intezer-sdk/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ros-cdk-ehpc]: executing diffoscope
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ros-cdk-ehpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ehpc-1.0.8.tar.gz tmp/ros-cdk-ehpc-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-ehpc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ros-cdk-asm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-asm-1.0.8.tar.gz]
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ros-cdk-asm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-asm-1.0.9.tar.gz]
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ros-cdk-asm]: Start processing: ros-cdk-polardbx
+[2023-06-28 12:18:17] INFO root fetch - main [MainThread]: End processing [ros-cdk-asm]: success
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ros-cdk-bss]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bss-1.0.8.tar.gz]
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ros-cdk-bss]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bss-1.0.9.tar.gz]
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ros-cdk-bss]: Start processing: eu-cbm-hat
+[2023-06-28 12:18:17] INFO root fetch - main [MainThread]: End processing [ros-cdk-bss]: success
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ros-cdk-polardbx]: New version: [1.0.15] Old Version: [1.0.14]
+[2023-06-28 12:18:17] INFO root fetch - processPackages [eu-cbm-hat]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-28 12:18:17] INFO root fetch - processPackages [ros-cdk-polardbx]: Downloading https://files.pythonhosted.org/packages/47/90/2db5d9622dc3710cb7036ce8d9cc0697d1270b62d5c0af18ae900c3a52b3/ros-cdk-polardbx-1.0.14.tar.gz
+[2023-06-28 12:18:17] INFO root fetch - processPackages [eu-cbm-hat]: Downloading https://files.pythonhosted.org/packages/84/4e/59d2e4a6abf008747443c553a0ce0ebfe1930b621d7302c60fb5f01432cd/eu_cbm_hat-0.6.3.tar.gz
+[2023-06-28 12:18:17] INFO root fetch - processPackages [tilecloud]: Downloading https://files.pythonhosted.org/packages/4d/21/5da521956029834cd0bf6ad0a6bb648f29a7857ff297f4be9e13ad6c6061/tilecloud-1.9.3.tar.gz
+[2023-06-28 12:18:17] INFO root fetch - processPackages [tilecloud]: executing diffoscope
+[2023-06-28 12:18:17] INFO root fetch - processPackages [tilecloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tilecloud-1.9.2.tar.gz tmp/tilecloud-1.9.3.tar.gz --markdown 20230628/t/tilecloud/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-28 12:18:18] INFO root fetch - processPackages [eu-cbm-hat]: Downloading https://files.pythonhosted.org/packages/63/44/f2d64e17d3b76acf1be8cce030ca4011f70e8fd2dd2bc8da7d1ed2ffc66d/eu_cbm_hat-0.6.4.tar.gz
+[2023-06-28 12:18:18] INFO root fetch - processPackages [ros-cdk-polardbx]: Downloading https://files.pythonhosted.org/packages/50/8f/048163233de36f4189c4524cd8d423d0fec9a2900cdbc87e76e8a9cd0c1f/ros-cdk-polardbx-1.0.15.tar.gz
+[2023-06-28 12:18:18] INFO root fetch - processPackages [ros-cdk-polardbx]: executing diffoscope
+[2023-06-28 12:18:18] INFO root fetch - processPackages [ros-cdk-polardbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-polardbx-1.0.14.tar.gz tmp/ros-cdk-polardbx-1.0.15.tar.gz --markdown 20230628/r/ros-cdk-polardbx/1.0.14-1.0.15/diff.md --exclude *.pyd
+[2023-06-28 12:18:18] INFO root fetch - processPackages [eu-cbm-hat]: executing diffoscope
+[2023-06-28 12:18:18] INFO root fetch - processPackages [eu-cbm-hat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eu_cbm_hat-0.6.3.tar.gz tmp/eu_cbm_hat-0.6.4.tar.gz --markdown 20230628/e/eu-cbm-hat/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-28 12:18:18] INFO root fetch - processPackages [ITK-dev-shared-components]: Remove: archive file [/home/abi/fetcher/tmp/ITK_dev_shared_components-0.0.2.tar.gz]
+[2023-06-28 12:18:18] INFO root fetch - processPackages [ITK-dev-shared-components]: Remove: archive file [/home/abi/fetcher/tmp/ITK_dev_shared_components-0.0.3b0.tar.gz]
+[2023-06-28 12:18:18] INFO root fetch - processPackages [ITK-dev-shared-components]: Start processing: ros-cdk-ros
+[2023-06-28 12:18:18] INFO root fetch - main [MainThread]: End processing [ITK-dev-shared-components]: success
+[2023-06-28 12:18:18] INFO root fetch - processPackages [ros-cdk-ros]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:18:18] INFO root fetch - processPackages [ros-cdk-ehpc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ehpc-1.0.8.tar.gz]
+[2023-06-28 12:18:18] INFO root fetch - processPackages [ros-cdk-ehpc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ehpc-1.0.9.tar.gz]
+[2023-06-28 12:18:18] INFO root fetch - processPackages [ros-cdk-ehpc]: Start processing: ros-cdk-cas
+[2023-06-28 12:18:18] INFO root fetch - main [MainThread]: End processing [ros-cdk-ehpc]: success
+[2023-06-28 12:18:18] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip]
+[2023-06-28 12:18:18] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip]
+[2023-06-28 12:18:18] INFO root fetch - main [MainThread]: End processing [intezer-sdk]: success
+[2023-06-28 12:18:18] INFO root fetch - processPackages [ros-cdk-cas]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-28 12:18:18] INFO root fetch - processPackages [ros-cdk-ros]: Downloading https://files.pythonhosted.org/packages/fe/16/3541a9dcba437e9cafd5c436b98b068d92debe86fd83d92ad7e19f6023d9/ros-cdk-ros-1.0.8.tar.gz
+[2023-06-28 12:18:18] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-28 12:18:18] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.2.0.tar.gz]
+[2023-06-28 12:18:18] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-28 12:18:19] INFO root fetch - processPackages [ros-cdk-cas]: Downloading https://files.pythonhosted.org/packages/20/ed/e9e6a8ac49239cd3dfa897f837903d53f56293eabcf7cea3a9a9e0ba89b2/ros-cdk-cas-1.0.8.tar.gz
+[2023-06-28 12:18:19] INFO root fetch - processPackages [ros-cdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rds-1.0.8.tar.gz]
+[2023-06-28 12:18:19] INFO root fetch - processPackages [ros-cdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rds-1.0.9.tar.gz]
+[2023-06-28 12:18:19] INFO root fetch - main [MainThread]: End processing [ros-cdk-rds]: success
+[2023-06-28 12:18:19] INFO root fetch - processPackages [ros-cdk-ros]: Downloading https://files.pythonhosted.org/packages/29/3a/415feed176461f1bdd0022d594fe89eca09769f1755fe0752ac62bdb6c58/ros-cdk-ros-1.0.9.tar.gz
+[2023-06-28 12:18:19] INFO root fetch - processPackages [ros-cdk-ros]: executing diffoscope
+[2023-06-28 12:18:19] INFO root fetch - processPackages [ros-cdk-ros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ros-1.0.8.tar.gz tmp/ros-cdk-ros-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-ros/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:18:19] INFO root fetch - processPackages [ros-cdk-cas]: Downloading https://files.pythonhosted.org/packages/0e/9e/1200a10d1e5e9ccb1920137341bb78547eda2b7c8de7bf5ef2d3af667e66/ros-cdk-cas-1.0.9.tar.gz
+[2023-06-28 12:18:19] INFO root fetch - processPackages [ros-cdk-cas]: executing diffoscope
+[2023-06-28 12:18:19] INFO root fetch - processPackages [ros-cdk-cas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cas-1.0.8.tar.gz tmp/ros-cdk-cas-1.0.9.tar.gz --markdown 20230628/r/ros-cdk-cas/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-28 12:18:19] INFO root fetch - processPackages [ros-cdk-polardbx]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardbx-1.0.14.tar.gz]
+[2023-06-28 12:18:19] INFO root fetch - processPackages [ros-cdk-polardbx]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardbx-1.0.15.tar.gz]
+[2023-06-28 12:18:19] INFO root fetch - main [MainThread]: End processing [ros-cdk-polardbx]: success
+[2023-06-28 12:18:20] INFO root fetch - processPackages [eu-cbm-hat]: Remove: archive file [/home/abi/fetcher/tmp/eu_cbm_hat-0.6.3.tar.gz]
+[2023-06-28 12:18:20] INFO root fetch - processPackages [eu-cbm-hat]: Remove: archive file [/home/abi/fetcher/tmp/eu_cbm_hat-0.6.4.tar.gz]
+[2023-06-28 12:18:20] INFO root fetch - main [MainThread]: End processing [eu-cbm-hat]: success
+[2023-06-28 12:18:20] INFO root fetch - processPackages [ros-cdk-ros]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ros-1.0.8.tar.gz]
+[2023-06-28 12:18:20] INFO root fetch - processPackages [ros-cdk-ros]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ros-1.0.9.tar.gz]
+[2023-06-28 12:18:20] INFO root fetch - main [MainThread]: End processing [ros-cdk-ros]: success
+[2023-06-28 12:18:20] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.0a1683752304.tar.gz]
+[2023-06-28 12:18:20] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.1.tar.gz]
+[2023-06-28 12:18:20] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-06-28 12:18:20] INFO root fetch - processPackages [ros-cdk-cas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cas-1.0.8.tar.gz]
+[2023-06-28 12:18:20] INFO root fetch - processPackages [ros-cdk-cas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cas-1.0.9.tar.gz]
+[2023-06-28 12:18:20] INFO root fetch - main [MainThread]: End processing [ros-cdk-cas]: success
+[2023-06-28 12:18:21] INFO root fetch - processPackages [tilecloud]: Remove: archive file [/home/abi/fetcher/tmp/tilecloud-1.9.2.tar.gz]
+[2023-06-28 12:18:21] INFO root fetch - processPackages [tilecloud]: Remove: archive file [/home/abi/fetcher/tmp/tilecloud-1.9.3.tar.gz]
+[2023-06-28 12:18:21] INFO root fetch - main [MainThread]: End processing [tilecloud]: success
+[2023-06-28 12:18:23] INFO root fetch - processPackages [pyneurosdk2]: Remove: archive file [/home/abi/fetcher/tmp/pyneurosdk2-1.0.4.post1.tar.gz]
+[2023-06-28 12:18:23] INFO root fetch - processPackages [pyneurosdk2]: Remove: archive file [/home/abi/fetcher/tmp/pyneurosdk2-1.0.5.tar.gz]
+[2023-06-28 12:18:23] INFO root fetch - main [MainThread]: End processing [pyneurosdk2]: success
+[2023-06-28 12:18:23] INFO root fetch - main [MainThread]: Store serial: [18677475]
