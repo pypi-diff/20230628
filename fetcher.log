@@ -20033,3 +20033,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 11:07:05] INFO root fetch - processPackages [ITK-dev-shared-components]: Remove: archive file [/home/abi/fetcher/tmp/ITK_dev_shared_components-0.0.2.tar.gz]
 [2023-06-28 11:07:05] INFO root fetch - main [MainThread]: End processing [ITK-dev-shared-components]: success
 [2023-06-28 11:07:05] INFO root fetch - main [MainThread]: Store serial: [18676704]
+[2023-06-28 11:12:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18676704]
+[2023-06-28 11:12:14] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-28 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: JustScan
+[2023-06-28 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sc-cc-ng-sdk-python
+[2023-06-28 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windows-control
+[2023-06-28 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: checked-exception
+[2023-06-28 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lesscode-py
+[2023-06-28 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatglm-llm
+[2023-06-28 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dank-mids
+[2023-06-28 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kk
+[2023-06-28 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: glean-sdk
+[2023-06-28 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: plottah
+[2023-06-28 11:12:15] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-28 11:12:15] INFO root fetch - processPackages [plottah]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-28 11:12:15] INFO root fetch - processPackages [checked-exception]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-28 11:12:15] INFO root fetch - processPackages [chatglm-llm]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-06-28 11:12:15] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-28 11:12:15] INFO root fetch - processPackages [kk]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-28 11:12:15] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-28 11:12:15] INFO root fetch - processPackages [glean-sdk]: New version: [53.1.0] Old Version: [53.0.0]
+[2023-06-28 11:12:15] INFO root fetch - processPackages [windows-control]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-28 11:12:15] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-28 11:12:15] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/b1/55/34b23b2c33f75ae3e0748f6e7461ee041f3651f2d0bc7551a74c092102bd/chatglm-llm-1.4.2.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Downloading https://files.pythonhosted.org/packages/6f/ff/c877f94010c5038f42db1cf1c329a5b7f6d1240d312ae338b838eac0f49d/sc_cc_ng_sdk_python-0.1.5.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [checked-exception]: Downloading https://files.pythonhosted.org/packages/29/b1/7d06e50b457c45d2ea7eb711ec80eb42ac844524491435aa1740a7390b6b/checked-exception-0.0.5.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [windows-control]: Downloading https://files.pythonhosted.org/packages/a4/7f/5362d3659a175f9ef845d6c999d78c4a5e8a6e0c116ec52134b9e4bb4930/windows_control-0.0.5.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/ea/15/3bd0e9af725c16a780270d62abfded6bf4f8c5a8c14614a880f63a110fcf/plottah-0.1.5.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [kk]: Downloading https://files.pythonhosted.org/packages/11/ff/5d966a8f41b80bd5a9961ce4598555b0a2e16d0b539ad13f62456e11db70/kk-0.9.3.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [glean-sdk]: Downloading https://files.pythonhosted.org/packages/36/88/29eddd22a5ef2efaec705fc0ec21dd5a4881e667bf76ffb41a95e65f1eed/glean-sdk-53.0.0.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-28 11:12:15] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230628/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-28 11:12:15] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/81/05/5ec8813f964c50d4a7ed5312585f5742ce106729a2b0e4c8ffab5d4bdf6a/chatglm-llm-1.4.3.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [checked-exception]: Downloading https://files.pythonhosted.org/packages/0d/ac/be8f17be5c82aa8a07d0df2c63b983a13b615d7c8e9fedf998f2dea43531/checked-exception-0.0.6.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Downloading https://files.pythonhosted.org/packages/71/29/35631f4218ea1de96a878d086c0e1df4450888a42207ac5ccb587ad021e2/sc_cc_ng_sdk_python-0.1.6.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/01/e8/1255f62d6ffa0315f36287f0463c7ffcadae4d7b8982e7885ea702c6d8a1/plottah-0.1.6.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [windows-control]: Downloading https://files.pythonhosted.org/packages/2d/59/f3b248dc5eb1dd9222be57e0562338c8b26692d130305ced7e46f4cf48c3/windows_control-0.0.6.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [chatglm-llm]: executing diffoscope
+[2023-06-28 11:12:15] INFO root fetch - processPackages [chatglm-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatglm-llm-1.4.2.tar.gz tmp/chatglm-llm-1.4.3.tar.gz --markdown 20230628/c/chatglm-llm/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-06-28 11:12:15] INFO root fetch - processPackages [checked-exception]: executing diffoscope
+[2023-06-28 11:12:15] INFO root fetch - processPackages [checked-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checked-exception-0.0.5.tar.gz tmp/checked-exception-0.0.6.tar.gz --markdown 20230628/c/checked-exception/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-28 11:12:15] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-28 11:12:15] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230628/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-28 11:12:15] INFO root fetch - processPackages [windows-control]: executing diffoscope
+[2023-06-28 11:12:15] INFO root fetch - processPackages [windows-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windows_control-0.0.5.tar.gz tmp/windows_control-0.0.6.tar.gz --markdown 20230628/w/windows-control/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-28 11:12:15] INFO root fetch - processPackages [plottah]: executing diffoscope
+[2023-06-28 11:12:15] INFO root fetch - processPackages [plottah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plottah-0.1.5.tar.gz tmp/plottah-0.1.6.tar.gz --markdown 20230628/p/plottah/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-28 11:12:15] INFO root fetch - processPackages [kk]: Downloading https://files.pythonhosted.org/packages/be/01/f4366db4e553d90963fb337061e35aa58f8d59fad4ce893d159c9744ffe7/kk-0.9.4.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: executing diffoscope
+[2023-06-28 11:12:15] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_cc_ng_sdk_python-0.1.5.tar.gz tmp/sc_cc_ng_sdk_python-0.1.6.tar.gz --markdown 20230628/s/sc-cc-ng-sdk-python/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-28 11:12:15] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [glean-sdk]: Downloading https://files.pythonhosted.org/packages/01/da/3613c3f7ca1615d5c94f7194cdd4cc60b9cda2b867534634bfc9702ad033/glean-sdk-53.1.0.tar.gz
+[2023-06-28 11:12:15] INFO root fetch - processPackages [kk]: executing diffoscope
+[2023-06-28 11:12:15] INFO root fetch - processPackages [kk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kk-0.9.3.tar.gz tmp/kk-0.9.4.tar.gz --markdown 20230628/k/kk/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-28 11:12:15] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-06-28 11:12:15] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230628/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-28 11:12:15] INFO root fetch - processPackages [glean-sdk]: executing diffoscope
+[2023-06-28 11:12:15] INFO root fetch - processPackages [glean-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glean-sdk-53.0.0.tar.gz tmp/glean-sdk-53.1.0.tar.gz --markdown 20230628/g/glean-sdk/53.0.0-53.1.0/diff.md --exclude *.pyd
+[2023-06-28 11:12:16] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-28 11:12:16] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-28 11:12:16] INFO root fetch - processPackages [dank-mids]: Start processing: gTdev
+[2023-06-28 11:12:16] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-28 11:12:16] INFO root fetch - processPackages [chatglm-llm]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-llm-1.4.2.tar.gz]
+[2023-06-28 11:12:16] INFO root fetch - processPackages [gTdev]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-28 11:12:16] INFO root fetch - processPackages [chatglm-llm]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-llm-1.4.3.tar.gz]
+[2023-06-28 11:12:16] INFO root fetch - processPackages [chatglm-llm]: Start processing: kafka-connect-api
+[2023-06-28 11:12:16] INFO root fetch - main [MainThread]: End processing [chatglm-llm]: success
+[2023-06-28 11:12:16] INFO root fetch - processPackages [kafka-connect-api]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-06-28 11:12:17] INFO root fetch - processPackages [gTdev]: Downloading https://files.pythonhosted.org/packages/1b/a5/8bc3ea9526b9a148d7861bcccecd711a3941bcd27e08a5c5a2ee6b85d781/gTdev-1.0.1.tar.gz
+[2023-06-28 11:12:17] INFO root fetch - processPackages [checked-exception]: Remove: archive file [/home/abi/fetcher/tmp/checked-exception-0.0.5.tar.gz]
+[2023-06-28 11:12:17] INFO root fetch - processPackages [checked-exception]: Remove: archive file [/home/abi/fetcher/tmp/checked-exception-0.0.6.tar.gz]
+[2023-06-28 11:12:17] INFO root fetch - processPackages [checked-exception]: Start processing: EDAspy
+[2023-06-28 11:12:17] INFO root fetch - main [MainThread]: End processing [checked-exception]: success
+[2023-06-28 11:12:17] INFO root fetch - processPackages [EDAspy]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-06-28 11:12:17] INFO root fetch - processPackages [kafka-connect-api]: Downloading https://files.pythonhosted.org/packages/94/06/825ac8366bd27d6b5733aaab83dd3afd47c7f8b082f38d9d0b464c966ad2/kafka_connect_api-0.5.6.tar.gz
+[2023-06-28 11:12:17] INFO root fetch - processPackages [gTdev]: Downloading https://files.pythonhosted.org/packages/33/e4/361016f06f7019ea6caed495a263028d14e408243ef41978d9b6fdba9c8f/gTdev-1.1.0.tar.gz
+[2023-06-28 11:12:17] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/sc_cc_ng_sdk_python-0.1.5.tar.gz]
+[2023-06-28 11:12:17] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/sc_cc_ng_sdk_python-0.1.6.tar.gz]
+[2023-06-28 11:12:17] INFO root fetch - main [MainThread]: End processing [sc-cc-ng-sdk-python]: success
+[2023-06-28 11:12:17] INFO root fetch - processPackages [windows-control]: Remove: archive file [/home/abi/fetcher/tmp/windows_control-0.0.5.tar.gz]
+[2023-06-28 11:12:17] INFO root fetch - processPackages [windows-control]: Remove: archive file [/home/abi/fetcher/tmp/windows_control-0.0.6.tar.gz]
+[2023-06-28 11:12:17] INFO root fetch - main [MainThread]: End processing [windows-control]: success
+[2023-06-28 11:12:17] INFO root fetch - processPackages [gTdev]: executing diffoscope
+[2023-06-28 11:12:17] INFO root fetch - processPackages [gTdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gTdev-1.0.1.tar.gz tmp/gTdev-1.1.0.tar.gz --markdown 20230628/g/gTdev/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-28 11:12:17] INFO root fetch - processPackages [EDAspy]: Downloading https://files.pythonhosted.org/packages/09/c3/8c19e1c19196a7a9daeb791d246fc5666fa73ed95a2e2e2e919d1b7f5cab/EDAspy-1.0.2.tar.gz
+[2023-06-28 11:12:17] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.5.tar.gz]
+[2023-06-28 11:12:17] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.6.tar.gz]
+[2023-06-28 11:12:17] INFO root fetch - main [MainThread]: End processing [plottah]: success
+[2023-06-28 11:12:17] INFO root fetch - processPackages [kafka-connect-api]: Downloading https://files.pythonhosted.org/packages/3d/cf/bda535875af9244699dab86dad109242f256dfbecf287f8d3f47f1cce873/kafka_connect_api-0.5.7.tar.gz
+[2023-06-28 11:12:17] INFO root fetch - processPackages [kafka-connect-api]: executing diffoscope
+[2023-06-28 11:12:17] INFO root fetch - processPackages [kafka-connect-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka_connect_api-0.5.6.tar.gz tmp/kafka_connect_api-0.5.7.tar.gz --markdown 20230628/k/kafka-connect-api/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-06-28 11:12:17] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-06-28 11:12:17] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-06-28 11:12:17] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-06-28 11:12:17] INFO root fetch - processPackages [EDAspy]: Downloading https://files.pythonhosted.org/packages/8c/d5/7ea7bf90bcf8682f62f569ae49a1b36c12963550bf92e5437a4a86930308/EDAspy-1.1.0.tar.gz
+[2023-06-28 11:12:17] INFO root fetch - processPackages [EDAspy]: executing diffoscope
+[2023-06-28 11:12:17] INFO root fetch - processPackages [EDAspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EDAspy-1.0.2.tar.gz tmp/EDAspy-1.1.0.tar.gz --markdown 20230628/E/EDAspy/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-06-28 11:12:18] INFO root fetch - processPackages [kafka-connect-api]: Remove: archive file [/home/abi/fetcher/tmp/kafka_connect_api-0.5.6.tar.gz]
+[2023-06-28 11:12:18] INFO root fetch - processPackages [kafka-connect-api]: Remove: archive file [/home/abi/fetcher/tmp/kafka_connect_api-0.5.7.tar.gz]
+[2023-06-28 11:12:18] INFO root fetch - main [MainThread]: End processing [kafka-connect-api]: success
+[2023-06-28 11:12:18] INFO root fetch - processPackages [gTdev]: Remove: archive file [/home/abi/fetcher/tmp/gTdev-1.0.1.tar.gz]
+[2023-06-28 11:12:18] INFO root fetch - processPackages [gTdev]: Remove: archive file [/home/abi/fetcher/tmp/gTdev-1.1.0.tar.gz]
+[2023-06-28 11:12:18] INFO root fetch - main [MainThread]: End processing [gTdev]: success
+[2023-06-28 11:12:18] INFO root fetch - processPackages [kk]: Remove: archive file [/home/abi/fetcher/tmp/kk-0.9.3.tar.gz]
+[2023-06-28 11:12:18] INFO root fetch - processPackages [kk]: Remove: archive file [/home/abi/fetcher/tmp/kk-0.9.4.tar.gz]
+[2023-06-28 11:12:18] INFO root fetch - main [MainThread]: End processing [kk]: success
+[2023-06-28 11:12:18] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-28 11:12:18] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-28 11:12:18] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-28 11:12:19] INFO root fetch - processPackages [EDAspy]: Remove: archive file [/home/abi/fetcher/tmp/EDAspy-1.0.2.tar.gz]
+[2023-06-28 11:12:19] INFO root fetch - processPackages [EDAspy]: Remove: archive file [/home/abi/fetcher/tmp/EDAspy-1.1.0.tar.gz]
+[2023-06-28 11:12:19] INFO root fetch - main [MainThread]: End processing [EDAspy]: success
+[2023-06-28 11:12:25] INFO root fetch - processPackages [glean-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glean-sdk-53.0.0.tar.gz]
+[2023-06-28 11:12:25] INFO root fetch - processPackages [glean-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glean-sdk-53.1.0.tar.gz]
+[2023-06-28 11:12:25] INFO root fetch - main [MainThread]: End processing [glean-sdk]: success
+[2023-06-28 11:12:25] INFO root fetch - main [MainThread]: Store serial: [18676740]
