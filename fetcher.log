@@ -14308,3 +14308,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 05:45:32] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.1.4.tar.gz]
 [2023-06-28 05:45:32] INFO root fetch - main [MainThread]: End processing [circuitree]: success
 [2023-06-28 05:45:32] INFO root fetch - main [MainThread]: Store serial: [18674324]
+[2023-06-28 05:50:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674324]
+[2023-06-28 05:50:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-28 05:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: typingdict
+[2023-06-28 05:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyTrilium
+[2023-06-28 05:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hatch-my-plugin
+[2023-06-28 05:50:41] WARNING root fetch - processPackages [hatch-my-plugin]: Skipping, unable to determine old version
+[2023-06-28 05:50:41] INFO root fetch - main [MainThread]: End processing [hatch-my-plugin] error
+[2023-06-28 05:50:41] INFO root fetch - processPackages [PyTrilium]: New version: [1.2.0] Old Version: [1.1.5]
+[2023-06-28 05:50:41] INFO root fetch - processPackages [typingdict]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-28 05:50:41] INFO root fetch - processPackages [typingdict]: Downloading https://files.pythonhosted.org/packages/4e/dd/2b6ebf387f9ad40c5e21e608473d7960a5a47839be6f8725e1912fd2ce6c/typingdict-0.0.3.tar.gz
+[2023-06-28 05:50:41] INFO root fetch - processPackages [PyTrilium]: Downloading https://files.pythonhosted.org/packages/34/f2/ca954456171c4e94aa5aaddbea273c63354e7a4ff90a9983006be6dfeaa3/pytrilium-1.1.5.tar.gz
+[2023-06-28 05:50:42] INFO root fetch - processPackages [PyTrilium]: Downloading https://files.pythonhosted.org/packages/56/61/23141beb5c198c24f6121598a0a9c88a12dcfc6963af1002d67650a68717/pytrilium-1.2.0.tar.gz
+[2023-06-28 05:50:42] INFO root fetch - processPackages [typingdict]: Downloading https://files.pythonhosted.org/packages/c1/e5/ad03fd89a4f6a6bc54c95dfea47d4493a87b2a549f08fe400059cb5fc20a/typingdict-0.0.4.tar.gz
+[2023-06-28 05:50:42] INFO root fetch - processPackages [PyTrilium]: executing diffoscope
+[2023-06-28 05:50:42] INFO root fetch - processPackages [PyTrilium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrilium-1.1.5.tar.gz tmp/pytrilium-1.2.0.tar.gz --markdown 20230628/P/PyTrilium/1.1.5-1.2.0/diff.md --exclude *.pyd
+[2023-06-28 05:50:42] INFO root fetch - processPackages [typingdict]: executing diffoscope
+[2023-06-28 05:50:42] INFO root fetch - processPackages [typingdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typingdict-0.0.3.tar.gz tmp/typingdict-0.0.4.tar.gz --markdown 20230628/t/typingdict/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-28 05:50:43] INFO root fetch - processPackages [typingdict]: Remove: archive file [/home/abi/fetcher/tmp/typingdict-0.0.3.tar.gz]
+[2023-06-28 05:50:43] INFO root fetch - processPackages [typingdict]: Remove: archive file [/home/abi/fetcher/tmp/typingdict-0.0.4.tar.gz]
+[2023-06-28 05:50:43] INFO root fetch - main [MainThread]: End processing [typingdict]: success
+[2023-06-28 05:50:43] INFO root fetch - processPackages [PyTrilium]: Remove: archive file [/home/abi/fetcher/tmp/pytrilium-1.1.5.tar.gz]
+[2023-06-28 05:50:43] INFO root fetch - processPackages [PyTrilium]: Remove: archive file [/home/abi/fetcher/tmp/pytrilium-1.2.0.tar.gz]
+[2023-06-28 05:50:43] INFO root fetch - main [MainThread]: End processing [PyTrilium]: success
+[2023-06-28 05:50:43] INFO root fetch - main [MainThread]: Store serial: [18674333]
