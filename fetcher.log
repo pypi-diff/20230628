@@ -5863,3 +5863,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 03:31:08] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.2rc0-py3-none-any.whl.zip]
 [2023-06-28 03:31:08] INFO root fetch - main [MainThread]: End processing [determined]: success
 [2023-06-28 03:31:08] INFO root fetch - main [MainThread]: Store serial: [18671379]
+[2023-06-28 03:36:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18671379]
+[2023-06-28 03:36:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-28 03:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybw-comic
+[2023-06-28 03:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hidori
+[2023-06-28 03:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-tldap
+[2023-06-28 03:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyderive3
+[2023-06-28 03:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-subminute
+[2023-06-28 03:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pystructs3
+[2023-06-28 03:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: myalias
+[2023-06-28 03:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-stdlib
+[2023-06-28 03:36:17] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-28 03:36:17] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-28 03:36:17] INFO root fetch - processPackages [python-tldap]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-28 03:36:17] INFO root fetch - processPackages [pybw-comic]: New version: [23.6.28.2] Old Version: [23.6.28.1]
+[2023-06-28 03:36:17] INFO root fetch - processPackages [pystructs3]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-28 03:36:17] INFO root fetch - processPackages [hidori]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-28 03:36:17] INFO root fetch - processPackages [pyderive3]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-28 03:36:17] INFO root fetch - processPackages [myalias]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-28 03:36:17] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-28 03:36:17] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-06-28 03:36:17] INFO root fetch - processPackages [python-tldap]: Downloading https://files.pythonhosted.org/packages/2e/3b/5abd01be6615fc2338a81aba2e54e78acf16f59b2be81b3bb7f648d4aaa2/python_tldap-1.0.7.tar.gz
+[2023-06-28 03:36:17] INFO root fetch - processPackages [pybw-comic]: Downloading https://files.pythonhosted.org/packages/11/7c/d834bc0f09a603504154a69cf81141dcf226d3a9a5ba127975bb20752572/pybw_comic-23.6.28.1.tar.gz
+[2023-06-28 03:36:17] INFO root fetch - processPackages [pyderive3]: Downloading https://files.pythonhosted.org/packages/1f/21/e03d78542eaecf9a2a90f896abcca5bf49778822e8020f980e5115b631b6/pyderive3-0.0.4.tar.gz
+[2023-06-28 03:36:17] INFO root fetch - processPackages [hidori]: Downloading https://files.pythonhosted.org/packages/7b/b3/887bb7941ff4f2cce6f3e83a9902901cb5aefd095cb1f89fc0f1f397b741/hidori-0.2.0.tar.gz
+[2023-06-28 03:36:17] INFO root fetch - processPackages [pystructs3]: Downloading https://files.pythonhosted.org/packages/cd/4a/32e928c84e1e991e53f502e2f8f2b57b7595b76227484522ef9124883af9/pystructs3-0.0.5.tar.gz
+[2023-06-28 03:36:17] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-06-28 03:36:17] INFO root fetch - processPackages [myalias]: Downloading https://files.pythonhosted.org/packages/f2/13/5c4177820e5bcf5d6a71fd1a303957badee6d81486d20295a2187dd2c044/myalias-0.1.0.tar.gz
+[2023-06-28 03:36:17] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-28 03:36:17] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-28 03:36:17] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230628/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-28 03:36:17] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-28 03:36:17] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230628/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 03:36:17] INFO root fetch - processPackages [python-tldap]: Downloading https://files.pythonhosted.org/packages/0e/f4/7f890baffbc5c8419b70be1b7a5419bdd45ce6e2a72b30ab48f66def2e4e/python_tldap-1.0.8.tar.gz
+[2023-06-28 03:36:17] INFO root fetch - processPackages [pybw-comic]: Downloading https://files.pythonhosted.org/packages/75/b9/28b0771e5e4c1105e2d8d3199f091f9cea61777f747745b41bf38635b20d/pybw_comic-23.6.28.2.tar.gz
+[2023-06-28 03:36:17] INFO root fetch - processPackages [pyderive3]: Downloading https://files.pythonhosted.org/packages/2c/36/c51f5c9a5b1bf21bd6dcc3635f4c4a5d72a7d3cd5d6e4a748939c4a65c71/pyderive3-0.0.5.tar.gz
+[2023-06-28 03:36:17] INFO root fetch - processPackages [pystructs3]: Downloading https://files.pythonhosted.org/packages/2b/47/51f3a0f2d0e1761e652641d053ad7dec1ba3dee3a4209454d64a59f169ef/pystructs3-0.0.6.tar.gz
+[2023-06-28 03:36:17] INFO root fetch - processPackages [python-tldap]: executing diffoscope
+[2023-06-28 03:36:17] INFO root fetch - processPackages [python-tldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_tldap-1.0.7.tar.gz tmp/python_tldap-1.0.8.tar.gz --markdown 20230628/p/python-tldap/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-28 03:36:17] INFO root fetch - processPackages [myalias]: Downloading https://files.pythonhosted.org/packages/e3/a9/015efb577c8bfa1dff4668a1e5cb6823b2e7698bcfe44257cc7b3dfbbd34/myalias-0.1.1.tar.gz
+[2023-06-28 03:36:17] INFO root fetch - processPackages [pybw-comic]: executing diffoscope
+[2023-06-28 03:36:17] INFO root fetch - processPackages [pybw-comic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybw_comic-23.6.28.1.tar.gz tmp/pybw_comic-23.6.28.2.tar.gz --markdown 20230628/p/pybw-comic/23.6.28.1-23.6.28.2/diff.md --exclude *.pyd
+[2023-06-28 03:36:17] INFO root fetch - processPackages [pyderive3]: executing diffoscope
+[2023-06-28 03:36:17] INFO root fetch - processPackages [pyderive3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyderive3-0.0.4.tar.gz tmp/pyderive3-0.0.5.tar.gz --markdown 20230628/p/pyderive3/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-28 03:36:17] INFO root fetch - processPackages [hidori]: Downloading https://files.pythonhosted.org/packages/12/0e/ce66c0ecda7c2f30270a1256a4fbe06a0bf2285d5ac99446f2c5b8f27b33/hidori-0.3.0.tar.gz
+[2023-06-28 03:36:17] INFO root fetch - processPackages [pystructs3]: executing diffoscope
+[2023-06-28 03:36:17] INFO root fetch - processPackages [pystructs3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystructs3-0.0.5.tar.gz tmp/pystructs3-0.0.6.tar.gz --markdown 20230628/p/pystructs3/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-28 03:36:18] INFO root fetch - processPackages [hidori]: executing diffoscope
+[2023-06-28 03:36:18] INFO root fetch - processPackages [hidori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hidori-0.2.0.tar.gz tmp/hidori-0.3.0.tar.gz --markdown 20230628/h/hidori/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-28 03:36:18] INFO root fetch - processPackages [myalias]: executing diffoscope
+[2023-06-28 03:36:18] INFO root fetch - processPackages [myalias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myalias-0.1.0.tar.gz tmp/myalias-0.1.1.tar.gz --markdown 20230628/m/myalias/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-28 03:36:19] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-06-28 03:36:19] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-06-28 03:36:19] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-28 03:36:19] INFO root fetch - processPackages [pyderive3]: Remove: archive file [/home/abi/fetcher/tmp/pyderive3-0.0.4.tar.gz]
+[2023-06-28 03:36:19] INFO root fetch - processPackages [pyderive3]: Remove: archive file [/home/abi/fetcher/tmp/pyderive3-0.0.5.tar.gz]
+[2023-06-28 03:36:19] INFO root fetch - main [MainThread]: End processing [pyderive3]: success
+[2023-06-28 03:36:19] INFO root fetch - processPackages [python-tldap]: Remove: archive file [/home/abi/fetcher/tmp/python_tldap-1.0.7.tar.gz]
+[2023-06-28 03:36:19] INFO root fetch - processPackages [python-tldap]: Remove: archive file [/home/abi/fetcher/tmp/python_tldap-1.0.8.tar.gz]
+[2023-06-28 03:36:19] INFO root fetch - main [MainThread]: End processing [python-tldap]: success
+[2023-06-28 03:36:19] INFO root fetch - processPackages [hidori]: Remove: archive file [/home/abi/fetcher/tmp/hidori-0.2.0.tar.gz]
+[2023-06-28 03:36:19] INFO root fetch - processPackages [hidori]: Remove: archive file [/home/abi/fetcher/tmp/hidori-0.3.0.tar.gz]
+[2023-06-28 03:36:19] INFO root fetch - main [MainThread]: End processing [hidori]: success
+[2023-06-28 03:36:19] INFO root fetch - processPackages [pystructs3]: Remove: archive file [/home/abi/fetcher/tmp/pystructs3-0.0.5.tar.gz]
+[2023-06-28 03:36:19] INFO root fetch - processPackages [pystructs3]: Remove: archive file [/home/abi/fetcher/tmp/pystructs3-0.0.6.tar.gz]
+[2023-06-28 03:36:19] INFO root fetch - main [MainThread]: End processing [pystructs3]: success
+[2023-06-28 03:36:19] INFO root fetch - processPackages [myalias]: Remove: archive file [/home/abi/fetcher/tmp/myalias-0.1.0.tar.gz]
+[2023-06-28 03:36:19] INFO root fetch - processPackages [myalias]: Remove: archive file [/home/abi/fetcher/tmp/myalias-0.1.1.tar.gz]
+[2023-06-28 03:36:19] INFO root fetch - main [MainThread]: End processing [myalias]: success
+[2023-06-28 03:36:20] INFO root fetch - processPackages [pybw-comic]: Remove: archive file [/home/abi/fetcher/tmp/pybw_comic-23.6.28.1.tar.gz]
+[2023-06-28 03:36:20] INFO root fetch - processPackages [pybw-comic]: Remove: archive file [/home/abi/fetcher/tmp/pybw_comic-23.6.28.2.tar.gz]
+[2023-06-28 03:36:20] INFO root fetch - main [MainThread]: End processing [pybw-comic]: success
+[2023-06-28 03:36:20] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-28 03:36:20] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-28 03:36:20] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-28 03:36:20] INFO root fetch - main [MainThread]: Store serial: [18671405]
