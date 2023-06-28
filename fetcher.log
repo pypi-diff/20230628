@@ -12796,3 +12796,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 04:08:12] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230628-py3-none-win_amd64.whl.zip]
 [2023-06-28 04:08:12] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2023-06-28 04:08:12] INFO root fetch - main [MainThread]: Store serial: [18673739]
+[2023-06-28 04:13:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18673739]
+[2023-06-28 04:13:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-28 04:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypomes-store
+[2023-06-28 04:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dank-mids
+[2023-06-28 04:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TimeManager
+[2023-06-28 04:13:28] INFO root fetch - processPackages [TimeManager]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-28 04:13:28] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-28 04:13:28] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-28 04:13:28] WARNING root fetch - processPackages [pypomes-store]: Skipping, unable to determine old version
+[2023-06-28 04:13:28] INFO root fetch - main [MainThread]: End processing [pypomes-store] error
+[2023-06-28 04:13:28] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-28 04:13:28] INFO root fetch - processPackages [TimeManager]: Downloading https://files.pythonhosted.org/packages/dd/a5/7d1ce4e3faa9505d5146ce42b25df4c2d2d71f1538ef2e49824a912f3400/timemanager-1.0.1.tar.gz
+[2023-06-28 04:13:28] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-28 04:13:28] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230628/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-28 04:13:28] INFO root fetch - processPackages [TimeManager]: Downloading https://files.pythonhosted.org/packages/6d/77/69d450ccc2823d99e47a9fc77fa0df88b5517ce92867255a2b32b4ef1c14/timemanager-1.0.2.tar.gz
+[2023-06-28 04:13:28] INFO root fetch - processPackages [TimeManager]: executing diffoscope
+[2023-06-28 04:13:28] INFO root fetch - processPackages [TimeManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timemanager-1.0.1.tar.gz tmp/timemanager-1.0.2.tar.gz --markdown 20230628/T/TimeManager/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-28 04:13:29] INFO root fetch - processPackages [TimeManager]: Remove: archive file [/home/abi/fetcher/tmp/timemanager-1.0.1.tar.gz]
+[2023-06-28 04:13:29] INFO root fetch - processPackages [TimeManager]: Remove: archive file [/home/abi/fetcher/tmp/timemanager-1.0.2.tar.gz]
+[2023-06-28 04:13:29] INFO root fetch - main [MainThread]: End processing [TimeManager]: success
+[2023-06-28 04:13:30] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-28 04:13:30] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-28 04:13:30] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-28 04:13:30] INFO root fetch - main [MainThread]: Store serial: [18673747]
