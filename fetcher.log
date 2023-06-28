@@ -20574,3 +20574,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 11:28:38] INFO root fetch - processPackages [muffin-admin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-admin-1.9.0.tar.gz]
 [2023-06-28 11:28:38] INFO root fetch - main [MainThread]: End processing [muffin-admin]: success
 [2023-06-28 11:28:38] INFO root fetch - main [MainThread]: Store serial: [18676918]
+[2023-06-28 11:33:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18676918]
+[2023-06-28 11:33:51] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-28 11:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nnanoncomp
+[2023-06-28 11:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dhnx-fork-for-SESMG
+[2023-06-28 11:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qoqo
+[2023-06-28 11:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: video-process
+[2023-06-28 11:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynocaptcha
+[2023-06-28 11:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scinumtools
+[2023-06-28 11:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudpy-org
+[2023-06-28 11:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chatglm-cli
+[2023-06-28 11:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: matan
+[2023-06-28 11:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: image-label
+[2023-06-28 11:33:51] INFO root fetch - processPackages [cloudpy-org]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-06-28 11:33:51] INFO root fetch - processPackages [image-label]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-06-28 11:33:51] INFO root fetch - processPackages [scinumtools]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-28 11:33:51] WARNING root fetch - processPackages [chatglm-cli]: Skipping, unable to determine old version
+[2023-06-28 11:33:51] INFO root fetch - processPackages [video-process]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-28 11:33:51] INFO root fetch - processPackages [nnanoncomp]: New version: [0.5.5] Old Version: [0.5]
+[2023-06-28 11:33:51] INFO root fetch - processPackages [chatglm-cli]: Start processing: bjaiswal
+[2023-06-28 11:33:51] WARNING root fetch - processPackages [dhnx-fork-for-SESMG]: Skipping, unable to determine old version
+[2023-06-28 11:33:51] INFO root fetch - main [MainThread]: End processing [chatglm-cli] error
+[2023-06-28 11:33:51] INFO root fetch - processPackages [dhnx-fork-for-SESMG]: Start processing: mkdocs_puml
+[2023-06-28 11:33:51] INFO root fetch - main [MainThread]: End processing [dhnx-fork-for-SESMG] error
+[2023-06-28 11:33:51] INFO root fetch - processPackages [matan]: New version: [0.1.5.2.7.dev1] Old Version: [0.1.5.2.7.3.dev4]
+[2023-06-28 11:33:51] INFO root fetch - processPackages [qoqo]: New version: [1.6.0a0] Old Version: [1.5.0]
+[2023-06-28 11:33:51] INFO root fetch - processPackages [pynocaptcha]: New version: [1.6.0] Old Version: [1.5.9]
+[2023-06-28 11:33:51] INFO root fetch - processPackages [mkdocs_puml]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-28 11:33:51] WARNING root fetch - processPackages [bjaiswal]: Skipping, unable to determine old version
+[2023-06-28 11:33:51] INFO root fetch - processPackages [bjaiswal]: Start processing: django-fast-treenode
+[2023-06-28 11:33:51] INFO root fetch - main [MainThread]: End processing [bjaiswal] error
+[2023-06-28 11:33:51] INFO root fetch - processPackages [image-label]: Downloading https://files.pythonhosted.org/packages/eb/fc/c47de7b32f6b0f7acf89055220642f0b167996b6968966176367a51dd700/image_label-2.4.1.tar.gz
+[2023-06-28 11:33:51] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/0e/b8/1225fdff08bbfa099b306ff1d8c4df06fcda3d6040c84835df221209dfb2/scinumtools-1.5.1.tar.gz
+[2023-06-28 11:33:51] INFO root fetch - processPackages [nnanoncomp]: Downloading https://files.pythonhosted.org/packages/fb/87/44de06bfee109c663a935c41f0809c434da1f35d308483a748cb44f1b857/nnanoncomp-0.5-py3-none-any.whl
+[2023-06-28 11:33:51] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/b8/67/fa28cf56d954e2adab772c000cb3bd3cedc6d0672570189147669ddb340e/pynocaptcha-1.5.9.tar.gz
+[2023-06-28 11:33:51] INFO root fetch - processPackages [django-fast-treenode]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-28 11:33:51] INFO root fetch - processPackages [mkdocs_puml]: Downloading https://files.pythonhosted.org/packages/33/a9/c34d1b85b4c367007e891bed5ee4d476eb50cbadc02aa67bbb3fe8108182/mkdocs_puml-1.2.1.tar.gz
+[2023-06-28 11:33:51] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/58/97/2462f83f6cda46a2721c5dbf5e8191fffabc25be034e7d74b9432d77b84a/cloudpy_org-1.3.7.tar.gz
+[2023-06-28 11:33:51] INFO root fetch - processPackages [matan]: Downloading https://files.pythonhosted.org/packages/50/2e/5c861f5e011bc901257dadf1419236f0bcb5c2181b901462fbf2ef116699/matan-0.1.5.2.7.3.dev4.tar.gz
+[2023-06-28 11:33:51] INFO root fetch - processPackages [qoqo]: Downloading https://files.pythonhosted.org/packages/6e/99/fbf9553045a8c4b57491bcd8fa254d133a9b40fe37bfb3accc5607ccf287/qoqo-1.5.0.tar.gz
+[2023-06-28 11:33:51] INFO root fetch - processPackages [video-process]: Downloading https://files.pythonhosted.org/packages/d4/4b/5d7d08c3b60b066c78238a9b443f191fb84aaeb3317760f4fd2ac78f6599/video_process-0.1.7.tar.gz
+[2023-06-28 11:33:51] INFO root fetch - processPackages [django-fast-treenode]: Downloading https://files.pythonhosted.org/packages/98/6f/e176b96e28ae42ed6b42df14b4951557ff237cedb3d591d0c45e08ff5dc5/django-fast-treenode-1.0.2.tar.gz
+[2023-06-28 11:33:51] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/11/73/bf08363588e0cb5fdd959166579e7fe76d20b2627fe1706a317929d19320/scinumtools-1.5.2.tar.gz
+[2023-06-28 11:33:51] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/99/20/09466b48052e77fff65473fc906bebe3d6b7aa4323713e33a4439bb5afbd/pynocaptcha-1.6.0.tar.gz
+[2023-06-28 11:33:51] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/63/d9/40c4a492b82cc3391581f23131a48ec77d73d85f50c891d9485d023e7bc7/cloudpy_org-1.3.8.tar.gz
+[2023-06-28 11:33:51] INFO root fetch - processPackages [nnanoncomp]: Downloading https://files.pythonhosted.org/packages/b1/29/1beb5418a42a3b229c4504c6b5d2252d792922c9c8b77c96be0136d46b7e/nnanoncomp-0.5.5-py3-none-any.whl
+[2023-06-28 11:33:52] INFO root fetch - processPackages [mkdocs_puml]: Downloading https://files.pythonhosted.org/packages/25/0e/5b0d21fe24ac22e244970c8ac14fc5f97841ed68fec595eb637037af5fca/mkdocs_puml-1.2.2.tar.gz
+[2023-06-28 11:33:52] INFO root fetch - processPackages [image-label]: Downloading https://files.pythonhosted.org/packages/35/05/db3ba2db1b503be2018a694090e1397d08fb700df1e807796f889c837410/image_label-2.4.2.tar.gz
+[2023-06-28 11:33:52] INFO root fetch - processPackages [matan]: Downloading https://files.pythonhosted.org/packages/a2/bc/d50a8f2e582250c63731958b9bca2641e125f95ce384ae07af102326fe00/MatAn-0.1.5.2.7.dev1.tar.gz
+[2023-06-28 11:33:52] INFO root fetch - processPackages [scinumtools]: executing diffoscope
+[2023-06-28 11:33:52] INFO root fetch - processPackages [scinumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scinumtools-1.5.1.tar.gz tmp/scinumtools-1.5.2.tar.gz --markdown 20230628/s/scinumtools/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-28 11:33:52] INFO root fetch - processPackages [pynocaptcha]: executing diffoscope
+[2023-06-28 11:33:52] INFO root fetch - processPackages [pynocaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynocaptcha-1.5.9.tar.gz tmp/pynocaptcha-1.6.0.tar.gz --markdown 20230628/p/pynocaptcha/1.5.9-1.6.0/diff.md --exclude *.pyd
+[2023-06-28 11:33:52] INFO root fetch - processPackages [cloudpy-org]: executing diffoscope
+[2023-06-28 11:33:52] INFO root fetch - processPackages [cloudpy-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpy_org-1.3.7.tar.gz tmp/cloudpy_org-1.3.8.tar.gz --markdown 20230628/c/cloudpy-org/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-06-28 11:33:52] INFO root fetch - processPackages [nnanoncomp]: executing diffoscope
+[2023-06-28 11:33:52] INFO root fetch - processPackages [qoqo]: Downloading https://files.pythonhosted.org/packages/97/21/1bfe0fb8a578d9cb64dc304c5c647d281cc07f66837d265bb37d3da78344/qoqo-1.6.0a0.tar.gz
+[2023-06-28 11:33:52] INFO root fetch - processPackages [nnanoncomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnanoncomp-0.5-py3-none-any.whl.zip tmp/nnanoncomp-0.5.5-py3-none-any.whl.zip --markdown 20230628/n/nnanoncomp/0.5-0.5.5/diff.md --exclude *.pyd
+[2023-06-28 11:33:52] INFO root fetch - processPackages [mkdocs_puml]: executing diffoscope
+[2023-06-28 11:33:52] INFO root fetch - processPackages [mkdocs_puml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_puml-1.2.1.tar.gz tmp/mkdocs_puml-1.2.2.tar.gz --markdown 20230628/m/mkdocs_puml/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-28 11:33:52] INFO root fetch - processPackages [video-process]: Downloading https://files.pythonhosted.org/packages/21/03/4faba7f1bd98567226ac79e1cbe8b35b446adde483b3b4f22dc35d221cca/video_process-0.1.8.tar.gz
+[2023-06-28 11:33:52] INFO root fetch - processPackages [matan]: executing diffoscope
+[2023-06-28 11:33:52] INFO root fetch - processPackages [matan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matan-0.1.5.2.7.3.dev4.tar.gz tmp/MatAn-0.1.5.2.7.dev1.tar.gz --markdown 20230628/m/matan/0.1.5.2.7.3.dev4-0.1.5.2.7.dev1/diff.md --exclude *.pyd
+[2023-06-28 11:33:52] INFO root fetch - processPackages [image-label]: executing diffoscope
+[2023-06-28 11:33:52] INFO root fetch - processPackages [image-label]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_label-2.4.1.tar.gz tmp/image_label-2.4.2.tar.gz --markdown 20230628/i/image-label/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-06-28 11:33:52] INFO root fetch - processPackages [django-fast-treenode]: Downloading https://files.pythonhosted.org/packages/a6/79/61dafdb3969714f96f32454bc81c8e54effb27107e1337d7169fbe5ba340/django-fast-treenode-1.0.3.tar.gz
+[2023-06-28 11:33:52] INFO root fetch - processPackages [qoqo]: executing diffoscope
+[2023-06-28 11:33:52] INFO root fetch - processPackages [qoqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo-1.5.0.tar.gz tmp/qoqo-1.6.0a0.tar.gz --markdown 20230628/q/qoqo/1.5.0-1.6.0a0/diff.md --exclude *.pyd
+[2023-06-28 11:33:52] INFO root fetch - processPackages [video-process]: executing diffoscope
+[2023-06-28 11:33:52] INFO root fetch - processPackages [video-process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_process-0.1.7.tar.gz tmp/video_process-0.1.8.tar.gz --markdown 20230628/v/video-process/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-28 11:33:52] INFO root fetch - processPackages [django-fast-treenode]: executing diffoscope
+[2023-06-28 11:33:52] INFO root fetch - processPackages [django-fast-treenode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-fast-treenode-1.0.2.tar.gz tmp/django-fast-treenode-1.0.3.tar.gz --markdown 20230628/d/django-fast-treenode/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-28 11:33:53] INFO root fetch - processPackages [nnanoncomp]: Remove: archive file [/home/abi/fetcher/tmp/nnanoncomp-0.5-py3-none-any.whl.zip]
+[2023-06-28 11:33:53] INFO root fetch - processPackages [nnanoncomp]: Remove: archive file [/home/abi/fetcher/tmp/nnanoncomp-0.5.5-py3-none-any.whl.zip]
+[2023-06-28 11:33:53] INFO root fetch - processPackages [nnanoncomp]: Start processing: th2-grpc-lw-data-provider
+[2023-06-28 11:33:53] INFO root fetch - main [MainThread]: End processing [nnanoncomp]: success
+[2023-06-28 11:33:53] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5399515998]
+[2023-06-28 11:33:54] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.3.7.tar.gz]
+[2023-06-28 11:33:54] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.3.8.tar.gz]
+[2023-06-28 11:33:54] INFO root fetch - main [MainThread]: End processing [cloudpy-org]: success
+[2023-06-28 11:33:54] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/ef/c3/aad5a69b2f3b8b03de14b9383b0cdc8c5c453132cbc0ae97bf5b13808b73/th2_grpc_lw_data_provider-2.0.0.dev5399515998.tar.gz
+[2023-06-28 11:33:54] INFO root fetch - processPackages [video-process]: Remove: archive file [/home/abi/fetcher/tmp/video_process-0.1.7.tar.gz]
+[2023-06-28 11:33:54] INFO root fetch - processPackages [video-process]: Remove: archive file [/home/abi/fetcher/tmp/video_process-0.1.8.tar.gz]
+[2023-06-28 11:33:54] INFO root fetch - main [MainThread]: End processing [video-process]: success
+[2023-06-28 11:33:54] INFO root fetch - processPackages [mkdocs_puml]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_puml-1.2.1.tar.gz]
+[2023-06-28 11:33:54] INFO root fetch - processPackages [mkdocs_puml]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_puml-1.2.2.tar.gz]
+[2023-06-28 11:33:54] INFO root fetch - main [MainThread]: End processing [mkdocs_puml]: success
+[2023-06-28 11:33:54] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.5.1.tar.gz]
+[2023-06-28 11:33:54] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.5.2.tar.gz]
+[2023-06-28 11:33:54] INFO root fetch - main [MainThread]: End processing [scinumtools]: success
+[2023-06-28 11:33:54] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-28 11:33:54] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-28 11:33:54] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5399515998.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230628/t/th2-grpc-lw-data-provider/2.0.0.dev5399515998-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-28 11:33:54] INFO root fetch - processPackages [matan]: Remove: archive file [/home/abi/fetcher/tmp/matan-0.1.5.2.7.3.dev4.tar.gz]
+[2023-06-28 11:33:54] INFO root fetch - processPackages [matan]: Remove: archive file [/home/abi/fetcher/tmp/MatAn-0.1.5.2.7.dev1.tar.gz]
+[2023-06-28 11:33:54] INFO root fetch - main [MainThread]: End processing [matan]: success
+[2023-06-28 11:33:55] INFO root fetch - processPackages [django-fast-treenode]: Remove: archive file [/home/abi/fetcher/tmp/django-fast-treenode-1.0.2.tar.gz]
+[2023-06-28 11:33:55] INFO root fetch - processPackages [django-fast-treenode]: Remove: archive file [/home/abi/fetcher/tmp/django-fast-treenode-1.0.3.tar.gz]
+[2023-06-28 11:33:55] INFO root fetch - main [MainThread]: End processing [django-fast-treenode]: success
+[2023-06-28 11:33:55] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.9.tar.gz]
+[2023-06-28 11:33:55] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.6.0.tar.gz]
+[2023-06-28 11:33:55] INFO root fetch - main [MainThread]: End processing [pynocaptcha]: success
+[2023-06-28 11:33:55] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5399515998.tar.gz]
+[2023-06-28 11:33:55] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-28 11:33:55] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-28 11:33:59] INFO root fetch - processPackages [qoqo]: Remove: archive file [/home/abi/fetcher/tmp/qoqo-1.5.0.tar.gz]
+[2023-06-28 11:33:59] INFO root fetch - processPackages [qoqo]: Remove: archive file [/home/abi/fetcher/tmp/qoqo-1.6.0a0.tar.gz]
+[2023-06-28 11:33:59] INFO root fetch - main [MainThread]: End processing [qoqo]: success
+[2023-06-28 11:34:17] INFO root fetch - processPackages [image-label]: Remove: archive file [/home/abi/fetcher/tmp/image_label-2.4.1.tar.gz]
+[2023-06-28 11:34:17] INFO root fetch - processPackages [image-label]: Remove: archive file [/home/abi/fetcher/tmp/image_label-2.4.2.tar.gz]
+[2023-06-28 11:34:17] INFO root fetch - main [MainThread]: End processing [image-label]: success
+[2023-06-28 11:34:17] INFO root fetch - main [MainThread]: Store serial: [18676976]
