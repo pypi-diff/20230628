@@ -19132,3 +19132,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 10:33:46] INFO root fetch - processPackages [geomstats]: Remove: archive file [/home/abi/fetcher/tmp/geomstats-2.6.0-py3-none-any.whl.zip]
 [2023-06-28 10:33:46] INFO root fetch - main [MainThread]: End processing [geomstats]: success
 [2023-06-28 10:33:46] INFO root fetch - main [MainThread]: Store serial: [18676349]
+[2023-06-28 10:38:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18676349]
+[2023-06-28 10:38:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-28 10:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: halring
+[2023-06-28 10:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codestamper
+[2023-06-28 10:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: paneltime
+[2023-06-28 10:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: visiongraph
+[2023-06-28 10:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onecache
+[2023-06-28 10:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: connect-eaas-core
+[2023-06-28 10:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-estimator-nightly
+[2023-06-28 10:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ubiquity-student
+[2023-06-28 10:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: longship
+[2023-06-28 10:38:55] INFO root fetch - processPackages [halring]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-28 10:38:55] INFO root fetch - processPackages [onecache]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-28 10:38:55] INFO root fetch - processPackages [paneltime]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-28 10:38:55] INFO root fetch - processPackages [codestamper]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-28 10:38:55] INFO root fetch - processPackages [connect-eaas-core]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-06-28 10:38:55] INFO root fetch - processPackages [ubiquity-student]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-28 10:38:55] INFO root fetch - processPackages [visiongraph]: New version: [0.1.47.4] Old Version: [0.1.47.3]
+[2023-06-28 10:38:55] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-06-28 10:38:55] INFO root fetch - processPackages [longship]: New version: [2023.6.28] Old Version: [2023.6.27]
+[2023-06-28 10:38:55] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-06-28 10:38:55] INFO root fetch - processPackages [connect-eaas-core]: Downloading https://files.pythonhosted.org/packages/cc/2b/dea815280942b1c045ca9eecfafffe56712d2b8c5e293241f99caf0d825c/connect-eaas-core-4.0.0.tar.gz
+[2023-06-28 10:38:55] INFO root fetch - processPackages [codestamper]: Downloading https://files.pythonhosted.org/packages/8d/9d/7c3ba918984be80161fdca8f14d4c442458d3a8da1759baa3ac79b0bd03e/codestamper-0.3.1.tar.gz
+[2023-06-28 10:38:55] INFO root fetch - processPackages [halring]: Downloading https://files.pythonhosted.org/packages/87/d7/36faee69d378c7d904145a13fb4a54507c123ba2a16aa8dda32444126e0a/halring-2.2.0-py3-none-any.whl
+[2023-06-28 10:38:55] INFO root fetch - processPackages [onecache]: Downloading https://files.pythonhosted.org/packages/f8/b3/6acdbd261d8e879540ea06af832eeb55f8e60550bad033805621dd500890/onecache-0.5.0.tar.gz
+[2023-06-28 10:38:55] INFO root fetch - processPackages [paneltime]: Downloading https://files.pythonhosted.org/packages/8d/a0/3ac323bb3db90e78db669b77b707d91b163a951425f677b170d03b359147/paneltime-1.2.8-py3-none-any.whl
+[2023-06-28 10:38:55] INFO root fetch - processPackages [ubiquity-student]: Downloading https://files.pythonhosted.org/packages/15/37/9e7a4aaba34b725e2b796e0f89b7dbc002757a9ab28faf31b8416a0c6805/ubiquity-student-1.0.1.tar.gz
+[2023-06-28 10:38:56] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/aa/ab/e3fb8239b006b7b02ebcc80f75626f64b09a6ed7c8d0fb1c3183082be271/visiongraph-0.1.47.3-py3-none-any.whl
+[2023-06-28 10:38:56] INFO root fetch - processPackages [longship]: Downloading https://files.pythonhosted.org/packages/f9/8e/91bf0dc948c7a6dd1e5b5b7ea4d152f7058a568134df711c861fb10b146b/longship-2023.6.27.tar.gz
+[2023-06-28 10:38:56] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-06-28 10:38:56] INFO root fetch - processPackages [codestamper]: Downloading https://files.pythonhosted.org/packages/f1/70/0db5e8e2becb145a53087a420da4569d7958962d723ff736d04c2453ef97/codestamper-0.3.2.tar.gz
+[2023-06-28 10:38:56] INFO root fetch - processPackages [halring]: Downloading https://files.pythonhosted.org/packages/f8/53/fddd42e439067e99b63ec4fe33f7685bf3ee8bb961ded60f87a5b1bbb3a7/halring-2.2.1-py3-none-any.whl
+[2023-06-28 10:38:56] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-06-28 10:38:56] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230628/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-06-28 10:38:56] INFO root fetch - processPackages [onecache]: Downloading https://files.pythonhosted.org/packages/d1/e4/9fe7585f1e3a2658aef9ea3acf8079e5c4ff170edb95bcb5dfd600635a4d/onecache-0.5.1.tar.gz
+[2023-06-28 10:38:56] INFO root fetch - processPackages [ubiquity-student]: Downloading https://files.pythonhosted.org/packages/95/e2/536f5dbecd98556688f1084303137807cc00db6c346ac004d184b5ca8897/ubiquity-student-1.1.0.tar.gz
+[2023-06-28 10:38:56] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/3e/b1/524eb2fc69daf24364974ff7b5dc0ca844c62b0743c2d383ab06a68499be/visiongraph-0.1.47.4-py3-none-any.whl
+[2023-06-28 10:38:56] INFO root fetch - processPackages [longship]: Downloading https://files.pythonhosted.org/packages/c3/df/8f1b3f387e028430506c17c273b2dd2f97edf3f8d732251cc1e5e9506e09/longship-2023.6.28.tar.gz
+[2023-06-28 10:38:56] INFO root fetch - processPackages [codestamper]: executing diffoscope
+[2023-06-28 10:38:56] INFO root fetch - processPackages [codestamper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codestamper-0.3.1.tar.gz tmp/codestamper-0.3.2.tar.gz --markdown 20230628/c/codestamper/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-28 10:38:56] INFO root fetch - processPackages [onecache]: executing diffoscope
+[2023-06-28 10:38:56] INFO root fetch - processPackages [halring]: executing diffoscope
+[2023-06-28 10:38:56] INFO root fetch - processPackages [onecache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onecache-0.5.0.tar.gz tmp/onecache-0.5.1.tar.gz --markdown 20230628/o/onecache/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-28 10:38:56] INFO root fetch - processPackages [halring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halring-2.2.0-py3-none-any.whl.zip tmp/halring-2.2.1-py3-none-any.whl.zip --markdown 20230628/h/halring/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-28 10:38:56] INFO root fetch - processPackages [paneltime]: Downloading https://files.pythonhosted.org/packages/de/a8/dbbf56dea3d193b12b6786a57098c57f20651d9e1469533589ac80355236/paneltime-1.2.9.tar.gz
+[2023-06-28 10:38:56] INFO root fetch - processPackages [ubiquity-student]: executing diffoscope
+[2023-06-28 10:38:56] INFO root fetch - processPackages [ubiquity-student]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubiquity-student-1.0.1.tar.gz tmp/ubiquity-student-1.1.0.tar.gz --markdown 20230628/u/ubiquity-student/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-28 10:38:56] INFO root fetch - processPackages [visiongraph]: executing diffoscope
+[2023-06-28 10:38:56] INFO root fetch - processPackages [visiongraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visiongraph-0.1.47.3-py3-none-any.whl.zip tmp/visiongraph-0.1.47.4-py3-none-any.whl.zip --markdown 20230628/v/visiongraph/0.1.47.3-0.1.47.4/diff.md --exclude *.pyd
+[2023-06-28 10:38:56] INFO root fetch - processPackages [connect-eaas-core]: Downloading https://files.pythonhosted.org/packages/b8/0e/223cf7857305fa1f3a5dd5f98ef3ffefc0eabf78b1d8512dc021aac41705/connect-eaas-core-4.1.0.tar.gz
+[2023-06-28 10:38:56] INFO root fetch - processPackages [paneltime]: executing diffoscope
+[2023-06-28 10:38:56] INFO root fetch - processPackages [paneltime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paneltime-1.2.8-py3-none-any.whl.zip tmp/paneltime-1.2.9.tar.gz --markdown 20230628/p/paneltime/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-28 10:38:56] INFO root fetch - processPackages [connect-eaas-core]: executing diffoscope
+[2023-06-28 10:38:56] INFO root fetch - processPackages [connect-eaas-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect-eaas-core-4.0.0.tar.gz tmp/connect-eaas-core-4.1.0.tar.gz --markdown 20230628/c/connect-eaas-core/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-06-28 10:38:56] INFO root fetch - processPackages [longship]: executing diffoscope
+[2023-06-28 10:38:56] INFO root fetch - processPackages [longship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longship-2023.6.27.tar.gz tmp/longship-2023.6.28.tar.gz --markdown 20230628/l/longship/2023.6.27-2023.6.28/diff.md --exclude *.pyd
+[2023-06-28 10:38:58] INFO root fetch - processPackages [onecache]: Remove: archive file [/home/abi/fetcher/tmp/onecache-0.5.0.tar.gz]
+[2023-06-28 10:38:58] INFO root fetch - processPackages [onecache]: Remove: archive file [/home/abi/fetcher/tmp/onecache-0.5.1.tar.gz]
+[2023-06-28 10:38:58] INFO root fetch - main [MainThread]: End processing [onecache]: success
+[2023-06-28 10:38:58] INFO root fetch - processPackages [codestamper]: Remove: archive file [/home/abi/fetcher/tmp/codestamper-0.3.1.tar.gz]
+[2023-06-28 10:38:58] INFO root fetch - processPackages [codestamper]: Remove: archive file [/home/abi/fetcher/tmp/codestamper-0.3.2.tar.gz]
+[2023-06-28 10:38:58] INFO root fetch - main [MainThread]: End processing [codestamper]: success
+[2023-06-28 10:38:58] INFO root fetch - processPackages [paneltime]: Remove: archive file [/home/abi/fetcher/tmp/paneltime-1.2.8-py3-none-any.whl.zip]
+[2023-06-28 10:38:58] INFO root fetch - processPackages [paneltime]: Remove: archive file [/home/abi/fetcher/tmp/paneltime-1.2.9.tar.gz]
+[2023-06-28 10:38:58] INFO root fetch - main [MainThread]: End processing [paneltime]: success
+[2023-06-28 10:38:58] INFO root fetch - processPackages [connect-eaas-core]: Remove: archive file [/home/abi/fetcher/tmp/connect-eaas-core-4.0.0.tar.gz]
+[2023-06-28 10:38:58] INFO root fetch - processPackages [connect-eaas-core]: Remove: archive file [/home/abi/fetcher/tmp/connect-eaas-core-4.1.0.tar.gz]
+[2023-06-28 10:38:58] INFO root fetch - main [MainThread]: End processing [connect-eaas-core]: success
+[2023-06-28 10:38:58] INFO root fetch - processPackages [halring]: Remove: archive file [/home/abi/fetcher/tmp/halring-2.2.0-py3-none-any.whl.zip]
+[2023-06-28 10:38:58] INFO root fetch - processPackages [halring]: Remove: archive file [/home/abi/fetcher/tmp/halring-2.2.1-py3-none-any.whl.zip]
+[2023-06-28 10:38:58] INFO root fetch - main [MainThread]: End processing [halring]: success
+[2023-06-28 10:38:59] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-06-28 10:38:59] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-06-28 10:38:59] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-06-28 10:38:59] INFO root fetch - processPackages [longship]: Remove: archive file [/home/abi/fetcher/tmp/longship-2023.6.27.tar.gz]
+[2023-06-28 10:38:59] INFO root fetch - processPackages [longship]: Remove: archive file [/home/abi/fetcher/tmp/longship-2023.6.28.tar.gz]
+[2023-06-28 10:38:59] INFO root fetch - main [MainThread]: End processing [longship]: success
+[2023-06-28 10:39:00] INFO root fetch - processPackages [visiongraph]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph-0.1.47.3-py3-none-any.whl.zip]
+[2023-06-28 10:39:00] INFO root fetch - processPackages [visiongraph]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph-0.1.47.4-py3-none-any.whl.zip]
+[2023-06-28 10:39:00] INFO root fetch - main [MainThread]: End processing [visiongraph]: success
+[2023-06-28 10:39:00] INFO root fetch - processPackages [ubiquity-student]: Remove: archive file [/home/abi/fetcher/tmp/ubiquity-student-1.0.1.tar.gz]
+[2023-06-28 10:39:00] INFO root fetch - processPackages [ubiquity-student]: Remove: archive file [/home/abi/fetcher/tmp/ubiquity-student-1.1.0.tar.gz]
+[2023-06-28 10:39:00] INFO root fetch - main [MainThread]: End processing [ubiquity-student]: success
+[2023-06-28 10:39:00] INFO root fetch - main [MainThread]: Store serial: [18676401]
