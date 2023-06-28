@@ -14555,3 +14555,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 06:16:51] INFO root fetch - processPackages [omekac-iiif-tools]: Remove: archive file [/home/abi/fetcher/tmp/omekac_iiif_tools-0.0.2.tar.gz]
 [2023-06-28 06:16:51] INFO root fetch - main [MainThread]: End processing [omekac-iiif-tools]: success
 [2023-06-28 06:16:51] INFO root fetch - main [MainThread]: Store serial: [18674439]
+[2023-06-28 06:21:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18674439]
+[2023-06-28 06:22:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-28 06:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: performancetest
+[2023-06-28 06:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-files-merger
+[2023-06-28 06:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: samshee
+[2023-06-28 06:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BlitzChain
+[2023-06-28 06:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ocr-iiif-tools
+[2023-06-28 06:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-files-merger
+[2023-06-28 06:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mage-ai
+[2023-06-28 06:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: osmnx
+[2023-06-28 06:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openai-function-calling
+[2023-06-28 06:22:00] WARNING root fetch - processPackages [python-files-merger]: Skipping, unable to determine old version
+[2023-06-28 06:22:00] INFO root fetch - main [MainThread]: End processing [python-files-merger] error
+[2023-06-28 06:22:00] INFO root fetch - processPackages [BlitzChain]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-28 06:22:00] WARNING root fetch - processPackages [python-files-merger]: Skipping, unable to determine old version
+[2023-06-28 06:22:00] INFO root fetch - main [MainThread]: End processing [python-files-merger] error
+[2023-06-28 06:22:00] INFO root fetch - processPackages [mage-ai]: New version: [0.8.99] Old Version: [0.8.98]
+[2023-06-28 06:22:00] WARNING root fetch - processPackages [performancetest]: Skipping, unable to determine old version
+[2023-06-28 06:22:00] INFO root fetch - main [MainThread]: End processing [performancetest] error
+[2023-06-28 06:22:00] INFO root fetch - processPackages [openai-function-calling]: New version: [1.0.0] Old Version: [0.6.0]
+[2023-06-28 06:22:00] INFO root fetch - processPackages [ocr-iiif-tools]: New version: [0.0.8] Old Version: [0.0.7b0]
+[2023-06-28 06:22:00] INFO root fetch - processPackages [osmnx]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-28 06:22:00] INFO root fetch - processPackages [samshee]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-06-28 06:22:00] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/82/65/8d46583e8c9dd8da500152a374bb660d23596463bf26a1a566a8206b85de/BlitzChain-0.2.1.tar.gz
+[2023-06-28 06:22:00] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/0a/30/b2974b3572c6d5e838d1d5c3ec21228ee5095fcd9c9208385cb759902232/mage-ai-0.8.98.tar.gz
+[2023-06-28 06:22:00] INFO root fetch - processPackages [ocr-iiif-tools]: Downloading https://files.pythonhosted.org/packages/9c/3e/30868edb8e6d9d09c643e63939f96a2440bdb6d1d6a8dfffe94386cd604c/ocr_iiif_tools-0.0.7b0.tar.gz
+[2023-06-28 06:22:00] INFO root fetch - processPackages [openai-function-calling]: Downloading https://files.pythonhosted.org/packages/ea/c8/71db5e6eaf18344433403b19a21a7fb704ee7c1c3254d3ac5f8632fff032/openai_function_calling-0.6.0.tar.gz
+[2023-06-28 06:22:00] INFO root fetch - processPackages [osmnx]: Downloading https://files.pythonhosted.org/packages/2d/db/3b4d34faf0d014bed9aab67a3e633e930ba2ce659c651853e2eb363e2895/osmnx-1.4.0.tar.gz
+[2023-06-28 06:22:00] INFO root fetch - processPackages [samshee]: Downloading https://files.pythonhosted.org/packages/11/b8/3daa09e006a9dc2cc60118b738aa57ad14cb2ce063ffefc770abebd54dd9/samshee-0.1.6.tar.gz
+[2023-06-28 06:22:00] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/08/25/240a16a750f2c558513ea6c7222a24c7e4bf5c1a89f0665f8052a6f23227/BlitzChain-0.2.2.tar.gz
+[2023-06-28 06:22:00] INFO root fetch - processPackages [BlitzChain]: executing diffoscope
+[2023-06-28 06:22:00] INFO root fetch - processPackages [BlitzChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlitzChain-0.2.1.tar.gz tmp/BlitzChain-0.2.2.tar.gz --markdown 20230628/B/BlitzChain/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-28 06:22:00] INFO root fetch - processPackages [openai-function-calling]: Downloading https://files.pythonhosted.org/packages/a6/5f/3373884045c37b7c629d294a6c8515fc2dddfa78195069409ffea1c90d62/openai_function_calling-1.0.0.tar.gz
+[2023-06-28 06:22:00] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/48/3d/275cee98ee6cf65f2e9990c372923001afa95a61cb121a2bf54f23c5b0be/mage-ai-0.8.99.tar.gz
+[2023-06-28 06:22:00] INFO root fetch - processPackages [samshee]: Downloading https://files.pythonhosted.org/packages/11/15/64b4c94e5256ea5420eaf7fdcb8ea6354598a6a530e1c2a532cc6d740163/samshee-0.1.8.tar.gz
+[2023-06-28 06:22:01] INFO root fetch - processPackages [ocr-iiif-tools]: Downloading https://files.pythonhosted.org/packages/d2/69/b8d7e0f99ad3115fa0f50ac5853c4921cf858f8c427fd6e689a23e8b8140/ocr_iiif_tools-0.0.8.tar.gz
+[2023-06-28 06:22:01] INFO root fetch - processPackages [osmnx]: Downloading https://files.pythonhosted.org/packages/8b/39/50e03baea67b9319bafa883820d872ad062140937bb5db61897910fe6ee5/osmnx-1.5.0.tar.gz
+[2023-06-28 06:22:01] INFO root fetch - processPackages [openai-function-calling]: executing diffoscope
+[2023-06-28 06:22:01] INFO root fetch - processPackages [openai-function-calling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function_calling-0.6.0.tar.gz tmp/openai_function_calling-1.0.0.tar.gz --markdown 20230628/o/openai-function-calling/0.6.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-28 06:22:01] INFO root fetch - processPackages [samshee]: executing diffoscope
+[2023-06-28 06:22:01] INFO root fetch - processPackages [samshee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samshee-0.1.6.tar.gz tmp/samshee-0.1.8.tar.gz --markdown 20230628/s/samshee/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-06-28 06:22:01] INFO root fetch - processPackages [ocr-iiif-tools]: executing diffoscope
+[2023-06-28 06:22:01] INFO root fetch - processPackages [ocr-iiif-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocr_iiif_tools-0.0.7b0.tar.gz tmp/ocr_iiif_tools-0.0.8.tar.gz --markdown 20230628/o/ocr-iiif-tools/0.0.7b0-0.0.8/diff.md --exclude *.pyd
+[2023-06-28 06:22:01] INFO root fetch - processPackages [osmnx]: executing diffoscope
+[2023-06-28 06:22:01] INFO root fetch - processPackages [osmnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osmnx-1.4.0.tar.gz tmp/osmnx-1.5.0.tar.gz --markdown 20230628/o/osmnx/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-28 06:22:01] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-06-28 06:22:01] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.98.tar.gz tmp/mage-ai-0.8.99.tar.gz --markdown 20230628/m/mage-ai/0.8.98-0.8.99/diff.md --exclude *.pyd
+[2023-06-28 06:22:01] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.2.1.tar.gz]
+[2023-06-28 06:22:01] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.2.2.tar.gz]
+[2023-06-28 06:22:01] INFO root fetch - main [MainThread]: End processing [BlitzChain]: success
+[2023-06-28 06:22:02] INFO root fetch - processPackages [openai-function-calling]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_calling-0.6.0.tar.gz]
+[2023-06-28 06:22:02] INFO root fetch - processPackages [openai-function-calling]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_calling-1.0.0.tar.gz]
+[2023-06-28 06:22:02] INFO root fetch - main [MainThread]: End processing [openai-function-calling]: success
+[2023-06-28 06:22:02] INFO root fetch - processPackages [ocr-iiif-tools]: Remove: archive file [/home/abi/fetcher/tmp/ocr_iiif_tools-0.0.7b0.tar.gz]
+[2023-06-28 06:22:02] INFO root fetch - processPackages [ocr-iiif-tools]: Remove: archive file [/home/abi/fetcher/tmp/ocr_iiif_tools-0.0.8.tar.gz]
+[2023-06-28 06:22:02] INFO root fetch - main [MainThread]: End processing [ocr-iiif-tools]: success
+[2023-06-28 06:22:02] INFO root fetch - processPackages [samshee]: Remove: archive file [/home/abi/fetcher/tmp/samshee-0.1.6.tar.gz]
+[2023-06-28 06:22:02] INFO root fetch - processPackages [samshee]: Remove: archive file [/home/abi/fetcher/tmp/samshee-0.1.8.tar.gz]
+[2023-06-28 06:22:02] INFO root fetch - main [MainThread]: End processing [samshee]: success
+[2023-06-28 06:22:02] INFO root fetch - processPackages [osmnx]: Remove: archive file [/home/abi/fetcher/tmp/osmnx-1.4.0.tar.gz]
+[2023-06-28 06:22:02] INFO root fetch - processPackages [osmnx]: Remove: archive file [/home/abi/fetcher/tmp/osmnx-1.5.0.tar.gz]
+[2023-06-28 06:22:02] INFO root fetch - main [MainThread]: End processing [osmnx]: success
+[2023-06-28 06:22:28] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.98.tar.gz]
+[2023-06-28 06:22:28] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.99.tar.gz]
+[2023-06-28 06:22:28] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-06-28 06:22:28] INFO root fetch - main [MainThread]: Store serial: [18674469]
