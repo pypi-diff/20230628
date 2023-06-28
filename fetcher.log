@@ -18141,3 +18141,98 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-28 10:01:43] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.9.tar.gz]
 [2023-06-28 10:01:43] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-06-28 10:01:43] INFO root fetch - main [MainThread]: Store serial: [18675944]
+[2023-06-28 10:06:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18675944]
+[2023-06-28 10:06:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-28 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sc-cc-ng-sdk-python
+[2023-06-28 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mypermobil
+[2023-06-28 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: penquins
+[2023-06-28 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: embykeeper
+[2023-06-28 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlalchemy-pagination-fastapi
+[2023-06-28 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snk
+[2023-06-28 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: brioche-enrichment
+[2023-06-28 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf2-utilities
+[2023-06-28 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langdash
+[2023-06-28 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simsopt
+[2023-06-28 10:06:52] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-28 10:06:52] INFO root fetch - processPackages [penquins]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-06-28 10:06:52] WARNING root fetch - processPackages [mypermobil]: Skipping, unable to determine old version
+[2023-06-28 10:06:52] INFO root fetch - processPackages [mypermobil]: Start processing: few-shot-priming
+[2023-06-28 10:06:53] INFO root fetch - main [MainThread]: End processing [mypermobil] error
+[2023-06-28 10:06:53] INFO root fetch - processPackages [langdash]: New version: [1.7.0b0] Old Version: [1.6.0b0]
+[2023-06-28 10:06:53] INFO root fetch - processPackages [embykeeper]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-06-28 10:06:53] INFO root fetch - processPackages [snk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-28 10:06:53] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-28 10:06:53] WARNING root fetch - processPackages [brioche-enrichment]: Skipping, unable to determine old version
+[2023-06-28 10:06:53] INFO root fetch - processPackages [brioche-enrichment]: Start processing: nood
+[2023-06-28 10:06:53] INFO root fetch - main [MainThread]: End processing [brioche-enrichment] error
+[2023-06-28 10:06:53] INFO root fetch - processPackages [tf2-utilities]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-28 10:06:53] INFO root fetch - processPackages [simsopt]: New version: [0.9.4] Old Version: [0.9.2]
+[2023-06-28 10:06:53] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-28 10:06:53] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/d2/07/2d087873b8f1f6fac867ff27e72d54d267ac3531f9d5385ec9f5ec9a04bb/snk-0.9.0.tar.gz
+[2023-06-28 10:06:53] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/00/02/2c2bfd7c1e67b4c78767d634bb83af22792080cce760fb2036acfe697a96/langdash-1.6.0b0.tar.gz
+[2023-06-28 10:06:53] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-28 10:06:53] INFO root fetch - processPackages [nood]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-28 10:06:53] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Downloading https://files.pythonhosted.org/packages/d1/79/51ecb8fb91b428b83387b98dec0612b49af617f2ba31cc3e195cb79dfed6/sc_cc_ng_sdk_python-0.1.3.tar.gz
+[2023-06-28 10:06:53] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Downloading https://files.pythonhosted.org/packages/ee/8e/351ae2b9f8aabd1c585062c9ce0c4bed2a41e8171189fc73a9e0dca10025/sqlalchemy-pagination-fastapi-0.0.1.tar.gz
+[2023-06-28 10:06:53] INFO root fetch - processPackages [penquins]: Downloading https://files.pythonhosted.org/packages/6b/41/723e59dbb9691af652fac2240434002c97936a63b4532c8b42f3f80f02d6/penquins-2.3.1.tar.gz
+[2023-06-28 10:06:53] INFO root fetch - processPackages [tf2-utilities]: Downloading https://files.pythonhosted.org/packages/15/0f/99cb15428905081200c3d1d2dd2f4820253cb3f4a34086822b96efdca27b/tf2-utilities-2.1.0.tar.gz
+[2023-06-28 10:06:53] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/77/16/0b70ba27d9fe6f7e0cf579d7ac1ba367505b2e127dc5669f17bc633e4ca8/embykeeper-2.2.5.tar.gz
+[2023-06-28 10:06:53] INFO root fetch - processPackages [simsopt]: Downloading https://files.pythonhosted.org/packages/95/7b/6c611a204e5830f53556a4d39344658f3f9b1cad1d01cc1af66111cb3f7f/simsopt-0.9.2.tar.gz
+[2023-06-28 10:06:53] WARNING root fetch - processPackages [simsopt]: Skipping package: exceeds size limit 29878827>=10485760
+[2023-06-28 10:06:53] INFO root fetch - main [MainThread]: End processing [simsopt] error
+[2023-06-28 10:06:53] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/4c/c0/fba23d0e30acbd07aedfa09ed1e467c2761f1ea013d9208a08ca53de5483/snk-0.9.1.tar.gz
+[2023-06-28 10:06:53] INFO root fetch - processPackages [nood]: Downloading https://files.pythonhosted.org/packages/4d/81/a69b379e27d831139857ce003539d117bc4179ad7618686c54309255d9df/nood-0.1.8.tar.gz
+[2023-06-28 10:06:53] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/d2/d6/fa851390484412b1263adacbee1e24ddf1e21d6193dea02fa648a5562fd3/langdash-1.7.0b0.tar.gz
+[2023-06-28 10:06:53] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-28 10:06:53] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Downloading https://files.pythonhosted.org/packages/86/a6/85ab2c271977641bd029bb42fd68c2b068ba4bd2b00f60dfccdf7727958f/sc_cc_ng_sdk_python-0.1.4.tar.gz
+[2023-06-28 10:06:53] INFO root fetch - processPackages [snk]: executing diffoscope
+[2023-06-28 10:06:53] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.9.0.tar.gz tmp/snk-0.9.1.tar.gz --markdown 20230628/s/snk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-28 10:06:53] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Downloading https://files.pythonhosted.org/packages/14/3f/06986af0f9d267d425fbbe0cd218ff52e91a2bcfeb04547f738429e0907b/sqlalchemy-pagination-fastapi-0.0.2.tar.gz
+[2023-06-28 10:06:53] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-06-28 10:06:53] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.6.0b0.tar.gz tmp/langdash-1.7.0b0.tar.gz --markdown 20230628/l/langdash/1.6.0b0-1.7.0b0/diff.md --exclude *.pyd
+[2023-06-28 10:06:53] INFO root fetch - processPackages [penquins]: Downloading https://files.pythonhosted.org/packages/fe/db/019345fd336ea7fbfef38e548002761192f708175902022dfdb163b84075/penquins-2.3.2.tar.gz
+[2023-06-28 10:06:53] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-28 10:06:53] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230628/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-28 10:06:53] INFO root fetch - processPackages [tf2-utilities]: Downloading https://files.pythonhosted.org/packages/13/a7/13fd0b51474c8bcaa9449c633e9c5388dc5530f74994d973700ff722a295/tf2-utilities-2.1.1.tar.gz
+[2023-06-28 10:06:53] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/9d/cb/e733ab7f6cf107d9b58a781821991b544d213a4e2892b50d9c16eb635fad/embykeeper-2.2.6.tar.gz
+[2023-06-28 10:06:53] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: executing diffoscope
+[2023-06-28 10:06:53] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_cc_ng_sdk_python-0.1.3.tar.gz tmp/sc_cc_ng_sdk_python-0.1.4.tar.gz --markdown 20230628/s/sc-cc-ng-sdk-python/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-28 10:06:53] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: executing diffoscope
+[2023-06-28 10:06:53] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-pagination-fastapi-0.0.1.tar.gz tmp/sqlalchemy-pagination-fastapi-0.0.2.tar.gz --markdown 20230628/s/sqlalchemy-pagination-fastapi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-28 10:06:53] INFO root fetch - processPackages [penquins]: executing diffoscope
+[2023-06-28 10:06:53] INFO root fetch - processPackages [penquins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/penquins-2.3.1.tar.gz tmp/penquins-2.3.2.tar.gz --markdown 20230628/p/penquins/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-06-28 10:06:53] INFO root fetch - processPackages [tf2-utilities]: executing diffoscope
+[2023-06-28 10:06:53] INFO root fetch - processPackages [tf2-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf2-utilities-2.1.0.tar.gz tmp/tf2-utilities-2.1.1.tar.gz --markdown 20230628/t/tf2-utilities/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-28 10:06:53] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2023-06-28 10:06:53] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-2.2.5.tar.gz tmp/embykeeper-2.2.6.tar.gz --markdown 20230628/e/embykeeper/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-06-28 10:06:53] INFO root fetch - processPackages [nood]: Downloading https://files.pythonhosted.org/packages/e3/82/084a62cb337af3ea404837ca1ff7e898de121878b9ae2a94fc26301bd36d/nood-0.1.9.tar.gz
+[2023-06-28 10:06:54] INFO root fetch - processPackages [nood]: executing diffoscope
+[2023-06-28 10:06:54] INFO root fetch - processPackages [nood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230628:/home/abi/fetcher/20230628:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nood-0.1.8.tar.gz tmp/nood-0.1.9.tar.gz --markdown 20230628/n/nood/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-28 10:06:55] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/sc_cc_ng_sdk_python-0.1.3.tar.gz]
+[2023-06-28 10:06:55] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/sc_cc_ng_sdk_python-0.1.4.tar.gz]
+[2023-06-28 10:06:55] INFO root fetch - main [MainThread]: End processing [sc-cc-ng-sdk-python]: success
+[2023-06-28 10:06:55] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-28 10:06:55] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-28 10:06:55] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-28 10:06:55] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-pagination-fastapi-0.0.1.tar.gz]
+[2023-06-28 10:06:55] INFO root fetch - processPackages [sqlalchemy-pagination-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-pagination-fastapi-0.0.2.tar.gz]
+[2023-06-28 10:06:55] INFO root fetch - main [MainThread]: End processing [sqlalchemy-pagination-fastapi]: success
+[2023-06-28 10:06:55] INFO root fetch - processPackages [nood]: Remove: archive file [/home/abi/fetcher/tmp/nood-0.1.8.tar.gz]
+[2023-06-28 10:06:55] INFO root fetch - processPackages [nood]: Remove: archive file [/home/abi/fetcher/tmp/nood-0.1.9.tar.gz]
+[2023-06-28 10:06:55] INFO root fetch - main [MainThread]: End processing [nood]: success
+[2023-06-28 10:06:55] INFO root fetch - processPackages [penquins]: Remove: archive file [/home/abi/fetcher/tmp/penquins-2.3.1.tar.gz]
+[2023-06-28 10:06:55] INFO root fetch - processPackages [penquins]: Remove: archive file [/home/abi/fetcher/tmp/penquins-2.3.2.tar.gz]
+[2023-06-28 10:06:55] INFO root fetch - main [MainThread]: End processing [penquins]: success
+[2023-06-28 10:06:55] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.6.0b0.tar.gz]
+[2023-06-28 10:06:55] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.7.0b0.tar.gz]
+[2023-06-28 10:06:55] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-06-28 10:06:55] INFO root fetch - processPackages [tf2-utilities]: Remove: archive file [/home/abi/fetcher/tmp/tf2-utilities-2.1.0.tar.gz]
+[2023-06-28 10:06:55] INFO root fetch - processPackages [tf2-utilities]: Remove: archive file [/home/abi/fetcher/tmp/tf2-utilities-2.1.1.tar.gz]
+[2023-06-28 10:06:55] INFO root fetch - main [MainThread]: End processing [tf2-utilities]: success
+[2023-06-28 10:06:55] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.2.5.tar.gz]
+[2023-06-28 10:06:55] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.2.6.tar.gz]
+[2023-06-28 10:06:55] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2023-06-28 10:06:55] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.0.tar.gz]
+[2023-06-28 10:06:55] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.1.tar.gz]
+[2023-06-28 10:06:55] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2023-06-28 10:06:55] INFO root fetch - main [MainThread]: Store serial: [18675997]
